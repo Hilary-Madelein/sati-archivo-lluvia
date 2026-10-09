@@ -13,6 +13,35 @@ Fuente: GeoServer del INAMHI alojado por GEOGLOWS (`https://services.geoglows.or
 el mismo que usa SATI.EC. Todo en **GeoTIFF comprimido, en mm**, recortado al
 Ecuador continental; se abre directo en QGIS, Python (rasterio) o R.
 
+## Inundaciones de la SNGR cruzadas con lluvia y caudal
+
+Cada día, `cruzar_eventos.py` toma las **inundaciones** que registra la SNGR y, para
+el punto y el día de cada una, guarda:
+
+| Dato | Fuente | Desde |
+|---|---|---|
+| El evento: fecha, hora, provincia, cantón, parroquia, sector, coordenadas, nivel, estado, descripción y afectaciones | SNGR (misma identificación que SATI.EC) | Lo que entregue la API (hay datos desde 2018) |
+| Lluvia observada el día del evento y los 2 anteriores, y el acumulado de 72 h (en el punto y la máxima en ~5 km) | Satélite PERSIANN (INAMHI) | ene 2025 |
+| Lluvia pronosticada para ese día por las corridas del mismo día, de 1 y de 2 días antes | WRF del INAMHI | nov 2025 |
+| Río más cercano: caudal simulado ese día, periodos de retorno de 2 a 100 años y cuál superó | GEOGLOWS (simulación histórica) | 1980 (llega hasta ~1 mes atrás) |
+| Lo que se pronosticaba para el caudal de ese día (corridas del mismo día, de 1 y 2 días antes) | GEOGLOWS | últimos ~2 meses |
+
+Se guarda en `eventos/`:
+
+- **`eventos/inundaciones.csv`**: una fila por evento, para abrir en Excel.
+- **`eventos/inundaciones/AAAA/MM/<id>.json`**: el detalle completo de cada evento.
+
+Si una fuente aún no tiene datos para un evento reciente (la simulación del río va
+~1 mes atrasada), queda en la columna `pendiente` y se completa sola en un archivado
+posterior (se reintenta cada 3 días). Los datos de la SNGR de los últimos 30 días se
+actualizan en cada ejecución (estado, afectados…).
+
+**Puesta en marcha:** en *Settings → Secrets and variables → Actions → Secrets*, crea
+`SNGR_USUARIO` y `SNGR_CLAVE` con el usuario y la clave de la API de la SNGR. Luego
+*Actions → "Cruzar inundaciones de la SNGR" → Run workflow* con *desde* = `2018-01-01`
+para el histórico. Procesa hasta 1500 eventos por ejecución (unas 2 h); si quedan
+más, vuelve a ejecutarlo o deja que lo complete la ejecución diaria.
+
 ## Dónde están los archivos
 
 - **Releases** del repositorio, una por mes y producto: `wrf-2026-10`, `persiann-2026-10`…

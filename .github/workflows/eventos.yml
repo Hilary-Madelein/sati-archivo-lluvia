@@ -1,0 +1,65 @@
+# Cruza cada inundación de la SNGR con la lluvia (observada y pronosticada) y el
+# caudal de ese lugar y ese día, y guarda el resultado en eventos/. Ver README.md.
+name: Cruzar inundaciones de la SNGR
+
+on:
+  schedule:
+    # 09:00 de Ecuador, cuando ya se publicó la lluvia del día anterior.
+    - cron: "0 14 * * *"
+  # Botón "Run workflow": también sirve para bajar el histórico (con "desde").
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: "Desde (AAAA-MM-DD). Vacío = últimos 30 días"
+        required: false
+      hasta:
+        description: "Hasta (AAAA-MM-DD). Vacío = hoy"
+        required: false
+      max_eventos:
+        description: "Tope de eventos a procesar en esta ejecución"
+        required: false
+        default: "1500"
+
+permissions:
+  contents: write
+
+# Comparte el grupo con el archivado de lluvia: nunca dos commits a la vez.
+concurrency:
+  group: archivar
+  cancel-in-progress: false
+
+jobs:
+  cruzar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cruzar eventos con lluvia y caudal
+        env:
+          SNGR_USUARIO: ${{ secrets.SNGR_USUARIO }}
+          SNGR_CLAVE: ${{ secrets.SNGR_CLAVE }}
+          DESDE: ${{ inputs.desde }}
+          HASTA: ${{ inputs.hasta }}
+          MAX: ${{ inputs.max_eventos || '1500' }}
+        run: |
+          args=(--max-eventos "$MAX")
+          [ -n "$DESDE" ] && args+=(--desde "$DESDE")
+          [ -n "$HASTA" ] && args+=(--hasta "$HASTA")
+          python cruzar_eventos.py "${args[@]}"
+
+      # Aunque se corte a medias, se guarda lo avanzado (la siguiente ejecución sigue).
+      - name: Guardar los eventos
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add eventos
+          git diff --cached --quiet && exit 0
+          git commit -m "Eventos: cruce del $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
