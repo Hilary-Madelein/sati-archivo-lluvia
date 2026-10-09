@@ -1,0 +1,64 @@
+# Guarda cada día la lluvia del INAMHI (pronóstico WRF y satélite PERSIANN) en
+# las Releases de este repositorio. Ver README.md.
+name: Archivar lluvia del INAMHI
+
+on:
+  schedule:
+    # 08:15 y 18:15 de Ecuador: la segunda vuelta recoge corridas publicadas tarde.
+    - cron: "15 13 * * *"
+    - cron: "15 23 * * *"
+  # Botón "Run workflow": también sirve para bajar el histórico (con "desde").
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: "Desde (AAAA-MM-DD). Vacío = últimos 7 días"
+        required: false
+      hasta:
+        description: "Hasta (AAAA-MM-DD). Vacío = hoy"
+        required: false
+      max_archivos:
+        description: "Tope de archivos nuevos en esta ejecución"
+        required: false
+        default: "1000"
+
+permissions:
+  contents: write
+
+# Nunca dos ejecuciones a la vez (p. ej. la diaria mientras se baja el histórico).
+concurrency:
+  group: archivar
+  cancel-in-progress: false
+
+jobs:
+  archivar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar y publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DESDE: ${{ inputs.desde }}
+          HASTA: ${{ inputs.hasta }}
+          MAX: ${{ inputs.max_archivos || '1000' }}
+        run: |
+          args=(--max-archivos "$MAX")
+          [ -n "$DESDE" ] && args+=(--desde "$DESDE")
+          [ -n "$HASTA" ] && args+=(--hasta "$HASTA")
+          python archivar.py "${args[@]}"
+
+      # Aunque la descarga falle a medias, se guarda lo avanzado. Además, el commit
+      # mantiene activo el repositorio: GitHub pausa los workflows programados
+      # de repositorios sin actividad en 60 días.
+      - name: Guardar el catálogo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogo.json
+          git diff --cached --quiet || (git commit -m "Catálogo: archivado del $(date -u +%F)" && git push)
