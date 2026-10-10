@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "3c56c361ae721d696cde45e74fc778dc",
+    "tipo": "Inundación",
+    "fecha": "2026-10-10",
+    "hora": "02:30",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "RCTO. LA ROSITA, RCTO. COLOMBIA DEL ATIO, RÍO LA MARCELINA",
+    "latitud": -1.949978,
+    "longitud": -79.3102998,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 10/10/2026, se reportó el desbordamiento del río La Marcelina , mismo que deja afectación en viviendas ,parte de la vía de segundo orden y cultivos de la zona. Tenienta Política Febres Cordero se encuentra en el sitio realizando barrido en la zona el mismo que rectificando el desbordamiento del río La Marcelina .SNGR realiza monitoreo del evento.Actualmente los sectores se encuentran incomunicado ya que la vía de segundo orden se encuentra cerrada y no hay vía alterna . El nivel del río La Marcelina se encuentra desbordado, las familias se encuentran en sus viviendas con presencia leve de agua y los cultivos bajo agua.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 58.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 70.0,
+      "max_5km_mm": 101.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 38.4,
+        "max_5km_mm": 60.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 53.4,
+        "max_5km_mm": 63.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 8.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061858,
+    "periodos_retorno_m3s": {
+      "2": 313.1,
+      "5": 399.7,
+      "10": 457.0,
+      "25": 529.5,
+      "50": 583.2,
+      "100": 636.5
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261010",
+        "max_promedio_ensamble_m3s": 78.1,
+        "max_ensamble_m3s": 235.4,
+        "max_alta_resolucion_m3s": 47.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 104.6,
+        "max_ensamble_m3s": 371.7,
+        "max_alta_resolucion_m3s": 111.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 91.4,
+        "max_ensamble_m3s": 351.8,
+        "max_alta_resolucion_m3s": 149.4
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T18:22:35.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

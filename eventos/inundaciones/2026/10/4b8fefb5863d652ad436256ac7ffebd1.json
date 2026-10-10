@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "4b8fefb5863d652ad436256ac7ffebd1",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "20:15",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "EL ZAPOTE",
+    "latitud": -3.36381,
+    "longitud": -79.881859,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en horas de la tarde y noche del 09/10/2026, se produjo el incremento del caudal y posterior desbordamiento del río Buenavista, provocando el anegamiento de la vía, la cual al momento se encuentra habilitada. UGR GAD Parroquial constató que el agua se ha evacuado en su totalidad y que el caudal del río Buenavista ha retornado a su normal. GR GAD Pasaje, la Jefatura Política y el Cuerpo de Bomberos, realizaron inspección en el sitio con resguardo de la Policía Nacional para evaluar posibles afectaciones a la población.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670031188,
+    "periodos_retorno_m3s": {
+      "2": 67.4,
+      "5": 112.8,
+      "10": 142.8,
+      "25": 180.7,
+      "50": 208.8,
+      "100": 236.8
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 6.2,
+        "max_ensamble_m3s": 42.6,
+        "max_alta_resolucion_m3s": 5.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 10.9,
+        "max_ensamble_m3s": 53.7,
+        "max_alta_resolucion_m3s": 3.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 6.7,
+        "max_ensamble_m3s": 37.3,
+        "max_alta_resolucion_m3s": 34.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T18:25:01.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

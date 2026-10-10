@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "343d242128bfba414043844d1af4a25e",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "23:50",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Victoria",
+    "sector": "LA VICTORIA",
+    "latitud": -3.36995,
+    "longitud": -79.85825,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la tarde y noche del 09/10/2026, se registró el aumento y desbordamiento del caudal del Rio Buenavista afectando parcialmente la vía de segundo orden debido a la acumulación de sedimentos y palizada UGR GAD Cantonal constató el caudal del río ha retornado a su normalidad.\r\nCB del cantón realizó limpieza de la vía la cual quedado habilitada en su totalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670027095,
+    "periodos_retorno_m3s": {
+      "2": 51.0,
+      "5": 81.5,
+      "10": 101.8,
+      "25": 127.3,
+      "50": 146.3,
+      "100": 165.1
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 12.9,
+        "max_ensamble_m3s": 104.1,
+        "max_alta_resolucion_m3s": 7.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 24.6,
+        "max_ensamble_m3s": 111.5,
+        "max_alta_resolucion_m3s": 20.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 12.1,
+        "max_ensamble_m3s": 76.5,
+        "max_alta_resolucion_m3s": 55.2
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T18:25:31.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

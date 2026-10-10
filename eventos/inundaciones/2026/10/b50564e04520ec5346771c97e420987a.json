@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "b50564e04520ec5346771c97e420987a",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "20:15",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Loma De Franco",
+    "sector": "SAN LIZARDO",
+    "latitud": -3.3425,
+    "longitud": -79.8181,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la tarde y noche del 09/10/2026, se registró el aumento y desbordamiento del caudal del canal El Burro. Al momento se registra lluvia débil y calles anegadas",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 2.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029140,
+    "periodos_retorno_m3s": {
+      "2": 46.1,
+      "5": 75.9,
+      "10": 95.6,
+      "25": 120.6,
+      "50": 139.1,
+      "100": 157.5
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 7.8,
+        "max_ensamble_m3s": 74.1,
+        "max_alta_resolucion_m3s": 11.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 27.4,
+        "max_ensamble_m3s": 162.6,
+        "max_alta_resolucion_m3s": 8.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 10.6,
+        "max_ensamble_m3s": 61.4,
+        "max_alta_resolucion_m3s": 30.9
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T18:25:16.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

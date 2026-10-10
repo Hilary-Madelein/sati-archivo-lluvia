@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "09befd60a725a1e5d361b5482a286ac3",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "19:30",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Pasaje",
+    "sector": "VARIOS SECTORES (AV. GALO GARCIA, AV. OCHOA LEÓN, INDEPENDENCIA)",
+    "latitud": -3.3256,
+    "longitud": -79.8069,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la tarde y noche del 09/10/2026, se reportó acumulación de agua y calles anegadas en distintos puntos del casco urbano. AGUAPAS, tras los trabajos de limpieza de alcantarillas, el agua acumulada en las distintas calles ha evacuado en su totalidad. UGR realizo recorrido y supervisión de los trabajos realizados. SNGR, coordinó atención y realizó monitoreo a las acciones de respuesta.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670011731,
+    "periodos_retorno_m3s": {
+      "2": 15.0,
+      "5": 24.9,
+      "10": 31.5,
+      "25": 39.9,
+      "50": 46.0,
+      "100": 52.2
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 0.2,
+        "max_ensamble_m3s": 1.8,
+        "max_alta_resolucion_m3s": 1.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 2.3,
+        "max_ensamble_m3s": 20.8,
+        "max_alta_resolucion_m3s": 0.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 0.5,
+        "max_ensamble_m3s": 4.2,
+        "max_alta_resolucion_m3s": 0.9
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T18:24:27.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}
