@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3cec0e75f25bd0d319214e95c5d7ed82",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "07:00",
+    "provincia": "Guayas",
+    "canton": "Naranjal",
+    "parroquia": "Jesus Maria",
+    "sector": "Escuela de Educación Básica Enrique Gil Gilbert",
+    "latitud": -2.682093942925324,
+    "longitud": -79.61852973382209,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 70.0,
+      "max_5km_mm": 88.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 4.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:38.000Z",
+  "pendiente": []
+}

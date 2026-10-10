@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f0901627e422f44358a7cbc774e6b125",
+    "tipo": "Inundación",
+    "fecha": "2026-01-26",
+    "hora": "20:03",
+    "provincia": "Tungurahua",
+    "canton": "Ambato",
+    "parroquia": "Atahualpa (chisalata)",
+    "sector": "Más Arriba de la Escuela de Formación de Soldados (ESFORSE)",
+    "latitud": -1.20317,
+    "longitud": -78.595809,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Como consecuencia de las lluvias registradas la noche del 26/01/2026, se generó la acumulación de agua y lodo en el exterior de una vivienda, lo que provocó su posterior ingreso al interior del inmueble, ocasionando afectación a enseres domésticos y mobiliario. SNGR monitoreó el evento y coordinó con la UGR Cantonal, quienes realizaron el levantamiento de informe EVIN y realizaron la entrega de asistencia humanitaria. La familia afectada se encuentra en su vivienda luego de realizar la limpieza de la misma.\r\nComunidad del sector realizó la limpieza del pasaje donde se encontraban acumulados escombros.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 34.0,
+      "max_5km_mm": 38.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-24T07:00:00.000Z",
+        "punto_mm": 20.6,
+        "max_5km_mm": 24.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620541113,
+    "periodos_retorno_m3s": {
+      "2": 3.7,
+      "5": 4.9,
+      "10": 5.7,
+      "25": 6.6,
+      "50": 7.3,
+      "100": 8.0
+    },
+    "caudal_simulado_dia_m3s": 0.9,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:40.000Z",
+  "pendiente": []
+}

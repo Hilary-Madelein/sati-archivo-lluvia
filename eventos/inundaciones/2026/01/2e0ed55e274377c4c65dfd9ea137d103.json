@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2e0ed55e274377c4c65dfd9ea137d103",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "01:00",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Yantzaza",
+    "parroquia": "Yantzaza (yanzatza)",
+    "sector": "Yantzaza",
+    "latitud": -3.8228668878889125,
+    "longitud": -78.75657722778075,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "En horas de la madrugada del 29/01/2026 se registró una fuerte lluvia en la ciudad de Yantzaza, afectando a la Unidad Educativa Especializada \"Matilde Guzmán\" por ingreso de agua en la infraestructura escolar. La unidad educativa continúa con el servicio educativo",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 34.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 50.0,
+      "max_5km_mm": 75.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 37.1,
+        "max_5km_mm": 44.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 12.4,
+        "max_5km_mm": 21.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 10.1,
+        "max_5km_mm": 12.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620980200,
+    "periodos_retorno_m3s": {
+      "2": 647.8,
+      "5": 873.4,
+      "10": 1022.7,
+      "25": 1211.3,
+      "50": 1351.3,
+      "100": 1490.2
+    },
+    "caudal_simulado_dia_m3s": 241.89,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:47.000Z",
+  "pendiente": []
+}

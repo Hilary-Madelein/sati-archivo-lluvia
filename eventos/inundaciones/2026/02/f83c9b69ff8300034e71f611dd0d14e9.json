@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f83c9b69ff8300034e71f611dd0d14e9",
+    "tipo": "Inundación",
+    "fecha": "2026-02-02",
+    "hora": "18:06",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Ricaurte",
+    "sector": "4 Esquinas",
+    "latitud": -2.869818,
+    "longitud": -78.966854,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causas de las lluvias presentadas la tarde del 02/02/2026 se produjo el colapso de alcantarillas, producto del mismo se registró el ingreso de agua a cuatro viviendas del sector, las familias permanecen en sus viviendas y realizan la limpieza de las mismas. C.B. Cuenca colaboró en la zona del evento, ETAPA EP colaboró con la limpieza de sumideros. UMEVA de la SNGR realizó monitoreo del evento. A causas de las lluvias presentadas la tarde del 02/02/2026 se produjo el colapso de alcantarillas, producto del mismo se registró el ingreso de agua a cuatro viviendas del sector, las familias permanecen en sus viviendas y realizan la limpieza de las mismas. C.B. Cuenca colaboró en la zona del evento, ETAPA EP colaboró con la limpieza de sumideros. UMEVA de la SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 47.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 16.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 13.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 6.2,
+        "max_5km_mm": 12.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620005938,
+    "periodos_retorno_m3s": {
+      "2": 3.1,
+      "5": 3.9,
+      "10": 4.5,
+      "25": 5.3,
+      "50": 5.8,
+      "100": 6.3
+    },
+    "caudal_simulado_dia_m3s": 1.69,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:59.000Z",
+  "pendiente": []
+}

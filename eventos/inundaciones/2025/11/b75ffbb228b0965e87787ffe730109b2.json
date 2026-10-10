@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "b75ffbb228b0965e87787ffe730109b2",
+    "tipo": "Inundación",
+    "fecha": "2025-11-21",
+    "hora": "15:57",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Tumbaco",
+    "sector": "La Morita",
+    "latitud": -0.218147,
+    "longitud": -78.384934,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las intensas precipitaciones registradas la tarde del 21/11/2025, se produjo la inundación de una vía de segundo orden, generando acumulación significativa de agua sobre la calzada. Como resultado, una buseta escolar quedó atascada en el tramo afectado, sin reportarse personas lesionadas. Luego de la limpieza del sumidero y las labores de succión de agua efectuadas en el punto, la buseta y un vehículo liviano fueron liberados y retirados del lugar . El agua acumulada fue desfogada y la zona quedó en condiciones seguras para la circulación vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 24.0,
+      "max_5km_mm": 31.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670078177,
+    "periodos_retorno_m3s": {
+      "2": 27.2,
+      "5": 38.3,
+      "10": 45.7,
+      "25": 55.1,
+      "50": 62.0,
+      "100": 68.9
+    },
+    "caudal_simulado_dia_m3s": 10.51,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:35.000Z",
+  "pendiente": []
+}

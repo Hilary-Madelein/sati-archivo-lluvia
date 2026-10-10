@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d88028fed1c9ba837e537a454312c591",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "12:20",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Portoviejo",
+    "sector": "Casco Urbano",
+    "latitud": -1.0560676914217295,
+    "longitud": -80.45894535873215,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en horas de la mañana del 04/02/2026, se produjo la acumulación de agua en varios sectores del casco urbano con anegación de las calles. Al momento el agua ya bajó y no se presentaron afectaciones. UGR GAD Cantonal realizaron monitoreo en los sectores afectados\r\nSNGR CZ4 realizó seguimiento al evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 14.0,
+      "max_5km_mm": 16.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 21.1,
+        "max_5km_mm": 21.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 9.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070017,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:08:53.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

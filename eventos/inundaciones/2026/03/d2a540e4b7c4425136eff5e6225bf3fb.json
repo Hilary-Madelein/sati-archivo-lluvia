@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d2a540e4b7c4425136eff5e6225bf3fb",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "02:57",
+    "provincia": "Guayas",
+    "canton": "Isidro Ayora",
+    "parroquia": "Isidro Ayora",
+    "sector": "Varios sectores (Sector San Agustín, San Felipe, Camping 1, Las Palmas y Camping 2)",
+    "latitud": -1.8723,
+    "longitud": -80.11408,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas la noche del 04/03/2026 y madrugada del 05/03/2026, se produjo el desbordamiento del río Bachillero, lo que ocasionó la acumulación de agua e ingreso de agua en varias viviendas de los sectores mencionados.  GAD Cantonal indicó que las familias afectadas permanecen en sus respectivos inmuebles, y el río Bachillero se encuentra en su cauce normal. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 924,
+    "viviendas_afectadas": 202,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 50.0,
+        "max_5km_mm": 51.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 80.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 5.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061854,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:44.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

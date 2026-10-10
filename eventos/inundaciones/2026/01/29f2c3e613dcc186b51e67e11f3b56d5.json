@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "29f2c3e613dcc186b51e67e11f3b56d5",
+    "tipo": "Inundación",
+    "fecha": "2026-01-13",
+    "hora": "05:00",
+    "provincia": "Bolívar",
+    "canton": "Las Naves",
+    "parroquia": "Las Naves",
+    "sector": "(Escuela Educación Básica(E.E.B.) Luis Benigno Arregui.",
+    "latitud": -1.2862226615115395,
+    "longitud": -79.31486152433433,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas en la madrugada del 13/01/2026,  se produjo el desbordamiento del canal de riego y afectó con ingreso de agua y lodo a las aulas de la E.E.B. Luis Benigo Arregui. \r\n\r\nEl 13, 14/01/2026, las clases se mantuvieron de manera no presencial. Analista del MINEDEC informa que las clases se normaliza de manera presencial el  15/01/2026. \r\n\r\nEl nivel del canal de riego se encuentra normal. \r\n\r\nMINEDEC en coordinación con Jefe Político del cantón, Cuerpo de Bomberos y padres de familia finalizaron los trabajos de limpieza  de agua y lodo de las instalaciones de la Unidad Educativa. \r\n\r\nGAD Cantonal de Las Naves y GAD  Provincial realizaron los trabaos de dragado y reforzamiento del muro del canal de riego.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 22.0,
+      "max_5km_mm": 29.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-13T07:00:00.000Z",
+        "punto_mm": 50.0,
+        "max_5km_mm": 59.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 24.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 57.9,
+        "max_5km_mm": 73.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670053640,
+    "periodos_retorno_m3s": {
+      "2": 172.0,
+      "5": 204.8,
+      "10": 226.6,
+      "25": 254.0,
+      "50": 274.4,
+      "100": 294.6
+    },
+    "caudal_simulado_dia_m3s": 48.93,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:01.000Z",
+  "pendiente": []
+}

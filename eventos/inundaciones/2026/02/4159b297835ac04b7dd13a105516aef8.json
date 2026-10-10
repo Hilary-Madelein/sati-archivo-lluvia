@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4159b297835ac04b7dd13a105516aef8",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "22:32",
+    "provincia": "Cotopaxi",
+    "canton": "La Mana",
+    "parroquia": "La Mana",
+    "sector": "Centro turístico Aurelio Angueta",
+    "latitud": -0.939711,
+    "longitud": -79.215596,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la tarde y noche del 23/02/2026, se produjo el incremento del caudal del río San Pablo, lo que ocasionó que la poza que es utilizada como balneario se desborde, afectando al centro turístico. \r\nAl momento, el balneario se encuentra con afectaciones.\r\nSNGR monitorea el evento; se coordinó con la UGR una inspección para el día 24/02/2026. UGR GAD La Maná realizó inspección reporta afectación a enseres de cocina del centro turístico, personal realizó la limpieza del material acumulado ciertas partes.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 53.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 19.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 73.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 21.4,
+        "max_5km_mm": 48.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 31.7,
+        "max_5km_mm": 55.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 67.0,
+        "max_5km_mm": 83.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670087420,
+    "periodos_retorno_m3s": {
+      "2": 309.1,
+      "5": 372.4,
+      "10": 414.4,
+      "25": 467.3,
+      "50": 506.7,
+      "100": 545.7
+    },
+    "caudal_simulado_dia_m3s": 104.03,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:00:14.000Z",
+  "pendiente": []
+}

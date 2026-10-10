@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "8621d1b57330d6c42129213da08176ff",
+    "tipo": "Inundación",
+    "fecha": "2025-10-26",
+    "hora": "05:00",
+    "provincia": "Imbabura",
+    "canton": "Ibarra",
+    "parroquia": "San Antonio",
+    "sector": "Barrio Los Soles",
+    "latitud": 0.3387,
+    "longitud": -78.1713,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las fuertes precipitaciones registradas la madrugada del 26/10/2025, se suscitó una inundación que afectó a una vivienda del sector. GAD Cantonal Ibarra UGR realizó la EVIN digital en el que determina producto de las fuertes lluvias que generaron una inundación en la vivienda por el ingreso de flujos de lodo hubo pérdidas de bienes materiales, la familia damnificada continúa viviendo ahí mismo. GAD C Ibarra realizó la entrega de asistencia humanitaria a la familia damnificada. SNGR realizó la solicitud al MIES para la calificación y validación del Bono de Contingencia ante eventos adversos. MIES realizó la entrega del Bono de Contingencia a la familia damnificada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 27.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670032077,
+    "periodos_retorno_m3s": {
+      "2": 9.4,
+      "5": 12.8,
+      "10": 15.1,
+      "25": 17.9,
+      "50": 20.0,
+      "100": 22.1
+    },
+    "caudal_simulado_dia_m3s": 5.01,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:16:14.000Z",
+  "pendiente": []
+}

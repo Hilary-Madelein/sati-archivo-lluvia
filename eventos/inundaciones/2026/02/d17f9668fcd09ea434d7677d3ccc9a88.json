@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d17f9668fcd09ea434d7677d3ccc9a88",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "07:10",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Recreo 4ta Etapa, Malecón Roberto Gilbert, Cdla Primavera 2, Coop. de Vivienda 5 de Junio,, Cerca de Finca Delia,)",
+    "latitud": -2.166606,
+    "longitud": -79.793614,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la mañana  del 18/02/2026, se reportó varios sectores con acumulación de agua en las calles y avenidas GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 93.0,
+        "max_5km_mm": 98.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 35.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 121.0,
+      "max_5km_mm": 136.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 40.6,
+        "max_5km_mm": 81.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 18.6,
+        "max_5km_mm": 25.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 36.3,
+        "max_5km_mm": 50.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056745,
+    "periodos_retorno_m3s": {
+      "2": 51.8,
+      "5": 83.2,
+      "10": 104.0,
+      "25": 130.3,
+      "50": 149.8,
+      "100": 169.2
+    },
+    "caudal_simulado_dia_m3s": 5.45,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:23.000Z",
+  "pendiente": []
+}

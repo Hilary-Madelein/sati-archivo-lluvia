@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "544c9a760d92f7240c03f1f41692d480",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "00:10",
+    "provincia": "Pichincha",
+    "canton": "Puerto Quito",
+    "parroquia": "Puerto Quito",
+    "sector": "San Francisco de Silanche",
+    "latitud": 0.1589797,
+    "longitud": -79.2287851,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones registradas durante la madrugada del 02 de marzo de 2026, se produjo una inundación que afectó varias viviendas del sector. Se entregó asistencia humanitaria; actualmente, las familias afectadas habitan sus viviendas sin mayor contratiempo y, posteriormente, se coordinan trabajos de mitigación en el río Silanche.",
+    "personas_afectadas": 38,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 204.0,
+        "max_5km_mm": 224.0
+      },
+      "dia_anterior": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 32.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 283.0,
+      "max_5km_mm": 303.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 92.0,
+        "max_5km_mm": 128.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 39.8,
+        "max_5km_mm": 51.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 52.5,
+        "max_5km_mm": 65.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049491,
+    "periodos_retorno_m3s": {
+      "2": 55.2,
+      "5": 80.3,
+      "10": 97.0,
+      "25": 118.0,
+      "50": 133.6,
+      "100": 149.1
+    },
+    "caudal_simulado_dia_m3s": 47.61,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:39.000Z",
+  "pendiente": []
+}

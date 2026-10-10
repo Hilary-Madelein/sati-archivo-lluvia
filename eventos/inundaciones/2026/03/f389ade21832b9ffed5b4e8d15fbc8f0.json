@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f389ade21832b9ffed5b4e8d15fbc8f0",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Naranjito",
+    "parroquia": "Naranjito",
+    "sector": "Recinto La Unión",
+    "latitud": -2.1154,
+    "longitud": -79.413,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas durante la noche del 28/02/2026, se reportó el ingreso de agua a varias viviendas, producto del desbordamiento del río Milagro..  GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles. El río Milagro se encuentra en su estado normal.  SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 185,
+    "viviendas_afectadas": 40,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 192.0,
+        "max_5km_mm": 200.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 263.0,
+      "max_5km_mm": 281.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 90.3,
+        "max_5km_mm": 104.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 162.9,
+        "max_5km_mm": 197.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 68.3,
+        "max_5km_mm": 81.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:44.000Z",
+  "pendiente": []
+}

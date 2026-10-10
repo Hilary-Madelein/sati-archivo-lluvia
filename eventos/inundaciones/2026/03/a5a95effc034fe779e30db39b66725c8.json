@@ -1,0 +1,73 @@
+{
+  "evento": {
+    "id": "a5a95effc034fe779e30db39b66725c8",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "01:10",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Valle Hermoso",
+    "sector": "En el centro poblado. Orillas del río blanco.",
+    "latitud": -0.08869308735862057,
+    "longitud": -79.28072749413015,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 08/03/2026 y madrugada del 09/03/2026, se suscitó el desbordamiento del río blanco en la parroquia Valle Hermoso, ingresando agua en la vivienda y la calle anegadas de agua. Al momento, las personas retornaron a sus viviendas. El río bajó su nivel y no se encuentra desbordado.\r\nPatronato Municipal Santo Domingo avanzó al sitio y realizó la entrega de asistencia humanitaria.\r\nMDH realizó la entrega de bonos de contingencia por desastres naturales. GAD Cantonal Santo Domingo culminó los trabajos del arreglo del muro de escolleras.",
+    "personas_afectadas": 17,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": null,
+      "dia_anterior": null,
+      "dos_dias_antes": null
+    },
+    "disponible": false
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 21.6,
+        "max_5km_mm": 80.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 16.0,
+        "max_5km_mm": 16.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066908,
+    "periodos_retorno_m3s": {
+      "2": 19.9,
+      "5": 30.3,
+      "10": 37.1,
+      "25": 45.8,
+      "50": 52.2,
+      "100": 58.6
+    },
+    "caudal_simulado_dia_m3s": 3.52,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:54.000Z",
+  "pendiente": []
+}

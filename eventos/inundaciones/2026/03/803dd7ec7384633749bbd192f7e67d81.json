@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "803dd7ec7384633749bbd192f7e67d81",
+    "tipo": "Inundación",
+    "fecha": "2026-03-30",
+    "hora": "15:34",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Tumbaco",
+    "sector": "Tola Chica N°3, Villavega, El Arenal, El Moretal y Quebrada el Payaso",
+    "latitud": -0.219729,
+    "longitud": -78.373808,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de lluvias se reporta la anegación de agua en calles, ingreso de agua en viviendas y desbordamiento de la quebrada El Payaso. Finalizaron los trabajos de desfogue de agua y lodo en los sectores afectados (de 10 a 40 cm); continúan labores de limpieza de la quebrada.  Cuerpo de Bomberos DMQ realizaron trabajos de desfogue de agua-lodo y finalizaron apoyo en la limpieza de sumideros; GAD Cantonal EMAPS realiza la limpieza de la quebrada y la SNGR realiza seguimiento del evento.\r\n\r\n02/04/2026 Al momento, han finalizado las labores de desfogue de agua y lodo; sin embargo, se mantienen los trabajos de limpieza y recuperación de la quebrada.\r\n28/04/2026 EPMAPS y otras instituciones municipales han finalizado las labores de limpieza y retiro de escombros, así como también la limpieza de alcantarillado y colectores. Además, se llevó a cabo una reunión interinstitucional en la que se establecieron acuerdos y compromisos específicos, los cuales quedaron registrados en actas. Todavía quedan pendientes obras a realizar a largo plazo.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 11.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-30T07:00:00.000Z",
+        "punto_mm": 40.2,
+        "max_5km_mm": 42.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-29T07:00:00.000Z",
+        "punto_mm": 12.6,
+        "max_5km_mm": 14.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 4.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670078177,
+    "periodos_retorno_m3s": {
+      "2": 27.2,
+      "5": 38.3,
+      "10": 45.7,
+      "25": 55.1,
+      "50": 62.0,
+      "100": 68.9
+    },
+    "caudal_simulado_dia_m3s": 5.66,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:54.000Z",
+  "pendiente": []
+}

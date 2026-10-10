@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2d8c4d786af2f0550bde6f70fb4b034b",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "San Jacinto De Yaguachi",
+    "sector": "Guajala",
+    "latitud": -2.116645,
+    "longitud": -79.76833,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación parcial y destrucción de cultivos de arroz. Personal de MAG realizó la inspección.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 53.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 169.0,
+        "max_5km_mm": 169.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 224.0,
+      "max_5km_mm": 230.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 15.3,
+        "max_5km_mm": 36.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 27.0,
+        "max_5km_mm": 33.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 24.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049577,
+    "periodos_retorno_m3s": {
+      "2": 39.2,
+      "5": 61.7,
+      "10": 76.7,
+      "25": 95.6,
+      "50": 109.6,
+      "100": 123.5
+    },
+    "caudal_simulado_dia_m3s": 58.85,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:58.000Z",
+  "pendiente": []
+}

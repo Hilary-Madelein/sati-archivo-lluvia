@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "25096903bfe439ce91003b9553886dac",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "09:25",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Puerto Napo",
+    "sector": "La Isla, Las Colinas, San Gabriel, El Ingles",
+    "latitud": -0.7313511670411456,
+    "longitud": -77.78214179553095,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por las lluvias de la madrugada hasta el momento se registra el aumento del caudal del río Napo y posterior desbordamiento, que afecta con el ingreso de agua a las viviendas del sector.\r\nTenencia Política de Puerto Napo confirmó el evento. SNGR y GAD Municipal de Tena conjuntamente con el apoyo del Voluntariado de Protección Civil y el acompañamiento de la Gobernación de Napo y GAD Parroquial de Puerto Napo realizaron  el levantamiento de la ficha EVIN. \r\n El río Napo se encuentra con un nivel normal. SNGR con el acompañamiento de Ministerio de Gobierno entregó la asistencia humanitaria..",
+    "personas_afectadas": 48,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 23.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 30.7,
+        "max_5km_mm": 37.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 77.7,
+        "max_5km_mm": 88.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 53.0,
+        "max_5km_mm": 69.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620627775,
+    "periodos_retorno_m3s": {
+      "2": 50.0,
+      "5": 60.7,
+      "10": 67.9,
+      "25": 76.9,
+      "50": 83.5,
+      "100": 90.1
+    },
+    "caudal_simulado_dia_m3s": 48.48,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:04.000Z",
+  "pendiente": []
+}

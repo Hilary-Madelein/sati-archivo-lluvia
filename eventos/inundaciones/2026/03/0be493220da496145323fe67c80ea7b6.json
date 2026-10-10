@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "0be493220da496145323fe67c80ea7b6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "23:40",
+    "provincia": "Manabí",
+    "canton": "Pedernales",
+    "parroquia": "Pedernales",
+    "sector": "La Cabuya",
+    "latitud": -0.05059,
+    "longitud": -80.14266,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 05/03/2026, se produjo el desbordamiento del río Cabuya, que causó inundación en el sector, afectando a varias viviendas con ingreso de agua y lodo. Las familias afectadas permanecen en sus viviendas. El nivel del río es normal. UGR GAD Cantonal realizó levantamiento de la información. CB Pedernales y GAD Cantonal realizaron los trabajos de limpieza y evacuación de agua y lodo de los sectores afectados. SNGR realizó seguimiento al evento.\r\n No existe inundación en el sector. Las familias afectadas permanecen en sus viviendas. El nivel del río es normal. Las familias afectadas fueron beneficiadas con el bono de contingencia. El 24/03/2026, SNGR realizó la entrega de asistencia humanitaria y gestionó la entrega de bonos de contingencia con MDH.\r\nEl 25/03/226, el Ministerio de Desarrollo Humano realizó la entrega de bonos de contingencia.",
+    "personas_afectadas": 103,
+    "viviendas_afectadas": 44,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 16.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 1.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 17.5,
+        "max_5km_mm": 18.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 53.5,
+        "max_5km_mm": 53.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:26.000Z",
+  "pendiente": []
+}

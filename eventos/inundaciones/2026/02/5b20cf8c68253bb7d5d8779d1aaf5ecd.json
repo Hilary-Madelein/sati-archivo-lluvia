@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "5b20cf8c68253bb7d5d8779d1aaf5ecd",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "08:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrio La Florida, Payamino y 12 de Febrero a 2 cuadras de Mundo.",
+    "latitud": -0.459382,
+    "longitud": -76.993811,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la noche y la madrugada del 25/02/2025, se produjo la acumulación de agua en una vivienda, debido a que la construcción se encuentra ubicada en una zona baja. Al momento, la familia permanece en su vivienda, sin que se registren mayores afectaciones. - El personal del Cuerpo de Bomberos de Francisco de Orellana ejecutó labores de evacuación del agua, dejando el sitio en condiciones seguras; posteriormente, sin registrarse novedades, retornó a su base.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 35.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 85.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 5.2,
+        "max_5km_mm": 8.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:59.000Z",
+  "pendiente": []
+}

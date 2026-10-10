@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "328c3f28690486861054af840438cd36",
+    "tipo": "Inundación",
+    "fecha": "2026-07-04",
+    "hora": "14:28",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Zamora",
+    "parroquia": "Zamora",
+    "sector": "Varios Sectores: El Progreso, La Saquea, Chamico y Nambija Bajo, El Chamico, vía Troncal Amazónica junto a la gasolinera ?Virgen de Guadalupe?",
+    "latitud": -4.020926570519771,
+    "longitud": -78.89015467227327,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias intensas suscitadas el 03/07/2026, se produjo aumento y desbordamiento del caudal de rio Zamora. Se han evacuado aproximadamente 30 familias y sus pertenencias, sus bienes han sido movilizados hasta la cancha sintética, por lo que se requiere activación de alojamientos para las personas afectadas,\r\nEl rio Zamora continúa desbordado. Las familias evacuadas se mantienen en la cancha sintética del sector y la circulación de vehículos pequeños se encuentra restringida debido al cierre de vía por el desbordamiento del rio.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 30,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-04T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 9.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-03T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-02T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620731154,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:31.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

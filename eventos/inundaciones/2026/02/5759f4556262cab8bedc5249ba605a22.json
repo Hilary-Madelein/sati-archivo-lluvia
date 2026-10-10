@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5759f4556262cab8bedc5249ba605a22",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Camilo Andrade",
+    "sector": "Unidad Educativa Eloy Velasquez Cevallos",
+    "latitud": -2.038006,
+    "longitud": -79.595344,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la tarde y noche del 23/02/2026, se produjo el desbordamiento del río Milagro, lo que ocasionó que varias viviendas se vieran afectadas con el ingreso de agua. GAD Cantonal informó que ejecutó recorridos en los sectores afectados, como fase previa al levantamiento de información de afectaciones; el caudal del río Milagro se encuentra en su cauce normal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 70.0,
+        "max_5km_mm": 84.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 14.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 48.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 115.0,
+      "max_5km_mm": 146.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 8.3,
+        "max_5km_mm": 21.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 72.3,
+        "max_5km_mm": 100.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 7.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670038309,
+    "periodos_retorno_m3s": {
+      "2": 18.7,
+      "5": 26.3,
+      "10": 31.3,
+      "25": 37.7,
+      "50": 42.4,
+      "100": 47.0
+    },
+    "caudal_simulado_dia_m3s": 6.74,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:17.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "6cb47214650c6cd3b73d851345ba44f6",
+    "tipo": "Inundación",
+    "fecha": "2026-04-13",
+    "hora": "20:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "varios sectores.",
+    "latitud": -0.282721,
+    "longitud": -79.200989,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas la noche del 13/04/2026, se produjo el taponamiento de alcantarillas en varios sectores, provocando que las calles se vean anegadas.  Al momento, las familias permanecen en sus viviendas.\r\nPatronato Municipal Santo Domingo realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 61.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 8.7,
+        "max_5km_mm": 18.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-12T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-11T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 6.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063844,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:32:19.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

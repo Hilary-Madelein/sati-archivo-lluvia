@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d743961b24dcde60790ba023895ab7de",
+    "tipo": "Inundación",
+    "fecha": "2026-06-08",
+    "hora": "07:56",
+    "provincia": "El Oro",
+    "canton": "El Guabo",
+    "parroquia": "El Guabo",
+    "sector": "AV. ELOY ALFARO",
+    "latitud": -3.243424,
+    "longitud": -79.83123,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada y mañana del 08/06/2026, se registra inundación en varias calles y avenidas del sector. Se registró inundación en los patios de la Unidad Educativa Zoila Ugarte de Landívar, mismo que  las aguas lluvias fue evacuado de manera natural motivo por el cual el nivel inicial retomó las clases de modalidad virtual a presenvial. MINEDEC procedió a activar el plan de contingencia para la continuidad de las clases.\r\nSNGR mantuvo en monitoreo constante con puntos focales y cámaras SIS ECU 911",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 25.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 31.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 2.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670017873,
+    "periodos_retorno_m3s": {
+      "2": 71.7,
+      "5": 119.0,
+      "10": 150.4,
+      "25": 190.0,
+      "50": 219.4,
+      "100": 248.6
+    },
+    "caudal_simulado_dia_m3s": 7.01,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:23:51.000Z",
+  "pendiente": []
+}

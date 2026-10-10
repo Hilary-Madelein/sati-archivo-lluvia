@@ -1,0 +1,99 @@
+{
+  "evento": {
+    "id": "0f9e6863518668437648fb9bf81065d8",
+    "tipo": "Inundación",
+    "fecha": "2026-09-28",
+    "hora": "06:42",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "RCTO. RIO CHICO, RÍO CRISTAL",
+    "latitud": -1.860412,
+    "longitud": -79.339142,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada, se produjo el desbordamiento del río Cristal, mismo que deja consigo afectaciones a cultivos. UGR Montalvo realizó la respectiva verificación de novedades, la misma que indica que no realizará levantamiento de EVIN Digital. Actualmente El río Cristal se encuentra en su caudal normal y no se presencia agua estancada en los cultivos, se espera reporte de MDEP con el levantamiento de matriz MAAPEA  y en donde hasta el momento no se reportan viviendas con afectación.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 54.0,
+      "max_5km_mm": 67.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 7.3,
+        "max_5km_mm": 12.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 6.3,
+        "max_5km_mm": 10.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 2.4,
+        "max_5km_mm": 12.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040350,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260928",
+        "max_promedio_ensamble_m3s": 76.1,
+        "max_ensamble_m3s": 135.5,
+        "max_alta_resolucion_m3s": 40.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 33.4,
+        "max_ensamble_m3s": 143.0,
+        "max_alta_resolucion_m3s": 36.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 28.0,
+        "max_ensamble_m3s": 116.7,
+        "max_alta_resolucion_m3s": 35.0
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:13:28.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a0197cafe6853246856966c43f51fabd",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "20:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Coronel Enrique Valdez",
+    "sector": "Varios Sectores (Unidad Norte, Unidad Sur, Margaritas 2, Los Tamarindos, San José)",
+    "latitud": -2.1422316800532117,
+    "longitud": -79.61161668580108,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la tarde y noche del 23/02/2026, se produjo el desbordamiento del río Milagro lo que ocasionó que varias viviendas se vieran afectadas con el ingreso de agua. La SNGR  informó que se ha activado el alojamiento temporal en la Unidad Educativa Teniente Hugo Ortiz el 25/02/2026, el cual albergaba a ocho familias y veintiocho personas, y que se ejecutó la entrega de asistencia humanitaria en el sector San Miguel  SNGR informa que el alojamiento temporal instalado en la Unidad Educativa Teniente Hugo Ortiz alberga actualmente a tres familias (once personas), mientras que nueve familias (veintisiete personas) se han retirado del lugar. Asimismo, se efectuó la entrega de asistencia humanitaria en el albergue. En la Unidad Educativa 17 de Septiembre, las dieciocho familias (sesenta y cuatro personas) que permanecían en el sitio se retiraron; actualmente, permanecen cincuenta y cinco familias (ciento noventa y una personas). Las afectaciones corresponden al ingreso de agua y daños parciales en áreas externas, sin comprometer infraestructura crítica. El río Milagro y el estero San Miguel mantienen una tendencia sostenida a la disminución de su caudal.",
+    "personas_afectadas": 5000,
+    "viviendas_afectadas": 850,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 125.0,
+        "max_5km_mm": 136.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 38.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 160.0,
+      "max_5km_mm": 184.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 25.3,
+        "max_5km_mm": 75.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 58.8,
+        "max_5km_mm": 90.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050601,
+    "periodos_retorno_m3s": {
+      "2": 54.9,
+      "5": 85.9,
+      "10": 106.3,
+      "25": 132.2,
+      "50": 151.5,
+      "100": 170.5
+    },
+    "caudal_simulado_dia_m3s": 14.63,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:00:27.000Z",
+  "pendiente": []
+}

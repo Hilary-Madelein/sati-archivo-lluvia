@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ed81824f33a63bd2c73294664bba93d1",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "09:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "Gral. Vernaza (dos Esteros)",
+    "sector": "Mastrantal",
+    "latitud": -1.755429,
+    "longitud": -79.806657,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de la madrugada del 12/03/2026, se reportó el desbordamiento del río Vinces, lo que provocó la acumulación de agua en varias viviendas y ruptura de muro de contención.  Las familias afectadas permanecen en sus mismos inmuebles. El río Vinces se encuentra en su cauce normal. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 424,
+    "viviendas_afectadas": 106,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 64.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 27.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 54.0,
+        "max_5km_mm": 55.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 140.0,
+      "max_5km_mm": 146.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 36.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 20.8,
+        "max_5km_mm": 20.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 8.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670058776,
+    "periodos_retorno_m3s": {
+      "2": 2455.1,
+      "5": 2940.4,
+      "10": 3261.7,
+      "25": 3667.6,
+      "50": 3968.8,
+      "100": 4267.7
+    },
+    "caudal_simulado_dia_m3s": 849.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:39.000Z",
+  "pendiente": []
+}

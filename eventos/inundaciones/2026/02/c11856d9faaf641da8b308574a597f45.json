@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c11856d9faaf641da8b308574a597f45",
+    "tipo": "Inundación",
+    "fecha": "2026-02-20",
+    "hora": "03:40",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "EL PORVENIR - SANTA RITA",
+    "latitud": -1.855217,
+    "longitud": -79.59669,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 20/02/2026, se reportó acumulación de aguas lluvias que afectaron el cultivo de arroz, dejando consigo 3 ha.  de 2 productores con cultivos afectados parcialmente (2 familia de 8 personas afectadas)  MAGP realizó barrido en la zona afectada y facilitó la matriz MAAPEA el 24/02/2026, actualmente no se visualiza bajo agua a los cultivos, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 55.0,
+        "max_5km_mm": 59.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 34.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 58.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 131.0,
+      "max_5km_mm": 151.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 15.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 7.0,
+        "max_5km_mm": 17.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 20.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670088477,
+    "periodos_retorno_m3s": {
+      "2": 6431.7,
+      "5": 8296.2,
+      "10": 9530.7,
+      "25": 11090.5,
+      "50": 12247.6,
+      "100": 13396.2
+    },
+    "caudal_simulado_dia_m3s": 4530.8,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:10.000Z",
+  "pendiente": []
+}

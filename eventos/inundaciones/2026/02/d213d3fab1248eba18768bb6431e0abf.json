@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d213d3fab1248eba18768bb6431e0abf",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "07:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrio Flor de Oriente.",
+    "latitud": -0.4972069,
+    "longitud": -76.981713,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la noche y la madrugada de hoy, se produjo una inundación por acumulación de agua en varias viviendas del sector. Al momento se desconoce el número exacto de viviendas afectadas. Actualmente no se registra presencia de precipitaciones en el área; no obstante, la Estación EC00120 (Volunclima), reporta para el día de hoy un acumulado de precipitación de 105,2 mm.\r\nLa SNGR coordinó con el GAD Municipal de Francisco de Orellana el levantamiento de información y la verificación de afectaciones en territorio.\r\nEl GAD Municipal de Francisco de Orellana levantó  las fichas EVIN y gestiona con SNGR asistencia humanitaria para la atención de las familias afectadas. El 05/03/2026, SNGR, mediante solicitud del GAD Municipal de Francisco de Orellana, y el acompañamiento de la Gobernadora de Orellana, entregó asistencia humanitaria.",
+    "personas_afectadas": 88,
+    "viviendas_afectadas": 24,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 34.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 64.0,
+      "max_5km_mm": 87.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 4.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 12.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:31.000Z",
+  "pendiente": []
+}

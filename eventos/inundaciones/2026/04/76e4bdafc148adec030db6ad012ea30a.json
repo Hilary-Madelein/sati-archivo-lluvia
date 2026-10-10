@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "76e4bdafc148adec030db6ad012ea30a",
+    "tipo": "Inundación",
+    "fecha": "2026-04-19",
+    "hora": "21:33",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "VÍA PRINCIPAL A LA COMUNIDAD LA ROSITA, RÍO LA ROSITA",
+    "latitud": -1.949941,
+    "longitud": -79.336914,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias suscitadas en las provincias cercanas en los límites de las provincias de Bolívar, Guayas y Los Ríos, se reporta el desbordamiento del río La Marcelina, el mismo que deja consigo 6 viviendas de 6 familias con 24 personas afectadas (en evaluación), 100 metros lineales afectados en la vía de tercer orden que se mantiene cerrada y 2 bienes públicos afectados (2 muros de contención) con 1 bien público destruido (1 muro de contención). Personal técnico con maquinaria de Prefectura Los Ríos realizó trabajos de rehabilitación de la vía en la zona afectada y SNGR realizó consolidación de información con puntos focales. Actualmente, el caudal está en su caudal normal; la vía de tercer orden que conecta a la Comunidad La Rosita hacia el rcto. La Marcelina se encuentra habilitada y las familias se mantienen en sus viviendas sin agua dentro del hogar.",
+    "personas_afectadas": 24,
+    "viviendas_afectadas": 6,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 23.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-19T07:00:00.000Z",
+        "punto_mm": 5.0,
+        "max_5km_mm": 13.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-18T07:00:00.000Z",
+        "punto_mm": 8.3,
+        "max_5km_mm": 15.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-17T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 2.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670054689,
+    "periodos_retorno_m3s": {
+      "2": 325.6,
+      "5": 411.6,
+      "10": 468.5,
+      "25": 540.4,
+      "50": 593.8,
+      "100": 646.7
+    },
+    "caudal_simulado_dia_m3s": 29.83,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:30:44.000Z",
+  "pendiente": []
+}

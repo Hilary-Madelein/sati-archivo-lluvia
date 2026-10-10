@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3503f2bb37b27a37d08e7e5903122275",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "09:30",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrio Virgen del Cisne, Km 3, vía  El Dorado.",
+    "latitud": -0.484996,
+    "longitud": -76.965117,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la noche y la madrugada del 25/02/2026, se produjo una inundación por acumulación de agua en una vivienda del sector. \r\nLa familia continúa en su vivienda ya que la afectación fue parcial - El GAD Municipal de Francisco de Orellana realizó la inspección en el lugar del evento y constató que la afectación fue leve, originada por la falta de canalización del desagüe, por lo que no se requiere la entrega de asistencia humanitaria.\r\n- SNGR realizó monitoreo y seguimiento del evento",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 64.0,
+      "max_5km_mm": 83.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 5.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 10.8,
+        "max_5km_mm": 13.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:28.000Z",
+  "pendiente": []
+}

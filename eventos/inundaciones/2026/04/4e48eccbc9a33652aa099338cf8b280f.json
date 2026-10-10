@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4e48eccbc9a33652aa099338cf8b280f",
+    "tipo": "Inundación",
+    "fecha": "2026-04-21",
+    "hora": "20:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "Taracoa (nueva Esperanza: Yuca)",
+    "sector": "Puente sobre el rio Indillama",
+    "latitud": -0.49115937332886256,
+    "longitud": -76.77150451787315,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las intensas lluvias registradas el 20/04/2026 en la parte alta del río Indillama, se produjo su desbordamiento, lo que ocasionó una inundación en la vía Palanda y en los predios de algunas viviendas. MINEDEC coordinó que las actividades académicas se desarrollarán en modalidad no presencial en la Unidad Educativa Nueva Esperanza y en la Unidad Educativa Benjamín Carrión, debido a la falta de acceso ocasionada por la inundación de la vía a Palanda. Posteriormente, una vez que el río retornó a su caudal normal y se restableció el acceso, las clases se reanudaron con normalidad en ambas instituciones educativas.\r\nAsimismo, la Corporación Nacional de Electricidad (CNEL) ejecutó trabajos para restablecer paulatinamente el servicio de energía eléctrica en la cabecera parroquial que fue afectado por las lluvias. Por su parte, la Tenencia Política de Taracoa realizó el seguimiento del evento y el Gobierno Autónomo Descentralizado Parroquial de Taracoa coordinó acciones interinstitucionales para la atención de la emergencia. El 11/05/2026,  SNGR en atención a la solicitud del GAD Municipal Francisco de Orellana, con el acompañamiento del Tenencia Política Taracoa, entregó asistencia humanitaria a la familia damnificada. La familia continúa en su vivienda. El servicio eléctrico fue habilitado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 107.0,
+        "max_5km_mm": 116.0
+      },
+      "dia_anterior": {
+        "punto_mm": 173.0,
+        "max_5km_mm": 174.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 280.0,
+      "max_5km_mm": 290.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-20T07:00:00.000Z",
+        "punto_mm": 13.2,
+        "max_5km_mm": 17.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-19T07:00:00.000Z",
+        "punto_mm": 8.9,
+        "max_5km_mm": 22.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620869941,
+    "periodos_retorno_m3s": {
+      "2": 207.8,
+      "5": 282.2,
+      "10": 331.5,
+      "25": 393.8,
+      "50": 440.0,
+      "100": 485.9
+    },
+    "caudal_simulado_dia_m3s": 38.98,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:30:17.000Z",
+  "pendiente": []
+}

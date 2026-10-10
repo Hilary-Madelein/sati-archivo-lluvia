@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "7944b7d6d1914f28140dfa91c168b27a",
+    "tipo": "Inundación",
+    "fecha": "2026-04-08",
+    "hora": "20:23",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Nangaritza",
+    "parroquia": "Zurmi",
+    "sector": "Shumayacu",
+    "latitud": -4.163056,
+    "longitud": -78.642917,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la tarde del 08/04/2026, se registró el aumento del caudal del río Nangaritza, causando una inundación en el sector. El caudal del río Nangaritza se encuentra en su cauce normal. Las familias afectadas continúan habitando sus viviendas",
+    "personas_afectadas": 25,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 18.0,
+      "max_5km_mm": 26.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-07T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 31.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-06T07:00:00.000Z",
+        "punto_mm": 26.5,
+        "max_5km_mm": 44.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620923801,
+    "periodos_retorno_m3s": {
+      "2": 545.2,
+      "5": 751.1,
+      "10": 887.5,
+      "25": 1059.9,
+      "50": 1187.7,
+      "100": 1314.6
+    },
+    "caudal_simulado_dia_m3s": 77.22,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:32:42.000Z",
+  "pendiente": []
+}

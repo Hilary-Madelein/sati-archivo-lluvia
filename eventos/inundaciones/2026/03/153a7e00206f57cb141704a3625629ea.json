@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "153a7e00206f57cb141704a3625629ea",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "06:20",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "San Sebastian",
+    "sector": "San José de Balzay",
+    "latitud": -2.887582,
+    "longitud": -79.059994,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la madrugada y mañana del 12/03/2026, se produjo colapso de alcantarillas y anegación de agua sobre las vías de segundo orden; adicional, el ingreso de agua a un terreno donde se encuentra una estructura de madera de un piso utilizada como bodega. Cuerpo de Bomberos Cuenca se encuentra colaborando en el punto; ETAPA EP realiza limpieza de alcantarillas, SNGR realiza monitoreo del evento. El agua evacuó; DGR informa que la estructura no presenta daño a la misma; se recomienda al propietario mejorar el sistema de drenajes para evitar daños futuros. No se tiene lluvia al momento. Cuerpo de Bomberos Cuenca realizó trabajos de succión del agua acumulada, ETAPA EP realizó limpieza de alcantarillas, SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 41.0,
+      "max_5km_mm": 49.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 20.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 18.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 8.9,
+        "max_5km_mm": 25.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620799891,
+    "periodos_retorno_m3s": {
+      "2": 74.0,
+      "5": 97.1,
+      "10": 112.4,
+      "25": 131.7,
+      "50": 146.1,
+      "100": 160.3
+    },
+    "caudal_simulado_dia_m3s": 67.84,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:39:47.000Z",
+  "pendiente": []
+}

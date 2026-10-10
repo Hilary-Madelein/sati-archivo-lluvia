@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ede1223c668fefdd5e55086115eb308c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-17",
+    "hora": "08:00",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Tarifa",
+    "sector": "Varios sectores (Zapan, La Islas, Margarita, La Envidia, Las Trancas, Gran Colombia, Madera Negra, El Rinconcito, San Luis, Los Tumbres, Los  Tutumbes, Rinconada, 9 De Octubre, La Angelica, Hacienda El Recreo, Villa Mercedes, San Roberto, La Sequita, Las Maravillas, El Carmen, El Tamarindo)",
+    "latitud": -1.965609,
+    "longitud": -79.783132,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación de 160 hectáreas de cultivos de arroz con un total de $144.200 dólares y pérdida de 34 hectáreas de cultivos de arroz con un total de $28.000 dólares.\r\n MAG realizó la inspección del evento.",
+    "personas_afectadas": 52,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 17.0,
+      "max_5km_mm": 17.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 16.2,
+        "max_5km_mm": 24.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 1.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063906,
+    "periodos_retorno_m3s": {
+      "2": 195.1,
+      "5": 272.9,
+      "10": 324.4,
+      "25": 389.5,
+      "50": 437.8,
+      "100": 485.7
+    },
+    "caudal_simulado_dia_m3s": 26.01,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:37:46.000Z",
+  "pendiente": []
+}

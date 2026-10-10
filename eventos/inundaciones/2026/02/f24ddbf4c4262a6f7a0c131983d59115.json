@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "f24ddbf4c4262a6f7a0c131983d59115",
+    "tipo": "Inundación",
+    "fecha": "2026-02-19",
+    "hora": "01:05",
+    "provincia": "Guayas",
+    "canton": "Simon Bolivar",
+    "parroquia": "Simon Bolivar",
+    "sector": "Recinto Las Delicias",
+    "latitud": -1.99704696,
+    "longitud": -79.38504282,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa del incremento de un brazo del río Chilintomo y del estero Bella Dama, se produjo la acumulación de agua en vías de acceso e ingreso de agua en varias viviendas. GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles. El río Chilintomo y el estero Bella Dama se encuentran en sus cauces normales. Prefectura de Guayas realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 162,
+    "viviendas_afectadas": 81,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 129.0,
+        "max_5km_mm": 135.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 145.0,
+      "max_5km_mm": 154.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 59.7,
+        "max_5km_mm": 83.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 50.3,
+        "max_5km_mm": 59.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 46.1,
+        "max_5km_mm": 69.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060836,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:03:00.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

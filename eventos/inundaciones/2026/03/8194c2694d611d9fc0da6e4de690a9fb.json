@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8194c2694d611d9fc0da6e4de690a9fb",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "08:00",
+    "provincia": "Cotopaxi",
+    "canton": "La Mana",
+    "parroquia": "El Triunfo",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA JOHN F. KENNEDY",
+    "latitud": -0.9472376,
+    "longitud": -79.3008821,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias intensas reportó la unidad educativa afectada. Al momento la unidad educativa se encuentra operando sin novedades.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 153.0,
+        "max_5km_mm": 194.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 134.0,
+        "max_5km_mm": 137.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 312.0,
+      "max_5km_mm": 356.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 28.9,
+        "max_5km_mm": 47.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 28.8,
+        "max_5km_mm": 66.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 22.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066939,
+    "periodos_retorno_m3s": {
+      "2": 368.1,
+      "5": 435.7,
+      "10": 480.4,
+      "25": 536.9,
+      "50": 578.8,
+      "100": 620.4
+    },
+    "caudal_simulado_dia_m3s": 318.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:15.000Z",
+  "pendiente": []
+}

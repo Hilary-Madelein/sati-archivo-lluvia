@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "014df66589564698b3b40109d256975b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-16",
+    "hora": "17:13",
+    "provincia": "Pichincha",
+    "canton": "Mejia",
+    "parroquia": "Tambillo",
+    "sector": "Por las Rieles (E-28 A)",
+    "latitud": -0.405433,
+    "longitud": -78.546752,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones registradas durante lla tarde del 16/02/2026, se reporta una inundación ocasionada por el saturamiento del sistema de alcantarillado, lo que provocó la anegación de la vía de primer orden. La vía se encuentra habilitada. GAD de Mejía en coordinación con bomberos realizaron los trabajos de limpieza del sistema de alcantarillado del sector. Policía Nacional gestionó la circulación vehicular. SNGR realizó el monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 29.0,
+      "max_5km_mm": 46.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 14.0,
+        "max_5km_mm": 24.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 17.6,
+        "max_5km_mm": 20.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-14T07:00:00.000Z",
+        "punto_mm": 5.6,
+        "max_5km_mm": 13.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670099689,
+    "periodos_retorno_m3s": {
+      "2": 108.2,
+      "5": 137.6,
+      "10": 157.1,
+      "25": 181.8,
+      "50": 200.1,
+      "100": 218.2
+    },
+    "caudal_simulado_dia_m3s": 44.36,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:32.000Z",
+  "pendiente": []
+}

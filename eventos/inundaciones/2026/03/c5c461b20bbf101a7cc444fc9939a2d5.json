@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "c5c461b20bbf101a7cc444fc9939a2d5",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "09:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "Comuna Valdivia, Sinchal, Barcelona",
+    "latitud": -1.9434865841030144,
+    "longitud": -80.72378068346777,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 01/03/2026, se registro el desbordamiento del río \"California\" provocando la acumulación de agua en las calles de la comunidad e ingreso de agua en varias viviendas. Por lluvias suscitadas en la mañana del 01/03/2026, se registro el desbordamiento del río \"California\" provocando la acumulación de agua en las calles de la comunidad e ingreso de agua en varias viviendas.\r\nSNGR coordina con la UGR la atención de la novedad e identificación de viviendas afectadas.\r\nUGR cantonal mediante EVIN informó que las aguas bajaron y  las familias se mantienen en sus viviendas.",
+    "personas_afectadas": 118,
+    "viviendas_afectadas": 50,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 43.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 40.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 60.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 11.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 9.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:36.000Z",
+  "pendiente": []
+}

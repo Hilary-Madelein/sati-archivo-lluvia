@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "06f0d65f023b027f15f5f3b2978cea9e",
+    "tipo": "Inundación",
+    "fecha": "2026-09-22",
+    "hora": "17:30",
+    "provincia": "El Oro",
+    "canton": "Las Lajas",
+    "parroquia": "La Victoria",
+    "sector": "CABECERA CANTONAL",
+    "latitud": -3.78751,
+    "longitud": -80.08981,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en horas de la tarde del 22/09/2026, se suscitó inundación en distintas calles del casco urbano sin ocasionar afectaciones. SNGR mantuvo monitoreo con UGR del GAD Las Lajas, quien indicó que, por parte de la Unidad de Agua Potable y alcantarillado bajo la dirección de Obras públicas, se realizó la limpieza de los sumideros tapados, logrando que agua baje en su totalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-20T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029156,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:22.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

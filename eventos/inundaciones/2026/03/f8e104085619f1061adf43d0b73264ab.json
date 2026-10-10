@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f8e104085619f1061adf43d0b73264ab",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "20:00",
+    "provincia": "Chimborazo",
+    "canton": "Cumanda",
+    "parroquia": "Cumanda",
+    "sector": "Recinto Cascajal.",
+    "latitud": -2.194772764678033,
+    "longitud": -79.09801713942105,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas el día 09/03/2026, se produjo una inundación que afectó a 2 viviendas. UGR GAD Cumandá realizó el levantamiento del informe EVIN; al momento, la familia afectada se encuentra pernoctando en su misma vivienda.\r\nUGR GAD Cumandá realizó el levantamiento del informe EVIN.\r\nSNGR realizó la entrega de asistencia humanitaria.\r\nMDH indica que están gestionando el fondo de contingencia para el adulto mayor, y la otra familia afectada no cumple con los requisitos.\r\nSNGR monitoreó el evento.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 29.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 45.0,
+      "max_5km_mm": 55.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 18.2,
+        "max_5km_mm": 39.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 25.4,
+        "max_5km_mm": 47.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 8.3,
+        "max_5km_mm": 47.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:25.000Z",
+  "pendiente": []
+}

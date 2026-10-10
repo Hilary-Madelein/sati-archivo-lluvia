@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "6597e1aeaa6a9d7b9b5d116e7f2de605",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "01:20",
+    "provincia": "Manabí",
+    "canton": "Sucre",
+    "parroquia": "Leonidas Plaza Gutierrez",
+    "sector": "Varios Sectores (Acuarela 1, Acuarela 2, La Cara, Marianita de Jesús)",
+    "latitud": -0.6344625959658694,
+    "longitud": -80.42207728531625,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias en la madrugada del 03/03/2026, se produjó  el desbordamiento de la quebrada El Toro la cual causo inundación en el sector, provocando el ingreso de agua y lodo a varias viviendas. Al momento, el caudal de la quebrada es normal, sin desbordamiento; se actualizó la información de afectación de acuerdo a Evín Digital. Las viviendas no están inundadas; las familias afectadas y damnificadas permanecen en sus viviendas. MDH realizó la entrega de bonos. SNGR realizó la entrega de AH.",
+    "personas_afectadas": 369,
+    "viviendas_afectadas": 496,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 13.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 9.5,
+        "max_5km_mm": 11.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 74.2,
+        "max_5km_mm": 78.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 11.9,
+        "max_5km_mm": 24.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059760,
+    "periodos_retorno_m3s": {
+      "2": 2.1,
+      "5": 4.9,
+      "10": 6.7,
+      "25": 9.0,
+      "50": 10.7,
+      "100": 12.4
+    },
+    "caudal_simulado_dia_m3s": 0.03,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:52:32.000Z",
+  "pendiente": []
+}

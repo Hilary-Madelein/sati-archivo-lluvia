@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "51a92cbc6724bfda18439629ea1c54cf",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "16:00",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Andres De Vera",
+    "sector": "Floron",
+    "latitud": -1.0725784638395632,
+    "longitud": -80.45485840150305,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias suscitadas la tarde del 07/03/2026, se produjo acumulación de agua en el sector causando inundación que afecta a una vivienda con ingreso de agua en su interior. Cuerpo de Bomberos Portoviejo en el sitio confirmó el evento y realizó evacuación de agua. La familia retornó a su vivienda una vez realizada la limpieza de la misma. SNGR realizó la entrega de AH. MDH realizó la entrega de bonos.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 3,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 13.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 27.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 11.2,
+        "max_5km_mm": 16.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 8.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070017,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:47:23.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

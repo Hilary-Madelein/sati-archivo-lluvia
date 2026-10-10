@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "ce916958925d944bd754960a4c11f4fd",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "SAN VICENTE - RIO CHANGUIL",
+    "latitud": -1.797171,
+    "longitud": -79.331996,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias suscitadas en la madrugada del 01/03/2026, se reportó el desbordamiento del río Changuil con ingreso de agua a 10 viviendas de 10 familias con 40 personas afectadas  UGR Montalvo realizó barrido en la zona afectada el 25/03/2026. Actualmente, el caudal se encuentra en su caudal normal y las familias se mantienen en sus viviendas, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 40,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 198.0,
+        "max_5km_mm": 205.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 248.0,
+      "max_5km_mm": 258.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 109.1,
+        "max_5km_mm": 132.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 81.5,
+        "max_5km_mm": 115.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 119.2,
+        "max_5km_mm": 146.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:55.000Z",
+  "pendiente": []
+}

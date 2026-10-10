@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d40a4c660ccdb4e98436a680a6479737",
+    "tipo": "Inundación",
+    "fecha": "2026-06-05",
+    "hora": "17:04",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Chimbacalle",
+    "sector": "Cdla La Mexico, Paute y Upano",
+    "latitud": -0.24013,
+    "longitud": -78.511123,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias, se reportó el trabajo bajo presión del sistema de alcantarillado, lo que provocó el ingreso de agua a una vivienda y la anegación del subsuelo de esta. Cuerpo de Bomberos DMQ y GAD Cantonal EPMAPS realizó limpieza de sumideros y evacuación de agua de la vivienda sin reporte de afectaciones",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-05T07:00:00.000Z",
+        "punto_mm": 14.5,
+        "max_5km_mm": 15.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-04T07:00:00.000Z",
+        "punto_mm": 12.4,
+        "max_5km_mm": 14.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-03T07:00:00.000Z",
+        "punto_mm": 18.7,
+        "max_5km_mm": 35.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670093538,
+    "periodos_retorno_m3s": {
+      "2": 39.5,
+      "5": 48.3,
+      "10": 54.1,
+      "25": 61.5,
+      "50": 66.9,
+      "100": 72.4
+    },
+    "caudal_simulado_dia_m3s": 8.72,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:24:58.000Z",
+  "pendiente": []
+}

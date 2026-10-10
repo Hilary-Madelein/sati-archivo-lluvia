@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "731806215b6b58481931a84642360e93",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "07:00",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Jambelí",
+    "sector": "VARIOS SECTORES, ISLA COSTA RICA, PONGALILLO, BELLAVISTA",
+    "latitud": -3.3452,
+    "longitud": -80.2573,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias del 23/02/2026, se registró acumulación de aguas lluvias en diferentes calles de los sectores mencionados afectando varias viviendas por ingreso de aguas. Además, varias familias resultaron damnificadas por la perdida de sus enseres domésticos.   SNGR entregó asistencia humanitaria a las familias impactadas, las cuales actualmente se encuentran en sus hogares, ya que el agua lluvia ha drenado por completo.",
+    "personas_afectadas": 429,
+    "viviendas_afectadas": 255,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 63.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 60.0,
+      "max_5km_mm": 67.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 19.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 47.2,
+        "max_5km_mm": 47.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 2.0,
+        "max_5km_mm": 8.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670038356,
+    "periodos_retorno_m3s": {
+      "2": 77.7,
+      "5": 158.5,
+      "10": 212.0,
+      "25": 279.6,
+      "50": 329.7,
+      "100": 379.5
+    },
+    "caudal_simulado_dia_m3s": 18.2,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:38.000Z",
+  "pendiente": []
+}

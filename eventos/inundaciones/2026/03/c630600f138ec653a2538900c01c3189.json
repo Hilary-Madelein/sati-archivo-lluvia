@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "c630600f138ec653a2538900c01c3189",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "06:00",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Camarones (cab. En San Vicente)",
+    "sector": "recinto Pine",
+    "latitud": 0.9777357462011963,
+    "longitud": -79.56298828125,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la mañana del 03/03/2026, se registró la inundación del sector, afectando cultivos. En el levantamiento de información del MAGP se identificaron las afectaciones.\r\nCabe indicar que los productores se recuperan por sus propios medios.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 59.0,
+        "max_5km_mm": 65.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 16.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 85.0,
+      "max_5km_mm": 96.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 24.9,
+        "max_5km_mm": 68.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 35.3,
+        "max_5km_mm": 36.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 38.7,
+        "max_5km_mm": 47.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670058678,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:53:55.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

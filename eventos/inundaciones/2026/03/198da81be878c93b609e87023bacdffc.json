@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "198da81be878c93b609e87023bacdffc",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "12:27",
+    "provincia": "Tungurahua",
+    "canton": "Ambato",
+    "parroquia": "Izamba",
+    "sector": "Barrio Taigua El Cisne.",
+    "latitud": -1.2124469466915067,
+    "longitud": -78.58374190923554,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la madrugada del 11/03/2026 se produjo una inundación que afectó a varias viviendas.\r\nSNGR confirmó el evento y gestión con la UGR una inspección. Al momento la familia afectada se encuentra pernoctando en su misma vivienda.\r\nUGR GADMA realizó la entrega de asistencia humanitaria a la familia afectada.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 45.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 66.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 4.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 13.1,
+        "max_5km_mm": 15.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 3.7,
+        "max_5km_mm": 12.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620947036,
+    "periodos_retorno_m3s": {
+      "2": 168.8,
+      "5": 221.7,
+      "10": 256.7,
+      "25": 300.9,
+      "50": 333.8,
+      "100": 366.3
+    },
+    "caudal_simulado_dia_m3s": 99.47,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:41:52.000Z",
+  "pendiente": []
+}

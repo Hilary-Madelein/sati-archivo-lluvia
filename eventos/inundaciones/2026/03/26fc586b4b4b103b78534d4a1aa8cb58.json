@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "26fc586b4b4b103b78534d4a1aa8cb58",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Los Lojas (enrique Baquerizo Moreno)",
+    "sector": "Lomas de León y Junquillal",
+    "latitud": -1.9353,
+    "longitud": -79.924,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de cultivos de arroz. MAG realizó la inspección del evento.",
+    "personas_afectadas": 54,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 42.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 39.0,
+      "max_5km_mm": 59.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 44.4,
+        "max_5km_mm": 112.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:46.000Z",
+  "pendiente": []
+}

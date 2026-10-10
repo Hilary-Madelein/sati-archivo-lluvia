@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "9655936c9825c069887f0a662eadf3f4",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "05:00",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Cañaquemada",
+    "sector": "VARIOS SECTORES (CAÑAQUEMADA Y MALVALES)",
+    "latitud": -3.295763,
+    "longitud": -79.818222,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 05/03/2026, se registró inundación en la parroquia, donde se reportaron calles anegadas y varias viviendas afectadas por el ingreso de agua. Las familias afectadas realizaron la limpieza y evacuación del agua que afectaron las viviendas.",
+    "personas_afectadas": 140,
+    "viviendas_afectadas": 50,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:15.000Z",
+  "pendiente": []
+}

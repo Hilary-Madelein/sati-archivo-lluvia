@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2ebc3719c6e2f3c897fa13661cc42d0a",
+    "tipo": "Inundación",
+    "fecha": "2026-01-30",
+    "hora": "04:00",
+    "provincia": "Pastaza",
+    "canton": "Arajuno",
+    "parroquia": "Curaray",
+    "sector": "Comunidad Tzapino",
+    "latitud": -1.2194566265354434,
+    "longitud": -77.17007360314592,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada del 30/01/2026, se produjo una inundación a causa del desbordamiento del río Tzapino, lo que generó afectaciones a cultivos agrícolas en la comunidad Tzapino. Las familias afectadas en sus cultivos pernoctan en sus mismas viviendas, ya que no sufrieron afectaciones estructurales y el río Curaray está en su cauce normal. SNGR-CZ3, en coordinación con la NAWE, GADMIP Arajuno, Cuerpo de Bomberos Arajuno, SIS ECU 911, realizaron la entrega de asistencia humanitaria.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 42.0
+      },
+      "dia_anterior": {
+        "punto_mm": 68.0,
+        "max_5km_mm": 68.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 102.0,
+      "max_5km_mm": 113.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-30T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 21.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 13.9,
+        "max_5km_mm": 21.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620934650,
+    "periodos_retorno_m3s": {
+      "2": 92.3,
+      "5": 133.9,
+      "10": 161.4,
+      "25": 196.2,
+      "50": 222.0,
+      "100": 247.6
+    },
+    "caudal_simulado_dia_m3s": 24.56,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:26.000Z",
+  "pendiente": []
+}

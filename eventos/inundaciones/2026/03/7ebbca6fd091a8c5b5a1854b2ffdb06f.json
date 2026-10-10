@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "7ebbca6fd091a8c5b5a1854b2ffdb06f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "08:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Abraham Calazacon",
+    "sector": "Vía Quevedo, comité Unión Popular, Asentamiento Chilachito atrás de la Universidad Católica.",
+    "latitud": -0.26040902483061384,
+    "longitud": -79.19169282680627,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en horas de la mañana del 20/03/2026, se suscitó la inundación del sector, provocando el ingreso de agua a las viviendas. Al momento, las familias se encuentran en sus viviendas.\r\nPatronato Municipal del GAD Santo Domingo realizó la entrega de asistencia humanitaria.\r\nSNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 22,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 50.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 80.0,
+      "max_5km_mm": 93.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 33.6,
+        "max_5km_mm": 88.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 59.1,
+        "max_5km_mm": 94.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 64.2,
+        "max_5km_mm": 90.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:45.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

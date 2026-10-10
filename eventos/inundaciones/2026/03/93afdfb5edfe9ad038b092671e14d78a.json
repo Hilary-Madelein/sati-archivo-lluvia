@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "93afdfb5edfe9ad038b092671e14d78a",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "21:00",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Alluriquin",
+    "sector": "Barrio San Miguel.",
+    "latitud": -0.3219771763805717,
+    "longitud": -79.00096557176157,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 08/03/2026, se suscitó el desbordamiento de una quebrada S/N. Lo que provocó la inundación de las calles del sector.  Al momento no existe presencia de lluvias y las calles no están anegadas de agua. \r\nGAD Parroquial Alluriquín confirmó el evento.\r\nCuerpo de Bomberos avanzó al sitio y coordina maquinaria para la limpieza de la vía.\r\nSNGR mantiene el monitoreo de evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 24.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 70.1,
+        "max_5km_mm": 73.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 100.4,
+        "max_5km_mm": 112.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 75.0,
+        "max_5km_mm": 88.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064870,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:46:09.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

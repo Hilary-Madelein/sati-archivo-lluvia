@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "37faccbe4627162972283e454cd71f0e",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "03:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Ximena",
+    "sector": "Varios Sectores (Floresta 1, Av. Domingo Comín,  Roberto Serrano, Av 25 de Julio)",
+    "latitud": -2.243915621373045,
+    "longitud": -79.89539045474294,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada  del 23/02/2026, se reportó varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular. MINEDEC reportó la afectación de dos unidades educativas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 77.0,
+        "max_5km_mm": 112.0
+      },
+      "dia_anterior": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 39.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 69.0,
+        "max_5km_mm": 69.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 185.0,
+      "max_5km_mm": 220.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 39.2,
+        "max_5km_mm": 70.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 15.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670086442,
+    "periodos_retorno_m3s": {
+      "2": 13420.4,
+      "5": 17016.1,
+      "10": 19396.8,
+      "25": 22404.7,
+      "50": 24636.2,
+      "100": 26851.2
+    },
+    "caudal_simulado_dia_m3s": 10758.81,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:17.000Z",
+  "pendiente": []
+}

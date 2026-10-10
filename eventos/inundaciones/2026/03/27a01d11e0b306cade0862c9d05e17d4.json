@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "27a01d11e0b306cade0862c9d05e17d4",
+    "tipo": "Inundación",
+    "fecha": "2026-03-29",
+    "hora": "07:00",
+    "provincia": "Guayas",
+    "canton": "Balzar",
+    "parroquia": "Balzar",
+    "sector": "Recinto Salamina",
+    "latitud": -1.5123348366634837,
+    "longitud": -79.94391672883593,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas la madrugada del 29/03/2026, se produjo el desbordamiento de los esteros Junín y Salamina, lo que ocasionó el ingreso de agua a varias viviendas.  GAD Cantonal realizó el levantamiento de información. Los esteros Junín y Salamina se encuentran en su cauce normal.",
+    "personas_afectadas": 3342,
+    "viviendas_afectadas": 595,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 12.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-29T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-27T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 18.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075151,
+    "periodos_retorno_m3s": {
+      "2": 2397.0,
+      "5": 3160.7,
+      "10": 3666.3,
+      "25": 4305.1,
+      "50": 4779.0,
+      "100": 5249.5
+    },
+    "caudal_simulado_dia_m3s": 402.63,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:34:14.000Z",
+  "pendiente": []
+}

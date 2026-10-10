@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "8257db65ec45b43ea5329644a82a2acb",
+    "tipo": "Inundación",
+    "fecha": "2025-10-31",
+    "hora": "16:43",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "El Quinche",
+    "sector": "Inguiñaro, calle Esmeraldas",
+    "latitud": -0.128948,
+    "longitud": -78.295303,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se reportó el desbordamiento de un canal de riego, lo que ocasionó la inundación de una vivienda; en el lugar habita una persona de tercera edad que pernoctará en cada de un familiar de acogida (hijo). Adicional se reporta que el canal se encuentra en su cause normal y ya no existen lluvias en el sector.\r\nLa persona afectada se encuentra en su vivienda. Cuerpo de Bomberos apoyó en el desfogue de agua de la vivienda y GAD Cantonal realizó la evaluación de afectaciones y coordina la entrega de asistencia humanitaria.\r\nOperativo Zonal informa que se realiza el estudio socioeconómico para la activación de la activación del Fondo de Reposición de enceres para la familia afectada. Entrega según requerimiento.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 36.0,
+      "max_5km_mm": 38.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670047454,
+    "periodos_retorno_m3s": {
+      "2": 15.9,
+      "5": 22.8,
+      "10": 27.4,
+      "25": 33.2,
+      "50": 37.5,
+      "100": 41.8
+    },
+    "caudal_simulado_dia_m3s": 4.48,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:18.000Z",
+  "pendiente": []
+}

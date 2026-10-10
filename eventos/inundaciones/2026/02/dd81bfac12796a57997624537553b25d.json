@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "dd81bfac12796a57997624537553b25d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-08",
+    "hora": "21:00",
+    "provincia": "Manabí",
+    "canton": "Montecristi",
+    "parroquia": "Leonidas Proaño",
+    "sector": "Varios Sectores (Los Vergeles, Santa Cecilia, Calle Juan León Mera-Astros de la Iglesia Santísima Trinidad, Víctor Veliz.",
+    "latitud": -1.0166270820618946,
+    "longitud": -80.67715644836426,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas en horas de la noche del 08/02/2026, se suscitó la inundación en varios sectores de la Parroquia, causando afectación con ingreso de agua a varias viviendas.\r\nEl 11/02/2026 Mediante Evin Digital se actualizarón la cifras de afectacion.\r\n SNGR-CZ4 solventó las necesidades requeridas a las familias afectadas y damnificadas, mismas que se encuentran en sus viviendas.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 6,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 29.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 28.0,
+      "max_5km_mm": 38.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 8.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 35.3,
+        "max_5km_mm": 65.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 42.4,
+        "max_5km_mm": 65.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:49.000Z",
+  "pendiente": []
+}

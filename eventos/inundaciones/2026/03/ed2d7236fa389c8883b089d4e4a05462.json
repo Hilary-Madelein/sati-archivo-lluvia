@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ed2d7236fa389c8883b089d4e4a05462",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "04:00",
+    "provincia": "Los Ríos",
+    "canton": "Palenque",
+    "parroquia": "Palenque",
+    "sector": "LA REVEZA, AGUACATAL DE LAS GARZAS, SAN JOSÉ DE LA TRANCA, PICE, LIMONSILLO, VUELTA LARGA, SANTA LUCÍA , RÍO LA REVEZA",
+    "latitud": -1.432612,
+    "longitud": -79.750781,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 04/03/2026, se reporta el desbordamiento del río La Reveza, provocando el ingreso de agua en las viviendas, en donde se reportan 132 viviendas con 146 familias de 210 personas afectadas, 18 familias de 24 personas damnificadas, 74 ha afectadas (arroz, cacao, maíz), 50 ha de pérdida (arroz, cacao, maíz) con 74 productores, por lo que se toman en cuenta los valores levantados con el EVIN digital. UGR Palenque reporta que no existe presencia de agua en el sitio y que las familias permanecen en sus viviendas sin novedad alguna; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 210,
+    "viviendas_afectadas": 132,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 50.0
+      },
+      "dia_anterior": {
+        "punto_mm": 172.0,
+        "max_5km_mm": 189.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 32.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 233.0,
+      "max_5km_mm": 271.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 8.5,
+        "max_5km_mm": 10.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 5.2,
+        "max_5km_mm": 13.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 10.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670074125,
+    "periodos_retorno_m3s": {
+      "2": 2431.5,
+      "5": 2901.7,
+      "10": 3213.0,
+      "25": 3606.4,
+      "50": 3898.2,
+      "100": 4187.9
+    },
+    "caudal_simulado_dia_m3s": 2142.51,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:42.000Z",
+  "pendiente": []
+}

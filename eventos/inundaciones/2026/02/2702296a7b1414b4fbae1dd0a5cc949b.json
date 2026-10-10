@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2702296a7b1414b4fbae1dd0a5cc949b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "06:00",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "El Retiro",
+    "sector": "EL RETIRO",
+    "latitud": -3.3854,
+    "longitud": -79.9095,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada del 23/02/2026, se registró la inundación en la parroquia, ocasionando afectación a viviendas por el ingreso de agua y también al sector agrícola. El agua lluvia evacuó en su totalidad  y las familias se mantienen en sus viviendas y las familias afectadas y damnificadas recibieron asistencia humanitaria.",
+    "personas_afectadas": 270,
+    "viviendas_afectadas": 131,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 77.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 61.0,
+      "max_5km_mm": 78.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 15.7,
+        "max_5km_mm": 19.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670037334,
+    "periodos_retorno_m3s": {
+      "2": 171.1,
+      "5": 259.1,
+      "10": 317.4,
+      "25": 391.1,
+      "50": 445.7,
+      "100": 499.9
+    },
+    "caudal_simulado_dia_m3s": 47.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:37.000Z",
+  "pendiente": []
+}

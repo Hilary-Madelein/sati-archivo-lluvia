@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "ff5a71132fef1a8798fe6655d482de7f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "22:03",
+    "provincia": "El Oro",
+    "canton": "Portovelo",
+    "parroquia": "Portovelo",
+    "sector": "VARIOS SECTORES (28 DE NOVIEMBRE, LA FLORIDA, CDLA EL ORO, LAS MALVINAS, 14 DE ENERO, POLIDEPORTIVO Y PUENTE ROJO).",
+    "latitud": -3.732191,
+    "longitud": -79.628639,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Las lluvias registradas en la cuenca alta del río Amarillo provocaron su desbordamiento, generando inundaciones en viviendas y erosión en muros de contención en distintos sitios. Además, se reportó el colapso de una pared en una planta de beneficio de extracción minera, así como afectaciones en varios puentes (Puente Unión Portovejense, Puente ciudadela El Oro, Puente Rojo, Puente la Florida, Puente Negro). De igual manera, se identificaron grietas en el patio posterior de una vivienda, por lo que sus propietarios fueron evacuados de manera preventiva hacia una casa acogiente.<br>\r\nPlenaria del COE cantonal de Portovelo por unamidad de los miembros recomiendan al GAD Portovelo declarar emergencia Territorial en todo el cantón.\r\n Se informa que los puentes afectados fueron intervenidos por el GAD Cantonal de Portovelo y la empresa privada, quienes ejecutaron trabajos de reforzamiento en sus bases, quedando habilitados para el tránsito vehicular, como asi también ejecutaron acciones complementarias en las riberas del río Amarillo, el cual se encuentra dentro de sus parámetros normales. Las familias afectadas recibieron asistencia humanitaria por parte de la SNGR en fechas anteriores y actualmente permanecen en sus respectivos domicilios. En relación con la planta de beneficio afectada, el propietario asumió la rehabilitación de la pared comprometida.",
+    "personas_afectadas": 382,
+    "viviendas_afectadas": 153,
+    "personas_evacuadas": 200,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 50.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 51.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 15.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 3.2,
+        "max_5km_mm": 8.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 4.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:15.000Z",
+  "pendiente": []
+}

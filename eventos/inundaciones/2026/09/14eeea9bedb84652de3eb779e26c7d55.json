@@ -1,0 +1,101 @@
+{
+  "evento": {
+    "id": "14eeea9bedb84652de3eb779e26c7d55",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "20:50",
+    "provincia": "Guayas",
+    "canton": "Alfredo Baquerizo Moreno (jujan)",
+    "parroquia": "Alfredo Baquerizo Moreno (jujan)",
+    "sector": "Varios sectores Barrio Sur - callejón a la entrada de la unidad educativa Teodoro Alvarado Garaicoa - Coop Jujan y calles aledañas, calles por el Subcentro de Salud y por el Registro Civil",
+    "latitud": -1.91667,
+    "longitud": -79.51667,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde del 24/09/2026, se reportaron varios sectores con acumulación de agua. El agua que se acumuló en calles y avenidas ya se evacuó y la circulación volvió a la normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 14.3,
+        "max_5km_mm": 25.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 13.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 6.4,
+        "max_5km_mm": 15.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670034207,
+    "periodos_retorno_m3s": {
+      "2": 16.3,
+      "5": 22.8,
+      "10": 27.2,
+      "25": 32.7,
+      "50": 36.8,
+      "100": 40.8
+    },
+    "caudal_simulado_dia_m3s": 2.08,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260923",
+        "max_promedio_ensamble_m3s": 2.8,
+        "max_ensamble_m3s": 20.7,
+        "max_alta_resolucion_m3s": 4.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260922",
+        "max_promedio_ensamble_m3s": 3.5,
+        "max_ensamble_m3s": 54.7,
+        "max_alta_resolucion_m3s": 5.4
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:19:13.000Z",
+  "pendiente": []
+}

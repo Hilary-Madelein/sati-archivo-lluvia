@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "32f29c3f0a4c431731b63072b248a79f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "10:42",
+    "provincia": "El Oro",
+    "canton": "Piñas",
+    "parroquia": "Saracay",
+    "sector": "TAMARINDO, VÍA SARACAY - PIÑAS[E585]",
+    "latitud": -3.6558,
+    "longitud": -79.8052,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 04/03/2026, y  el taponamiento de una alcantarilla que atravieza bajo la vía de segundo orden, se registró inundación de una vivienda.  MIT realizó limpieza de alcantarilla, facilitando la evauación del agua represada. Además, se informa que en el domicilio no habitan personas, solo es usado para los fines de semana. Además, el agua represada evacuó sin ocasionar novedades  y la vía de segundo orden, se encuentra habilitada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 46.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 17.5,
+        "max_5km_mm": 31.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 88.8,
+        "max_5km_mm": 102.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 24.5,
+        "max_5km_mm": 36.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670018910,
+    "periodos_retorno_m3s": {
+      "2": 22.2,
+      "5": 34.6,
+      "10": 42.8,
+      "25": 53.1,
+      "50": 60.8,
+      "100": 68.4
+    },
+    "caudal_simulado_dia_m3s": 19.29,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:46.000Z",
+  "pendiente": []
+}

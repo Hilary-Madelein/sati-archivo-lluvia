@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "81468cf3ae42eb3bfb3a36910f4e1ac0",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Milagro Cabecera Cantonal",
+    "sector": "La Victoria",
+    "latitud": -2.102136,
+    "longitud": -79.5309,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación de cultivos de cacao. Se realizó la respectiva inspección de la novedad.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 17.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 108.0,
+        "max_5km_mm": 131.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 129.0,
+      "max_5km_mm": 155.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 2.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 21.8,
+        "max_5km_mm": 31.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 11.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:36.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ee6672febca516cba56e1555aff244e3",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "08:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "Junquillal",
+    "sector": "Recinto Santa Ana",
+    "latitud": -1.719951740254909,
+    "longitud": -79.80997318240429,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones de la madrugada del 03/03/2026, el incremento del río Pula provocó su desbordamiento, generando acumulación e ingreso de agua en viviendas. \r\n GAD Cantonal indicó que las familias afectadas realizaron las debidas limpiezas y siguieron pernoctando en sus respectivos inmuebles. El río Pula se encuentra en su cauce normal.",
+    "personas_afectadas": 689,
+    "viviendas_afectadas": 150,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 199.0,
+        "max_5km_mm": 207.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 140.0,
+        "max_5km_mm": 147.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 362.0,
+      "max_5km_mm": 380.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 29.7,
+        "max_5km_mm": 41.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 7.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 16.8,
+        "max_5km_mm": 32.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670034200,
+    "periodos_retorno_m3s": {
+      "2": 16.2,
+      "5": 24.0,
+      "10": 29.2,
+      "25": 35.8,
+      "50": 40.6,
+      "100": 45.4
+    },
+    "caudal_simulado_dia_m3s": 18.23,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:43.000Z",
+  "pendiente": []
+}

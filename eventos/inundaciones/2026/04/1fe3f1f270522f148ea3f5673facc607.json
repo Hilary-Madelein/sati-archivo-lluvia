@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1fe3f1f270522f148ea3f5673facc607",
+    "tipo": "Inundación",
+    "fecha": "2026-04-19",
+    "hora": "14:34",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Urdesa - Laureles entre Costanera y Jorge Pérez Concha",
+    "latitud": -2.163409,
+    "longitud": -79.916436,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas en la tarde del 19/04/2026, se reportó la inundación de un parqueadero subterráneo donde habita una familia, resultando afectada por el ingreso de agua. GAD Cantonal, en coordinación con Segura EP, gestionó el apoyo de Interagua para la extracción del agua acumulada.\r\n Mediante EVIN, el GAD Cantonal informa que la familia damnificada se encuentra en su mismo inmueble.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-19T07:00:00.000Z",
+        "punto_mm": 21.4,
+        "max_5km_mm": 21.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-18T07:00:00.000Z",
+        "punto_mm": 7.9,
+        "max_5km_mm": 7.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-17T07:00:00.000Z",
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670080296,
+    "periodos_retorno_m3s": {
+      "2": 3356.8,
+      "5": 4491.9,
+      "10": 5243.4,
+      "25": 6192.9,
+      "50": 6897.3,
+      "100": 7596.5
+    },
+    "caudal_simulado_dia_m3s": 463.69,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:30:46.000Z",
+  "pendiente": []
+}

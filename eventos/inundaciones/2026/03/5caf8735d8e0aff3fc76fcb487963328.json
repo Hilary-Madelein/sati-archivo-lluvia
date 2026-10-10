@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5caf8735d8e0aff3fc76fcb487963328",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "13:30",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Yanuncay",
+    "sector": "Centro De Educación Inicial La Cometa, Centro De Educación Inicial Abc, Escuela De Educación Básica Francisca Arízaga T, Escuela De Educación Básica Ignacio Escandón, Unidad Educativa San Juan De Jerusalén, Unidad Educativa Particular",
+    "latitud": -2.912071,
+    "longitud": -79.01794,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC informa que, por causa de las lluvias de la tarde del 12/03/2026, se registró el desbordamiento del río Yanuncay, resultado del mismo, inundación de calles de diferentes sectores del cantón, lo que obligó a suspender clases presenciales en diferentes unidades educativas  por seguridad de los alumnos. El caudal retornó a la normalidad. MINEDEC informa que, por causa de las lluvias de la tarde del 12/03/2026, se registró el desbordamiento del río Yanuncay, resultado del mismo, inundación de calles de diferentes sectores del cantón, lo que obligó a suspender clases presenciales en diferentes unidades educativas  por seguridad de los alumnos. El caudal retornó a la normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 35.0,
+      "max_5km_mm": 46.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 11.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 5.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 9.5,
+        "max_5km_mm": 21.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620914102,
+    "periodos_retorno_m3s": {
+      "2": 81.6,
+      "5": 118.1,
+      "10": 142.2,
+      "25": 172.7,
+      "50": 195.4,
+      "100": 217.8
+    },
+    "caudal_simulado_dia_m3s": 50.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:41:05.000Z",
+  "pendiente": []
+}

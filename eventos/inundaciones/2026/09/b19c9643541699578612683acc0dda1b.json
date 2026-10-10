@@ -1,0 +1,94 @@
+{
+  "evento": {
+    "id": "b19c9643541699578612683acc0dda1b",
+    "tipo": "Inundación",
+    "fecha": "2026-09-29",
+    "hora": "18:33",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Esmeraldas",
+    "sector": "Isla Luis Vargas Torres, Isla Roberto Luis Cervantes e Isla Pianguapí",
+    "latitud": 0.96669431754,
+    "longitud": -79.647222422,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante el 29/09/2026, se produjo el desbordamiento del río Esmeraldas, generando inundaciones en los sectores Isla Luis Vargas Torres e Isla Roberto Luis Cervantes.\r\n\r\n 06/10/2026 | El río Esmeraldas ya no se encuentra desbordado y presenta tendencia a aumentar de nivel. Los sectores afectados presentan acumulación de lodo. Las familias afectadas no se encuentran pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas. El GAD Cantonal de Esmeraldas no ha informado nuevas acciones ni actualizaciones del levantamiento de información. SNGR se encuentra planificando la entrega de asistencia humanitaria. Al momento se registran lluvias débiles.",
+    "personas_afectadas": 1873,
+    "viviendas_afectadas": 1000,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 37.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 31.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 4.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049462,
+    "periodos_retorno_m3s": {
+      "2": 15.3,
+      "5": 26.8,
+      "10": 34.4,
+      "25": 44.0,
+      "50": 51.1,
+      "100": 58.2
+    },
+    "caudal_simulado_dia_m3s": 2.13,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 5.9,
+        "max_ensamble_m3s": 12.5,
+        "max_alta_resolucion_m3s": 5.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:13:02.000Z",
+  "pendiente": []
+}

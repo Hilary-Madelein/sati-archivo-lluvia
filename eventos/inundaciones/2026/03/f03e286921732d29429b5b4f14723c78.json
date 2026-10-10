@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f03e286921732d29429b5b4f14723c78",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "21:00",
+    "provincia": "Imbabura",
+    "canton": "Ibarra",
+    "parroquia": "San Antonio",
+    "sector": "UNIDAD EDUCATIVA VÍCTOR MIDEROS ALMEIDA",
+    "latitud": 0.334,
+    "longitud": -78.17,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes precipitaciones presentadas el 08/03/2026, se reportó el ingreso de agua a las oficinas del rectorado y sala de profesores de la U.E. Víctor Mideros. MINEDEC realizó el levantamiento de información, limpieza y evacuación del agua de las oficinas afectadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 8.0,
+      "max_5km_mm": 12.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 21.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 10.7,
+        "max_5km_mm": 39.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 26.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670032077,
+    "periodos_retorno_m3s": {
+      "2": 9.4,
+      "5": 12.8,
+      "10": 15.1,
+      "25": 17.9,
+      "50": 20.0,
+      "100": 22.1
+    },
+    "caudal_simulado_dia_m3s": 4.65,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:33.000Z",
+  "pendiente": []
+}

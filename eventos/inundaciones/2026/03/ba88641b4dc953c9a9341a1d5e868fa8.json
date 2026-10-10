@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ba88641b4dc953c9a9341a1d5e868fa8",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "18:31",
+    "provincia": "Loja",
+    "canton": "Calvas",
+    "parroquia": "Cariamanga",
+    "sector": "Varios sectores",
+    "latitud": -4.325864716082134,
+    "longitud": -79.56056002653114,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la tarde del 10/03/2026 se produjo la acumulación de aguas lluvias en las calles provocando la inundación en el sector.\r\n Técnico de UGR Calvas continúa con el levantamiento de información para confirmar cifras de afectaciones",
+    "personas_afectadas": 25,
+    "viviendas_afectadas": 7,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 24.0,
+      "max_5km_mm": 27.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 22.3,
+        "max_5km_mm": 61.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 27.9,
+        "max_5km_mm": 81.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 35.4,
+        "max_5km_mm": 113.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670052727,
+    "periodos_retorno_m3s": {
+      "2": 14.0,
+      "5": 19.2,
+      "10": 22.6,
+      "25": 26.9,
+      "50": 30.2,
+      "100": 33.4
+    },
+    "caudal_simulado_dia_m3s": 8.27,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:43:40.000Z",
+  "pendiente": []
+}

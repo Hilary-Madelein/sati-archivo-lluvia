@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b361c9a118def8adb82ff7187dd015d9",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "16:36",
+    "provincia": "Manabí",
+    "canton": "Puerto Lopez",
+    "parroquia": "Puerto Lopez",
+    "sector": "Varios Sectores",
+    "latitud": -1.5573240719280874,
+    "longitud": -80.81181943416595,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas se vieron afectadas varias UE Se coordinó la atencion del evento con MINEDEC, quienes gestionaron actividades de limpieza y reparación de la infraestructura",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 46.0
+      },
+      "dia_anterior": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 27.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 116.0,
+      "max_5km_mm": 120.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 35.9,
+        "max_5km_mm": 47.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057745,
+    "periodos_retorno_m3s": {
+      "2": 42.9,
+      "5": 94.3,
+      "10": 128.4,
+      "25": 171.4,
+      "50": 203.3,
+      "100": 234.9
+    },
+    "caudal_simulado_dia_m3s": 1.56,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:06:16.000Z",
+  "pendiente": []
+}

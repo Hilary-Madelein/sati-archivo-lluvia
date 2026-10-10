@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "cad7c73b1ce48fe12295db778d1587d1",
+    "tipo": "Inundación",
+    "fecha": "2026-04-05",
+    "hora": "17:20",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "San Antonio",
+    "sector": "Av. Equinoccial",
+    "latitud": -0.007813,
+    "longitud": -78.447472,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de la tarde de hoy, se produjo inundación en la vía de segundo orden, la cual se encentraba parcialmente habilitada. Al momento, la vía completamente habilitada. Cuerpo de Bomberos de Quito confirmó la emergencia y brinda apoyo en el lugar e hizo una inspección en el lugar, sin reporte de afectaciones a viviendas.\r\nEPMAPS realizó los trabajos de limpieza del alcantarillado y evacuación de agua de la vía.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 11.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-05T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-04T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-03T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 2.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069980,
+    "periodos_retorno_m3s": {
+      "2": 64.6,
+      "5": 78.4,
+      "10": 87.5,
+      "25": 99.1,
+      "50": 107.7,
+      "100": 116.2
+    },
+    "caudal_simulado_dia_m3s": 18.64,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:04.000Z",
+  "pendiente": []
+}

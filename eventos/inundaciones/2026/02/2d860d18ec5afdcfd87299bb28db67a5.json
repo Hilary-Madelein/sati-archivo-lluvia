@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2d860d18ec5afdcfd87299bb28db67a5",
+    "tipo": "Inundación",
+    "fecha": "2026-02-20",
+    "hora": "02:30",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Recinto La Unión",
+    "latitud": -2.2666729365291802,
+    "longitud": -79.82691337009646,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas la noche del 19/02/2026, se produjo acumulación de agua en varias viviendas del sector mencionado. UPREA realizó la entrega de asistencia humanitaria eh indica  que familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 985,
+    "viviendas_afectadas": 180,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 63.0,
+        "max_5km_mm": 64.0
+      },
+      "dia_anterior": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 130.0,
+        "max_5km_mm": 155.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 232.0,
+      "max_5km_mm": 266.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 4.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 5.1,
+        "max_5km_mm": 7.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 5.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065963,
+    "periodos_retorno_m3s": {
+      "2": 116.7,
+      "5": 185.3,
+      "10": 230.8,
+      "25": 288.2,
+      "50": 330.8,
+      "100": 373.1
+    },
+    "caudal_simulado_dia_m3s": 41.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:02:58.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "91308763ee068eb175f516d45812a372",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "04:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "La Union",
+    "sector": "LA PUNTILLA, RCTO. SAN RAFAEL, RCTO. SAN CLEMENTE, RCTO. LOS ROBLES, LAS MALVINAS, RÍO LA CLEMENTINA",
+    "latitud": -1.707947,
+    "longitud": -79.3945211,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias registradas durante la madrugada del 07/10/2026, se reportó el desbordamiento del río Clementina,  el mismo que deja a 8 familias con 30 personas afectadas, 8 viviendas afectadas con cultivos afectados en evaluación. Jefe Político de Babahoyo realizó barrido con verificación de novedades en la zona afectada y SNGR consolidó la información receptada y se coordina con MDEP para el levantamiento de MAAPEA. Actualmente las familias afectadas se mantienen en sus viviendas con presencia leve de agua, en donde el nivel del río Clementina se encuentra actualmente con tendencia a disminuir de nivel y se visualiza afectaciones a cultivos.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 51.0,
+        "max_5km_mm": 55.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 87.0,
+      "max_5km_mm": 92.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 4.8,
+        "max_5km_mm": 16.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 7.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 9.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670030103,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261005",
+        "max_promedio_ensamble_m3s": 8.0,
+        "max_ensamble_m3s": 103.8,
+        "max_alta_resolucion_m3s": 19.3
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:25.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

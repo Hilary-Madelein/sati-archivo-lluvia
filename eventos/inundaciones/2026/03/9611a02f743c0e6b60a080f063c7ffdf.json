@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "9611a02f743c0e6b60a080f063c7ffdf",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "14:21",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "RCTO. EL DESQUITE, RÍO BABAHOYO",
+    "latitud": -1.816526,
+    "longitud": -79.560361,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Como consecuencia del desbordamiento del río Babahoyo, una vivienda resultó inundada. En este contexto, un ciudadano de 58 años intentó apagar una bomba de agua que se encontraba en funcionamiento dentro del inmueble anegado. Durante la maniobra, sufrió una descarga eléctrica, lo que provocó que cayera al agua acumulada en el lugar. Posteriormente, un familiar trasladó al ciudadano al Hospital General Martín Icaza, donde el personal médico confirmó que ingresó sin signos vitales, ratificando el fallecimiento del ciudadano de sexo masculino y 1 animal muerto (bovino) de 1 productor (1 familia de 4 personas afectadas). DINASEC de PPNN colaboró con el levantamiento del cadáver. MSP colaboró con reporte del occiso. SNGR realizó consolidación y reconfirmación del occiso con puntos focales. Los familiares se encuentran en la morgue realizando el papeleo para el retiro del occiso. MAGP realizó levantamiento de MAAPEA, el mismo que actualmente no cuenta con novedades en el sitio con presencia de agua; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 1
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 57.0
+      },
+      "dia_anterior": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 126.0,
+        "max_5km_mm": 126.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 217.0,
+      "max_5km_mm": 221.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 54.3,
+        "max_5km_mm": 54.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 68.3,
+        "max_5km_mm": 96.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 44.6,
+        "max_5km_mm": 111.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060827,
+    "periodos_retorno_m3s": {
+      "2": 326.3,
+      "5": 459.4,
+      "10": 547.6,
+      "25": 658.9,
+      "50": 741.6,
+      "100": 823.6
+    },
+    "caudal_simulado_dia_m3s": 87.05,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:21.000Z",
+  "pendiente": []
+}

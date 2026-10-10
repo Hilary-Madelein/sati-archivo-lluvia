@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f546754d47eb13a9f5289e424d1584f9",
+    "tipo": "Inundación",
+    "fecha": "2026-08-29",
+    "hora": "06:38",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Majua",
+    "sector": "Isla San Juan.",
+    "latitud": 0.7031185127143664,
+    "longitud": -79.54098701600296,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las precipitaciones del 29/08/2026, se generó una inundación en la isla San Juan de Majua. 18/09/2026 GAD Parroquial de Majua informa que el sector ya no presenta anegamiento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 22.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-08-29T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-08-28T07:00:00.000Z",
+        "punto_mm": 8.3,
+        "max_5km_mm": 13.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-08-27T07:00:00.000Z",
+        "punto_mm": 20.2,
+        "max_5km_mm": 40.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066879,
+    "periodos_retorno_m3s": {
+      "2": 38.9,
+      "5": 57.8,
+      "10": 70.4,
+      "25": 86.2,
+      "50": 97.9,
+      "100": 109.6
+    },
+    "caudal_simulado_dia_m3s": 1.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:20:58.000Z",
+  "pendiente": []
+}

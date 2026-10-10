@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "52aa1dcce27a846bfb0b67b6d44318c6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "03:00",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Laurel",
+    "sector": "Aguas Blancas y La Revesa",
+    "latitud": -1.778,
+    "longitud": -79.914,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG indicó sobe la destrucción de cultivos de arroz.  MAG realizó la insección.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 64.0,
+        "max_5km_mm": 70.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 125.0,
+        "max_5km_mm": 150.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 193.0,
+      "max_5km_mm": 224.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 2.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:36.000Z",
+  "pendiente": []
+}

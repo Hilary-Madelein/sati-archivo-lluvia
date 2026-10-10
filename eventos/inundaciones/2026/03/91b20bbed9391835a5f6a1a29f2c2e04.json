@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "91b20bbed9391835a5f6a1a29f2c2e04",
+    "tipo": "Inundación",
+    "fecha": "2026-03-13",
+    "hora": "15:00",
+    "provincia": "Azuay",
+    "canton": "Santa Isabel",
+    "parroquia": "Santa Isabel (chaguarurco)",
+    "sector": "Andatalia, Jubones y Sulupali Grande",
+    "latitud": -3.33742,
+    "longitud": -79.31656,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias se suscitó el desbordamiento del río Jubones, afectando cultivos del sector (yuca, camote, mango, kikuyo, cacao, limón, plátano, maíz, lechuga, caña de azúcar, pasto), el caudal del río ha retornado a su cauce normal. MAG realizó levantamiento de información. \r\n\r\n Por causa de las lluvias se suscitó el desbordamiento del río Jubones, afectando cultivos del sector (yuca, camote, mango, kikuyo, cacao, limón, plátano, maíz, lechuga, caña de azúcar, pasto), el caudal del río ha retornado a su cauce normal. MAG realizó levantamiento de información.",
+    "personas_afectadas": 48,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 20.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 56.0,
+      "max_5km_mm": 64.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 5.9,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 1.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 3.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670020947,
+    "periodos_retorno_m3s": {
+      "2": 172.1,
+      "5": 230.7,
+      "10": 269.6,
+      "25": 318.7,
+      "50": 355.1,
+      "100": 391.2
+    },
+    "caudal_simulado_dia_m3s": 90.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:39:39.000Z",
+  "pendiente": []
+}

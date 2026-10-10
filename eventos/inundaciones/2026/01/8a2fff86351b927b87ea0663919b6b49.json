@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "8a2fff86351b927b87ea0663919b6b49",
+    "tipo": "Inundación",
+    "fecha": "2026-01-27",
+    "hora": "22:13",
+    "provincia": "Zamora Chinchipe",
+    "canton": "El Pangui",
+    "parroquia": "Pachicutza",
+    "sector": "Varios sectores (San Roque, Buena Fé, La Delicia y Catacocha)",
+    "latitud": -3.699561,
+    "longitud": -78.601341,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto a lluvias suscitadas en la noche del 27/01/2026, se produjo una inundación en varios sectores de la parroquia Pachicutza; afectando a varias familias, servicios básicos, bienes públicos y privados y obstaculizando en su totalidad las vías de primer y tercer orden. \r\nCOE Cantonal El Pangui ha finalizado\r\n UGR Pangui indicó que la activación del COE a finalizado; las familias afectadas continúan en sus viviendas, los servicios básicos  (agua potable, alcantarillado, transporte público energía eléctrica ) han sido restablecidos en su totalidad y las vías de primer y tercer orden se encuentran habilitadas.\r\n1.5 hectáreas de cultivos de Cacao Ramilla y Guanabana afectados\r\n1 hectárea de cultivos de Cacao Ramilla y Guanabana destruidos",
+    "personas_afectadas": 240,
+    "viviendas_afectadas": 9,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 50.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 72.0,
+      "max_5km_mm": 82.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 16.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 621064130,
+    "periodos_retorno_m3s": {
+      "2": 1081.7,
+      "5": 1431.4,
+      "10": 1662.9,
+      "25": 1955.4,
+      "50": 2172.4,
+      "100": 2387.8
+    },
+    "caudal_simulado_dia_m3s": 457.97,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:31.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d64f9ed4317c40abdd38b323139cd6c9",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "06:07",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "San Jacinto De Yaguachi",
+    "sector": "Varios sectores (Villa Mercedes, 24 de Mayo y Santo Tomás)",
+    "latitud": -1.979168923,
+    "longitud": -79.6450995,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se reportó la destrucción de cultivos de 30 hectáreas de cultivos de arroz, con un total de $19.000 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 60,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 39.0
+      },
+      "dia_anterior": {
+        "punto_mm": 70.0,
+        "max_5km_mm": 81.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 114.0,
+      "max_5km_mm": 127.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 8.1,
+        "max_5km_mm": 11.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670023971,
+    "periodos_retorno_m3s": {
+      "2": 17.4,
+      "5": 24.9,
+      "10": 29.9,
+      "25": 36.3,
+      "50": 40.9,
+      "100": 45.6
+    },
+    "caudal_simulado_dia_m3s": 3.45,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:42:49.000Z",
+  "pendiente": []
+}

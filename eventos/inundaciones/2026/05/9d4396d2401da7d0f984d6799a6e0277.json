@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "9d4396d2401da7d0f984d6799a6e0277",
+    "tipo": "Inundación",
+    "fecha": "2026-05-24",
+    "hora": "07:00",
+    "provincia": "Sucumbíos",
+    "canton": "Putumayo",
+    "parroquia": "Puerto El Carmen (cabecera Cantonal)",
+    "sector": "Barrio El Recreo",
+    "latitud": 0.118,
+    "longitud": -75.873,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas durante el 23/05/2026 se produjo el incremento del caudal en la cuenca del río Putumayo, ingresando el agua en algunas viviendas que se encuentran en la ribera. El río Putumayo se encuentra con tendencia del caudal normal. \r\nCabe mencionar que este evento se da todos los años debido a la mala ubicación de este Barrio, se ha realizado las gestiones necesarias para reubicarlos siendo nula la respuesta de los pobladores.\r\nGAD Cantonal Putumayo UGR informa que una vez que desciendo totalmente el nivel del agua, se movilizó a realizar el levantamiento de información en el que determina: las viviendas afectadas no han tenido pérdidas materiales, sin embargo realizaron el EVIN y se creó el evento lluvias intensas en el que se visualizó daños en la infraestructura de las viviendas. \r\nCuerpo de Bomberos realizó constantes inspecciones verificando posibles daños materiales y/o estructurales.\r\nGad Cantonal Putumayo convoca a reunión de COE para coordinar acciones de respuesta.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 4.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-23T07:00:00.000Z",
+        "punto_mm": 5.5,
+        "max_5km_mm": 7.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-22T07:00:00.000Z",
+        "punto_mm": 5.0,
+        "max_5km_mm": 18.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620945586,
+    "periodos_retorno_m3s": {
+      "2": 2861.3,
+      "5": 3540.5,
+      "10": 3990.2,
+      "25": 4558.4,
+      "50": 4979.9,
+      "100": 5398.3
+    },
+    "caudal_simulado_dia_m3s": 1221.94,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:25:46.000Z",
+  "pendiente": []
+}

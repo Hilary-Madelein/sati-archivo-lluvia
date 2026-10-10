@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b8abdd0a1c3174c7d962e47247511735",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "08:20",
+    "provincia": "Carchi",
+    "canton": "Bolívar",
+    "parroquia": "Bolivar",
+    "sector": "Unidad Educativa 27 de Febrero",
+    "latitud": 0.4543,
+    "longitud": -77.8724,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Como consecuencia de las precipitaciones registradas el 23/02/2026, se presenta una filtración de agua a través de la cubierta (losa) del Bloque Administrativo, dando lugar al desprendimiento del enlucido, posiblemente por un proceso de deterioro en el sistema de impermeabilización. MINEDEC realizó el levantamiento de información y ejecutará los trabajos de reparación de la filtración y saturación del enlucido afectado en la losa del Bloque Administrativo, contando con el presupuesto fiscal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 15.7,
+        "max_5km_mm": 36.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 15.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 4.2,
+        "max_5km_mm": 11.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670080200,
+    "periodos_retorno_m3s": {
+      "2": 126.6,
+      "5": 166.7,
+      "10": 193.3,
+      "25": 226.8,
+      "50": 251.7,
+      "100": 276.4
+    },
+    "caudal_simulado_dia_m3s": 76.9,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:17.000Z",
+  "pendiente": []
+}

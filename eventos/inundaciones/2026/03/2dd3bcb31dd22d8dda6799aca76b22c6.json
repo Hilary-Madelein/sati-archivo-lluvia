@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2dd3bcb31dd22d8dda6799aca76b22c6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-06",
+    "hora": "08:36",
+    "provincia": "Guayas",
+    "canton": "Palestina",
+    "parroquia": "Palestina",
+    "sector": "Varios Sectores (Sector San Ramón, Rincón de las Cañas, Picadura, Corona de Adentro y Las Cañas)",
+    "latitud": -1.619267,
+    "longitud": -79.974691,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas durante la madrugada del 06/03/2026, se registraron inundaciones en el sector. El GAD Cantonal indicó que las familias afectadas realizaron las debidas limpiezas y siguieron pernoctando en sus respectivos inmuebles.\r\n Prefectura de Guayas realizó la entrega de asistencia humanitaria. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 835,
+    "viviendas_afectadas": 230,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 41.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 57.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 8.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 8.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 24.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670043411,
+    "periodos_retorno_m3s": {
+      "2": 20.2,
+      "5": 30.3,
+      "10": 37.0,
+      "25": 45.4,
+      "50": 51.7,
+      "100": 57.9
+    },
+    "caudal_simulado_dia_m3s": 3.17,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:48:02.000Z",
+  "pendiente": []
+}

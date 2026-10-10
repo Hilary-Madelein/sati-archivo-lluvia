@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7810d703fcc3da6bfa9ebe635577638d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-10",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "RCTO. LA MARITZA - SAN PABLO",
+    "latitud": -1.850855,
+    "longitud": -79.397044,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 10/02/2026 se reportó desbordamiento del río San Pablo con ingreso de agua a 158 viviendas de 125 familias con 361 personas afectadas y 33 familias de 94 personas damnificadas  UGR Montalvo realizó barrido en la zona afectada el 18/02/2026, actualmente el caudal se encuentra con tendencia a aumentar de nivel, no existe presencia de agua en las viviendas y las familias continúan en sus hogares, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 361,
+    "viviendas_afectadas": 158,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 62.0,
+        "max_5km_mm": 79.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 39.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 100.0,
+      "max_5km_mm": 121.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-10T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 7.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670051613,
+    "periodos_retorno_m3s": {
+      "2": 60.7,
+      "5": 78.8,
+      "10": 90.8,
+      "25": 106.0,
+      "50": 117.2,
+      "100": 128.4
+    },
+    "caudal_simulado_dia_m3s": 11.8,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:06:03.000Z",
+  "pendiente": []
+}

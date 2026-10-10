@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "a3e3b9e7053426f675e5aa7dccaae9cc",
+    "tipo": "Inundación",
+    "fecha": "2026-02-27",
+    "hora": "20:05",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Chongón",
+    "sector": "Eloy Alfaro",
+    "latitud": -2.226874,
+    "longitud": -80.084719,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las últimas precipitaciones registradas el 27/02/2026, se reportaron varias viviendas inundadas, debido a la formación de canales de drenaje que conducen el agua desde las partes altas hacia las viviendas del sector. GAD Cantonal indica que la familia afectada permanece en el mismo inmueble.",
+    "personas_afectadas": 16,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 55.0,
+        "max_5km_mm": 59.0
+      },
+      "dia_anterior": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 22.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 77.0,
+      "max_5km_mm": 85.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 91.2,
+        "max_5km_mm": 100.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 21.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 41.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:36.000Z",
+  "pendiente": []
+}

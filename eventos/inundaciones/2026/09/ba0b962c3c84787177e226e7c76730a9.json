@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "ba0b962c3c84787177e226e7c76730a9",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "04:00",
+    "provincia": "Manabí",
+    "canton": "Jipijapa",
+    "parroquia": "Julcuy",
+    "sector": "Recinto Los Laureles.",
+    "latitud": -1.4793310585437556,
+    "longitud": -80.6324898503399,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias suscitadas la madrugada del 27/09/2026. Se produjo el incremento de caudal de la quebrada sin nombre, ocasionando inundación y afectación de una vivienda. UGR GAD Cantonal está a la espera de entrega de AH.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 24.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 7.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044432,
+    "periodos_retorno_m3s": {
+      "2": 26.4,
+      "5": 46.9,
+      "10": 60.4,
+      "25": 77.6,
+      "50": 90.3,
+      "100": 102.9
+    },
+    "caudal_simulado_dia_m3s": 0.21,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 3.6,
+        "max_ensamble_m3s": 17.8,
+        "max_alta_resolucion_m3s": 1.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 0.9,
+        "max_ensamble_m3s": 8.7,
+        "max_alta_resolucion_m3s": 0.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 2.5,
+        "max_ensamble_m3s": 27.5,
+        "max_alta_resolucion_m3s": 0.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:15:42.000Z",
+  "pendiente": []
+}

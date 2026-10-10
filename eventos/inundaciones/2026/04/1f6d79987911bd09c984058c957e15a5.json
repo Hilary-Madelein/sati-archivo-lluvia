@@ -1,0 +1,71 @@
+{
+  "evento": {
+    "id": "1f6d79987911bd09c984058c957e15a5",
+    "tipo": "Inundación",
+    "fecha": "2026-04-16",
+    "hora": "21:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Bomboli",
+    "sector": "Bomboli-Ciudad nueva calle Julio Zabaleta y Marcos Gonzales.",
+    "latitud": -0.25336574591489985,
+    "longitud": -79.1962849445939,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias, se suscitó el desbordamiento del estero del sector S/N, provocando la anegación de agua en las calles.  Al momento, la familia se encuentra en la vivienda.\r\n21/04/2026: El Patronato Municipal Sto. Domingo realizó la evaluación de daños y necesidades, indicando que en el sector existen viviendas sin habitar, por lo que no hubo más familias afectadas. 07/05/2026 Patronato Municipal realizó la entrega de un kit de alimentos a una familia.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 49.0
+      },
+      "dia_anterior": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 52.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 35.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 119.0,
+      "max_5km_mm": 136.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-16T07:00:00.000Z",
+        "punto_mm": 44.0,
+        "max_5km_mm": 97.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 15.4,
+        "max_5km_mm": 21.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059745,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:31:21.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "fec3c594769ae09c90e8fda9938bbe07",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "08:00",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Sabanilla",
+    "sector": "Sector Bachillero y La Pamela, El Jebe",
+    "latitud": -1.8658330805577221,
+    "longitud": -80.20117162963653,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la mañana del 05/03/2026, se produjo acumulación de agua, lo que ocasionó que varias viviendas se vieran afectadas con el ingreso de agua. GAD Cantonal indica que las familias afectadas y damnificadas se mantienen en sus respectivos inmuebles. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 180,
+    "viviendas_afectadas": 115,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 31.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 80.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 11.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:05.000Z",
+  "pendiente": []
+}

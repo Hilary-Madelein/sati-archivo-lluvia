@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "2e0f2d74ccfb9cef90e94ee639f70b72",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "05:00",
+    "provincia": "Pastaza",
+    "canton": "Arajuno",
+    "parroquia": "Arajuno",
+    "sector": "Nushino Ishpingo",
+    "latitud": -1.213911,
+    "longitud": -77.568392,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas la madrugada del 25/02/2026, se produjo el desbordamiento del río Nushino provocando inundación que afectó cultivos del sector.  Al momento el río Nushino se encuentra en su cauce normal, se procede a actualizar las cifras de afectaciones con la matriz MAAPEA\r\nMAGP realizó el levantamiento de la matriz MAAPEA y brindó asesoramiento técnico a las familias afectadas en sus cultivos.",
+    "personas_afectadas": 166,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 88.0,
+        "max_5km_mm": 89.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 136.0,
+      "max_5km_mm": 145.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 2.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 23.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 13.6,
+        "max_5km_mm": 20.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:41.000Z",
+  "pendiente": []
+}

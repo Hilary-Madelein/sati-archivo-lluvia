@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "9e8547902e0b2be24403c608fc8e1cc8",
+    "tipo": "Inundación",
+    "fecha": "2025-11-21",
+    "hora": "16:50",
+    "provincia": "Carchi",
+    "canton": "Tulcán",
+    "parroquia": "Tulcan",
+    "sector": "Barrio Servir es Amar 2, Parque del Ocho, Ciudadela Atahualpa, Las Tejerías y Barrio Nuevo Amanecer",
+    "latitud": 0.8051,
+    "longitud": -77.7315,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las fuertes lluvias registradas en horas de la tarde del 21/11/2025, se registró la acumulación de agua en las vías de segundo orden por el taponamiento de sumideros y alcantarillas, adicional, en el Barrio Servir es Amar 2 se registró el ingreso de agua a la vivienda causando pérdidas materiales.  Cuerpo de Bomberos Tulcán realizó los trabajos de limpieza de sumideros y alcantarillas con apoyo de personal de EPMAPAT. \r\nGAD Cantonal Tulcán OOPP ejecutó los trabajos de remoción de escombros.\r\nGAD Cantonal Tulcán UGR levantó el informe EVIN determinando daños materiales producto del ingreso agua. \r\nGAD Cantonal Tulcán, GAD Provincial del Carchi realizaron la entrega de asistencia humanitaria a la familia afectada. \r\nMediante el Oficio No. 646-ALC-GADMT-2025, el Sr. Alcalde del cantón solicitó a la SNGR la entrega de asistencia humanitaria a la familia afectada, la SNGR procedió a realizar la respectiva entrega.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 17.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076091,
+    "periodos_retorno_m3s": {
+      "2": 39.9,
+      "5": 51.4,
+      "10": 59.0,
+      "25": 68.6,
+      "50": 75.7,
+      "100": 82.8
+    },
+    "caudal_simulado_dia_m3s": 12.45,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:34.000Z",
+  "pendiente": []
+}

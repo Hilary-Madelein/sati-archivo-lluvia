@@ -1,0 +1,71 @@
+{
+  "evento": {
+    "id": "17aeeb60aeb90c7d1d7da149190f401d",
+    "tipo": "Inundación",
+    "fecha": "2026-04-15",
+    "hora": "05:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrios Julio Llori, Luis Guerra",
+    "latitud": -0.4550579404147,
+    "longitud": -77.002281521565,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas desde aproximadamente las 11:30 del 14/04/2026 hasta la mañana del 15/04/2026, la estación EC00120 de Volunclima reportó una precipitación acumulada de 187,2 mm, lo que provocó inundaciones por la acumulación de agua lluvia y el taponamiento de alcantarillas en varios sectores de la ciudad. SNGR realiza monitoreo y un equipo de la Coordinación Zonal 2 verificó  y realizó monitoreo de ríos principales, los mismos que aumentaron de nivel. \r\n\r\nGADM de Francisco de Orellana realizó un recorrido,  levantó una ficha EVIN de una familia damnificada que se encontraba en familia acogiente. Además realizó limpieza de  canales y mantenimiento de vías en diferentes sectores. \r\n El 20/04/23026, SNGR mediante solicitud del GADM Francisco de Orellana entregó asistencia humanitaria a la familia damnifica.\r\nAl momento la familia retornó a su vivienda.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 162.0,
+        "max_5km_mm": 199.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 165.0,
+      "max_5km_mm": 208.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 12.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620666291,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:31:36.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "2a66942b5d7e98f6df91f4a9d4951c9a",
+    "tipo": "Inundación",
+    "fecha": "2026-09-29",
+    "hora": "17:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios sectores (Paraíso de la Flor, Av. Modesto Luque y Av. Perimetral)",
+    "latitud": -2.102772,
+    "longitud": -79.947255,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde del 29/09/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua se drenó y las calles quedaron expeditas para el tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 27.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 4.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062883,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260928",
+        "max_promedio_ensamble_m3s": 1171.1,
+        "max_ensamble_m3s": 1588.0,
+        "max_alta_resolucion_m3s": 1125.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 1284.5,
+        "max_ensamble_m3s": 1959.3,
+        "max_alta_resolucion_m3s": 1312.0
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:12:30.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

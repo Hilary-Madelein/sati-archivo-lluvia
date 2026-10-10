@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3de71e1501544a39b8e9c30dd6599cd1",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Chanduy",
+    "sector": "Comuna Tugaduaja",
+    "latitud": -2.4182588109286836,
+    "longitud": -80.60945157187508,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 26/02/2026, se registro el desbordamiento del río \"Javita\" provocando la acumulación de agua en las calles de la comunidad e ingreso de agua en varias viviendas.\r\nSNGR coordina con la UGR la atención de la novedad e identificación de viviendas afectadas. Por lluvias suscitadas en la mañana del 26/02/2026, se registro el desbordamiento del río \"Javita\" provocando la acumulación de agua en las calles de la comunidad e ingreso de agua en varias viviendas.\r\nSNGR coordina con la UGR la atención de la novedad e identificación de viviendas afectadas.\r\nUGR cantonal informó que se intentó realizar acercamientos con las familias afectadas, el dirigente comunal se negó al solicitar atención directa de la alcaldía, no se realizó el levantamiento de información y no se realizó entrega de asistencias humanitarias.",
+    "personas_afectadas": 16,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 40.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 55.0,
+      "max_5km_mm": 58.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 4.1,
+        "max_5km_mm": 16.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 5.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:47.000Z",
+  "pendiente": []
+}

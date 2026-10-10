@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "99abd1296c34af231725abc321171dd5",
+    "tipo": "Inundación",
+    "fecha": "2026-05-23",
+    "hora": "08:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Eden",
+    "sector": "Comunidad El Eden",
+    "latitud": -0.495102,
+    "longitud": -76.07688,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias durante el 21/05/2026, en la parte alta, se produjo el incremento del caudal en la cuenca del río Napo, lo que causó un desbordamiento que afectó varias viviendas, las familias continúan en sus viviendas. MDG Teniente Política de El Eden  confirmó el evento.\r\nSNGR coordinó con la Directora del GAD Municipal de Francisco de Orellana, el levantamiento de las fichas EVIN  y coordinación de la atención correspondiente.\r\n Personal del MINEDEC que se encontraba en el sitio identificó 10 familias cuyos predios se encontraban inundados. Las afectaciones fueron menores, debido a que las viviendas se encuentran construidas sobre estructuras elevadas. Asimismo, considerando que el acceso a la zona es exclusivamente fluvial y existe una considerable distancia entre el punto de acceso y las viviendas, el GAD Municipal de Francisco de Orellana no realizó el levantamiento de información en esta parroquia.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-23T07:00:00.000Z",
+        "punto_mm": 5.4,
+        "max_5km_mm": 7.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-22T07:00:00.000Z",
+        "punto_mm": 35.1,
+        "max_5km_mm": 37.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 13.8,
+        "max_5km_mm": 15.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620985522,
+    "periodos_retorno_m3s": {
+      "2": 5018.6,
+      "5": 6260.4,
+      "10": 7082.6,
+      "25": 8121.4,
+      "50": 8892.0,
+      "100": 9657.0
+    },
+    "caudal_simulado_dia_m3s": 3078.72,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:25:46.000Z",
+  "pendiente": []
+}

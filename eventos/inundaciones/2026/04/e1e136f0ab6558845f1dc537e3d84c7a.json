@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "e1e136f0ab6558845f1dc537e3d84c7a",
+    "tipo": "Inundación",
+    "fecha": "2026-04-15",
+    "hora": "06:00",
+    "provincia": "Morona Santiago",
+    "canton": "Sucua",
+    "parroquia": "Sucua",
+    "sector": "Entrada Barrio Nuevo Israel",
+    "latitud": -2.335094,
+    "longitud": -78.168843,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias durante la noche del 15/04/2026, falta de alcantarillado y de mantenimiento de cunetas, se produjo el ingreso de agua a una vivienda (20 cm aproximadamente) provocando la afectación de muebles y enseres. Cuerpo de Bomberos Sucúa confirmó el evento y brindó el apoyo en la evacuación de agua y de electrodomésticos; adicionalmente, dejaron recomendaciones. La SNGR coordinó con la UGR-GAD Cantonal Sucúa, el cual, realizó el levantamiento de información; posteriormente manifiesta que no se realizó ninguna gestión, debido a que solo se trató del ingreso y salida de agua lluvia, no existieron daños materiales ni estructurales relevantes, la familia afectada permanece en su propia vivienda.  \r\nSecretaría Nacional de Gestión de Riesgos, dio seguimiento al evento, en base a la información proporcionada por el personal en territorio.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 30.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 51.0,
+      "max_5km_mm": 56.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 24.7,
+        "max_5km_mm": 46.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 12.1,
+        "max_5km_mm": 18.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620538422,
+    "periodos_retorno_m3s": {
+      "2": 16.0,
+      "5": 21.9,
+      "10": 25.9,
+      "25": 30.9,
+      "50": 34.6,
+      "100": 38.2
+    },
+    "caudal_simulado_dia_m3s": 3.98,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:55.000Z",
+  "pendiente": []
+}

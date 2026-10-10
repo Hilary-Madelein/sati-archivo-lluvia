@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "ec956c5649772f2f9936ad392623644a",
+    "tipo": "Inundación",
+    "fecha": "2025-11-19",
+    "hora": "15:40",
+    "provincia": "Cañar",
+    "canton": "Azogues",
+    "parroquia": "Azogues",
+    "sector": "Terminal Terrestre, Autopista Azogues Cuenca",
+    "latitud": -2.756161,
+    "longitud": -78.859519,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias registradas la tarde del 19/11/2025  ocasionó acumulación de agua sobre la vía de primer orden provocando tráfico lento. UMEVA coordinó con MIT para la limpieza del material pétreo. El agua acumulada sobre la vía ha desfogado, el tráfico fluye con normalidad. MIT realizó la limpieza de sumideros.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 8.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620821901,
+    "periodos_retorno_m3s": {
+      "2": 47.6,
+      "5": 58.8,
+      "10": 66.2,
+      "25": 75.6,
+      "50": 82.6,
+      "100": 89.5
+    },
+    "caudal_simulado_dia_m3s": 24.09,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:55.000Z",
+  "pendiente": []
+}

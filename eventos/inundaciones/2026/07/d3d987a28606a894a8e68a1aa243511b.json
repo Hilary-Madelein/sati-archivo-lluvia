@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d3d987a28606a894a8e68a1aa243511b",
+    "tipo": "Inundación",
+    "fecha": "2026-07-19",
+    "hora": "03:15",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "Atahualpa (cab. En Camarones)",
+    "sector": "Rampidal, Camarones",
+    "latitud": 0.82685,
+    "longitud": -78.97528,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada del 19/07/2026, se produjo el desbordamiento del río Cayapas, que afectó varias viviendas. Cabe indicar que la comunidad Rampidal es de difícil acceso.  \r\n UGR Eloy Alfaro informó que las familias se encuentran pernoctando en sus propias viviendas; el río Cayapas se encuentra con tendencia a disminuir.",
+    "personas_afectadas": 90,
+    "viviendas_afectadas": 14,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 207.0,
+        "max_5km_mm": 207.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 207.0,
+      "max_5km_mm": 208.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-19T07:00:00.000Z",
+        "punto_mm": 11.6,
+        "max_5km_mm": 17.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-18T07:00:00.000Z",
+        "punto_mm": 35.6,
+        "max_5km_mm": 59.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-17T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 56.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670094523,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:26.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

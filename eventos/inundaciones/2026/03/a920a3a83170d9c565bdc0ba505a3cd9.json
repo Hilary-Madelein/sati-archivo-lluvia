@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "a920a3a83170d9c565bdc0ba505a3cd9",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "16:03",
+    "provincia": "Guayas",
+    "canton": "Alfredo Baquerizo Moreno (jujan)",
+    "parroquia": "Alfredo Baquerizo Moreno (jujan)",
+    "sector": "Varios Sectores (Tanque Amarillo, Crespo, El Tránsito, Gato Mite, Los Aguillón, Los Garridos y Primero de Mayo)",
+    "latitud": -1.97338,
+    "longitud": -79.50077,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de la ruptura del muro de contención en uno de los recintos del cantón, se produjo el desbordamiento del caudal, lo que ocasionó inundaciones en varios sectores. GAD Cantonal indicó que las familias afectadas realizaron las debidas limpiezas y siguieron pernoctando en sus respectivos inmuebles. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 1032,
+    "viviendas_afectadas": 180,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 229.0,
+        "max_5km_mm": 233.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 31.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 46.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 302.0,
+      "max_5km_mm": 310.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 169.1,
+        "max_5km_mm": 194.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 36.8,
+        "max_5km_mm": 63.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 64.7,
+        "max_5km_mm": 88.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:55.000Z",
+  "pendiente": []
+}

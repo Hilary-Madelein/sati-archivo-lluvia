@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ee990f81ea023a5b9e0a6a43cb54fa5b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "09:54",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "5 De Agosto",
+    "sector": "Varios Sectores",
+    "latitud": 0.960839,
+    "longitud": -79.654945,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas en la mañana del 04/02/2026, se suscitó una inundación en varias viviendas de la parroquia 05 de Agosto. Cuerpo de Bomberos Esmeraldas realizó inspección. SNGR coordinó la atención del evento con la DGR Esmeraldas.\r\n\r\n-28 familias 71 personas afectadas.\r\n-28 viviendas afectadas.\r\n\r\nUGR GAD C Esmeraldas realizó el levantamiento de información y daños. Mediante cámaras de videovigilancia del ECU 911, se visualizó que las calles anegadas al momento se encuentran despejadas. Las familias afectadas permanecen en sus viviendas.",
+    "personas_afectadas": 71,
+    "viviendas_afectadas": 28,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 33.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 22.5,
+        "max_5km_mm": 75.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 63.9,
+        "max_5km_mm": 81.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 54.9,
+        "max_5km_mm": 78.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670067894,
+    "periodos_retorno_m3s": {
+      "2": 4857.7,
+      "5": 6088.8,
+      "10": 6903.9,
+      "25": 7933.8,
+      "50": 8697.9,
+      "100": 9456.2
+    },
+    "caudal_simulado_dia_m3s": 2957.13,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:55.000Z",
+  "pendiente": []
+}

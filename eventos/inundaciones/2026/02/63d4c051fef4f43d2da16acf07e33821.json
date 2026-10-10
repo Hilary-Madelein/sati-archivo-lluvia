@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "63d4c051fef4f43d2da16acf07e33821",
+    "tipo": "Inundación",
+    "fecha": "2026-02-13",
+    "hora": "04:20",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "RCTO. PLAYAS DE HOJARASCA  - RÍO CARACOL",
+    "latitud": -1.672139,
+    "longitud": -79.465676,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de lluvias suscitadas en la madrugada del 13/02/2026, se reportó el desbordamiento del río Caracol, en donde se repota 1 bien público afectado (muro de contención), con 25 metros lineales afectados en una vía de tercer orden DGR Babahoyo en compañía de Presidente de la Junta Parroquial de Caracol realizaron barrido de afectaciones en la zona afectada, se coordina con MAGP levantamiento MAAPEA de afectaciones a cultivos, actualmente la vía se encuentra habilitada con precaución por la presencia de agua en la misma y el caudal se mantiene desbordado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 82.0,
+        "max_5km_mm": 87.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 40.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 121.0,
+      "max_5km_mm": 133.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-13T07:00:00.000Z",
+        "punto_mm": 11.6,
+        "max_5km_mm": 33.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-12T07:00:00.000Z",
+        "punto_mm": 12.7,
+        "max_5km_mm": 22.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-11T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 7.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069014,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:05:01.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "f91e014e15cd44ef7bd847a71711148f",
+    "tipo": "Inundación",
+    "fecha": "2026-05-16",
+    "hora": "20:00",
+    "provincia": "Pichincha",
+    "canton": "Puerto Quito",
+    "parroquia": "Puerto Quito",
+    "sector": "San Francisco de Silanche",
+    "latitud": 0.156785,
+    "longitud": -79.242,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas en el sector, se reportan 4 viviendas inundadas a causa del desborde del río Silanche, el cual se encuentra en su cauce normal. Las familias afectadas permanecen en sus viviendas y no fue necesaria su evacuación o relocalización. El sitio quedó en condiciones seguras posterior a la entrega de asistencia humanitaria.",
+    "personas_afectadas": 17,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-15T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-14T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049491,
+    "periodos_retorno_m3s": {
+      "2": 55.2,
+      "5": 80.3,
+      "10": 97.0,
+      "25": 118.0,
+      "50": 133.6,
+      "100": 149.1
+    },
+    "caudal_simulado_dia_m3s": 3.32,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:58.000Z",
+  "pendiente": []
+}

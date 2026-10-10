@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a5817f100c091362022d692f0983aa9e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "14:43",
+    "provincia": "El Oro",
+    "canton": "Portovelo",
+    "parroquia": "Portovelo",
+    "sector": "AGUAS CALIENTES",
+    "latitud": -3.738314,
+    "longitud": -79.645228,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas el 12/03/2026 en las zonas altas del cantón, se suscitó el desbordamiento del río Amarillo, lo que ocasionó inundaciones en calles del sector, afectación a bienes públicos, viviendas y la destrucción de un puente peatonal.\r\nDebido a la fuerte corriente del río, se destruyó un puente peatonal que conectaba los sectores de Aguas Calientes y Los Jardines. No obstante, ambos sitios cuentan con conexión río abajo. Al momento, el río mantiene su cauce alto y las familias afectadas permanecen en sus domicilios. SNGR participó en la reunión del COE Cantonal para planificar acciones de respuesta, además realiza recorrido en el lugar afectado. Las familias afectadas permanecen en sus domicilios en cuento al río Amarillo se encuentra dentro de sus parámetros normales. UGR GAD Cantonal informa que el puente destruido se encuentra en proceso de planificación para su reconstrucción la cual será a largo a plazo.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 33.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 61.0,
+      "max_5km_mm": 79.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 11.3,
+        "max_5km_mm": 23.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 7.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670037346,
+    "periodos_retorno_m3s": {
+      "2": 385.6,
+      "5": 539.1,
+      "10": 640.7,
+      "25": 769.1,
+      "50": 864.4,
+      "100": 959.0
+    },
+    "caudal_simulado_dia_m3s": 118.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:25.000Z",
+  "pendiente": []
+}

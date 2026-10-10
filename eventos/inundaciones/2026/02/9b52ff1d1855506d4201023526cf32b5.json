@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "9b52ff1d1855506d4201023526cf32b5",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "08:52",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Babahoyo (cabecera Cantonal)",
+    "sector": "ESCUELA DE EDUCACION BASICA CACHARI - UNIDAD EDUCATIVA EUGENIO ESPEJO - UNIDAD EDUCATIVA 20 DE ENERO",
+    "latitud": -1.771574,
+    "longitud": -79.471367,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias en el cantón, se reportó acumulación de aguas lluvias, afectando funcionalmente 3 unidades educativas (Escuela de Educación Básica Cachari - Unidad Educativa Eugenio Espejo - \r\nUnidad Educativa 20 de Enero).\r\n Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 09/02/2026 y 24/02/2026, dejándolo sin servicio básico y sin energía; actualmente, el lugar cuenta con energía y las clases continúan con normalidad, por tal motivo se procede a finalizar el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 71.0,
+        "max_5km_mm": 80.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 33.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 33.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 129.0,
+      "max_5km_mm": 146.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 27.2,
+        "max_5km_mm": 39.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 7.9,
+        "max_5km_mm": 18.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 6.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050585,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:27.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

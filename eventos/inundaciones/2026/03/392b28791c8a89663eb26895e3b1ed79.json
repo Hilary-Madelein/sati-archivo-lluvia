@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "392b28791c8a89663eb26895e3b1ed79",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "07:34",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "La Victoria",
+    "sector": "Varios recintos (recinto la Julia María, la Graciosa, La Julia y la Iberia)",
+    "latitud": -1.850845,
+    "longitud": -79.805306,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas durante la madrugada del 05/03/2026 y la rotura de un muro de contención, el incremento del caudal del río Vinces provocó su desbordamiento, generando acumulación e ingreso de agua en viviendas.  GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles; el río Vinces se encuentra en su caudal normal. Prefectura de Guayas realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 996,
+    "viviendas_afectadas": 240,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 63.0,
+        "max_5km_mm": 65.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 132.0,
+        "max_5km_mm": 162.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 198.0,
+      "max_5km_mm": 232.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 3.3,
+        "max_5km_mm": 5.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:54.000Z",
+  "pendiente": []
+}

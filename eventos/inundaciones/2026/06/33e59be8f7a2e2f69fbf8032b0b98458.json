@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "33e59be8f7a2e2f69fbf8032b0b98458",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "03:30",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Bolívar",
+    "sector": "VARIOS SECTORES (PLAZA SAN ANTONIO, INFA)",
+    "latitud": -3.324040848621369,
+    "longitud": -79.8050978905352,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada del 09/06/2026, se registró inundación en varias calles y avenidas del sector, ocasionando el ingreso de agua a viviendas. Adicional, MINEDEC informó, activaron su plan de contingencia debido al ingreso de agua en el interior de varias unidades educativas en sus patios y los estudiantes recibieron clases asíncronas. MINEDEC informa que el agua acumulada en las unidades educativas ha sido evacuada, las actividades escolares se encuentran normalizadas.<br>\r\nEn cuanto a las familias afectadas, permanecen en sus domicilios, una vez que el nivel del agua ha descendido por completo.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 7,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 39.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 38.0,
+      "max_5km_mm": 60.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 4.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670011731,
+    "periodos_retorno_m3s": {
+      "2": 15.0,
+      "5": 24.9,
+      "10": 31.5,
+      "25": 39.9,
+      "50": 46.0,
+      "100": 52.2
+    },
+    "caudal_simulado_dia_m3s": 1.01,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:22:29.000Z",
+  "pendiente": []
+}

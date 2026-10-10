@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d0d3a3b0a5211ed2d277db25dd96870f",
+    "tipo": "Inundación",
+    "fecha": "2026-05-25",
+    "hora": "18:13",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Guamani",
+    "sector": "Varios sectores",
+    "latitud": -0.31888,
+    "longitud": -78.563913,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la tarde del 25/05/2026, se reportó la inundación de locales comerciales y el desprendimiento de adoquines en una vía. *04/06/2026 EPMAPS realizó los trabajos de reparaciones en el sector afectado y se realizó la reparación de la vía con la reposición de los adoquines. No se requiere evaluación por parte del Operativo Zonal.* \r\n\r\n28/05/2026 \r\nEPMAPS realizó la inspección técnica en la calle Camilo Orejuela\r\n\r\nAl momento no se registran personas atrapadas o heridas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 2.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-25T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 10.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-24T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 5.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-23T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 10.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670073059,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:25:30.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

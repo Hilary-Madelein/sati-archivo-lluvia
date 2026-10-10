@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5c067a13944a10364c1f53f348579eca",
+    "tipo": "Inundación",
+    "fecha": "2026-03-28",
+    "hora": "18:00",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "San Joaquín",
+    "sector": "Medio Ejido, Primero de Mayo y Av de las Américas.",
+    "latitud": -2.892692,
+    "longitud": -79.054624,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias y caída de granizo suscitadas la tarde del 28/03/2026, se produjo anegación de hielo y  agua sobre las vias provocando tráfico lento en los diferentes sectores. \r\n El agua y hielo que se encontraba en las vías de los diferentes sectores ha desfogado, el tráfico fluye con normalidad. ETAPA EP realizó limpieza de sumideros en toda la zona. SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 22.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 3.6,
+        "max_5km_mm": 15.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-27T07:00:00.000Z",
+        "punto_mm": 11.1,
+        "max_5km_mm": 28.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-26T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 17.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620799891,
+    "periodos_retorno_m3s": {
+      "2": 74.0,
+      "5": 97.1,
+      "10": 112.4,
+      "25": 131.7,
+      "50": 146.1,
+      "100": 160.3
+    },
+    "caudal_simulado_dia_m3s": 20.49,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:34:31.000Z",
+  "pendiente": []
+}

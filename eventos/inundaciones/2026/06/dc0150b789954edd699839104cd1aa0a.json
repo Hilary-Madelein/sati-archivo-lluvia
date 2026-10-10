@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "dc0150b789954edd699839104cd1aa0a",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "06:10",
+    "provincia": "Guayas",
+    "canton": "Santa Lucia",
+    "parroquia": "Santa Lucia",
+    "sector": "Escuela de Educación Básica Mercedes De Jesús Molina",
+    "latitud": -1.7,
+    "longitud": -80.2,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINIDEC reportó una afectación a la unidad educativa. MINIDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 42.0
+      },
+      "dia_anterior": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 32.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 63.0,
+      "max_5km_mm": 79.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 2.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 2.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041368,
+    "periodos_retorno_m3s": {
+      "2": 22.3,
+      "5": 38.2,
+      "10": 48.7,
+      "25": 62.1,
+      "50": 71.9,
+      "100": 81.7
+    },
+    "caudal_simulado_dia_m3s": 0.27,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:23:49.000Z",
+  "pendiente": []
+}

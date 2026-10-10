@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "1d405a22b0f732482ddcfa9edaa2ef72",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Los Lojas (enrique Baquerizo Moreno)",
+    "sector": "Varios Sectores (Sabana Grande, Los Lojas, Palo de Iguana, La Pitaya, Yolán)",
+    "latitud": -1.9875,
+    "longitud": -79.887,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afetación de cultivos de arroz. MAG realizó la inspección.",
+    "personas_afectadas": 76,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 58.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 68.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 124.0,
+      "max_5km_mm": 131.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 18.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 14.3,
+        "max_5km_mm": 18.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:36.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "48ecac4c4852c49a4de26a423f6024cb",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Colonche",
+    "sector": "Comuna Palmar",
+    "latitud": -2.0261235746696316,
+    "longitud": -80.73356481714687,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 26/02/2026, varias viviendas resultaron inundadas.  Por lluvias suscitadas en la mañana del 26/02/2026, varias viviendas resultaron inundadas.\r\nSNGR coordina con UGR el levantamiento de información.\r\nUGR cantonal mediante EVIN informó que se identificaron 90 viviendas afectadas por inundación, familias que se mantienen en sus viviendas.\r\nSNGR realizó entrega de asistencia humanitaria.",
+    "personas_afectadas": 299,
+    "viviendas_afectadas": 90,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 37.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 62.0,
+      "max_5km_mm": 62.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 8.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 4.7,
+        "max_5km_mm": 25.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 5.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:46.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "71cff8794b168be0a51a2fd1cd73e202",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "18:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrio Ñucanchiwasi",
+    "latitud": -0.46734852909247804,
+    "longitud": -76.9939631004105,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias durante la noche de ayer 20/05/2026 hasta la mañana del 21/05/2026, se produjo el desbordamiento del río Payamino, obstaculizando la calle Nicolas Torres e ingresando el agua en los predios de 3 viviendas de madera, las mismas que son elevadas. SNGR realizó monitoreo y seguimiento del evento; se coordinó con Municipio de Francisco de Orellana, la evaluación del evento. El río comenzó a descender desde aproximadamente las 11:30  de la noche Cuerpo de Bomberos de Francisco de Orellana realizó monitoreo, identificó 3 familias pero se resistieron a evacuar. GAD Municipal de Francisco de Orellana realizó la evaluación del evento, en el cual pudo evidenciar que son familias en un asentamiento irregular en la orilla del río  ya que años atrás las familias ya fueron reubicadas, por lo tanto indicó que tomarán acciones a largo plazo, en el recorrido constataron que el nivel del río estaba regresando a su nivel normal.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 7.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 11.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 79.7,
+        "max_5km_mm": 82.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620930482,
+    "periodos_retorno_m3s": {
+      "2": 1060.9,
+      "5": 1418.7,
+      "10": 1655.6,
+      "25": 1955.0,
+      "50": 2177.0,
+      "100": 2397.4
+    },
+    "caudal_simulado_dia_m3s": 609.92,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:14.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "91f35fbae4acdf72fca494e0d487a592",
+    "tipo": "Inundación",
+    "fecha": "2026-09-11",
+    "hora": "01:30",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "SAN FRANCISCO, LOMA DE HOJARAZCA, LA DELICIA, TIWINZA,LA PANCHITA, LA UVA, ISLA DE ORO, CERRO CACHARÍ",
+    "latitud": -1.672132,
+    "longitud": -79.465682,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 11/09/2027, se produjo acumulación de aguas, mismos que dejan consigo 129 ha (arroz-maíz duro) de 68 agricultores afectados (68 familias - 272 personas) y 332 ha con 11 agricultores afectados por pérdida de cultivos  (11 familias - 44 personas afectadas), mismos datos que al momento se encuentran en evaluación. Personal técnico de MDEP asistió el  11/09/2026 para verificación de novedades con elaboración de matriz MAAPEA, mismo que facilitó facilitó información con reporte de afectaciones preliminares el 12/09/2026 hasta la facilitación del MAAPEA, SNGR ratificó la novedad del evento y realizó consolidación de información. Actualmente los agricultores se mantienen en sus viviendas y se visualiza leve presencia de agua en los cultivos.",
+    "personas_afectadas": 316,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 33.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 33.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-11T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-09T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069014,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260911",
+        "max_promedio_ensamble_m3s": 16.4,
+        "max_ensamble_m3s": 131.3,
+        "max_alta_resolucion_m3s": 7.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260909",
+        "max_promedio_ensamble_m3s": 24.3,
+        "max_ensamble_m3s": 217.7,
+        "max_alta_resolucion_m3s": 8.8
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:20:54.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

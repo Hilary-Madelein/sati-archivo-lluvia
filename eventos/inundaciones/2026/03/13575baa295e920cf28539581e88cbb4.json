@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "13575baa295e920cf28539581e88cbb4",
+    "tipo": "Inundación",
+    "fecha": "2026-03-30",
+    "hora": "17:11",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Talag",
+    "sector": "Unidad Educativa Fiscomisional Juan Tanca Marengo",
+    "latitud": -1.066888,
+    "longitud": -77.909186,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas el día 30/03/2026, se produjo el desbordamiento del río Talag, lo que ocasionó inundaciones en varias aulas de la institución educativa, generando afectaciones en su infraestructura y normal desarrollo de actividades. El MINEDEC confirmó el evento y realizó una visita técnica en la que se constató la afectación en el cerramiento ubicado en la parte posterior de la unidad educativa.  El personal docente y administrativo ejecutó labores de limpieza previas al reinicio de clases. Adicionalmente, como medida correctiva, en articulación con el GAD Parroquial de Talag, se efectuó la intervención con maquinaria en el río a la entrada del canal, con el fin de mejorar el flujo de agua y reducir posibles afectaciones ante futuros eventos. Al momento, las actividades académicas se desarrollan con normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 60.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-30T07:00:00.000Z",
+        "punto_mm": 27.1,
+        "max_5km_mm": 52.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-29T07:00:00.000Z",
+        "punto_mm": 14.9,
+        "max_5km_mm": 35.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 22.7,
+        "max_5km_mm": 33.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620769525,
+    "periodos_retorno_m3s": {
+      "2": 66.8,
+      "5": 101.6,
+      "10": 124.7,
+      "25": 153.8,
+      "50": 175.4,
+      "100": 196.9
+    },
+    "caudal_simulado_dia_m3s": 9.02,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:55.000Z",
+  "pendiente": []
+}

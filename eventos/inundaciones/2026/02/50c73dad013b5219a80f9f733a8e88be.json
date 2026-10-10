@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "50c73dad013b5219a80f9f733a8e88be",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "11:30",
+    "provincia": "Cañar",
+    "canton": "Cañar",
+    "parroquia": "Cañar",
+    "sector": "Hospital Luis Martinez",
+    "latitud": -2.56813,
+    "longitud": -78.93537,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas durante la noche del 5 de febrero de 2026, se produjo la filtración de agua por fisuras en la loza de hormigón del techo del Hospital Luis F Martínez, que afectó directamente al área de quirófano y a la sala de partos. MSP restablecio el servicio en el área de partos, realizó las evaluaciones y intervenciones necesarias para normalizar por completo la operación del quirófano. Al momento el Hospital atiende con normalidad.  Debido a las lluvias suscitadas durante la noche del 5 de febrero de 2026, se produjo la filtración de agua por fisuras en la loza de hormigón del techo del Hospital Luis F Martínez, que afectó directamente al área de quirófano y a la sala de partos. MSP restablecio el servicio en el área de partos, realizó las evaluaciones y intervenciones necesarias para normalizar por completo la operación del quirófano. Al momento el Hospital atiende con normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 66.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 96.0,
+      "max_5km_mm": 108.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 5.5,
+        "max_5km_mm": 6.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 13.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 11.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041399,
+    "periodos_retorno_m3s": {
+      "2": 78.2,
+      "5": 98.3,
+      "10": 111.6,
+      "25": 128.4,
+      "50": 140.8,
+      "100": 153.2
+    },
+    "caudal_simulado_dia_m3s": 67.45,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:04.000Z",
+  "pendiente": []
+}

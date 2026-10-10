@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3119bdf32a8f6d0e64264e89f990e48b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "06:30",
+    "provincia": "Carchi",
+    "canton": "Espejo",
+    "parroquia": "El Goaltal",
+    "sector": "Las Juntas y varios sectores",
+    "latitud": 0.8043,
+    "longitud": -78.1573,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las intensas precipitaciones registradas la madrugada del 04/02/2026, se produjo el desbordamiento del río Blanco, lo que ocasionó el ingreso de agua a unas viviendas, generando daños materiales. Adicionalmente, el evento provocó el colapso total de dos puentes peatonales, dejando inhabilitada la conectividad en el sector. GAD Parroquial el Goaltal confirmó el evento y coordinó la movilización de maquinaría para que realicen el encause del río con apoyo del GAD Provincial del Carchi. \r\nEl 05/02/2026, se convocó a una reunión de trabajo interinstitucional para analizar la situación generada por el desbordamiento del río Blanco en la comunidad Las Juntas y coordinar acciones de respuesta y mitigación en beneficio de la población afectada.\r\nGAD Cantonal Espejo realizó la evaluación inicial de necesidades en el que determinó los daños materiales en las viviendas afectadas y daños en la infraestructura de la vivienda destruida. Con fecha 05 de febrero del 2026, mediante el Oficio N°059 2026 A-GADM-E, el Sr. Alcalde del Cantón solicita a la SNGR de acuerdo a la competencia que actúe a favor de los impactados por lo que el 06/02/2026, la SNGR realizó la entrega de asistencia humanitaria a las familias impactadas.\r\nLa familia damnificada se encuentra en familia de acogida. Al momento el río Blanco se encuentra con su caudal normal. \r\nGAD Provincial del Carchi realizó la entrega de asistencia humanitaria complementaria a las familias impactadas. \r\nSNGR envió al MDH para validación y calificación del Bono de Contingencia por eventos adversos, por lo que el MDH realizó la entrega del bono respectivo a la familia damnificada.",
+    "personas_afectadas": 9,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 45.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 54.0,
+      "max_5km_mm": 60.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 25.6,
+        "max_5km_mm": 101.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 39.7,
+        "max_5km_mm": 97.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 29.8,
+        "max_5km_mm": 87.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670058683,
+    "periodos_retorno_m3s": {
+      "2": 27.4,
+      "5": 32.8,
+      "10": 36.4,
+      "25": 40.9,
+      "50": 44.3,
+      "100": 47.6
+    },
+    "caudal_simulado_dia_m3s": 5.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:15.000Z",
+  "pendiente": []
+}

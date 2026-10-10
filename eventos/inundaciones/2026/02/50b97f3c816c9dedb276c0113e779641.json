@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "50b97f3c816c9dedb276c0113e779641",
+    "tipo": "Inundación",
+    "fecha": "2026-02-08",
+    "hora": "20:26",
+    "provincia": "Manabí",
+    "canton": "Manta",
+    "parroquia": "Eloy Alfaro",
+    "sector": "Varios Sectores (Los laureles-Cuba).",
+    "latitud": -0.960870273904709,
+    "longitud": -80.68204941556294,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes precipitaciones presentada el 08/02/2026, se produjo inundación por la acumulación de agua lluvias causando daños y afectación de enceres con el ingreso de agua en las viviendas. Las familias afectadas se encuentran en sus viviendas.\r\nSNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 22,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 39.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 7.5,
+        "max_5km_mm": 12.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 33.6,
+        "max_5km_mm": 35.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 70.5,
+        "max_5km_mm": 70.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:00.000Z",
+  "pendiente": []
+}

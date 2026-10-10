@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "733dd46bcea596e670695b9e0ba8804b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-05",
+    "hora": "08:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "La Victoria",
+    "sector": "Recinto La Estrella",
+    "latitud": -1.920005564002611,
+    "longitud": -79.68994176518777,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por las últimas lluvias registradas y el aumento del caudal del Río Babahoyo se produjo el desbordamiento del Río  causando la inundación en en varias viviendas GAD Cantonal informa que las familias afectadas permanecen en su misma vivienda.SNGR realizó la entrega de AH.",
+    "personas_afectadas": 645,
+    "viviendas_afectadas": 220,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 31.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 39.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 4.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 8.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057760,
+    "periodos_retorno_m3s": {
+      "2": 494.5,
+      "5": 672.6,
+      "10": 790.5,
+      "25": 939.5,
+      "50": 1050.0,
+      "100": 1159.7
+    },
+    "caudal_simulado_dia_m3s": 66.5,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:31.000Z",
+  "pendiente": []
+}

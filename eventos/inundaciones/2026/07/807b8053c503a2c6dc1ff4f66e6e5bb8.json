@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "807b8053c503a2c6dc1ff4f66e6e5bb8",
+    "tipo": "Inundación",
+    "fecha": "2026-07-20",
+    "hora": "05:00",
+    "provincia": "Esmeraldas",
+    "canton": "San Lorenzo",
+    "parroquia": "Tululbi (cab. En Ricaurte)",
+    "sector": "Tululbí",
+    "latitud": 1.1773,
+    "longitud": -78.7265,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada del 20/07/2026, se produjo el desbordamiento del río Tululbí y del estero Quebrada Grande, que afectó varias viviendas. Cabe indicar que el recinto Tululbí es de difícil acceso.  \r\n\r\nACCIONES DE RESPUESTA:\r\n20/07/2026: \r\n- Policía Municipal de San Lorenzo confirmó el evento y brinda información. \r\n- UGR San Lorenzo informa que en el transcurso de la mañana realizará inspección en el sitio. \r\n- SNGR realiza seguimiento al evento. \r\n UGR San Lorenzo informa que las familias afectadas se mantienen pernoctando en sus propias viviendas; los sectores no presentan anegamiento y el río Tululbí y el estero Quebrada Grande se encuentran normales.",
+    "personas_afectadas": 445,
+    "viviendas_afectadas": 100,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 68.0,
+        "max_5km_mm": 87.0
+      },
+      "dia_anterior": {
+        "punto_mm": 109.0,
+        "max_5km_mm": 122.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 39.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 208.0,
+      "max_5km_mm": 248.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-20T07:00:00.000Z",
+        "punto_mm": 7.4,
+        "max_5km_mm": 17.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-19T07:00:00.000Z",
+        "punto_mm": 13.0,
+        "max_5km_mm": 15.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-18T07:00:00.000Z",
+        "punto_mm": 5.2,
+        "max_5km_mm": 16.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029998,
+    "periodos_retorno_m3s": {
+      "2": 167.3,
+      "5": 198.1,
+      "10": 218.5,
+      "25": 244.3,
+      "50": 263.5,
+      "100": 282.5
+    },
+    "caudal_simulado_dia_m3s": 10.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:21:40.000Z",
+  "pendiente": []
+}

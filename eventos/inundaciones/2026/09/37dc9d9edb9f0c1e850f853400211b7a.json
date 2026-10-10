@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "37dc9d9edb9f0c1e850f853400211b7a",
+    "tipo": "Inundación",
+    "fecha": "2026-09-22",
+    "hora": "19:11",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Varios sectores (Coop. Florida Norte, Av. Eduardo Franco y Av. 41 No, Sauces 5, Samanes 2, Av. Dr. Francisco Rizo y Av. Isidro Ayora Cueva entre José María Roura, Av. Gabriel Roldós y Av. Antonio Parra Velasco, Mapasingue Este, Coop. Quisquis, Av. Dr. Enrique Ortega Moreira y Manuel Rendon Seminario, Guayacanes 4, Manuel De Jesús Real Murillo y Calderon Zatizabal de Gil, Coop Los Rosales Calle Jorge Villacres Mosco Y Jose Nicolas Ramon De Jesús, Av. Francisco de Orellana, Av. Juan Tanca Marengo y 1 Pasaje 38 D, Samanes 6, Av. Hno Roberto Costa Prats Y Claudio Mueckay Arcos, Sauces 9 Av Antonio Parra Velasco, Av Doctor Teodoro Alvarado Oleas y Av 33 No, Sauces 6 Calle Gabriel Roldos Garces, Urbanor, Samanes 1, Calle Elina Manzano, Jose Luis Tamayo y La Segunda, Urdesa Central, Av Enrique Ortega Y Pasaje 32)",
+    "latitud": -2.124722,
+    "longitud": -79.893889,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 22/09/2026, se reportó varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 7.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-20T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044455,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260922",
+        "max_promedio_ensamble_m3s": 0.1,
+        "max_ensamble_m3s": 1.8,
+        "max_alta_resolucion_m3s": 0.5
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:20.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "88e6298fa508b453f295694e2a2ff05d",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "04:00",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Samborondón",
+    "sector": "Sector San Félix",
+    "latitud": -1.918906,
+    "longitud": -79.677633,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las lluvias registradas el día 04/03/2026, se produjo el desbordamiento del río Babahoyo, lo que ocasionó que varias familias se vieran afectadas con el ingreso de agua a sus viviendas. UPREA informó que las familias afectadas se mantuvieron en sus respectivos inmuebles y realizó la entrega de asistencia humanitaria. El río Babahoyo se encuentra en su cauce normal.",
+    "personas_afectadas": 240,
+    "viviendas_afectadas": 80,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 52.0
+      },
+      "dia_anterior": {
+        "punto_mm": 170.0,
+        "max_5km_mm": 170.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 224.0,
+      "max_5km_mm": 245.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 23.4,
+        "max_5km_mm": 28.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 13.7,
+        "max_5km_mm": 41.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 16.3,
+        "max_5km_mm": 21.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057760,
+    "periodos_retorno_m3s": {
+      "2": 494.5,
+      "5": 672.6,
+      "10": 790.5,
+      "25": 939.5,
+      "50": 1050.0,
+      "100": 1159.7
+    },
+    "caudal_simulado_dia_m3s": 609.95,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:51:26.000Z",
+  "pendiente": []
+}

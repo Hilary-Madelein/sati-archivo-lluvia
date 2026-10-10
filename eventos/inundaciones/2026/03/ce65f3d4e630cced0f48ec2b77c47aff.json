@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ce65f3d4e630cced0f48ec2b77c47aff",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "09:35",
+    "provincia": "Manabí",
+    "canton": "Manta",
+    "parroquia": "Tarqui",
+    "sector": "Palo Santo",
+    "latitud": -0.986389,
+    "longitud": -80.729614,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias en la madrugada del 03/03/2026, se suscitó la inundación en el sector, provocando el ingreso de agua y lodo a varias viviendas. Personal de UPREA SNGR CZ4 informa que debido al tiempo transcurrido GAD Cantonal no realizará la solicitud de entrega de Asistencia Humanitaria. La familia afectada realizo las reparaciones de la vivienda y permanecerá en la misma.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 81.0,
+        "max_5km_mm": 116.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 82.0,
+      "max_5km_mm": 121.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 95.8,
+        "max_5km_mm": 110.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 24.5,
+        "max_5km_mm": 87.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064894,
+    "periodos_retorno_m3s": {
+      "2": 23.3,
+      "5": 66.1,
+      "10": 94.5,
+      "25": 130.3,
+      "50": 156.9,
+      "100": 183.3
+    },
+    "caudal_simulado_dia_m3s": 2.19,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:27.000Z",
+  "pendiente": []
+}

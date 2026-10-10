@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "b72dd30b713b327b73544e2a6542e009",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "05:00",
+    "provincia": "Bolívar",
+    "canton": "Caluma",
+    "parroquia": "Caluma",
+    "sector": "Varios sectores, Charquiyacu, Barrio Central, La Chorrera y Pita.",
+    "latitud": -1.5816586679934217,
+    "longitud": -79.21932220458984,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la madrugada del 10-03-2026, se produjo el desbordamiento de los esteros S-N, Guamacyacu y Pita que afectó a varias viviendas.\r\n\r\nMediante informe EVIN indica que debido a las lluvias registradas en los sectores se originaron los desbordamientos de varios esteros, los cuales afectaron a varias viviendas por el ingreso de agua, lodo a las infraestructuras.\r\n\r\n MIT mediante informe señala que las viviendas se encuentran en una zona de riesgo por estar ubicadas en las riberas de los esteros y por tal razón no es viable realizar un mejoramiento o reparación ya que la inversión pública está prohibida en zonas de riesgo que comprometan la vida de los beneficiarios, y recomienda proceder con la reubicación de las familias mediante la construcción de una Vivienda Nueva en el terreno alterno de propiedad del beneficiario. \r\nLas familias se encuentran habitando en sus mismas viviendas.\r\nEl nivel de los esteros se encuentra en su cauce normal.",
+    "personas_afectadas": 37,
+    "viviendas_afectadas": 7,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 49.0
+      },
+      "dia_anterior": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 39.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 89.0,
+      "max_5km_mm": 101.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 139.0,
+        "max_5km_mm": 221.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 134.1,
+        "max_5km_mm": 170.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 32.3,
+        "max_5km_mm": 114.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057747,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:43:45.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

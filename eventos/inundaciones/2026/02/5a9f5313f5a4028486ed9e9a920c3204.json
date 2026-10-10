@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5a9f5313f5a4028486ed9e9a920c3204",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "01:00",
+    "provincia": "Guayas",
+    "canton": "Balzar",
+    "parroquia": "Balzar",
+    "sector": "Escuela de Educación Básica 24 de Mayo",
+    "latitud": -1.368,
+    "longitud": -79.9,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa.\t\r\n. MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 27.0
+      },
+      "dia_anterior": {
+        "punto_mm": 79.0,
+        "max_5km_mm": 92.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 22.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 126.0,
+      "max_5km_mm": 141.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 5.9,
+        "max_5km_mm": 9.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 4.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056714,
+    "periodos_retorno_m3s": {
+      "2": 2161.2,
+      "5": 2792.8,
+      "10": 3211.0,
+      "25": 3739.4,
+      "50": 4131.4,
+      "100": 4520.5
+    },
+    "caudal_simulado_dia_m3s": 752.71,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:13.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,73 @@
+{
+  "evento": {
+    "id": "31303ac9a1291df7043038796cb24b4e",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "04:15",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "San Gregorio",
+    "sector": "Comunidades: Boca del Sucio y San Jacinto",
+    "latitud": 0.54965064,
+    "longitud": -79.93491294,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la tarde del 02/10/2026 y la madrugada del 03/10/2026, se registró el desbordamiento del río Sucio, inundando las comunidades del sector. 05/10/2026. UGR Muisne informa que el río se encuentra con tendencia a disminuir de nivel; al momento solo visualizan calles anegadas; las familias permanecen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 73.0,
+        "max_5km_mm": 73.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 20.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 88.0,
+      "max_5km_mm": 93.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064836,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261003",
+        "max_promedio_ensamble_m3s": 24.0,
+        "max_ensamble_m3s": 115.4,
+        "max_alta_resolucion_m3s": 20.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261001",
+        "max_promedio_ensamble_m3s": 29.8,
+        "max_ensamble_m3s": 427.6,
+        "max_alta_resolucion_m3s": 24.5
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:10:43.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

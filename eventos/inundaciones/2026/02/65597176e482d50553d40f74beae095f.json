@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "65597176e482d50553d40f74beae095f",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "09:43",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Esmeraldas",
+    "sector": "El Palmar, Santa Martha",
+    "latitud": 0.965714,
+    "longitud": -79.655991,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas en la mañana del 04/02/2026, se suscitó una inundación en varias viviendas de la parroquia Esmeraldas. \r\n\r\nCuerpo de Bomberos Esmeraldas realizó inspección en conjunto con personal del GAD Cantonal Esmeraldas.  \r\nSNGR coordinó la atención del evento con la DGR Esmeraldas.\r\nMediante cámaras de videovigilancia del ECU 911, se visualizó que las calles anegadas al momento se encuentran despejadas. Las familias afectadas permanecen en sus viviendas. \r\nDGR Esmeraldas informó que, mediante planificación, continuarán con la intervención de los sectores afectados para realizar la Evaluación Inicial de Necesidades; cabe indicar que realizan los recorridos priorizando los sectores más afectados. \r\nSNGR realiza seguimiento al evento.\r\nUGR Esmeraldas realizó el levantamiento de información y daños, cabe indicar que aún siguen realizando recorridos en los sectores afectados.\r\nSNGR realiza la entrega de Asistencia Humanitaria en los sectores afectados.\r\n UGR Esmeraldas registró un incremento de familias y personas afectadas y daminficadas, los sectores ya no presentan anegamiento y las familias se mantienen pernoctando en sus viviendas.",
+    "personas_afectadas": 121,
+    "viviendas_afectadas": 100,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 33.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 27.1,
+        "max_5km_mm": 75.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 62.1,
+        "max_5km_mm": 81.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 49.2,
+        "max_5km_mm": 78.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049462,
+    "periodos_retorno_m3s": {
+      "2": 15.3,
+      "5": 26.8,
+      "10": 34.4,
+      "25": 44.0,
+      "50": 51.1,
+      "100": 58.2
+    },
+    "caudal_simulado_dia_m3s": 5.0,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:38.000Z",
+  "pendiente": []
+}

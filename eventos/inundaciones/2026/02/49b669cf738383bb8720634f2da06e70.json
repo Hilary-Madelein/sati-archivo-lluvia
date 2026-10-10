@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "49b669cf738383bb8720634f2da06e70",
+    "tipo": "Inundación",
+    "fecha": "2026-02-17",
+    "hora": "20:30",
+    "provincia": "Azuay",
+    "canton": "Girón",
+    "parroquia": "Giron",
+    "sector": "Caledoneas, vía Cuenca-Girón-Pasaje [E-59]",
+    "latitud": -3.212691,
+    "longitud": -79.193362,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde y noche del 17/02/2026, se produjo anegación de agua sobre la vía de primer orden provocando tráfico lento en el sector.  SNGR Umeva Azuay realiza monitoreo del evento La vía de primer orden se encuentra totalmente habilitada, no se tiene lluvias al momento. GAD de Girón realizó trabajos de limpieza del sistema de alcantarillado y colectores de aguas lluvias. SNGR Umeva Azuay realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 14.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 21.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 9.9,
+        "max_5km_mm": 31.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670026062,
+    "periodos_retorno_m3s": {
+      "2": 33.0,
+      "5": 44.8,
+      "10": 52.7,
+      "25": 62.6,
+      "50": 70.0,
+      "100": 77.3
+    },
+    "caudal_simulado_dia_m3s": 6.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:24.000Z",
+  "pendiente": []
+}

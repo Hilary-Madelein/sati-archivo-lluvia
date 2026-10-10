@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "81dbc32991ef354860aaf64ac2516cfb",
+    "tipo": "Inundación",
+    "fecha": "2026-02-16",
+    "hora": "05:30",
+    "provincia": "Manabí",
+    "canton": "Santa Ana",
+    "parroquia": "San Pablo (cab. En Pueblo Nuevo)",
+    "sector": "La Naya vía San Juan",
+    "latitud": -1.2063753353148174,
+    "longitud": -80.067431673745,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la madrugada del 16/02/2026, se suscitó el desbordamiento de los esteros Naya y Escobero, provocando el ingreso de agua a varias viviendas. El nivel de los esteros es normal; las viviendas ya no están inundadas. Las familias afectadas y damnificadas permanecen en sus viviendas. SNGR realizó atención del evento; Ministerio de Desarrollo Humano realizó entrega de bonos de contingencia.",
+    "personas_afectadas": 88,
+    "viviendas_afectadas": 47,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 60.0
+      },
+      "dia_anterior": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 92.0,
+      "max_5km_mm": 121.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 40.4,
+        "max_5km_mm": 46.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 4.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-14T07:00:00.000Z",
+        "punto_mm": 25.4,
+        "max_5km_mm": 28.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063878,
+    "periodos_retorno_m3s": {
+      "2": 89.1,
+      "5": 146.1,
+      "10": 183.8,
+      "25": 231.4,
+      "50": 266.8,
+      "100": 301.9
+    },
+    "caudal_simulado_dia_m3s": 11.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:30.000Z",
+  "pendiente": []
+}

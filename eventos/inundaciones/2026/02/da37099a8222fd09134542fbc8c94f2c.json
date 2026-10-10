@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "da37099a8222fd09134542fbc8c94f2c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "10:30",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Luis Tello  (las Palmas)",
+    "sector": "varios sectores",
+    "latitud": 0.9863786470345317,
+    "longitud": -79.6585373132128,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas la mañana del 04/02/2026, se suscitó una inundación en varias viviendas y locales comerciales, incluido el patio de comidas del malecón Las Palmas de la parroquia Luis Tello. \r\n\r\n- Cuerpo de Bomberos Esmeraldas movilizó personal para la atención de la emergencia. \r\n- SNGR coordinó la atención del evento con la DGR Esmeraldas.\r\n- Cuerpo de Bomberos Esmeraldas en varios sectores de la parroquia, realizó evacuación de agua y lodo de las viviendas. \r\n- DGR Esmeraldas desplegó personal técnico en varios sectores de la parroquia realizando inspecciones.\r\n-SNGR realizó la entrega de Asistencia Humanitaria. La SNGR - Uprea informará los sectores donde aún se encuentra pendiente la entrega de asistencia humanitaria. Se informa además que el GAD Municipal de Esmeraldas informa que no mantiene acciones de atención adicionales para este evento. GAD Cantonal Esmeraldas informó que los locales comerciales ya no presentan anegamiento; no hay presencia de lluvias en el sector.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 27.1,
+        "max_5km_mm": 38.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 62.1,
+        "max_5km_mm": 81.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 49.2,
+        "max_5km_mm": 78.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069942,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:08:51.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

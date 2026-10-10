@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "72abf7e6911028fb13ce41c52d26e7d8",
+    "tipo": "Inundación",
+    "fecha": "2026-04-16",
+    "hora": "16:00",
+    "provincia": "Carchi",
+    "canton": "Espejo",
+    "parroquia": "La Libertad (alizo)",
+    "sector": "Barrio San Francisco",
+    "latitud": 0.6723,
+    "longitud": -77.9473,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las fuertes precipitaciones registradas la tarde del 16/04/2026, se produjo el desbordamiento de una acequia, lo cual provocó el ingreso de agua a las viviendas, así como el anegamiento de la vía de tercer orden. Cuerpo de Bomberos Espejo realizó la evacuación de agua de las viviendas.\r\n GAD C Espejo movilizó maquinaria y realizó trabajos de limpieza y habilitación de la vía.\r\nPrefectura del Carchi realizó los trabajos de limpieza y remoción de escombros de la acequia. \r\nUGR GAD C Espejo realizó la inspección y levantamiento del informe EVIN.\r\nPrefectura del Carchi y SNGR realizaron la entrega de asistencia humanitaria a las familias impactadas  en acompañamiento de Gobernación del Carchi, Policía Nacional del Ecuador, GAD C Espejo y Cuerpo de Bomberos Espejo.\r\nMDH entregó el Bono de Contingencia por eventos adversos a la familia damnificada.\r\nLas familias afectadas se encuentran habitando en sus viviendas y la familia damnificada en familia acogiente.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-16T07:00:00.000Z",
+        "punto_mm": 23.1,
+        "max_5km_mm": 39.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 21.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044352,
+    "periodos_retorno_m3s": {
+      "2": 20.9,
+      "5": 25.5,
+      "10": 28.6,
+      "25": 32.5,
+      "50": 35.4,
+      "100": 38.2
+    },
+    "caudal_simulado_dia_m3s": 3.93,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:19.000Z",
+  "pendiente": []
+}

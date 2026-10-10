@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f67019f3fd275f28630996d88cceb82c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "23:00",
+    "provincia": "Guayas",
+    "canton": "Naranjal",
+    "parroquia": "Taura",
+    "sector": "Recinto La Florenciana",
+    "latitud": -2.329883663146863,
+    "longitud": -79.77004099508925,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las últimas precipitaciones registradas del 24/02/2026 , se reportó acumulación de agua en varias viviendas. GAD Cantonal indica que las familias afectadas y damnificadas se mantienen en sus respectivos inmuebles. MAG reportó la afectación y destrucción de cultivos de arroz. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 109,
+    "viviendas_afectadas": 67,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 49.0
+      },
+      "dia_anterior": {
+        "punto_mm": 110.0,
+        "max_5km_mm": 123.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 171.0,
+      "max_5km_mm": 193.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 2.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 4.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670081326,
+    "periodos_retorno_m3s": {
+      "2": 647.1,
+      "5": 880.3,
+      "10": 1034.6,
+      "25": 1229.7,
+      "50": 1374.3,
+      "100": 1518.0
+    },
+    "caudal_simulado_dia_m3s": 477.16,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:58:51.000Z",
+  "pendiente": []
+}

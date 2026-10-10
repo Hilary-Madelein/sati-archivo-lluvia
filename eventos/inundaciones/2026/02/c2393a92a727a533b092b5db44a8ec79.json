@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c2393a92a727a533b092b5db44a8ec79",
+    "tipo": "Inundación",
+    "fecha": "2026-02-22",
+    "hora": "23:00",
+    "provincia": "Loja",
+    "canton": "Pindal",
+    "parroquia": "Pindal",
+    "sector": "Casco Urbano",
+    "latitud": -4.1156236567637725,
+    "longitud": -80.10710394291957,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la noche del 22/02/2026 se produjo la acumulación de aguas lluvias en las calles provocando inundación en el lugar.\r\nEl 24/02/2026, ante las emergencias ocasionadas por la temporada invernal, se procedió con la activación del COE Cantonal y la declaratoria de emergencia en el cantón.\r\n-SNGR CZ7 coordinó en sitio la atención de la emergencia y realizó la entrega de Asistencia Humanitaria\r\n-Cuerpo de Bomberos de Pindal realizó limpieza de las infraestructuras afectadas.\r\n-UGR de Pindal realizó el levantamiento de información.\r\n-Alcaldía de Pindal coordinó acciones de respuesta ante la emergencia\r\n-Policía Nacional brinda seguridad\r\n-SNGR coordinó la atención del evento y realizó constante monitoreo.\r\n Las familias continúan en sus viviendas, -SNGR CZ7 coordinó en sitio la atención de la emergencia y realizó la entrega de Asistencia Humanitaria",
+    "personas_afectadas": 1051,
+    "viviendas_afectadas": 78,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 44.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 25.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 22.6,
+        "max_5km_mm": 46.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 33.9,
+        "max_5km_mm": 61.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 55.0,
+        "max_5km_mm": 93.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670043503,
+    "periodos_retorno_m3s": {
+      "2": 107.5,
+      "5": 179.8,
+      "10": 227.6,
+      "25": 288.1,
+      "50": 332.9,
+      "100": 377.4
+    },
+    "caudal_simulado_dia_m3s": 34.86,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:38.000Z",
+  "pendiente": []
+}

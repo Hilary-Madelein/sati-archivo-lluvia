@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a022da5b10aa3129cb9bb63698d99cfe",
+    "tipo": "Inundación",
+    "fecha": "2026-03-13",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Lomas De Sargentillo",
+    "parroquia": "Lomas De Sargentillo",
+    "sector": "Varios recintos ( El Hueso, Rio Perdido, Bachillero)",
+    "latitud": -1.897182373,
+    "longitud": -80.07691846,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación parcial de cultivos de arroz en los sectores mencionados. MAG realizó la inspección",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 54.0,
+        "max_5km_mm": 59.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 47.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 109.0,
+      "max_5km_mm": 116.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 15.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 37.9,
+        "max_5km_mm": 37.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670024991,
+    "periodos_retorno_m3s": {
+      "2": 21.1,
+      "5": 32.8,
+      "10": 40.6,
+      "25": 50.4,
+      "50": 57.6,
+      "100": 64.9
+    },
+    "caudal_simulado_dia_m3s": 3.53,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:39:25.000Z",
+  "pendiente": []
+}

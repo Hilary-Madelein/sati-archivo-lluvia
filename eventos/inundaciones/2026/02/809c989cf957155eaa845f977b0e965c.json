@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "809c989cf957155eaa845f977b0e965c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-22",
+    "hora": "05:00",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "Gral. Pedro J. Montero (boliche)",
+    "sector": "Sector La Melida",
+    "latitud": -2.263736,
+    "longitud": -79.612164,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto de las precipitaciones presentadas en la madrugada del 22/02/2026, se produjo la inundación de varias casas que están asentadas a la orilla del río Bulu Bulu. GAD Cantonal indicó que las familias afectadas permanecen en sus respectivos inmuebles. El río Bulu Bulu se encuentra en su cauce normal. SNGR y Prefectura de Guayas realizaron la entrega de asistencia humanitaria.",
+    "personas_afectadas": 260,
+    "viviendas_afectadas": 65,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 36.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 96.0,
+      "max_5km_mm": 100.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 97.9,
+        "max_5km_mm": 121.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 72.5,
+        "max_5km_mm": 127.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 25.6,
+        "max_5km_mm": 63.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044462,
+    "periodos_retorno_m3s": {
+      "2": 32.5,
+      "5": 50.3,
+      "10": 62.1,
+      "25": 76.9,
+      "50": 87.9,
+      "100": 98.9
+    },
+    "caudal_simulado_dia_m3s": 31.25,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:47.000Z",
+  "pendiente": []
+}

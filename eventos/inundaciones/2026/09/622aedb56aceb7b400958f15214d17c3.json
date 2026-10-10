@@ -1,0 +1,101 @@
+{
+  "evento": {
+    "id": "622aedb56aceb7b400958f15214d17c3",
+    "tipo": "Inundación",
+    "fecha": "2026-09-11",
+    "hora": "01:12",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Ernesto Seminario",
+    "sector": "Varios sectores (Av. Jaime Roldós ,  Calle Presidente Víctor Emilio Estrada)",
+    "latitud": -2.144167,
+    "longitud": -79.594444,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 11/09/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-11T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-10T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-09T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 5.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064935,
+    "periodos_retorno_m3s": {
+      "2": 169.2,
+      "5": 244.9,
+      "10": 295.1,
+      "25": 358.4,
+      "50": 405.5,
+      "100": 452.1
+    },
+    "caudal_simulado_dia_m3s": 37.4,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260911",
+        "max_promedio_ensamble_m3s": 1.2,
+        "max_ensamble_m3s": 6.6,
+        "max_alta_resolucion_m3s": 1.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260909",
+        "max_promedio_ensamble_m3s": 1.4,
+        "max_ensamble_m3s": 18.1,
+        "max_alta_resolucion_m3s": 1.2
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:20:46.000Z",
+  "pendiente": []
+}

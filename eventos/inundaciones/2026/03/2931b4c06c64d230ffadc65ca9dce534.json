@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "2931b4c06c64d230ffadc65ca9dce534",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "05:00",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Pedro Carbo",
+    "sector": "Calle 24 de Mayo",
+    "latitud": -1.8179753417848328,
+    "longitud": -80.2282583078915,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las precipitaciones registradas durante la madrugada del 01/03/2026, se reportó acumulación de agua en varias viviendas. Permaneciendo en sus mismos inmuebles. GAD Cantonal informa que las familias damnificadas continúan en sus mismos inmuebles.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 24,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 68.0,
+        "max_5km_mm": 74.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 34.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 112.0,
+      "max_5km_mm": 123.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 25.3,
+        "max_5km_mm": 36.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 26.0,
+        "max_5km_mm": 75.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 35.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:58.000Z",
+  "pendiente": []
+}

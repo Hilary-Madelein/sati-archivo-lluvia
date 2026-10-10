@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "407607b16fb28285aa88f620432704e2",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "22:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Varios Sectores",
+    "latitud": -2.224,
+    "longitud": -79.928,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche del 18/02/2026, se reportó varios sectores con acumulación de agua Luego del cese de agua y los trabajos realizados por las instituciones, el agua drenó y las vías quedaron expeditas al tránsito vehicular. MINEDEC reportó la afectación de cuatro unidades educativas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 117.0,
+        "max_5km_mm": 124.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 33.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 162.0,
+      "max_5km_mm": 182.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 11.3,
+        "max_5km_mm": 31.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 9.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 30.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044459,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:03:46.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "1b17d4f662fd44b1b15c6ca841621ac4",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "07:00",
+    "provincia": "Manabí",
+    "canton": "Puerto Lopez",
+    "parroquia": "Puerto Lopez",
+    "sector": "Los Manglares",
+    "latitud": -1.5384137919990588,
+    "longitud": -80.80706005970869,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias suscitadas en horas de la madrugada y mañana del 27/09/2026. Se produjo el desbordamiento del río Buena Vista, provocando inundación en el sector y afectaciones a varias viviendas, causando daños a enseres.  UGR informa que las familias se encuentran en las viviendas; así mismo, C.B. Puerto López evacúa a familias afectadas y pone a buen recaudo sus bienes.\r\nSe actualizan sectores afectados, así mismo, varias de las familias evacuadas en horas anteriores fueron acogidas en familia acogiente.\r\n29/09/26 SNGR entregó AH.\r\n07/10/2026 Se ratificaron las cifras de afectaciones.\r\n07/10/2026 Se agregaron mas entregas de AH.",
+    "personas_afectadas": 91,
+    "viviendas_afectadas": 48,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 22.0,
+      "max_5km_mm": 22.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057745,
+    "periodos_retorno_m3s": {
+      "2": 42.9,
+      "5": 94.3,
+      "10": 128.4,
+      "25": 171.4,
+      "50": 203.3,
+      "100": 234.9
+    },
+    "caudal_simulado_dia_m3s": 0.14,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 5.7,
+        "max_ensamble_m3s": 28.7,
+        "max_alta_resolucion_m3s": 1.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 2.5,
+        "max_ensamble_m3s": 21.9,
+        "max_alta_resolucion_m3s": 8.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 3.2,
+        "max_ensamble_m3s": 34.3,
+        "max_alta_resolucion_m3s": 0.9
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:15:39.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "758f8f132b448f0151883f1b91050da1",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "22:28",
+    "provincia": "El Oro",
+    "canton": "Piñas",
+    "parroquia": "Piñas / La Matriz",
+    "sector": "VARIOS SECTORES, EL CISNE, SAN JOSÉ, VILLA ELVIRA, PIEDRA BLANCA, GUAYABAL, EL TRIGAL, SAN FRANCISCO, FLORIDA, ROLDÓS",
+    "latitud": -3.6813,
+    "longitud": -79.6766,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas el 07/03/2026, se registró inundación, afectando a varias viviendas por el ingreso de agua, además se registró el desbordamiento del río Piñas y la quebrada La Arada.<br>\r\nCon fecha 08/03/2026,  GAD Piñas se declaró en situación de emergencia territorial. Los servicios básicos fueron restablecidos tanto como el agua y la energía fueron restablecidos. Asimismo, las calles afectadas por acumulación de agua y palizada fue intervenida por el GAD Piñas quedando expeditas al tránsito vehicular, además las personas afectadas y damnificadas fueron beneficiadas por la entrega de asistencia humanitaria en fechas pasadas.",
+    "personas_afectadas": 496,
+    "viviendas_afectadas": 218,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 16.4,
+        "max_5km_mm": 26.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 31.0,
+        "max_5km_mm": 34.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 4.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041439,
+    "periodos_retorno_m3s": {
+      "2": 169.8,
+      "5": 252.9,
+      "10": 308.0,
+      "25": 377.5,
+      "50": 429.1,
+      "100": 480.3
+    },
+    "caudal_simulado_dia_m3s": 75.38,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:47:26.000Z",
+  "pendiente": []
+}

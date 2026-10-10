@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b8f44fdf38398ff4c52913b24ee08dac",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "13:40",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Riochico (rio Chico)",
+    "sector": "Las Chacras",
+    "latitud": -0.974319,
+    "longitud": -80.420173,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias suscitadas la tarde del 04/02/2026, se produjo una inundación en el sector afectando a varias viviendas con ingreso de agua. UGR GAD Cantonal Portoviejo indica que no existen afectaciones a viviendas y personas. Se realizó el desazolve del ducto cajón",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 7.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 40.9,
+        "max_5km_mm": 46.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670074110,
+    "periodos_retorno_m3s": {
+      "2": 110.5,
+      "5": 198.3,
+      "10": 256.5,
+      "25": 329.9,
+      "50": 384.4,
+      "100": 438.5
+    },
+    "caudal_simulado_dia_m3s": 27.34,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:57.000Z",
+  "pendiente": []
+}

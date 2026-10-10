@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8b78ad0a83bbd56da24a573666466d25",
+    "tipo": "Inundación",
+    "fecha": "2026-03-13",
+    "hora": "11:00",
+    "provincia": "Morona Santiago",
+    "canton": "Gualaquiza",
+    "parroquia": "Bomboiza",
+    "sector": "Centro Parroquial Bomboiza",
+    "latitud": -3.438881,
+    "longitud": -78.538997,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias suscitadas durante la noche del 12/03/2026 y madrugada del 13/03/2026, se produjo el incremento de caudal del río Churros y su posterior desbordamiento. Esto generó la inundación del centro parroquial, afectando con el ingreso de agua a varias viviendas y a la escuela \"Ciudad de Cuenca\". Cabe mencionar que los niños fueron enviados a sus viviendas con el fin de precautelar su bienestar. El COE Cantonal de Gualaquiza, en coordinación con las instituciones que conforman el Sistema Provincial Descentralizado para la Gestión de Riesgos de Desastres, ejecutó actividades inherentes a la atención del evento, como evacuación del agua, limpieza de cunetas, reencauzamiento del río, levantamiento de información (EVIN), activación de protocolos educativos, evacuación de muebles y enseres. Adicionalmente, la Secretaria Nacional de Gestión de Riesgos (SNGR), bajo el principio de subsidiaridad, en coordinación con el GAD-Cantonal Gualaquiza, realizó la entrega de asistencia humanitaria a las familias afectadas.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 7,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 32.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 35.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 81.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 31.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 44.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 14.8,
+        "max_5km_mm": 53.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620674706,
+    "periodos_retorno_m3s": {
+      "2": 11.4,
+      "5": 15.7,
+      "10": 18.6,
+      "25": 22.2,
+      "50": 24.8,
+      "100": 27.5
+    },
+    "caudal_simulado_dia_m3s": 4.92,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:49.000Z",
+  "pendiente": []
+}

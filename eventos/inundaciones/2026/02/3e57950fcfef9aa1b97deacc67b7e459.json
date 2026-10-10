@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3e57950fcfef9aa1b97deacc67b7e459",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "04:00",
+    "provincia": "Loja",
+    "canton": "Celica",
+    "parroquia": "Cruzpamba (cab. En Carlos Bustamante)",
+    "sector": "Varios sectores (Patuco, El Guineo, Ceibopamba, El Faique)",
+    "latitud": -4.155979642213097,
+    "longitud": -80.00568149737018,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la madrugada del 26/02/2026 se produjo la acumulación de aguas lluvias, provocando inundación en el lugar.\r\n\r\n-Presidenta de Gobierno Parroquial de Cruzpamba confirmó el evento y coordina acciones de respuesta. Las familias afectadas continúan habitando en sus viviendas. Los trabajos de limpieza vial están a cargo de Gobierno Parroquial de Cruzpamba.",
+    "personas_afectadas": 72,
+    "viviendas_afectadas": 18,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 42.0,
+      "max_5km_mm": 44.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 16.0,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 18.2,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 23.5,
+        "max_5km_mm": 36.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:49.000Z",
+  "pendiente": []
+}

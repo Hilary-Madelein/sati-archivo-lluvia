@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "5edaf1c6ab4f55518791864e16878b8d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "San Jose De Ancon",
+    "sector": "Barrio Central",
+    "latitud": -2.3201422518525,
+    "longitud": -80.84933707052284,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 25/02/2026, una vivienda de construcción mixta resultó inundada, además de quedar vulnerable al posible colapso. Por lluvias suscitadas en la mañana del 25/02/2026, una vivienda de construcción mixta resultó inundada, además de quedar vulnerable al posible colapso.\r\nSNGR coordina con UGR el levantamiento de información.\r\nUGR cantonal mediante EVIN informó que la familia se mantiene en su vivienda.\r\nSNGR entregó asistencia humanitaria.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 52.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 83.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 21.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.5,
+        "max_5km_mm": 5.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 8.5,
+        "max_5km_mm": 11.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:38.000Z",
+  "pendiente": []
+}

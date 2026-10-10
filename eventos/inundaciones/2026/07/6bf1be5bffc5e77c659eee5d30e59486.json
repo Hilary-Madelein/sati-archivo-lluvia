@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "6bf1be5bffc5e77c659eee5d30e59486",
+    "tipo": "Inundación",
+    "fecha": "2026-07-19",
+    "hora": "21:00",
+    "provincia": "Esmeraldas",
+    "canton": "San Lorenzo",
+    "parroquia": "Calderon",
+    "sector": "Casa del Pobre",
+    "latitud": 1.166758,
+    "longitud": -78.754532,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la tarde y noche del 19/07/2026, se produjo el desbordamiento del río Tululbí, el mismo que causó el represamiento del estero San Carlos, afectando a varias viviendas. Cabe indicar que el recinto Casa del Pobre es de difícil acceso.  \r\n\r\n\r\n\r\n UGR San Lorenzo informa que las familias afectadas se mantienen pernoctando en sus propias viviendas; el río Tululbi y el estero San Carlos se encuentran normales.",
+    "personas_afectadas": 219,
+    "viviendas_afectadas": 68,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 109.0,
+        "max_5km_mm": 112.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 32.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 142.0,
+      "max_5km_mm": 146.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-19T07:00:00.000Z",
+        "punto_mm": 16.7,
+        "max_5km_mm": 19.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-18T07:00:00.000Z",
+        "punto_mm": 11.0,
+        "max_5km_mm": 31.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-17T07:00:00.000Z",
+        "punto_mm": 12.6,
+        "max_5km_mm": 23.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065837,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:28.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

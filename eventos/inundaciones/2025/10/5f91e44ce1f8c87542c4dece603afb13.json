@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "5f91e44ce1f8c87542c4dece603afb13",
+    "tipo": "Inundación",
+    "fecha": "2025-10-29",
+    "hora": "17:00",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Nangaritza",
+    "parroquia": "Zurmi",
+    "sector": "Pachicutza",
+    "latitud": -4.123804060136339,
+    "longitud": -78.6329151499318,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la tarde del 29/10/2025, se produjo el desbordamiento la quebrada Pichicutza causando el ingreso de agua en la minera del Curi quedando 2 personas atrapadas por el ingreso del caudal, por el momento continúan extraviadas.\r\n\r\n-Empresa Privada de la Minera el Curi, realizaron labores de evacuación del agua acumulada.\r\n-Jefa Política y PPNN colaboraron en la verificación de la emergencia.\r\n-Cuerpo de Bomberos de Nangaritza confirmó la novedad.\r\n-UGR de Nangaritza, realizó  el levantamiento de información y daños. -La quebrada Pichicutza se encuentra en su cauce normal.\r\n-Los trabajos de rescate de personas reportadas inicialmente como extraviadas finalizaron.\r\n-2 personas fallecidas.\r\n-1 bien privado afectado. (Minera)",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 2
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 29.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620011511,
+    "periodos_retorno_m3s": {
+      "2": 23.4,
+      "5": 30.6,
+      "10": 35.3,
+      "25": 41.3,
+      "50": 45.8,
+      "100": 50.2
+    },
+    "caudal_simulado_dia_m3s": 10.54,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:36.000Z",
+  "pendiente": []
+}

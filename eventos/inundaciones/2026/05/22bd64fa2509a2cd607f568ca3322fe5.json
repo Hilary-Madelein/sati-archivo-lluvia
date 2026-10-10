@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "22bd64fa2509a2cd607f568ca3322fe5",
+    "tipo": "Inundación",
+    "fecha": "2026-05-05",
+    "hora": "15:47",
+    "provincia": "Pichincha",
+    "canton": "Mejia",
+    "parroquia": "Aloasi",
+    "sector": "Velasco y Juan Pio Montúfar- Estadio La Cruz y calle Simón Bolivar",
+    "latitud": -0.518856,
+    "longitud": -78.584537,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la tarde del 05/05/2026, se produjo una inundación al interior de varios domicilios, ocasionada por el colapso del sistema de alcantarillado. 06/05/2026 La Unidad de Gestión de Riesgos informa que, tras la coordinación realizada con el Cuerpo de Bomberos de Mejía, se determinó que no se requiere inspección técnica en sitio, debido a que no se evidencian afectaciones estructurales ni bienes materiales.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 7.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-05T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 15.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-04T07:00:00.000Z",
+        "punto_mm": 4.2,
+        "max_5km_mm": 16.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-03T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 16.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670077165,
+    "periodos_retorno_m3s": {
+      "2": 56.6,
+      "5": 68.1,
+      "10": 75.7,
+      "25": 85.3,
+      "50": 92.4,
+      "100": 99.4
+    },
+    "caudal_simulado_dia_m3s": 17.94,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:28:29.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "75a6f95746433dc844907a1ee65a2d9f",
+    "tipo": "Inundación",
+    "fecha": "2026-09-29",
+    "hora": "08:05",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "Malimpia",
+    "sector": "Pambilar, 5 de Agosto, Puerto Bajo, Unión Manabita, Valle del Sade, Zapallo, Hojas Blancas, Macallares, Naranjal Chachis, El Recreo, Puerto del Carmen, Casas MIDUVI, Los Laureles, Guayacana de los Chachis y Las Pavas.",
+    "latitud": 0.414387,
+    "longitud": -79.428892,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias registradas la madrugada y mañana del 29/09/2026, hubo una inundación que afectó varias comunidades de la parroquia. Al 05/10/2026, se mantiene la activación de la MTT4 Provincial Esmeraldas. De acuerdo con la información proporcionada por la UGR Muisne, el río presenta tendencia a aumentar de nivel y en el sector se registran lluvias moderadas. Las calles ya no se encuentran anegadas, pero con presencia de lodo, y las familias continúan pernoctando en sus propias viviendas. La SNGR realizó la entrega de asistencia humanitaria en los sectores Recreo y Puerto Bilbao.",
+    "personas_afectadas": 1432,
+    "viviendas_afectadas": 358,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 33.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 52.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 90.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 6.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 37.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 7.6,
+        "max_5km_mm": 15.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670067914,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:12:33.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

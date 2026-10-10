@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f5e69507317bc789481831c9abb6c948",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "14:30",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Chontapunta",
+    "sector": "Comunidad Waorani Gareno, Meñeteno, Kakataro  y Wentaro",
+    "latitud": -1.069424,
+    "longitud": -77.38938,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias durante la mañana del 29/01/2026, se produjo el desbordamiento de río Gareno, rio Nushino y afluentes  inundando la vía a Gareno y varias viviendas.. Tenencia Política de Chonta Punta realizó seguimiento en territorio. Se coordinó con MAGP la evaluación en el área agropecuaria. GAD Cantonal de Tena coordinó la evaluación. Las familias evacuaron de forma temporal durante la inundación. SNGR en coordinación con Municipio y Cruz Roja realizaron  entregas de asistencia humanitaria. MSP brindó atención médica. Ministerio de Desarrollo Humano entregó kits de ropa, además entregó bonos de contingencia a las familias En respuesta al  Oficio Nro. SNGR-CZ2GR-2026-0074-O, el Municipio indicó que fueron afectadas un total de 23 familias en las comunidades Meñeteno, Kakataro y Wentaro, estas comunidades son lejanas",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 12,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 71.0,
+        "max_5km_mm": 71.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 79.0,
+      "max_5km_mm": 80.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 33.3,
+        "max_5km_mm": 33.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 12.3,
+        "max_5km_mm": 12.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620861715,
+    "periodos_retorno_m3s": {
+      "2": 123.8,
+      "5": 167.2,
+      "10": 195.9,
+      "25": 232.2,
+      "50": 259.2,
+      "100": 285.9
+    },
+    "caudal_simulado_dia_m3s": 40.52,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:41.000Z",
+  "pendiente": []
+}

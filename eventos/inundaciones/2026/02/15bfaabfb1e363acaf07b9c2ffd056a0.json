@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "15bfaabfb1e363acaf07b9c2ffd056a0",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Roberto Astudillo (cab. En Cruce De Venecia)",
+    "sector": "Escuela de Educación Báscia Carlos Benjamín Rosales",
+    "latitud": -2.1484109658168693,
+    "longitud": -79.51881701573176,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de la Escuela de Educación Báscia Carlos benjamín Rosales MINEDEC indica que la unidad se encuentra operativa.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 155.0,
+        "max_5km_mm": 155.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 22.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 174.0,
+      "max_5km_mm": 182.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 19.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 24.5,
+        "max_5km_mm": 78.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670058792,
+    "periodos_retorno_m3s": {
+      "2": 101.7,
+      "5": 155.1,
+      "10": 190.5,
+      "25": 235.3,
+      "50": 268.4,
+      "100": 301.4
+    },
+    "caudal_simulado_dia_m3s": 24.34,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:00:56.000Z",
+  "pendiente": []
+}

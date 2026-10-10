@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "ee1ea892c984ab44f0b68e36b2866e28",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "01:00",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "PISAGUA ALTO, VÍA GUARANDA, 24 DE MAYO, BOSQUE DE ORO, EL CAIMITO, EL SALTADERO, ERNESTINA, LA ALCANCIA, LA CONFORMIDAD, LA FORTUNA, LA MASCOTA, LA MARAVILLA, LA PRIMAVERA, LA ROSALIA, LAS BALSAS, LAS CONCHAS, LAS MERCEDES, LIMATON, PROSPERIDAD, RIO CHICO, SALVADOR ALLENDE, SAN JOAQUIN, VIA FLORES, RÍO TIGRERA",
+    "latitud": -1.769375,
+    "longitud": -79.247444,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 10/03/2026, se reportó el desbordamiento del caudal, en donde al momento se reportan 42 viviendas con 29 familias de 70 personas afectadas, 13 familias de 29 personas damnificadas, así también 1.228,5 ha afectadas (arroz, cacao, pasto saboya) de 127 productores (127 familias de 508 personas afectadas), 5 ha de pérdida (arroz, cacao, pasto saboya) de 1 productor (1 familia de 4 personas), 3 animales muertos con 3 animales afectados de 3 productores (3 familias de 12 personas afectadas) y 1 unidad educativa afectada funcionalmente (Escuela de Educación Básica Wilfrotd Mora Yepez). UGR Montalvo realizó barrido en la zona afectada y personal técnico del MAGP realizó levantamiento de MAAPEA. Actualmente, las familias se mantienen en las viviendas sin presencia de agua y el caudal se encuentra con tendencia a disminuir de nivel.",
+    "personas_afectadas": 622,
+    "viviendas_afectadas": 40,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 101.0,
+        "max_5km_mm": 101.0
+      },
+      "dia_anterior": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 40.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 138.0,
+      "max_5km_mm": 159.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 159.0,
+        "max_5km_mm": 161.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 61.9,
+        "max_5km_mm": 126.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 24.1,
+        "max_5km_mm": 66.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057754,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:43:00.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

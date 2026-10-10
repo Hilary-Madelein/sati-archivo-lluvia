@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "f9dd0b30ac24de1a442269e09806a22e",
+    "tipo": "Inundación",
+    "fecha": "2025-10-27",
+    "hora": "17:25",
+    "provincia": "Cotopaxi",
+    "canton": "Salcedo",
+    "parroquia": "San Miguel",
+    "sector": "Pungahuito, Quebrada Compadre Huaico, vía Los Pino.",
+    "latitud": -1.035763,
+    "longitud": -78.577933,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes precipitaciones registradas la tarde del 27/10/2025, se produjo el desbordamiento de la quebrada Compadre Huaico, lo que provocó la inundación del sector de Pungahuito y la interrupción temporal del paso vehicular en la vía de tercer orden.  La quebrada se encuentra tendencia normal y la vía se encuentra habilitada, se recomienda transitar con precaución.\r\nOOPP GAD tomó medidas y realizó trabajos para que la ciudadanía pueda transitar durante el feriado siempre tomando las medidas de precaución, el día miércoles 05/11/2025 retomarán los trabajos en el puente.\r\n \r\n17/01/2026 OOPP GAD Cantonal realizó trabajos del puente.\r\nSNGR monitoreó el evento. \r\nLa vía se encuentra habilitada",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 24.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620651185,
+    "periodos_retorno_m3s": {
+      "2": 9.3,
+      "5": 12.9,
+      "10": 15.3,
+      "25": 18.3,
+      "50": 20.5,
+      "100": 22.8
+    },
+    "caudal_simulado_dia_m3s": 3.48,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:16:20.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "ad05b286d1c86f93289a97e53656e8d1",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "07:00",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Santa Rosa",
+    "sector": "VARIOS SECTORES (MI ROSITA, QUITO, GALÁPAGOS, 29 NOVIEMBRE, NAZARENO, CONCHA ÁLVAREZ, CDLA REINA DEL CISNE, LA LIBERTAD)",
+    "latitud": -3.451557,
+    "longitud": -79.966107,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas durante la madrugada del 07/02/2026, los ríos Carne Amarga y Buenavista se desbordaron y ocasionaron inundaciones en varios sectores del cantón Santa Rosa, donde se reportaron viviendas afectadas por el ingreso de agua. Las aguas lluvias fueron evacuadas en su totalidad, además, se ejecutaron acciones preventivas sobre el río Santa Rosa, mediante maquinarias del GAD Municipal.\r\nSNGR mediante UGR del GAD Cantonal se indicó que, las famillias afectadas no cumplen criterio para la entrega de asistencia humanitaria.\r\nMINEDUC mediante informe remitido el 13/02/2026 indicó que, varias unidades educativas fueron afectadas funcionalmente por ingreso de agua en sus patios y pasillos, donde el agua fue evacuada y actualmente realizan sus actividades normales.",
+    "personas_afectadas": 84,
+    "viviendas_afectadas": 21,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 52.0,
+      "max_5km_mm": 56.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 4.1,
+        "max_5km_mm": 7.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:22.000Z",
+  "pendiente": []
+}

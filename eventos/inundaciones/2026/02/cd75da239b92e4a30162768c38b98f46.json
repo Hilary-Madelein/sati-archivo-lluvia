@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "cd75da239b92e4a30162768c38b98f46",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "04:00",
+    "provincia": "Guayas",
+    "canton": "Balao",
+    "parroquia": "Balao",
+    "sector": "Puerto Balao",
+    "latitud": -2.894625,
+    "longitud": -79.832295,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche y madrugada del 07/02/2026, se produjo el desbordamiento del río Balao, lo que ocasionó el ingreso de agua a varias viviendas.  GAD Cantonal indica que el río Balao se encuentra en su cauce normal, las familias afectadas permanecen en sus respectivos inmuebles. Prefectura de Guayas entregó asistencia humanitaria",
+    "personas_afectadas": 64,
+    "viviendas_afectadas": 32,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 31.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 58.0,
+      "max_5km_mm": 71.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 11.6,
+        "max_5km_mm": 13.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 12.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 12.5,
+        "max_5km_mm": 15.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:22.000Z",
+  "pendiente": []
+}

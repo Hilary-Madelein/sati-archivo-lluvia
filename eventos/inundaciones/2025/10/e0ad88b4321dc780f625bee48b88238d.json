@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "e0ad88b4321dc780f625bee48b88238d",
+    "tipo": "Inundación",
+    "fecha": "2025-10-31",
+    "hora": "16:02",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "El Batán",
+    "sector": "Américas y Remigio Crespo",
+    "latitud": -2.897086,
+    "longitud": -79.025257,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 31/10/2025 se produjo anegación de agua sobre la vía de segundo orden provocando tráfico lento en el sector, al momento el agua a desfogado y el tráfico circula con normalidad. UMEVA de la CZ6 realizó monitoreo mediante cámaras del ECU-911.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 30.0,
+      "max_5km_mm": 35.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620969140,
+    "periodos_retorno_m3s": {
+      "2": 74.2,
+      "5": 96.5,
+      "10": 111.3,
+      "25": 129.9,
+      "50": 143.7,
+      "100": 157.5
+    },
+    "caudal_simulado_dia_m3s": 15.02,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:05.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "1e4544883be8b08d297bbae19ea1071e",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "05:00",
+    "provincia": "Pastaza",
+    "canton": "Arajuno",
+    "parroquia": "Curaray",
+    "sector": "Comunidad Kotococha",
+    "latitud": -1.60837,
+    "longitud": -77.91315,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada del 25/02/2026, se produjo el desbordamiento del río Villano, lo que ocasionó una inundación que afectó áreas de cultivo en el sector. \r\nEl río se encuentra dentro de su cauce normal. Las familias afectadas pernoctan en sus viviendas, ya que no sufrieron daño estructural. \r\nUGR Arajuno confirmó el evento y realizó el levantamiento de un informe técnico.\r\n Se realizaron acciones de respuesta y asistencia a las familias afectadas. MAGP ejecutó inspección en territorio y se coordinan acciones de recuperación productiva.",
+    "personas_afectadas": 47,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 36.0
+      },
+      "dia_anterior": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 57.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 102.0,
+      "max_5km_mm": 103.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 8.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 12.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 14.9,
+        "max_5km_mm": 20.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:58:01.000Z",
+  "pendiente": []
+}

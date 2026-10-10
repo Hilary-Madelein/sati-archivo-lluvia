@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "5138990e405cfa17b86d5b38b546d7d7",
+    "tipo": "Inundación",
+    "fecha": "2026-04-16",
+    "hora": "16:00",
+    "provincia": "Pichincha",
+    "canton": "Mejia",
+    "parroquia": "Manuel Cornejo Astorga (tandapi)",
+    "sector": "Sarapullo Alto-Esperanza  Alta y Tandapi",
+    "latitud": -0.357583,
+    "longitud": -78.842901,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la tarde del 16 de abril de 2026, se reportaron varias inundaciones provocadas por el desbordamiento de ríos y quebradas del sector. Se culminaron los trabajos de limpieza y mantenimiento de las vías afectadas por el evento. Se mantiene el apoyo a las acciones de reactivación económica en el sector. Asimismo, las familias afectadas han retornado paulatinamente a sus actividades cotidianas. Adicionalmente, el COE parroquial fue desactivado.",
+    "personas_afectadas": 10,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 27.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 26.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 63.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-16T07:00:00.000Z",
+        "punto_mm": 58.6,
+        "max_5km_mm": 84.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 19.7,
+        "max_5km_mm": 33.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670082277,
+    "periodos_retorno_m3s": {
+      "2": 43.1,
+      "5": 59.6,
+      "10": 70.5,
+      "25": 84.3,
+      "50": 94.5,
+      "100": 104.7
+    },
+    "caudal_simulado_dia_m3s": 8.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:38.000Z",
+  "pendiente": []
+}

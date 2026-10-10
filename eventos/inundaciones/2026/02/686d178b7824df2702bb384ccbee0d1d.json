@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "686d178b7824df2702bb384ccbee0d1d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-02",
+    "hora": "16:05",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Machangara",
+    "sector": "Ucubamba",
+    "latitud": -2.877777,
+    "longitud": -78.942372,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 02/02/2026, se suscitó el desbordamiento de una quebrada s/n, producto del evento el ingreso de agua a los patios de viviendas de un condominio privado (evento recurrente reportado el 26/01/2026). Las viviendas ya no se encuentran inundadas, las familias permanecen en las mismas. DGR Cuenca informó que, debido a las fuertes lluvias hubo arrastre de material lo que provocó la obstrucción de un paso de agua por sedimentos y el colapso de un cerramiento de malla generando las inundaciones. Adicional se reportaron tres personas evacuadas por precaución las mismas ya han retornado a sus viviendas. DGR Cuenca informa que de las 12 familias reportadas como afectadas 3 son damnificadas por pérdida total de bienes y enseres. Con fecha 09/02/2026 SNGR CZ6 realizó entrega de asistencia humanitaria. SNGR realizó monitoreo del evento",
+    "personas_afectadas": 24,
+    "viviendas_afectadas": 12,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 48.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 6.4,
+        "max_5km_mm": 16.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 7.5,
+        "max_5km_mm": 15.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 6.7,
+        "max_5km_mm": 18.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 621028308,
+    "periodos_retorno_m3s": {
+      "2": 267.4,
+      "5": 355.0,
+      "10": 413.0,
+      "25": 486.3,
+      "50": 540.7,
+      "100": 594.7
+    },
+    "caudal_simulado_dia_m3s": 145.9,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:10:09.000Z",
+  "pendiente": []
+}

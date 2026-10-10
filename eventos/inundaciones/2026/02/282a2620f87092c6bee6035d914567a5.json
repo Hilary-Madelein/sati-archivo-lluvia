@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "282a2620f87092c6bee6035d914567a5",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "07:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Dorado",
+    "sector": "Barrio Colinas del Dorado 1.",
+    "latitud": -0.501595,
+    "longitud": -76.9543089,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la noche y la madrugada de 25/02/2026, se produjo el desbordamiento del estero La Florida, lo que ocasionó inundaciones en el patio de varias viviendas del sector. Las familias continúan en sus viviendas. No existe afectaciones a viviendas ni personas.\r\nEl Ministerio de Gobierno (MDG), a través de la Teniente Política de El Dorado confirmó el evento.\r\nLa SNGR coordinó con el GAD Municipal de Francisco de Orellana el levantamiento de información y la verificación de afectaciones en territorio. Hoy, 27/02/2026, el GAD Municipal de Francisco de Orellana realizó una inspección en el lugar del evento, constatando que no se registraron afectaciones a las viviendas. El caudal del estero La Florida alcanzó únicamente los patios de las viviendas, sin causar mayores daños. Posteriormente, el personal se retiró del sitio.\r\nSNGR realizó monitoreo y seguimiento del evento",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 20.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 71.0,
+      "max_5km_mm": 77.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 7.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 12.5,
+        "max_5km_mm": 17.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:39.000Z",
+  "pendiente": []
+}

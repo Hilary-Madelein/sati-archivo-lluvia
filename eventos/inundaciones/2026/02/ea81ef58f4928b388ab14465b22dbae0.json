@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "ea81ef58f4928b388ab14465b22dbae0",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "La Union",
+    "sector": "GUARUMO - LA ESPERANZA",
+    "latitud": -1.755511,
+    "longitud": -79.444785,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 09/02/2026 se reportó acumulación de aguas lluvias dejando consigo el siguiente reporte de afectaciones: 22 ha. (arroz) de 7 productores con cultivos afectados parcialmente  (7 familias de 28 personas afectadas) y 34 ha (arroz) con 10 productores con cultivos con pérdida total (10 familias de 40 personas afectadas) MAGP realizó barrido en la zona afectada y facilitó la matriz MAAPEA el 24/02/2026, actualmente no se visualiza presencia de agua en cultivos, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 68,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 79.0,
+        "max_5km_mm": 79.0
+      },
+      "dia_anterior": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 32.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 35.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 139.0,
+      "max_5km_mm": 146.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 18.6,
+        "max_5km_mm": 27.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 15.7,
+        "max_5km_mm": 20.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 4.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:27.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d4eac0d16e828b21a727a75cddb6c37b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-27",
+    "hora": "12:23",
+    "provincia": "Loja",
+    "canton": "Pindal",
+    "parroquia": "Milagros",
+    "sector": "Naranjito",
+    "latitud": -4.1320903823039625,
+    "longitud": -80.10616977987611,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias se produjo la afectación total de cultivos sembrados.  MAG realizó el levantamiento de afectaciones mediante una MAAPEA.\r\n MAG realizó el levantamiento de matriz",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 47.0,
+      "max_5km_mm": 70.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 24.6,
+        "max_5km_mm": 65.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 39.2,
+        "max_5km_mm": 68.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 54.2,
+        "max_5km_mm": 79.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:36.000Z",
+  "pendiente": []
+}

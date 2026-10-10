@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "093865ac327d6a38a3cdc4f73634109d",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "21:00",
+    "provincia": "Imbabura",
+    "canton": "Cotacachi",
+    "parroquia": "Sagrario",
+    "sector": "Cercado",
+    "latitud": 0.33322,
+    "longitud": -78.276502,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a fuertes precipitaciones registradas durante la noche del 07/10/2026, se produjo una inundación en el sector lo que provocó la inundación de varias viviendas. UGR GAD Cotacachi confirma el evento reportan calles anegadas y algunas viviendas afectadas, se envía código EVIN digital para levantamiento de información",
+    "personas_afectadas": 75,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 28.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 57.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 4.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670036174,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:42.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

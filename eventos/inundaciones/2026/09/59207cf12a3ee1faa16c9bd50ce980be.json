@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "59207cf12a3ee1faa16c9bd50ce980be",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "17:15",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Colonche",
+    "sector": "Salanguillo",
+    "latitud": -1.9919398,
+    "longitud": -80.6756325,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde del 27/09/2026, se estaba ocasionando la acumulación de palizada que tapaban el badén, debido al aumento del río.  Gobernación, Prefectura y SNGR realizaron inspección de la disminución del Cuerpo Hídrico y habilitación para la movilización en el Badén.\r\nGAD Parroquial apoyó en la inspección del evento.\r\nSNGR le dio seguimiento al evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 2.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045473,
+    "periodos_retorno_m3s": {
+      "2": 23.4,
+      "5": 52.7,
+      "10": 72.0,
+      "25": 96.5,
+      "50": 114.7,
+      "100": 132.7
+    },
+    "caudal_simulado_dia_m3s": 0.18,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 25.3,
+        "max_ensamble_m3s": 209.2,
+        "max_alta_resolucion_m3s": 19.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 2.2,
+        "max_ensamble_m3s": 14.7,
+        "max_alta_resolucion_m3s": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 1.1,
+        "max_ensamble_m3s": 6.2,
+        "max_alta_resolucion_m3s": 0.3
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:16:34.000Z",
+  "pendiente": []
+}

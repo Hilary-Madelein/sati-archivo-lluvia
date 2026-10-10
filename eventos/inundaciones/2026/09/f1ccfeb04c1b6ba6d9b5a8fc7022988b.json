@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "f1ccfeb04c1b6ba6d9b5a8fc7022988b",
+    "tipo": "Inundación",
+    "fecha": "2026-09-11",
+    "hora": "07:55",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Febres Cordero",
+    "sector": "Varios Sectores (Suburbio: Coop. 24 de Julio; Coop. 27 y la G).",
+    "latitud": -2.234944,
+    "longitud": -79.940917,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las condiciones de pleamar (aguaje), el día de hoy 11/09/2026 se produjo el desbordamiento del Estero Salado. Segura EP / ECU-911 Samborondón dio seguimiento mediante cámaras y se puede visualizar que actualmente las calles y avenidas están libres del agua que se acumuló durante la pleamar.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-11T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-09T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 2.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044459,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260911",
+        "max_promedio_ensamble_m3s": 0.9,
+        "max_ensamble_m3s": 16.2,
+        "max_alta_resolucion_m3s": 0.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260909",
+        "max_promedio_ensamble_m3s": 0.5,
+        "max_ensamble_m3s": 9.7,
+        "max_alta_resolucion_m3s": 0.4
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:20:52.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

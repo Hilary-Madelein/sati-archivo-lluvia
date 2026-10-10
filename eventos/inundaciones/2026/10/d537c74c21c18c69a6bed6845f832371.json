@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "d537c74c21c18c69a6bed6845f832371",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "22:36",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Molleturo",
+    "sector": "Luz y Guía",
+    "latitud": -2.821248,
+    "longitud": -79.365654,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la noche del 07/10/2026, se reportó el incremento del caudal de río Frío y río Blanco, y posibles inundaciones en el sector.\r\n El 08/10/2026, SNGR de forma conjunta con GAD Provincial, DGR y Bomberos Cuenca realizó levantamiento de información y evaluación en la zona afectada; adicionalmente, informa que las afectaciones que fueron reportadas en el seguimiento no. 1. Por temas limítrofes, pertenecen al cantón Camilo Ponce Enríquez, reportado en el evento ID 2026-15089. El caudal del río Frío y río Blanco ha retornado a su cauce normal. SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 4.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 2.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670020928,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261005",
+        "max_promedio_ensamble_m3s": 14.0,
+        "max_ensamble_m3s": 45.7,
+        "max_alta_resolucion_m3s": 15.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:47.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

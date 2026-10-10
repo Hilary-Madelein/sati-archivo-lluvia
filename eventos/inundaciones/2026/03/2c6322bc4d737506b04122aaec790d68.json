@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2c6322bc4d737506b04122aaec790d68",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Chanduy",
+    "sector": "Comunas Sucre, Engunga, Puerto de Chanduy, Manantial de Chanduy, Tugaduaja.",
+    "latitud": -2.4644767610947014,
+    "longitud": -80.56226552794149,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, el registró el desbordamiento de los ríos \"Verde\" y \"Grande\" afectando la accesibilidad e ingreso de agua en varias viviendas de las comunas Sucre y Engunga respectivamente.\r\nLos ríos se mantienen desbordados. Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, el registró el desbordamiento de los ríos \"Verde\" y \"Grande\" afectando la accesibilidad e ingreso de agua en varias viviendas de las comunas Sucre y Engunga respectivamente.\r\nUPREA-SNGR informó que varios sectores de la parroquia se encuentran inundados y aislados, además de afectaciones a embarcaciones que estan siendo dañadas por las corrientes de los ríos que estan desembocado al mar.\r\nTenencia Política de la parroquia informó que los cauces de los 03 ríos son bajos y ya se cuenta con la accesibilidad a las zonas impactadas.\r\nSe continúa con el rescate e identificación de las embarcaciones afectadas por las fuertes lluvias.\r\nTenencia política informó que las embarcaciones fueron puesta a buen recaudo y se estaba gestionando la atención complementaria pero que no se concretó.\r\nActualmente no se registran precipitaciones en la provincia y las familias mantienen un estilo de vida normal.",
+    "personas_afectadas": 560,
+    "viviendas_afectadas": 624,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 82.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 53.0,
+        "max_5km_mm": 59.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 103.0,
+      "max_5km_mm": 149.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 22.0,
+        "max_5km_mm": 30.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 42.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 29.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670035251,
+    "periodos_retorno_m3s": {
+      "2": 2.8,
+      "5": 11.8,
+      "10": 17.8,
+      "25": 25.3,
+      "50": 30.8,
+      "100": 36.3
+    },
+    "caudal_simulado_dia_m3s": 4.33,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:52:51.000Z",
+  "pendiente": []
+}

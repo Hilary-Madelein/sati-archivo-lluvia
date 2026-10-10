@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ec102e31e378ba8fb4e1459639d2fe32",
+    "tipo": "Inundación",
+    "fecha": "2026-05-22",
+    "hora": "00:00",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Chontapunta",
+    "sector": "Desde Puerto Salazar hasta Cruz Chicta",
+    "latitud": -0.7975822231583215,
+    "longitud": -77.20652157840942,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante el 21/05/2026, aumentó el nivel del río Napo, provocando un desbordamiento que inunda los sectores Puerto Salazar hasta Cruz Chicta.  SNGR coordinó con Municipio de Tena, la evaluación del evento. Ministerio de Salud confirmó el evento.  Municipio de Tena una vez verificado que los ríos comenzaron a descender de nivel, no identificaron viviendas u otra infraestructura afectadas. Las viviendas de la zona son elevadas, por lo cual solo hubo ingreso de agua en los predios.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-22T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 0.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 11.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 38.2,
+        "max_5km_mm": 45.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 621033703,
+    "periodos_retorno_m3s": {
+      "2": 2453.1,
+      "5": 3126.0,
+      "10": 3571.5,
+      "25": 4134.4,
+      "50": 4552.0,
+      "100": 4966.6
+    },
+    "caudal_simulado_dia_m3s": 1496.86,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:25:35.000Z",
+  "pendiente": []
+}

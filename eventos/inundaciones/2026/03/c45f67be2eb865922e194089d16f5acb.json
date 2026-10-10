@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c45f67be2eb865922e194089d16f5acb",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "Gral. Pedro J. Montero (boliche)",
+    "sector": "Las Mercedes",
+    "latitud": -2.16926,
+    "longitud": -79.72212,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de 1 hectárea de cultivo de arroz con un total de $1.000 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 62.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 92.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 4.8,
+        "max_5km_mm": 16.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 15.8,
+        "max_5km_mm": 21.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049577,
+    "periodos_retorno_m3s": {
+      "2": 39.2,
+      "5": 61.7,
+      "10": 76.7,
+      "25": 95.6,
+      "50": 109.6,
+      "100": 123.5
+    },
+    "caudal_simulado_dia_m3s": 10.39,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:03.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f5df7568bd433e1f3266a619f7592ee4",
+    "tipo": "Inundación",
+    "fecha": "2026-04-21",
+    "hora": "21:00",
+    "provincia": "Loja",
+    "canton": "Catamayo",
+    "parroquia": "Catamayo",
+    "sector": "Catamayo",
+    "latitud": -3.961222481532257,
+    "longitud": -79.39064882413949,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas en la noche del 21/04/2026, se produjo anegación en el sector.\r\n GAD Cantonal de Catamayo realizó los trabajos limpieza del Centro Recreacional y de la vía",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 14.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 20.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-21T07:00:00.000Z",
+        "punto_mm": 31.8,
+        "max_5km_mm": 31.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-20T07:00:00.000Z",
+        "punto_mm": 12.6,
+        "max_5km_mm": 12.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-19T07:00:00.000Z",
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670048618,
+    "periodos_retorno_m3s": {
+      "2": 116.2,
+      "5": 151.0,
+      "10": 174.1,
+      "25": 203.2,
+      "50": 224.8,
+      "100": 246.2
+    },
+    "caudal_simulado_dia_m3s": 13.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:30:08.000Z",
+  "pendiente": []
+}

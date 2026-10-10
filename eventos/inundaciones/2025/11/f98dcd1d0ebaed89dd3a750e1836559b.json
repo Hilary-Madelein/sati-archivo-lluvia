@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "f98dcd1d0ebaed89dd3a750e1836559b",
+    "tipo": "Inundación",
+    "fecha": "2025-11-04",
+    "hora": "16:12",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Yanuncay",
+    "sector": "Mall del Río",
+    "latitud": -2.920639,
+    "longitud": -79.016528,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 04/11/2025 se produjo anegación de agua sobre la vía de primer orden provocando tráfico lento en el sector, esto ocurre debido a que la boca de desagüe no tiene la capacidad para desfogue rápido (evento recurrente). Al momento el agua a desfogado y el tráfico circula con normalidad. UMEVA de la CZ6 realizó monitoreo mediante cámaras del ECU-911.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620914102,
+    "periodos_retorno_m3s": {
+      "2": 81.6,
+      "5": 118.1,
+      "10": 142.2,
+      "25": 172.7,
+      "50": 195.4,
+      "100": 217.8
+    },
+    "caudal_simulado_dia_m3s": 30.76,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:55.000Z",
+  "pendiente": []
+}

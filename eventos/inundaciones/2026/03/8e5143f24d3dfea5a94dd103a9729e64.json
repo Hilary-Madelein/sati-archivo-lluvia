@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8e5143f24d3dfea5a94dd103a9729e64",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "10:52",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "El Recreo",
+    "sector": "Sector Una Sola Fuerza Mz 2 F9 Solar 9",
+    "latitud": -2.1526735607663343,
+    "longitud": -79.79387036890996,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias registradas durante la madrugada del 27/02/2026, se reportó acumulación de agua y posterior colapso de la vivienda de madera. Mediante EVIN, El GAD Cantonal informa que la familia damnificada  permanece en otra propiedad de su titularidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 1,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 158.0,
+        "max_5km_mm": 158.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 47.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 210.0,
+      "max_5km_mm": 213.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 14.8,
+        "max_5km_mm": 15.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 4.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 9.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057766,
+    "periodos_retorno_m3s": {
+      "2": 34.0,
+      "5": 49.3,
+      "10": 59.4,
+      "25": 72.2,
+      "50": 81.7,
+      "100": 91.1
+    },
+    "caudal_simulado_dia_m3s": 7.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:39.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "41220d6fc83be4859afb960219e3551b",
+    "tipo": "Inundación",
+    "fecha": "2025-10-29",
+    "hora": "10:23",
+    "provincia": "Sucumbíos",
+    "canton": "Lago Agrio",
+    "parroquia": "General Farfan",
+    "sector": "Sozoranga, vía a Chanangue.",
+    "latitud": 0.2107,
+    "longitud": -76.6226,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las fuertes precipitaciones registradas el 29/10/2025, se produjo el desbordamiento del río Chamanga, generando inundaciones en varios puntos de la comunidad, la cual se encuentra ubicada en las riberas del río. El aumento súbito del caudal provocó el ingreso de agua a las viviendas. el río Chamanga ha retornado a su cauce normal y las familias continúan residiendo en sus viviendas.\r\nSNGR en coordinación con el GAD Parroquial General Farfán realizaron la entrega de asistencia humanitaria\r\nUGR GAD C Lago Agrio realizó el levantamiento de información de las afectaciones.\r\nEl 31/10/2025, se reunió el COE Parroquial General Farfán para presentar las novedades suscitadas y coordinar acciones de respuesta en la que participó la SNGR. \r\nMSP en coordinación con el CB Lago Agrio brindaron atención prehospitalaria a las personas afectadas.\r\nGAD Parroquial General Farfán y Tenencia Política confirmaron el evento.",
+    "personas_afectadas": 78,
+    "viviendas_afectadas": 31,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 49.0,
+        "max_5km_mm": 49.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 79.0,
+      "max_5km_mm": 88.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620770831,
+    "periodos_retorno_m3s": {
+      "2": 111.6,
+      "5": 141.9,
+      "10": 162.0,
+      "25": 187.3,
+      "50": 206.1,
+      "100": 224.8
+    },
+    "caudal_simulado_dia_m3s": 41.64,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:16:01.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "0811739d3efdde479e9c76d5f1ee4b90",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "13:00",
+    "provincia": "Pastaza",
+    "canton": "Pastaza",
+    "parroquia": "Puyo",
+    "sector": "Comunidad Guayusa Runa",
+    "latitud": -1.3670173312942242,
+    "longitud": -77.55965056697258,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la mañana y tarde del 29/01/2026, se produjo una inundación ocasionada por el desbordamiento del río Villano y del estero Guayusa (afluente del río Villano), lo que generó afectaciones a cultivos agrícolas en la comunidad Guayusa.\r\nEl aviso del evento se realizó desde la parroquia Curaray, debido a que la comunidad no cuenta con señal de comunicación.\r\n Las familias afectadas permanecen en sus viviendas y el río Villano y el estero Guayusa se mantienen en su cauce normal. La UGR Cantonal no realizó el EVIN ni emitió recomendaciones a las instituciones competentes para la intervención. El MAGP atendió directamente el evento, realizó inspección técnica, brindó asistencia y capacitaciones para la reducción del riesgo por inundaciones, y emitió el informe de afectaciones mediante MAAPEA.",
+    "personas_afectadas": 60,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 56.0,
+        "max_5km_mm": 59.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 60.0,
+      "max_5km_mm": 70.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 77.8,
+        "max_5km_mm": 77.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 6.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 19.4,
+        "max_5km_mm": 70.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620614051,
+    "periodos_retorno_m3s": {
+      "2": 57.7,
+      "5": 80.0,
+      "10": 94.8,
+      "25": 113.5,
+      "50": 127.4,
+      "100": 141.2
+    },
+    "caudal_simulado_dia_m3s": 83.0,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 5,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:53.000Z",
+  "pendiente": []
+}

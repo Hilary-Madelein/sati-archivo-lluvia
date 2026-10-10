@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "6609f5abbb8d7f738a77ee578b6aabf8",
+    "tipo": "Inundación",
+    "fecha": "2026-02-19",
+    "hora": "08:00",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Ricaurte",
+    "sector": "ESCUELA DE EDUCACION BASICA GABRIEL GARCIA MORENO",
+    "latitud": -1.573196,
+    "longitud": -79.46893,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la mañana del 19-02-2026, se reporta una unidad educativa afectada funcionalmente (Escuela de Educación Básica Gabriel García Moreno). Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 19/02/2026, reportando que no existe afectaciones en el sitio y que las clases continúan con normalidad, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 43.0
+      },
+      "dia_anterior": {
+        "punto_mm": 98.0,
+        "max_5km_mm": 106.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 137.0,
+      "max_5km_mm": 156.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 89.2,
+        "max_5km_mm": 121.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 52.6,
+        "max_5km_mm": 123.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 37.8,
+        "max_5km_mm": 55.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670053649,
+    "periodos_retorno_m3s": {
+      "2": 338.3,
+      "5": 454.9,
+      "10": 532.2,
+      "25": 629.7,
+      "50": 702.1,
+      "100": 774.0
+    },
+    "caudal_simulado_dia_m3s": 221.28,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:21.000Z",
+  "pendiente": []
+}

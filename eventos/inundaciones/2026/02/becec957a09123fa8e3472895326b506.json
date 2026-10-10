@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "becec957a09123fa8e3472895326b506",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "15:07",
+    "provincia": "Esmeraldas",
+    "canton": "Rioverde",
+    "parroquia": "Rioverde",
+    "sector": "sector Palestina",
+    "latitud": 1.066787341406505,
+    "longitud": -79.41339538816968,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas la mañana del 04/02/2026 se suscitó el desbordamiento del estero Palestina inundando el sector. \r\n\r\n-120 familias, 514 personas afectadas.\r\n-100 viviendas afectadas(dato preliminar a la espera del levantamiento de información).\r\n- 2 unidades educativas afectadas.\r\nSr Alcalde de Rioverde informó los datos preliminares de las familias y viviendas afectadas.\r\nSNGR el 05/02/2026 se movilizará al sitio para apoyar a la UGR Rioverde con el levantamiento de información.\r\n\r\nSr Alcalde de Rioverde informó los datos preliminares de las familias y viviendas afectadas.\r\nSNGR el 05/02/2026 se movilizará al sitio para apoyar a la UGR Rioverde con el levantamiento de información.\r\nCuerpo de Bomberos Rioverde confirmó el evento.\r\nPersonal de SNGR compañado del Alcalde de Rioverde realizó la entrega de Asistencia Humanitaria.\r\nUGR Rioverde realizó el levantamiento de información y daños, cabe indicar que coordina recursos para identificar afectaciones en la parroquia de Rioverde. De acuerdo al levantamiento de información del GAD Cantonal Rioverde se registró el incremento de afectaciones, adicional indican que el estero se encuentra normal, no hay presencia de lluvias en el sector.",
+    "personas_afectadas": 1788,
+    "viviendas_afectadas": 400,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 22.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 23.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 57.0,
+        "max_5km_mm": 63.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 62.4,
+        "max_5km_mm": 70.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 26.4,
+        "max_5km_mm": 51.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066871,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:08:55.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "a9470ce980a3398be0a5ee8757ff7737",
+    "tipo": "Inundación",
+    "fecha": "2026-01-28",
+    "hora": "17:00",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Valle De La Virgen",
+    "sector": "Sector Barrio Lindo",
+    "latitud": -1.7400080609009427,
+    "longitud": -80.19485078622218,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la tarde y noche de hoy 28/01/2026, se reporta el sector inundado. Mediante Evin, GAD Cantonal indica que las familias damnificadas se encuentran en sus mismos inmuebles y, al momento, el sector ya no presenta acumulación de agua. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 15,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 15.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 11.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 7.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045465,
+    "periodos_retorno_m3s": {
+      "2": 35.0,
+      "5": 60.4,
+      "10": 77.2,
+      "25": 98.4,
+      "50": 114.1,
+      "100": 129.8
+    },
+    "caudal_simulado_dia_m3s": 5.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:56.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "bca13c5dab96dd7ab6fbe35c034251fc",
+    "tipo": "Inundación",
+    "fecha": "2026-02-22",
+    "hora": "18:50",
+    "provincia": "Manabí",
+    "canton": "Santa Ana",
+    "parroquia": "San Pablo (cab. En Pueblo Nuevo)",
+    "sector": "Varios Sectores (Santa Bárbara, Pata de Pájaro, Guarumo, Guarumal, El Desquite, La Naya, Bijagual, Agua fría, Prosperina, Leónidas Fernández, San Juan de las Cucarachas y Boca de Agua Fría)",
+    "latitud": -1.1726382044397339,
+    "longitud": -80.06126358228019,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias intensas presentadas el 22/02/2026, se produjo el desbordamiento de los esteros Agua Fría y Prosperina, los cuales causaron inundación en los sectores mencionados, provocaron el ingreso de agua y material pétreo a varias viviendas.\r\nMediante Evín Digital se actualizaron los datos de afectaciones, registrados por UGR Cantonal.\r\n SNGR brindó atención a las familias afectadas/damnificadas por el evento; así mismo, se registran las afectaciones de cultivos. El estado actual de los esteros es normal, no existe inundación. Las familias afectadas y damnificadas permanecen en sus viviendas.\r\nLas familias afectadas/damnificadas fueron beneficiadas con el bono de contingencia entregado por el Ministerio de Desarrollo Humano, gestionado por SNGR con el Ministerio de Desarrollo Humano. MDH el 03/03/2026 realizó la entrega de bono de contingencias. SNGR el 17/03/2026 realizó la entrega de AH.",
+    "personas_afectadas": 752,
+    "viviendas_afectadas": 229,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 26.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 83.0,
+        "max_5km_mm": 100.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 119.0,
+      "max_5km_mm": 138.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 19.7,
+        "max_5km_mm": 23.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 5.4,
+        "max_5km_mm": 32.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 56.4,
+        "max_5km_mm": 82.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041348,
+    "periodos_retorno_m3s": {
+      "2": 21.6,
+      "5": 34.3,
+      "10": 42.6,
+      "25": 53.2,
+      "50": 61.0,
+      "100": 68.8
+    },
+    "caudal_simulado_dia_m3s": 2.3,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:53.000Z",
+  "pendiente": []
+}

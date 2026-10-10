@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a46b1c78227472347f9a8a9cdd3b41f0",
+    "tipo": "Inundación",
+    "fecha": "2026-03-13",
+    "hora": "10:26",
+    "provincia": "Morona Santiago",
+    "canton": "Gualaquiza",
+    "parroquia": "Gualaquiza",
+    "sector": "Sector Sevilla",
+    "latitud": -3.423475,
+    "longitud": -78.543407,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias durante la noche del 12/03/2026 y madrugada del 13/03/2026, se produjo el incremento del caudal del río Gualaquiza y posterior desbordamiento. Esto generó la inundación de una vivienda; cabe mencionar que el río Gualaquiza se encuentra dentro de los parámetros normales. Cuerpo de Bomberos Gualaquiza confirmó y llevó a cabo actividades de extracción de agua; SNGR coordinó con el UGR del GAD-Cantonal Gualaquiza, quien realizó el levantamiento de información, en el cual manifestó que no existieron afectaciones de relevancia, por lo cual no se realizará ninguna gestión. SNGR dio seguimiento al evento, de acuerdo con la información generada en territorio.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 40.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 103.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 31.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 44.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 14.8,
+        "max_5km_mm": 53.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620674706,
+    "periodos_retorno_m3s": {
+      "2": 11.4,
+      "5": 15.7,
+      "10": 18.6,
+      "25": 22.2,
+      "50": 24.8,
+      "100": 27.5
+    },
+    "caudal_simulado_dia_m3s": 4.92,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:42.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "98c963265489694cc5b6c3b3af5e0941",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "15:00",
+    "provincia": "Loja",
+    "canton": "Zapotillo",
+    "parroquia": "Zapotillo",
+    "sector": "Varios sectores",
+    "latitud": -4.384582269460901,
+    "longitud": -80.2453057249788,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto de las  lluvias suscitadas en la madrugada del 04/03/2026, se produjo la inundación en varios sectores de la parroquia. La familia afectada continúa habitando su vivienda. UGR de Zapotillo se encuentra realizando el levantamiento de información a daños de los cultivos.",
+    "personas_afectadas": 300,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 44.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 12.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 4.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076280,
+    "periodos_retorno_m3s": {
+      "2": 1441.9,
+      "5": 1960.8,
+      "10": 2304.4,
+      "25": 2738.5,
+      "50": 3060.5,
+      "100": 3380.2
+    },
+    "caudal_simulado_dia_m3s": 636.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:51:18.000Z",
+  "pendiente": []
+}

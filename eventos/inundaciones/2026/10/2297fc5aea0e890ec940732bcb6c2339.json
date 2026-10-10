@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "2297fc5aea0e890ec940732bcb6c2339",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "22:40",
+    "provincia": "Azuay",
+    "canton": "Camilo Ponce Enriquez",
+    "parroquia": "Camilo Ponce Enriquez",
+    "sector": "Zhagal -Aguas Calientes",
+    "latitud": -2.851,
+    "longitud": -79.61,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la noche del 07/10/2026, se registró el incremento y desbordamiento del río Frío; como resultado del mismo, se reportaron inundaciones en el centro parroquial y en viviendas del sector.  El 08/10/2026, SNGR de forma conjunta con UGR Camilo Ponce Enríquez realizó levantamiento de información y evaluación en la zona afectada; las familias afectadas y damnificadas permanecen en sus viviendas, ya que el agua que afectó a las mismas al momento ha desfogado; el caudal del río Frío ha retornado a su cauce normal. UGR Camilo Ponce Enríquez realizó entrega de asistencia humanitaria; adicional, no se reportan más afectaciones. SNGR realizó monitoreo del evento",
+    "personas_afectadas": 28,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 8.0,
+      "max_5km_mm": 11.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 3.2,
+        "max_5km_mm": 5.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 4.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 4.2,
+        "max_5km_mm": 8.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670017858,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261005",
+        "max_promedio_ensamble_m3s": 16.9,
+        "max_ensamble_m3s": 111.8,
+        "max_alta_resolucion_m3s": 54.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:48.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

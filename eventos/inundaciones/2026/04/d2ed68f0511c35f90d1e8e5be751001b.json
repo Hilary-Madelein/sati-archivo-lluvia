@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d2ed68f0511c35f90d1e8e5be751001b",
+    "tipo": "Inundación",
+    "fecha": "2026-04-02",
+    "hora": "07:00",
+    "provincia": "Pastaza",
+    "canton": "Arajuno",
+    "parroquia": "Curaray",
+    "sector": "Comunidades Pitacocha y Liquino",
+    "latitud": -1.457095,
+    "longitud": -76.657185,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias reportadas el 02/04/2026, se reportó el desbordamiento del río Curaray, afectando a los cultivos del sector. Las familias permanecen en sus viviendas, el caudal del río Cuarary está en su cauce normal.\r\nUPREA indica que la UGR Cantonal no atenderá el evento por cuanto no cuenta con la capacidad operativa. El rio se encuentra en su cauce normal",
+    "personas_afectadas": 180,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 57.0,
+      "max_5km_mm": 64.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-02T07:00:00.000Z",
+        "punto_mm": 6.7,
+        "max_5km_mm": 7.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-01T07:00:00.000Z",
+        "punto_mm": 14.2,
+        "max_5km_mm": 65.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-31T07:00:00.000Z",
+        "punto_mm": 16.9,
+        "max_5km_mm": 31.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620960808,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:33:04.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

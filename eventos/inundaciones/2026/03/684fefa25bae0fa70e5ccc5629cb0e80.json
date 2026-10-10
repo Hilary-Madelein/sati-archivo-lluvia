@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "684fefa25bae0fa70e5ccc5629cb0e80",
+    "tipo": "Inundación",
+    "fecha": "2026-03-22",
+    "hora": "19:15",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Barrio Ñucanchiwasi, barrio 6 de Diciembre, barrio Las Américas, barrio Moretal, calle Ambato, calle Alejandro Labaka, calle Quito y Aguarico, Av. 9 de Octubre",
+    "latitud": -0.43656872563016935,
+    "longitud": -77.00313013997938,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias intensas, acompañadas de vientos fuertes y tormenta eléctrica, registradas aproximadamente desde las 19:15 del 22/03/2026 hasta la 01:00 del 23/03/2026, se produjeron inundaciones en varias vías y viviendas como consecuencia de la acumulación de agua y el taponamiento del sistema de alcantarillado. Asimismo, los fuertes vientos ocasionaron el desprendimiento de cubiertas en varias viviendas.\r\nEn el ámbito educativo, la Unidad Educativa Francisco de Orellana resultó afectada por el ingreso de agua a las aulas y el desprendimiento de una ventana debido a la fuerza del viento. De igual manera, la Escuela Jorge Noteno registró la inundación de su patio.\r\nComo resultado del evento, se identificaron dos viviendas destruidas: una colapsó a causa de las condiciones meteorológicas y la otra fue consumida por un incendio tras ser impactada por una descarga eléctrica.\r\nDe acuerdo con los registros de la estación EC00120 de Volunclima, durante el evento se registró una precipitación acumulada de 240,6 mm. Cuerpo de Bomberos de Orellana realizó trabajos de evacuación de agua. Las familias que estaban en familias de acogida retornaron a sus viviendas. GAD M de Francisco de Orellana levantó las fichas EVIN. La SNGR, Gobernación de Orellana, el Ministerio de Desarrollo Humano y el Distrito de Educación 22D02 entregaron asistencia humanitaria. El Ministerio de Desarrollo Humano entregó 4 bonos de primera respuesta para emergencia. GAD Municipal de Francisco de Orellana entregó materiales para la reconstrucción de las viviendas afectadas y realizó labores de limpieza, remoción de escombros y mantenimiento vial.  CNEL rehabilitó el servicio eléctrico.  MINEDEC realizó la reparación del ventanal afectado.",
+    "personas_afectadas": 35,
+    "viviendas_afectadas": 15,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-21T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 3.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620666291,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:31.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

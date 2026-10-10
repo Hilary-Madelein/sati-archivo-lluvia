@@ -1,0 +1,71 @@
+{
+  "evento": {
+    "id": "f73d1efaff7e90672fd6ff2e473fc3af",
+    "tipo": "Inundación",
+    "fecha": "2026-05-16",
+    "hora": "16:02",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Chillogallo",
+    "sector": "Varios sectores",
+    "latitud": -0.284465,
+    "longitud": -78.556368,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas en el sector, se reportó una vía de segundo orden afectada por anegación de agua debido a la saturación del sistema de alcantarillado.  La Empresa Metropolitana de Agua Potable y Alcantarillado de Quito (EPMAPS), en coordinación con el Cuerpo de Bomberos, ejecutó labores de limpieza de sumideros y mantenimiento del sistema de alcantarillado pluvial, con el fin de facilitar la evacuación del agua acumulada en la vía y proceder posteriormente con la habilitación del tránsito vehicular. La  SNGR  realizó el monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 15.0,
+      "max_5km_mm": 21.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-15T07:00:00.000Z",
+        "punto_mm": 18.1,
+        "max_5km_mm": 18.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-14T07:00:00.000Z",
+        "punto_mm": 8.8,
+        "max_5km_mm": 10.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670073059,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:26:48.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

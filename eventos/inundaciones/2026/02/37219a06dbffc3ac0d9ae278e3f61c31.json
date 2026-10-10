@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "37219a06dbffc3ac0d9ae278e3f61c31",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Pedro Carbo",
+    "sector": "Sector Guayaquil 1",
+    "latitud": -1.8066,
+    "longitud": -80.229,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche y madrugada del 07/02/2026, se reportó el ingreso de agua a varias viviendas. GAD Cantonal indica que las familias damnificadas permanecen en sus respectivos inmuebles",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 6,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 63.0,
+      "max_5km_mm": 76.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 14.7,
+        "max_5km_mm": 27.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 4.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:10.000Z",
+  "pendiente": []
+}

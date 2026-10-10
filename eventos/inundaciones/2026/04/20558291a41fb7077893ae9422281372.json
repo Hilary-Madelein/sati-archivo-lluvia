@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "20558291a41fb7077893ae9422281372",
+    "tipo": "Inundación",
+    "fecha": "2026-04-13",
+    "hora": "16:17",
+    "provincia": "Pichincha",
+    "canton": "Mejia",
+    "parroquia": "Tambillo",
+    "sector": "Panamericana Sur ? E-35",
+    "latitud": -0.406613,
+    "longitud": -78.54621,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las intensas lluvias registradas en la zona, se produjo una inundación en la vía principal, que inicialmente estaba parcialmente habilitada. Actualmente, la circulación vehicular ha sido completamente restablecida. [El GAD Cantonal, a través de la Empresa Municipal de Agua Potable y con el apoyo del Cuerpo de Bomberos de Mejía, llevó a cabo labores de evacuación de agua y limpieza del alcantarillado, dejando la vía totalmente despejada y habilitada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 12.5,
+        "max_5km_mm": 24.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-12T07:00:00.000Z",
+        "punto_mm": 14.6,
+        "max_5km_mm": 33.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-11T07:00:00.000Z",
+        "punto_mm": 13.0,
+        "max_5km_mm": 20.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670099689,
+    "periodos_retorno_m3s": {
+      "2": 108.2,
+      "5": 137.6,
+      "10": 157.1,
+      "25": 181.8,
+      "50": 200.1,
+      "100": 218.2
+    },
+    "caudal_simulado_dia_m3s": 18.53,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:32:15.000Z",
+  "pendiente": []
+}

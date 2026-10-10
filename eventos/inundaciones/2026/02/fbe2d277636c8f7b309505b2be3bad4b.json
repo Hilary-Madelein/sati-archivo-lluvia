@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "fbe2d277636c8f7b309505b2be3bad4b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:25",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "El Cambio",
+    "sector": "AVENIDA FERROVIARIA",
+    "latitud": -3.285825,
+    "longitud": -79.902328,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 07/02/2026, se registró inundación a causa del evento varias calles registraron acumulación de agua y afectación en unidades educativas. Mediante informa MINEDEC, se informa varias unidades educativas que fueron afectadas funcionalmente por ingreso de agua en sus patios y pasillos, donde el agua fue evacuada y actualmente realizan sus actividades normales\r\nSNGR coordinó con MINEDEC para el seguimiento al estado actual de las unidades educativas",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 46.0,
+      "max_5km_mm": 49.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 17.5,
+        "max_5km_mm": 26.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670019921,
+    "periodos_retorno_m3s": {
+      "2": 27.8,
+      "5": 48.2,
+      "10": 61.6,
+      "25": 78.7,
+      "50": 91.3,
+      "100": 103.9
+    },
+    "caudal_simulado_dia_m3s": 30.29,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:02.000Z",
+  "pendiente": []
+}

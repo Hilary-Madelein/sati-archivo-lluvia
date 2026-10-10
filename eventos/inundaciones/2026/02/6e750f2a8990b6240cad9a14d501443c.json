@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "6e750f2a8990b6240cad9a14d501443c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-21",
+    "hora": "06:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "Comuna Libertador Bolívar",
+    "latitud": -1.8801979164793001,
+    "longitud": -80.73507346935872,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada del 21/02/2026, una vivienda de construcción mixta resultó afectada con ingreso de aguas lluvias. Por lluvias suscitadas en la madrugada del 21/02/2026, una vivienda de construcción mixta resultó afectada con ingreso de aguas lluvias.\r\nSNGR coordinó con la UGR cantonal el levantamiento de información.\r\nUGR cantonal mediante informe EVIN indicó que la familia se mantiene en su vivienda, la situación se esta restableciendo, las aguas bajaron y la familia lleva una vida normal en su hogar.",
+    "personas_afectadas": 7,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 35.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 52.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 38.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 58.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 33.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670051616,
+    "periodos_retorno_m3s": {
+      "2": 17.6,
+      "5": 42.6,
+      "10": 59.2,
+      "25": 80.2,
+      "50": 95.8,
+      "100": 111.2
+    },
+    "caudal_simulado_dia_m3s": 3.48,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:02:22.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2f7073f8d87c7e9c586e61fa492e8d4e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Tarifa",
+    "sector": "Graminea Selecta",
+    "latitud": -1.953929255,
+    "longitud": -79.807564,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG indicó que se vieron destruidos cultivos de arroz.  MAG realizó la inspección de la novedad.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 150.0,
+        "max_5km_mm": 168.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 20.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 175.0,
+      "max_5km_mm": 198.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 3.7,
+        "max_5km_mm": 20.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 3.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670010655,
+    "periodos_retorno_m3s": {
+      "2": 25.6,
+      "5": 36.3,
+      "10": 43.4,
+      "25": 52.3,
+      "50": 59.0,
+      "100": 65.6
+    },
+    "caudal_simulado_dia_m3s": 5.32,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:50.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "000a77383a7fef90d478c5d2c0576f6e",
+    "tipo": "Inundación",
+    "fecha": "2025-12-19",
+    "hora": "17:36",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Hermano Miguel",
+    "sector": "Milchichig",
+    "latitud": -2.884215,
+    "longitud": -78.972455,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 19/12/2025 se produjo anegación de agua sobre la vía de primer orden provocando tráfico lento en el sector, esto ocurre debido al taponamiento de sumideros en la zona. Etapa realizó trabajos de limpieza de sumideros.  UMEVA-CZ6 realizó monitoreo, el tráfico fluye con normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2025-12-19T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 9.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2025-12-18T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 6.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2025-12-17T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 4.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620870069,
+    "periodos_retorno_m3s": {
+      "2": 223.8,
+      "5": 296.8,
+      "10": 345.2,
+      "25": 406.3,
+      "50": 451.6,
+      "100": 496.6
+    },
+    "caudal_simulado_dia_m3s": 58.24,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:11.000Z",
+  "pendiente": []
+}

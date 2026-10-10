@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "e1d7cbcd15b407f2bdf1fad6556d86c7",
+    "tipo": "Inundación",
+    "fecha": "2026-02-05",
+    "hora": "08:30",
+    "provincia": "Guayas",
+    "canton": "Palestina",
+    "parroquia": "Palestina",
+    "sector": "Varios Sectores (Recinto El Consuelo)",
+    "latitud": -1.625619,
+    "longitud": -79.96982,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las últimas precipitaciones, se reportó acumulación de agua en varias calles y el ingreso de agua en varias viviendas. Mediante EVIN, GAD Cantonal indica que las familias afectadas realizaron las debidas limpiezas y siguen pernoctando en sus respectivos inmuebles. SNGR realizó la entrega de asistencia humanitaria",
+    "personas_afectadas": 182,
+    "viviendas_afectadas": 53,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 44.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 47.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 3.6,
+        "max_5km_mm": 6.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 6.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670043411,
+    "periodos_retorno_m3s": {
+      "2": 20.2,
+      "5": 30.3,
+      "10": 37.0,
+      "25": 45.4,
+      "50": 51.7,
+      "100": 57.9
+    },
+    "caudal_simulado_dia_m3s": 0.6,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:31.000Z",
+  "pendiente": []
+}

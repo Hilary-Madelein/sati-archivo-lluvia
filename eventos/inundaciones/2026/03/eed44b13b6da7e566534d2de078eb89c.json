@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "eed44b13b6da7e566534d2de078eb89c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "04:00",
+    "provincia": "Guayas",
+    "canton": "Playas",
+    "parroquia": "General Villamil (playas)",
+    "sector": "Varios sectores (Barrios 25 de Julio, Guayaquil, Durán, Aguas Verdes y San Jacinto)",
+    "latitud": -2.62236423864979,
+    "longitud": -80.39169666547986,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones y intensos vientos registrados durante la madrugada del 04/03/2026, se reportaron afectaciones en varias viviendas localizadas en los distintos sectores.\r\n El GAD Cantonal indicó que las familias afectadas y damnificadas realizaron las debidas limpiezas y siguen pernoctando en sus respectivos inmuebles. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 454,
+    "viviendas_afectadas": 180,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 94.0,
+        "max_5km_mm": 106.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 114.0,
+      "max_5km_mm": 130.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 53.2,
+        "max_5km_mm": 64.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 5.9,
+        "max_5km_mm": 6.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 13.6,
+        "max_5km_mm": 22.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670030136,
+    "periodos_retorno_m3s": {
+      "2": 6.5,
+      "5": 15.2,
+      "10": 20.9,
+      "25": 28.2,
+      "50": 33.6,
+      "100": 38.9
+    },
+    "caudal_simulado_dia_m3s": 2.41,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:51:47.000Z",
+  "pendiente": []
+}

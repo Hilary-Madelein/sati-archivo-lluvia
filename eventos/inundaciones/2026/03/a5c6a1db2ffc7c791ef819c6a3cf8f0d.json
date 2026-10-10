@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a5c6a1db2ffc7c791ef819c6a3cf8f0d",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "23:30",
+    "provincia": "El Oro",
+    "canton": "Zaruma",
+    "parroquia": "Sinsao",
+    "sector": "VARIOS SECTORES: ORTEGA BAJO, SANTA MARTA",
+    "latitud": -3.6542,
+    "longitud": -79.5638,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la noche del 10/03/2026, se registró en desbordamiento del Amarillo, causando inundación a viviendas. \r\n  Las familias afectadas realizaron la evacuación de agua y retornaron a sus viviendas, el caudal de río amarillos se encuentra en su caudal normal.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 41.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 63.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 36.5,
+        "max_5km_mm": 47.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 23.5,
+        "max_5km_mm": 66.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 17.3,
+        "max_5km_mm": 28.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670039390,
+    "periodos_retorno_m3s": {
+      "2": 29.1,
+      "5": 40.2,
+      "10": 47.6,
+      "25": 56.8,
+      "50": 63.7,
+      "100": 70.6
+    },
+    "caudal_simulado_dia_m3s": 6.24,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:02.000Z",
+  "pendiente": []
+}

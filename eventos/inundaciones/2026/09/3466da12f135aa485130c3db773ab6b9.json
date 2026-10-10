@@ -1,0 +1,94 @@
+{
+  "evento": {
+    "id": "3466da12f135aa485130c3db773ab6b9",
+    "tipo": "Inundación",
+    "fecha": "2026-09-25",
+    "hora": "06:25",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "San Francisco De Onzole",
+    "sector": "Comunidades Zancudo, Arenal, Pintor 1 y 2, Tangare, San Francisco.",
+    "latitud": 0.8813471277450111,
+    "longitud": -79.08351615048238,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las recurrentes precipitaciones registradas durante la madrugada del 25/09/2026, se produjo el desbordamiento del río Onzole, generando inundaciones en varias comunidades de la parroquia San Francisco de Onzole. El 26/09/2026, la UGR Eloy Alfaro reportó un incremento de familias y personas afectadas.\r\n 05/10/2026 | La UGR Eloy Alfaro informa que el COE Cantonal se mantiene activo. El río Onzole presenta tendencia a aumentar de nivel. Los sectores afectados presentan acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni comunidades afectadas. El levantamiento EVIN continúa en proceso y, conforme al último monitoreo informado, no se registran lluvias.",
+    "personas_afectadas": 1348,
+    "viviendas_afectadas": 337,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 50.0,
+        "max_5km_mm": 54.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 49.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 98.0,
+      "max_5km_mm": 111.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 26.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 8.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 8.1,
+        "max_5km_mm": 35.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670016698,
+    "periodos_retorno_m3s": {
+      "2": 40.5,
+      "5": 52.2,
+      "10": 60.0,
+      "25": 69.7,
+      "50": 77.0,
+      "100": 84.2
+    },
+    "caudal_simulado_dia_m3s": 7.38,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260923",
+        "max_promedio_ensamble_m3s": 14.2,
+        "max_ensamble_m3s": 57.9,
+        "max_alta_resolucion_m3s": 20.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:18:21.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "a7bd40471a17e9a2fcf82a4632e1da49",
+    "tipo": "Inundación",
+    "fecha": "2026-08-17",
+    "hora": "21:18",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Coop. Janeth Toral Lamina 1 Mz. 1821 Solar 16",
+    "latitud": -2.115421,
+    "longitud": -79.973519,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde del 17/08/2026, se reportó acumulación de agua en varios sectores, afectando calles y avenidas. Adicionalmente, se reportó  la filtración de agua en el techo y paredes de una vivienda. Mediante EVIN, el GAD Cantonal informa que la familia afectada se encuentra en su mismo inmueble.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-08-17T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-08-16T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-08-15T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 1.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050599,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260816",
+        "max_promedio_ensamble_m3s": 0.2,
+        "max_ensamble_m3s": 1.6,
+        "max_alta_resolucion_m3s": 0.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:17.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "911dfee6f0a5d5c628c25e195278501e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "09:58",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Ernesto Seminario",
+    "sector": "Unidad Educativa Gorky Elizalde Medranda",
+    "latitud": -2.1545552814270574,
+    "longitud": -79.60063280919609,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad. MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 74.0,
+        "max_5km_mm": 85.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 168.0,
+        "max_5km_mm": 174.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 252.0,
+      "max_5km_mm": 269.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 24.8,
+        "max_5km_mm": 31.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 26.8,
+        "max_5km_mm": 26.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 23.5,
+        "max_5km_mm": 35.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064935,
+    "periodos_retorno_m3s": {
+      "2": 169.2,
+      "5": 244.9,
+      "10": 295.1,
+      "25": 358.4,
+      "50": 405.5,
+      "100": 452.1
+    },
+    "caudal_simulado_dia_m3s": 208.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:18.000Z",
+  "pendiente": []
+}

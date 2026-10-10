@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "1a95e3579a0f8fc25c306eb86feaac08",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "12:00",
+    "provincia": "Guayas",
+    "canton": "Simon Bolivar",
+    "parroquia": "Crnel.lorenzo De Garaicoa (pedregal)",
+    "sector": "Unidad Educativa Rafael Enrique Soto Magallanes",
+    "latitud": -2.064161610421407,
+    "longitud": -79.34663523321977,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa. MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 232.0,
+        "max_5km_mm": 236.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 26.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 266.0,
+      "max_5km_mm": 283.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 4.9,
+        "max_5km_mm": 17.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 26.0,
+        "max_5km_mm": 54.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 28.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:22.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "e3122d092ab76c98df42112bf1079e5b",
+    "tipo": "Inundación",
+    "fecha": "2026-04-15",
+    "hora": "08:24",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Dorado",
+    "sector": "Colinas del Dorado, Barrio 13 de Septiembre",
+    "latitud": -0.504235,
+    "longitud": -76.954219,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias presentadas desde la noche del 14/04/2026 hasta la mañana del 15/04/2026, el  río La Florida aumentó el caudal la cual se inundó la parte baja. Tenencia Política de el Dorado confirmó el evento. \r\n El GAD Municipal de Francisco de Orellana realizó un recorrido por las zonas inundadas; en vista de que no se evidenciaron viviendas afectadas, se brindaron las respectivas recomendaciones a la población. Una vez concluidas estas acciones, el personal retornó a su oficina.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 123.0,
+        "max_5km_mm": 147.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 128.0,
+      "max_5km_mm": 154.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 21.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620725461,
+    "periodos_retorno_m3s": {
+      "2": 28.4,
+      "5": 37.8,
+      "10": 44.0,
+      "25": 51.8,
+      "50": 57.6,
+      "100": 63.4
+    },
+    "caudal_simulado_dia_m3s": 4.01,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:48.000Z",
+  "pendiente": []
+}

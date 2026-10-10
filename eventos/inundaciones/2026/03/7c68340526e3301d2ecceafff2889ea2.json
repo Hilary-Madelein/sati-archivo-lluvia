@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7c68340526e3301d2ecceafff2889ea2",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "03:30",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "Maldonado",
+    "sector": "Bella Vista",
+    "latitud": 1.0592142582487318,
+    "longitud": -78.91143889562733,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las intensas lluvias registradas el 07/03/2026, se produjo el desbordamiento del estero María en la comunidad de Bella Vista, generando inundaciones que afectaron viviendas y dejaron calles anegadas. UGR GAD Cantonal Eloy Alfaro realizó una evaluación técnica y levantamiento de información en territorio.  SNGR realizó la entrega de asistencia humanitaria a las familias afectadas, las mismas que pernoctan en sus propias viviendas.",
+    "personas_afectadas": 206,
+    "viviendas_afectadas": 56,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 34.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 54.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 80.0,
+      "max_5km_mm": 97.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 6.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 2.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 10.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670053555,
+    "periodos_retorno_m3s": {
+      "2": 61.3,
+      "5": 91.2,
+      "10": 111.0,
+      "25": 136.1,
+      "50": 154.7,
+      "100": 173.1
+    },
+    "caudal_simulado_dia_m3s": 12.83,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:47:43.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "bba7d38228e61e7d79acd246c3221781",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "21:51",
+    "provincia": "Cotopaxi",
+    "canton": "La Mana",
+    "parroquia": "El Carmen",
+    "sector": "Varios sectores",
+    "latitud": -0.9392778963762437,
+    "longitud": -79.22802163754272,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en el sector, se reportó acumulación de agua lluvia en patios de algunas viviendas de la parroquia El Carmen debido a que estas se encuentran a un nivel inferior respecto a la vía. Al momento no se registran acumulaciones de agua en el sector. UGR del GAD Municipal de La Maná informó que no se registran afectaciones en viviendas ni daños estructurales, por lo que la situación se encuentra controlada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 52.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 52.0,
+      "max_5km_mm": 62.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 34.3,
+        "max_5km_mm": 55.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 71.7,
+        "max_5km_mm": 149.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 36.4,
+        "max_5km_mm": 68.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064891,
+    "periodos_retorno_m3s": {
+      "2": 317.7,
+      "5": 381.5,
+      "10": 423.8,
+      "25": 477.2,
+      "50": 516.9,
+      "100": 556.2
+    },
+    "caudal_simulado_dia_m3s": 70.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:41.000Z",
+  "pendiente": []
+}

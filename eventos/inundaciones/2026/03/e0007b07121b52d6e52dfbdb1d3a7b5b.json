@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "e0007b07121b52d6e52dfbdb1d3a7b5b",
+    "tipo": "Inundación",
+    "fecha": "2026-03-06",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Pedro Carbo",
+    "sector": "Varios sectores (Vía al Balsamo, Quisquisale, Villao, La Naranja, San José)",
+    "latitud": -1.8729,
+    "longitud": -80.30429,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación de cultivos de maíz en varios sectores. MAG realizó la inspección.",
+    "personas_afectadas": 78,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 37.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 29.0,
+      "max_5km_mm": 44.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 11.4,
+        "max_5km_mm": 13.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 15.7,
+        "max_5km_mm": 23.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670037279,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:44.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

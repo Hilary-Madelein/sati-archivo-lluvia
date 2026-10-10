@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f4f1c6d081272467a603e8cde3b6ff73",
+    "tipo": "Inundación",
+    "fecha": "2026-03-18",
+    "hora": "03:30",
+    "provincia": "Los Ríos",
+    "canton": "Mocache",
+    "parroquia": "Mocache",
+    "sector": "LA PROPICIA, SANTA BARBARA, LA YUCA, SAN IGNACIO, EL MERCADO, LAS CAMPANAS, 23 DE AGOSTO BAJO, LA VICTORIA, RÍO MOCACHE",
+    "latitud": -1.181217,
+    "longitud": -79.513724,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 18/03/2026, se reportó el desbordamiento del caudal, afectando a varias familias en los sectores mencionados, en donde se reportan 192 viviendas con 192 familias de 780 personas afectadas. Personal técnico de Prefectura reporta que no existe presencia de agua en el sitio, por lo que las familias permanecen en sus viviendas. Personal de prefectura con maquinaria colaboró con la rehabilitación de la vía, por lo que se encuentra habilitada para el paso vehicular; por tal motivo, se procede a finalizar el evento.",
+    "personas_afectadas": 780,
+    "viviendas_afectadas": 192,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 65.0,
+        "max_5km_mm": 75.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 19.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 76.0,
+      "max_5km_mm": 96.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 15.2,
+        "max_5km_mm": 48.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 8.7,
+        "max_5km_mm": 16.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 189.2,
+        "max_5km_mm": 193.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061828,
+    "periodos_retorno_m3s": {
+      "2": 2189.4,
+      "5": 2616.8,
+      "10": 2899.9,
+      "25": 3257.5,
+      "50": 3522.8,
+      "100": 3786.1
+    },
+    "caudal_simulado_dia_m3s": 444.41,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:36:26.000Z",
+  "pendiente": []
+}

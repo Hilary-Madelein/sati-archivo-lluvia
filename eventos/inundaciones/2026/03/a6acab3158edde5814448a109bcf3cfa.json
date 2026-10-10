@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "a6acab3158edde5814448a109bcf3cfa",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "10:30",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Ventanas",
+    "sector": "CDLA. LOS GIRASOLES, UNIDAD EDUCATIVA HUMBERTO MOREIRA MARQUEZ, ESCUELA DE EDUCACION BASICA ISIDRO AYORA CUEVA, RÍO VENTANAS",
+    "latitud": -1.438547,
+    "longitud": -79.470444,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la mañana del 03/03/2026, provocando el desbordamiento del río Ventanas, se reporta 296 viviendas con 288 familias de 591 personas afectadas, 10 familias de 28 personas damnificadas, con 11 de 30 albergadas y 2 unidades educativas impactadas funcionalmente. UGR Ventanas realizó verificación de novedades el 07/04/2026 y ratificó los datos del informe ejecutivo del EVIN digital. Actualmente, el caudal del río Ventanas se encuentra en su nivel normal; las familias albergadas dentro del alojamiento temporal ?Casa Comunal Los Girasoles? retornaron a sus viviendas el 30/03/2026 y se mantienen en sus hogares sin presencia de agua.",
+    "personas_afectadas": 591,
+    "viviendas_afectadas": 296,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 322.0,
+        "max_5km_mm": 322.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 201.0,
+        "max_5km_mm": 209.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 531.0,
+      "max_5km_mm": 540.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 31.0,
+        "max_5km_mm": 31.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 47.4,
+        "max_5km_mm": 69.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 17.7,
+        "max_5km_mm": 42.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060814,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:53:27.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

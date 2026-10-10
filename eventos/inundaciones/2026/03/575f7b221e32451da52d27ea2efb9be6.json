@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "575f7b221e32451da52d27ea2efb9be6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "San Jacinto De Yaguachi",
+    "sector": "Varios sectores (Rosa de Oro y Villa Mercedes)",
+    "latitud": -2.1651,
+    "longitud": -79.7153,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de cultivos de arroz. Personal de MAG realizó la inspección.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 19.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 10.9,
+        "max_5km_mm": 15.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 6.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 6.3,
+        "max_5km_mm": 8.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:26.000Z",
+  "pendiente": []
+}

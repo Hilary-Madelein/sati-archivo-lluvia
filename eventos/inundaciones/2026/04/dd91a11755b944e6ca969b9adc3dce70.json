@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "dd91a11755b944e6ca969b9adc3dce70",
+    "tipo": "Inundación",
+    "fecha": "2026-04-14",
+    "hora": "14:12",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Chilibulo",
+    "sector": "Juan Camancaro y Julan Lopez",
+    "latitud": -0.233196,
+    "longitud": -78.532302,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la lluvia ocurrida en la tarde, se registró una inundación en el sector.  La familia afectada se mantiene en su vivienda; no fue necesaria su evacuación.    \r\n\r\n 14/04/2026: EMSEGURIDAD realizó la entrega de asistencia humanitaria a la familia afectada. \r\n15/04/2026: El GAD Cantonal efectuó la evaluación, determinando afectación a una vivienda por ingreso de agua, con daños en enseres y menaje de dormitorio.\r\n15/04/2026: El propietario del inmueble asumirá los arreglos necesarios para prevenir futuros eventos, no se activó el fondo de emergencia por no cumplir con los parámetros establecidos.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 26.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 32.6,
+        "max_5km_mm": 44.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-12T07:00:00.000Z",
+        "punto_mm": 28.0,
+        "max_5km_mm": 43.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670092514,
+    "periodos_retorno_m3s": {
+      "2": 34.9,
+      "5": 42.6,
+      "10": 47.7,
+      "25": 54.1,
+      "50": 58.9,
+      "100": 63.6
+    },
+    "caudal_simulado_dia_m3s": 14.27,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:56.000Z",
+  "pendiente": []
+}

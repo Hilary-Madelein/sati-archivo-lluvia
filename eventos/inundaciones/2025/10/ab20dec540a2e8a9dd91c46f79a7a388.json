@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "ab20dec540a2e8a9dd91c46f79a7a388",
+    "tipo": "Inundación",
+    "fecha": "2025-10-30",
+    "hora": "06:00",
+    "provincia": "Orellana",
+    "canton": "Aguarico",
+    "parroquia": "Cononaco",
+    "sector": "Comuna Pomeire",
+    "latitud": -1.277176,
+    "longitud": -76.107148,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias en la cuenca alta del río Shiripuno, se produjo el desbordamiento del río, causando afectación a varias viviendas de la comunidad Pomeire. Tenencia Política de Cononaco confirmó el evento. GAD Cantonal de Aguarico  con apoyo de la Tenencia de Cononaco coordinaron el levantamiento de  las fichas EVIN. La comunidad es lejana, el medio de acceso es fluvial y la cobertura telefónica es limitada.  De acuerdo al recorrido realizado no se identificó daños considerables en personas y viviendas por lo cual el Municipio de Aguarico no solicitó la intervención de ninguna otra institución.  Al momento el río esta con un nivel normal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 42.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 70.0,
+      "max_5km_mm": 78.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620586526,
+    "periodos_retorno_m3s": {
+      "2": 8.8,
+      "5": 15.2,
+      "10": 19.4,
+      "25": 24.7,
+      "50": 28.7,
+      "100": 32.6
+    },
+    "caudal_simulado_dia_m3s": 0.88,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:44.000Z",
+  "pendiente": []
+}

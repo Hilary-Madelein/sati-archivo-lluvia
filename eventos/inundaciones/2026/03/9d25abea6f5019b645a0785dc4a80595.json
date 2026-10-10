@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "9d25abea6f5019b645a0785dc4a80595",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "06:30",
+    "provincia": "Guayas",
+    "canton": "Simon Bolivar",
+    "parroquia": "Simon Bolivar",
+    "sector": "Varios Sectores (Las Delicias, Tanque Amarillo, Plan Habitacional, San Miguel de Arcangel, San Pedro de Venecia, Violeta Torres, Las Palmas )",
+    "latitud": -2.0073420721182007,
+    "longitud": -79.48203754232719,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las últimas precipitaciones registradas la noche del 28 de febrero y madrugada del 1 de marzo de 2026, se evidenció un incremento significativo del caudal del río Los Amarillos, el cual sobrepasó su nivel normal, provocando el colapso del muro de contención en el recinto La Palanca. Este evento generó el ingreso de agua a varias viviendas y afectó vías de acceso en los sectores aledaños. GAD Cantonal informa que las familias afectadas permanecen en sus respectivas viviendas. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 785,
+    "viviendas_afectadas": 150,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 207.0,
+        "max_5km_mm": 233.0
+      },
+      "dia_anterior": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 46.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 280.0,
+      "max_5km_mm": 317.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 95.9,
+        "max_5km_mm": 173.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 29.0,
+        "max_5km_mm": 75.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 76.1,
+        "max_5km_mm": 88.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:34.000Z",
+  "pendiente": []
+}

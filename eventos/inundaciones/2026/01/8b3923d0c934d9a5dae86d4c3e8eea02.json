@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8b3923d0c934d9a5dae86d4c3e8eea02",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "09:29",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Limonal",
+    "sector": "Escuela de Educación Básica 28 De Diciembre",
+    "latitud": -1.793799803698356,
+    "longitud": -80.003778584826,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa Personal de la institución educativa realizó las debidas limpiezas. luego que las lluvias afectará funcionalmente al plantel educativo",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 8.0,
+      "max_5km_mm": 16.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 2.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670071066,
+    "periodos_retorno_m3s": {
+      "2": 76.6,
+      "5": 118.4,
+      "10": 146.1,
+      "25": 181.1,
+      "50": 207.0,
+      "100": 232.8
+    },
+    "caudal_simulado_dia_m3s": 12.66,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:45.000Z",
+  "pendiente": []
+}

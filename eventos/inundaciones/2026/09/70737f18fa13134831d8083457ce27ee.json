@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "70737f18fa13134831d8083457ce27ee",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "00:30",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Samborondón (cabecera Cantonal)",
+    "sector": "Varios sectores (Av. San Miguel, calle Calixto Romero, calle 31 de Octubre y calle Bolívar)",
+    "latitud": -1.96254,
+    "longitud": -79.72668,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 27/09/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal realiza el monitoreo del evento mediante cámaras",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 23.0,
+      "max_5km_mm": 29.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 2.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 3.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050593,
+    "periodos_retorno_m3s": {
+      "2": 99.0,
+      "5": 142.3,
+      "10": 171.0,
+      "25": 207.2,
+      "50": 234.1,
+      "100": 260.8
+    },
+    "caudal_simulado_dia_m3s": 55.16,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 24.4,
+        "max_ensamble_m3s": 211.1,
+        "max_alta_resolucion_m3s": 62.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 14.5,
+        "max_ensamble_m3s": 110.3,
+        "max_alta_resolucion_m3s": 9.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 30.4,
+        "max_ensamble_m3s": 155.4,
+        "max_alta_resolucion_m3s": 94.2
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:14:39.000Z",
+  "pendiente": []
+}

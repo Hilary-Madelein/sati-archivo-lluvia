@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "512870d88ba6dbf0a1e78220803d2aa8",
+    "tipo": "Inundación",
+    "fecha": "2026-01-06",
+    "hora": "07:20",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Coop Las Palmeras calles Tupac Yupanqui y Rodrigo de Triana atrás de los Ceviches de Wacho.",
+    "latitud": -0.2617878227235463,
+    "longitud": -79.17601085475455,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la madrugada del 06/01/2026, se suscitó el Taponamiento de las alcantarillas del sector, provocando la inundación de los patios de varias viviendas. La familia permanece en la vivienda.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 48.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 48.0,
+      "max_5km_mm": 48.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-06T07:00:00.000Z",
+        "punto_mm": 11.6,
+        "max_5km_mm": 13.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-05T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 8.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-04T07:00:00.000Z",
+        "punto_mm": 20.9,
+        "max_5km_mm": 27.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:13:45.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

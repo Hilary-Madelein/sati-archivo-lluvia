@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "a37a25f169b7b98562f28be83ff74357",
+    "tipo": "Inundación",
+    "fecha": "2026-08-27",
+    "hora": "18:00",
+    "provincia": "Esmeraldas",
+    "canton": "Rioverde",
+    "parroquia": "Chumunde",
+    "sector": "Chumunde.",
+    "latitud": 0.8316910240017951,
+    "longitud": -79.41701998258594,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las precipitaciones del 27/08/2026, desbordó una alcantarilla, generando una inundación en una escuela de la parroquia. La UGR notificó el nombre de la unidad educativa Armengol Lara Velancia como afectada; el sector se encuentra anegado.\r\nLa UGR confirmó el evento e indica que realizarán el respectivo EVIN.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-08-27T07:00:00.000Z",
+        "punto_mm": 3.6,
+        "max_5km_mm": 13.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-08-26T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 12.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-08-25T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 8.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670083259,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260826",
+        "max_promedio_ensamble_m3s": 16.3,
+        "max_ensamble_m3s": 59.1,
+        "max_alta_resolucion_m3s": 11.7
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:08.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

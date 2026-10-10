@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "52630d0110408058590bf7ef4526b7a8",
+    "tipo": "Inundación",
+    "fecha": "2026-03-06",
+    "hora": "18:27",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Centro Historico",
+    "sector": "La Recoleta, Hogar San Vicente de Paúl , Calle Siena y Pedro Vicente Maldonado",
+    "latitud": -0.232985,
+    "longitud": -78.513805,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de la lluvia acompañada de granizo registrada en el sector, se reportó la acumulación de agua sobre la vía pública, así como el ingreso de agua a la infraestructura de un hogar que alberga a niños y adultos mayores. El Cuerpo de Bomberos del Distrito Metropolitano de Quito (CB-DMQ) efectuó la limpieza de sumideros en el sector y el desfogue del agua acumulada al interior de la estructura del hogar de acogida.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 20.8,
+        "max_5km_mm": 26.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 43.9,
+        "max_5km_mm": 43.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 34.4,
+        "max_5km_mm": 34.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670093538,
+    "periodos_retorno_m3s": {
+      "2": 39.5,
+      "5": 48.3,
+      "10": 54.1,
+      "25": 61.5,
+      "50": 66.9,
+      "100": 72.4
+    },
+    "caudal_simulado_dia_m3s": 18.12,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:47:46.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "845c31f46818e08798d8b4538cadd24a",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "03:52",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Machala",
+    "sector": "VARIOS DECTORES",
+    "latitud": -3.264097987157458,
+    "longitud": -79.95202711312022,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones registradas durante la noche del 11 y la madrugada del 12/01/2026, se registraron calles inundadas en distintos puntos de la ciudad. Aguas Machala EP, realizó limpieza de la red alcantarillado y se informa que el agua bajó su nivel y las vías se encuentran expeditas al tránsito vehicular. Además, no se reportan viviendas afectadas por ingreso de agua.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 10.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670031184,
+    "periodos_retorno_m3s": {
+      "2": 49.7,
+      "5": 88.9,
+      "10": 114.8,
+      "25": 147.5,
+      "50": 171.8,
+      "100": 195.9
+    },
+    "caudal_simulado_dia_m3s": 13.92,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:24.000Z",
+  "pendiente": []
+}

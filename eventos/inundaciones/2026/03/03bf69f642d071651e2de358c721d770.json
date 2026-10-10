@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "03bf69f642d071651e2de358c721d770",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "08:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Coop. Montesdeoca, Por el Centro de Salud",
+    "latitud": -0.282656,
+    "longitud": -79.199699,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en la mañana del 20/03/2026, se suscitó la inundación de una vivienda con el ingreso de agua, afectando enseres de hogar.  Al momento la familia permanece en su vivienda. \r\nPatronato Municipal realizó la entrega de asistencia humanitaria.\r\nSNGR monitoreó el evento.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 46.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 83.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 66.8,
+        "max_5km_mm": 88.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 79.8,
+        "max_5km_mm": 94.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 48.3,
+        "max_5km_mm": 90.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063844,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:52.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

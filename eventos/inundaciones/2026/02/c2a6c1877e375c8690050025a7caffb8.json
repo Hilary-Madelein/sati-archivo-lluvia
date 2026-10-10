@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c2a6c1877e375c8690050025a7caffb8",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "09:40",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Unidad Educativa, Jorge Noteno, Unidad Educativa Presidente Tamayo, Unidad Educativa Destacamento Banderas",
+    "latitud": -0.472076,
+    "longitud": -76.985513,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas desde la madrugada del 25 de febrero de 2026, las cuales continuaron de manera persistente en la provincia de Orellana, se produjeron inundaciones en varias instituciones educativas, ocasionadas por la acumulación de agua lluvia, lo que afectó temporalmente a las unidades educativas.\r\nMINEDEC realizó seguimiento a las unidades educativas que presentaron acumulación de agua en sus instalaciones. Según informaron las autoridades de dichos establecimientos, el mismo 25 de febrero de 2026 el agua comenzó a evacuar de forma progresiva, permitiendo retomar las actividades académicas con normalidad. MINEDEC confirmó y dio seguimiento al evento, Actualmente, las clases se desarrollan con normalidad en las unidades educativas, sin presentar novedades relacionadas con el evento registrado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 35.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 85.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 8.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 8.8,
+        "max_5km_mm": 10.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620929107,
+    "periodos_retorno_m3s": {
+      "2": 3396.7,
+      "5": 4322.6,
+      "10": 4935.5,
+      "25": 5710.0,
+      "50": 6284.6,
+      "100": 6854.9
+    },
+    "caudal_simulado_dia_m3s": 673.82,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:58:10.000Z",
+  "pendiente": []
+}

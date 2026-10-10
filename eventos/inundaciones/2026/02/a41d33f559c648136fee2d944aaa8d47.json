@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "a41d33f559c648136fee2d944aaa8d47",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Catarama",
+    "sector": "LA IRENE, MANABI CHIQUITO, SAN ANTONIO DEL RÍO, RÍO CATARAMA",
+    "latitud": -1.571762,
+    "longitud": -79.482751,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 25/02/2026, se reportó el desbordamiento del río Catarama con ingreso a 10 viviendas de 10 familias con 40 personas afectadas, 1 bien público afectado (muro de contención), 2 ha de cultivos destruidos (arroz) de 2 productores (2 familias de 8 personas). Técnica del MAGP realizó levantamiento de MAAPEA el  26/02/2026, UGR Urdaneta realizó barrido en la zona afectada el 26/02/2026, reportando que actualmente el caudal está descendiendo de nivel, no se visualiza presencia de agua en las viviendas y las familias afectadas se mantienen en sus hogares, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 48,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 70.0,
+        "max_5km_mm": 70.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 65.0,
+        "max_5km_mm": 65.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 140.0,
+      "max_5km_mm": 140.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 93.5,
+        "max_5km_mm": 118.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 44.9,
+        "max_5km_mm": 53.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 13.7,
+        "max_5km_mm": 37.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:18.000Z",
+  "pendiente": []
+}

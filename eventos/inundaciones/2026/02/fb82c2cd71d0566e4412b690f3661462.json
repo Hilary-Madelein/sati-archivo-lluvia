@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "fb82c2cd71d0566e4412b690f3661462",
+    "tipo": "Inundación",
+    "fecha": "2026-02-15",
+    "hora": "17:50",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Pedro Carbo",
+    "sector": "Santa Marta",
+    "latitud": -1.8102462425075188,
+    "longitud": -80.23411064513076,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de presente precipitacion de la tarde, se reportó acumulación de agua en varias calles y el ingreso de agua en varias vivienda GAD Cantonal informa que las familias afectadas y  damnificadas se encuentra en su mismos inmuebles.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 15,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 46.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 122.0,
+        "max_5km_mm": 150.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 173.0,
+      "max_5km_mm": 202.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 25.3,
+        "max_5km_mm": 33.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-14T07:00:00.000Z",
+        "punto_mm": 49.4,
+        "max_5km_mm": 71.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-13T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 12.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670047515,
+    "periodos_retorno_m3s": {
+      "2": 22.6,
+      "5": 39.0,
+      "10": 49.8,
+      "25": 63.5,
+      "50": 73.7,
+      "100": 83.8
+    },
+    "caudal_simulado_dia_m3s": 0.86,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:35.000Z",
+  "pendiente": []
+}

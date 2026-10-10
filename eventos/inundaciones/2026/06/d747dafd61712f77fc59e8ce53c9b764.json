@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "d747dafd61712f77fc59e8ce53c9b764",
+    "tipo": "Inundación",
+    "fecha": "2026-06-25",
+    "hora": "22:08",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Chiguilpe",
+    "sector": "AV. Luzuriaga y calle Quitumbe",
+    "latitud": -0.2500465632130056,
+    "longitud": -79.14746014455643,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas la noche del 25/06/2026, se produjo el taponamiento de alcantarillas en varios sectores, provocando que las calles se vean anegadas.  Al momento, las calles no se encuentran anegadas. \r\nPatronato Municipal realizo la inspección en el sitio, indicando que en ese sector no hubo afectación por lo que no se requiere asistencia humanitaria.* \r\nEmpresa pública EMAPA Santo Domingo realizó labores de limpieza de las alcantarillas del sector.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-25T07:00:00.000Z",
+        "punto_mm": 36.5,
+        "max_5km_mm": 46.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-24T07:00:00.000Z",
+        "punto_mm": 25.0,
+        "max_5km_mm": 32.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-23T07:00:00.000Z",
+        "punto_mm": 9.8,
+        "max_5km_mm": 15.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:51.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

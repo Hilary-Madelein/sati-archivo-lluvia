@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "214ed2742faf099bb5f23da2f468e142",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "17:00",
+    "provincia": "Bolívar",
+    "canton": "Echeandía",
+    "parroquia": "Echeandia",
+    "sector": "Pitahaya, vía Echeandía - Guanujo[E494]",
+    "latitud": -1.4332208711700816,
+    "longitud": -79.24999778712849,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas en la tarde del 11-03-2026, se produjo la obstrucción de una alcantarilla que afectó, anegando a la vía de primer orden.  GAD Echeandía realizó trabajos de limpieza de la alcantarilla y evacuación del agua, dejando habilitado al paso vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 46.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 45.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 111.0,
+      "max_5km_mm": 112.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 189.8,
+        "max_5km_mm": 189.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 106.8,
+        "max_5km_mm": 157.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 63.6,
+        "max_5km_mm": 63.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045454,
+    "periodos_retorno_m3s": {
+      "2": 89.7,
+      "5": 113.6,
+      "10": 129.5,
+      "25": 149.5,
+      "50": 164.4,
+      "100": 179.2
+    },
+    "caudal_simulado_dia_m3s": 32.89,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:42:12.000Z",
+  "pendiente": []
+}

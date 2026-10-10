@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "58786344388aedbb8ef1dbc3e6e013b1",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "23:00",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "RCTO. LA ERNESTINA - LA MARIANITA - LA ROSALIA - RÍO CRISTAL",
+    "latitud": -1.843759,
+    "longitud": -79.318967,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la noche del 23/02/2026, se reportó desbordamiento del río Cristal, en donde se tiene el reporte de afectación siguiente: 1.171 viviendas de 324 familias con 354 personas afectadas, 1 vivienda destruida con 1.504 familias de 1.594 personas damnificadas, 1 bien público (muro de contención) y 1 privado (chiva de transporte) dañados, 330 metros lineales perjudicados en una vía de tercer orden y 18 ha. (arroz-cacao) de 8 productores con cultivos afectados parcialmente (8 familias de 32 personas afectadas).\r\n SNGR ratifica el 10/04/2026 la entrega de asistencia humanitaria realizada el 16/03/2026, UGR Montalvo realizó verificación de novedades el 15/04/2026, reportando que actualmente, el caudal del río Cristal se encuentra en su nivel normal; las familias se mantienen en sus viviendas sin presencia de agua. Adicional a ello, mediante informe ejecutivo se reportan 64 viviendas sin afectación y 2 viviendas pendientes de evaluar.",
+    "personas_afectadas": 386,
+    "viviendas_afectadas": 1171,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 16.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 65.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 40.9,
+        "max_5km_mm": 75.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 71.8,
+        "max_5km_mm": 85.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 38.4,
+        "max_5km_mm": 50.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056733,
+    "periodos_retorno_m3s": {
+      "2": 102.6,
+      "5": 132.7,
+      "10": 152.7,
+      "25": 177.9,
+      "50": 196.6,
+      "100": 215.2
+    },
+    "caudal_simulado_dia_m3s": 66.98,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:00:36.000Z",
+  "pendiente": []
+}

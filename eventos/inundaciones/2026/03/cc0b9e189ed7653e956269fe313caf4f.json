@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "cc0b9e189ed7653e956269fe313caf4f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "04:00",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Samborondón (cabecera Cantonal)",
+    "sector": "San Gil 2",
+    "latitud": -2.009893,
+    "longitud": -79.779915,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la madrugada del 09/03/2026, se produjo la acumulación de agua, lo que ocasionó que varias viviendas se vieran afectadas con el ingreso de agua. UPREA indica que las familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 122,
+    "viviendas_afectadas": 35,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 30.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 25.0,
+      "max_5km_mm": 43.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 45.1,
+        "max_5km_mm": 108.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 4.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 4.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:17.000Z",
+  "pendiente": []
+}

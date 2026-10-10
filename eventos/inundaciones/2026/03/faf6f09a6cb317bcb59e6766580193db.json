@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "faf6f09a6cb317bcb59e6766580193db",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Alfredo Baquerizo Moreno (jujan)",
+    "parroquia": "Alfredo Baquerizo Moreno (jujan)",
+    "sector": "Varios sectores (unidades educativas)",
+    "latitud": -1.89196016614057,
+    "longitud": -79.56080845494905,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de cuatro unidades educativas. MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 212.0,
+        "max_5km_mm": 305.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 206.0,
+        "max_5km_mm": 257.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 428.0,
+      "max_5km_mm": 574.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 17.1,
+        "max_5km_mm": 67.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 22.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 9.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670073126,
+    "periodos_retorno_m3s": {
+      "2": 138.0,
+      "5": 172.0,
+      "10": 194.6,
+      "25": 223.0,
+      "50": 244.2,
+      "100": 265.1
+    },
+    "caudal_simulado_dia_m3s": 98.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:01.000Z",
+  "pendiente": []
+}

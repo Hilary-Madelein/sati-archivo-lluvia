@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "935872bf1e3bc86d841a8597eb9bd02f",
+    "tipo": "Inundación",
+    "fecha": "2026-02-08",
+    "hora": "19:54",
+    "provincia": "Manabí",
+    "canton": "Manta",
+    "parroquia": "Tarqui",
+    "sector": "Maria Auxiliadora-Barrio  San Pedro",
+    "latitud": -0.9464977806599412,
+    "longitud": -80.7301139831543,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas en horas de la tarde y noche del 08/02/2026, se suscitó el desbordamiento de una quebrada S/N, causando inundación en el sector y afectando viviendas. CB Manta realizó la evacuación y rescate de 4 personas en el interior de una vivienda. Mediante EVIN Digital se actualizan las afectaciones. Al momento ya no existe inundación en el sector; las aguas bajaron. Las familias afectadas retornaron a sus viviendas.",
+    "personas_afectadas": 37,
+    "viviendas_afectadas": 13,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 28.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 2.2,
+        "max_5km_mm": 12.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 35.3,
+        "max_5km_mm": 47.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 64.7,
+        "max_5km_mm": 79.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:49.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1e05329be4b00f174217c425b1c4622b",
+    "tipo": "Inundación",
+    "fecha": "2026-06-10",
+    "hora": "17:56",
+    "provincia": "Morona Santiago",
+    "canton": "Sucua",
+    "parroquia": "Sucua",
+    "sector": "Comunidad Tuntaim",
+    "latitud": -2.440544,
+    "longitud": -78.117859,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias del 10/06/2026, se produjo el incremento de caudal y posterior desbordamiento de un riachuelo S/N, que provocó el ingreso de agua a varias viviendas, generando afectación a bienes y enseres que se encontraban en su interior. Al momento, el riachuelo se encuentra dentro de sus parámetros normales y las familias se encuentran en sus viviendas. \r\nEl 15/06/2026 GAD-Cantonal informa que no se realizará ninguna gestión más, por tal motivo, se procede con el cierre del evento.\r\nEl 12/06/2026: SNGR en coordinación con el GAD-Cantonal Sucúa, realizaron la entrega de asistencia humanitaria a las familias afectadas, las cuales permanecen en sus propias viviendas.\r\nEl 11/06/2026, SNGR coordinó con el GAD Cantonal de Sucúa, quien se encuentra realizando la inspección técnica y el levantamiento del EVIN.",
+    "personas_afectadas": 11,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 21.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-10T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 8.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 3.9,
+        "max_5km_mm": 29.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 6.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620947100,
+    "periodos_retorno_m3s": {
+      "2": 363.7,
+      "5": 454.7,
+      "10": 514.9,
+      "25": 591.1,
+      "50": 647.6,
+      "100": 703.7
+    },
+    "caudal_simulado_dia_m3s": 43.25,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:22:27.000Z",
+  "pendiente": []
+}

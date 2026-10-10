@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d694313458afd09ddf323af8085f22b5",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "La Union",
+    "sector": "LA PUNTILLA - RIO CLEMENTINA",
+    "latitud": -1.802561,
+    "longitud": -79.469682,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias suscitadas en la madrugada del 01/03/2026, se reportó el desbordamiento del río Clementina con ingreso de agua a 10 viviendas de 10 familias con 40 personas afectadas.  CB. Babahoyo realizó verificación de novedades el 03/03/2026, reportando que no existe presencia de agua en las viviendas, pero sí agua estancada en los alrededores de las viviendas, mientras que el caudal se encontraba con tendencia a disminuir de nivel. Actualmente, las familias se mantienen en las viviendas; por tal motivo, damos por finalizado el evento.",
+    "personas_afectadas": 40,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 278.0,
+        "max_5km_mm": 292.0
+      },
+      "dia_anterior": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 42.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 54.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 363.0,
+      "max_5km_mm": 388.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 156.7,
+        "max_5km_mm": 156.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 131.6,
+        "max_5km_mm": 131.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 25.7,
+        "max_5km_mm": 54.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:55.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "c1b07a26fcc20b107e02851cbe98ffdc",
+    "tipo": "Inundación",
+    "fecha": "2025-11-14",
+    "hora": "06:52",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Tababela",
+    "sector": "/ Redondel de Tababela",
+    "latitud": -0.191528,
+    "longitud": -78.33956,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de la mañana de hoy, se reportó el colapso del alcantarillado que afectó la vía de primer orden. La cual al momento se encuentra completamente habilitada. AMT brindó seguridad en el lugar. SNGR coordinó con MIT (Panavial) quienes realizaron una inspección en el lugar y colaboró con la limpieza del alcantarillado del sector de su jurisdicción.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 2.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670078177,
+    "periodos_retorno_m3s": {
+      "2": 27.2,
+      "5": 38.3,
+      "10": 45.7,
+      "25": 55.1,
+      "50": 62.0,
+      "100": 68.9
+    },
+    "caudal_simulado_dia_m3s": 9.06,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:42.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f56cf78298ec0ab540b9f3c9dec9d8b6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "07:00",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Machala",
+    "sector": "VARIOS SECTORES (CIRCUNVALACIÓN SUR Y PALMERAS; 10 DE AGOSTO Y 8VA NORTE; MARCEL LANIADO)",
+    "latitud": -3.25913,
+    "longitud": -79.9075,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en horas de la madrugada del 01/03/2026, se registró inundación en varios sectores del cantón, donde calles y avenidas se encuentran anegadas por la acumulación de agua. El agua bajó de nivel en su totalidad de las calles de la ciudad y no se reportan viviendas afectadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 45.0
+      },
+      "dia_anterior": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 39.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 76.0,
+      "max_5km_mm": 96.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:34.000Z",
+  "pendiente": []
+}

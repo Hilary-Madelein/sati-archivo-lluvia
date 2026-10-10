@@ -1,0 +1,89 @@
+{
+  "evento": {
+    "id": "5f4e7d9dcfc6ed49639f861a913471df",
+    "tipo": "Inundación",
+    "fecha": "2026-10-06",
+    "hora": "19:18",
+    "provincia": "Imbabura",
+    "canton": "Antonio Ante",
+    "parroquia": "Andrade Marin  (lourdes)",
+    "sector": "Panamericana Norte [E35]",
+    "latitud": 0.327,
+    "longitud": -78.214,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias suscitadas del 06/10/2026, se produjo la anegación de agua en el sector, por el taponamiento del alcantarillado, provocando el ingreso de agua a viviendas del lugar. GAD Antonio Ante coordina con EPAA -AA para la limpieza de alcantarillas.\r\nSNGR coordinó con la UGR GAD Antonio Ante la evaluación de daños y necesidades",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 27.0,
+      "max_5km_mm": 29.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060749,
+    "periodos_retorno_m3s": {
+      "2": 110.0,
+      "5": 155.2,
+      "10": 185.1,
+      "25": 222.8,
+      "50": 250.9,
+      "100": 278.7
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261005",
+        "max_promedio_ensamble_m3s": 6.1,
+        "max_ensamble_m3s": 22.4,
+        "max_alta_resolucion_m3s": 7.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:10:15.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

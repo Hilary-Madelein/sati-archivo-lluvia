@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "17e93a8d2e05edf229ad8d6680fdbfcb",
+    "tipo": "Inundación",
+    "fecha": "2026-06-08",
+    "hora": "12:29",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Santa Rosa",
+    "sector": "CASCO URBANO",
+    "latitud": -3.4561778835920065,
+    "longitud": -79.96573448530398,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada y mañana del 08/06/2026, se registró inundación en varias calles y avenidas del sector, afectando funcionalmente a unidades educativas debido del ingreso de agua en sus instalaciones. Además, se registró el colapso del cerramiento del Colegio Bachillerato Santa Rosa. Mediante la limpieza y evacuación de agua y lodo en las áreas afectadas, los estudiantes retornaron normalmente a clases presenciales.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 3.0,
+      "max_5km_mm": 7.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670031193,
+    "periodos_retorno_m3s": {
+      "2": 74.3,
+      "5": 126.6,
+      "10": 161.2,
+      "25": 205.0,
+      "50": 237.4,
+      "100": 269.6
+    },
+    "caudal_simulado_dia_m3s": 9.34,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:24:11.000Z",
+  "pendiente": []
+}

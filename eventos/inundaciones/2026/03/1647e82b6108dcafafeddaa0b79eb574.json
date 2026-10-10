@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "1647e82b6108dcafafeddaa0b79eb574",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "07:50",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios Sectores (Pascuales, Perimetral y Horonato Vásquez)",
+    "latitud": -2.072587374106255,
+    "longitud": -79.93492792489513,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada  del 02/03/2026, se reportó varios sectores con acumulación de agua en las calles y avenidas.  GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 138.0,
+        "max_5km_mm": 143.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 166.0,
+      "max_5km_mm": 173.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 10.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 6.9,
+        "max_5km_mm": 13.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 8.0,
+        "max_5km_mm": 18.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062883,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:54:23.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

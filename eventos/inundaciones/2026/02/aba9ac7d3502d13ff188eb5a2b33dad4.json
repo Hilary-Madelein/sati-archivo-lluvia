@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "aba9ac7d3502d13ff188eb5a2b33dad4",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "06:52",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Coronel Enrique Valdez",
+    "sector": "Escuela de Educación Básica Veinticuatro de Mayo",
+    "latitud": -2.13627,
+    "longitud": -79.60652,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa. MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 69.0,
+        "max_5km_mm": 78.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 100.0,
+      "max_5km_mm": 109.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 17.0,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 10.1,
+        "max_5km_mm": 39.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 9.8,
+        "max_5km_mm": 34.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:08.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "92293db5dc3b4f8088de68efaa9307db",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "10:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "El Salitre (las Ramas)",
+    "sector": "Varios Sectores  (Las Yucas y la Asunción)",
+    "latitud": -1.83232,
+    "longitud": -79.811845,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones de la madrugada del 04/03/2026, el incremento del río Vinces provocó su desbordamiento, generando acumulación e ingreso de agua en viviendas. GAD Cantonal informa que las familias afectadas permanecen en sus respectivos inmuebles. El río Vinces se encuentra con tendencia normal.",
+    "personas_afectadas": 2000,
+    "viviendas_afectadas": 500,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 63.0,
+        "max_5km_mm": 65.0
+      },
+      "dia_anterior": {
+        "punto_mm": 145.0,
+        "max_5km_mm": 162.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 229.0,
+      "max_5km_mm": 248.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 14.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 11.3,
+        "max_5km_mm": 30.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 21.5,
+        "max_5km_mm": 33.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059804,
+    "periodos_retorno_m3s": {
+      "2": 2456.5,
+      "5": 2936.6,
+      "10": 3254.5,
+      "25": 3656.2,
+      "50": 3954.2,
+      "100": 4250.0
+    },
+    "caudal_simulado_dia_m3s": 2281.05,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:49.000Z",
+  "pendiente": []
+}

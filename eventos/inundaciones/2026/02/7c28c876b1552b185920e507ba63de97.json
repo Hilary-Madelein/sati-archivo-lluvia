@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "7c28c876b1552b185920e507ba63de97",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "10:14",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Sector Mapasingue Este - Colinas de Mapasingue",
+    "latitud": -2.152767,
+    "longitud": -79.923598,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las lluvias suscitadas la madrugada del 23/02/2026, se reportó acumulación de agua en una vivienda de una planta de construcción de cemento. Mediante EVIN, GAD Cantonal indica que la familia afectada se quedará en su mismo inmueble, posterior a ello, realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 103.0,
+        "max_5km_mm": 107.0
+      },
+      "dia_anterior": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 30.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 51.0,
+        "max_5km_mm": 54.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 184.0,
+      "max_5km_mm": 191.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 7.0,
+        "max_5km_mm": 15.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 14.3,
+        "max_5km_mm": 45.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 6.2,
+        "max_5km_mm": 19.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068007,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:00:29.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

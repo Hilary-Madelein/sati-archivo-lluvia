@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "90e8f22693d80d7fb0c28f21f920b98c",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "22:12",
+    "provincia": "Los Ríos",
+    "canton": "Buena Fe",
+    "parroquia": "San Jacinto De Buena Fé",
+    "sector": "COOP. 19 DE OCTUBRE",
+    "latitud": -0.886497,
+    "longitud": -79.486309,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en el cantón la noche del 12/01/2026, se suscitó acumulación de aguas lluvias por taponamiento de tuberías en la vivienda, provocando acumulación de aguas lluvias dentro y fuera del hogar, en donde se reporta 1 vivienda con 1 familia de 2 personas afectadas  UGR Buena Fe asistió al sitio el 13/01/2026 reportando que la familia afectada se mantiene sin novedad en la vivienda, sin presencia de agua en el sitio, por lo que no se solicita creación de EVIN DIGITAL del evento,por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 22.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 38.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 11.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 63.4,
+        "max_5km_mm": 86.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 36.0,
+        "max_5km_mm": 50.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670079221,
+    "periodos_retorno_m3s": {
+      "2": 907.9,
+      "5": 1118.4,
+      "10": 1257.8,
+      "25": 1434.0,
+      "50": 1564.6,
+      "100": 1694.3
+    },
+    "caudal_simulado_dia_m3s": 201.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:44.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "72418fff63ff46b9f999a366f5cfdfd7",
+    "tipo": "Inundación",
+    "fecha": "2026-06-08",
+    "hora": "07:56",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Ochoa León (matriz)",
+    "sector": "UN SOLO TOQUE",
+    "latitud": -3.332024,
+    "longitud": -79.816038,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada y mañana del 08/06/2026, se registró inundación en varias calles y avenidas del sector.\r\nDebido a las continuas lluvias de la noche del 08/06/2026 y la madrugada del 09/06/2026 se registró el desbordamiento de un canal S/N, presentando acumulación de agua en las calles del sector.\r\n Las familias afectadas se mantienen en sus viviendas, las cuales recibieron asistencia humanitaria.\r\nUGR GAD Cantonal mediante evaluación inicial de necesidades informa familias afectadas por el evento. Adicional, el caudal se encuentra en su cause normal y el agua acumulada en calles ha evacuado en su totalidad.",
+    "personas_afectadas": 93,
+    "viviendas_afectadas": 60,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 39.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 48.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029140,
+    "periodos_retorno_m3s": {
+      "2": 46.1,
+      "5": 75.9,
+      "10": 95.6,
+      "25": 120.6,
+      "50": 139.1,
+      "100": 157.5
+    },
+    "caudal_simulado_dia_m3s": 7.51,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:24:09.000Z",
+  "pendiente": []
+}

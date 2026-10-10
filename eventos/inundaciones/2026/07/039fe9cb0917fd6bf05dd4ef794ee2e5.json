@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "039fe9cb0917fd6bf05dd4ef794ee2e5",
+    "tipo": "Inundación",
+    "fecha": "2026-07-19",
+    "hora": "09:02",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Majua",
+    "sector": "Isla San Juan",
+    "latitud": 0.704143,
+    "longitud": -79.529987,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada del 19/07/2026, se produjo el desbordamiento del río Majua en la isla San Juan, provocando inundación en varias viviendas de la isla. \r\n\t\r\n UGR Esmeraldas informa que el río Majua se encuentra normal, los sectores no presentan anegamiento y las familias se mantienen pernoctando en sus propias viviendas.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 17.0,
+      "max_5km_mm": 22.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-19T07:00:00.000Z",
+        "punto_mm": 6.9,
+        "max_5km_mm": 6.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-18T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 3.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-17T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 5.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066879,
+    "periodos_retorno_m3s": {
+      "2": 38.9,
+      "5": 57.8,
+      "10": 70.4,
+      "25": 86.2,
+      "50": 97.9,
+      "100": 109.6
+    },
+    "caudal_simulado_dia_m3s": 2.05,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:21:26.000Z",
+  "pendiente": []
+}

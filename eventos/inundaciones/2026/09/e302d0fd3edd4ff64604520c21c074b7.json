@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "e302d0fd3edd4ff64604520c21c074b7",
+    "tipo": "Inundación",
+    "fecha": "2026-09-29",
+    "hora": "10:40",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "San Gregorio",
+    "sector": "San Salvador",
+    "latitud": 0.5531069534691841,
+    "longitud": -79.92840311511183,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las precipitaciones registradas durante la madrugada y mañana del 29/09/2026, se produjo el desbordamiento de los ríos Canuto y Sucio, generando inundaciones en el sector San Salvador, parroquia San Gregorio.\r\n\r\n 05/10/2026 | La UGR Muisne informa que los ríos Canuto y Sucio presentan tendencia a aumentar de nivel. Las calles del sector se encuentran secas y las familias afectadas continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas. El GAD Muisne continúa con la atención y levantamiento de información. Al momento no se registran lluvias.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 16.0,
+      "max_5km_mm": 21.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 44.6,
+        "max_5km_mm": 77.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 10.7,
+        "max_5km_mm": 27.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 16.6,
+        "max_5km_mm": 19.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064836,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260929",
+        "max_promedio_ensamble_m3s": 23.9,
+        "max_ensamble_m3s": 276.4,
+        "max_alta_resolucion_m3s": 25.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260928",
+        "max_promedio_ensamble_m3s": 13.6,
+        "max_ensamble_m3s": 37.2,
+        "max_alta_resolucion_m3s": 11.0
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:12:19.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

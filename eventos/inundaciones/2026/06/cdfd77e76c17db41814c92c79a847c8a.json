@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "cdfd77e76c17db41814c92c79a847c8a",
+    "tipo": "Inundación",
+    "fecha": "2026-06-07",
+    "hora": "17:25",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Av Teodoro Alvarado Oleas como referencia a la altura del Fuerte Huancavilca",
+    "latitud": -2.117678,
+    "longitud": -79.922729,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde del 07/06/2026, se reportó varias viviendas inundadas. Mediante EVIN, el GAD Cantonal informa que las familias damnificadas se encuentran en casas de acogidas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 11.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 17.2,
+        "max_5km_mm": 24.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 7.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060837,
+    "periodos_retorno_m3s": {
+      "2": 3348.2,
+      "5": 4478.7,
+      "10": 5227.3,
+      "25": 6173.0,
+      "50": 6874.7,
+      "100": 7571.1
+    },
+    "caudal_simulado_dia_m3s": 311.41,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:24:37.000Z",
+  "pendiente": []
+}

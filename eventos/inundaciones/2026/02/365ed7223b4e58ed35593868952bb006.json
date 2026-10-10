@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "365ed7223b4e58ed35593868952bb006",
+    "tipo": "Inundación",
+    "fecha": "2026-02-02",
+    "hora": "11:18",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Guayaquil (cabecera Cantonal)",
+    "sector": "Escuela de Educación Básica Fiscal Pedro Barrezueta Mendoza",
+    "latitud": -2.2757713220690547,
+    "longitud": -80.10396304043005,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó afectacipon de una una unidad educativa.  Personal de MINEDEC reportó que la unidad educativa realizó las debidas limpiezas luego que resultaran afectadas por las lluvias",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 12.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 3.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 56.4,
+        "max_5km_mm": 94.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 11.0,
+        "max_5km_mm": 19.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670055723,
+    "periodos_retorno_m3s": {
+      "2": 97.5,
+      "5": 185.3,
+      "10": 243.5,
+      "25": 317.0,
+      "50": 371.5,
+      "100": 425.6
+    },
+    "caudal_simulado_dia_m3s": 1.06,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:10:27.000Z",
+  "pendiente": []
+}

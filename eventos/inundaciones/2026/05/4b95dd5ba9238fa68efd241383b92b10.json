@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "4b95dd5ba9238fa68efd241383b92b10",
+    "tipo": "Inundación",
+    "fecha": "2026-05-30",
+    "hora": "06:45",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Turubamba",
+    "sector": "S52A-OE6",
+    "latitud": -0.343096,
+    "longitud": -78.54699,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas a tarde del 30-05-2026 en el sector, que ocasionaron inundaciones en las vías y provocaron el ingreso de agua en una vivienda del sector.  La familia afectada permaneció en la vivienda, sin requerirse su evacuación. Una vez concluidas las labores de evacuación del agua y limpieza del inmueble.  El lugar quedó en condiciones seguras para su habitabilidad, no fue necesaria la activación del fondo de emergencia o entrega de asistencia humanitaria.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 36.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-30T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 14.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-29T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 8.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-28T07:00:00.000Z",
+        "punto_mm": 8.5,
+        "max_5km_mm": 9.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670088424,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:25:11.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

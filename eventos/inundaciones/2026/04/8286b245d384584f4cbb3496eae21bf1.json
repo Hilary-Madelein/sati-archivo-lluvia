@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "8286b245d384584f4cbb3496eae21bf1",
+    "tipo": "Inundación",
+    "fecha": "2026-04-15",
+    "hora": "09:21",
+    "provincia": "Carchi",
+    "canton": "Tulcán",
+    "parroquia": "Tulcán (cabecera Cantonal)",
+    "sector": "Centro de Salud Nro. 1 Tulcán, calle 10 de Agosto y loja.",
+    "latitud": 0.817,
+    "longitud": -77.7205,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias registradas el 14/04/2026, se evidencian que ingreso agua a las instalaciones del Centro de Salud Nro. 1. causando afectaciones en las áreas de odontología, vacunación, tamizaje neonatal, SAI, así como en corredores y pasillos de la unidad operativa. MSP realizó el levantamiento de información, la limpieza y secado de las áreas afectadas. También, informan que una vez que se cuente con el presupuesto fiscal se repondrán las afectaciones causadas en cada área.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 9.7,
+        "max_5km_mm": 21.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 32.2,
+        "max_5km_mm": 48.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076091,
+    "periodos_retorno_m3s": {
+      "2": 39.9,
+      "5": 51.4,
+      "10": 59.0,
+      "25": 68.6,
+      "50": 75.7,
+      "100": 82.8
+    },
+    "caudal_simulado_dia_m3s": 26.85,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:50.000Z",
+  "pendiente": []
+}

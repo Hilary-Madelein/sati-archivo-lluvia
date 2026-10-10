@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "0ae993a1454431a9741e88bd50364f2e",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "19:00",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "Santo Domingo De Onzole",
+    "sector": "Comunidades Capulí, Pambil Colón, Santo Domingo.",
+    "latitud": 0.717009,
+    "longitud": -79.08673,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las recurrentes precipitaciones registradas durante la noche del 24/09/2026, se produjo el desbordamiento de los ríos Onzole y Pambil, generando inundaciones en varias comunidades de la parroquia Santo Domingo de Onzole. El 26/09/2026, la UGR Eloy Alfaro reportó un incremento de familias y personas afectadas.\r\n 05/10/2026 | La UGR Eloy Alfaro informa que el COE Cantonal se mantiene activo. Los ríos Onzole y Pambil presentan tendencia a aumentar de nivel; al momento no se registran lluvias. Los sectores afectados presentan acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas comunidades, familias ni personas afectadas. Continúa el levantamiento EVIN.",
+    "personas_afectadas": 2028,
+    "viviendas_afectadas": 507,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 48.0
+      },
+      "dia_anterior": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 56.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 84.0,
+      "max_5km_mm": 117.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 6.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 36.0,
+        "max_5km_mm": 36.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 6.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670025919,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:18:46.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

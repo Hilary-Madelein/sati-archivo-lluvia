@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "909704dc0ff612851d1fd4b6a91dcbc9",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "07:53",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Coronel Enrique Valdez",
+    "sector": "Av. Jaime Roldos y 17 de septiembre",
+    "latitud": -2.1507783182033844,
+    "longitud": -79.86368902055985,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 27/09/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras se observan calles anegadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 18.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670080296,
+    "periodos_retorno_m3s": {
+      "2": 3356.8,
+      "5": 4491.9,
+      "10": 5243.4,
+      "25": 6192.9,
+      "50": 6897.3,
+      "100": 7596.5
+    },
+    "caudal_simulado_dia_m3s": 1250.3,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 928.2,
+        "max_ensamble_m3s": 1220.7,
+        "max_alta_resolucion_m3s": 1129.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 1098.8,
+        "max_ensamble_m3s": 1551.1,
+        "max_alta_resolucion_m3s": 1074.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 1157.2,
+        "max_ensamble_m3s": 1607.4,
+        "max_alta_resolucion_m3s": 1178.2
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:14:49.000Z",
+  "pendiente": []
+}

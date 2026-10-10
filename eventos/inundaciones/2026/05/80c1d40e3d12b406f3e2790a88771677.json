@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "80c1d40e3d12b406f3e2790a88771677",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "16:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Unión y Progreso",
+    "latitud": -0.4643359393346007,
+    "longitud": -76.98011684783012,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias registradas desde la noche del 20/05/2026 hasta la mañana del 21/05/2026, se produjo el incremento del caudal del río Coca, ocasionando su desbordamiento en las riberas del barrio Unión y Progreso. Una  familia evacuó de forma temporal al alojamiento activado en el Vicariato Apostólico en coordinación del GAD M de Francisco de Orellana.  SNGR conjuntamente con el GAD Municipal de Francisco de Orellana, MSP, MDH y Cruz Roja articularon acciones para el levantamiento de información y atención a la población afectada.  Ministerio de Salud Pública intervino con atención médica.\r\n NOTA: el presente informe incluye 1 familia afectada y 1 familia damnificada de la parroquia Nuevo Paraíso. El río Coca mantiene un nivel dentro de los parámetros normales y la zona permanece nublada. SNGR (Matriz), en coordinación con la CZ2 de Gestión de Riesgos y el GADM de Francisco de Orellana, realizó un recorrido técnico y el levantamiento de información en territorio, con el acompañamiento del presidente del barrio Unión y Progreso y el apoyo de las FFAA; con base a la información recopilada se elaborarán y emitirán los informes técnicos correspondientes.",
+    "personas_afectadas": 158,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 5,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 11.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 79.7,
+        "max_5km_mm": 81.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 621061200,
+    "periodos_retorno_m3s": {
+      "2": 1473.3,
+      "5": 1826.8,
+      "10": 2060.9,
+      "25": 2356.6,
+      "50": 2576.0,
+      "100": 2793.7
+    },
+    "caudal_simulado_dia_m3s": 710.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:11.000Z",
+  "pendiente": []
+}

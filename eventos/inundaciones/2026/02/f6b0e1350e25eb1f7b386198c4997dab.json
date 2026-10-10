@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f6b0e1350e25eb1f7b386198c4997dab",
+    "tipo": "Inundación",
+    "fecha": "2026-02-12",
+    "hora": "18:00",
+    "provincia": "El Oro",
+    "canton": "Piñas",
+    "parroquia": "Piñas / La Matriz",
+    "sector": "BARRIO 28 DE MAYO",
+    "latitud": -3.67792764,
+    "longitud": -79.68415674,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la noche del 12/02/2026, se registró la acumulación de aguas lluvias en una vivienda. Bomberos de Piñas realizó la evacuación de agua lluvia de la vivienda y la familia afectada arrendará otro departamento de manera indefinida. \r\nMediante el levantamiento de información por la UGR del GAD Cantonal informó que, propietarios del domicilio realizará la reparación de tejado por sus propios medios y que no procede para la entrega de asistencia humanitaria.\r\nSNGR realizó monitoreo al evento.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 55.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-12T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 9.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-11T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 9.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-10T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 8.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041439,
+    "periodos_retorno_m3s": {
+      "2": 169.8,
+      "5": 252.9,
+      "10": 308.0,
+      "25": 377.5,
+      "50": 429.1,
+      "100": 480.3
+    },
+    "caudal_simulado_dia_m3s": 24.93,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:05:14.000Z",
+  "pendiente": []
+}

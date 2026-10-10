@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "54c8bc0d379c0440703f9d95a1ba6548",
+    "tipo": "Inundación",
+    "fecha": "2026-02-08",
+    "hora": "07:23",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Nueve De Mayo",
+    "sector": "VARIOS SECTORES",
+    "latitud": -3.2828978,
+    "longitud": -79.9584397,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se suscito inundacion el varios sectores de la parroqua 9 de mayo.  Las aguas lluvias evacuaron en su totalidad, luego de que AGUAS Machala realizó limpieza de canales y alcantarillas.\r\nUGR realizó recorrido e informó que no se registró daños materiales ni familias afectadas. \r\nMediante informa MINEDEC, se informa varias unidades educativas que fueron afectadas funcionalmente por ingreso de agua en sus patios y pasillos, donde el agua fue evacuada y actualmente realizan las actividades normales.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 63.0,
+      "max_5km_mm": 64.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:49.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4b19df757184d349e9ffcad34034c9ad",
+    "tipo": "Inundación",
+    "fecha": "2026-01-09",
+    "hora": "09:00",
+    "provincia": "Orellana",
+    "canton": "Loreto",
+    "parroquia": "San Jose De Payamino",
+    "sector": "Playas Brillantes, Paco Rumi",
+    "latitud": -0.5004959640358997,
+    "longitud": -77.26239550774349,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias durante la madrugada y mañana del 09/01/2026, se produjo el aumento del río Payamino inundando varias viviendas. Tenencia Política de Payamino realizó un recorrido verificando novedades. GAD Municipal de Loreto realizó la evaluación inicial de necesidades y gestionó sus recursos para cubrir  las necesidades de kits de dormir a las familias afectadas. GAD Municipal de Loreto levantó las fichas EVIN, cabe indicar que la evaluación no pudo realizarse en el tiempo previsto debido a que algunas viviendas cuentan únicamente con acceso fluvial. El Municipio de Loreto entregó asistencia humanitaria, quedando pendiente la entrega a las 2 últimas familias que fueron evaluadas con fecha  27/01/2026.\r\n 29/01/2026, incrementó su nivel, por el momento sin novedades. El Municipio de Loreto entregó asistencia humanitaria a las 2 familias que estaban pendientes por entregar. El 13/03/2026, el MAGP realizó el levantamiento de información (MAAPEA) en las zonas afectadas; posteriormente  emitió  las sugerencias y asistencia técnica.",
+    "personas_afectadas": 15,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 11.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-09T07:00:00.000Z",
+        "punto_mm": 3.6,
+        "max_5km_mm": 4.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-08T07:00:00.000Z",
+        "punto_mm": 27.2,
+        "max_5km_mm": 33.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-07T07:00:00.000Z",
+        "punto_mm": 22.9,
+        "max_5km_mm": 32.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620907092,
+    "periodos_retorno_m3s": {
+      "2": 599.7,
+      "5": 762.3,
+      "10": 869.9,
+      "25": 1005.9,
+      "50": 1106.8,
+      "100": 1206.9
+    },
+    "caudal_simulado_dia_m3s": 32.17,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:56.000Z",
+  "pendiente": []
+}

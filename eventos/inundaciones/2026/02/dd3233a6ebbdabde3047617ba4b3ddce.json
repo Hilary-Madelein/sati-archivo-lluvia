@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "dd3233a6ebbdabde3047617ba4b3ddce",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "04:18",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Sucre",
+    "sector": "Varios Sectores (Av del Ejército, Cristóbal Colón, Alcedo)",
+    "latitud": -2.195221,
+    "longitud": -79.894077,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada  del 18/02/2026, se reporta varios sectores con acumulación de agua en las calles y avenidas; GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 87.0,
+        "max_5km_mm": 133.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 26.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 117.0,
+      "max_5km_mm": 172.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 51.1,
+        "max_5km_mm": 64.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 33.6,
+        "max_5km_mm": 33.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 23.1,
+        "max_5km_mm": 35.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068009,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:03:23.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

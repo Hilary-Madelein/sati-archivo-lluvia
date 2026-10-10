@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a03d4e95ca40d3219c47ea7791b991be",
+    "tipo": "Inundación",
+    "fecha": "2026-03-17",
+    "hora": "09:00",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Luz De America",
+    "sector": "UNIDAD EDUCATIVA",
+    "latitud": -0.4,
+    "longitud": -79.3,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "La rectora de la unidad educativa Luz de América informa al distrito sobre las fuertes lluvias ocasionadas la noche y madrugada de hoy; se inundó la parte donde funcionan tres aulas más la oficina del DECE. A pesar de realizar cambios de tubos, se continúa con este inconveniente. Al momento, no se encuentra inundada la unidad educativa.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 138.0,
+        "max_5km_mm": 138.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 141.0,
+      "max_5km_mm": 148.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 16.3,
+        "max_5km_mm": 31.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 42.9,
+        "max_5km_mm": 42.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 116.0,
+        "max_5km_mm": 116.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670084327,
+    "periodos_retorno_m3s": {
+      "2": 274.2,
+      "5": 350.0,
+      "10": 400.1,
+      "25": 463.5,
+      "50": 510.6,
+      "100": 557.3
+    },
+    "caudal_simulado_dia_m3s": 36.13,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:37:07.000Z",
+  "pendiente": []
+}

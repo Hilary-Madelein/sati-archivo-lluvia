@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a742b90d53da1906271229a14ff77342",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "San Jacinto De Yaguachi",
+    "sector": "Varios sectores (Cascol, Caimito y Tres Postes )",
+    "latitud": -2.0977,
+    "longitud": -79.7277,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación parcial y destrucción de cultivos de arroz. Personal de MAG realizó la inspección.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 36.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 53.0,
+        "max_5km_mm": 67.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 88.0,
+      "max_5km_mm": 109.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 8.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 10.8,
+        "max_5km_mm": 14.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065959,
+    "periodos_retorno_m3s": {
+      "2": 295.1,
+      "5": 430.0,
+      "10": 519.3,
+      "25": 632.1,
+      "50": 715.7,
+      "100": 798.8
+    },
+    "caudal_simulado_dia_m3s": 230.6,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:49:47.000Z",
+  "pendiente": []
+}

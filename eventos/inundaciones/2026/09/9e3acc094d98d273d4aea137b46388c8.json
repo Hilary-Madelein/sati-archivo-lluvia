@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "9e3acc094d98d273d4aea137b46388c8",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "07:00",
+    "provincia": "Guayas",
+    "canton": "Naranjito",
+    "parroquia": "Naranjito",
+    "sector": "Recinto 5 hermanos",
+    "latitud": -2.146568,
+    "longitud": -79.427481,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de la madrugada del 27/09/2026. Se produjo el desbordamiento del río Chorrón, ocasionando inundación en varias viviendas. GAD Cantonal indica que las familias afectadas y damnificadas se mantienen en sus inmuebles; el río Chorrón se encuentra en su cauce normal. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 14,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 56.0,
+        "max_5km_mm": 56.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 16.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 93.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 3.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 3.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 8.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062887,
+    "periodos_retorno_m3s": {
+      "2": 67.1,
+      "5": 89.2,
+      "10": 103.8,
+      "25": 122.2,
+      "50": 135.9,
+      "100": 149.5
+    },
+    "caudal_simulado_dia_m3s": 47.56,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 5.5,
+        "max_ensamble_m3s": 39.9,
+        "max_alta_resolucion_m3s": 2.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 4.0,
+        "max_ensamble_m3s": 21.1,
+        "max_alta_resolucion_m3s": 5.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 6.4,
+        "max_ensamble_m3s": 68.4,
+        "max_alta_resolucion_m3s": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:16:35.000Z",
+  "pendiente": []
+}

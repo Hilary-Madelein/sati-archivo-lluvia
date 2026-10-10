@@ -1,0 +1,101 @@
+{
+  "evento": {
+    "id": "812a499f8472a190b449c59ae1e13837",
+    "tipo": "Inundación",
+    "fecha": "2026-09-26",
+    "hora": "07:00",
+    "provincia": "Guayas",
+    "canton": "El Empalme",
+    "parroquia": "Velasco Ibarra (el Empalme)",
+    "sector": "Varios Sectores (Coop. Wacho Giler - Cooperativa 29 de octubre km. 1, vía a Guayaquil)",
+    "latitud": -1.051832,
+    "longitud": -79.644682,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de la madrugada del 26/09/2026. Se produjo el incremento de caudal del estero La Parrilla, ocasionando inundación en una vivienda. Así mismo, se vio afectado el Hospital Básico en el área de observación a causa de goteras y deterioro.  GAD Cantonal indica que las familias afectadas se mantienen en sus inmuebles luego de realizar las debidas limpiezas; el estero La Parrilla se encuentra en su cauce normal.",
+    "personas_afectadas": 10,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 59.0
+      },
+      "dia_anterior": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 37.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 88.0,
+      "max_5km_mm": 101.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 3.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 10.1,
+        "max_5km_mm": 16.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076158,
+    "periodos_retorno_m3s": {
+      "2": 212.2,
+      "5": 269.4,
+      "10": 307.4,
+      "25": 355.3,
+      "50": 390.8,
+      "100": 426.1
+    },
+    "caudal_simulado_dia_m3s": 74.27,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 113.2,
+        "max_ensamble_m3s": 293.1,
+        "max_alta_resolucion_m3s": 154.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 133.1,
+        "max_ensamble_m3s": 411.0,
+        "max_alta_resolucion_m3s": 132.4
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:17:50.000Z",
+  "pendiente": []
+}

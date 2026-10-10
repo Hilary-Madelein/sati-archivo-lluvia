@@ -1,0 +1,71 @@
+{
+  "evento": {
+    "id": "0b23ea491cdc35cf1fa8701dea5a9814",
+    "tipo": "Inundación",
+    "fecha": "2026-04-15",
+    "hora": "08:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Unidad Educativa Francisco De Orellana, Unidad Destacamento Banderas",
+    "latitud": -0.45772687714994714,
+    "longitud": -76.99400134843377,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas desde la madrugada del 15 de abril de 2026 en la provincia de Orellana, se produjo una inundación que afectó las aulas, pasillos y el patio escolar de los bloques donde funcionaba el nivel de bachillerato de la Unidad Educativa Francisco de Orellana y afectó los pasillo y patio escolar de la UE Destacamento Banderas. \r\nSe realizó el respectivo seguimiento a las unidades educativas que presentaron acumulación de agua lluvia en sus instalaciones.  Al momento, las clases en las Unidades Educativas se desarrollan con normalidad. El Ministerio de Educación realizó la evaluación correspondiente y, mediante mingas organizadas con los padres de familia, se llevó a cabo la evacuación del agua y la limpieza de las instalaciones. MINEDEC coordinó con GAD Francisco de Orellana la limpieza de alcantarillas y conexión de alcantarillado; adicional gestiona recursos  para la construcción se canaletas y bajantes en la UE Destacamento Banderas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 160.0,
+        "max_5km_mm": 199.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 163.0,
+      "max_5km_mm": 206.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-15T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620666291,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:31:55.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

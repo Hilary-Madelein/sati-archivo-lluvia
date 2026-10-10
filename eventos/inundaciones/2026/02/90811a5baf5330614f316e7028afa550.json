@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "90811a5baf5330614f316e7028afa550",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "03:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Varios Sectores (Av. Narcisa De Jesús, , Av. Barcelona Av. Juan Tanca Marengo, Cdla. Miraflores, Calle Octava , Av. Guillermo Pareja Rolando y Hermano Miguel. , Av. Víctor Emilio Estrada Y Laureles, Av. Barcelona y Puente De La 17, Samanes 2)",
+    "latitud": -2.112332,
+    "longitud": -79.902507,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada  del 23/02/2026, se reporta varios sectores con acumulación de agua en las calles y avenidas; GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 84.0,
+        "max_5km_mm": 96.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 166.0,
+      "max_5km_mm": 179.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 12.7,
+        "max_5km_mm": 13.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 27.2,
+        "max_5km_mm": 71.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044455,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:59:16.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

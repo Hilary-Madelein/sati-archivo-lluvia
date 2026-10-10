@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "075dfdc823c06db640e99c8221634c1f",
+    "tipo": "Inundación",
+    "fecha": "2025-11-05",
+    "hora": "07:30",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Yantzaza",
+    "parroquia": "Yantzaza (yanzatza)",
+    "sector": "YANTZAZA",
+    "latitud": -3.833194622034717,
+    "longitud": -78.7633947405691,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por presencia de lluvias en el sector, se registró una inundación en una unidad educativa. AFECTACIÓN AL SERVICIO EDUCATIVO",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 17.0,
+      "max_5km_mm": 21.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620980200,
+    "periodos_retorno_m3s": {
+      "2": 647.8,
+      "5": 873.4,
+      "10": 1022.7,
+      "25": 1211.3,
+      "50": 1351.3,
+      "100": 1490.2
+    },
+    "caudal_simulado_dia_m3s": 209.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:53.000Z",
+  "pendiente": []
+}

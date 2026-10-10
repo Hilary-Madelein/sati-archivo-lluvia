@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "35f3b2440e7626e7fdbd17dfc9413d9e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "17:00",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Nangaritza",
+    "parroquia": "Guayzimi",
+    "sector": "Sumayaku, vía Guayzimi- Alto Nangaritza",
+    "latitud": -4.143836580090529,
+    "longitud": -78.64135580651218,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la tarde  del 11/03/2026, se registro el aumento del caudal del rio Nangaritza causando la inundación en la vía de segundo orden obstaculizando el tránsito vehicular.\r\n El nivel del rio se encuentra en su cauce normal, la vía de segundo orden se encuentra  habilitada",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 39.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 42.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 27.8,
+        "max_5km_mm": 29.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 21.3,
+        "max_5km_mm": 60.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 53.1,
+        "max_5km_mm": 53.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620011511,
+    "periodos_retorno_m3s": {
+      "2": 23.4,
+      "5": 30.6,
+      "10": 35.3,
+      "25": 41.3,
+      "50": 45.8,
+      "100": 50.2
+    },
+    "caudal_simulado_dia_m3s": 12.2,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:42:12.000Z",
+  "pendiente": []
+}

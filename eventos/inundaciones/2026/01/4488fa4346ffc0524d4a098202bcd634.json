@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4488fa4346ffc0524d4a098202bcd634",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "17:29",
+    "provincia": "Morona Santiago",
+    "canton": "Sevilla Don Bosco",
+    "parroquia": "Sevilla Don Bosco",
+    "sector": "San Juan, vía Yurank-Kusuime",
+    "latitud": -2.256593,
+    "longitud": -78.04564,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido las lluvias registradas el 29/01/2026, se produjo el incremento del caudal del río Muchintza y su posterior desbordamiento que generó la inundación y erosión hídrica de una alcantarilla tipo ármico que soportaba la capa de rodadura de un tramo de la vía de tercer orden, la cual se encuentra totalmente cerrada la transito vehicular. GAD-Provincial de Morona Santiago ejecutó actividades de colocación de la alcantarilla tipo ármico y la recomposición de la capa de rodadura, habilitando la vía en su totalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 88.0,
+        "max_5km_mm": 88.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 36.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 140.0,
+      "max_5km_mm": 150.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 17.3,
+        "max_5km_mm": 23.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 5.2,
+        "max_5km_mm": 6.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 4.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620673267,
+    "periodos_retorno_m3s": {
+      "2": 31.3,
+      "5": 40.3,
+      "10": 46.3,
+      "25": 53.8,
+      "50": 59.5,
+      "100": 65.0
+    },
+    "caudal_simulado_dia_m3s": 20.87,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:51.000Z",
+  "pendiente": []
+}

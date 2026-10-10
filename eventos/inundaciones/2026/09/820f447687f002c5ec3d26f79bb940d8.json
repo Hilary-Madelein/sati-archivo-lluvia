@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "820f447687f002c5ec3d26f79bb940d8",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "17:49",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Andres De Vera",
+    "sector": "Calle Vicente Véliz.",
+    "latitud": -1.0760711780982077,
+    "longitud": -80.44800996780396,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias presentadas en horas de la tarde, se produjeron acumulaciones de aguas lluvias, las cuales afectaron una vivienda con ingreso de agua en su interior, afectando enseres. La persona afectada es de la tercera edad con discapacidad; se encuentra en la vivienda (no quiere evacuar); al momento ya no llueve. Cuerpo de Bomberos Portoviejo realiza evacuación de agua. UGR Portoviejo confirmó evento y realiza levantamiento de información.\r\n01/10/26 SNGR realizó la entrega de AH.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 41.0,
+      "max_5km_mm": 42.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 1.5,
+        "max_5km_mm": 3.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 3.9,
+        "max_5km_mm": 10.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070017,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260922",
+        "max_promedio_ensamble_m3s": 0.6,
+        "max_ensamble_m3s": 10.1,
+        "max_alta_resolucion_m3s": 0.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:18:46.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

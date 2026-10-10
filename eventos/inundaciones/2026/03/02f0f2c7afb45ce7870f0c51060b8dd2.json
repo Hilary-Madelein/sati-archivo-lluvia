@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "02f0f2c7afb45ce7870f0c51060b8dd2",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "09:45",
+    "provincia": "Manabí",
+    "canton": "Rocafuerte",
+    "parroquia": "Rocafuerte",
+    "sector": "Las peñas",
+    "latitud": -0.9229062,
+    "longitud": -80.4508505,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias del 03/03/2026 se suscito la inundación del sector provocando la afectación de cultivo. Al momento no existe inundación en el sitio. MAG realizó al evaluación de daño de los cultivos.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 27.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 35.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 14.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 65.3,
+        "max_5km_mm": 86.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 47.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:53:55.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "65ae7916b5febd1ec32ef9da81e3eaaa",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "06:00",
+    "provincia": "Esmeraldas",
+    "canton": "Rioverde",
+    "parroquia": "Rioverde",
+    "sector": "recinto Alto y Vuelta Larga.",
+    "latitud": 1.0601422129293825,
+    "longitud": -79.40244802374919,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada y mañana del 04/03/2026, se registró una inundación que afectó el recinto.\r\n\r\nUGR Rioverde confirmó el evento. \r\n\r\n UGR Rioverde informa que las familias se mantienen pernoctando en sus propias viviendas.",
+    "personas_afectadas": 135,
+    "viviendas_afectadas": 49,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 84.0,
+        "max_5km_mm": 89.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 111.0,
+      "max_5km_mm": 128.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 3.7,
+        "max_5km_mm": 24.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 42.1,
+        "max_5km_mm": 66.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 32.4,
+        "max_5km_mm": 37.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066871,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:50:48.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

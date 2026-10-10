@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "73907e062c1918563e0bee567d6466f1",
+    "tipo": "Inundación",
+    "fecha": "2026-02-12",
+    "hora": "22:09",
+    "provincia": "Los Ríos",
+    "canton": "Quevedo",
+    "parroquia": "Venus Del Rio Quevedo",
+    "sector": "CIUDAD DEL NORTE - ATRÁS DE AGRILSA",
+    "latitud": -1.005916,
+    "longitud": -79.469254,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la noche del 12/02/2026 se reportó acumulación de aguas lluvias con ingreso a  viviendas, dejando consigo 3 viviendas de 3 familias con 13 personas afectadas. GAD Quevedo reporta que las familias se mantienen en sus viviendas sin presencia de agua, por lo que el jefe de hogar manifestó que se quedarán permanentemente en e hogar, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 13,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 23.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-12T07:00:00.000Z",
+        "punto_mm": 21.5,
+        "max_5km_mm": 36.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-11T07:00:00.000Z",
+        "punto_mm": 10.8,
+        "max_5km_mm": 17.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-10T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 15.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670094588,
+    "periodos_retorno_m3s": {
+      "2": 2234.3,
+      "5": 2645.3,
+      "10": 2917.5,
+      "25": 3261.3,
+      "50": 3516.4,
+      "100": 3769.6
+    },
+    "caudal_simulado_dia_m3s": 1471.41,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:05:16.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "34d19bbd5cced8d40703204cf3124971",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "01:00",
+    "provincia": "Chimborazo",
+    "canton": "Cumanda",
+    "parroquia": "Cumanda",
+    "sector": "Complejo Turístico Piedra Grande",
+    "latitud": -2.201002068006298,
+    "longitud": -79.10940936061782,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas la madrugada del 10/03/2026, se reportó el desbordamiento del río Chimbo, ocasionando ingreso de agua a un complejo turístico, afectando una laguna y una cancha de indor del complejo. UGR GADC Cumandá confirmó el evento y realiza una inspección. SNGR monitorea el evento y coordinó con la UGR Cantonal el levantamiento de un informe técnico.\r\nGAD Cantonal realizó el levantamiento del informe técnico, al momento, el río Chimbo está en su cauce normal.\r\nGAD Provincial indica que no se tiene planificado ningún trabajo en el sitio, ya que no se pudo ingresar por ser un bien privado.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 72.0,
+        "max_5km_mm": 77.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 103.0,
+      "max_5km_mm": 108.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 118.9,
+        "max_5km_mm": 201.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 111.9,
+        "max_5km_mm": 124.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 60.8,
+        "max_5km_mm": 109.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061866,
+    "periodos_retorno_m3s": {
+      "2": 32.7,
+      "5": 39.0,
+      "10": 43.2,
+      "25": 48.4,
+      "50": 52.4,
+      "100": 56.2
+    },
+    "caudal_simulado_dia_m3s": 7.99,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:43:23.000Z",
+  "pendiente": []
+}

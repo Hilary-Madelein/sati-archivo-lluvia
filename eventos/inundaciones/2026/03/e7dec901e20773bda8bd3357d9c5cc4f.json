@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "e7dec901e20773bda8bd3357d9c5cc4f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "06:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Chanduy",
+    "sector": "Comuna San Rafael",
+    "latitud": -2.3391872967438676,
+    "longitud": -80.65197777987463,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, se registró el aumento del caudal del río San Rafael lo que provocó que un vehículo tipo tráiler se embancara mientras intentaba cruzar sobre el puente baden.\r\nEl río se mantiene con cause alto, y por precaución no se está circulando por ese tramo de vía. Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, se registró el aumento del caudal del río San Rafael lo que provocó que un vehículo tipo tráiler se embancara mientras intentaba cruzar sobre el puente baden.\r\nEl río se mantiene con cause alto, y por precaución no se está circulando por ese tramo de vía.\r\nCB Chanduy junto con UREM de la CTE realizaron labores de rescate del conductor, quien resultó ileso y puesto a buen recaudo.\r\nEntre habitantes de la comunidad, CTE, CB realizan maniobras para retirar el vehículo embancado.\r\nTenencia Política de la parroquia informó que las aguas bajaron y se logró retirar el vehículo tipo tráiler, se reportó daños materiales del mismo.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 53.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 62.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 8.4,
+        "max_5km_mm": 18.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 14.5,
+        "max_5km_mm": 45.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 39.5,
+        "max_5km_mm": 45.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076207,
+    "periodos_retorno_m3s": {
+      "2": 188.4,
+      "5": 451.2,
+      "10": 625.2,
+      "25": 845.1,
+      "50": 1008.2,
+      "100": 1170.1
+    },
+    "caudal_simulado_dia_m3s": 18.41,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:19.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "dde2e1bed476cf18bb9fd2c5eee38f79",
+    "tipo": "Inundación",
+    "fecha": "2026-01-31",
+    "hora": "03:50",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Chongón",
+    "sector": "Sector Isla Bonita",
+    "latitud": -2.231189,
+    "longitud": -80.077408,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche y madrugada del 31/01/2026, se reportó el ingreso de agua a una vivienda. Mediante EVIN, GAD Cantonal indica que la familia damnificada realizó las debidas limpiezas y adecuaciones del inmueble",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 15.0,
+      "max_5km_mm": 26.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 2.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-30T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 7.1,
+        "max_5km_mm": 12.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075180,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:11:00.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

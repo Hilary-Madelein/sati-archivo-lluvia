@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3d05de58504bbfa72086be74e8b3bd6e",
+    "tipo": "Inundación",
+    "fecha": "2026-02-16",
+    "hora": "23:00",
+    "provincia": "Guayas",
+    "canton": "Colimes",
+    "parroquia": "Colimes",
+    "sector": "Sector Los Mangos",
+    "latitud": -1.5485997216928056,
+    "longitud": -80.00768719176621,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche del 16/02/2026, se reportó el ingreso de agua a varias viviendas. GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 125,
+    "viviendas_afectadas": 40,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 22.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 33.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 57.0,
+      "max_5km_mm": 66.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 25.6,
+        "max_5km_mm": 36.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 14.9,
+        "max_5km_mm": 14.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-14T07:00:00.000Z",
+        "punto_mm": 5.3,
+        "max_5km_mm": 8.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065938,
+    "periodos_retorno_m3s": {
+      "2": 358.5,
+      "5": 595.8,
+      "10": 752.9,
+      "25": 951.4,
+      "50": 1098.7,
+      "100": 1244.9
+    },
+    "caudal_simulado_dia_m3s": 40.53,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:49.000Z",
+  "pendiente": []
+}

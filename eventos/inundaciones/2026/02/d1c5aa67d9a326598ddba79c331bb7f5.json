@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d1c5aa67d9a326598ddba79c331bb7f5",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Salinas",
+    "parroquia": "Jose Luis Tamayo (muey)",
+    "sector": "San Raymundo, Jardín Botánico, Colinas de Salinas",
+    "latitud": -2.2485159962100227,
+    "longitud": -80.92916035746401,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 25/02/2026, varias viviendas resultaron inundadas.  Por lluvias suscitadas en la mañana del 25/02/2026, varias viviendas resultaron inundadas.\r\nUGR cantonal mediante EVIN se identificaron 19 viviendas afectadas, se coordina la asistencia humanitaria con la SNGR.\r\nUGR cantonal mediante EVIN identificó 52 viviendas afectadas, sumando 71 las viviendas que resultaron inundadas., familias que se mantienen en sus viviendas.\r\nSNGR realizó entrega de asistencia humanitaria.",
+    "personas_afectadas": 186,
+    "viviendas_afectadas": 71,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 43.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 57.0,
+      "max_5km_mm": 60.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 14.1,
+        "max_5km_mm": 14.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 1.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 1.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:49.000Z",
+  "pendiente": []
+}

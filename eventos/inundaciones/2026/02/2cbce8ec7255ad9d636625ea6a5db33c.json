@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "2cbce8ec7255ad9d636625ea6a5db33c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Ricaurte",
+    "sector": "UNIDAD EDUCATIVA 28 DE MAYO, ESCUELA DE EDUCACION BASICA GABRIEL GARCIA MORENO",
+    "latitud": -1.57454,
+    "longitud": -79.470487,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitas en la madrugada  del 10-03-2026 se reportan dos unidades educativas afectadas funcionalmente (UNIDAD EDUCATIVA 28 DE MAYO, ESCUELA DE EDUCACION BASICA GABRIEL GARCIA MORENO ) MINEDEC asistió al sitio para verificación de novedades el 10/03/2026, reportando que no existe afectaciones en la instalación  y que las clases continúan con normalidad, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 67.0,
+        "max_5km_mm": 70.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 88.0,
+      "max_5km_mm": 98.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 24.5,
+        "max_5km_mm": 39.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 38.1,
+        "max_5km_mm": 79.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 71.8,
+        "max_5km_mm": 127.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:10.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "e95123916f1d558b2d0ba34d6610044f",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "07:23",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "RCTO. LA EUGENIA, RCTO. SAN VICENTE, LA CHORRERA, EL DESQUITE, FLOR DE LOS RÍOS, COOP. SIMON BOLIVAR, CRESPIN CEREZO, EL TEJAR, LA FORTUNA, SANTA RITA, LA ALEGRIA 1 Y 2, LA CAROLINA 1, 2 Y 3, LA MARUJITA, LA TRANCA, LAS CAÑITAS, LOS CHIJOS, POZA HONDA, ROSA MARIA, LA REFORMA, LA CARMELA, SAN IGNACIO, SAN JUAN, LA ELVIRA, VUELTA LARGA, 24 DE MAYO, CAÑAVERAL, CHAN CHAN, COLORADO DE ADENTRO, COLORADO DEL RÍO, CONSUELO, CRUCE DE BABA, EL CONSUELO, EL MAMEY, EL NARANJO, EL PINAL, EL PORVENIR, EL TEJAR, LA LOMA DE MIGUELON, LAS MALVINAS, LAS TOLAS, LA VIRGINIA, PLAYA DE HOJARASCA, PORVENIR, PRIMAVERA, SAN FRANCISCO,  SAN JACINTO, SAN PEDRO, SAN RAFAEL, VÍA LA CARMELA, VUELTA LARGA, RÍO BABAHOYO",
+    "latitud": -1.780283,
+    "longitud": -79.538925,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en la mañana del 04/03/2026, se reportó el desbordamiento del río Babahoyo, en donde se reportan 1.746 viviendas con 505 familias de 1.101 personas afectadas, 62 viviendas destruidas con 2.101 familias de 2.946 personas damnificadas, 2 unidades educativas afectadas funcionalmente (Unidad Educativa Fausto Misael Olalla Gaybor - Escuela de Educación Básica 15 De Agosto), 1.332,59 ha afectadas (arroz, cacao) de 112 productores con 6.671,52 ha con pérdida (arroz, cacao) de 1.000 productores con pérdida, tomando en cuenta los valores del EVIN digital en comparativa con los datos de MAAPEA. Actualmente, el río Babahoyo se encuentra en su caudal normal; la vía permanece habilitada al tránsito vehicular sin presencia de agua. Las familias que se encontraban en los alojamientos temporales en el Ex CDI de Pimocha y Edificio Municipal retornaron a sus viviendas, por lo que las familias afectadas permanecen en sus hogares sin presencia de agua, de las cuales 769 viviendas se encuentran sin afectación, ubicadas en zona de riesgo y 29 viviendas sin afectación. Además, SNGR realizó entrega de asistencia humanitaria el 15/05/2026 en San Francisco.",
+    "personas_afectadas": 1101,
+    "viviendas_afectadas": 1746,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 43.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 320.0,
+        "max_5km_mm": 331.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 370.0,
+      "max_5km_mm": 391.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 4.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 1.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:54.000Z",
+  "pendiente": []
+}

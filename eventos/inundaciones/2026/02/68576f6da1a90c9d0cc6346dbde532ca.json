@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "68576f6da1a90c9d0cc6346dbde532ca",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "09:00",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "La Union",
+    "sector": "Recinto Corremonito",
+    "latitud": 0.13606731177058978,
+    "longitud": -79.43462442240974,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la mañana del 25/02/2026 se registró el desbordamiento del estero Corremonito.\r\n\r\n(en proceso de levantamiento de información).\r\n\r\nUGR GAD Cantonal Quinindé confirmó el evento y coordinó recursos para realizar el levantamiento de información y daños. UGR GAD Cantonal Quinidé informa que el estero se encuentra normal, el sector no presenta anegamiento, y las familias se mantienen en sus propias viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 28.0
+      },
+      "dia_anterior": {
+        "punto_mm": 59.0,
+        "max_5km_mm": 63.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 58.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 144.0,
+      "max_5km_mm": 149.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 2.5,
+        "max_5km_mm": 19.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 20.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 4.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:51.000Z",
+  "pendiente": []
+}

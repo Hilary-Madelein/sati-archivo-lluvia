@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "9b89ba5fc4714c19bff7f8af42d51fc3",
+    "tipo": "Inundación",
+    "fecha": "2026-07-25",
+    "hora": "21:51",
+    "provincia": "Manabí",
+    "canton": "El Carmen",
+    "parroquia": "El Carmen",
+    "sector": "Barrio Santa Rosa",
+    "latitud": -0.27443540610530853,
+    "longitud": -79.46692385599783,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Intensas lluvias afectaron a viviendas en varios sectores, provocando la inundación de las mismas y afectando a varias viviendas. SNGR realizó entrega de AH.",
+    "personas_afectadas": 36,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 17.0,
+      "max_5km_mm": 22.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-25T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 15.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-24T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 5.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-23T07:00:00.000Z",
+        "punto_mm": 11.8,
+        "max_5km_mm": 17.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670088418,
+    "periodos_retorno_m3s": {
+      "2": 22.6,
+      "5": 31.9,
+      "10": 38.1,
+      "25": 45.9,
+      "50": 51.7,
+      "100": 57.4
+    },
+    "caudal_simulado_dia_m3s": 3.26,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:21:14.000Z",
+  "pendiente": []
+}

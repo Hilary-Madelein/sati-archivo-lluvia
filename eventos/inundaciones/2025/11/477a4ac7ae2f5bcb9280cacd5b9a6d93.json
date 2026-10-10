@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "477a4ac7ae2f5bcb9280cacd5b9a6d93",
+    "tipo": "Inundación",
+    "fecha": "2025-11-28",
+    "hora": "05:20",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Palanda",
+    "parroquia": "Valladolid",
+    "sector": "Valladolid",
+    "latitud": -4.553357066899126,
+    "longitud": -79.13335670162184,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto por las lluvias suscitadas en la madrugada del 28/11/2025, se produjo el desbordamiento de la quebrada Los Molinos, causando una inundación en el sector.\r\n-El 29/11/2025, el Cuerpo de Bomberos Palanda realizó la evacuación del agua y lodo de las viviendas y bienes públicos afectados*\r\n-GAD Cantonal de Palanda colaboró en la limpieza de lodo y coordina la reparación del puente vehicular \r\n La familia que fue evacuada por seguridad, retorno a su vivienda \r\nVía de tercer orden habilitada en su totalidad al tránsito vehicular\r\n-GAD Cantonal de Palanda coordinó los trabajos de limpieza en viviendas afectadas, UPC Valladolid, Unidad Educativa Valladolid y en la vía de tercer orden.",
+    "personas_afectadas": 15,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 2,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 22.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 22.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2025-11-28T07:00:00.000Z",
+        "punto_mm": 16.1,
+        "max_5km_mm": 20.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2025-11-27T07:00:00.000Z",
+        "punto_mm": 6.3,
+        "max_5km_mm": 14.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2025-11-26T07:00:00.000Z",
+        "punto_mm": 8.7,
+        "max_5km_mm": 23.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620634860,
+    "periodos_retorno_m3s": {
+      "2": 14.9,
+      "5": 20.1,
+      "10": 23.5,
+      "25": 27.8,
+      "50": 31.0,
+      "100": 34.2
+    },
+    "caudal_simulado_dia_m3s": 2.76,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:35.000Z",
+  "pendiente": []
+}

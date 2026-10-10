@@ -1,0 +1,79 @@
+{
+  "evento": {
+    "id": "aa38a5bab0ed3ff8bca89d2fc6c0d208",
+    "tipo": "Inundación",
+    "fecha": "2026-10-01",
+    "hora": "07:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "Ines Arango (cab. En Western)",
+    "sector": "Nenkepare",
+    "latitud": -1.020049,
+    "longitud": -77.010599,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias se produjo el desbordamiento del rio Shiripuno, el cual afecto a la Comunidad Nenkepare y de acuerdo a información preliminar existio la afectación de 7 familias comunitarias  Al momento el cauce de rio es normal. Tenencia Politica de Ines Arango confirmo el evento. SNGR coordino  con el Municipio de Francisco de Orellana la evaluación del evento",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 2.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-30T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 3.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620830064,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261001",
+        "max_promedio_ensamble_m3s": 4.4,
+        "max_ensamble_m3s": 18.0,
+        "max_alta_resolucion_m3s": 3.3
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:11:52.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "17873118573c94aae4275712ff2cc1ed",
+    "tipo": "Inundación",
+    "fecha": "2026-05-01",
+    "hora": "14:27",
+    "provincia": "Pastaza",
+    "canton": "Pastaza",
+    "parroquia": "Puyo",
+    "sector": "Barrio La Merced, calles Av. González Suárez y Julio Jaramillo.",
+    "latitud": -1.497023,
+    "longitud": -77.989258,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la tarde del 01/05/2026, se reportó acumulación de agua lluvia en las calles por taponamiento del alcantarillado, resultando afectada una vivienda con filtración de agua. Cuerpo de Bomberos Pastaza informa que al momento ya no se presentan precipitaciones en el lugar y el agua ha drenado de las calles; no se reporta afectación a la vivienda; los propietarios realizaron la limpieza de la misma.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 20.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 43.0,
+      "max_5km_mm": 51.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-30T07:00:00.000Z",
+        "punto_mm": 36.1,
+        "max_5km_mm": 48.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-29T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 39.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620674601,
+    "periodos_retorno_m3s": {
+      "2": 40.5,
+      "5": 61.7,
+      "10": 75.8,
+      "25": 93.6,
+      "50": 106.8,
+      "100": 120.0
+    },
+    "caudal_simulado_dia_m3s": 6.81,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:28:54.000Z",
+  "pendiente": []
+}

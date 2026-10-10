@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2eba5f2f6802173cac9eee10f6a50f33",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "04:20",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "LOS ALAMOS - LAS CAÑITAS - LA MACARENA - LAS JAGUAS - RÍO CHILINTOMO",
+    "latitud": -1.838124,
+    "longitud": -79.542245,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en la madrugada del 03/03/2026, se reportó el desbordamiento del río Chilintomo, afectando a varias viviendas de los recintos mencionados, con 54 viviendas de 13 familias con 18 personas afectadas, 1 vivienda destruida con 68 familias damnificadas de 69 personas damnificadas y 9 familias de 14 personas albergadas. DGR Babahoyo realizó verificación de novedades el 01/04/2026; SNGR realizó entrega de asistencia humanitaria el 27/03/2026. Actualmente, el caudal se encuentra con tendencia a disminuir de nivel, mientras que las familias que se encontraban en el albergue \"Iglesia Católica Cristo Rey\" retornaron a sus viviendas, quedando cerrado el alojamiento, de las cuales 26 viviendas se encuentran sin afectación y no se visualiza presencia de agua.",
+    "personas_afectadas": 18,
+    "viviendas_afectadas": 54,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 331.0,
+        "max_5km_mm": 358.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 272.0,
+        "max_5km_mm": 272.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 613.0,
+      "max_5km_mm": 641.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 44.2,
+        "max_5km_mm": 46.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 24.6,
+        "max_5km_mm": 26.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 19.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069021,
+    "periodos_retorno_m3s": {
+      "2": 171.2,
+      "5": 238.7,
+      "10": 283.3,
+      "25": 339.7,
+      "50": 381.6,
+      "100": 423.1
+    },
+    "caudal_simulado_dia_m3s": 169.06,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:10.000Z",
+  "pendiente": []
+}

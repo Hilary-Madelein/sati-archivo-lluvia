@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "cd61e371f0a07fd121aa36e3c53c3165",
+    "tipo": "Inundación",
+    "fecha": "2025-10-31",
+    "hora": "14:32",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Amaguaña",
+    "sector": "Bartolomé de las Casas y Avenida General Rumiñahui - Varios sectores",
+    "latitud": -0.371455,
+    "longitud": -78.484897,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias la tarde del 31/10/2025, se reportó el taponamiento del sistema de alcantarillado que provocó el ingreso y acumulación de agua al interior de varias viviendas y vías del sector. En el sector de Cuendina se constató acumulación de lodo y humedad en el primer piso y patio de una vivienda, producto del desbordamiento de una quebrada y escorrentía por trabajos agrícolas en terrenos aledaños.\r\nEl inmueble presenta afectación a enseres, sin daños estructurales. Se realizó la entrega de la primera asistencia humanitaria. Culminada la evaluación complementaria, no fue necesaria la entrega del fondo de reposición de enseres.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 28.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 47.0,
+      "max_5km_mm": 61.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670089447,
+    "periodos_retorno_m3s": {
+      "2": 122.6,
+      "5": 154.8,
+      "10": 176.1,
+      "25": 203.0,
+      "50": 223.0,
+      "100": 242.8
+    },
+    "caudal_simulado_dia_m3s": 29.67,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:33.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a53c82f6c49d9216b52fb6ba82c7633c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "07:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Chirijos",
+    "sector": "Unidad Educativa Dr. Paul Ponce Rivadeneira",
+    "latitud": -2.121479,
+    "longitud": -79.590145,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINIDEC reportó una afectación a la unidad educativa. MINIDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 80.0,
+        "max_5km_mm": 88.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 100.0,
+      "max_5km_mm": 115.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 18.9,
+        "max_5km_mm": 21.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 16.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064935,
+    "periodos_retorno_m3s": {
+      "2": 169.2,
+      "5": 244.9,
+      "10": 295.1,
+      "25": 358.4,
+      "50": 405.5,
+      "100": 452.1
+    },
+    "caudal_simulado_dia_m3s": 108.76,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:26.000Z",
+  "pendiente": []
+}

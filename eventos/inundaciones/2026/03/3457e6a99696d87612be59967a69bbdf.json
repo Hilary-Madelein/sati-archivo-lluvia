@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3457e6a99696d87612be59967a69bbdf",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "11:00",
+    "provincia": "Loja",
+    "canton": "Celica",
+    "parroquia": "Cruzpamba (cab. En Carlos Bustamante)",
+    "sector": "Patuco Chico, Patuco Chico",
+    "latitud": -4.106306453171371,
+    "longitud": -79.95674245926325,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias se produjo la afectación total de cultivos de maíz sembrado MAG realizó el levantamiento de matriz",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 52.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 97.0,
+      "max_5km_mm": 128.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 151.3,
+        "max_5km_mm": 163.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 110.5,
+        "max_5km_mm": 113.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 97.4,
+        "max_5km_mm": 110.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041456,
+    "periodos_retorno_m3s": {
+      "2": 17.6,
+      "5": 28.8,
+      "10": 36.3,
+      "25": 45.7,
+      "50": 52.6,
+      "100": 59.5
+    },
+    "caudal_simulado_dia_m3s": 9.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:43.000Z",
+  "pendiente": []
+}

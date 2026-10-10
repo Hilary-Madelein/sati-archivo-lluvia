@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7dead09651e796c2f282bc7e930c7020",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "21:00",
+    "provincia": "Cotopaxi",
+    "canton": "Sigchos",
+    "parroquia": "Sigchos",
+    "sector": "Comunidad Las Parcelas",
+    "latitud": -0.6424546954315579,
+    "longitud": -78.81704818408627,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias de la noche del 24/02/2026 en el sector se produjo el desbordamiento del río Corazones afectando un puente y a una piscina de truchas. Al momento el río se encuentra en su cauce normal.\r\nUGR confirmó el evento y se encuentra levantando el informe EVIN.\r\nGAD Provincial realizó la limpieza del ármico y del puente afectado.\r\nSNGR monitorea el evento y coordinó con la UGR una inspección. La familia afectada se encuentra habitando su vivienda.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 33.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 63.0,
+      "max_5km_mm": 64.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 19.0,
+        "max_5km_mm": 57.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 25.9,
+        "max_5km_mm": 83.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 16.6,
+        "max_5km_mm": 75.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670052593,
+    "periodos_retorno_m3s": {
+      "2": 9.0,
+      "5": 12.1,
+      "10": 14.2,
+      "25": 16.8,
+      "50": 18.7,
+      "100": 20.6
+    },
+    "caudal_simulado_dia_m3s": 3.23,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:06.000Z",
+  "pendiente": []
+}

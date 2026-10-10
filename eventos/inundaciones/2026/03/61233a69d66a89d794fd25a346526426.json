@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "61233a69d66a89d794fd25a346526426",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "18:00",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Chaucha",
+    "sector": "La Iberia, Gurgur, Naranjos",
+    "latitud": -2.950932,
+    "longitud": -79.234459,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias de la madrugada del 11/03/2026 se produjo el desbordamiento de los ríos Chaucha, Aguacate, Canoas y Pita, ocasionando el colapso de un puente por arrastre del caudal del río Chaucha que conducía a la comunidad y varios deslizamientos en la vía de tercer orden que conducen a la comunidad de Iberia. Con fecha 13/03/2026, SNGR coordinó movilización aérea para entrega de asistencia humanitaria en la parroquia Chaucha ? Iberia, con fecha 14/03/2026 se activó el PMU en el GALM 80 (Grupo de artillería lanzadores múltiples Nro. 80) de las FFAA, el cauce de los ríos ha retornado a su cauce normal. El 07/05/2026, el GAD Provincial informa que la vía de tercer orden se encuentra habilitada; se realizaron dos terrazas para estabilizar la parte superior del deslizamiento y garantizar condiciones más seguras para la movilidad de la comunidad. Adicionalmente, los estudios para reconstrucción o traslado de un puente Warren se realizarán de acuerdo al presupuesto asignado para el segundo semestre del año en curso del GAD Provincial; SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 263,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 39.0,
+      "max_5km_mm": 42.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 7.2,
+        "max_5km_mm": 17.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 24.1,
+        "max_5km_mm": 42.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 8.0,
+        "max_5km_mm": 26.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620751737,
+    "periodos_retorno_m3s": {
+      "2": 51.2,
+      "5": 70.8,
+      "10": 83.8,
+      "25": 100.3,
+      "50": 112.5,
+      "100": 124.6
+    },
+    "caudal_simulado_dia_m3s": 53.16,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:42:29.000Z",
+  "pendiente": []
+}

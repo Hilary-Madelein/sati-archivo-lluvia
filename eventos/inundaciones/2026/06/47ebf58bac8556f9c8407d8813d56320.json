@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "47ebf58bac8556f9c8407d8813d56320",
+    "tipo": "Inundación",
+    "fecha": "2026-06-11",
+    "hora": "17:12",
+    "provincia": "Imbabura",
+    "canton": "Antonio Ante",
+    "parroquia": "Atuntaqui",
+    "sector": "Atuntaqui, vía Atuntaqui - Ibarra, carril sur-norte [E35]",
+    "latitud": 0.331805,
+    "longitud": -78.210123,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las precipitaciones registradas la tarde del 11/06/2026, se produjo el colapso del alcantarillado, ocasionando la inundación de la avenida panamericana E35, producto de la acumulación de agua se registró dos vehículos atrapados.   Cuerpo de Bomberos Antonio Ante realizó los trabajos de limpieza de los sumideros y desalojo de los vehículos. La afectación de la vía fue de 20 metros lineales. Al momento la vía se encuentra totalmente habilitada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 43.0,
+      "max_5km_mm": 50.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-11T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060749,
+    "periodos_retorno_m3s": {
+      "2": 110.0,
+      "5": 155.2,
+      "10": 185.1,
+      "25": 222.8,
+      "50": 250.9,
+      "100": 278.7
+    },
+    "caudal_simulado_dia_m3s": 7.19,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:22:11.000Z",
+  "pendiente": []
+}

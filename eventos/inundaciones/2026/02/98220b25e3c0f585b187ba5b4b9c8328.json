@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "98220b25e3c0f585b187ba5b4b9c8328",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "21:15",
+    "provincia": "El Oro",
+    "canton": "Piñas",
+    "parroquia": "Piedras",
+    "sector": "CABECERA PARROQUIAL",
+    "latitud": -3.636908,
+    "longitud": -79.914353,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas el 23/02/2026, se registró el desbordamiento del río Piedras, ocasionando una inundación en la parroquia causando afectación a una iglesia y una vivienda por el ingreso de agua. Además, se registraron pérdidas totales al sector agrícola. La familia afectada fue beneficiada con asistencia humanitaria y se mantiene en su vivienda; en la iglesia del sector se realizó la limpieza y en cuanto al río Piedras se encuentra dentro de su cauce normal y SNGR mantuvo monitoreo y seguimiento con UGR Cantonal de Piñas.\r\nMAGP brindó asistencia técnica implementará acciones de apoyo para productores con afectación y perdidas en cultivos.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 107.0,
+        "max_5km_mm": 135.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 114.0,
+      "max_5km_mm": 148.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 3.2,
+        "max_5km_mm": 6.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670033247,
+    "periodos_retorno_m3s": {
+      "2": 159.1,
+      "5": 233.9,
+      "10": 283.5,
+      "25": 346.1,
+      "50": 392.5,
+      "100": 438.6
+    },
+    "caudal_simulado_dia_m3s": 43.84,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:00:16.000Z",
+  "pendiente": []
+}

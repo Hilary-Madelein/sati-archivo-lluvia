@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "fe1ad44af90b64f1c3aa3e41a7ae7541",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "03:00",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Antonio Sotomayor (cab. En Playas De Vinces)",
+    "sector": "SAN FRANCISCO,ESTRELLA ROJA, PRIMAVERA, CALIFORNIA, PRIMERO SAN JOSÉ, SAN VICENTE, SOBERANA, SAN LUIS, LA TRANCA, SAN JOSÉ,  RCTO. BAGATELA,, GARZAL, BAGATELA, MARIA FELICITA, LA PUNTILLA, PROVICENCIA, CAIRO, PALIZADA, BAHIA CARRILLO, EL HACHA, VAINILLA, ESTERO DE EN MEDIO, LA FELICIDAD, POZA SECA, EL EDEN, 15 DE AGOSTO, LAS PAMPAS, LIDICE, MADERA NEGRA, LIDICE, LAS PAMPAS SUR, RÍO JUNQUILLO, RÍO VINCES",
+    "latitud": -1.665849,
+    "longitud": -79.79269,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 07/03/2026, se reporta el desbordamiento del río Junquillo, provocando el ingreso de agua en las viviendas de los sectores mencionados con presencia de agua en tramos de la vía de tercer orden, en donde se reportan 300 viviendas con 300 familias con 650 personas afectadas, 35 metros lineales afectados y 1 bien público afectado (muro de contención) hasta el momento con 888.50 ha afectadas (arroz, maíz, banano, pasto janeiro) y 79.50 ha de pérdida (arroz). UGR Vinces realizó barrido en la zona afectada el 31/03/2026 y facilitó datos de afectaciones. Actualmente, los caudales se encuentran con tendencia a disminuir de nivel; la vía se encuentra habilitada para el tránsito vehicular; ya no se visualiza presencia de agua dentro de las viviendas, pero sí leve presencia de agua estancada en los alrededores, en donde las familias se mantienen en sus hogares y se realiza registro de afectaciones de MAAPEA.",
+    "personas_afectadas": 1885,
+    "viviendas_afectadas": 1452,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 14.0,
+      "max_5km_mm": 16.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 2.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 7.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049558,
+    "periodos_retorno_m3s": {
+      "2": 41.7,
+      "5": 61.0,
+      "10": 73.8,
+      "25": 89.9,
+      "50": 101.8,
+      "100": 113.7
+    },
+    "caudal_simulado_dia_m3s": 6.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:52.000Z",
+  "pendiente": []
+}

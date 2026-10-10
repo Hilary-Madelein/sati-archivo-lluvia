@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "57fd0815650b2b028e2273684243da10",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "08:46",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Unidades Educativas)",
+    "latitud": -2.1642014650647776,
+    "longitud": -79.84178887672948,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó que debido a las fuertes lluvias se produjo acumulación de agua y se vieron afectadas varias unidades educativas.  Personal de la Unidades educativas realizaron las debidas limpiezas y adecuaciones de la afectado, para dejarlas operativas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 107.0,
+        "max_5km_mm": 107.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 139.0,
+      "max_5km_mm": 147.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 7.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070056,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:01.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "76f51dd9a3766f5822659f8db5fca5e2",
+    "tipo": "Inundación",
+    "fecha": "2026-01-22",
+    "hora": "21:20",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Belisario Quevedo",
+    "sector": "Quebrada de captación Rumipamba -UTE",
+    "latitud": -0.181768,
+    "longitud": -78.506527,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de hoy 22/01/2026, se produjo el desbordamiento de la quebrada Rumipamba lo que ocasionó una inundación en una vía de segundo orden. Luego de los trabajos de limpieza la vía se encuentra habilitada. Además el caudal de la quebrada a regresado a la normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-22T07:00:00.000Z",
+        "punto_mm": 15.3,
+        "max_5km_mm": 47.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-21T07:00:00.000Z",
+        "punto_mm": 8.2,
+        "max_5km_mm": 42.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-20T07:00:00.000Z",
+        "punto_mm": 28.2,
+        "max_5km_mm": 64.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059744,
+    "periodos_retorno_m3s": {
+      "2": 19.5,
+      "5": 23.6,
+      "10": 26.4,
+      "25": 29.9,
+      "50": 32.4,
+      "100": 35.0
+    },
+    "caudal_simulado_dia_m3s": 11.08,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:43.000Z",
+  "pendiente": []
+}

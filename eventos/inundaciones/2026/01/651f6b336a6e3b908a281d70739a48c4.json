@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "651f6b336a6e3b908a281d70739a48c4",
+    "tipo": "Inundación",
+    "fecha": "2026-01-09",
+    "hora": "01:08",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Cochapamba",
+    "sector": "Calle 16 y Zulema Blacio, Ref. por la parada de buses de Atucucho",
+    "latitud": -0.158652,
+    "longitud": -78.504439,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias y a la acumulación de lastre en la vía en reparación, se reportó el taponamiento de una caja de revisión (alcantarilla), lo que ocasionó el ingreso de agua en una vivienda, provocando la pérdida de varios muebles y enseres. En el lugar habitaba una familia, la cual se trasladó a la vivienda de familiares de acogida.\r\na calle OE116A se encuentra con trabajos de repavimentación, realizado por EPMMOP, lo que afecta al alcantarillado del sector.\r\nLas personas permanecerán con familiares acogientes, hasta realizar los arreglos respectivos a la vivienda. Cuerpo de Bomberos DMQ realizó la evacuación del agua y GAD Cantonal realizó evaluación de afectaciones y la entrega de la primera asistencia humanitaria.\r\n EPMAPS y EPMMOP continúan con los trabajos en el lugar. Adicional se informa que se realizará el estudio socioeconómico para la posible activación del Fondo de Reposición de enceres, a la familia afectada.\r\n\r\nEPMAPS llevó a cabo las reparaciones de las tuberías y dejó completamente operativa la red de alcantarillado. Por su parte, EPMMOP informó que los trabajos de repavimentación de la vía se mantendrán en curso, aunque aún no se cuenta con una fecha definida para la finalización de la obra.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-09T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 11.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-08T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 4.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-07T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059744,
+    "periodos_retorno_m3s": {
+      "2": 19.5,
+      "5": 23.6,
+      "10": 26.4,
+      "25": 29.9,
+      "50": 32.4,
+      "100": 35.0
+    },
+    "caudal_simulado_dia_m3s": 8.93,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:41.000Z",
+  "pendiente": []
+}

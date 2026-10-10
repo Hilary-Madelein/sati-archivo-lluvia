@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "abe8df333f9984f8fd876deb0d752319",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:25",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "El Retiro",
+    "sector": "VARIOS SECTORES",
+    "latitud": -3.3881695,
+    "longitud": -79.9584397,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas durante la madrugada del 07/02/2026, se registró inundación; a causa del evento varias viviendas se encuentran afectadas por ingreso de agua. La matriz del  MAG reporta que a causa del evento se  registraron afectaciones en predios agrícolas dedicados al cultivo de banano y en cuanto a las calles y de las viviendas evacuaron en su totalidad y las familias tanto afectadas como damnificadas, recibieron asistencia humanitari por  parte de la SNGR.",
+    "personas_afectadas": 113,
+    "viviendas_afectadas": 50,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 39.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 45.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:10.000Z",
+  "pendiente": []
+}

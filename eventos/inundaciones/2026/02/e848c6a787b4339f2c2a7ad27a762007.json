@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "e848c6a787b4339f2c2a7ad27a762007",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:25",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "VARIOS SECTORES (MACARIO VALAREZO, SITIO NUEVO Y ROSA AVELINA)",
+    "latitud": -3.363586,
+    "longitud": -79.839846,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas la madrugada del 07/02/2026, se registró inundación y el desbordamiento del rio Buenavista, ocasionando afectaciones a viviendas. UGR GAD Cantonal informó que el nivel del agua ha bajado su nivel y las familias se mantienen en sus domicilios. En cuanto al río Buenavista, se encuentra dentro de su cauce normal, adicional se actualizó cifras de viviendas, al igual que personas y familias afectadas y damnificadas. \r\nLas familias  afectadas y damnificadas recibieron asistencia humanitaria por parte de la SNGR con presencia de UGR del Gad de Pasaje, tenientes políticos y presidentes de las comunidad.",
+    "personas_afectadas": 86,
+    "viviendas_afectadas": 31,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 37.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 19.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 55.0,
+      "max_5km_mm": 62.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 14.9,
+        "max_5km_mm": 20.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:22.000Z",
+  "pendiente": []
+}

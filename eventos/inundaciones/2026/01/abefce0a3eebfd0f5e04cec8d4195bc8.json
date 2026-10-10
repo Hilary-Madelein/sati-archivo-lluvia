@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "abefce0a3eebfd0f5e04cec8d4195bc8",
+    "tipo": "Inundación",
+    "fecha": "2026-01-13",
+    "hora": "08:40",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Vinces",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA NICOLAS COTTO INFANTE - ESCUELA DE EDUCACIÓN BÁSICA CIUDAD DE VINCES - ESCUELA DE EDUCACION BASICA LCDO. CESAR ARTURO SOTOMAYOR - ESCUELA DE EDUCACIÓN BÁSICA DR. LORENZO RUFO PEÑA - ESCUELA DE EDUCACIÓN BÁSICA PROF. JACINTO CARLIER CASTRO - ESCUELA DE EDUCACIÓN BÁSICA 29 DE AGOSTO - UNIDAD EDUCATIVA DIEZ DE AGOSTO",
+    "latitud": -1.557554,
+    "longitud": -79.754123,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias en el cantón, se reporta acumulación de aguas lluvias, dejando consigo afectación funcional en 8 unidades educativas (Escuela de Educación Básica Nicolás Cotto Infante, Escuela de Educación Básica Ciudad de Vinces, Escuela de Educación Básica Lcdo. César Arturo Sotomayor, Escuela de Educación Básica Dr. Lorenzo Rufo Peña, Escuela de Educación Básica Prof. Jacinto Carlier Castro, Escuela de Educación Básica 29 de Agosto, Unidad Educativa Diez de Agosto, Distrito 12d05 Palenque, Vinces). Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 14/02/2026, reportando que actualmente existe acumulación de aguas lluvias dentro de las instalaciones, en donde las clases continúan de manera presencial en la Escuela De Educación Básica Prof. Jacinto Carlier Castro, mientras que en las otras unidades se mantienen las clases de manera virtual, mismos que al cabo de horas quedaron con presencia leve de agua, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 41.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-13T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 8.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061841,
+    "periodos_retorno_m3s": {
+      "2": 2506.0,
+      "5": 2985.3,
+      "10": 3302.6,
+      "25": 3703.6,
+      "50": 4001.0,
+      "100": 4296.3
+    },
+    "caudal_simulado_dia_m3s": 764.92,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:15.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "71dab6dce107089a27b189cbc2f72af7",
+    "tipo": "Inundación",
+    "fecha": "2026-04-18",
+    "hora": "20:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Vários sectores (Sauces 6, calle Gabriel Roldós Garcés,Garzota IV etapa Av 24 NE Prf, Cdla. Martha de Roldós, Av. De las Américas, frente Aeropuerto, Eloy Velásquez y Calle 15)",
+    "latitud": -2.127163,
+    "longitud": -79.8999,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 18/04/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Se observan calles sin anegación de agua adicional durante las fuertes lluvias, resultando afectado un local comercial con filtración de agua.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 27.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 46.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-18T07:00:00.000Z",
+        "punto_mm": 17.2,
+        "max_5km_mm": 25.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-17T07:00:00.000Z",
+        "punto_mm": 8.7,
+        "max_5km_mm": 14.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-16T07:00:00.000Z",
+        "punto_mm": 5.4,
+        "max_5km_mm": 7.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044455,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:30:55.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

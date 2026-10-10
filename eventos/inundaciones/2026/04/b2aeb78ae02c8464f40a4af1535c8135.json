@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b2aeb78ae02c8464f40a4af1535c8135",
+    "tipo": "Inundación",
+    "fecha": "2026-04-23",
+    "hora": "18:00",
+    "provincia": "Pichincha",
+    "canton": "San Miguel De Los Bancos",
+    "parroquia": "San Miguel De Los Bancos",
+    "sector": "Barrio Camilo Ponce",
+    "latitud": 0.02657,
+    "longitud": -78.894803,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a precipitaciones intensas registradas en el sector, se produjo el colapso del sistema de alcantarillado, lo que ocasionó la acumulación de agua e inundación en una vivienda. El Cuerpo de Bomberos acudió al sitio y verificó que los moradores del sector retiraron el agua del lugar por sus propios medios. Además, confirmó que la persona afectada se encontraba en buen estado y que no existían daños estructurales en la vivienda.\r\n\r\nPor su parte, el GAD de San Miguel de los Bancos informó que se reunirá con los departamentos competentes para coordinar la limpieza del sistema de alcantarillado y de aguas lluvias, con el fin de evitar que este tipo de situaciones se repita.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 36.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 44.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-23T07:00:00.000Z",
+        "punto_mm": 88.9,
+        "max_5km_mm": 96.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-22T07:00:00.000Z",
+        "punto_mm": 44.4,
+        "max_5km_mm": 48.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-21T07:00:00.000Z",
+        "punto_mm": 49.0,
+        "max_5km_mm": 73.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670037210,
+    "periodos_retorno_m3s": {
+      "2": 28.4,
+      "5": 38.4,
+      "10": 44.9,
+      "25": 53.2,
+      "50": 59.4,
+      "100": 65.5
+    },
+    "caudal_simulado_dia_m3s": 2.71,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:29:39.000Z",
+  "pendiente": []
+}

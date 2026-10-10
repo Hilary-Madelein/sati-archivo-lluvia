@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "fe5f257a1e077fbc2d1262937b01a7dd",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "04:00",
+    "provincia": "Los Ríos",
+    "canton": "Valencia",
+    "parroquia": "Valencia",
+    "sector": "RCTO. CHIPE, RCTO. PENISOLA, RÍO QUINDIGUA",
+    "latitud": -0.966608,
+    "longitud": -79.361874,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 09/03/2026, se reporta el desbordamiento del río Quindigua, afectando a varias viviendas del lugar y a la vía de tercer orden, en donde se reporta 186 viviendas con 186 familias de 744 personas afectadas y 10 metros lineales afectados. UGR Valencia realizó entrega de asistencia humanitaria, actualmente el caudal se encuentra con tendencia a disminuir, la vía se mantiene habilitada al tránsito vehicular y las familias se mantendrán permanentemente en las viviendas",
+    "personas_afectadas": 744,
+    "viviendas_afectadas": 186,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 146.0,
+        "max_5km_mm": 167.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 35.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 174.0,
+      "max_5km_mm": 209.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 45.1,
+        "max_5km_mm": 72.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 38.1,
+        "max_5km_mm": 94.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:15.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d511a78042ac4336f6b608f60b8b8e12",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Chanduy",
+    "sector": "Estatal [E-40] comuna Zapotal",
+    "latitud": -2.3261190438512416,
+    "longitud": -80.54132843672363,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, el registró el desbordamiento del río \"Zapotal\" afectando a la estatal [E-40]. La circulación vehicular se realiza con precaución en la zona.\r\nEl río se mantiene desbordado. Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, el registró el desbordamiento del río \"Zapotal\" afectando a la estatal [E-40]. La circulación vehicular se realiza con precaución en la zona.\r\nTenencia política de la parroquia informó que el cauce del río es bajo, la circulación vehicular es normal en la zona.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 67.0,
+        "max_5km_mm": 87.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 83.0,
+      "max_5km_mm": 103.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 7.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 4.9,
+        "max_5km_mm": 26.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 32.9,
+        "max_5km_mm": 71.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064942,
+    "periodos_retorno_m3s": {
+      "2": 69.5,
+      "5": 164.7,
+      "10": 227.7,
+      "25": 307.3,
+      "50": 366.3,
+      "100": 425.0
+    },
+    "caudal_simulado_dia_m3s": 12.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:52:39.000Z",
+  "pendiente": []
+}

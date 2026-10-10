@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "9c0d0a05d5ce3316aeaa8289aaa64316",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "20:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Pimocha",
+    "sector": "EL AROMO, ALEGRIA 1 Y 2, EL PORVENIR, EL TEJAR, LA CARMELA, LA FORTUNA, NUEVO PROGRESO, SANTA RITA, VIA A LA SABILA, VIA AL CRUCE DE BABA",
+    "latitud": -1.790506,
+    "longitud": -79.577709,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la lluvia de la noche del 26/02/2026, se reportó el desbordamiento del río Babahoyo, en donde se reportan 104 viviendas de 104 familias con 295 personas afectadas con 29 ha afectadas (arroz-cacao) de 25 productores (25 familias de 100 personas). MAGP realizó levantamiento de matriz MAAPEA; DGR Babahoyo reporta que actualmente el caudal se encuentra en su nivel normal; las familias permanecen en sus hogares; por tal motivo, damos por finalizado el evento.",
+    "personas_afectadas": 395,
+    "viviendas_afectadas": 104,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 22.0
+      },
+      "dia_anterior": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 97.0,
+        "max_5km_mm": 100.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 134.0,
+      "max_5km_mm": 148.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 128.8,
+        "max_5km_mm": 129.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 10.8,
+        "max_5km_mm": 20.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 7.1,
+        "max_5km_mm": 20.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:00.000Z",
+  "pendiente": []
+}

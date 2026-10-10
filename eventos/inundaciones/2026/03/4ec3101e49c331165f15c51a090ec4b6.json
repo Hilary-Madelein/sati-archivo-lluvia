@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4ec3101e49c331165f15c51a090ec4b6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "14:05",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Esmeraldas",
+    "sector": "Calle Juan Montalvo, barrio Herlinda Klinger",
+    "latitud": 0.9685092952669829,
+    "longitud": -79.65671851060428,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "En la madrugada y mañana del 02/03/2026, se registraron lluvias intensas que provocaron una inundación en el sector  Herlinda Klinger. SNGR coordinó la atención del evento con la UGR GAD Cantonal Esmeraldas. Cuerpo de Bomberos Esmeraldas realizó recorridos en conjunto con el personal de la UGR Esmeraldas. SNGR informará si realizará o no entregas de AH.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 87.0,
+        "max_5km_mm": 87.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 26.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 119.0,
+      "max_5km_mm": 123.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 24.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 3.6,
+        "max_5km_mm": 33.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 16.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049462,
+    "periodos_retorno_m3s": {
+      "2": 15.3,
+      "5": 26.8,
+      "10": 34.4,
+      "25": 44.0,
+      "50": 51.1,
+      "100": 58.2
+    },
+    "caudal_simulado_dia_m3s": 3.16,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:55.000Z",
+  "pendiente": []
+}

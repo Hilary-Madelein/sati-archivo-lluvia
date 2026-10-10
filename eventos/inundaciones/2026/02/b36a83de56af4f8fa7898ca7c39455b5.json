@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "b36a83de56af4f8fa7898ca7c39455b5",
+    "tipo": "Inundación",
+    "fecha": "2026-02-27",
+    "hora": "21:45",
+    "provincia": "Loja",
+    "canton": "Celica",
+    "parroquia": "Pózul (san Juan De Pózul)",
+    "sector": "Pózul (Cabecera Parroquial)",
+    "latitud": -4.119716284652705,
+    "longitud": -80.05417080572747,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la noche del 27/02/2026 se produjo la acumulación de aguas lluvias en las calles provocando inundación en el lugar.\r\n\r\n Las familias afectadas continúan habitando sus viviendas y los tramos de vías de tercer orden se habilitaron.",
+    "personas_afectadas": 100,
+    "viviendas_afectadas": 18,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 49.0,
+      "max_5km_mm": 59.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 16.8,
+        "max_5km_mm": 56.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 62.7,
+        "max_5km_mm": 67.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 34.0,
+        "max_5km_mm": 88.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:26.000Z",
+  "pendiente": []
+}

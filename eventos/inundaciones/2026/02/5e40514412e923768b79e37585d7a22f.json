@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "5e40514412e923768b79e37585d7a22f",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "18:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "Taracoa (nueva Esperanza: Yuca)",
+    "sector": "Amazonas, Cisne, 12 de Febrero, Bolívar, Libertad, Yuma, vía a Palanda",
+    "latitud": -0.4976570959694509,
+    "longitud": -76.77527801139419,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las intensas lluvias registradas el 25 y 26/02/2026, en la parte alta del río Indillama, se produjo el desbordamiento del río Indillama, lo que ocasionó inundaciones en el sector y afectó a varias viviendas. Como consecuencia, la vía de segunda orden resultó afectada, dificultando el acceso y el tránsito por el puente ubicado en el sector. El COE Parroquial de Taracoa se activó para coordinar las acciones de respuesta, a las familias afectadas por ingreso de agua en predios y viviendas. No se dispone de agua para consumo humano en la parroquia, debido a que las bombas que abastecían al centro poblado se averiaron días atrás y las fuentes de agua están inundadas.  En la reunión del COE Parroquial participaron Cuerpo de Bomberos, Policía Nacional, Secretaria Nacional de Gestión de Riesgos, GAD Municipal de Francisco de Orellana y Distrito de Educación, adicional colaboraron en la evacuación de las familias junto con Cruz Roja. ECU911 se activó para la coordinación de recursos logísticos en caso de existir más familias evacuadas. MINEDEC para garantizar la seguridad y continuidad de las actividades escolares, cambio las clases a no presenciales en la Unidad Educativa Nueva Esperanza. GAD Parroquial de Taracoa confirmó el evento, se mantuvo en alerta y en contacto con las familias para coordinar la evacuación.\r\nMunicipio con apoyo de Cruz Roja realizaron levantamiento de información.  Policía Nacional junto a la Brigada 19 Napo proporcionan seguridad en la parroquia. GADM de Francisco de Orellana  en coordinación  con GAD Parroquial de Taracoa realizan las reparaciones para restablecer el bombeo de agua para la parroquia. El Auditorio del GAD Parroquial se activó como alojamiento temporal para 5 familias, las mismas que retornaron a sus viviendas, además gestionó asistencia humanitaria con la empresa privada. La vía a Palanda y puente están habilitados.   SNGR en apoyo al GADM de Francisco de Orellana levantaron fichas EVIN.   El 28/02/2026 y 01/03/2026, MSP, donó medicamentos y brindó asistencia técnica a las familias afectadas por el evento. \r\n El 03/03/2026 SNGR en coordinación con GAD M Francisco de Orellana y el acompañamiento de Gobernación de Orellana y autoridades locales, procedieron a la entrega de asistencia humanitaria a las familias afectadas.",
+    "personas_afectadas": 87,
+    "viviendas_afectadas": 19,
+    "personas_evacuadas": 22,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 27.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 49.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 7.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 2.4,
+        "max_5km_mm": 4.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:57.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "6209615b075465a03ae7dba5a9adaf31",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "22:10",
+    "provincia": "Guayas",
+    "canton": "Naranjito",
+    "parroquia": "Naranjito",
+    "sector": "Varios Sectores (Ciudadela Jaime Roldós, Casco Central, San Elías, Santo Domingo)",
+    "latitud": -2.168489585573879,
+    "longitud": -79.46346575096219,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas la noche del 26/02/2026, se reportó acumulación e ingreso de agua en varias viviendas de los sectores mencionados.  GAD Cantonal indicó que las familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 7,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 56.0,
+        "max_5km_mm": 67.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 99.0,
+      "max_5km_mm": 116.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 35.3,
+        "max_5km_mm": 40.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 22.6,
+        "max_5km_mm": 23.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 53.4,
+        "max_5km_mm": 53.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:07.000Z",
+  "pendiente": []
+}

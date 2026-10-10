@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a648bae656e62637c1733a0e3c956925",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Scetores ( La Hormiga, La Magdalena 1 y San Antonio )",
+    "latitud": -2.264678333,
+    "longitud": -79.71771333,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias, se vieron destruidas 36 hectáreas de cultivos de arroz con un total de $43800 dólares y afectadas 3 hectáreas de cultivos de cacao con un total de $600 dólares. MAG realizó la inspección del lugar del evento",
+    "personas_afectadas": 16,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 36.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 54.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 5.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 10.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056747,
+    "periodos_retorno_m3s": {
+      "2": 76.4,
+      "5": 124.7,
+      "10": 156.7,
+      "25": 197.1,
+      "50": 227.0,
+      "100": 256.8
+    },
+    "caudal_simulado_dia_m3s": 34.23,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:50:02.000Z",
+  "pendiente": []
+}

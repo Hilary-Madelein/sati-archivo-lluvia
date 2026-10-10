@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "6aa47e2b458ce1d78122da277c8635c5",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "11:38",
+    "provincia": "Imbabura",
+    "canton": "Cotacachi",
+    "parroquia": "Vacas Galindo (el Churo) (cab.en San Miguel Alto",
+    "sector": "Tollo Intag",
+    "latitud": 0.2704,
+    "longitud": -78.5885,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las fuertes precipitaciones presentadas la madrugada del 10/03/2026, se suscitó una inundación que, debido al ingreso de flujos de lodo, afectó a una vivienda registrándose varios daños materiales. GAD Cantonal Cotacachi UGR confirmó el evento, realizó la evaluación inicial de necesidades y entrega de asistencia humanitaria a la familia afectada.\r\nSNGR realizó la entrega de asistencia humanitaria complementaria a la familia afectada en acompañamiento del Teniente Político.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 31.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 56.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 19.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 20.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 17.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670054606,
+    "periodos_retorno_m3s": {
+      "2": 48.8,
+      "5": 59.6,
+      "10": 66.8,
+      "25": 75.9,
+      "50": 82.6,
+      "100": 89.3
+    },
+    "caudal_simulado_dia_m3s": 7.14,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:03.000Z",
+  "pendiente": []
+}

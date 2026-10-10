@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "eaab68c98607e70b99bf774edcd2a184",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "08:00",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Tena",
+    "sector": "Ongota, UECIB Nicolas Shiguango",
+    "latitud": -0.985552,
+    "longitud": -77.785794,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias e incremento de río, MINEDEC resolvió cambiar la modalidad a clases No presenciales(fichas pedagógicas) en la Unidad Educativa comunitaria Intercultural Bilingüe Nicolas Shiguango. \r\nAnte el conocimiento del evento, la Dirección Distrital de Educación 15D01, a través de la Analista Distrital de Gestión de Riesgos, registró y dio seguimiento al evento. Las clases se desarrollan con normalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 45.0,
+        "max_5km_mm": 71.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 49.8,
+        "max_5km_mm": 60.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 60.8,
+        "max_5km_mm": 77.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620799791,
+    "periodos_retorno_m3s": {
+      "2": 164.2,
+      "5": 223.0,
+      "10": 261.9,
+      "25": 311.0,
+      "50": 347.5,
+      "100": 383.7
+    },
+    "caudal_simulado_dia_m3s": 99.57,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:34.000Z",
+  "pendiente": []
+}

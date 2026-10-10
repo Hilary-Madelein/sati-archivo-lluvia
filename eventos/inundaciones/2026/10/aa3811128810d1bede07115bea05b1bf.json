@@ -1,0 +1,95 @@
+{
+  "evento": {
+    "id": "aa3811128810d1bede07115bea05b1bf",
+    "tipo": "Inundación",
+    "fecha": "2026-10-08",
+    "hora": "22:15",
+    "provincia": "Manabí",
+    "canton": "Santa Ana",
+    "parroquia": "Ayacucho",
+    "sector": "San Bartolo",
+    "latitud": -1.152392751055493,
+    "longitud": -80.27896347282663,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias suscitadas en horas de la tarde y noche del 07/10/2026, se produjo creciente de varias quebradas, provocando el incremento de caudal del río Grande-Portoviejo y desbordamiento en las zonas bajas, causando inundación en el sitio y afectación a una vivienda que fue afectada con ingreso de agua. Al momento, el río se encuentra en su caudal normal; se actualiza la información de afectaciones mediante el registro en plataforma EVIN; las familias continúan en sus viviendas.",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 26.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 26.0,
+      "max_5km_mm": 33.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 17.5,
+        "max_5km_mm": 44.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 2.4,
+        "max_5km_mm": 26.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 15.9,
+        "max_5km_mm": 37.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670008580,
+    "periodos_retorno_m3s": {
+      "2": 6.3,
+      "5": 11.7,
+      "10": 15.4,
+      "25": 19.9,
+      "50": 23.3,
+      "100": 26.7
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 2.1,
+        "max_ensamble_m3s": 19.0,
+        "max_alta_resolucion_m3s": 3.9
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:08:42.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

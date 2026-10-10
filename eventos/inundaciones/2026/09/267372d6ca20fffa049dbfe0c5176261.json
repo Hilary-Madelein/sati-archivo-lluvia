@@ -1,0 +1,79 @@
+{
+  "evento": {
+    "id": "267372d6ca20fffa049dbfe0c5176261",
+    "tipo": "Inundación",
+    "fecha": "2026-09-15",
+    "hora": "04:30",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Zapotal",
+    "sector": "RCTO. SAN FRANCISCO, RÍO SUQUIBÍ",
+    "latitud": -1.294251,
+    "longitud": -79.451944,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 15/09/2026 en los límites del cantón Las Naves de la provincia de Bolívar, se reportó el desbordamiento del río Suquibí, en donde se reporta 5 metros lineales afectados en la vía de primer orden.  UGR Ventanas luego de realizar barrido de novedades en el sitio, reportó que el río se encuentra en su nivel normal y que no existe presencia de agua en las viviendas, por lo que no se realizará levantamiento EVIN, SNGR realizó consolidación de información, dando por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 127.0,
+        "max_5km_mm": 155.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 127.0,
+      "max_5km_mm": 155.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-15T07:00:00.000Z",
+        "punto_mm": 29.3,
+        "max_5km_mm": 57.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-14T07:00:00.000Z",
+        "punto_mm": 7.6,
+        "max_5km_mm": 10.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060807,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260915",
+        "max_promedio_ensamble_m3s": 8.9,
+        "max_ensamble_m3s": 35.3,
+        "max_alta_resolucion_m3s": 6.3
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:41.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

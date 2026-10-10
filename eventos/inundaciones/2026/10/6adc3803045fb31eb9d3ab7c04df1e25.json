@@ -1,0 +1,58 @@
+{
+  "evento": {
+    "id": "6adc3803045fb31eb9d3ab7c04df1e25",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "07:15",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "San Mateo",
+    "sector": "Recinto Timbre",
+    "latitud": 0.9859090168079263,
+    "longitud": -79.6539939390016,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada del 03/10/2026, se produjo el desbordamiento del río Esmeraldas, generando inundaciones en el recinto Timbre, parroquia San Mateo.\r\n\r\n 06/10/2026 | El río Esmeraldas ya no se encuentra desbordado y presenta tendencia a aumentar de nivel. El recinto Timbre presenta acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas. La UGR Esmeraldas no ha informado nuevas acciones o actualizaciones del levantamiento de información. SNGR mantiene la planificación para la atención mediante asistencia humanitaria. Al momento se registran lluvias débiles.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 62.0,
+        "max_5km_mm": 66.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 66.0,
+      "max_5km_mm": 70.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069942,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:10:43.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

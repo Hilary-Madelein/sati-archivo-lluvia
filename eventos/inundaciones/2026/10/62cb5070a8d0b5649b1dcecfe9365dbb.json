@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "62cb5070a8d0b5649b1dcecfe9365dbb",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "22:30",
+    "provincia": "Bolívar",
+    "canton": "Caluma",
+    "parroquia": "Caluma",
+    "sector": "Varios sectores:San Vicente de Pacana, estero de Pescado, Chorrera Yatuvi",
+    "latitud": -1.5820569851604298,
+    "longitud": -79.2204867141104,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas la noche del 07/10/2026, se produjo el desbordamiento del estero San Vicente. \r\n UGR DEL GAD Caluma mediante informe EVIN señala que las fuertes lluvias provocaron el desbordamiento de los esteros San Vicente y El Pescado, ocasionando el ingreso de agua, lodo y palizada afectando a varias viviendas del sector",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 12,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 30.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 41.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 15.9,
+        "max_5km_mm": 37.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 12.2,
+        "max_5km_mm": 32.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 14.2,
+        "max_5km_mm": 24.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057747,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261006",
+        "max_promedio_ensamble_m3s": 11.9,
+        "max_ensamble_m3s": 39.1,
+        "max_alta_resolucion_m3s": 13.9
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:54.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

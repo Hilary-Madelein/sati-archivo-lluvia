@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d0572feda726f4f3598270c42406d150",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "08:20",
+    "provincia": "Manabí",
+    "canton": "Manta",
+    "parroquia": "Los Esteros",
+    "sector": "Sector Villamarina",
+    "latitud": -0.9602497411173523,
+    "longitud": -80.6742608055262,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en horas de la mañana del 23/02/2026, se produjo una inundación en el sector afectando a varias viviendas con ingreso de agua. Personal de UPREA SNGR CZ4 informa que, debido al tiempo transcurrido, GAD Cantonal no realizará la solicitud de entrega de asistencia humanitaria. La familia afectada realizó las reparaciones de la vivienda y permanecerá en la misma.",
+    "personas_afectadas": 11,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 35.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 3.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670085372,
+    "periodos_retorno_m3s": {
+      "2": 26.5,
+      "5": 79.4,
+      "10": 114.4,
+      "25": 158.7,
+      "50": 191.5,
+      "100": 224.1
+    },
+    "caudal_simulado_dia_m3s": 6.12,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:38.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "13164d97109eb1651ea62e484891495e",
+    "tipo": "Inundación",
+    "fecha": "2026-04-10",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Tarifa",
+    "sector": "Recinto El Tramarindo",
+    "latitud": -2.1057,
+    "longitud": -79.811,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de 2 hectáreas de cultivos de arroz con un total de $800 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 19.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 38.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-10T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-09T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068008,
+    "periodos_retorno_m3s": {
+      "2": 130.1,
+      "5": 202.2,
+      "10": 249.8,
+      "25": 310.1,
+      "50": 354.8,
+      "100": 399.2
+    },
+    "caudal_simulado_dia_m3s": 3.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:32:21.000Z",
+  "pendiente": []
+}

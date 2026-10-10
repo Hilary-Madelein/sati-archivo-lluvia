@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2d441f3a0cddc3a5d6f49fea79b1c1c9",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "15:29",
+    "provincia": "El Oro",
+    "canton": "El Guabo",
+    "parroquia": "Tendales (cab.en Puerto Tendales)",
+    "sector": "TENDALES",
+    "latitud": -3.128213,
+    "longitud": -79.748542,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias en la cuenca alta del río Chaguana se registró el aumento de su caudal provocando la filtración a través del sistema de alcantarillado, ocasionando acumulación de agua en varias calles de la parroquia.\r\nJefe Político confirmó el evento y Teniente Politico realizó recorrido verificando afectaciones.\r\n UGR Gad Cantonal mediante recorrido informa que el agua acumulada en las calles a disminuido completamente sin registrar afectaciones en viviendas.\r\nCaudal del río está con tendencia a disminuir su nivel.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 38.0,
+        "max_5km_mm": 42.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 47.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 15.4,
+        "max_5km_mm": 26.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670003533,
+    "periodos_retorno_m3s": {
+      "2": 25.1,
+      "5": 41.2,
+      "10": 51.8,
+      "25": 65.3,
+      "50": 75.3,
+      "100": 85.2
+    },
+    "caudal_simulado_dia_m3s": 3.67,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:43:23.000Z",
+  "pendiente": []
+}

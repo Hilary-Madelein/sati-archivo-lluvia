@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8a28d73eeae9602a26df961c75e54b0a",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "07:50",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Letamendi",
+    "sector": "Varios Sectores ( Cristo del Consuelo, Julio Coronel y Lorenzo de Garaicoa, Av. Quito y San Martín)",
+    "latitud": -2.1505287609901944,
+    "longitud": -79.86413240454567,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 02/03/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas.  GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 172.0,
+        "max_5km_mm": 172.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 33.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 211.0,
+      "max_5km_mm": 211.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 25.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 9.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 11.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670080296,
+    "periodos_retorno_m3s": {
+      "2": 3356.8,
+      "5": 4491.9,
+      "10": 5243.4,
+      "25": 6192.9,
+      "50": 6897.3,
+      "100": 7596.5
+    },
+    "caudal_simulado_dia_m3s": 1760.32,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:26.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,73 @@
+{
+  "evento": {
+    "id": "97a15fbde9f2ec91702157272f5ec4cc",
+    "tipo": "Inundación",
+    "fecha": "2026-10-02",
+    "hora": "19:35",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Chongón",
+    "sector": "Sector Chogon",
+    "latitud": -2.237883,
+    "longitud": -80.075218,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 02/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua se drenó y las calles quedaron expeditas para el tránsito vehicular. Adicionalmente, se recibió ficha reportando el ingreso de agua a viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 6.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-30T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075180,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261002",
+        "max_promedio_ensamble_m3s": 15.3,
+        "max_ensamble_m3s": 118.7,
+        "max_alta_resolucion_m3s": 3.8
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:11:50.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "8a0cc32dad393446972ba4e87ebe780c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "11:30",
+    "provincia": "Azuay",
+    "canton": "Oña",
+    "parroquia": "San Felipe De Oña",
+    "sector": "Unidad Educativa Oña",
+    "latitud": -3.470127,
+    "longitud": -79.154495,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC informa que, por causa de las lluvias, se registró ingreso de agua en la Unidad Educativa Oña; en el bloque de aulas de educación general básica  ocasionado el desprendimiento del cielo raso. Cabe señalar que la edificación posee valor patrimonial, lo cual ha dificultado la ejecución de intervenciones integrales. MINEDEC informa que, por causa de las lluvias, se registró ingreso de agua en la Unidad Educativa Oña; en el bloque de aulas de educación general básica, ocasionado el desprendimiento del cielo raso. Cabe señalar que la edificación posee valor patrimonial, lo cual ha dificultado la ejecución de intervenciones integrales.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 5.9,
+        "max_5km_mm": 17.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 15.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 7.3,
+        "max_5km_mm": 10.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:36.000Z",
+  "pendiente": []
+}

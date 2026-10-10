@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "1af6a3f8379e05a6b01e059aa4e7aabc",
+    "tipo": "Inundación",
+    "fecha": "2026-06-25",
+    "hora": "22:20",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "varios sectores. Coop. Santa Martha 1, 2, 3. Coop. Ciudad verde. Coop. Cristo Vive. Coop. Montesdeoca. Urb. Ierac.",
+    "latitud": -0.26479463622721333,
+    "longitud": -79.18360839316853,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas la noche del 25/06/2026, se produjo el taponamiento de alcantarillas en varios sectores, provocando que las calles se vean anegadas. Con el ingreso de agua a una vivienda del sector. SNGR y Gobernación de Santo Domingo realizaron la entrega de asistencia humanitaria, de igual manera SNGR gestionó la entrega de bono de contingencia.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 3.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-25T07:00:00.000Z",
+        "punto_mm": 4.6,
+        "max_5km_mm": 17.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-24T07:00:00.000Z",
+        "punto_mm": 6.9,
+        "max_5km_mm": 23.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-23T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 3.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:47.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

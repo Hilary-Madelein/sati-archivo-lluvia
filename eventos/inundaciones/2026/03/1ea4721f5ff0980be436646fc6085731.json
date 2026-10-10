@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1ea4721f5ff0980be436646fc6085731",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "03:28",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Limonal",
+    "sector": "Chiguijos",
+    "latitud": -1.8193,
+    "longitud": -79.938,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de cultivos de arroz. MAG realizó la inspección",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 67.0,
+        "max_5km_mm": 73.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 51.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 33.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 139.0,
+      "max_5km_mm": 157.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 36.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 8.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 6.6,
+        "max_5km_mm": 13.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040348,
+    "periodos_retorno_m3s": {
+      "2": 35.1,
+      "5": 54.5,
+      "10": 67.3,
+      "25": 83.6,
+      "50": 95.7,
+      "100": 107.6
+    },
+    "caudal_simulado_dia_m3s": 5.06,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:58.000Z",
+  "pendiente": []
+}

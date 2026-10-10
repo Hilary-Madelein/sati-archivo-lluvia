@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "9bc6a5ba0030bb222a7a8d478329d8df",
+    "tipo": "Inundación",
+    "fecha": "2026-01-17",
+    "hora": "04:40",
+    "provincia": "Imbabura",
+    "canton": "Antonio Ante",
+    "parroquia": "San Roque",
+    "sector": "Agualongo de Paredes sector Alto",
+    "latitud": 0.2874,
+    "longitud": -78.2346,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las precipitaciones presentadas en la madrugada del 17/01/2026, se registró el desbordamiento de una acequia el cual provocó el ingreso de agua y lodo a una vivienda del sector, generando daños materiales. \r\n Cuerpo de Bomberos Antonio Ante brindó asistencia a los afectados, realizó el retiro manual del agua y sedimentos con apoyo de los moradores del sector.\r\nOOPP del GAD Cantonal Antonio Ante realizó trabajos de limpieza de la acequia.\r\nGAD Cantonal Antonio Ante UGR realizó la evaluación inicial de necesidades y mediante oficio emitido por el Sr. Alcalde N°. Oficio 27-GADM-AA-A-CE-2026, con fecha 19 de enero del 2026, solicitó a la máxima autoridad de la CZ1 SNGR el apoyo a la familia damnificada de acuerdo a sus competencias .\r\nSNGR-UPREA realizó la entrega de asistencia humanitaria a familia damnificada en acompañamiento del GAD C Antonio Ante.\r\nLa familia damnificada de momento se encuentra con familia de acogida, el canal de riego se encuentra en su cauce normal.\r\nSNGR envía la información a MDH para la validación y calificación del Bono de Contingencia por eventos adversos.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-17T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-16T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 5.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-15T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 14.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670048462,
+    "periodos_retorno_m3s": {
+      "2": 4.7,
+      "5": 6.2,
+      "10": 7.2,
+      "25": 8.5,
+      "50": 9.4,
+      "100": 10.4
+    },
+    "caudal_simulado_dia_m3s": 0.4,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:12.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "ac7f412b3bb37ecaf2c512c12611bd66",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "10:00",
+    "provincia": "Manabí",
+    "canton": "Puerto Lopez",
+    "parroquia": "Salango",
+    "sector": "Ayampe, Las  cabañas de Ayampe",
+    "latitud": -1.680572577803603,
+    "longitud": -80.73572619563208,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas en horas de la madrugada y mañana del 27/09/2026. Se produjo el desbordamiento del río Ayampe, provocando inundación en el sitio. GAD Cantonal confirmó evento, se dirigió al sitio con autoridades locales y realizó levantamiento de información. UGR GAD Cantonal continúa realizando levantamiento de información.\r\n05/10/2026 UGR indica que el río se encuentra en su caudal normal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 7.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 17.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 3.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 3.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062871,
+    "periodos_retorno_m3s": {
+      "2": 73.7,
+      "5": 166.7,
+      "10": 228.3,
+      "25": 306.1,
+      "50": 363.8,
+      "100": 421.1
+    },
+    "caudal_simulado_dia_m3s": 0.6,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 28.2,
+        "max_ensamble_m3s": 266.7,
+        "max_alta_resolucion_m3s": 16.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 5.9,
+        "max_ensamble_m3s": 34.2,
+        "max_alta_resolucion_m3s": 6.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 6.5,
+        "max_ensamble_m3s": 37.7,
+        "max_alta_resolucion_m3s": 2.0
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:16:34.000Z",
+  "pendiente": []
+}

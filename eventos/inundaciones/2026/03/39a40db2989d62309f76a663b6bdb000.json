@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "39a40db2989d62309f76a663b6bdb000",
+    "tipo": "Inundación",
+    "fecha": "2026-03-06",
+    "hora": "16:09",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "La Magdalena",
+    "sector": "5 de Junio y Necochea",
+    "latitud": -0.236236,
+    "longitud": -78.521281,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias acompañadas de granizo se reportó el taponamiento del sistema de alcantarillado del sector, que provocó acumulación de agua en la vía, ocasionando el cierre temporal y dejó un vehículo atascado. Al momento, el agua desfogo y el vehículo fue retirado. Cuerpo de Bomberos DMQ apoyó en la limpieza de sumideros y en el retiro del vehículo que quedó a buen resguardo a cargo de sus propietarios.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 20.8,
+        "max_5km_mm": 26.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 43.9,
+        "max_5km_mm": 43.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 34.4,
+        "max_5km_mm": 34.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670092514,
+    "periodos_retorno_m3s": {
+      "2": 34.9,
+      "5": 42.6,
+      "10": 47.7,
+      "25": 54.1,
+      "50": 58.9,
+      "100": 63.6
+    },
+    "caudal_simulado_dia_m3s": 17.23,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:47:46.000Z",
+  "pendiente": []
+}

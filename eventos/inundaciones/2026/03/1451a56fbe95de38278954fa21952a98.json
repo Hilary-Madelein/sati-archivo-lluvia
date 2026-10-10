@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "1451a56fbe95de38278954fa21952a98",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "04:15",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Ricaurte",
+    "sector": "RCTO. SANTA CLARA, RCTO. LOS CERRITOS, VENECIA,SAUCE, SAN ANTONIO, MATILDE, MANABI CHIQUITO, LA LOMA, LOS SAUCES, LA JULIA, LA IRENE, LA FLORENCIA, LA ESPERANZA, GOLGOTA, BELEN, BELEN CHICO, RÍO CATARAMA, RÍO PIJULLO",
+    "latitud": -1.60955,
+    "longitud": -79.436894,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 05/03/2026, se reporta el desbordamiento de los ríos Catarama con Pijullo, en donde hasta el momento se registran 20 viviendas de 80 familias afectadas con 182 personas, 45 familias damnificadas con 94 personas damnificadas, 358 ha de cultivos (arroz, cacao) de 144 productores afectados (144 familias de 576 personas afectadas) con 2 animales de 1 productor afectado (1 familia de 4 personas afectadas). UGR Urdaneta realizó verificación de novedades el 07/04/2026 y ratificó los datos del informe ejecutivo del EVIN digital. Actualmente, el caudal del río Pijullo se encuentra en su nivel normal; las familias se mantienen en sus viviendas sin presencia de agua. Adicional a ello, mediante informe ejecutivo, se reportan 37 viviendas sin afectación, 68 propiedades sin afectación en zona de riesgo.",
+    "personas_afectadas": 646,
+    "viviendas_afectadas": 20,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 27.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 34.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 265.0,
+        "max_5km_mm": 266.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 319.0,
+      "max_5km_mm": 327.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 9.1,
+        "max_5km_mm": 12.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 8.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 2.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:54.000Z",
+  "pendiente": []
+}

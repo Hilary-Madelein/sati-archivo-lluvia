@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3f59a311a6c31e87ddde88bfb603cd00",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Naranjal",
+    "parroquia": "Taura",
+    "sector": "Varios sectores (Mirada Giron, Río Ruidoso, 15 de Noviembre)",
+    "latitud": -2.418943079,
+    "longitud": -79.55650912,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de lluvias, MAG reportó la destrucción de 65 hectáreas de cultivos de arroz con un total de $65.000 dólares. Técnicos de MAG realizaron la inspección.",
+    "personas_afectadas": 52,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 25.0,
+      "max_5km_mm": 27.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 32.3,
+        "max_5km_mm": 32.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 2.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:38.000Z",
+  "pendiente": []
+}

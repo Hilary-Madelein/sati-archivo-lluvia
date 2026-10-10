@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "cc56c66031c81813dfd66f6cb434e417",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "05:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "Comuna Dos Mangas",
+    "latitud": -1.8266837343439726,
+    "longitud": -80.6946785132787,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la mañana del 25/02/2026, varias viviendas resultaron inundadas. Por lluvias suscitadas en la mañana del 25/02/2026, varias viviendas resultaron inundadas.\r\nUGR cantonal informó que mediante EVIN se identificaron 11 viviendas con ingreso de agua lo cual dejó daños materiales.\r\nUGR cantonal realizó levantamiento de información, coordina con SNGR la entrega de asistencia humanitaria.\r\nUGR cantonal informó que las familias se mantienen en sus viviendas.\r\nSNGR realizó entrega de asistencia humanitaria.",
+    "personas_afectadas": 44,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 33.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 59.0,
+      "max_5km_mm": 72.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 1.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:28.000Z",
+  "pendiente": []
+}

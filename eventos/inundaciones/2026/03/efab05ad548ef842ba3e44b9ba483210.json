@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "efab05ad548ef842ba3e44b9ba483210",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "01:30",
+    "provincia": "Manabí",
+    "canton": "Rocafuerte",
+    "parroquia": "Sosote",
+    "sector": "Varios Sectores (San José De Las Peñas; San Juan)",
+    "latitud": -0.958073041173863,
+    "longitud": -80.46147770324535,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias en la madrugada del 03/03/2026, se suscitó la inundación en el sector; provocó el ingreso de agua y lodo a varias viviendas. Las viviendas ya no están inundadas. Las familias afectadas y damnificadas permanecen en sus viviendas.\r\n Se procede actualizar las cifras mediante Evín Digital.Las familias afectadas y damnificadas permanecen en sus viviendas. Se solventaron todos las necesidades de este evento..",
+    "personas_afectadas": 41,
+    "viviendas_afectadas": 28,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 52.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 65.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 11.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 51.3,
+        "max_5km_mm": 86.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 17.3,
+        "max_5km_mm": 31.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670077180,
+    "periodos_retorno_m3s": {
+      "2": 7.9,
+      "5": 16.8,
+      "10": 22.6,
+      "25": 30.1,
+      "50": 35.6,
+      "100": 41.1
+    },
+    "caudal_simulado_dia_m3s": 0.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:52:33.000Z",
+  "pendiente": []
+}

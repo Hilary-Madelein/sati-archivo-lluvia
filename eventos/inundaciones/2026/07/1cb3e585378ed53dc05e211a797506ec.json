@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "1cb3e585378ed53dc05e211a797506ec",
+    "tipo": "Inundación",
+    "fecha": "2026-07-24",
+    "hora": "03:38",
+    "provincia": "Esmeraldas",
+    "canton": "San Lorenzo",
+    "parroquia": "Calderon",
+    "sector": "La Chiquita, Y de Calderón y Km9 El Bajo",
+    "latitud": 1.178188,
+    "longitud": -78.7648401,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias registradas durante la noche del 23/07/2026 y la madrugada del 24/07/2026, se incrementó el caudal del río Tululbí, provocando el represamiento y posterior desbordamiento del estero Quebrada Grande, lo que ocasionó una inundación que afecta a varias viviendas. \r\n UGR San Lorenzo informa que las familias afectadas se mantienen pernoctando en sus propias viviendas; los sectores ya no presentan anegamiento y los ríos se encuentran normales.",
+    "personas_afectadas": 305,
+    "viviendas_afectadas": 88,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 31.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 79.0,
+      "max_5km_mm": 88.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-07-24T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 12.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-07-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-07-22T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670051501,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:20.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "094512f666565625f027ee408585cba1",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "22:54",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Vinces",
+    "sector": "SAN NICOLA 1 - VÍA A BABAHOYO",
+    "latitud": -1.565678,
+    "longitud": -79.748431,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas en la noche del 12/01/2026, se reportó acumulación de aguas lluvias con ingreso de agua a la vivienda, dejando 1 vivienda con 1 familia de 4 personas afectadas CB. Vinces asistió al sitio para verificación de novedades, UGR Vinces no realizará levantamiento EVIN del evento puesto que el agua descendió en su totalidad, por lo que la familia se mantiene sin novedad en la vivienda, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 6.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 177.3,
+        "max_5km_mm": 210.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 37.1,
+        "max_5km_mm": 48.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 18.1,
+        "max_5km_mm": 25.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061841,
+    "periodos_retorno_m3s": {
+      "2": 2506.0,
+      "5": 2985.3,
+      "10": 3302.6,
+      "25": 3703.6,
+      "50": 4001.0,
+      "100": 4296.3
+    },
+    "caudal_simulado_dia_m3s": 703.69,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:25.000Z",
+  "pendiente": []
+}

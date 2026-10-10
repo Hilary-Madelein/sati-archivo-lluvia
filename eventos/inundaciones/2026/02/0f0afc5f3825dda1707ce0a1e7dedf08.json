@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "0f0afc5f3825dda1707ce0a1e7dedf08",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "23:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Caracol",
+    "sector": "SAN VICENTE - NUEVA FORTUNA - LAS GARZAS - VICENTE ROCAFUERTE - EL AMPARO - RÍO CARACOL",
+    "latitud": -1.6757406,
+    "longitud": -79.47102,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias suscitadas en la noche del 25/02/2026, se reportó el desbordamiento del río Caracol con ingreso de agua a 74 viviendas de 74 familias con 240 personas afectadas, 1 bien público afectado (muro de contención), 28 metros lineales afectados\r\n SNGR realizó seguimiento del evento con DGR Babahoyo, actualmente el caudal se encuentra con tendencia a disminuir de nivel y las familias se mantendrán permanentemente en las viviendas.",
+    "personas_afectadas": 240,
+    "viviendas_afectadas": 74,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 101.0,
+        "max_5km_mm": 111.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 62.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 172.0,
+      "max_5km_mm": 183.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 90.9,
+        "max_5km_mm": 115.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 28.9,
+        "max_5km_mm": 73.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:57:48.000Z",
+  "pendiente": []
+}

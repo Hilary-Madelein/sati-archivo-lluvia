@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f1747ef33d3577520fd53f5e984fb56d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "06:40",
+    "provincia": "Guayas",
+    "canton": "Simon Bolivar",
+    "parroquia": "Crnel.lorenzo De Garaicoa (pedregal)",
+    "sector": "Unidad Educativa Trece de Octubre",
+    "latitud": -2.0659901760512787,
+    "longitud": -79.42914630538705,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa Técnico de MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 86.0,
+        "max_5km_mm": 92.0
+      },
+      "dia_anterior": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 22.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 122.0,
+      "max_5km_mm": 131.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 25.4,
+        "max_5km_mm": 25.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 5.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 1.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:06:38.000Z",
+  "pendiente": []
+}

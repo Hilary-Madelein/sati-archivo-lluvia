@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "832d4f5ddadd26e61976a8d69ba1ddb3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-17",
+    "hora": "17:09",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "San Isidro Del Inca",
+    "sector": "Varios sectores",
+    "latitud": -0.136018,
+    "longitud": -78.461461,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones presentadas durante la tarde del 17/02/2026, se reportaron inundaciones en varias viviendas del sector.  Tras las labores de succión y evacuación de agua, se determina afectación en una vivienda y una tienda debido exclusivamente al ingreso y acumulación de agua, sin evidenciarse daños estructurales. No se reportan personas heridas ni fallecidas",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 17.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 19.0,
+        "max_5km_mm": 24.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 10.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 6.4,
+        "max_5km_mm": 12.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064860,
+    "periodos_retorno_m3s": {
+      "2": 8.2,
+      "5": 9.9,
+      "10": 11.0,
+      "25": 12.5,
+      "50": 13.5,
+      "100": 14.6
+    },
+    "caudal_simulado_dia_m3s": 3.62,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:23.000Z",
+  "pendiente": []
+}

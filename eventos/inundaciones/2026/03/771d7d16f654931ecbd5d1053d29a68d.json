@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "771d7d16f654931ecbd5d1053d29a68d",
+    "tipo": "Inundación",
+    "fecha": "2026-03-18",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Juan Bautista Aguirre (los Tintos)",
+    "sector": "Los Quemados y Los Tintos",
+    "latitud": -1.8386,
+    "longitud": -79.871,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la destrucción de cultivos de arroz. MAG realizó la inspección.",
+    "personas_afectadas": 24,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 8.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 3.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 21.2,
+        "max_5km_mm": 44.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 10.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670048540,
+    "periodos_retorno_m3s": {
+      "2": 71.4,
+      "5": 107.1,
+      "10": 130.8,
+      "25": 160.8,
+      "50": 183.0,
+      "100": 205.1
+    },
+    "caudal_simulado_dia_m3s": 11.66,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:36:34.000Z",
+  "pendiente": []
+}

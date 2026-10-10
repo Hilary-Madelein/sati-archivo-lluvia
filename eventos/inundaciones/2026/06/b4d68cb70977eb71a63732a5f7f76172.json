@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b4d68cb70977eb71a63732a5f7f76172",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "18:30",
+    "provincia": "Carchi",
+    "canton": "Montufar",
+    "parroquia": "San Jose",
+    "sector": "Canchaguano",
+    "latitud": 0.520121,
+    "longitud": -77.801658,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las fuertes precipitaciones registradas la tarde del 09/06/2026, se presentó el colapso del sistema de alcantarillado provocando inundación de viviendas aledañas de construcción mixta  Cuerpo de Bomberos Montúfar realizó la evacuación del agua de las viviendas realizando una rotura en las paredes. GAD Cantonal Montúfar UGR realizó el levantamiento de información y determinó que no hubo afectaciones por lo que no se realizará el EVIN ni la entrega de asistencia humanitaria.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 31.0
+      },
+      "dia_anterior": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 57.0,
+      "max_5km_mm": 74.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 17.0,
+        "max_5km_mm": 23.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 20.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 17.5,
+        "max_5km_mm": 41.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062790,
+    "periodos_retorno_m3s": {
+      "2": 4.8,
+      "5": 6.4,
+      "10": 7.5,
+      "25": 8.9,
+      "50": 9.9,
+      "100": 10.9
+    },
+    "caudal_simulado_dia_m3s": 1.39,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:23:29.000Z",
+  "pendiente": []
+}

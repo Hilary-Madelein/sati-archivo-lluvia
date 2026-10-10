@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "b8642ef4a5827796613dfc5eb2716e56",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "02:00",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "Valdez (limones)",
+    "sector": "comunidades: Limones y Pampa de Oro",
+    "latitud": 1.2394277470717343,
+    "longitud": -78.98911120452946,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada del 02/03/2026 se registró una inundación que afectó el sector. UGR Eloy Alfaro confirmó el evento y realiza el levantamiento de información y daños. SNGR realizó la entrega de asistencia humanitaria en territorio con el acompañamiento de la Coordinadora Zonal 1, Jefe Político de la parroquia y personal de la UGR Eloy Alfaro. La UGR Eloy Alfaro indicó que las familias afectadas se mantienen en sus propias viviendas; los sectores ya no presentan anegamiento.",
+    "personas_afectadas": 435,
+    "viviendas_afectadas": 117,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 255.0,
+        "max_5km_mm": 255.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 291.0,
+      "max_5km_mm": 296.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 46.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 34.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 29.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670079149,
+    "periodos_retorno_m3s": {
+      "2": 3094.8,
+      "5": 3836.0,
+      "10": 4326.7,
+      "25": 4946.8,
+      "50": 5406.7,
+      "100": 5863.3
+    },
+    "caudal_simulado_dia_m3s": 1030.52,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:55:10.000Z",
+  "pendiente": []
+}

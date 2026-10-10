@@ -1,0 +1,99 @@
+{
+  "evento": {
+    "id": "34a9105cc407c8ac2e98d74397f293a3",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "03:00",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "LOS BELDACOS",
+    "latitud": -1.782069,
+    "longitud": -79.290675,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada, se produjo acumulación de aguas lluvias,  mismas que dejan consigo afectaciones a cultivos. UGR Montalvo reporta que en el lugar ya no se visualiza acumulación de aguas lluvias, por lo que los cultivos se encuentran sin presencia de agua y no se visualiza presencia de viviendas afectadas, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 9.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 9.2,
+        "max_5km_mm": 9.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057754,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 74.2,
+        "max_ensamble_m3s": 200.7,
+        "max_alta_resolucion_m3s": 102.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 56.0,
+        "max_ensamble_m3s": 162.9,
+        "max_alta_resolucion_m3s": 106.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 77.3,
+        "max_ensamble_m3s": 453.7,
+        "max_alta_resolucion_m3s": 121.8
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:16:50.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

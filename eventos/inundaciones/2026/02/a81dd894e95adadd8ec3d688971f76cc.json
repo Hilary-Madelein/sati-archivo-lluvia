@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a81dd894e95adadd8ec3d688971f76cc",
+    "tipo": "Inundación",
+    "fecha": "2026-02-20",
+    "hora": "03:40",
+    "provincia": "Manabí",
+    "canton": "Puerto Lopez",
+    "parroquia": "Puerto Lopez",
+    "sector": "Los Manglares",
+    "latitud": -1.5373981210491094,
+    "longitud": -80.80698832295572,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 20/02/2026, se produjo el colapso de alcantarillas en el sector, provocando el ingreso de agua a varias viviendas y daño a los enseres. Las familias afectadas permanecen en sus viviendas. Por temas de inseguridad en el sector, se coordinó con Fuerzas Armadas y Policía Nacional para el acompañamiento al personal de la UGR GAD Cantonal Puerto López para el levantamiento de información. UGR GAD Cantonal Puerto López para el levantamiento de información. SNGR mantiene el monitoreo del evento. Al momento, el sector no está inundado. Se actualizan los datos de afectación según la información registrada en el EVIN Digital; SNGR realizó atención a los afectados por el evento. SNGR el 18/03/2026 realizó la entrega de asistencia humanitaria. UGR GAD Puerto López realizó trabajos de limpieza de alcantarillados. LAS FF. AA. por temas de seguridad realizaron acompañamiento y brindaron seguridad a las actividades de las diferentes instituciones.",
+    "personas_afectadas": 80,
+    "viviendas_afectadas": 24,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 64.0,
+      "max_5km_mm": 66.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 6.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057745,
+    "periodos_retorno_m3s": {
+      "2": 42.9,
+      "5": 94.3,
+      "10": 128.4,
+      "25": 171.4,
+      "50": 203.3,
+      "100": 234.9
+    },
+    "caudal_simulado_dia_m3s": 7.43,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:02:44.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "abc41bc64d678da8c0c6db7616e54360",
+    "tipo": "Inundación",
+    "fecha": "2026-06-25",
+    "hora": "21:57",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Santo Domingo De Los Colorados",
+    "sector": "Coop. Las Playas, Avenida de lo Colonos",
+    "latitud": -0.25602470049498116,
+    "longitud": -79.17781949539636,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se produjo el taponamiento y posterior colapso del sistema de drenaje del alcantarillado, lo cual ocasionó inundación en el sector, preliminarmente informan viviendas con ingreso de agua. Al momento, el sector no se encuentra inundado; la vía de primer orden continúa cerrada al paso vehicular, por los trabajos de construcción de la nueva alcantarilla en el sitio. Las familias damnificadas se trasladaron a familias de acogida de manera permanente.\r\n07/07/2026 SNGR con apoyo de Gobernación, realizaron la entrega de asistencia humanitaria.\r\nSNGR gestionó la entrega de bonos de contingencia.\r\n20/7/2026 MDH realizó la entrega de bonos de contingencia.",
+    "personas_afectadas": 9,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 3.0,
+      "max_5km_mm": 8.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-25T07:00:00.000Z",
+        "punto_mm": 6.4,
+        "max_5km_mm": 36.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-24T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 25.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 11.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:46.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

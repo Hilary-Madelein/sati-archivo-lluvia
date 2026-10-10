@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "9aa9731efaea5b0bc1c7f387e3d04208",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "20:20",
+    "provincia": "Manabí",
+    "canton": "Chone",
+    "parroquia": "Chone",
+    "sector": "Dos Bocas y Eddy Maria",
+    "latitud": -0.691998624148496,
+    "longitud": -80.08997662445077,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 11/03/2026, en zonas rurales del cantón, se produjo el desbordamiento del río Garrapata el cual causó inundación en varios sectores provocando varias afectaciones en viviendas. Mediante EVÍN Digital el 12/03/2026, se realizarón las respectivas actualizaciones de datos. Las viviendas ya no están inundadas. Las familias afectadas y damnificadas permanecen en sus viviendas. UGR del GAD Chone y MDH, realizarón levantamiento de información.GAD Provincial de Manabí, CB Chone y GAD Cantonal realizarón limpieza y retiro de lodo, escombros en los diferentes sectores afectados.\r\n No existe inundación en el sector. Las familias afectadas y damnificadas permanecen en sus viviendas. El nivel del río es normal. Las familias afectadas fueron beneficiadas con el bono de contingencia.",
+    "personas_afectadas": 79,
+    "viviendas_afectadas": 60,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 13.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 39.6,
+        "max_5km_mm": 64.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 11.9,
+        "max_5km_mm": 11.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 5.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670097651,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:42:08.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

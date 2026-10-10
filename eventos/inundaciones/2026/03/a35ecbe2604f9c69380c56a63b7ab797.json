@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "a35ecbe2604f9c69380c56a63b7ab797",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "06:00",
+    "provincia": "Morona Santiago",
+    "canton": "Santiago",
+    "parroquia": "Copal",
+    "sector": "Río Cambanaca, vía Partidero-Copal",
+    "latitud": -2.302724487908402,
+    "longitud": -78.12285359148066,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias durante la noche del 04/03/2026 y madrugada del 05/03/2026, se produjo el incremento del caudal del río Cambanaca. Esto generó el arrastre de material, provocando el taponamiento de la alcantarilla. Esto derivó en el desbordamiento del cuerpo hídrico e inundando la vía de tercer orden, la cual se encuentra parcialmente habilitada. Al momento, el río se mantiene dentro de sus parámetros normales y no se registran precipitaciones en el sector. GAD-Cantonal de Santiago, GAD-Parroquial de Copal, Hidro San Bartolo y Tenencia Política Copal realizaron la inspección técnica en la vía afectada. \r\nGAD-Cantonal Santiago coordinó con el GAD-Parroquial, quien realizó actividades de reconformación y rehabilitación del tramo afectado. SNGR dio seguimiento al evento, de acuerdo con la información que se generó en territorio.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 21.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 62.0,
+      "max_5km_mm": 65.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 21.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 20.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 18.6,
+        "max_5km_mm": 29.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:48:54.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "ebbb26a6621eeff8fac5292604ad1435",
+    "tipo": "Inundación",
+    "fecha": "2026-02-22",
+    "hora": "03:00",
+    "provincia": "Guayas",
+    "canton": "Naranjal",
+    "parroquia": "Taura",
+    "sector": "Recinto Las Jaguas",
+    "latitud": -2.320021537815222,
+    "longitud": -79.74996072082787,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las últimas precipitaciones registradas del 24/02/2026, se reportó acumulación de agua en varias viviendas. GAD Cantonal indica que las familias afectadas y damnificadas se mantienen en sus respectivos inmuebles.\r\n SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 259,
+    "viviendas_afectadas": 96,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 21.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 38.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 82.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 89.0,
+      "max_5km_mm": 141.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 80.8,
+        "max_5km_mm": 100.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 12.7,
+        "max_5km_mm": 16.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 9.5,
+        "max_5km_mm": 10.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075182,
+    "periodos_retorno_m3s": {
+      "2": 61.5,
+      "5": 99.2,
+      "10": 124.1,
+      "25": 155.7,
+      "50": 179.0,
+      "100": 202.3
+    },
+    "caudal_simulado_dia_m3s": 68.62,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 2,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:43.000Z",
+  "pendiente": []
+}

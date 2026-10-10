@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "cf8662587e89970b16f7d751550795c1",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "22:00",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Limonal",
+    "sector": "Piñal de Abajo, El Mate, Palo Alto, Las Cañitas y La Isla Cascol",
+    "latitud": -1.788699993323268,
+    "longitud": -80.01079271908793,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas la noche del 10/03/2026, se desbordó el río Daule, lo que ocasionó la acumulación de agua e ingreso de agua en varias viviendas.  GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles; el río Daule se encuentra en su cauce normal. Prefectura de Guayas realizó la entrega de asistencia humanitaria a los sectores Palo Alto, Las Cañitas y La Isla Cascol.",
+    "personas_afectadas": 680,
+    "viviendas_afectadas": 165,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 28.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 42.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 36.6,
+        "max_5km_mm": 69.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 42.7,
+        "max_5km_mm": 101.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 11.5,
+        "max_5km_mm": 15.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670071066,
+    "periodos_retorno_m3s": {
+      "2": 76.6,
+      "5": 118.4,
+      "10": 146.1,
+      "25": 181.1,
+      "50": 207.0,
+      "100": 232.8
+    },
+    "caudal_simulado_dia_m3s": 15.36,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:07.000Z",
+  "pendiente": []
+}

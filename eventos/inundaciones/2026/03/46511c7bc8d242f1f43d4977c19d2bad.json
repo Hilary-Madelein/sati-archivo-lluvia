@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "46511c7bc8d242f1f43d4977c19d2bad",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Simon Bolivar",
+    "parroquia": "Simon Bolivar",
+    "sector": "La Esperanza",
+    "latitud": -2.013,
+    "longitud": -79.4214,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de la lluvias, MAG reportó la afectación de 2 hectáreas de cultivos de cacao con un total de $2.700 dólares. MAG realizó la inspección",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 17.0
+      },
+      "dia_anterior": {
+        "punto_mm": 234.0,
+        "max_5km_mm": 268.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 39.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 286.0,
+      "max_5km_mm": 324.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 15.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 29.4,
+        "max_5km_mm": 42.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 15.2,
+        "max_5km_mm": 18.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060836,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:22.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

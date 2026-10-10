@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "a367fe3a277e3b25a08576021c60fa88",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Ricaurte",
+    "sector": "RCTO. ROBLECITO - RCTO. LA DIONISIA - RCTO. LA VICTORIA - RÍO PIJULLO",
+    "latitud": -1.592109,
+    "longitud": -79.434527,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la noche con madrugada  del 04/02/2026, se produjo el desbordamiento del río Pijullo, en donde se reporta 1 bien público afectado (rotura de muro de contención), 23 familias de 64 personas afectadas,  6 familias de 14 personas damnificadas y 1 ha. (cacao) de un productor con cultivo afectado parcialmente (1 familia de 4 personas afectadas) \r\n MAGP realizó barrido en la zona afectada facilitando matriz MAAPEA el 24/02/2026, UGR Urdaneta realizó barrido en la zona afectada el 26/02/2026, reportando que actualmente el caudal se encuentra descendiendo de nivel sin presencia de agua dentro de las viviendas y las familias permanecen en sus hogares, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 68,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 82.0,
+        "max_5km_mm": 83.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 90.0,
+      "max_5km_mm": 98.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 11.0,
+        "max_5km_mm": 12.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 3.9,
+        "max_5km_mm": 4.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 1.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670055699,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:08:37.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

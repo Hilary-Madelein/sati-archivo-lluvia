@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3dc506b2bbeb633bb5b3bcc243dfa9e6",
+    "tipo": "Inundación",
+    "fecha": "2026-04-03",
+    "hora": "00:30",
+    "provincia": "Napo",
+    "canton": "El Chaco",
+    "parroquia": "Gonzalo Diaz De Pineda (el Bombon)",
+    "sector": "San Rafael",
+    "latitud": -0.11760765751813895,
+    "longitud": -77.59916179097092,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias que iniciaron en la noche del 02 de abril y se extendieron a la madrugada  del 03 de abril, se produjo el incremento y posterior desbordamiento del rio Montana causando una inundación que afectó una vivienda en la que estaba habitada una familia de 4 personas. Para limpieza del rio y de escombros que fueron arrastrados por el rio se activaron GAD Parroquial de Gonzalo Diaz de Pineda con apoyo del GAD M de El Chaco. SNGR coordinó con Municipio de El Chaco el levantamiento de la ficha EVIN familiar.  Al momento el rio se encuentra con un nivel normal. La familia se trasladó a otra provincia de manera indefinida.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 48.0
+      },
+      "dia_anterior": {
+        "punto_mm": 92.0,
+        "max_5km_mm": 92.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 47.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 181.0,
+      "max_5km_mm": 187.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-03T07:00:00.000Z",
+        "punto_mm": 13.1,
+        "max_5km_mm": 54.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-02T07:00:00.000Z",
+        "punto_mm": 5.4,
+        "max_5km_mm": 20.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-01T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 12.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620927714,
+    "periodos_retorno_m3s": {
+      "2": 1260.3,
+      "5": 1533.9,
+      "10": 1715.1,
+      "25": 1944.0,
+      "50": 2113.9,
+      "100": 2282.4
+    },
+    "caudal_simulado_dia_m3s": 301.83,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:17.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "98a11b124a5ced878efb1572e08b78b3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-28",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Roberto Astudillo (cab. En Cruce De Venecia)",
+    "sector": "Varios sectores (San Miguel 1, Venecia Central, Ebenezer, La Chontilla, Nueva Unidad Sur)",
+    "latitud": -2.149510617415371,
+    "longitud": -79.51880661588426,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias, se vieron afectados varios sectores. SNGR realizó la entrega de asistencia humanitaria; las familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 515,
+    "viviendas_afectadas": 95,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 54.0
+      },
+      "dia_anterior": {
+        "punto_mm": 52.0,
+        "max_5km_mm": 59.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 110.0,
+      "max_5km_mm": 142.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 81.5,
+        "max_5km_mm": 120.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 42.2,
+        "max_5km_mm": 66.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 70.1,
+        "max_5km_mm": 79.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:18.000Z",
+  "pendiente": []
+}

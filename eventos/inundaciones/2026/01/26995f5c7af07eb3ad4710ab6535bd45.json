@@ -1,0 +1,65 @@
+{
+  "evento": {
+    "id": "26995f5c7af07eb3ad4710ab6535bd45",
+    "tipo": "Inundación",
+    "fecha": "2026-01-26",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Zapotal",
+    "sector": "SANTA ROSA",
+    "latitud": -1.294263,
+    "longitud": -79.451948,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 26/02/2026 se reportó acumulación de aguas lluvias dejando consigo 5 ha. con 1 productor de cultivo afectado parcialmente (1 familia de 4 personas afectadas) MAGP realizó barrido en la zona afectada y facilitó la matriz MAAPEA el 24/02/2026, actualmente no se visualiza los cultivos bajo agua, por tal motivo damos por fianlizado el evento.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 35.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 26.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 52.0,
+      "max_5km_mm": 70.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-24T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060807,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:12:34.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "932d71fea181de8385c19d55ef143c7e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "02:00",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Progreso",
+    "sector": "GALAYACU",
+    "latitud": -3.31603444359204,
+    "longitud": -79.68674624145113,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias suscitadas la noche el 11/03/2026 y el desbordamiento del rio Jubones se registró inundación que afectó a una vivienda y calles del sector.\r\n La familia damnificada retornó a su vivienda y recibió asistencia humanitaria por parte de la SNGR. \r\nEl caudal del rio Jubones se encuentra en su cauce normal.\r\nUGR GAD Cantonal realizó evaluación inicial de necesidades y acompanó en la entrega de asistencia humanitaria.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 23.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 37.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 10.0,
+        "max_5km_mm": 20.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 8.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 12.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670038355,
+    "periodos_retorno_m3s": {
+      "2": 888.6,
+      "5": 1133.4,
+      "10": 1295.5,
+      "25": 1500.3,
+      "50": 1652.3,
+      "100": 1803.1
+    },
+    "caudal_simulado_dia_m3s": 574.56,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:42:31.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "81bad445a378397aa8281a088747039a",
+    "tipo": "Inundación",
+    "fecha": "2026-09-23",
+    "hora": "23:50",
+    "provincia": "Manabí",
+    "canton": "Chone",
+    "parroquia": "Chone",
+    "sector": "Varios sectores",
+    "latitud": -0.6593881515850653,
+    "longitud": -79.99004471120465,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Las fuertes lluvias registradas la tarde del 23 de septiembre de 2026 provocaron inundaciones en varios sectores. Al momento, las aguas han bajado; el río ya no está desbordado. Las personas permanecen en sus viviendas, las mismas que ya no están inundadas. SNGR CZ4 realizó la entrega de AH.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 19.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 5.4,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 47.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-21T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 2.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061809,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260923",
+        "max_promedio_ensamble_m3s": 18.4,
+        "max_ensamble_m3s": 104.7,
+        "max_alta_resolucion_m3s": 31.7
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:17.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

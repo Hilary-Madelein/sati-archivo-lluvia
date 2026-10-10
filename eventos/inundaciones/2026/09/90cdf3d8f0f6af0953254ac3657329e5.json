@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "90cdf3d8f0f6af0953254ac3657329e5",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "22:00",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Vinces",
+    "sector": "10 DE AGOSTO BOLÍVAR Y CÓRDOVA",
+    "latitud": -1.5512442,
+    "longitud": -79.7521696,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche, se reportan varios sectores con acumulación de agua en las calles, en donde se reportan 10 metros lineales afectados de la vía de primer orden. Jefa Política informa que actualmente las lluvias han cesado en el sector, por lo que las calles se encuentran sin acumulación de aguas lluvias; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 81.0,
+        "max_5km_mm": 86.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 93.0,
+      "max_5km_mm": 98.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 16.1,
+        "max_5km_mm": 21.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 4.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 8.6,
+        "max_5km_mm": 13.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061841,
+    "periodos_retorno_m3s": {
+      "2": 2506.0,
+      "5": 2985.3,
+      "10": 3302.6,
+      "25": 3703.6,
+      "50": 4001.0,
+      "100": 4296.3
+    },
+    "caudal_simulado_dia_m3s": 1795.28,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 742.8,
+        "max_ensamble_m3s": 1096.6,
+        "max_alta_resolucion_m3s": 766.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 763.4,
+        "max_ensamble_m3s": 1077.7,
+        "max_alta_resolucion_m3s": 698.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 1065.1,
+        "max_ensamble_m3s": 2108.3,
+        "max_alta_resolucion_m3s": 994.8
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:17:09.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "47ab1cb20778734760ec841153c456e3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "19:27",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Sergio Toral 2 en el  sector La Cantera Mz 5530 Solar 14",
+    "latitud": -2.109889,
+    "longitud": -79.99656,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las lluvias suscitadas el  07/02/2026, se reportó la acumulación de agua en una vivienda Mediante EVIN, GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles",
+    "personas_afectadas": 31,
+    "viviendas_afectadas": 9,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 60.0,
+        "max_5km_mm": 67.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 88.0,
+      "max_5km_mm": 102.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 16.7,
+        "max_5km_mm": 17.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 13.9,
+        "max_5km_mm": 17.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050599,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:47.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

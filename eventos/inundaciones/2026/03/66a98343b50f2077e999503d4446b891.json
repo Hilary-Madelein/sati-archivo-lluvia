@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "66a98343b50f2077e999503d4446b891",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "13:50",
+    "provincia": "Manabí",
+    "canton": "Montecristi",
+    "parroquia": "Isabel Muentes",
+    "sector": "Varios Sectores (Los Artesanos, San Eloy y Tierra Santa)",
+    "latitud": -1.0441887593621186,
+    "longitud": -80.6652730927112,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 04/03/2026, se produjo inundación en el sector, afectando a varias viviendas con ingreso de agua. Las familias afectadas permanecen en sus viviendas; ya no están inundadas. C.B. Montecristí y GAD Cantonal realizaron trabajos de limpieza y evacuación de agua y lodo de los sectores afectados. UGR GAD Cantonal realizó levantamiento de la información.  No existe inundación en los sectores. SNGR brindó la atención a los afectados; SNGR el 21/03/2026 realizó la entrega de asistencia humanitaria. SNGR gestionó con el Ministerio de Desarrollo Humano la entrega de bonos de contingencia.",
+    "personas_afectadas": 18,
+    "viviendas_afectadas": 6,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 148.0,
+        "max_5km_mm": 151.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 154.0,
+      "max_5km_mm": 160.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 8.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 9.3,
+        "max_5km_mm": 21.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063873,
+    "periodos_retorno_m3s": {
+      "2": 15.1,
+      "5": 31.6,
+      "10": 42.5,
+      "25": 56.4,
+      "50": 66.6,
+      "100": 76.8
+    },
+    "caudal_simulado_dia_m3s": 1.57,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:51:24.000Z",
+  "pendiente": []
+}

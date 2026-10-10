@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "2507885872e38cbcc00a1bb215d51d29",
+    "tipo": "Inundación",
+    "fecha": "2026-10-08",
+    "hora": "11:20",
+    "provincia": "Orellana",
+    "canton": "La Joya De Los Sachas",
+    "parroquia": "Lago San Pedro",
+    "sector": "Freddy Silva - vial Guadual",
+    "latitud": -0.2119554467075638,
+    "longitud": -76.97554325136849,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "En la comunidad Fredy Silva, en la vía que conduce hacia el sector El Guadual, se informa que la población se encuentra incomunicada debido a la inundación generada por el colapso de las alcantarillas. Adicionalmente, se registra la presencia de ramas sobre la vía, lo que ha ocasionado la interrupción del acceso y dificulta la movilidad de los habitantes de la zona. La vía se encuentra cerrada",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 51.0
+      },
+      "dia_anterior": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 45.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 96.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 12.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 9.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620534183,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 0.9,
+        "max_ensamble_m3s": 10.2,
+        "max_alta_resolucion_m3s": 0.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261006",
+        "max_promedio_ensamble_m3s": 1.0,
+        "max_ensamble_m3s": 9.1,
+        "max_alta_resolucion_m3s": 0.7
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:06.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

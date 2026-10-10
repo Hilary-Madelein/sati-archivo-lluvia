@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "f636daad43cf44b0b12d2c3869634b5c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-03",
+    "hora": "03:00",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Chinchipe",
+    "parroquia": "Zumba",
+    "sector": "Zumba",
+    "latitud": -4.864093013817823,
+    "longitud": -79.13172914046494,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC informa que, la unidad educativa fue afectada  por ingreso de agua en su patio y pasillo, donde el agua fue evacuada y actualmente realiza sus actividades normales.  Las aguas lluvias acumuladas en las aulas, fueron desalojados.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 25.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 66.0,
+      "max_5km_mm": 77.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 13.1,
+        "max_5km_mm": 32.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 45.0,
+        "max_5km_mm": 102.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 42.4,
+        "max_5km_mm": 46.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620727071,
+    "periodos_retorno_m3s": {
+      "2": 13.1,
+      "5": 18.5,
+      "10": 22.0,
+      "25": 26.5,
+      "50": 29.8,
+      "100": 33.1
+    },
+    "caudal_simulado_dia_m3s": 10.42,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:38.000Z",
+  "pendiente": []
+}

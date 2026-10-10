@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "561f6f791933ae0853f5a9d04ccd9297",
+    "tipo": "Inundación",
+    "fecha": "2026-02-14",
+    "hora": "15:30",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Baños",
+    "sector": "Camino Viejo a Baños y Atanasio Oleas, Misicata",
+    "latitud": -2.923439,
+    "longitud": -79.070055,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa lluvias suscitadas la tarde del 14/02/2026, se produjo el colapso de alcantarillas ocasionando anegación de agua sobre las vías de segundo orden dificultando el tránsito vehicular.  SNGR CZ6 realizó recorridos en los diferentes sectores, el propietario de la vivienda realizó limpieza de su patio donde ingresó agua, sin afectaciones mayores.  SNGR CZ6 realizó inspección en el lugar del evento, Cuerpo de Bomberos Cuenca colaboró en los diferentes sectores, GAD Cantonal (ETAPA EP) realizó limpieza de alcantarillas. SNGR Umeva Azuay realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 22.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-14T07:00:00.000Z",
+        "punto_mm": 21.0,
+        "max_5km_mm": 24.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-13T07:00:00.000Z",
+        "punto_mm": 11.1,
+        "max_5km_mm": 25.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-12T07:00:00.000Z",
+        "punto_mm": 21.1,
+        "max_5km_mm": 25.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620876950,
+    "periodos_retorno_m3s": {
+      "2": 77.4,
+      "5": 105.8,
+      "10": 124.7,
+      "25": 148.5,
+      "50": 166.2,
+      "100": 183.8
+    },
+    "caudal_simulado_dia_m3s": 47.49,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:42.000Z",
+  "pendiente": []
+}

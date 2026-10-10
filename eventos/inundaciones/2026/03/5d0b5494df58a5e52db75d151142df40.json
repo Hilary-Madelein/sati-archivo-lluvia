@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5d0b5494df58a5e52db75d151142df40",
+    "tipo": "Inundación",
+    "fecha": "2026-03-15",
+    "hora": "04:47",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Ventanas",
+    "sector": "RCTO. LA POLVAREDA, RÍO VENTANAS",
+    "latitud": -1.5016,
+    "longitud": -79.471011,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia del aumento del caudal en los cantones vecinos, en la mañana del 15/03/2026, se reporta desbordamiento del río Ventanas, en donde se reportan 24 viviendas de 24 familias con 26 personas afectadas, 3 animales muertos (bovinos) de 1 productor (1 familia de 4 personas afectadas). UGR Ventanas realizó verificación de novedades, actualmente el caudal se encuentra  en su nivel normal y las familias se mantendrán permanentemente  en sus hogares, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 24,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 18.0,
+      "max_5km_mm": 26.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 60.5,
+        "max_5km_mm": 72.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-14T07:00:00.000Z",
+        "punto_mm": 147.2,
+        "max_5km_mm": 165.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 107.0,
+        "max_5km_mm": 163.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063888,
+    "periodos_retorno_m3s": {
+      "2": 91.8,
+      "5": 117.7,
+      "10": 134.8,
+      "25": 156.4,
+      "50": 172.5,
+      "100": 188.4
+    },
+    "caudal_simulado_dia_m3s": 8.72,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:26.000Z",
+  "pendiente": []
+}

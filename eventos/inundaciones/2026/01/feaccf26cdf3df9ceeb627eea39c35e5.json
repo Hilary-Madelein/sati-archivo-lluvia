@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "feaccf26cdf3df9ceeb627eea39c35e5",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "22:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Febres Cordero",
+    "sector": "Calles 48 y Sedalana",
+    "latitud": -2.221385171853201,
+    "longitud": -79.91700034927418,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche del 12/01/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas; caída de postes.  GAD Cantonal indica que en los sectores mencionados el agua drenó.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 46.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 48.0,
+      "max_5km_mm": 58.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 7.1,
+        "max_5km_mm": 11.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 6.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044459,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:13:29.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

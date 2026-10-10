@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "5ceb326a24978688afa4e43355ddc668",
+    "tipo": "Inundación",
+    "fecha": "2026-03-31",
+    "hora": "16:30",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Yanuncay",
+    "sector": "Mall del Río",
+    "latitud": -2.919489,
+    "longitud": -79.015868,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 31/03/2026, se produjo anegación de agua sobre la vía, provocando tráfico lento en el sector; esto ocurre debido a que la boca de desagüe no tiene la capacidad para desfogue rápido (evento recurrente). El agua que se encontraba sobre la vía ha desfogado; el tráfico fluye con normalidad. SNGR realizó monitoreo del evento mediante cámaras del ECU-911\r\n Por causa de las lluvias suscitadas la tarde del 31/03/2026, se produjo anegación de agua sobre la vía, provocando tráfico lento en el sector; esto ocurre debido a que la boca de desagüe no tiene la capacidad para desfogue rápido (evento recurrente). El agua que se encontraba sobre la vía ha desfogado; el tráfico fluye con normalidad. SNGR realizó monitoreo del evento mediante cámaras del ECU-911",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 15.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-31T07:00:00.000Z",
+        "punto_mm": 0.9,
+        "max_5km_mm": 8.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-30T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 2.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-29T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 2.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620914102,
+    "periodos_retorno_m3s": {
+      "2": 81.6,
+      "5": 118.1,
+      "10": 142.2,
+      "25": 172.7,
+      "50": 195.4,
+      "100": 217.8
+    },
+    "caudal_simulado_dia_m3s": 23.98,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:37.000Z",
+  "pendiente": []
+}

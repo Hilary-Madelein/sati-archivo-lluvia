@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "deab79ff97d0a8ac6ccd20fd17614b9a",
+    "tipo": "Inundación",
+    "fecha": "2026-03-13",
+    "hora": "06:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Babahoyo (cabecera Cantonal)",
+    "sector": "AV. 5 DE JUNIO, AV. JUAN X MARCOS, AV. VARGAS MACHUCA, AV. CUSTODIO SÁNCHEZ, AMAZONAS, COOP. SIMÓN BOLIVAR, EL BASURERO, EL GUAYABO, GUARUMAL, LA CAREGUA, LA DELICIA, LAS GARZAS, LA REFORMA, LAS AMAZONAS, LAS CAÑITAS, LAS GARZAS, LAS JAGUAS, LA VIRGINIA, LOS ROBLES, PORVENIR, SAN PABLO, SAN PEDRO, RÍO SAN PABLO",
+    "latitud": -1.802642,
+    "longitud": -79.533328,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de lluvias a nivel cantonal, en la mañana del 13/03/2026, se reportó el desbordamiento del río San Pablo, como también el aumento de agua en la sabana, provocando ingreso de agua a 644 viviendas con 65 familias de 65 personas afectadas, 63 viviendas destruidas de 702 familias damnificadas con 702 personas damnificadas, 1 persona fallecida (ahogada), 1 unidad educativa afectada funcionalmente (Escuela de Educación Básica Cacharí), 300 metros lineales afectados, 27 ha afectadas (arroz, cacao) y 10 ha con pérdida (arroz) con 139 productores, de los cuales se toman en cuenta los datos levantados en el EVIN digital. Actualmente el caudal del río Babahoyo se encuentra en su nivel normal, por lo que no hay presencia de agua en las zonas afectadas, el Paseo Shopping Babahoyo con el Terminal Terrestre continúan sus labores con normalidad, mientras que el personal policial de la UVC se encuentra suspendido, por afectaciones en la infraestructura, continuando sus labores de temas administrativos en las instalaciones del Colegio Babahoyo que no se encuentra en clases, las familias afectadas se mantienen en sus hogares. Adicional a ello 60 viviendas se encuentran sin afectación, se procede a realizar actualización de matriz MAAPEA tomando en cuenta las familias ya ingresadas en el EVIN digital.",
+    "personas_afectadas": 400,
+    "viviendas_afectadas": 100,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 1
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 51.0,
+        "max_5km_mm": 51.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 48.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 98.0,
+      "max_5km_mm": 112.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 9.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 7.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065947,
+    "periodos_retorno_m3s": {
+      "2": 2441.3,
+      "5": 3183.7,
+      "10": 3675.3,
+      "25": 4296.3,
+      "50": 4757.1,
+      "100": 5214.5
+    },
+    "caudal_simulado_dia_m3s": 498.94,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:47.000Z",
+  "pendiente": []
+}

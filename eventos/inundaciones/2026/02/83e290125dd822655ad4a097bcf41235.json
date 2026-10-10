@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "83e290125dd822655ad4a097bcf41235",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:25",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Machala",
+    "sector": "VARIOS SECTORES",
+    "latitud": -3.2590693,
+    "longitud": -79.9585005,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas durante la madrugada del 07/02/2026, se registraron inundaciones en varios sectores del cantón Machala, a causa del evento varias viviendas resultaron afectadas por ingreso de agua, así como también unidades educativas. Las aguas lluvias evacuaron en todos los sectores como también las unidades educativas, que fueron afectadas funcionalmente.\r\nUGR en inpección realizada , informó que no se registraron daños materiales por lo cual no amerita la de adisrncia humanitaria. \r\n14/02/2026, SNGR participó en reunión de COE Cantonal Machala, en donde por unanimidad de sus integrantes, acordó activarse y mantenerse en sesión permanente.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 39.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 18.7,
+        "max_5km_mm": 28.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:00.000Z",
+  "pendiente": []
+}

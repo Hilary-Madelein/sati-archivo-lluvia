@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3da352bc71bd71fb91002f644b3e61ff",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "06:00",
+    "provincia": "Bolívar",
+    "canton": "San Miguel",
+    "parroquia": "Bilovan",
+    "sector": "vía al recinto - San Jorge",
+    "latitud": -1.806488380317175,
+    "longitud": -79.099873217654,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas en la madrugada del 18/02/2026, se produjo la obstrucción de la alcantarilla y afectó a la vía de tercer orden.\r\n GAD Parroquial de Bilován realizó labores de limpieza de la alcantarilla y rehabilitación de la vía de tercer orden, dejando habilitada al paso vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 52.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 16.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 64.0,
+      "max_5km_mm": 73.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 57.8,
+        "max_5km_mm": 100.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 39.2,
+        "max_5km_mm": 39.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 33.3,
+        "max_5km_mm": 48.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670039322,
+    "periodos_retorno_m3s": {
+      "2": 61.9,
+      "5": 79.4,
+      "10": 91.1,
+      "25": 105.8,
+      "50": 116.7,
+      "100": 127.5
+    },
+    "caudal_simulado_dia_m3s": 25.9,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:46.000Z",
+  "pendiente": []
+}

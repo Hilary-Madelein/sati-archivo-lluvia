@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "170ffbb0b9d9ef829550a7863b0b5a7c",
+    "tipo": "Inundación",
+    "fecha": "2026-02-21",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "El Recreo",
+    "sector": "Varios Sectores (Cerro Redondo, El Recreo, Ciudadela Panorama)",
+    "latitud": -2.175,
+    "longitud": -79.809,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la madrugada del 21/02/2026, se reportó acumulación de agua en varios sectores. GAD Cantonal indicó que se realizaron las debidas limpiezas de sumideros y vías.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 43.0
+      },
+      "dia_anterior": {
+        "punto_mm": 60.0,
+        "max_5km_mm": 62.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 149.0,
+      "max_5km_mm": 162.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 12.6,
+        "max_5km_mm": 28.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 15.3,
+        "max_5km_mm": 24.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 10.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070056,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:02:01.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

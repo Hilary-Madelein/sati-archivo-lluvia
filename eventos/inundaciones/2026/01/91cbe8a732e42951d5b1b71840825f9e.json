@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "91cbe8a732e42951d5b1b71840825f9e",
+    "tipo": "Inundación",
+    "fecha": "2026-01-13",
+    "hora": "09:00",
+    "provincia": "Los Ríos",
+    "canton": "Quevedo",
+    "parroquia": "San Cristobal",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA HERMANO MIGUEL",
+    "latitud": -1.015965,
+    "longitud": -79.461795,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias en el cantón, se reporta acumulación de aguas lluvias, dejando consigo afectación funcional en 1 unidad educativa (Escuela De Educación Básica Hermano Miguel) Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 13/01/2026, reportando que actualmente existe presencia de agua en la cancha de la institución y que las clases continúan de manera virtual, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 26.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 35.0,
+      "max_5km_mm": 43.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-13T07:00:00.000Z",
+        "punto_mm": 25.8,
+        "max_5km_mm": 39.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 2.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 27.1,
+        "max_5km_mm": 38.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075133,
+    "periodos_retorno_m3s": {
+      "2": 2245.6,
+      "5": 2659.4,
+      "10": 2933.4,
+      "25": 3279.6,
+      "50": 3536.5,
+      "100": 3791.4
+    },
+    "caudal_simulado_dia_m3s": 499.21,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:12.000Z",
+  "pendiente": []
+}

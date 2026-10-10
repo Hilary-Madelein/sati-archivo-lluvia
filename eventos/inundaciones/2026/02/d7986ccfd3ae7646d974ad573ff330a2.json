@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d7986ccfd3ae7646d974ad573ff330a2",
+    "tipo": "Inundación",
+    "fecha": "2026-02-01",
+    "hora": "19:45",
+    "provincia": "Loja",
+    "canton": "Loja",
+    "parroquia": "Punzara",
+    "sector": "Época, Escuela Graciela Atarihuana de Cueva",
+    "latitud": -3.9677405,
+    "longitud": -79.2112659,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto a lluvias suscitadas en la tarde del 01/02/2026, se registró el aumento del caudal de la quebrada \"Vivero Ramal 1\", causando la inundación en la Escuela de Educación Básica \"Graciela Atarihuana de Cueva\"  Al momento la quebrada se encuentra desbordada. La unidad educativa se encuentra habilitada para continuar las actividades estudiantiles.\r\n El caudal de la quebrada se encuentra en su cauce normal",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 7.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 5.1,
+        "max_5km_mm": 27.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 7.9,
+        "max_5km_mm": 18.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-30T07:00:00.000Z",
+        "punto_mm": 1.1,
+        "max_5km_mm": 5.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620593550,
+    "periodos_retorno_m3s": {
+      "2": 6.1,
+      "5": 8.8,
+      "10": 10.6,
+      "25": 12.8,
+      "50": 14.4,
+      "100": 16.1
+    },
+    "caudal_simulado_dia_m3s": 1.47,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:10:55.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "051b12a3240fb051e5f38db084b51388",
+    "tipo": "Inundación",
+    "fecha": "2026-03-06",
+    "hora": "03:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Milagro Cabecera Cantonal",
+    "sector": "Beldaco y Piñoelal",
+    "latitud": -2.19408,
+    "longitud": -79.5522,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación de cultivos de caña de azúcar, plátano y cacao; y la destrucción de cultivos de arroz.  MAG realizó la inspección.",
+    "personas_afectadas": 32,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 17.0,
+      "max_5km_mm": 18.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 13.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 11.7,
+        "max_5km_mm": 17.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670052649,
+    "periodos_retorno_m3s": {
+      "2": 48.0,
+      "5": 74.8,
+      "10": 92.5,
+      "25": 114.9,
+      "50": 131.5,
+      "100": 148.0
+    },
+    "caudal_simulado_dia_m3s": 18.08,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:48:08.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "5236e4fe2acdfeba20362ecf2dae501a",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "09:13",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Unidad Educativa Fiscal Camilo Ponce Enríquez",
+    "latitud": -2.13771,
+    "longitud": -79.94115,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDUC reportó la afectación de una unidad educativa. MINEDUC realizó los arreglos respectivos.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 50.0
+      },
+      "dia_anterior": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 63.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 107.0,
+      "max_5km_mm": 117.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 4.4,
+        "max_5km_mm": 5.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068007,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:23:33.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "evento": {
+    "id": "51c92daab18a4bfa919502d80c31abe7",
+    "tipo": "Inundación",
+    "fecha": "2026-09-10",
+    "hora": "19:00",
+    "provincia": "Bolívar",
+    "canton": "Echeandía",
+    "parroquia": "Echeandia",
+    "sector": "Varios sectores: Barrio El Paraiso, Malecón Bajo.",
+    "latitud": -1.4289891647155555,
+    "longitud": -79.28392223350073,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 10/09/2026, se produjo la acumulación de agua en calles por trabajos que realiza el GAD Municipal, correspondientes al mejoramiento y adecuación del sistema de alcantarillado y drenaje, lo que ocasionó el colapso de una pared de una vivienda por lo que ingresó agua y lodo dentro de la misma. -La familia afectada permanece en su misma vivienda.\r\n-19/09/2026 SNGR en conjunto con Jefa Política y UGR del cantón realizó la entrega de asistencia humanitaria a la familia afectada.\r\n-El GAD de Echeandía realizó el arreglo de la pared colapsada.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-10T07:00:00.000Z",
+        "punto_mm": 42.7,
+        "max_5km_mm": 54.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-09T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 19.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-08T07:00:00.000Z",
+        "punto_mm": 12.5,
+        "max_5km_mm": 41.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045453,
+    "periodos_retorno_m3s": {
+      "2": 62.4,
+      "5": 79.4,
+      "10": 90.6,
+      "25": 104.9,
+      "50": 115.4,
+      "100": 125.9
+    },
+    "caudal_simulado_dia_m3s": 24.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260910",
+        "max_promedio_ensamble_m3s": 0.4,
+        "max_ensamble_m3s": 1.5,
+        "max_alta_resolucion_m3s": 1.1
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:21:08.000Z",
+  "pendiente": []
+}

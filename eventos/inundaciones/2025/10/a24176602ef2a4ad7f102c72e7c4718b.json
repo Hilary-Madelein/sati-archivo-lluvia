@@ -1,0 +1,58 @@
+{
+  "evento": {
+    "id": "a24176602ef2a4ad7f102c72e7c4718b",
+    "tipo": "Inundación",
+    "fecha": "2025-10-27",
+    "hora": "15:57",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Quitumbe",
+    "sector": "Lucha de Los Pobres Calle 21 de Agosto y E 1G.S27",
+    "latitud": -0.28573,
+    "longitud": -78.532608,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias en el sector, se produjo el desbordamiento de la quebrada,  producto del cual se produjo el colapso del alcantarillado y afectó la vía de segundo orden que estuvo cerrada al tránsito vehicular a causa de escombros en el lugar.\r\nLa quebrada se encuentra con su cause normal. Al momento sin reporte de lluvias en el sector. La vía se encuentra parcialmente habilitada. Se realizaron labores de evacuación del agua y limpieza del sistema. No se registraron afectaciones a viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 33.0,
+      "max_5km_mm": 36.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670073059,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:16:03.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

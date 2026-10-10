@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "fac82a7fc9822a451006c95afcae027d",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "08:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Chiguilpe",
+    "sector": "calle Junín y Pallatanga.",
+    "latitud": -0.25192739173242806,
+    "longitud": -79.16333609288327,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en la mañana del 20/03/2026, se suscitó la inundación de una vivienda y un local comercial con el ingreso de agua, afectando enseres.  Al momento no hay presencia de lluvia; la familia permanece en su vivienda.\r\nPatronato Municipal Santo Domingo realizó la evaluación de daños y necesidades, indicando que no ameritan asistencia humanitaria.\r\nEPMAPA-SD culminó los trabajos de limpieza en alcantarilla.\r\nSNGR coordinó con UGR GAD Santo Domingo la evaluación de daños y necesidades",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 58.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 80.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 20.4,
+        "max_5km_mm": 88.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 35.3,
+        "max_5km_mm": 94.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 59.6,
+        "max_5km_mm": 90.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:49.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d72b901a14e635cae9719345e0233a1f",
+    "tipo": "Inundación",
+    "fecha": "2026-02-21",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Primavera 2, Los Helechos)",
+    "latitud": -2.177,
+    "longitud": -79.843,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas en la madrugada del 21/02/2026, se produjo la acumulación de agua en estos sectores. GAD Cantonal indica que se realizó las debidas limpiezas de sumidero y vías quedaron expeditas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 48.0
+      },
+      "dia_anterior": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 60.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 137.0,
+      "max_5km_mm": 165.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 12.6,
+        "max_5km_mm": 64.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 9.3,
+        "max_5km_mm": 18.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 8.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670079272,
+    "periodos_retorno_m3s": {
+      "2": 11190.3,
+      "5": 14080.9,
+      "10": 15994.8,
+      "25": 18413.0,
+      "50": 20206.9,
+      "100": 21987.6
+    },
+    "caudal_simulado_dia_m3s": 8148.02,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:01:58.000Z",
+  "pendiente": []
+}

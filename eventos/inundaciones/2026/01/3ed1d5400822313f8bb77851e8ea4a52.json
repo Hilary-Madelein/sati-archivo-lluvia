@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3ed1d5400822313f8bb77851e8ea4a52",
+    "tipo": "Inundación",
+    "fecha": "2026-01-13",
+    "hora": "03:57",
+    "provincia": "Guayas",
+    "canton": "El Empalme",
+    "parroquia": "Velasco Ibarra (el Empalme)",
+    "sector": "Escuela De Educación Básica Elías Alvarado Quinto",
+    "latitud": -1.0410079749228938,
+    "longitud": -79.64784739211117,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa Técnico de MINEDEC indicó que luego del cese de lluvias,, personal de la institución realizaron las debidas limpiezas de las instituciones educativas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 17.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-13T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 7.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 3.2,
+        "max_5km_mm": 3.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 7.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076158,
+    "periodos_retorno_m3s": {
+      "2": 212.2,
+      "5": 269.4,
+      "10": 307.4,
+      "25": 355.3,
+      "50": 390.8,
+      "100": 426.1
+    },
+    "caudal_simulado_dia_m3s": 18.97,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:05.000Z",
+  "pendiente": []
+}

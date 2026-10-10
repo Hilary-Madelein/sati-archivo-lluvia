@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "81df9d2b7745419d758dfcecb1f95c81",
+    "tipo": "Inundación",
+    "fecha": "2026-03-14",
+    "hora": "07:45",
+    "provincia": "Chimborazo",
+    "canton": "Cumanda",
+    "parroquia": "Cumanda",
+    "sector": "Caserío Brisas del Chimbo, Metrópolis, Princesa del Chimborazo, Las Fuentes.",
+    "latitud": -2.204656,
+    "longitud": -79.152866,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en el sector, se reportó el aumento y posterior desbordamiento del río Chimbo, afectando a viviendas del sector.\r\nUGR Cantonal confirmó el evento y acudió al sitio. Al momento, las familias afectadas pernoctan en sus viviendas.\r\nSNGR monitorea el evento y realizó la entrega de asistencia humanitaria.\r\nOOPP del GAD Provincial y GAD Cantonal realizaron los trabajos de encauce y reforzamiento de los muros de contención del río Chimbo.\r\nEl río Chimbo está en su cauce normal. \r\nMDH realizó la inspección y sugieren que se inicie el trámite para la gestión del fondo de contingencia por desastres naturales y antrópicos, de acuerdo al Decreto Ejecutivo 316\r\nOOPP del GAD Provincial indica que en aproximadamente 15 días estiman finalizar los trabajos de reforzamiento de los muros de contención del río Chimbo.",
+    "personas_afectadas": 40,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 42.0,
+      "max_5km_mm": 46.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-14T07:00:00.000Z",
+        "punto_mm": 21.6,
+        "max_5km_mm": 68.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 44.2,
+        "max_5km_mm": 105.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 39.6,
+        "max_5km_mm": 84.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670033195,
+    "periodos_retorno_m3s": {
+      "2": 19.8,
+      "5": 23.8,
+      "10": 26.4,
+      "25": 29.8,
+      "50": 32.2,
+      "100": 34.7
+    },
+    "caudal_simulado_dia_m3s": 1.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:32.000Z",
+  "pendiente": []
+}

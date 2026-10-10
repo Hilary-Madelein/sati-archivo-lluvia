@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c3492df774ce4d4219857960ae1843d9",
+    "tipo": "Inundación",
+    "fecha": "2026-02-19",
+    "hora": "17:16",
+    "provincia": "Cañar",
+    "canton": "La Troncal",
+    "parroquia": "La Troncal",
+    "sector": "Varios Sectores",
+    "latitud": -2.417889,
+    "longitud": -79.346535,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 17/02/2026, se produjo anegación de agua sobre las calles del cantón provocando tráfico lento, adicional ingreso de agua a viviendas del sector. Las familias afectadas se mantienen es sus viviendas y realizaron limpieza de las mismas, las calles del cantón se encuentran sin anegación de agua. SNGR en conjunto con la Gobernación del Cañar realizaron entrega de asistencia humanitaria a las familias afectadas. Umeva Azuay realizó monitoreo del evento.",
+    "personas_afectadas": 10,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 67.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 68.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 23.4,
+        "max_5km_mm": 34.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 61.6,
+        "max_5km_mm": 120.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 24.5,
+        "max_5km_mm": 82.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670061873,
+    "periodos_retorno_m3s": {
+      "2": 121.3,
+      "5": 168.4,
+      "10": 199.6,
+      "25": 239.0,
+      "50": 268.2,
+      "100": 297.2
+    },
+    "caudal_simulado_dia_m3s": 43.84,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:18.000Z",
+  "pendiente": []
+}

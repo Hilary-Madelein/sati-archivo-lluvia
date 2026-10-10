@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d1781940cf5d5aa55b6f8d877134d8e4",
+    "tipo": "Inundación",
+    "fecha": "2026-03-15",
+    "hora": "06:40",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Chinchipe",
+    "parroquia": "Zumba",
+    "sector": "ZUMBA",
+    "latitud": -4.8625771365915815,
+    "longitud": -79.1312451666744,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Deslizamiento de tierra junto al coliseo de deportes de la Escuela de Educación Básica Brasil, provocando el taponamiento de sequías lo cual ocasionó inundación del coliseo, como también existe el  peligro de que se en el futuro se dañe la infraestructura  por la cercanía y colapso de árboles de gran tamaño. \r\n Atención realizada por MINEDEC",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 25.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 40.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 74.0,
+      "max_5km_mm": 84.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 6.3,
+        "max_5km_mm": 11.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-14T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 8.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 25.1,
+        "max_5km_mm": 51.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620727071,
+    "periodos_retorno_m3s": {
+      "2": 13.1,
+      "5": 18.5,
+      "10": 22.0,
+      "25": 26.5,
+      "50": 29.8,
+      "100": 33.1
+    },
+    "caudal_simulado_dia_m3s": 4.48,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:38:31.000Z",
+  "pendiente": []
+}

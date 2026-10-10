@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "328ab0eb4db8f28b2393aa97b59a0c9e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "20:00",
+    "provincia": "Manabí",
+    "canton": "Flavio Alfaro",
+    "parroquia": "Flavio Alfaro",
+    "sector": "Cabecera cantonal, sectores: Cristo del Consuelo, Dolorosa, Municipal, Cdla. Zambrano, Clda. San Pablo. Cdla. Wall García, Cdla. Galo Grijalva, San Gabriel, Walton García, San Pedro Las Cañas, Guineo, Central, Dos Ríos, Cdla. San Jacinto, Cdla. Miraflores, Paraíso, Cdla. Maranatha, Santa Narcisa, Nuevo Israel",
+    "latitud": -0.4047070193056865,
+    "longitud": -79.90544903178073,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 12/03/2026 en el casco urbano, se produjo el desbordamiento de los ríos Facundo y Pescadillo, lo cual causó inundación en varios sectores de la cabecera cantonal con afectaciones a viviendas. UGR GAD Flavio Alfaro confirmó el evento y realizó el levantamiento de información. Cuerpo de Bomberos Flavio Alfaro y UGR GAD Chone realizaron limpieza y evacuación de agua en los sectores afectados.\r\n Al momento, los ríos se mantienen con sus niveles normales, no hay inundación en los sectores; se actualizan las cifras de afectaciones de acuerdo a la información registrada en el levantamiento EVIN; las familias afectadas permanecen en sus viviendas. SNGR brindó la atención correspondiente a los afectados. MDH realizó la entrega de bono de contingencia.",
+    "personas_afectadas": 234,
+    "viviendas_afectadas": 73,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 97.0,
+        "max_5km_mm": 103.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 14.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 111.0,
+      "max_5km_mm": 118.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 4.2,
+        "max_5km_mm": 26.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 13.3,
+        "max_5km_mm": 28.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 11.6,
+        "max_5km_mm": 18.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670052584,
+    "periodos_retorno_m3s": {
+      "2": 12.6,
+      "5": 21.3,
+      "10": 27.1,
+      "25": 34.3,
+      "50": 39.7,
+      "100": 45.1
+    },
+    "caudal_simulado_dia_m3s": 3.74,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:38.000Z",
+  "pendiente": []
+}

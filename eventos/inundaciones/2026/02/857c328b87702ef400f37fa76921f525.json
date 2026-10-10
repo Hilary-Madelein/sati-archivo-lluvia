@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "857c328b87702ef400f37fa76921f525",
+    "tipo": "Inundación",
+    "fecha": "2026-02-19",
+    "hora": "04:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Bomboli",
+    "sector": "Coop. Ciudad Nueva sector 1. Calle Zabaleta y Santa Cruz.",
+    "latitud": -0.252414,
+    "longitud": -79.196875,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la madrugada del 19/02/2026, se suscitó el Taponamiento de una alcantarilla de cajón, por donde pasa el rio Pupusa, provocando el desbordamiento del mismo, y ocasionando la acumulación de agua en las calles y el ingreso de agua a viviendas del sector. Al momento no existe presencia de lluvias, y el nivel de agua en las calles ha bajado. Al momento no existe presencia de lluvias, el nivel de agua en las calles ha bajado y el río se encuentra es su nivel normal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 59.0,
+        "max_5km_mm": 62.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 68.0,
+      "max_5km_mm": 81.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 28.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 11.5,
+        "max_5km_mm": 15.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 3.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670059745,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:03:02.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

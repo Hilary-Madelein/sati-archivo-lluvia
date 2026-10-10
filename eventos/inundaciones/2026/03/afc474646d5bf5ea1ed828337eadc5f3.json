@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "afc474646d5bf5ea1ed828337eadc5f3",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "00:30",
+    "provincia": "Guayas",
+    "canton": "San Jacinto De Yaguachi",
+    "parroquia": "San Jacinto De Yaguachi",
+    "sector": "Sector Las Boyas",
+    "latitud": -2.0086341543387523,
+    "longitud": -79.64170129384482,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones registradas durante la madrugada del 04/03/2026, se registraron inundaciones en el sector.   GAD Cantonal indicó que las familias afectadas realizaron las debidas limpiezas y siguen pernoctando en sus respectivos inmuebles. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 410,
+    "viviendas_afectadas": 90,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 34.0
+      },
+      "dia_anterior": {
+        "punto_mm": 96.0,
+        "max_5km_mm": 129.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 143.0,
+      "max_5km_mm": 181.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 26.5,
+        "max_5km_mm": 27.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 10.3,
+        "max_5km_mm": 12.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 8.8,
+        "max_5km_mm": 21.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670035235,
+    "periodos_retorno_m3s": {
+      "2": 13.0,
+      "5": 18.2,
+      "10": 21.7,
+      "25": 26.1,
+      "50": 29.4,
+      "100": 32.6
+    },
+    "caudal_simulado_dia_m3s": 8.03,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:51:48.000Z",
+  "pendiente": []
+}

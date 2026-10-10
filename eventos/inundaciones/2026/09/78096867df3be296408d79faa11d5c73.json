@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "78096867df3be296408d79faa11d5c73",
+    "tipo": "Inundación",
+    "fecha": "2026-09-22",
+    "hora": "06:00",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "San Gregorio",
+    "sector": "Comunidades: San Pablo Las Delicias Pailón  San Jacinto,Mono Manso Mono Bravo San José San Salvador.",
+    "latitud": 0.509423,
+    "longitud": -79.960363,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas entre la noche del 21/09/2026 y la madrugada del 22/09/2026, se produjo el desbordamiento del río Sucio, generando inundaciones en varias comunidades de la parroquia San Gregorio, cantón Muisne. ISP-0280-INU-ESM-22092026\r\n 05/10/2026 | Se mantiene vigente el estado de emergencia cantonal de Muisne. Los ríos Sucio y Repartidero presentan tendencia a aumentar de nivel, sin registrarse desbordamientos. Las comunidades afectadas presentan acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se registran dificultades de acceso terrestre ni nuevas familias, personas o viviendas afectadas. El GAD Muisne continúa con el levantamiento EVIN. Se mantienen necesidades de asistencia humanitaria y recuperación de medios de vida. Al momento no se registran lluvias.",
+    "personas_afectadas": 2593,
+    "viviendas_afectadas": 700,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 50.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 51.0,
+      "max_5km_mm": 60.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 11.5,
+        "max_5km_mm": 18.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-21T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 5.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-20T07:00:00.000Z",
+        "punto_mm": 16.2,
+        "max_5km_mm": 16.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670074055,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260922",
+        "max_promedio_ensamble_m3s": 4.1,
+        "max_ensamble_m3s": 48.3,
+        "max_alta_resolucion_m3s": 13.5
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:20.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

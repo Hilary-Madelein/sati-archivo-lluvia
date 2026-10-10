@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "25d03ff149b9d245385a69f5a6730521",
+    "tipo": "Inundación",
+    "fecha": "2026-05-04",
+    "hora": "17:39",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "La Union",
+    "sector": "Barrio San Ramon",
+    "latitud": 0.136208,
+    "longitud": -79.401812,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas en la tarde del 04/05/2026, se produjo la inundación por acumulación de agua de lluvia en una vivienda del sector. UGR Quinindé informa que la familia afectada pernocta en su propia vivienda, asimismo indico que el evento no amerita EVIN.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 2.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-04T07:00:00.000Z",
+        "punto_mm": 0.8,
+        "max_5km_mm": 3.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-03T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 2.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060756,
+    "periodos_retorno_m3s": {
+      "2": 31.4,
+      "5": 52.4,
+      "10": 66.4,
+      "25": 84.0,
+      "50": 97.0,
+      "100": 110.0
+    },
+    "caudal_simulado_dia_m3s": 1.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:28:19.000Z",
+  "pendiente": []
+}

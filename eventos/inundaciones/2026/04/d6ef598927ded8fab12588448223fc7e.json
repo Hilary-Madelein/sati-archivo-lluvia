@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "d6ef598927ded8fab12588448223fc7e",
+    "tipo": "Inundación",
+    "fecha": "2026-04-14",
+    "hora": "17:30",
+    "provincia": "Carchi",
+    "canton": "Tulcán",
+    "parroquia": "Tulcan",
+    "sector": "Los Tres Chorros",
+    "latitud": 0.819,
+    "longitud": -77.719,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas la tarde del 14/04/2026, se produjo una inundación en la vía de primer orden el cuál causo el desprendimiento del adoquinado y el taponamiento del alcantarillado.  Cuerpo de Bomberos Tulcán realizó la limpieza y remoción de lodo de la vía.\r\nEMAPA - Tulcán realizó la limpieza de alcantarillas.\r\nGAD C Tulcán realizó trabajos de nivelación y colocación de adoquinado en la vía afectada.\r\nLa afectación fue de 20 metros lineales, la vía de primer orden se encuentra habilitada al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 5.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 14.5,
+        "max_5km_mm": 18.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-12T07:00:00.000Z",
+        "punto_mm": 20.1,
+        "max_5km_mm": 23.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670077115,
+    "periodos_retorno_m3s": {
+      "2": 41.2,
+      "5": 52.4,
+      "10": 59.8,
+      "25": 69.1,
+      "50": 76.1,
+      "100": 83.0
+    },
+    "caudal_simulado_dia_m3s": 5.78,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:32:14.000Z",
+  "pendiente": []
+}

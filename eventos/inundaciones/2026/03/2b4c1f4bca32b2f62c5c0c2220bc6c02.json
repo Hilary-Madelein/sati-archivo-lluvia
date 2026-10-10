@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2b4c1f4bca32b2f62c5c0c2220bc6c02",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "03:00",
+    "provincia": "Bolívar",
+    "canton": "Caluma",
+    "parroquia": "Caluma",
+    "sector": "Estero del Pescado, Pasagua, Retiro de Charquiyaco, El Triunfo - La Chorrera, Pital y San Vicente.",
+    "latitud": -1.6340420820182646,
+    "longitud": -79.25535727222068,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas en la madrugada del 20-03-206, se produjeron los desbordamientos de varios esteros S-N, Pescado, Guamayaco, río Escaleras y río Tablas, los cuales dejaron a varias viviendas afectadas por el ingreso de agua y lodo. Además, afectó con arrastres de material pétreo en la vía de segundo orden que conduce Pasagua - Caluma, que obstaculizaba el paso vehicular.\r\nUGR del GAD Caluma mediante informe EVIN señala que a causa de los desbordamientos de los esteros y ríos se produjeron afectaciones a varias viviendas con ingreso de agua-lodo a las infraestructuras y bienes públicos afectados.\r\nAdemás, afectó a la vía de segundo orden que conduce Caluma - Charquiyaco y Pasagua con arrastre de material pétreo sobre la vía, misma que se encuentra habilitada al paso vehicular.\r\nLos niveles de los esteros y ríos se encuentran en su cauce normal. Técnica del MIT Bolívar mediante informe recomienda coordinar de manera inmediata con el GAD Municipal de Caluma para que una familia damnificada y tres afectadas puedan ser reubicadas a un terreno seguro, fuera de la zona de riesgo, para que puedan ser beneficiarias del Incentivo del bono para Vivienda Nueva que cumpla con los estándares de seguridad y habitabilidad exigidos.\r\nAnalista del MDH informa que la familia damnificada fue beneficiaria del bono de contingencia del decreto 316 por desastres naturales o antrópicos.\r\nLa familia afectada del sector el Triunfo-La Chorrera permanecerá arrendando por sus propios medios hasta que el MIT le construya la nueva vivienda.",
+    "personas_afectadas": 81,
+    "viviendas_afectadas": 25,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 41.0,
+      "max_5km_mm": 44.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 122.1,
+        "max_5km_mm": 196.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 106.2,
+        "max_5km_mm": 199.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 71.4,
+        "max_5km_mm": 115.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056725,
+    "periodos_retorno_m3s": {
+      "2": 410.2,
+      "5": 526.3,
+      "10": 603.2,
+      "25": 700.3,
+      "50": 772.4,
+      "100": 843.9
+    },
+    "caudal_simulado_dia_m3s": 42.95,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:35:57.000Z",
+  "pendiente": []
+}

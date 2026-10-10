@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1bd7f296b3ea19660dd9be245cc30697",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "06:00",
+    "provincia": "Los Ríos",
+    "canton": "Quevedo",
+    "parroquia": "Quevedo",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA CARLOS JULIO AROSEMENA TOLA",
+    "latitud": -1.029796,
+    "longitud": -79.47049,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias en el cantón, se reporta acumulación de aguas lluvias, dejando consigo afectación funcional en 1 unidad educativa (Escuela De Educación Básica Carlos Julio Arosemena Tola) Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 04/02/2026, reportando que actualmente existe presencia leve de agua acumulada en la entrada y parte trasera del lugar, por lo que las clases continúan de manera virtual, por tal motivo se da por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 55.0,
+        "max_5km_mm": 60.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 76.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 23.5,
+        "max_5km_mm": 24.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 9.3,
+        "max_5km_mm": 13.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075133,
+    "periodos_retorno_m3s": {
+      "2": 2245.6,
+      "5": 2659.4,
+      "10": 2933.4,
+      "25": 3279.6,
+      "50": 3536.5,
+      "100": 3791.4
+    },
+    "caudal_simulado_dia_m3s": 645.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:19.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "8148cd09e7f6b23a09f9ce70359daa07",
+    "tipo": "Inundación",
+    "fecha": "2026-03-04",
+    "hora": "07:30",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Caracol",
+    "sector": "RCTO. LAS GARZAS, RCTO. LA UVA, RCTO. SAN VICENTE, RCTO. NUEVA FORTUNA, RCTO. VICENTE ROCAFUERTE, RCTO. BODEGUITA, CAÑAVERAL, LA DELICIA, CAÑAVERAL DE AFUERA, EL CUATRO, LAS GARZAS, LOMA DE HOJARASCA, SAN FRANCISCO, VICENTE ROCAFUERTE, PLAYA DE OJIVO, RÍO CARACOL",
+    "latitud": -1.670778,
+    "longitud": -79.463327,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en la mañana del 04/03/2026, se reportó el desbordamiento del río Caracol, afectando a varias viviendas de los recintos mencionados y a la vía de tercer orden que inicia desde el rcto. Cañaveral de afuera hacia el rcto. San Vicente, en donde se reportan 350 metros lineales afectados, 651 viviendas con 677 familias de 1.423 personas afectadas, 4 viviendas destruidas con 352 familias de 524 personas damnificadas, 227,2 ha afectadas (arroz-cacao), 308 ha con pérdida (arroz) con 181 productores, 1 unidad educativa afectada funcionalmente (Unidad Educativa Caracol) y afectación funcional en el Centro de Salud de Caracol, por lo que se realiza actualización de matriz MAAPEA tomando en cuenta las familias ya ingresadas en el EVIN digital. DGR Babahoyo con personal de UPREA de la SNGR actualizaron la base de datos del EVIN digital, con entrega de asistencia humanitaria el 08/04/2026, y MAGP realizó levantamiento de matriz MAAPEA con verificación de novedades. Actualmente, el caudal se encuentra en su nivel normal, la vía de tercer orden se encuentra habilitada al tránsito vehicular y las familias se mantienen en sus hogares. Adicional a ello, 3 viviendas se encuentran ubicadas en zona de riesgo, 370 viviendas sin afectación y 1 vivienda pendiente de ser evaluada. Adicional a ello, se realiza actualización de matriz MAAPEA tomando en cuenta las familias ya ingresadas en el EVIN digital.",
+    "personas_afectadas": 844,
+    "viviendas_afectadas": 494,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 32.0
+      },
+      "dia_anterior": {
+        "punto_mm": 258.0,
+        "max_5km_mm": 267.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 298.0,
+      "max_5km_mm": 317.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 12.4,
+        "max_5km_mm": 21.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 8.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 6.7,
+        "max_5km_mm": 40.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670069014,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:51:21.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

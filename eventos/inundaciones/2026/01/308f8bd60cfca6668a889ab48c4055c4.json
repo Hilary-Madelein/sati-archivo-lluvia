@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "308f8bd60cfca6668a889ab48c4055c4",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "07:25",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Unidades Educativas)",
+    "latitud": -2.169379758236913,
+    "longitud": -79.82508127715424,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDUC reportó la afectación de varias unidades educativas Técnico de MINEDEC indicó que luego del cese de lluvias, el agua drenó y se realizaron las debidas limpiezas de las instituciones educativas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 58.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 68.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 13.4,
+        "max_5km_mm": 16.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 6.0,
+        "max_5km_mm": 7.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070056,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:13:33.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "951218c2a701095b0883f564e5dc244a",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "10:30",
+    "provincia": "Pichincha",
+    "canton": "Puerto Quito",
+    "parroquia": "Puerto Quito",
+    "sector": "UNIDAD EDUCATIVA AMADO NERVO",
+    "latitud": 0.120528,
+    "longitud": -79.252243,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias, se produjeron filtraciones que de manera considerable han deteriorado la estructura de canales y bajantes de agua lluvia. La autoridad institucional, en coordinación con los padres de familia, realizó mingas para el mantenimiento y reparación de infraestructura educativa",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 49.0,
+        "max_5km_mm": 51.0
+      },
+      "dia_anterior": {
+        "punto_mm": 197.0,
+        "max_5km_mm": 238.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 293.0,
+      "max_5km_mm": 346.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 53.2,
+        "max_5km_mm": 81.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 70.4,
+        "max_5km_mm": 76.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 64.2,
+        "max_5km_mm": 69.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065877,
+    "periodos_retorno_m3s": {
+      "2": 179.6,
+      "5": 245.2,
+      "10": 288.6,
+      "25": 343.4,
+      "50": 384.1,
+      "100": 424.5
+    },
+    "caudal_simulado_dia_m3s": 148.31,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:16.000Z",
+  "pendiente": []
+}

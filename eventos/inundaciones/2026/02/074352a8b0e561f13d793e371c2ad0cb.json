@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "074352a8b0e561f13d793e371c2ad0cb",
+    "tipo": "Inundación",
+    "fecha": "2026-02-10",
+    "hora": "11:53",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "Rosa Zarate (quininde)",
+    "sector": "recintos Herrera y San Andres",
+    "latitud": 0.3174723417040212,
+    "longitud": -79.45381195034395,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas la madrugada y mañana del 10/02/2026, se suscitó el desbordamiento del río Cupa; se visualizaron las calles anegadas.\r\n\r\nUGR Quinindé confirmó el evento; en conjunto con el Cuerpo de Bomberos Quinindé realizó una inspección en territorio, rectificó el nombre del río, así como la hora del evento, y constató la afectación de 2 bienes públicos.\r\nCuerpo de Bomberos Quinindé realizó la evacuación de agua y lodo de varias viviendas del recinto.\r\nSNGR realiza seguimiento al evento.\r\nUGR GAD Cantonal Quinindé remitió la EVIN.\r\nMSP rectificó el tipo de bién público, cabe mencionar que pertenece al IESS. En el levantamiento de información del la UGR GAD Cantonal Quinindé se registraron el número de familias, viviendas y personas afectadas, cabe indicar que las familias se mantienen pernoctando en sus viviendas, y el río Cupa se encuentra normal. \r\nMIES informa que el CNH del recinto se encuentra operativo.\r\nMSP indica que el Dispensario Médico del Seguro Campesino se encuentra operativo.",
+    "personas_afectadas": 70,
+    "viviendas_afectadas": 20,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 42.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 27.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 80.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-10T07:00:00.000Z",
+        "punto_mm": 7.2,
+        "max_5km_mm": 10.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 11.9,
+        "max_5km_mm": 12.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 3.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670088398,
+    "periodos_retorno_m3s": {
+      "2": 1206.5,
+      "5": 1888.8,
+      "10": 2340.5,
+      "25": 2911.3,
+      "50": 3334.8,
+      "100": 3755.1
+    },
+    "caudal_simulado_dia_m3s": 52.21,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:05:54.000Z",
+  "pendiente": []
+}

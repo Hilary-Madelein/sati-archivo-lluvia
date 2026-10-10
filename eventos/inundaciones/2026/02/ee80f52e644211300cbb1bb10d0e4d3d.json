@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "ee80f52e644211300cbb1bb10d0e4d3d",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "02:40",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Andres De Vera",
+    "sector": "Cdla. San Jorge.",
+    "latitud": -1.0656624453766792,
+    "longitud": -80.46625763068195,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas el 09/02/2026, se produjo una inundación por la acumulación de aguas lluvias; una vivienda fue afectada con el ingreso de agua, causando afectación a enseres; la familia se encuentra en su vivienda. UGR GAD Portoviejo confirmó el evento. SNGR-CZ4 UMEVA monitorea el evento y coordinó con UGR del GAD la atención al evento y levantamiento EVIN. Al momento no existe inundación en el sector. Ministerio de Desarrollo Humano realizó la entrega de asistencia humanitaria",
+    "personas_afectadas": 9,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 62.0,
+      "max_5km_mm": 74.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 22.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 7.1,
+        "max_5km_mm": 11.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 6.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070017,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:05:58.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

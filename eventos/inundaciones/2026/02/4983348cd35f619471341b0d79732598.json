@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4983348cd35f619471341b0d79732598",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Dr. Camilo Ponce",
+    "sector": "VÍA E-25 JUJAN - BABAHOYO - PILADORA DON EDUARDO - ECUAVEGETAL - EL PALMAR - LAS CAÑITAS, KM53 - RÍO CHILINTOMO",
+    "latitud": -1.866568,
+    "longitud": -79.555848,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 18/02/2024, se verificó el desbordamiento del río Chilintomo, provocando ingreso leve de agua en la vía Jujan - Babahoyo de primer orden, con 3.700 metros lineales afectados, 30 familias afectadas (4 familias en casa acogiente), 200 personas afectadas, 50 viviendas afectadas y 1 unidad educativa afectada funcionalmente (Centro de Educación Inicial \"Las Mercedes\"). SNGR en coordinación de MDH realizaron verificación de la novedad; actualmente, el caudal se encuentra con tendencia a disminuir de nivel sin presencia de agua en los cuatro carriles de la vía de primer orden. Hasta el momento, familias afectadas continúan en sus viviendas y el canchón se encuentra laborando con normalidad.",
+    "personas_afectadas": 400,
+    "viviendas_afectadas": 100,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 64.0,
+        "max_5km_mm": 73.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 87.0,
+      "max_5km_mm": 97.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 75.8,
+        "max_5km_mm": 145.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 12.4,
+        "max_5km_mm": 19.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 80.0,
+        "max_5km_mm": 96.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063902,
+    "periodos_retorno_m3s": {
+      "2": 233.2,
+      "5": 317.2,
+      "10": 372.8,
+      "25": 443.1,
+      "50": 495.2,
+      "100": 547.0
+    },
+    "caudal_simulado_dia_m3s": 87.39,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:46.000Z",
+  "pendiente": []
+}

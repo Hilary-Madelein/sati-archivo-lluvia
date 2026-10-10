@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "419c3d4dbc701b7e4c35e0602f62f101",
+    "tipo": "Inundación",
+    "fecha": "2026-01-27",
+    "hora": "01:00",
+    "provincia": "El Oro",
+    "canton": "Arenillas",
+    "parroquia": "Arenillas",
+    "sector": "CDLA SAN JOSE",
+    "latitud": -3.500569,
+    "longitud": -80.072444,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC mediante informe remitido el 13/02/2026 indica que, una unidad educativa fue afectada funcionalmente por ingreso de agua en su patio y pasillo, donde el agua fue evacuada y actualmente realiza sus actividades normales.  MINEDEC realizó informe de afectaciones.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 36.0,
+      "max_5km_mm": 39.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670023002,
+    "periodos_retorno_m3s": {
+      "2": 13.7,
+      "5": 27.0,
+      "10": 35.8,
+      "25": 46.9,
+      "50": 55.2,
+      "100": 63.4
+    },
+    "caudal_simulado_dia_m3s": 0.07,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:32.000Z",
+  "pendiente": []
+}

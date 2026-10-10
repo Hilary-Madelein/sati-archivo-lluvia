@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "df9d657c0cec8410f212af7b54fcfec6",
+    "tipo": "Inundación",
+    "fecha": "2026-03-18",
+    "hora": "08:47",
+    "provincia": "Guayas",
+    "canton": "Colimes",
+    "parroquia": "San Jacinto",
+    "sector": "Recinto Las Mesadas y Los Chumbos",
+    "latitud": -1.5956117774093947,
+    "longitud": -80.21259011412958,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Se reportó la afectación de viviendas en el sector mencionado. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 328,
+    "viviendas_afectadas": 82,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 6.0,
+      "max_5km_mm": 12.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 1.5,
+        "max_5km_mm": 4.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 5.8,
+        "max_5km_mm": 6.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 5.0,
+        "max_5km_mm": 16.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044436,
+    "periodos_retorno_m3s": {
+      "2": 29.5,
+      "5": 52.5,
+      "10": 67.7,
+      "25": 86.8,
+      "50": 101.1,
+      "100": 115.2
+    },
+    "caudal_simulado_dia_m3s": 3.71,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:36:14.000Z",
+  "pendiente": []
+}

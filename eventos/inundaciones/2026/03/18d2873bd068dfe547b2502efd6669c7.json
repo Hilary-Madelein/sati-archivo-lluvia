@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "18d2873bd068dfe547b2502efd6669c7",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "22:41",
+    "provincia": "El Oro",
+    "canton": "Zaruma",
+    "parroquia": "Salvias",
+    "sector": "SALVIAS",
+    "latitud": -3.607908,
+    "longitud": -79.529762,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias en la cuenca alta del río Salvias se registró el desbordamiento del mismo, provocando inundación en la parroquia. La inundación trajo consigo sedimentos y palizada que afectó viviendas, puentes, vías y servicios de la cabecera parroquial. Además, a causa del evento, se reportaron daños a puentes vehiculares y a servicios como agua, energía eléctrica y telecomunicaciones.<br>\r\nCOE Cantonal mantuvo reunión en donde se acordaron las siguientes resoluciones:<br>\r\n1. Plenaria del COE cantonal de Zaruma por unamidad de los miembros acogen recomendación de la MTT1 y MTT3, y recomiendan al GAD Zaruma Declarar emergencia Territorial en todo el cantón Zaruma, por el impacto a la población por los eventos de la época lluviosa.<br>\r\n2. Se solicita al CB y prefectura de El Oro movilización de tranqueros para abastecer de agua segura a la población del casco urbano de Zaruma.<br>\r\n3. GAD Provincial movilizara maquinaria pesada para brindar atención, a todas las afectaciones que se han dado en las vías de tercer orden, en coordinación con el GAD Cantonal.<br>\r\n4. MIT fortalecerá la atención incrementando maquinaria, para la atención del eje vial estatal 585, movilizará brigada de evaluación de infraestructura para las viviendas.<br>\r\n5. Gobernación de El Oro, SNGR, MDH y CRUZ Roja entregara asistencia humanitaria, a las familias afectadas y damnificadas en el cantón Zaruma.<br>\r\n6. GAD Cantonal y SNGR implementaran alojamiento temporal tipo albergue, para acoger a familias que evacuen en caso de necesitar.<br>\r\n7. Cruz Roja y MDH fortalecerán las brigadas de evaluación EVIN para el levantamiento de información de los afectados y/o damnificados por la época lluviosa.<br> Se informa que en cuanto al alojamiento temporal \"Casa Comunal Ortega Alto\", se encuentra cerrado con fecha del 15/04/2026, luego que las familias retornaron a sus domicilios. Además, se indica que el río se encuentra dentro de sus parámetros normales y los servicios básicos, tanto como de agua y energía eléctrica, se encuentra restablecidos. Adicional el GAD Cantonal habilitó en su totalidad el puente vehicular.",
+    "personas_afectadas": 96,
+    "viviendas_afectadas": 23,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 39.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 58.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 28.2,
+        "max_5km_mm": 36.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 15.8,
+        "max_5km_mm": 21.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 16.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:15.000Z",
+  "pendiente": []
+}

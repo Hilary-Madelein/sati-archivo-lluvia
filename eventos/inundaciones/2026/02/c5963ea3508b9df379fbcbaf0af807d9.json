@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "c5963ea3508b9df379fbcbaf0af807d9",
+    "tipo": "Inundación",
+    "fecha": "2026-02-28",
+    "hora": "21:52",
+    "provincia": "Guayas",
+    "canton": "Naranjito",
+    "parroquia": "Naranjito",
+    "sector": "Recinto Rocafuerte",
+    "latitud": -2.171591888578671,
+    "longitud": -79.3332210489872,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas durante la noche del 28/02/2026, se reportó el ingreso de agua a varias viviendas, producto del desbordamiento del río Chimbo.  GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles. El río Chimbo se encuentra en tendencia a disminuir su caudal. SNGR realizó la entrega de asistencia humanitaria.",
+    "personas_afectadas": 1850,
+    "viviendas_afectadas": 90,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 43.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 95.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 64.5,
+        "max_5km_mm": 72.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 43.9,
+        "max_5km_mm": 86.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 36.8,
+        "max_5km_mm": 119.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:15.000Z",
+  "pendiente": []
+}

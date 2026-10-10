@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "fb449b19a48d30df16d2845d2407f07c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "14:09",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Belisario Quevedo",
+    "sector": "Quebrada Rumipamba",
+    "latitud": -0.2198469043372413,
+    "longitud": -78.511992,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de hoy 11/03/2026 tarde, se reporta la acumulación de agua en el colector Rumipamba, No se reporta personas heridas ni atrapadas. El Cuerpo de Bomberos Puerto Quito confirmó la emergencia. EPMAPS realizó los trabajos de evacuación de agua y retiro de escombros del lugar, dejando el lugar en condiciones seguras. SNGR realizó el monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 22.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 52.0,
+        "max_5km_mm": 54.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 81.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 26.4,
+        "max_5km_mm": 62.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 37.6,
+        "max_5km_mm": 73.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 24.9,
+        "max_5km_mm": 40.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670093538,
+    "periodos_retorno_m3s": {
+      "2": 39.5,
+      "5": 48.3,
+      "10": 54.1,
+      "25": 61.5,
+      "50": 66.9,
+      "100": 72.4
+    },
+    "caudal_simulado_dia_m3s": 18.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:41:45.000Z",
+  "pendiente": []
+}

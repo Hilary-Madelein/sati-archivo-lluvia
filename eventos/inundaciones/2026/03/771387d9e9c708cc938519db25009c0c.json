@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "771387d9e9c708cc938519db25009c0c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "06:12",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Av. Humberto Ayala y Cruce de la Virgen; Calle Loja y esmeraldas; Sibambe y Abel Gilbert; Primavera 2; Malecón Roberto Gilbert)",
+    "latitud": -2.17,
+    "longitud": -79.844,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 11/03/2026, se reportaron varios sectores con acumulación de agua. Mediante cámara se visualizó que los sectores mencionados ya no se encuentran con acumulación de agua; no se reportó afectación.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 71.0,
+        "max_5km_mm": 74.0
+      },
+      "dia_anterior": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 34.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 101.0,
+      "max_5km_mm": 112.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 14.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670079272,
+    "periodos_retorno_m3s": {
+      "2": 11190.3,
+      "5": 14080.9,
+      "10": 15994.8,
+      "25": 18413.0,
+      "50": 20206.9,
+      "100": 21987.6
+    },
+    "caudal_simulado_dia_m3s": 3261.22,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:41:34.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "90a6c1af54dd5ce93fc9926f61f71984",
+    "tipo": "Inundación",
+    "fecha": "2026-02-28",
+    "hora": "19:43",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Monte Sinaí, Cooperativa Trinidad de Dios",
+    "latitud": -2.131683,
+    "longitud": -79.99044,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las últimas precipitaciones, se reportó el 28/02/2026 acumulación de agua y lodo en una vivienda del sector.\r\n GAD Cantonal indica que la familia damnificada se quedó en casa de acogida.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 26.0
+      },
+      "dia_anterior": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 45.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 83.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 138.3,
+        "max_5km_mm": 143.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 61.3,
+        "max_5km_mm": 75.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 39.8,
+        "max_5km_mm": 71.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:15.000Z",
+  "pendiente": []
+}

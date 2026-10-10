@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "768a1e98f950cdf9c96c0a2c7a2eccac",
+    "tipo": "Inundación",
+    "fecha": "2026-02-17",
+    "hora": "16:52",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "La Concepcion",
+    "sector": "San Carlos -Varios sectores",
+    "latitud": -0.136406,
+    "longitud": -78.497035,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones presentadas durante la tarde del 17/02/2026, se reportan inundaciones en varias viviendas del sector. Se registra inundación en el sector San Carlos, con acumulación de agua al interior de tres viviendas. Se evidencia afectación a enseres.  No se registran personas heridas ni fallecidas. De la inspección realizada se evidencia que, de manera recurrente, se presentan eventos de saturación del colector de aguas servidas durante precipitaciones intensas, lo que ocasiona el desbordamiento del alcantarillado sanitario e inundaciones en las viviendas aledañas\r\n\r\nLa Empresa Pública Metropolitana de Agua Potable y Saneamiento (EPMAPS) realizó la inspección técnica integral de la red sanitaria y del colector del sector, evaluando el estado físico y la capacidad hidráulica de la infraestructura existente. El objetivo de esta intervención fue identificar posibles obstrucciones, conexiones indebidas y fallas estructurales que pudieran afectar el correcto funcionamiento del sistema.",
+    "personas_afectadas": 9,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 16.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 14.0,
+      "max_5km_mm": 21.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 19.4,
+        "max_5km_mm": 24.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 12.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-15T07:00:00.000Z",
+        "punto_mm": 7.4,
+        "max_5km_mm": 12.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064860,
+    "periodos_retorno_m3s": {
+      "2": 8.2,
+      "5": 9.9,
+      "10": 11.0,
+      "25": 12.5,
+      "50": 13.5,
+      "100": 14.6
+    },
+    "caudal_simulado_dia_m3s": 3.62,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:04:21.000Z",
+  "pendiente": []
+}

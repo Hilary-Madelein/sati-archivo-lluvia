@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "f234e22a053a05d46f2fb827088769fb",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "22:00",
+    "provincia": "Bolívar",
+    "canton": "Las Naves",
+    "parroquia": "Las Naves",
+    "sector": "Varios sectores: Cañita, Bosque de Oro, Las Mercedes, Voluntad de Dios.",
+    "latitud": -1.2872339980385141,
+    "longitud": -79.31625388155733,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas la noche del 07/10/2026, se produjo el desbordamiento del río  Naves Chico; 08/10/2026 El COE resolvió declarar al cantón en emergencia.  Técnico de la UGR?GAD Las Naves y la SNGR informan que hasta el momento se registran 71 familias impactadas, además de cultivos dañados; varias viviendas presentan ingreso de lodo y escombros, la mayoría con afectación parcial y algunas destruidas.*\r\n\r\nAl momento, el caudal del río se mantiene dentro de su cauce normal. Adicionalmente, los trabajos registran un avance del 60% Limpieza y desalojo",
+    "personas_afectadas": 207,
+    "viviendas_afectadas": 70,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 75.0,
+        "max_5km_mm": 95.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 32.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 105.0,
+      "max_5km_mm": 129.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 7.2,
+        "max_5km_mm": 28.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-06T07:00:00.000Z",
+        "punto_mm": 11.8,
+        "max_5km_mm": 31.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 30.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670067976,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261006",
+        "max_promedio_ensamble_m3s": 61.7,
+        "max_ensamble_m3s": 183.6,
+        "max_alta_resolucion_m3s": 60.8
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:09:49.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

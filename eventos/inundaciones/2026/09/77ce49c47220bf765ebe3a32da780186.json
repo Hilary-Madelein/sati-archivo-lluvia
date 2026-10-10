@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "77ce49c47220bf765ebe3a32da780186",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "15:23",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "La Argelia",
+    "sector": "La Lucha de los Pobres",
+    "latitud": -0.292617,
+    "longitud": -78.519922,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias y al incremento del nivel del río Capulí, se produjo su desbordamiento, ocasionando el ingreso de agua al garaje de una vivienda, anegación de agua en una vía de segundo orden (21 de agosto) y la acumulación de agua en el patio de la Escuela Francisco Javier Salazar. Como medida preventiva, algunos estudiantes fueron evacuados hacia un lugar seguro dentro de la misma institución.  GAD Cantonal y EPMAPS, con apoyo del Cuerpo de Bomberos del DMQ, realizaron la limpieza del sistema de alcantarillado. El Operativo Zonal Quitumbe realizó la evaluación de las estructuras cercanas, sin reportar daños estructurales. El nivel del río descendió hasta alcanzar niveles considerados normales",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 3.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 11.9,
+        "max_5km_mm": 11.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 4.3,
+        "max_5km_mm": 5.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 13.5,
+        "max_5km_mm": 14.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670073059,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260923",
+        "max_promedio_ensamble_m3s": 3.3,
+        "max_ensamble_m3s": 15.5,
+        "max_alta_resolucion_m3s": 4.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260922",
+        "max_promedio_ensamble_m3s": 2.8,
+        "max_ensamble_m3s": 11.6,
+        "max_alta_resolucion_m3s": 5.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:18:41.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

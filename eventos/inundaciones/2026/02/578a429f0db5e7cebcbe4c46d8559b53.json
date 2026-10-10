@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "578a429f0db5e7cebcbe4c46d8559b53",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "09:00",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "San Francisco De Onzole",
+    "sector": "Pintor 1, Pintor 2 , Arenales y Zancudo.",
+    "latitud": 0.913626,
+    "longitud": -79.063991,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias, la madrugada del 23/02/2026 se registró el desbordamiento del río Onzole.  UGR GAD Cantonal Eloy Alfaro indica que el río Onzole se encuentra normal; las familias se encuentran pernoctando en sus propias viviendas, y el sector ya no se encuentra anegado. Adicionalmente, realizaron el levantamiento de información y daños.\r\nEn la entrega de asistencia humanitaria de la SNGR se registró un incremento de familias y personas afectadas.",
+    "personas_afectadas": 854,
+    "viviendas_afectadas": 300,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 26.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 45.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 68.0,
+      "max_5km_mm": 81.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 7.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 4.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670075064,
+    "periodos_retorno_m3s": {
+      "2": 351.3,
+      "5": 458.8,
+      "10": 529.9,
+      "25": 619.7,
+      "50": 686.4,
+      "100": 752.5
+    },
+    "caudal_simulado_dia_m3s": 187.43,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:59.000Z",
+  "pendiente": []
+}

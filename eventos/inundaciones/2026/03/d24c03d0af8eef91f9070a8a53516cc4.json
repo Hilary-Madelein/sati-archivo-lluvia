@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "d24c03d0af8eef91f9070a8a53516cc4",
+    "tipo": "Inundación",
+    "fecha": "2026-03-25",
+    "hora": "11:44",
+    "provincia": "Manabí",
+    "canton": "Junin",
+    "parroquia": "Junin",
+    "sector": "El Palmar",
+    "latitud": -0.9281008222875536,
+    "longitud": -80.21593008789586,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en el 24/03/2026, se presentaron escorrentías que provocaron el desbordamiento de un canal en el sector, por lo cual varias viviendas fueron afectadas por la acumulación de agua. Las familias afectadas se encuentran en sus viviendas. El sector aún se encuentra con acumulación de agua. UGR GAD Junín coordina acciones de atención con personal del Cuerpo de Bomberos para la evacuación de agua y brigada médica para la atención de las personas afectadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 15,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 18.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-25T07:00:00.000Z",
+        "punto_mm": 1.8,
+        "max_5km_mm": 5.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670048507,
+    "periodos_retorno_m3s": {
+      "2": 18.7,
+      "5": 33.7,
+      "10": 43.7,
+      "25": 56.3,
+      "50": 65.6,
+      "100": 74.9
+    },
+    "caudal_simulado_dia_m3s": 0.9,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:34:48.000Z",
+  "pendiente": []
+}

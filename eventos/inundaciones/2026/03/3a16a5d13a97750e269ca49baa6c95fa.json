@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "3a16a5d13a97750e269ca49baa6c95fa",
+    "tipo": "Inundación",
+    "fecha": "2026-03-01",
+    "hora": "17:24",
+    "provincia": "El Oro",
+    "canton": "Chilla",
+    "parroquia": "Chilla",
+    "sector": "PLAYAS DE DAUCAY",
+    "latitud": -3.46366,
+    "longitud": -79.737578,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a fuerte lluvia suscitada la tarde del 01/03/2026, se registró el desbordamiento de rio Chilola dejando cerrado el paso en el puente que conecta desde San Juan de Cerro Azul, del cantón Atahualpa a Playas de Daucay, cantón Chilla. OOPP GAD Provincial realizó limpieza de escombros y limpieza del caudal de río Chilola con lo que se habilitó el tránsito vehicular \r\nEl río Chilola se ecuentra en su ni vel normal.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 15.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 31.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 34.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 4.5,
+        "max_5km_mm": 16.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 5.6,
+        "max_5km_mm": 29.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 12.5,
+        "max_5km_mm": 50.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:47.000Z",
+  "pendiente": []
+}

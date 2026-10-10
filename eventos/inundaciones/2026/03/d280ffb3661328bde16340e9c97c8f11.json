@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d280ffb3661328bde16340e9c97c8f11",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "03:59",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Casacay",
+    "sector": "BARRIO SAN ANTONIO",
+    "latitud": -3.322346,
+    "longitud": -79.723487,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 05/03/2026, se registró inundación en la parroquia, donde se reportaron calles anegadas y varias viviendas afectadas por el ingreso de agua. El agua que se encontraba anegada en la parroquia, bajó en su totalidad y las familias tanto afectadas como damnificadas, se mantienen en sus hogares.",
+    "personas_afectadas": 190,
+    "viviendas_afectadas": 75,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 2.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 9.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:15.000Z",
+  "pendiente": []
+}

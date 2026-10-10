@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "d9e921ae5fd0f46fa46037617b8c5152",
+    "tipo": "Inundación",
+    "fecha": "2026-08-28",
+    "hora": "16:00",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "Viche",
+    "sector": "Las Malvinas",
+    "latitud": 0.66023,
+    "longitud": -79.540856,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la tarde y noche del 28/08/2026, se suscitó una inundación que afectó una vivienda de construcción de cemento.  26/09/2026, UGR Quinindé informa que, la persona afectada, quien tiene discapacidad, se encuentra habitando su propia vivienda, el sector ya no se encuentra anegado.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 7.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-08-28T07:00:00.000Z",
+        "punto_mm": 3.5,
+        "max_5km_mm": 12.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-08-27T07:00:00.000Z",
+        "punto_mm": 42.8,
+        "max_5km_mm": 54.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-08-26T07:00:00.000Z",
+        "punto_mm": 3.9,
+        "max_5km_mm": 13.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670095553,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260827",
+        "max_promedio_ensamble_m3s": 63.4,
+        "max_ensamble_m3s": 274.3,
+        "max_alta_resolucion_m3s": 41.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260826",
+        "max_promedio_ensamble_m3s": 72.4,
+        "max_ensamble_m3s": 350.9,
+        "max_alta_resolucion_m3s": 62.0
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:21:09.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

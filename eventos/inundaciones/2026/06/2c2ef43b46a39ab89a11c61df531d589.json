@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "2c2ef43b46a39ab89a11c61df531d589",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "03:30",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "La Peaña",
+    "sector": "LA PEAÑA",
+    "latitud": -3.313014,
+    "longitud": -79.853313,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en la madrugada del 09/06/2026, se registró inundación en varias calles del sector. UGR GAD Cantonal mediante EVIN informa familias afectadas por el evento, quienes fueron benefiadas con asistencia humanitaria y se mantinen en sus viviendas.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 41.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-09T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 3.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670030164,
+    "periodos_retorno_m3s": {
+      "2": 56.1,
+      "5": 93.1,
+      "10": 117.5,
+      "25": 148.4,
+      "50": 171.3,
+      "100": 194.1
+    },
+    "caudal_simulado_dia_m3s": 6.55,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:23:15.000Z",
+  "pendiente": []
+}

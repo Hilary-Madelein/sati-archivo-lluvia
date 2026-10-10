@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "cb23d00ce0a7f4baa98acc52445b2e63",
+    "tipo": "Inundación",
+    "fecha": "2026-04-13",
+    "hora": "20:02",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Calderon (carapungo)",
+    "sector": "San Juan de Calderón Varios sectores",
+    "latitud": -0.064397,
+    "longitud": -78.429832,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias, se suscitaron inundaciones por desbordamiento de alcantarillado en varios sectores..\r\n GAD Cantonal Operativo Zonal Calderón realizó una evaluación de daños en la cual se reportó que el arrastre de sedimentos cubrió la vía, se acumuló en un predio privado e ingresó en un galpón donde, posterior al descenso de agua y limpieza, no se reportaron afectaciones estructurales; así también informaron que no se reportaron viviendas afectadas. Posterior EPMAPS realizará la limpieza de estructuras de desfogue como medidas de mitigación.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-13T07:00:00.000Z",
+        "punto_mm": 23.0,
+        "max_5km_mm": 27.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-12T07:00:00.000Z",
+        "punto_mm": 4.1,
+        "max_5km_mm": 6.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-11T07:00:00.000Z",
+        "punto_mm": 18.0,
+        "max_5km_mm": 36.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068956,
+    "periodos_retorno_m3s": {
+      "2": 43.7,
+      "5": 53.0,
+      "10": 59.1,
+      "25": 66.9,
+      "50": 72.7,
+      "100": 78.4
+    },
+    "caudal_simulado_dia_m3s": 34.61,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:32:17.000Z",
+  "pendiente": []
+}

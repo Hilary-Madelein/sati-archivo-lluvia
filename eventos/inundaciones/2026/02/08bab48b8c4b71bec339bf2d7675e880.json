@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "08bab48b8c4b71bec339bf2d7675e880",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "06:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Colonche",
+    "sector": "Comuna Las Balsas, recinto Los Ceibitos.",
+    "latitud": -2.0438942910914797,
+    "longitud": -80.44023834197293,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias de la madrugada del 24/02/2026, se registró el aumento de caudal del río Las Balsas, mismo que afectó la única vía de ingreso, aislando a las comunidades del sector. Producto de las lluvias de la madrugada del 24/02/2026, se registró el aumento de caudal del río Las Balsas, mismo que afectó la única vía de ingreso, aislando a las comunidades del sector.\r\nSNGR coordina con la UGR la atención de la novedad.\r\nTenencia Política de la parroquia informó que el caudal del río provocó que la alcantarilla colapse, impidiendo la accesibilidad de las familias de los sectores aledaños.\r\nTenencia Política de la parroquia informó que el nivel del río Las Balsas bajó su caudal, sus habitantes cruzan a pie, considerando el corte de vía por el colapso de alcantarillas que impide el acceso vehicular.\r\nTenencia Política de la parroquia informó  que el río Las Balsas continúa correntoso aunque bajó su nivel, la vía de acceso se encuentra intransitable considerando los bancos de lodo que se han formado a lo lago de la vía, comunidades como Corozo, Las Balsas y Ceibitos se encuentran aisladas.\r\nPrefectura y SNGR gestionan recurso aéreo para la movilización de la Asistencia Humanitaria hasta las comunidades afectadas.\r\nSNGR realizó entrega de asistencia humanitaria en los sectores Corozo, Balsas y Ceibitos.\r\nActualmente no se han registrado precipitaciones, la accesibilidad a las comunas se realizan de manera normal.",
+    "personas_afectadas": 1013,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 53.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 29.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 87.0,
+      "max_5km_mm": 106.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 5.8,
+        "max_5km_mm": 10.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 11.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 5.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670055716,
+    "periodos_retorno_m3s": {
+      "2": 65.9,
+      "5": 125.0,
+      "10": 164.2,
+      "25": 213.7,
+      "50": 250.3,
+      "100": 286.8
+    },
+    "caudal_simulado_dia_m3s": 10.85,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:58:48.000Z",
+  "pendiente": []
+}

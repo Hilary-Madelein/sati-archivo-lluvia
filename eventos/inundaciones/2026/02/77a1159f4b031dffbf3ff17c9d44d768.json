@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "77a1159f4b031dffbf3ff17c9d44d768",
+    "tipo": "Inundación",
+    "fecha": "2026-02-06",
+    "hora": "08:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "Gral. Vernaza (dos Esteros)",
+    "sector": "Varios recintos (Rosa María, Poza de Cacao y Tres María)",
+    "latitud": -1.776435,
+    "longitud": -79.76813,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por las últimas lluvias registradas y el aumento del caudal del río Vinces, se produjo el desbordamiento del estero Guachapeli, causando la inundación en el recinto Rosa María, Poza de Cacao y Tres María. GAD Cantonal informa que las familias afectadas permanecen en sus respectivas viviendas. Asimismo, se indica que el estero Guachapelí se encuentra en su caudal normal. Prefectura de Guayas y SNGR realizaron la entrega de asistencia humanitaria.",
+    "personas_afectadas": 1360,
+    "viviendas_afectadas": 340,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 37.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 55.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 76.0,
+      "max_5km_mm": 94.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 8.5,
+        "max_5km_mm": 13.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 45.9,
+        "max_5km_mm": 53.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 7.4,
+        "max_5km_mm": 9.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670076186,
+    "periodos_retorno_m3s": {
+      "2": 2454.1,
+      "5": 2938.6,
+      "10": 3259.3,
+      "25": 3664.5,
+      "50": 3965.2,
+      "100": 4263.6
+    },
+    "caudal_simulado_dia_m3s": 751.78,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:11.000Z",
+  "pendiente": []
+}

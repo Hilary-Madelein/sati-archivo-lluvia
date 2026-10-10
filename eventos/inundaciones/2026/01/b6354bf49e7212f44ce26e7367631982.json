@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "b6354bf49e7212f44ce26e7367631982",
+    "tipo": "Inundación",
+    "fecha": "2026-01-24",
+    "hora": "21:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Santo Domingo De Los Colorados",
+    "sector": "Varios sectores.",
+    "latitud": -0.25511873696811177,
+    "longitud": -79.1785010607346,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 24/01/2026, se suscitó el taponamiento de alcantarillas de varios sectores, provocando la acumulación de agua en las calles, el nivel de agua de las calles ha bajado.  Al momento presencia de lluvias leves.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 37.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-24T07:00:00.000Z",
+        "punto_mm": 39.8,
+        "max_5km_mm": 52.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-23T07:00:00.000Z",
+        "punto_mm": 28.4,
+        "max_5km_mm": 40.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-22T07:00:00.000Z",
+        "punto_mm": 41.9,
+        "max_5km_mm": 53.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:12:39.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

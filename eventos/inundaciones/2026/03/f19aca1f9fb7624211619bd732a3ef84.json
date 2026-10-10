@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "f19aca1f9fb7624211619bd732a3ef84",
+    "tipo": "Inundación",
+    "fecha": "2026-03-11",
+    "hora": "20:20",
+    "provincia": "Manabí",
+    "canton": "Flavio Alfaro",
+    "parroquia": "Zapallo",
+    "sector": "Sitio El Mono",
+    "latitud": -1.0715371733763268,
+    "longitud": -80.44633563040881,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias presentadas en horas de la tarde del 11/03/2026, en zonas rurales del cantón, se produjo el desbordamiento del río Mono, el cual ha causado inundación en varios sectores y afectaciones a varias viviendas. UPREA SNGR CZ4 informa que debido al tiempo transcurrido GAD Cantonal no realizará la solicitud de entrega de Asistencia Humanitaria. Las familias afectadas realizaron las reparaciones de las viviendas y permanecerán en las mismas.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 11.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 5.6,
+        "max_5km_mm": 17.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 9.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 8.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070017,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:41:52.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

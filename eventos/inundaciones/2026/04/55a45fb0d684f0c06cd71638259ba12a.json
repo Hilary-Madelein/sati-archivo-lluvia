@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "55a45fb0d684f0c06cd71638259ba12a",
+    "tipo": "Inundación",
+    "fecha": "2026-04-06",
+    "hora": "06:35",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Laurel",
+    "sector": "Varios sectores (Sartanejal, Las Piñas, Bocas de las Piñas, La Albarrada, Pueblo Nuevo, El Salto, Cañal, jagual, Jigual)",
+    "latitud": -1.7849,
+    "longitud": -79.9398,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación y destrucción de cultivos de arroz. También por la muerte de 159 animales (Porcino, pavos, pollos, patos,), con un total de $920 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 154,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-04-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-04-05T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-04-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670049563,
+    "periodos_retorno_m3s": {
+      "2": 19.1,
+      "5": 29.6,
+      "10": 36.6,
+      "25": 45.3,
+      "50": 51.8,
+      "100": 58.3
+    },
+    "caudal_simulado_dia_m3s": 0.69,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:33:01.000Z",
+  "pendiente": []
+}

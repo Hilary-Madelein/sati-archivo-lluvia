@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "91f7972170c4f623b4597888941367b3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "18:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Centro de Salud Atarzana",
+    "latitud": -2.1812472484580603,
+    "longitud": -79.89010199464207,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MSP reportó la afectación de un centro de salud. MSP realizó las debidas adecuaciones del área afectada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 107.0,
+        "max_5km_mm": 109.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 32.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 168.0,
+      "max_5km_mm": 185.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 9.4,
+        "max_5km_mm": 19.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 12.7,
+        "max_5km_mm": 13.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 15.4,
+        "max_5km_mm": 21.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068009,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:59:10.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

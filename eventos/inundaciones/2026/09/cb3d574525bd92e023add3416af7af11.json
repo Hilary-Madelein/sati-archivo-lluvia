@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "cb3d574525bd92e023add3416af7af11",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "18:13",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios sectores (Las Orquídeas, Bastión Popular bloque 9, Av. Francisco de Orellana y Roberto Estrada).",
+    "latitud": -2.092477,
+    "longitud": -79.914332,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias que se registraron durante la tarde del 27/09/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 25.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 3.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 1.2,
+        "max_5km_mm": 2.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060837,
+    "periodos_retorno_m3s": {
+      "2": 3348.2,
+      "5": 4478.7,
+      "10": 5227.3,
+      "25": 6173.0,
+      "50": 6874.7,
+      "100": 7571.1
+    },
+    "caudal_simulado_dia_m3s": 1277.19,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 991.8,
+        "max_ensamble_m3s": 1383.7,
+        "max_alta_resolucion_m3s": 1197.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 1131.4,
+        "max_ensamble_m3s": 1621.7,
+        "max_alta_resolucion_m3s": 1100.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 1193.9,
+        "max_ensamble_m3s": 1622.3,
+        "max_alta_resolucion_m3s": 1199.0
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:17:04.000Z",
+  "pendiente": []
+}

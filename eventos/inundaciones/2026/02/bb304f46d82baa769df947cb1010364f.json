@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "bb304f46d82baa769df947cb1010364f",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:25",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Ochoa León (matriz)",
+    "sector": "VARIOS SECTORES (DEPORTISTA, 13 DE MAYO, LA MONCA, AV. JUBONES)",
+    "latitud": -3.327242,
+    "longitud": -79.807421,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas durante la madrugada del 07/02/2026, se desbordó el canal \"El Cangrejo\" provocando inundación en la parroquia y varias viviendas afectadas por el ingreso de agua.<br>\r\nLa plenaria del COE cantonal, por unanimidad de sus integrantes, acordó activarse y mantenerse en sesión permanente ante los eventos por lluvias que se han presentado en el cantón.\r\n Se informa que el agua ya bajó de nivel en su totalidad así como también el canal \"El Cangrejo\", se encuentra dentro de su cauce normal. En cuanto a las familias ,fueron beneficiadas por la entrega de asistencia humanitaria, la cual fue brindada por SNGR.",
+    "personas_afectadas": 418,
+    "viviendas_afectadas": 225,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 58.0,
+      "max_5km_mm": 61.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 28.9,
+        "max_5km_mm": 28.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:00.000Z",
+  "pendiente": []
+}

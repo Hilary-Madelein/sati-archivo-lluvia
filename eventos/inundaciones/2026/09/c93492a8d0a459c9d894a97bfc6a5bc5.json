@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "c93492a8d0a459c9d894a97bfc6a5bc5",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "14:53",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Turubamba",
+    "sector": "Barrio Divino Niño, Mz 51",
+    "latitud": -0.332209,
+    "longitud": -78.525004,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias, se reportó el desbordamiento del sistema de alcantarillado que ocasionó el ingreso de agua en varios departamentos del sector.  Realizada la evaluación de daños, se identificaron 11 viviendas afectadas y 5 viviendas que se encontraban deshabitadas. El evento fue atendido mediante trabajos de limpieza del sistema de alcantarillado.\r\nPersonal de EPMAPS realizó la identificación del punto de obstrucción de la red y ejecutó las labores correspondientes con la maquinaria requerida.\r\nEl GAD Cantonal informó que las acciones de respuesta culminaron. El sitio quedó en condiciones seguras, sin necesidad de evacuar personas ni entregar asistencia humanitaria.",
+    "personas_afectadas": 44,
+    "viviendas_afectadas": 16,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 11.9,
+        "max_5km_mm": 11.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 13.1,
+        "max_5km_mm": 15.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670088424,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260924",
+        "max_promedio_ensamble_m3s": 15.6,
+        "max_ensamble_m3s": 33.5,
+        "max_alta_resolucion_m3s": 21.7
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:18:41.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7b94dadb03bee0268364f5911ac1a9b1",
+    "tipo": "Inundación",
+    "fecha": "2026-03-30",
+    "hora": "10:30",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Yantzaza",
+    "parroquia": "Yantzaza (yanzatza)",
+    "sector": "Varios sectores",
+    "latitud": -3.827730268121062,
+    "longitud": -78.75944137573242,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Responsable de gestión de riesgos institucional informa el estancamiento del agua en es canchas de la Unidad Educativa Maria Paulina Solis y de la  Unidad Educativa Victor Emilio Uzcategui\r\n Las clases han sido reanudadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 44.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 49.0,
+      "max_5km_mm": 61.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-30T07:00:00.000Z",
+        "punto_mm": 18.7,
+        "max_5km_mm": 23.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-29T07:00:00.000Z",
+        "punto_mm": 7.7,
+        "max_5km_mm": 14.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 11.7,
+        "max_5km_mm": 43.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620980200,
+    "periodos_retorno_m3s": {
+      "2": 647.8,
+      "5": 873.4,
+      "10": 1022.7,
+      "25": 1211.3,
+      "50": 1351.3,
+      "100": 1490.2
+    },
+    "caudal_simulado_dia_m3s": 185.22,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:34:13.000Z",
+  "pendiente": []
+}

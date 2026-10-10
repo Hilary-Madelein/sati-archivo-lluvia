@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "91f0a9cdbd8d67143b50df1fda2ef79b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "10:28",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Bartolome Ruiz (cesar Franco Carrion)",
+    "sector": "varios sectores.",
+    "latitud": 0.989587,
+    "longitud": -79.657116,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas en la mañana del 04/02/2026, se suscitó una inundación en varias viviendas de la parroquia Bartolomé Ruiz. \r\nCuerpo de Bomberos Esmeraldas realizó inspección. SNGR coordinó la atención del evento con la DGR Esmeraldas.\r\n\r\n-23 familias, 52 personas afectadas.\r\n-20 viviendas afectadas.\r\n\r\nLa SNGR, en coordinación con el GAD Cantonal de Esmeraldas, se trasladó al sector El Palmar para realizar el levantamiento de información, con la finalidad de gestionar la posterior entrega de asistencia humanitaria. Cabe indicar que la Policía Nacional brindará seguridad en el sector y el Cuerpo de Bomberos de Esmeraldas apoyará en caso de requerirse evacuación de agua o limpieza de lodo en viviendas.\r\n\r\nDGR Esmeraldas realizó el levantamiento de información en el sector Puerto Limón; cabe indicar que el Director de Ambiente del GAD Cantonal Esmeraldas lidera el PMU.\r\nSNGR coordinó recursos para realizar la entrega de asistencia humanitaria el 04/02/2026, la misma que no se ejecutó.\r\nUGR Esmeraldas coordinó recursos para la elaboración de la EVIN.\r\nEPMAPSE, con apoyo de maquinaria del GAD Cantonal Esmeraldas, realiza limpieza de aguas servidas.\r\nUGR GAD C Esmeraldas realizó el levantamiento de información y daños. *De acuerdo al levantamiento de información del GAD Cantonal Esmeraldas se registraron las familias, personas y viviendas afectadas, adicional informa que el sector ya no presenta anegamiento, y no hay presencia de lluvias en el Cantón.*",
+    "personas_afectadas": 52,
+    "viviendas_afectadas": 20,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 28.0,
+        "max_5km_mm": 28.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 32.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 38.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 81.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 78.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068917,
+    "periodos_retorno_m3s": {
+      "2": 4875.1,
+      "5": 6102.9,
+      "10": 6915.7,
+      "25": 7942.8,
+      "50": 8704.7,
+      "100": 9461.0
+    },
+    "caudal_simulado_dia_m3s": 3000.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:08:57.000Z",
+  "pendiente": []
+}

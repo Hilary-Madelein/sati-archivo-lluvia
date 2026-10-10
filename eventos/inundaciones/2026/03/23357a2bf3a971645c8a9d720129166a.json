@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "23357a2bf3a971645c8a9d720129166a",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "23:33",
+    "provincia": "El Oro",
+    "canton": "Piñas",
+    "parroquia": "Piñas / La Matriz",
+    "sector": "TARAPAL, VÍA PORTETE ? SAN ROQUE.",
+    "latitud": -3.6931,
+    "longitud": -79.6884,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas el 07/03/2026, se registró el desbordamiento del rio Piñas, causando inundación en el sector Tarapal, además se registró afectación en la vía de tercer orden y afectación en la base del puente que conduce hacia la parroquia San Roque dejándola parcialmente habilitado al tránsito vehicular. La vía de tercer orden se encuentra habilitada y las bases del puente se reforzaron con material de escollera.\r\nEl rio Piñas se mantiene dentro de su cauce normal.\r\nSNGR coordinó con GAD Provincial para el seguimiento a las acciones de respuesta e informa que se realizó inspección técnica y trabajos de remediación en el sitio.\r\nJefe Político confirmó el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 9.0,
+      "max_5km_mm": 10.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 14.2,
+        "max_5km_mm": 26.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 34.2,
+        "max_5km_mm": 34.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 4.6,
+        "max_5km_mm": 4.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670024031,
+    "periodos_retorno_m3s": {
+      "2": 51.8,
+      "5": 78.7,
+      "10": 96.5,
+      "25": 119.0,
+      "50": 135.7,
+      "100": 152.2
+    },
+    "caudal_simulado_dia_m3s": 18.32,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:47:41.000Z",
+  "pendiente": []
+}

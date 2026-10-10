@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "e5801de69a1fec5d34681eb2a4010494",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "18:52",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Vinces",
+    "sector": "SAN LORENZO - EL REFUGIO - RÍO VINCES",
+    "latitud": -1.542635,
+    "longitud": -79.747975,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas en la tarde del 25/02/2026, se reportó presencia de agua por desbordamiento leve del río Vinces, debido al sistema de sumideros del caudal, provocando la presencia, en donde se reporta 15 metros lineales afectados de una vía de tercer orden GAD Vinces realizó barrido en la zona afectada, colaboró con la limpieza de alcantarillado en sus alrededores, facilitó reporte de afectaciones e indica que el evento no amerita levantamiento EVIN, actualmente el nivel de agua está con tendencia a disminuir de nivel, no se reportan viviendas afectadas con ingreso de agua, las familias se mantienen en sus viviendas con presencia leve de agua en la calle, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      },
+      "dia_anterior": {
+        "punto_mm": 39.0,
+        "max_5km_mm": 48.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 66.0,
+        "max_5km_mm": 67.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 111.0,
+      "max_5km_mm": 124.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 5.5,
+        "max_5km_mm": 9.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 28.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 5.0,
+        "max_5km_mm": 29.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:58:00.000Z",
+  "pendiente": []
+}

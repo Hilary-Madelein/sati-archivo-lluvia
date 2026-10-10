@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "8d3973f605564aa7b02ad4afbab22c62",
+    "tipo": "Inundación",
+    "fecha": "2026-03-25",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Salitre (urbina Jado)",
+    "parroquia": "El Salitre (las Ramas)",
+    "sector": "Candilejos de Abajo",
+    "latitud": -1.82113184,
+    "longitud": -79.82106907,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se reportó la destrucción de 2 hectáreas de cultivos de arroz con un total de $1.800 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 21.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 34.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-25T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 1.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670077210,
+    "periodos_retorno_m3s": {
+      "2": 2452.5,
+      "5": 2933.4,
+      "10": 3251.7,
+      "25": 3653.9,
+      "50": 3952.3,
+      "100": 4248.5
+    },
+    "caudal_simulado_dia_m3s": 445.38,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:35:20.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "cbd12c35338f62a935793eb95c21648d",
+    "tipo": "Inundación",
+    "fecha": "2025-10-29",
+    "hora": "19:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "Ines Arango (cab. En Western)",
+    "sector": "Nunkui, Kunkuk, Shiripuno y Juwa",
+    "latitud": -1.0015689826032,
+    "longitud": -76.965018698134,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas en horas de la mañana del 29/10/2025, se produjo el desbordamiento por la noche de los ríos Shiripuno y Quebeparo inundando varias viviendas, algunas familias evacuaron por precaución, también se reporta afectaciones en cultivos y animales de granja. \r\nGAD Municipal de Francisco de Orellana en coordinación con la Tenencia Política de Inés Arango levantaron fichas EVIN familiar, posteriormente sistematizaron los datos.  La SNGR CZ2, mediante la solicitud presentada por el GAD Municipal de Francisco de Orellana, realizó la entrega de asistencia humanitaria a las familias afectadas. Dado que no se prevé la asignación de más ayuda por parte de ninguna otra institución, se procede a efectuar el cierre del evento.",
+    "personas_afectadas": 42,
+    "viviendas_afectadas": 12,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 87.0,
+        "max_5km_mm": 91.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 31.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 123.0,
+      "max_5km_mm": 139.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620728239,
+    "periodos_retorno_m3s": {
+      "2": 71.4,
+      "5": 98.7,
+      "10": 116.7,
+      "25": 139.6,
+      "50": 156.5,
+      "100": 173.3
+    },
+    "caudal_simulado_dia_m3s": 8.14,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:41.000Z",
+  "pendiente": []
+}

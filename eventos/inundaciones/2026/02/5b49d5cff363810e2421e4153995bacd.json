@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "5b49d5cff363810e2421e4153995bacd",
+    "tipo": "Inundación",
+    "fecha": "2026-02-20",
+    "hora": "22:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Pascuales MZ. 110 Sl. 17",
+    "latitud": -2.204,
+    "longitud": -79.9023,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 20/02/2026, se reportó el sector con acumulación de agua en las calles. GAD Cantonal indica que, luego de las debidas limpiezas, la vía se encuentra expedita al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 47.0
+      },
+      "dia_anterior": {
+        "punto_mm": 45.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 124.0,
+        "max_5km_mm": 124.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 216.0,
+      "max_5km_mm": 218.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-20T07:00:00.000Z",
+        "punto_mm": 10.1,
+        "max_5km_mm": 15.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-19T07:00:00.000Z",
+        "punto_mm": 10.9,
+        "max_5km_mm": 28.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 20.6,
+        "max_5km_mm": 37.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670068009,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:02:51.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4b6051e4d7553400ea190d5273593b88",
+    "tipo": "Inundación",
+    "fecha": "2026-06-07",
+    "hora": "19:40",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores (Av. Humberto Ayala y Velasco Ibarra; Frente al Malecón Roberto Gilbert; Cooperativa Gilbert etapa 2 Mz. 25; Cdla. Primavera 2;)",
+    "latitud": -2.17,
+    "longitud": -79.8403,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 07/06/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas. Al momento se visualizan las calles sin acumulación de agua.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 7.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 7.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670079272,
+    "periodos_retorno_m3s": {
+      "2": 11190.3,
+      "5": 14080.9,
+      "10": 15994.8,
+      "25": 18413.0,
+      "50": 20206.9,
+      "100": 21987.6
+    },
+    "caudal_simulado_dia_m3s": 4631.7,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:24:49.000Z",
+  "pendiente": []
+}

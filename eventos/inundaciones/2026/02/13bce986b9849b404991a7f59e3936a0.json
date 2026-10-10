@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "13bce986b9849b404991a7f59e3936a0",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "12:05",
+    "provincia": "Guayas",
+    "canton": "Alfredo Baquerizo Moreno (jujan)",
+    "parroquia": "Alfredo Baquerizo Moreno (jujan)",
+    "sector": "Varios Sectores (Sector Los Amarillos, El Tránsito, Rosa de Oro y Puerto Canoa)",
+    "latitud": -1.897981,
+    "longitud": -79.56105,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas durante la noche del 28/02/2026, se reportó el ingreso de agua a varias viviendas, producto del desbordamiento del río Los Amarillos GAD Cantonal indica que las familias afectadas permanecen en sus respectivos inmuebles. El río Los amarillos se encuentra en tendencia a disminuir su caudal.",
+    "personas_afectadas": 780,
+    "viviendas_afectadas": 390,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 51.0,
+        "max_5km_mm": 51.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 48.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 107.0,
+      "max_5km_mm": 108.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 7.4,
+        "max_5km_mm": 31.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 14.7,
+        "max_5km_mm": 41.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 10.1,
+        "max_5km_mm": 16.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041376,
+    "periodos_retorno_m3s": {
+      "2": 45.5,
+      "5": 64.5,
+      "10": 77.2,
+      "25": 93.1,
+      "50": 105.0,
+      "100": 116.7
+    },
+    "caudal_simulado_dia_m3s": 23.52,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:57.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1cef91b9e6abfa167e7b246cf124c4d1",
+    "tipo": "Inundación",
+    "fecha": "2026-02-04",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Milagro",
+    "parroquia": "Chirijos",
+    "sector": "Unidad Educativa Simón Bolívar",
+    "latitud": -2.1187688693134388,
+    "longitud": -79.5896262178881,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de dos unidades educativas Técnico de MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 34.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 66.0,
+      "max_5km_mm": 69.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-04T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 3.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 1.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064935,
+    "periodos_retorno_m3s": {
+      "2": 169.2,
+      "5": 244.9,
+      "10": 295.1,
+      "25": 358.4,
+      "50": 405.5,
+      "100": 452.1
+    },
+    "caudal_simulado_dia_m3s": 20.77,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:32.000Z",
+  "pendiente": []
+}

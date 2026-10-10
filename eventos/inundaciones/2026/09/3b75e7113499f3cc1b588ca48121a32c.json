@@ -1,0 +1,108 @@
+{
+  "evento": {
+    "id": "3b75e7113499f3cc1b588ca48121a32c",
+    "tipo": "Inundación",
+    "fecha": "2026-09-27",
+    "hora": "03:00",
+    "provincia": "Loja",
+    "canton": "Pindal",
+    "parroquia": "12 De Diciembre (cab.en Achiotes)",
+    "sector": "Higuerillas",
+    "latitud": -4.067515924470695,
+    "longitud": -80.10574494085574,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 27/09/2026 se produjo el incremento del caudal de la quebrada Higuerillas misma que arrastro un vehículo que se encontraba a la ribera de la misma.   - Policía Nacional confirmó la novedad\r\n- El vehículo fue recuperado.\r\n- El caudal de la quebrada se encuentra en su cauce normal",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 19.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 70.4,
+        "max_5km_mm": 73.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-26T07:00:00.000Z",
+        "punto_mm": 51.4,
+        "max_5km_mm": 60.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-25T07:00:00.000Z",
+        "punto_mm": 15.5,
+        "max_5km_mm": 17.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670035309,
+    "periodos_retorno_m3s": {
+      "2": 22.8,
+      "5": 37.6,
+      "10": 47.4,
+      "25": 59.7,
+      "50": 68.9,
+      "100": 78.0
+    },
+    "caudal_simulado_dia_m3s": 0.66,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 1.7,
+        "max_ensamble_m3s": 31.6,
+        "max_alta_resolucion_m3s": 1.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260926",
+        "max_promedio_ensamble_m3s": 5.9,
+        "max_ensamble_m3s": 54.6,
+        "max_alta_resolucion_m3s": 5.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260925",
+        "max_promedio_ensamble_m3s": 5.2,
+        "max_ensamble_m3s": 51.5,
+        "max_alta_resolucion_m3s": 8.4
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:16:34.000Z",
+  "pendiente": []
+}

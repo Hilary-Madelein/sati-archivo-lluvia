@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "f446c8a0879eefa249f6c281527d42f0",
+    "tipo": "Inundación",
+    "fecha": "2026-09-16",
+    "hora": "02:30",
+    "provincia": "Los Ríos",
+    "canton": "Quinsaloma",
+    "parroquia": "Quinsaloma",
+    "sector": "RCTO. SAN BARTOLO, RÍO CALABI",
+    "latitud": -1.189933,
+    "longitud": -79.386319,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias registradas durante la madrugada del 16/09/2026, se produjo el desbordamiento del río Calabi, afectando temporalmente parte de la vía de segundo orden con 8 metros lineales afectados. UGR Quinsaloma realizó verificación de novedades indica que la vía de segundo orden se encuentra habilitada y sin presencia de agua lluvias. por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 49.0,
+        "max_5km_mm": 49.0
+      },
+      "dia_anterior": {
+        "punto_mm": 119.0,
+        "max_5km_mm": 141.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 168.0,
+      "max_5km_mm": 190.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-16T07:00:00.000Z",
+        "punto_mm": 20.8,
+        "max_5km_mm": 36.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-15T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 19.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-14T07:00:00.000Z",
+        "punto_mm": 12.2,
+        "max_5km_mm": 18.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670038277,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260914",
+        "max_promedio_ensamble_m3s": 12.7,
+        "max_ensamble_m3s": 82.4,
+        "max_alta_resolucion_m3s": 14.7
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:19:37.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

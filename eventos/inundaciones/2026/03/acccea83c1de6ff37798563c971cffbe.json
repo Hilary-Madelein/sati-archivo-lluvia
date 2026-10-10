@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "acccea83c1de6ff37798563c971cffbe",
+    "tipo": "Inundación",
+    "fecha": "2026-03-28",
+    "hora": "15:30",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Monay",
+    "sector": "Mollobamba-Autopista Cuenca-Azogues",
+    "latitud": -2.919033,
+    "longitud": -78.994013,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias suscitadas la tarde del 28/03/2026, se produjo anegación de agua sobre la vía de primer orden provocando tráfico lento en el sector. UMEVA coordina con MIT la limpieza de sumideros y realiza monitoreo.\r\n El agua evacuó con normalidad; el tráfico fluye con normalidad. MIT realizó limpieza de sumideros, EMOV brindó seguridad del tráfico, SNGR realizó monitoreo del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 27.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 50.0,
+      "max_5km_mm": 57.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-28T07:00:00.000Z",
+        "punto_mm": 5.7,
+        "max_5km_mm": 14.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-27T07:00:00.000Z",
+        "punto_mm": 20.4,
+        "max_5km_mm": 27.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-26T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 17.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620878326,
+    "periodos_retorno_m3s": {
+      "2": 79.5,
+      "5": 109.2,
+      "10": 129.0,
+      "25": 153.9,
+      "50": 172.4,
+      "100": 190.7
+    },
+    "caudal_simulado_dia_m3s": 49.28,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:34:14.000Z",
+  "pendiente": []
+}

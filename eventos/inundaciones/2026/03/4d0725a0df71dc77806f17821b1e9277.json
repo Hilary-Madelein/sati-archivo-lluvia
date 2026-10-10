@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "4d0725a0df71dc77806f17821b1e9277",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "20:20",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Varios Sectores (Av Antonio Parra Velasco, Alborada 13 Etapa, Sauces 7. Av. Isidro Ayora y Benjamín Carrión, Samanes 1,  Sauce 6, Flor de Bastión Bloque 1, Teodoro Alvarado Olea )",
+    "latitud": -2.1230579904275615,
+    "longitud": -79.90293082439503,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 20/03/2026, se reportó varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 31.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 34.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 10.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 30.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670044455,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:52.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

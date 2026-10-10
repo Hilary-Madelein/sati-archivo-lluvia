@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "0bf6eee9016cf2e3497ab609c0e9ecf3",
+    "tipo": "Inundación",
+    "fecha": "2025-10-28",
+    "hora": "21:50",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Conocoto",
+    "sector": "San Juan de Conocoto ? Conjunto Pinar de la Sierra",
+    "latitud": -0.302769,
+    "longitud": -78.485891,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias de hoy tarde se suscitó el colapso del alcantarillado de varios sectores, producto del cual se produjo congestión vehicular. Al momento las vías de segundo orden se encuentran completamente habilitadas. Dejando el lugar en condiciones seguras. Sin lluvias al momento en el sector. AMT confirmó el evento y brindó seguridad en la vía. Cuerpo de Bomberos de Quito colaboró con la evacuación de agua y EPMAPS realizó los trabajos de limpieza del alcantarillado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 24.0
+      },
+      "dia_anterior": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 16.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 45.0,
+      "max_5km_mm": 53.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670084324,
+    "periodos_retorno_m3s": {
+      "2": 10.2,
+      "5": 12.4,
+      "10": 13.9,
+      "25": 15.8,
+      "50": 17.2,
+      "100": 18.6
+    },
+    "caudal_simulado_dia_m3s": 3.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:16:10.000Z",
+  "pendiente": []
+}

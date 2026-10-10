@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "c3da8ef0e277f8054d6ed60af2981d0b",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "20:00",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Coop. Rumiñahui, calle Alfredo Gangotena y Oruro.",
+    "latitud": -0.269466876853872,
+    "longitud": -79.17630131692772,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 10/03/2026 y de una obra inconclusa en la colocación de nueva alcantarilla por parte de EMAPA SD, se suscitó la inundación en una vivienda, afectando a enseres de hogar. Al momento, la familia permanece en la vivienda.\r\nCuerpo de Bomberos avanzó al sitio y confirmó el evento. Así mismo, colaboro con la evacuación de agua y lodo de la vivienda. EMAPA SD avanzó al lugar y realiza trabajos en la alcantarilla.\r\nSNGR coordinó con UGR GAD Santo Domingo la evaluación de daños y necesidades.\r\nPatronato Municipal avanzará al sitio en horas de la mañana.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 42.0,
+        "max_5km_mm": 53.0
+      },
+      "dia_anterior": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 79.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 161.3,
+        "max_5km_mm": 182.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 24.9,
+        "max_5km_mm": 46.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 133.0,
+        "max_5km_mm": 133.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:43:42.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

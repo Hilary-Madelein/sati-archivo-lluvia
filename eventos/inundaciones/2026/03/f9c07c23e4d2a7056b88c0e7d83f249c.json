@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "f9c07c23e4d2a7056b88c0e7d83f249c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "07:00",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Tumbaco",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA ?AURELIO CHIRIBOGA?",
+    "latitud": -0.224529,
+    "longitud": -78.397207,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias se produjo filtración de agua al interior de la unidad educativa.\r\n MINEDEC realizó una inspección en el lugar y realizó las recomendaciones a los directivos de la institución para realizar el mantenimiento preventivo.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 66.0,
+        "max_5km_mm": 71.0
+      },
+      "dia_anterior": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 38.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 111.0,
+      "max_5km_mm": 132.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 13.8,
+        "max_5km_mm": 33.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 6.8,
+        "max_5km_mm": 8.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 15.2,
+        "max_5km_mm": 18.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:48.000Z",
+  "pendiente": []
+}

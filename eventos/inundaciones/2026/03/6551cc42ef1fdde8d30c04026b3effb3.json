@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "6551cc42ef1fdde8d30c04026b3effb3",
+    "tipo": "Inundación",
+    "fecha": "2026-03-05",
+    "hora": "05:00",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "BUENAVISTA",
+    "latitud": -3.363115,
+    "longitud": -79.843786,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 05/03/2026, se registró inundación en la parroquia, donde se reportaron calles anegadas y varias viviendas afectadas por el ingreso de agua. Las familias tanto afectadas como damnificadas se mantienen en sus viviendas luego de que el agua evacuara en su totalidad.",
+    "personas_afectadas": 143,
+    "viviendas_afectadas": 50,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-04T07:00:00.000Z",
+        "punto_mm": 2.9,
+        "max_5km_mm": 9.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 2.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:49:26.000Z",
+  "pendiente": []
+}

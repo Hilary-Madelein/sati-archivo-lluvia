@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "33a504fe4830666cbf11a057b7d00914",
+    "tipo": "Inundación",
+    "fecha": "2026-02-28",
+    "hora": "20:00",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Ventanas",
+    "sector": "UN SOLO TOQUE",
+    "latitud": -1.36346,
+    "longitud": -79.375769,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 28/02/2026, se reporta acumulación de aguas lluvias con taponamiento de alcantarillas, dejando consigo 1 vivienda de 1 familia de 1 persona afectada. SNGR realizó entrega de asistencia humanitaria en compañía del teniente político de Zapotal el 05/03/2026. UGR Ventanas realizó verificación de novedades el 17/03/2026, reportando que actualmente el caudal se encuentra en su caudal normal, por lo que su único habitante se mantiene en la vivienda sin presencia de agua; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 41.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 84.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 79.9,
+        "max_5km_mm": 119.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 63.8,
+        "max_5km_mm": 120.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 155.6,
+        "max_5km_mm": 193.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:16.000Z",
+  "pendiente": []
+}

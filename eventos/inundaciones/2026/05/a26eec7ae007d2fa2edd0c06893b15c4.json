@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a26eec7ae007d2fa2edd0c06893b15c4",
+    "tipo": "Inundación",
+    "fecha": "2026-05-22",
+    "hora": "08:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "Garcia Moreno",
+    "sector": "Comunidad La Conde",
+    "latitud": -0.527993,
+    "longitud": -77.016714,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias durante el 21/05/2026, en la parte alta, se produjo el incremento del caudal en la cuenca del río Napo, lo que causó un desbordamiento que afectó piscinas de peces y viviendas, las familias continúan en sus viviendas. MDG Teniente Política de García Moreno confirmó el evento. SNGR coordinó con GAD Municipal de Francisco de Orellana levantamiento de la ficha EVIN para la evaluación de las afectaciones y coordinación de la atención correspondiente. Mediante Oficio Nro. GADMFO-ALC-2026-0320-OF, enviado el 10 de junio, el Municipio de Francisco de Orellana informó que gestionó con GAD Provincial y MAG, una inspección, sin tener respuesta. \r\nMediante Oficio del 26 de julio, la SNGR solicitó al MAG, el informe de las afectaciones por las lluvias, sin embargo, a ala fecha el Ministerio no ha emitido respuesta,",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-22T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 1.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 3.8,
+        "max_5km_mm": 3.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 9.0,
+        "max_5km_mm": 20.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 621008919,
+    "periodos_retorno_m3s": {
+      "2": 2888.4,
+      "5": 3643.6,
+      "10": 4143.6,
+      "25": 4775.4,
+      "50": 5244.0,
+      "100": 5709.3
+    },
+    "caudal_simulado_dia_m3s": 1967.24,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:25:54.000Z",
+  "pendiente": []
+}

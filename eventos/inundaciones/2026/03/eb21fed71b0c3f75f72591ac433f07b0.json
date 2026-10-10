@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "eb21fed71b0c3f75f72591ac433f07b0",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "07:23",
+    "provincia": "Azuay",
+    "canton": "Cuenca",
+    "parroquia": "Molleturo",
+    "sector": "Luz y Guía-Aguas Calientes",
+    "latitud": -2.71352,
+    "longitud": -79.455865,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias suscitadas la mañana del 10/03/2026, se produjo el incremento y desbordamiento del río Jagua. DGR Cuenca informa 4 viviendas afectadas con ingreso de agua y sedimento, el cauce del río ha retornado a su cauce normal.  Con fecha 11/03/2026, DGR Cuenca realiza levantamiento de información y gestionará entrega de asistencia humanitaria; adicionalmente, informa que continúa el levantamiento de información. SNGR realiza monitoreo del evento. Con fecha 10/04/2026, DGR Cuenca realizó levantamiento de información y entrega de asistencia humanitaria; las familias afectadas retornaron a sus viviendas. SNGR realizó monitoreo del evento",
+    "personas_afectadas": 27,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 57.0,
+        "max_5km_mm": 57.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 59.0,
+      "max_5km_mm": 72.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 71.2,
+        "max_5km_mm": 216.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 19.4,
+        "max_5km_mm": 201.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 15.8,
+        "max_5km_mm": 113.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670017854,
+    "periodos_retorno_m3s": {
+      "2": 46.1,
+      "5": 70.9,
+      "10": 87.3,
+      "25": 108.0,
+      "50": 123.4,
+      "100": 138.6
+    },
+    "caudal_simulado_dia_m3s": 8.07,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:04.000Z",
+  "pendiente": []
+}

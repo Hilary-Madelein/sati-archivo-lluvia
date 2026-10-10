@@ -1,0 +1,92 @@
+{
+  "evento": {
+    "id": "d6ad0fe7bb8d4fa03524bb869bda6ba3",
+    "tipo": "Inundación",
+    "fecha": "2026-09-24",
+    "hora": "06:30",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "Chura (chancama) (cab. En El Yerbero)",
+    "sector": "Las Delicias",
+    "latitud": 0.6030395047549003,
+    "longitud": -79.47792758215516,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a precipitaciones de la madrugada del 24/09/2026, hubo una inundación de un sector de la comunidad Las Delicias. 05/10/2026 La UGR Quinindé informa que el sector ya no se encuentra anegado, pero se mantiene con lodo; el sector está en una zona propensa a inundaciones; las familias permanecen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 56.0,
+        "max_5km_mm": 56.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 43.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 20.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 112.0,
+      "max_5km_mm": 119.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-23T07:00:00.000Z",
+        "punto_mm": 1.6,
+        "max_5km_mm": 6.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-22T07:00:00.000Z",
+        "punto_mm": 5.6,
+        "max_5km_mm": 8.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670077124,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20260924",
+        "max_promedio_ensamble_m3s": 1776.2,
+        "max_ensamble_m3s": 2246.0,
+        "max_alta_resolucion_m3s": 1696.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20260923",
+        "max_promedio_ensamble_m3s": 2066.6,
+        "max_ensamble_m3s": 3761.8,
+        "max_alta_resolucion_m3s": 2329.9
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:18:31.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

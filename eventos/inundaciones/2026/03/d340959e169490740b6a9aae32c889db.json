@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "d340959e169490740b6a9aae32c889db",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "06:52",
+    "provincia": "Guayas",
+    "canton": "Pedro Carbo",
+    "parroquia": "Pedro Carbo",
+    "sector": "Unidad Educativa San Francisco De Asís",
+    "latitud": -1.843477,
+    "longitud": -80.3624082,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDUC reportó la afectación de una unidad educativa. \t\r\n MINEDUC realizó los arreglos respectivos.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 25.0
+      },
+      "dia_anterior": {
+        "punto_mm": 64.0,
+        "max_5km_mm": 64.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 96.0,
+      "max_5km_mm": 101.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 2.8,
+        "max_5km_mm": 10.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 4.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 9.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:55:22.000Z",
+  "pendiente": []
+}

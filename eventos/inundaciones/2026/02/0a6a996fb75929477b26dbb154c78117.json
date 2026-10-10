@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "0a6a996fb75929477b26dbb154c78117",
+    "tipo": "Inundación",
+    "fecha": "2026-02-03",
+    "hora": "10:50",
+    "provincia": "Guayas",
+    "canton": "Daule",
+    "parroquia": "Los Lojas (enrique Baquerizo Moreno)",
+    "sector": "Unidad Educativa Ecuador Amázonico",
+    "latitud": -1.871621774293005,
+    "longitud": -80.05718765554728,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó la afectación de una unidad educativa MINEDEC realizó la inspección.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 12.0,
+      "max_5km_mm": 19.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-03T07:00:00.000Z",
+        "punto_mm": 16.3,
+        "max_5km_mm": 22.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 10.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 23.2,
+        "max_5km_mm": 39.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670026015,
+    "periodos_retorno_m3s": {
+      "2": 21.6,
+      "5": 33.4,
+      "10": 41.2,
+      "25": 51.1,
+      "50": 58.4,
+      "100": 65.7
+    },
+    "caudal_simulado_dia_m3s": 0.37,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:09:53.000Z",
+  "pendiente": []
+}

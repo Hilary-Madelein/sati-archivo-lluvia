@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a42641abfcc0d153cb8d80185980883d",
+    "tipo": "Inundación",
+    "fecha": "2026-06-12",
+    "hora": "17:25",
+    "provincia": "Pichincha",
+    "canton": "Mejia",
+    "parroquia": "Machachi",
+    "sector": "El Caballito",
+    "latitud": -0.501871,
+    "longitud": -78.572582,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las precipitaciones registradas la tarde de hoy, se produjo una acumulación de agua y residuos sólidos que ocasionó el anegamiento de una vía de segundo orden, afectando temporalmente la circulación vehicular en el sector. El sitio quedó en condiciones seguras tras la limpieza del sistema de alcantarillado y la evacuación del agua acumulada, por lo que no fue necesario realizar el cierre de la vía. El Cuerpo de Bomberos Mejía ejecutó labores de limpieza y desobstrucción de sumideros, lo que permitió el drenaje adecuado del agua acumulada y la restitución de las condiciones normales de circulación y seguridad en el sitio afectado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 21.0,
+      "max_5km_mm": 25.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-12T07:00:00.000Z",
+        "punto_mm": 2.1,
+        "max_5km_mm": 4.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-11T07:00:00.000Z",
+        "punto_mm": 8.4,
+        "max_5km_mm": 12.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-10T07:00:00.000Z",
+        "punto_mm": 5.8,
+        "max_5km_mm": 22.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670080236,
+    "periodos_retorno_m3s": {
+      "2": 59.4,
+      "5": 72.6,
+      "10": 81.3,
+      "25": 92.3,
+      "50": 100.4,
+      "100": 108.5
+    },
+    "caudal_simulado_dia_m3s": 8.74,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:22:25.000Z",
+  "pendiente": []
+}

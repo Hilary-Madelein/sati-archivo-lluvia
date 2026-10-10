@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "e5f0abb50fb281f2f472bbae03945791",
+    "tipo": "Inundación",
+    "fecha": "2026-02-27",
+    "hora": "04:00",
+    "provincia": "Loja",
+    "canton": "Celica",
+    "parroquia": "Sabanilla",
+    "sector": "Varios sectores (Guineo Grande, Quillusara, Miraflores)",
+    "latitud": -4.200194,
+    "longitud": -80.124861,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias suscitadas la madrugada del 27/02/2026 se produjo la acumulación de aguas lluvias, provocando inundación en el lugar.\r\nSNGR realizó la entrega de Asistencia Humanitaria\r\nUGR Celica confirmó el evento y coordinó acciones de respuesta. Las familias afectadas continúan habitando sus viviendas.\r\nSNGR realizó la entrega de Asistencia Humanitaria",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 31.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 41.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 83.0,
+      "max_5km_mm": 86.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 21.4,
+        "max_5km_mm": 56.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 7.8,
+        "max_5km_mm": 29.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 74.9,
+        "max_5km_mm": 74.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:26.000Z",
+  "pendiente": []
+}

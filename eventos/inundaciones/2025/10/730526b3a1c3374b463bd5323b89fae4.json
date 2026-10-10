@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "730526b3a1c3374b463bd5323b89fae4",
+    "tipo": "Inundación",
+    "fecha": "2025-10-31",
+    "hora": "18:20",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "San Antonio",
+    "sector": "Varios sectores",
+    "latitud": 0.004477,
+    "longitud": -78.443586,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se reportó la obstrucción del sistema de alcantarillado que provocó la anegación de agua en vías, vehículos atascados en el lodo y el ingreso y acumulación de agua, al interior de varias viviendas. Los sectores afectados fueron: Rumicucho, Mitad del Mundo, Vía Huasipungo, 13 de Junio y Caspigasi. El Cuerpo de Bomberos de Quito realizó labores de evacuación de agua y lodo en los inmuebles afectados. El GAD Cantonal efectuó la evaluación técnica en el sector e informó la afectación en tres viviendas, correspondientes a tres familias. Dos de las viviendas presentaron ingreso de agua con lodo, sin pérdida de bienes; mientras que una vivienda registró pérdida parcial de enseres, gestionándose la reposición correspondiente.\r\n\r\nLos vehículos que quedaron atascados fueron retirados horas después del evento. Asimismo, se ejecutaron trabajos de limpieza de la vía y retiro de escombros con el apoyo del GAD Provincial de Pichincha. El nivel de agua descendió, permitiendo la finalización de las labores de limpieza.\r\n\r\nLas familias afectadas permanecen en sus viviendas, sin mayores novedades. Actualmente, la vía se encuentra habilitada.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 46.0,
+      "max_5km_mm": 56.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063833,
+    "periodos_retorno_m3s": {
+      "2": 69.4,
+      "5": 84.2,
+      "10": 94.1,
+      "25": 106.4,
+      "50": 115.6,
+      "100": 124.8
+    },
+    "caudal_simulado_dia_m3s": 19.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:15:23.000Z",
+  "pendiente": []
+}

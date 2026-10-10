@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "6aef7651dd9809fe5f2773f4475168f3",
+    "tipo": "Inundación",
+    "fecha": "2026-03-17",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Alfredo Baquerizo Moreno (jujan)",
+    "parroquia": "Alfredo Baquerizo Moreno (jujan)",
+    "sector": "Varios sectores (Los Amarillos, Chongonal, Pajonal Norte, San Antonio, Jovito, La Porfía,Rosa de Oro, Machado, La Otilia, Buenos Aires, La Revesa, Ñauza, Semira, Niguito, La Providencia, La Palma, El Tesoro, La Libertad, Mata de Caña)",
+    "latitud": -1.93565655,
+    "longitud": -79.52467875,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación y destrucción de cultivos de arroz. SNGR realizó la entrega de asistencia humanitaria a varios recintos afectados por las inundaciones.",
+    "personas_afectadas": 2315,
+    "viviendas_afectadas": 500,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 10.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-17T07:00:00.000Z",
+        "punto_mm": 21.1,
+        "max_5km_mm": 55.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-16T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 6.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670034209,
+    "periodos_retorno_m3s": {
+      "2": 40.8,
+      "5": 57.8,
+      "10": 69.0,
+      "25": 83.1,
+      "50": 93.6,
+      "100": 104.1
+    },
+    "caudal_simulado_dia_m3s": 2.94,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:36:55.000Z",
+  "pendiente": []
+}

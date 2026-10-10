@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "e05af1c3199ee5804bd125bb2eae8062",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "03:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "RCTO. SAN ANTONIO, RCTO. ISLA MARÍA, RCTO. MONSERRATE, RCTO. SAN PEDRO, RCTO. MARIA LUISA, PUEBLO NUEVO, BASURERO, CEDEGE, CEDRAL 1 Y 2, CUATRO ESQUINAS, EL GUAYABO, ENVIA DE ADENTRO, GUAREL, LA AMELIA, LA CORONA, LA ENVIDIA 1, 2 Y 3, LA JULIA, VALVERDE, LA MESTIZA, LA MONTAÑITA, LA PALMA, LA REPRESA, LA REVESA, LAS AMAZONAS, LAS MALVINAS, LAS CAÑITAS, LAS TOLAS, LA VICTORIA, LA TERESA, LOS ANGELES, MATA DE CACAO, MATECITO 1 Y 2, PALMAR, RIO CHICO, SALTADERO, SAN JOSE, SAN PABLO, SAN ROMAN, UNION BOLIVARENSE, VOLANTE, RÍO SAN ANTONIO, RÍO LAS JUNTAS",
+    "latitud": -1.979541,
+    "longitud": -79.327259,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 13/02/2026, se reportó el desbordamiento del río San Antonio y el río Las Juntas el 23/02/2026, afectando a 33 viviendas de 5 familias con 5 personas afectadas, 1 vivienda destruida con 40 familias de 41 personas damnificadas, 2.476 ha de cultivos afectados (arroz-cacao), 433 ha de cultivos con pérdida con 334 productores afectados, tomando en cuenta las familias ya ingresadas en el EVIN digital. Se reportan 11 viviendas sin afectación y se realiza actualización de matriz MAAPEA tomando en cuenta las familias ya ingresadas en el EVIN digital. Actualmente, los caudales se encuentran en su nivel normal, por lo que las familias se mantienen en sus hogares sin presencia de agua; por tal motivo, damos por finalizado el evento.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 33,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 33.0,
+        "max_5km_mm": 40.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 52.0,
+      "max_5km_mm": 67.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 19.2,
+        "max_5km_mm": 24.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 104.2,
+        "max_5km_mm": 104.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 77.0,
+        "max_5km_mm": 77.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060834,
+    "periodos_retorno_m3s": {
+      "2": 308.3,
+      "5": 395.3,
+      "10": 452.9,
+      "25": 525.7,
+      "50": 579.7,
+      "100": 633.3
+    },
+    "caudal_simulado_dia_m3s": 176.69,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:32.000Z",
+  "pendiente": []
+}

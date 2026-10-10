@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "ee5baf8e276b8f5b50ef440e517d74d1",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "18:10",
+    "provincia": "El Oro",
+    "canton": "Atahualpa",
+    "parroquia": "San Juan De Cerro Azul",
+    "sector": "KM 18",
+    "latitud": -3.516,
+    "longitud": -79.7645,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Jefa Política de Atahualpa indica que en el sitio se registran lluvias intensas, donde los vehículos pesados están circulando con precaución en el sitio, ya que existe acumulación de agua en la vía. Adicional se reporta el incremento de la quebrada Chilola sin ocasionar afectaciones. Al momento las lluvias continúan de manera fuerte.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 2.0,
+      "max_5km_mm": 3.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 38.2,
+        "max_5km_mm": 73.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 25.9,
+        "max_5km_mm": 40.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 31.8,
+        "max_5km_mm": 51.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670023003,
+    "periodos_retorno_m3s": {
+      "2": 37.2,
+      "5": 59.6,
+      "10": 74.4,
+      "25": 93.1,
+      "50": 107.0,
+      "100": 120.8
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 34.9,
+        "max_ensamble_m3s": 182.2,
+        "max_alta_resolucion_m3s": 104.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 55.6,
+        "max_ensamble_m3s": 277.7,
+        "max_alta_resolucion_m3s": 82.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 28.0,
+        "max_ensamble_m3s": 95.8,
+        "max_alta_resolucion_m3s": 62.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:08:16.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

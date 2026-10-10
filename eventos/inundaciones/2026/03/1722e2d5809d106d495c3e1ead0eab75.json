@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "1722e2d5809d106d495c3e1ead0eab75",
+    "tipo": "Inundación",
+    "fecha": "2026-03-07",
+    "hora": "03:45",
+    "provincia": "Los Ríos",
+    "canton": "Baba",
+    "parroquia": "Baba",
+    "sector": "VOLUNTAD DE DIOS, LOS PACHEQUITOS, AGUIRRE ABAD, LAS LENGUAS, SAN FRANCISCO DE TINOCO, HIGUERILLA, 27 DE NOVIEMBRE, CRUCE DE GALLO DE ORO, JACKELINE, TINOCO CANCHA, EL KIOSCO, EL RECREO, LAS PIEDRAS, FLOR DEL GUAYAS, SARTÉN, CABAÑA DEL ZAPOTE, PEÑAROL, PICA PICA, PALO CAÍDO, LA VENGANZA, 22 DE MAYO, LAS CORRIENTES, VERSALLES, ROSA DE ORO, CAÑAVERAL, SEMIRA 2, EL JOBO, EL TILLO, SAN JOSE, LOS ANGELES, PAJONAL, PEÑAROL, SEMIRA 1, RÍO ARENAL",
+    "latitud": -1.825414,
+    "longitud": -79.68205,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en la madrugada del 07/03/2026, se reportó el desbordamiento del río Arenal, afectando a varias viviendas de los recintos mencionados, en donde al momento se reportan 2.660 viviendas con 80 familias de 174 personas afectadas, con 4.379 familias de 8.481 personas damnificadas, con 93 ha de cacao con arroz afectadas y 145 ha de cacao con arroz de pérdida con 139 productores, mismos que ya se encuentran ingresados con el valor del EVIN digital. UGR Baba actualizó la base de datos del EVIN digital, MAGP realizó levantamiento de matriz MAAPEA con verificación de novedades y SNGR realiza seguimiento del evento. Actualmente, el caudal se encuentra en su nivel normal, por lo que las familias que se encontraban en los albergues CNH Niños del Futuro El Kiosko y Escuela de Educación Básica Intiraymi retornaron a sus hogares, en donde las familias afectadas se mantienen en sus hogares. Adicional a ello, mediante informe ejecutivo se reportan 1.759 viviendas sin afectación, 22 viviendas sin afectación en zona de riesgo con 3 viviendas pendientes de evaluación y se realiza actualización de matriz MAAPEA tomando en cuenta las familias ya ingresadas en el EVIN digital.",
+    "personas_afectadas": 2547,
+    "viviendas_afectadas": 819,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 28.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 33.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 1.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 3.0,
+        "max_5km_mm": 5.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-05T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:47:10.000Z",
+  "pendiente": []
+}

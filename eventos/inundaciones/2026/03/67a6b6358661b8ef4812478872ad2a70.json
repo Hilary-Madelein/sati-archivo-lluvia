@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "67a6b6358661b8ef4812478872ad2a70",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "04:30",
+    "provincia": "Manabí",
+    "canton": "Pedernales",
+    "parroquia": "Cojimies",
+    "sector": "Comunidad Cheve Abajo.",
+    "latitud": 0.15828,
+    "longitud": -79.94091,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias en la madrugada del 02/03/2026, se suscitó el desbordamiento del río Cheve, provocando la inundación del sector. El 04/03/2026 se actualizaron cifras de afectación mediante Evín Digital. Las viviendas ya no están inundadas. El estado actual del río es normal; SNGR-CZ4 solventó las necesidades de atención a las familias damnificadas/afectadas, quienes permanecen en sus viviendas.",
+    "personas_afectadas": 77,
+    "viviendas_afectadas": 37,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 71.0,
+        "max_5km_mm": 86.0
+      },
+      "dia_anterior": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 20.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 96.0,
+      "max_5km_mm": 130.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 51.7,
+        "max_5km_mm": 106.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 42.5,
+        "max_5km_mm": 51.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 32.4,
+        "max_5km_mm": 40.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670039252,
+    "periodos_retorno_m3s": {
+      "2": 13.5,
+      "5": 25.3,
+      "10": 33.2,
+      "25": 43.1,
+      "50": 50.4,
+      "100": 57.7
+    },
+    "caudal_simulado_dia_m3s": 10.64,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:37.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "c8afb8f3c7518bfbaf940e1d76556ae2",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "12:47",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "El Recreo",
+    "sector": "Sector Anexos Eloy Alfaro y Huertos Familiares",
+    "latitud": -2.152012,
+    "longitud": -79.814169,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causas de las últimas precipitaciones registradas en la noche del 23/02/2026, se reportó acumulación de agua en varias viviendas. Mediante EVIN, el GAD Cantonal informa que las familias afectadas y damnificadas permanecen en sus respectivos inmuebles, los cuales se encuentran libres de agua.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 25,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 48.0,
+        "max_5km_mm": 53.0
+      },
+      "dia_anterior": {
+        "punto_mm": 66.0,
+        "max_5km_mm": 87.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 20.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 133.0,
+      "max_5km_mm": 160.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 5.8,
+        "max_5km_mm": 9.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070056,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:58:53.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

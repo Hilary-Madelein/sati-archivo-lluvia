@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7cd663784957bb3f6b937014f5bc0ca8",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "10:30",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "La Union",
+    "sector": "LA PUNTILLA, CINCO ESQUINAS, GUARUMO, LAS MALVINAS, VALDIVIA, LOS ROBLES, LA ESPERANZA, SAN RAFAEL,RIO CLEMENTINA",
+    "latitud": -1.802557,
+    "longitud": -79.469697,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la creciente del caudal en los cantones vecinos, en la mañana del 20/03/2026, se reportó el desbordamiento del río Clementina con ingreso de agua a varias viviendas, en donde se reportan 25 viviendas de 25 familias con 100 personas afectadas, 118,7 ha afectadas (arroz, cacao, plátano) y 82 ha de pérdida (arroz) de 82 productores afectados, aumentando la diferencia de 57 productores (57 familias de 228 personas). MAGP realizó levantamiento de matriz MAAPEA con verificación de novedades y SNGR realiza seguimiento del evento.Actualmente, el caudal está en su nivel normal; la vía de segundo orden que conecta a La Puntilla hacia Babahoyo se encuentra habilitada para el paso peatonal y vehicular; las familias se mantienen en las viviendas con presencia de agua. Adicional a ello, se procede a realizar actualización de matriz MAAPEA, aumentando la diferencia de 57 productores (57 familias de 228 personas).",
+    "personas_afectadas": 328,
+    "viviendas_afectadas": 25,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 14.0,
+      "max_5km_mm": 19.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 97.1,
+        "max_5km_mm": 148.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 29.0,
+        "max_5km_mm": 58.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 41.2,
+        "max_5km_mm": 51.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057755,
+    "periodos_retorno_m3s": {
+      "2": 680.3,
+      "5": 941.4,
+      "10": 1114.2,
+      "25": 1332.6,
+      "50": 1494.7,
+      "100": 1655.5
+    },
+    "caudal_simulado_dia_m3s": 53.07,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:36:05.000Z",
+  "pendiente": []
+}

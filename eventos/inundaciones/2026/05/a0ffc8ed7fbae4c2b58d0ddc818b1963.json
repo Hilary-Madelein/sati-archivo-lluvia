@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "a0ffc8ed7fbae4c2b58d0ddc818b1963",
+    "tipo": "Inundación",
+    "fecha": "2026-05-16",
+    "hora": "18:28",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Nanegal",
+    "sector": "La Florida y  Zona turística Piragua",
+    "latitud": 0.139896,
+    "longitud": -78.68382,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas en el sector, se reportan 2 viviendas inundadas, la pérdida de una tubería que dota de agua potable a un aproximado de 300 familias del sector, pérdida de 40 animales de granja y afectación a un centro turístico. Las instituciones competentes ejecutaron labores de limpieza, remoción de sedimentos de los inmuebles y de la zona turística.\r\nEPMAPS reparó la tubería de agua potable y restituyó progresivamente en el sector*. \r\nLa SNGR, en coordinación con el GAD Cantonal y Parroquial, realizó la inspección técnica en Nanegal, identificando afectaciones en estructuras y medios de vida. Asimismo, se efectuaron acciones de apoyo para la recuperación de animales y se fortalecieron las medidas de prevención y reducción de riesgos en las zonas cercanas al río.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 0.0,
+      "max_5km_mm": 0.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-15T07:00:00.000Z",
+        "punto_mm": 41.0,
+        "max_5km_mm": 47.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-14T07:00:00.000Z",
+        "punto_mm": 30.0,
+        "max_5km_mm": 52.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070996,
+    "periodos_retorno_m3s": {
+      "2": 198.4,
+      "5": 236.7,
+      "10": 262.1,
+      "25": 294.1,
+      "50": 317.9,
+      "100": 341.5
+    },
+    "caudal_simulado_dia_m3s": 34.28,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:56.000Z",
+  "pendiente": []
+}

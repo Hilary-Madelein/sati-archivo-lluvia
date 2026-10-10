@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "2cbae1ba1bcb9124b7134b0d179bafc8",
+    "tipo": "Inundación",
+    "fecha": "2026-01-25",
+    "hora": "10:26",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "San Jose De Cayapas",
+    "sector": "San Miguel de Cayapas",
+    "latitud": 0.7425330841697363,
+    "longitud": -78.91067772320051,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas la madrugada del 25/01/2026 se registró el desbordamiento del río cayapas afectando la parroquia,cabe indicar que el acceso al sector es fluvial. Las familias se mantienen pernoctando en sus propias viviendas.\r\n\r\nUGR Eloy Alfaro confirmó el evento, adicional indicó que se movilizarán al sitio cuando el cuadal del río haya disminuido.\r\nSNGR realiza seguimiento al evento.\r\nUGR Eloy Alfaro conitnua coordinando recursos para realizar inspección y determinar si el evento amerita de la EVIN.\r\n UGR informa que el evento no amerita EVIN. Adicionalmente, se indica que el río Cayapas se mantiene en su nivel normal y que las familias permanecen en sus viviendas, sin afectaciones.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 32.0,
+        "max_5km_mm": 32.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 14.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 53.0,
+      "max_5km_mm": 64.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-24T07:00:00.000Z",
+        "punto_mm": 11.7,
+        "max_5km_mm": 25.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-23T07:00:00.000Z",
+        "punto_mm": 34.4,
+        "max_5km_mm": 59.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670065854,
+    "periodos_retorno_m3s": {
+      "2": 289.5,
+      "5": 387.6,
+      "10": 452.5,
+      "25": 534.6,
+      "50": 595.4,
+      "100": 655.9
+    },
+    "caudal_simulado_dia_m3s": 31.11,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:52.000Z",
+  "pendiente": []
+}

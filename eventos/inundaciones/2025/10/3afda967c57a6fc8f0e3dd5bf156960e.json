@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "3afda967c57a6fc8f0e3dd5bf156960e",
+    "tipo": "Inundación",
+    "fecha": "2025-10-26",
+    "hora": "15:38",
+    "provincia": "Pichincha",
+    "canton": "Cayambe",
+    "parroquia": "Cayambe",
+    "sector": "Restauración y Bolivar",
+    "latitud": 0.041986,
+    "longitud": -78.144629,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Las lluvias registradas durante la tarde del 26/10/2025 ocasionaron la acumulación de agua, lo que afectó a varias viviendas y calles en el sector, así como a zonas aledañas. De la evaluación realizada, tres viviendas resultaron afectadas mas no fue necesario la evacuación de sus ocupantes\r\nCuerpo de Bomberos de Cayambe colaboraron con la evacuación del agua en los inmuebles y la empresa municipal de alcantarillado, realizó la limpieza de la red de alcantarillado de los sitios afectados. GAD Cantonal realizó la evaluación de daños y verificó que no es necesario la entrega de asistencia humanitaria. El lugar quedó a cargo de sus propietarios",
+    "personas_afectadas": 3,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 22.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 31.0,
+      "max_5km_mm": 42.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066902,
+    "periodos_retorno_m3s": {
+      "2": 16.1,
+      "5": 21.6,
+      "10": 25.2,
+      "25": 29.8,
+      "50": 33.2,
+      "100": 36.6
+    },
+    "caudal_simulado_dia_m3s": 9.96,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:16:12.000Z",
+  "pendiente": []
+}

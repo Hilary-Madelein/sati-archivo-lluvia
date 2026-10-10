@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "faad40b927536eb746b6756407a033a3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "11:25",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios sectores (unidades educativas)",
+    "latitud": -2.114261361016912,
+    "longitud": -79.97542987593084,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas el 23/02/2026, se reportó la afectación de una unidad educativa. MINEDEC indicó que la unidad se encuentra operativa.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 90.0,
+        "max_5km_mm": 103.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 30.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 49.0,
+        "max_5km_mm": 51.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 163.0,
+      "max_5km_mm": 184.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 13.5,
+        "max_5km_mm": 14.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 29.4,
+        "max_5km_mm": 63.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 14.7,
+        "max_5km_mm": 30.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050599,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:00:40.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

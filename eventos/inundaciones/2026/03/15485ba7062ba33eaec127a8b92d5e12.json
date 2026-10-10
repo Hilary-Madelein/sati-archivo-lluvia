@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "15485ba7062ba33eaec127a8b92d5e12",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "06:00",
+    "provincia": "Guayas",
+    "canton": "Naranjal",
+    "parroquia": "Taura",
+    "sector": "Varios sectores (Jaguito, Santa Cecilia y Tierras del Campesino)",
+    "latitud": -2.344996477,
+    "longitud": -79.6924019,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de lluvias, MAG reportó la destrucción de 45 hectáreas de cultivos de arroz con un total de $45.000 dólares. Personal de MAG realizó la inspección.",
+    "personas_afectadas": 36,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 36.0,
+        "max_5km_mm": 50.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 31.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 82.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 47.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 4.6,
+        "max_5km_mm": 7.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 10.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045487,
+    "periodos_retorno_m3s": {
+      "2": 33.0,
+      "5": 53.8,
+      "10": 67.5,
+      "25": 84.9,
+      "50": 97.8,
+      "100": 110.6
+    },
+    "caudal_simulado_dia_m3s": 3.59,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:14.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "e575bcf955655abc1f213c2e69901a10",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "21:51",
+    "provincia": "Cotopaxi",
+    "canton": "La Mana",
+    "parroquia": "La Mana",
+    "sector": "Pujilí y Velasco Ibarra ref. junto a la Iglesia Evangélica",
+    "latitud": -0.944445,
+    "longitud": -79.229561,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "La noche del 08/03/2026, a causa de las lluvias registradas en el sector, se produjo el desbordamiento del estero sin nombre, lo que generó inundación en las vías del sector.  Se categoriza el nombre del evento en base a la información de la UGR Cantonal. Al momento, el estero está con su cauce normal. \r\nUGR del GAD Cantonal realizó una inspección e indica que no existe ninguna erosión hídrica en el sitio y que el agua acumulada en la calzada se evacuó por los sumideros de la vía.\r\nSNGR monitoreó el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 48.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 52.0,
+      "max_5km_mm": 57.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 34.3,
+        "max_5km_mm": 55.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 71.7,
+        "max_5km_mm": 149.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 36.4,
+        "max_5km_mm": 68.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670064891,
+    "periodos_retorno_m3s": {
+      "2": 317.7,
+      "5": 381.5,
+      "10": 423.8,
+      "25": 477.2,
+      "50": 516.9,
+      "100": 556.2
+    },
+    "caudal_simulado_dia_m3s": 70.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:28.000Z",
+  "pendiente": []
+}

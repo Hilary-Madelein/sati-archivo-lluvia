@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "feba9f4887b76dff2b1680fcff40d444",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "07:00",
+    "provincia": "Santa Elena",
+    "canton": "Salinas",
+    "parroquia": "Anconcito",
+    "sector": "Varios sectores",
+    "latitud": -2.32289957685931,
+    "longitud": -80.88961966031444,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, se registró el ingreso de agua en varias viviendas. Por lluvias suscitadas en la madrugada y mañana del 03/03/2026, se registró el ingreso de agua en varias viviendas.\r\nUGR cantonal mediante EVIN identificó 25 viviendas afectadas con ingreso de agua, sus familias se mantienen en sus hogares.\r\nSNGR realizó entrega de asistencia humanitaria.",
+    "personas_afectadas": 98,
+    "viviendas_afectadas": 25,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 34.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 46.0,
+      "max_5km_mm": 48.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 21.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 17.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 20.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670082349,
+    "periodos_retorno_m3s": {
+      "2": 12.2,
+      "5": 52.5,
+      "10": 79.2,
+      "25": 112.9,
+      "50": 138.0,
+      "100": 162.8
+    },
+    "caudal_simulado_dia_m3s": 0.25,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:53:13.000Z",
+  "pendiente": []
+}

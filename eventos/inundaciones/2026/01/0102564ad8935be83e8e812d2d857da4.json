@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "0102564ad8935be83e8e812d2d857da4",
+    "tipo": "Inundación",
+    "fecha": "2026-01-12",
+    "hora": "22:00",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Tarqui",
+    "sector": "Varios Sectores (Samanes 1, calle Elina Manzano; Sauces 6, Guayacanes 4, Manuel Garaycoa de Calderón; Km. 33 vía Perimetral; Manuel Gómez Lince; Av- Pedro Menédez Gilbert y Luis Cordero; Calle Gabriel Roldós)",
+    "latitud": -2.1065459617111877,
+    "longitud": -79.89806986836297,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la noche del 12/01/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas;  GAD Cantonal indica que en los sectores mencionados el agua drenó. MINEDEC reportó afectación de unidades educativas",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 50.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 40.0,
+      "max_5km_mm": 60.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 12.2,
+        "max_5km_mm": 14.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 5.9,
+        "max_5km_mm": 10.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060837,
+    "periodos_retorno_m3s": {
+      "2": 3348.2,
+      "5": 4478.7,
+      "10": 5227.3,
+      "25": 6173.0,
+      "50": 6874.7,
+      "100": 7571.1
+    },
+    "caudal_simulado_dia_m3s": 86.96,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:27.000Z",
+  "pendiente": []
+}

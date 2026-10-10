@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "b2f5545ea903dfba718ebf593a175ef1",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "03:30",
+    "provincia": "Cotopaxi",
+    "canton": "Pangua",
+    "parroquia": "Moraspungo",
+    "sector": "Recintos Guapara, Guaparita, Ellimon",
+    "latitud": -1.1879021634214304,
+    "longitud": -79.23574074013995,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la madrugada del 09/03/2026, se produjo el desbordamiento del río Guapara, ocasionando una inundación que afectó 1 vivienda de construcción mixta.\r\nUGR confirmó el evento y realizará el levantamiento de informe EVIN.\r\nSNGR monitorea el evento y realizó la entrega de asistencia humanitaria.\r\nCuerpo de Bomberos Moraspungo realiza la dotación de agua potable.\r\nGAD Provincial de Cotopaxi realiza el dragado del río.\r\nEl alcalde del cantón Pangua el 20/03/2026 mediante la resolución No. GADMUPAN-AL-2026-0013, DECLARA EN EMERGENCIA AL CANTÓN.\r\n Al momento, la familia damnificada retornó a su vivienda; además, el servicio de agua se ha restablecido completamente.\r\nJefatura de Agua y Alcantarillado restableció el servicio de agua potable en el sector.\r\nGAD Provincial de Cotopaxi concluyó con las labores del dragado del río.",
+    "personas_afectadas": 33,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 148.0,
+        "max_5km_mm": 154.0
+      },
+      "dia_anterior": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 175.0,
+      "max_5km_mm": 182.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 35.2,
+        "max_5km_mm": 41.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 27.9,
+        "max_5km_mm": 44.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 205.4,
+        "max_5km_mm": 207.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:05.000Z",
+  "pendiente": []
+}

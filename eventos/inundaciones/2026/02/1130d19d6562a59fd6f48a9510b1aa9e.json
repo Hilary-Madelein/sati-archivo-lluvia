@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "1130d19d6562a59fd6f48a9510b1aa9e",
+    "tipo": "Inundación",
+    "fecha": "2026-02-02",
+    "hora": "09:56",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios Sectores (Unidades Educativas)",
+    "latitud": -2.1148657177081773,
+    "longitud": -79.98819244907546,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "MINEDEC reportó las afectaciones en dos unidades educativas. Personal de MINEDEC reportó que las unidades educativas realizaron las debidas limpiezas luego que resultaran afectadas por las lluvias",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 20.0,
+      "max_5km_mm": 20.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-02T07:00:00.000Z",
+        "punto_mm": 3.9,
+        "max_5km_mm": 16.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-01T07:00:00.000Z",
+        "punto_mm": 38.3,
+        "max_5km_mm": 53.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-31T07:00:00.000Z",
+        "punto_mm": 10.8,
+        "max_5km_mm": 25.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050599,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:10:20.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

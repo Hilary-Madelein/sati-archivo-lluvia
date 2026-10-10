@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4eef30d76949d130a72c2caf3c75a0dd",
+    "tipo": "Inundación",
+    "fecha": "2026-02-25",
+    "hora": "02:00",
+    "provincia": "Zamora Chinchipe",
+    "canton": "Chinchipe",
+    "parroquia": "Zumba",
+    "sector": "Zumba",
+    "latitud": -4.878112896744764,
+    "longitud": -79.13865310316099,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la ciudad de Zumba en horas de la noche del día 24/02/2026 y madrugada del 25/02/2026, se registró la inundación en las aula de las aulas y patios , provocando que las clases de las primeras horas para algunos cursos  hayan sido interrumpidas hasta que el personal docente y cuerpo de Bomberos  realicen la limpieza y eliminación del agua dentro de las  aulas y patios . \r\n\r\n MINEDEC reportó la afectación de una unidad educativa",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 30.0,
+      "max_5km_mm": 32.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 4.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 4.2,
+        "max_5km_mm": 11.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 15.3,
+        "max_5km_mm": 23.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620727071,
+    "periodos_retorno_m3s": {
+      "2": 13.1,
+      "5": 18.5,
+      "10": 22.0,
+      "25": 26.5,
+      "50": 29.8,
+      "100": 33.1
+    },
+    "caudal_simulado_dia_m3s": 9.83,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:58:11.000Z",
+  "pendiente": []
+}

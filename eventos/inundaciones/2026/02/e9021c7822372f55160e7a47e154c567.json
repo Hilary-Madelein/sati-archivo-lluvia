@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "e9021c7822372f55160e7a47e154c567",
+    "tipo": "Inundación",
+    "fecha": "2026-02-27",
+    "hora": "16:00",
+    "provincia": "Cotopaxi",
+    "canton": "La Mana",
+    "parroquia": "Guasaganda (cab.en Guasaganda Centro)",
+    "sector": "San Antonio de Guasaganda.",
+    "latitud": -0.7875606289867261,
+    "longitud": -79.1592650272596,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas se produjo el desbordamiento del río Guasaganda provocando inundación que afectó viviendas del sector. Al momento el río se encuentra con su caudal normal.\r\nGAD Parroquial confirmó el evento.\r\nSNGR monitorea el evento y coordinó con la UGR Cantonal una inspección.\r\nUGR GAD cantonal la Maná realizó la inspección del evento y el levantamiento del informe EVIN y manifiesta que producto del desbordamiento del río se vieron afectadas 9 viviendas con el ingreso de agua afectando parcialmente a los muebles y enseres.\r\nSNGR monitorea el evento y realizó la entrega de asistencia humanitaria.\r\nNo se requiere intervención de más instituciones, por lo que se cierra el evento.  Al momento las familias afectadas se encuentran pernoctando en sus mismas viviendas y el cauce del río se encuentra normal.",
+    "personas_afectadas": 36,
+    "viviendas_afectadas": 9,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 16.0
+      },
+      "dia_anterior": {
+        "punto_mm": 30.0,
+        "max_5km_mm": 34.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 37.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 65.0,
+      "max_5km_mm": 87.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-27T07:00:00.000Z",
+        "punto_mm": 66.2,
+        "max_5km_mm": 92.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 38.4,
+        "max_5km_mm": 76.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 144.3,
+        "max_5km_mm": 190.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:26.000Z",
+  "pendiente": []
+}

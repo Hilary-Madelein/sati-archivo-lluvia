@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "c1401163938910232a86e11c8cb1a247",
+    "tipo": "Inundación",
+    "fecha": "2026-02-24",
+    "hora": "18:30",
+    "provincia": "Cotopaxi",
+    "canton": "Pujili",
+    "parroquia": "Tingo",
+    "sector": "Recta de Vélez.",
+    "latitud": -0.8972275,
+    "longitud": -79.1621821,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas la tarde del 24/02/2026, se reportó el desbordamiento del Estero Recta de Vélez, ocasionando ingreso de agua a una vivienda, afectando los enseres del hogar.\r\nSe realizaron labores de evacuación de agua y lodo en el sector afectado.\r\n\r\n La familia afectada permanece en la misma vivienda.\r\nMDH realizó la entrega de asistencia humanitaria; además, informa que realizó revisión en su registro social, donde concluye que la familia no califica para el bono de contingencia.\r\nAl momento, el estero Recta de Vélez se encuentra en su cauce normal.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 60.0
+      },
+      "dia_anterior": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 47.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 25.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 121.0,
+      "max_5km_mm": 132.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 35.1,
+        "max_5km_mm": 43.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 20.4,
+        "max_5km_mm": 51.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 3.4,
+        "max_5km_mm": 33.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057723,
+    "periodos_retorno_m3s": {
+      "2": 30.6,
+      "5": 36.5,
+      "10": 40.5,
+      "25": 45.4,
+      "50": 49.1,
+      "100": 52.8
+    },
+    "caudal_simulado_dia_m3s": 6.99,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:59:03.000Z",
+  "pendiente": []
+}

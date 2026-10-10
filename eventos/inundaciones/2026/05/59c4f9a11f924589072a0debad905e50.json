@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "59c4f9a11f924589072a0debad905e50",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "07:30",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Puerto Misahualli",
+    "sector": "Malecón de Puerto Misahualli",
+    "latitud": -1.0353840952295001,
+    "longitud": -77.66638353905431,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la noche del 20/05/2026 y que se mantuvieron hasta la mañana del 21/05/2026, se produjo el incremento del caudal de los ríos Misahuallí y Napo. Como consecuencia, el río Napo se desbordó, provocando el ingreso de agua al malecón de la parroquia Misahuallí.\r\nLa Tenencia Política de Misahuallí confirmó el evento y articuló acciones con la Capitanía de Puerto de Misahuallí, disponiendo la suspensión temporal de la navegación en el sector como medida preventiva. El ECU 911 coordinó la atención con el GAD Municipal de Tena y el Cuerpo de Bomberos de Tena.\r\nMINEDEC debido a la dificultad de los estudiantes para acudir al establecimiento educativo Juan Bautista Chimbo, resolvió cambiar la modalidad de clases a no presencial  Por este evento no se registraron viviendas afectadas. Las clases en la UE Juan Bautista chimbo se desarrollan con normalidad.  Una vez cesadas las lluvias, los ríos Napo y Misahuallí retornaron a sus niveles normales. Personal del GAD Municipal de Tena y del Cuerpo de Bomberos de Tena acudió al sitio para la atención y verificación de la situación; posteriormente, se sumó la Secretaría Nacional de Gestión de Riesgos (SNGR), que en coordinación con la Capitanía de Puerto de Misahuallí ejecutó acciones de monitoreo y seguimiento del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 5.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 55.4,
+        "max_5km_mm": 75.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 56.6,
+        "max_5km_mm": 72.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 58.2,
+        "max_5km_mm": 65.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620894736,
+    "periodos_retorno_m3s": {
+      "2": 1004.3,
+      "5": 1192.0,
+      "10": 1316.3,
+      "25": 1473.3,
+      "50": 1589.8,
+      "100": 1705.5
+    },
+    "caudal_simulado_dia_m3s": 486.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:03.000Z",
+  "pendiente": []
+}

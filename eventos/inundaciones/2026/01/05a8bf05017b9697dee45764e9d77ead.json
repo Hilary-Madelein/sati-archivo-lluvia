@@ -1,0 +1,80 @@
+{
+  "evento": {
+    "id": "05a8bf05017b9697dee45764e9d77ead",
+    "tipo": "Inundación",
+    "fecha": "2026-01-28",
+    "hora": "05:52",
+    "provincia": "Tungurahua",
+    "canton": "Ambato",
+    "parroquia": "Izamba",
+    "sector": "Calles Juan Sevilla y Pedro Vásconez.",
+    "latitud": -1.2269506689339813,
+    "longitud": -78.58877051618921,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Como consecuencia de las lluvias registradas la madrugada del 28/01/2026 se produjo el desbordamiento de una quebrada, ocasionando el colapso una parte del muro de un cerramiento y el ingreso de agua en algunas viviendas.\r\nCuerpo de Bomberos de Ambato realiza labores de succión de agua en las viviendas.\r\nSNGRE coordina con la UGR GAD Ambato una inspección.\r\n Al momento no se registran lluvias en el sector.\r\nLa UGR realizó una inspección en el lugar, donde se evidenció que la vivienda afectada se encuentra deshabitada. Asimismo, se informó que, producto del desbordamiento de la canalización de una quebrada, se produjo el colapso parcial del cerramiento y la inundación, por lo que no se requiere el levantamiento del informe EVIN.\r\nSe activó la MTT7 Cantonal para coordinar acciones frente a las afectaciones por lluvias en el cantón. Entre las resoluciones adoptadas constan: conformar un equipo técnico para la evaluación in situ, solicitar la suspensión de descargas de acequias en la quebrada Ishiguano y coordinar el trabajo para la intervención con maquinaria. La mesa permanecerá en sesión permanente y con el Plan de Contingencia activo.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 9.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 22.0,
+      "max_5km_mm": 23.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 14.3,
+        "max_5km_mm": 19.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 8.9,
+        "max_5km_mm": 16.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620947036,
+    "periodos_retorno_m3s": {
+      "2": 168.8,
+      "5": 221.7,
+      "10": 256.7,
+      "25": 300.9,
+      "50": 333.8,
+      "100": 366.3
+    },
+    "caudal_simulado_dia_m3s": 33.19,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:11:52.000Z",
+  "pendiente": []
+}

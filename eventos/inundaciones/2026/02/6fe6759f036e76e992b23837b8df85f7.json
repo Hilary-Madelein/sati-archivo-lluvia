@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "6fe6759f036e76e992b23837b8df85f7",
+    "tipo": "Inundación",
+    "fecha": "2026-02-26",
+    "hora": "05:32",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Machala",
+    "sector": "VARIOS SECTORES (AV. 25 DE JUNIO Y TARQUI, CIRCUNVALACIÓN NORTE, PALMERAS Y MARCEL LANIADO; UNIORO)",
+    "latitud": -3.259,
+    "longitud": -79.959,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas en la madrugada del 26/02/2026, se registró inundación en varios sitios de la ciudad con calles anegadas. El agua lluvia ha evacuado en los distintos sectores, al igual que GAD Machala, realizó la limpieza de alcantarillas, no se registraron afectaciones.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 47.0,
+        "max_5km_mm": 60.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 20.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 69.0,
+      "max_5km_mm": 87.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-26T07:00:00.000Z",
+        "punto_mm": 1.0,
+        "max_5km_mm": 6.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-25T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-24T07:00:00.000Z",
+        "punto_mm": 33.5,
+        "max_5km_mm": 33.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:56:39.000Z",
+  "pendiente": []
+}

@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "15479621d9682e140f0f692fca1de0d0",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "15:41",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Tumbaco",
+    "sector": "Av. Barbara Alfaro y Pasaje Quin",
+    "latitud": -0.208093,
+    "longitud": -78.38187,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por precipitaciones presentadas la tarde del 08/03/2026 en el sector, se reportaron inundaciones a viviendas ocasionadas por el desbordamiento de la quebrada El Payaso, la cual se encuentra en estado normal.  Cuerpo de Bomberos apoyó a EPMAPS en la limpieza de sumideros y en la construcción de una cuneta provisional para el desfogue de agua acumulada por el desbordamiento de la quebrada, GAD Cantonal realizó evaluación técnica descartó entrega e asistencia humanitaria ya que no sufrieron pérdidas de enseres. GAD DMQ a través de EPMMOP, EP EMSEGURIDAD y EPMAPS mantuvieron una reunión de trabajo y con apoyo de la  Administración Zona Tumbaco, ejecutó evaluación técnica, limpieza, remoción de 453 m³ de escombros y obras de mitigación (instalación de tuberías de 1000 mm, estructuras retenedoras y muros de contención). Los habitantes de las viviendas afectadas realizaron la limpieza por sus propios medios.",
+    "personas_afectadas": 8,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 14.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 31.0,
+        "max_5km_mm": 33.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 45.0,
+      "max_5km_mm": 47.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 31.0,
+        "max_5km_mm": 41.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 19.0,
+        "max_5km_mm": 19.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 11.5,
+        "max_5km_mm": 18.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670078177,
+    "periodos_retorno_m3s": {
+      "2": 27.2,
+      "5": 38.3,
+      "10": 45.7,
+      "25": 55.1,
+      "50": 62.0,
+      "100": 68.9
+    },
+    "caudal_simulado_dia_m3s": 15.26,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:08.000Z",
+  "pendiente": []
+}

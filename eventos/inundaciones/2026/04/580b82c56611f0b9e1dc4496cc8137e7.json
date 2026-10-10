@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "580b82c56611f0b9e1dc4496cc8137e7",
+    "tipo": "Inundación",
+    "fecha": "2026-04-17",
+    "hora": "10:09",
+    "provincia": "Galápagos",
+    "canton": "San Cristobal",
+    "parroquia": "Puerto Baquerizo Moreno",
+    "sector": "Barrio Frio - Playa Los Marinos",
+    "latitud": -0.905173,
+    "longitud": -89.612693,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones presentadas en las últimas horas y al crecimiento de la cañada que desemboca en Playa Los Marinos, varias embarcaciones que se encontraban varadas en la Playa donde es la desembocadura de la cañada, son arrastradas por las aguas. Gad Cantonal con Maquinaria pesada realiza zanjas para facilitar el drenaje de las aguas hacia el mar.  Los propietarios de las embarcaciones realizan acciones preventivas ubicándolas en áreas más seguras.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 43.0
+      },
+      "dia_anterior": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 6.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 67.0,
+      "max_5km_mm": 67.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670078195,
+    "periodos_retorno_m3s": {
+      "2": 3.5,
+      "5": 10.4,
+      "10": 15.0,
+      "25": 20.7,
+      "50": 25.0,
+      "100": 29.2
+    },
+    "caudal_simulado_dia_m3s": 1.75,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:31:15.000Z",
+  "pendiente": []
+}

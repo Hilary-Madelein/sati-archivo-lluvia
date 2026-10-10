@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "e03c979583d028c426d00bf7eb4d2464",
+    "tipo": "Inundación",
+    "fecha": "2026-03-10",
+    "hora": "04:00",
+    "provincia": "Bolívar",
+    "canton": "Las Naves",
+    "parroquia": "Las Naves",
+    "sector": "La Playita",
+    "latitud": -1.2888692963841506,
+    "longitud": -79.32834564271695,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas la madrugada del 10-03-2026, se produjo el desbordamiento del río Suquibí y afectó a varias viviendas por el ingreso de agua y lodo. \r\n\r\n UGR del GAD Las Naves informa que las familias no perdieron ningún tipo de enseres del hogar y se encuentran habitando en sus mismas viviendas. \r\nEl caudal del río Suquibí se encuentra en su cauce normal.",
+    "personas_afectadas": 16,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 29.0,
+        "max_5km_mm": 29.0
+      },
+      "dia_anterior": {
+        "punto_mm": 56.0,
+        "max_5km_mm": 73.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 9.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 91.0,
+      "max_5km_mm": 111.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 49.2,
+        "max_5km_mm": 76.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 81.3,
+        "max_5km_mm": 141.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 74.6,
+        "max_5km_mm": 139.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670067976,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:43:20.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

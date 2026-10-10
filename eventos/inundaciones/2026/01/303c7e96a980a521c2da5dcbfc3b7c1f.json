@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "303c7e96a980a521c2da5dcbfc3b7c1f",
+    "tipo": "Inundación",
+    "fecha": "2026-01-09",
+    "hora": "13:15",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Dorado",
+    "sector": "Colinas del Dorado",
+    "latitud": -0.5015956196399667,
+    "longitud": -76.95430890513785,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias de la madrugada de hoy 09/01/2025, se produjo el desbordamiento del río La Florida, ingresando el agua en algunos predios, las viviendas en la zona son mayormente elevadas.. .  Cuerpo de Bomberos se movilizó al sitio constatando la situación del río pero no observaron afectaciones ya que la mayoría de las casas son elevadas. \r\nCoordinación Zonal 2 de Gestión de Riesgos realizó seguimiento en territorio, realizando un recorrido por la  parroquia El Dorado, Colinas del Dorado N.° 1 y Barrio Central Sur,. ECU 911, Policía Nacional, Cuerpo de Bomberos de Orellana se mantuvieron activos y Municipio de Francisco de Orellana monitoreó la situación mediante las cámaras de videovigilancia Horas más tarde se verificó que el río  comenzó  a disminuir de nivel. No existen afectaciones",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 26.0,
+        "max_5km_mm": 37.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 28.0,
+      "max_5km_mm": 40.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-09T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-08T07:00:00.000Z",
+        "punto_mm": 71.2,
+        "max_5km_mm": 98.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-07T07:00:00.000Z",
+        "punto_mm": 32.2,
+        "max_5km_mm": 39.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620725461,
+    "periodos_retorno_m3s": {
+      "2": 28.4,
+      "5": 37.8,
+      "10": 44.0,
+      "25": 51.8,
+      "50": 57.6,
+      "100": 63.4
+    },
+    "caudal_simulado_dia_m3s": 0.43,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:43.000Z",
+  "pendiente": []
+}

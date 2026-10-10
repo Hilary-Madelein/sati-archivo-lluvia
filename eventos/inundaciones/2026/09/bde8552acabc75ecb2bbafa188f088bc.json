@@ -1,0 +1,85 @@
+{
+  "evento": {
+    "id": "bde8552acabc75ecb2bbafa188f088bc",
+    "tipo": "Inundación",
+    "fecha": "2026-09-29",
+    "hora": "07:16",
+    "provincia": "Esmeraldas",
+    "canton": "Rioverde",
+    "parroquia": "Chumunde",
+    "sector": "Meribe, Las guanta y el Popa",
+    "latitud": 1.0500211,
+    "longitud": -79.41195436,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante la mañana y tarde del 29/09/2026, se produjo el desbordamiento del río Meribe, generando inundaciones en los sectores Meribe, Las Guanta y El Popa, parroquia Chumundé.\r\n\r\n 05/10/2026 | La UGR Rioverde informa que el río Meribe ya no se encuentra desbordado y presenta tendencia a disminuir de nivel. Los sectores afectados presentan acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias ni personas afectadas. La UGR Rioverde continúa con el levantamiento de información y atención del evento. Al momento no se registran lluvias.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 19.0
+      },
+      "dia_anterior": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 46.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 62.0,
+      "max_5km_mm": 76.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-09-29T07:00:00.000Z",
+        "punto_mm": 0.5,
+        "max_5km_mm": 36.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-09-28T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 3.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-09-27T07:00:00.000Z",
+        "punto_mm": 1.5,
+        "max_5km_mm": 2.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670066871,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20260927",
+        "max_promedio_ensamble_m3s": 303.1,
+        "max_ensamble_m3s": 794.4,
+        "max_alta_resolucion_m3s": 244.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:13:02.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

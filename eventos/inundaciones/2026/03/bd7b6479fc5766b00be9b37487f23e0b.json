@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "bd7b6479fc5766b00be9b37487f23e0b",
+    "tipo": "Inundación",
+    "fecha": "2026-03-03",
+    "hora": "06:30",
+    "provincia": "Manabí",
+    "canton": "Portoviejo",
+    "parroquia": "Picoaza",
+    "sector": "Varios Sectores (Carchi, Imbabura, El Milagro, Reasentamiento)",
+    "latitud": -1.0300127785827216,
+    "longitud": -80.49115602669495,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las intensas lluvias en la madrugada del 03/03/2026, se suscitó la inundación en el sector, provocando el ingreso de agua y lodo a varias viviendas. Se procede a actualizar cifras mediante Evín Digital. SNGR CZ4 indica que se solventaron todas las necesidades de este evento. Las familias afectadas y damnificadas permanecen en sus viviendas una vez realizada la limpieza de las mismas. MDH realizó la entrega de Bonos.",
+    "personas_afectadas": 59,
+    "viviendas_afectadas": 46,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 61.0,
+        "max_5km_mm": 65.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 7.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 66.0,
+      "max_5km_mm": 76.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-03T07:00:00.000Z",
+        "punto_mm": 8.1,
+        "max_5km_mm": 16.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 40.8,
+        "max_5km_mm": 44.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 29.5,
+        "max_5km_mm": 31.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670018814,
+    "periodos_retorno_m3s": {
+      "2": 4.7,
+      "5": 9.9,
+      "10": 13.4,
+      "25": 17.9,
+      "50": 21.2,
+      "100": 24.4
+    },
+    "caudal_simulado_dia_m3s": 0.08,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:52:30.000Z",
+  "pendiente": []
+}

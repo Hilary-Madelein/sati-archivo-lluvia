@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1f1298a722a0be272d8cfbb52a3c0f8f",
+    "tipo": "Inundación",
+    "fecha": "2026-01-10",
+    "hora": "22:00",
+    "provincia": "Esmeraldas",
+    "canton": "San Lorenzo",
+    "parroquia": "Calderon",
+    "sector": "sectores Casa del Pobre y Ricaurte",
+    "latitud": 1.174119,
+    "longitud": -78.716275,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Con fecha 12/01/2026, UGR GAD Cantonal San Lorenzo informó que, debido a lluvias suscitadas la noche del sábado y madrugada del domingo, se registró el desbordamiento de los ríos Tululbí de la parroquia Calderón y río Cachaví de la parroquia San Javier de Cachaví, afectando varios sectores de las parroquias.\r\n\r\nUGR GAD Cantonal San Lorenzo confirmó el evento, indicó el dato preliminar de las familias afectadas; adicionalmente, coordina recursos para continuar con el levantamiento de información y remitir la EVIN.\r\nSNGR realiza monitoreo del evento.\r\nUGR San Lorenzo remitió la Evin.\r\nSNGR realizó la entrega de asistencia humanitaria. Al momento el río Tululbí se encuentra normal, las familias se mantienen pernoctando en sus propias viviendas, para culminar el sector ya no presenta anegamiento.",
+    "personas_afectadas": 47,
+    "viviendas_afectadas": 11,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 7.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 8.0,
+      "max_5km_mm": 9.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-10T07:00:00.000Z",
+        "punto_mm": 7.9,
+        "max_5km_mm": 11.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-09T07:00:00.000Z",
+        "punto_mm": 8.4,
+        "max_5km_mm": 9.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-08T07:00:00.000Z",
+        "punto_mm": 1.9,
+        "max_5km_mm": 3.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029998,
+    "periodos_retorno_m3s": {
+      "2": 167.3,
+      "5": 198.1,
+      "10": 218.5,
+      "25": 244.3,
+      "50": 263.5,
+      "100": 282.5
+    },
+    "caudal_simulado_dia_m3s": 17.85,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:13:38.000Z",
+  "pendiente": []
+}

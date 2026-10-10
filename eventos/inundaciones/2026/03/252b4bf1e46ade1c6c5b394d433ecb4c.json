@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "252b4bf1e46ade1c6c5b394d433ecb4c",
+    "tipo": "Inundación",
+    "fecha": "2026-03-12",
+    "hora": "07:00",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Nueve De Mayo",
+    "sector": "VARIOS SECTORES (LADRILLERA, 12 DE OCTUBRE, MI LINDO ECUADOR, LOS GIRASOLES Y GUARUMAL)",
+    "latitud": -3.310047633651101,
+    "longitud": -79.96312016916623,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas del 12/03/2026, se registró la inundación a la parroquia afectando a distintos sectores, ocasionando el ingreso de agua a varias viviendas. Las familias afectadas y damnificadas por la inundación recibieron asistencia humanitaria y se mantienen en sus viviendas, Además, en varios sectores se entrgaron  tanques de agua de 2500 lts. En relación al agua acumulada por lluvias, fue evacuada en su totalidad.",
+    "personas_afectadas": 434,
+    "viviendas_afectadas": 350,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 19.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 22.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 17.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 48.0,
+      "max_5km_mm": 63.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-12T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-11T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-10T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 3.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670019923,
+    "periodos_retorno_m3s": {
+      "2": 41.8,
+      "5": 75.2,
+      "10": 97.3,
+      "25": 125.3,
+      "50": 146.0,
+      "100": 166.6
+    },
+    "caudal_simulado_dia_m3s": 3.5,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:40:57.000Z",
+  "pendiente": []
+}

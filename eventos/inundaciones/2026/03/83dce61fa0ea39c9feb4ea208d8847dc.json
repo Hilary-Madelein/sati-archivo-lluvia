@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "83dce61fa0ea39c9feb4ea208d8847dc",
+    "tipo": "Inundación",
+    "fecha": "2026-03-24",
+    "hora": "06:10",
+    "provincia": "Guayas",
+    "canton": "Samborondon",
+    "parroquia": "Samborondón",
+    "sector": "Varios sectores (San José, jaboncilo de Afuera, Mina de Oro, Nueva Angelica, Maluk Vargas, Sabta Rosa, Villa Mercedes y Palo Largo)",
+    "latitud": -1.9767,
+    "longitud": -79.721,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "MAG reportó la afectación de 1 hectárea de cultivos de arroz con un total de $800 dólares y 127 hectáreas de cultivos de arroz con un total de $69.600 dólares. MAG realizó la inspección.",
+    "personas_afectadas": 200,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 8.0,
+        "max_5km_mm": 8.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 18.0,
+      "max_5km_mm": 20.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-24T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-22T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050593,
+    "periodos_retorno_m3s": {
+      "2": 99.0,
+      "5": 142.3,
+      "10": 171.0,
+      "25": 207.2,
+      "50": 234.1,
+      "100": 260.8
+    },
+    "caudal_simulado_dia_m3s": 7.33,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:35:23.000Z",
+  "pendiente": []
+}

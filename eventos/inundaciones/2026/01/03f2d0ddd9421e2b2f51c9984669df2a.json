@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "03f2d0ddd9421e2b2f51c9984669df2a",
+    "tipo": "Inundación",
+    "fecha": "2026-01-13",
+    "hora": "09:00",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Ventanas",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA ESPECIAL VENTANAS",
+    "latitud": -1.451242,
+    "longitud": -79.467823,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias en el cantón, se reporta acumulación de aguas lluvias, dejando consigo afectación funcional en una unidad educativa (Escuela De Educación Básica Especial Ventanas) Personal técnico de MINEDEC asistió al sitio para verificación de novedades el 13/01/2026, reportando que en horas de la tarde se visualizó leve presencia de agua en el lugar y las clases continúan virtualmente, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 51.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 43.0,
+      "max_5km_mm": 57.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-13T07:00:00.000Z",
+        "punto_mm": 6.1,
+        "max_5km_mm": 9.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-12T07:00:00.000Z",
+        "punto_mm": 12.3,
+        "max_5km_mm": 21.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-11T07:00:00.000Z",
+        "punto_mm": 26.9,
+        "max_5km_mm": 28.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060814,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:13:14.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

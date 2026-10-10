@@ -1,0 +1,58 @@
+{
+  "evento": {
+    "id": "945cb54c00d5bf13f2558ae9b47e8b17",
+    "tipo": "Inundación",
+    "fecha": "2025-11-06",
+    "hora": "12:13",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Conocoto",
+    "sector": "Conjunto El Portal de Andalucía",
+    "latitud": -0.284471,
+    "longitud": -78.489202,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias se reportaron varias viviendas del Conjunto Habitacional afectadas por una inundación, cuyo nivel de agua alcanzó aproximadamente 12 centímetros. Las personas afectadas permanecieron en sus viviendas.  GAD Cantonal Operativo Zonal confirmó la emergencia así también con EPMAPS GAD Pichincha y la EPMMOP realizaron una evaluación de daños en las viviendas afectadas, en vialidad, en el sistema de aguas lluvias de la calzada de un desfogue técnico adecuado, coordinaron entrega de asistencia humanitaria, trabajos de intervención inmediata y medidas de mitigación\r\n08/11/2025 El Operativo Zonal realizó la entrega de asistencia humanitaria a 7 familias afectadas.\r\n13/12/2025 GAD Cantonal EPMAPS ejecutó labores de limpieza y evaluación de la red del sistema de alcantarillado como medida de mitigación del riesgo; Operativo Zonal Los Chillos informó que en fechas próximas se gestionará la entrega del fondo de reposición de enseres. Los propietarios efectuaron la limpieza de sus viviendas y, en ciertos casos, realizaron trabajos correctivos en desagües y paredes. Todas las familias afectadas permanecieron en sus viviendas.",
+    "personas_afectadas": 26,
+    "viviendas_afectadas": 12,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 6.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 16.0,
+      "max_5km_mm": 20.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670092519,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:14:44.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

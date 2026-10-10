@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "224ef5790ea56df367740bd4fd20132e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "08:59",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "VARIOS SECTORES: MACARIO VALAREZO, MARIANA DE JESÚS.",
+    "latitud": -3.364449,
+    "longitud": -79.843335,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas el día 08/03/2026, se registró el desbordamiento del río Buenavista, ocasionando afectaciones a varias viviendas por el ingreso de agua.  Se informa que el río Buenavista se encuentra dentro de sus parámetros normales y las familias fueron beneficiadas por el bono de contingencia y se mantienen en sus domicilios.",
+    "personas_afectadas": 26,
+    "viviendas_afectadas": 15,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 10.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 26.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 28.0,
+      "max_5km_mm": 36.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 6.5,
+        "max_5km_mm": 8.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 1.3,
+        "max_5km_mm": 5.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 0.2,
+        "max_5km_mm": 0.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670029140,
+    "periodos_retorno_m3s": {
+      "2": 46.1,
+      "5": 75.9,
+      "10": 95.6,
+      "25": 120.6,
+      "50": 139.1,
+      "100": 157.5
+    },
+    "caudal_simulado_dia_m3s": 9.28,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:44:41.000Z",
+  "pendiente": []
+}

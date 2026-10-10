@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "1fd3d5b68cf590040f7340c7bbbad580",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "10:00",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Tena",
+    "sector": "Ahuano",
+    "latitud": -1.0568761563438407,
+    "longitud": -77.54748830492075,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias se produjo el incremento y posterior desbordamiento del río Napo. A si mismo debido a la suspensión del transporte fluvial por las condiciones del río, MINEDEC cambió las clases a no presencial con apoyo de fichas pedagógicas. Debido al desbordamiento, también se registró ingreso de agua en viviendas. SNGR coordinó con GAD M de Tena, el levantamiento de información.  Por la tarde, el río comenzó a descender paulatinamente. GAD M de Tena no identificó daños en viviendas. MINEDEC retomó las actividades escolares al siguiente día del evento, 22/05/2026.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 4.0,
+      "max_5km_mm": 6.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 26.4,
+        "max_5km_mm": 38.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 37.8,
+        "max_5km_mm": 53.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 28.1,
+        "max_5km_mm": 50.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620902995,
+    "periodos_retorno_m3s": {
+      "2": 483.8,
+      "5": 659.1,
+      "10": 775.2,
+      "25": 921.8,
+      "50": 1030.6,
+      "100": 1138.6
+    },
+    "caudal_simulado_dia_m3s": 210.68,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:29.000Z",
+  "pendiente": []
+}

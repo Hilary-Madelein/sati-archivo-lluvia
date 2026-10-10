@@ -1,0 +1,58 @@
+{
+  "evento": {
+    "id": "e396400fcd3d58653ba97863f8d1bbc0",
+    "tipo": "Inundación",
+    "fecha": "2025-11-01",
+    "hora": "15:33",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Conocoto",
+    "sector": "Varios sectores",
+    "latitud": -0.292945,
+    "longitud": -78.490238,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias la tarde del 01/11/2025, se reportó la obstrucción del sistema de alcantarillado que provocó el ingreso y acumulación de agua, al interior de varias viviendas. Los sectores afectados fueron: Santa Mónica /Vista hermosa/Cordillera del Condor  Culminado los trabajos de limpieza y evacuación del agua acumulada\r\n\r\nEl Cuerpo de Bomberos de Quito colaboró en las labores de evacuación de agua y lodo en los inmuebles afectados. La Empresa Metropolitana de Alcantarillado de Quito realizó la limpieza del sistema de alcantarillado del sector. Los sectores quedaron sin mayores novedades y no fue necesaria la entrega de asistencia humanitaria",
+    "personas_afectadas": 24,
+    "viviendas_afectadas": 6,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 20.0
+      },
+      "dia_anterior": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 23.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 54.0,
+      "max_5km_mm": 54.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670092519,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:15:01.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

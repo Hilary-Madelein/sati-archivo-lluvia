@@ -1,0 +1,71 @@
+{
+  "evento": {
+    "id": "88aaab89209dfdfd5a0dbf5408f54235",
+    "tipo": "Inundación",
+    "fecha": "2026-01-25",
+    "hora": "07:46",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Santo Domingo De Los Colorados",
+    "sector": "Calle Hernán Cortez y calle Rodrigo de Triana. Atrás de la iglesia de los Mormones.",
+    "latitud": -0.2612788959639067,
+    "longitud": -79.17549471620191,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la madrugada del 25/01/2026, se suscitó el taponamiento de la alcantarilla donde pasa un estero S/N. En el sitio existen viviendas construidas en las quebrada y riberas del rio, lo que provocó el ingreso de agua en la parte posterior de las mismas, cabe indicar que la parte posterior de las viviendas no se encuentran habitadas, de igual manera las viviendas son dos plantas.  Al momento no existe presencia de lluvias",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 10.0,
+        "max_5km_mm": 12.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 23.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 73.0,
+      "max_5km_mm": 79.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-24T07:00:00.000Z",
+        "punto_mm": 33.1,
+        "max_5km_mm": 59.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-23T07:00:00.000Z",
+        "punto_mm": 25.2,
+        "max_5km_mm": 29.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:12:35.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

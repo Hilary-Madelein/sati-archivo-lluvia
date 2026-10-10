@@ -1,0 +1,67 @@
+{
+  "evento": {
+    "id": "1820c6c4ad2350b84a54600d554bd325",
+    "tipo": "Inundación",
+    "fecha": "2025-11-15",
+    "hora": "09:50",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Flor de Oriente",
+    "latitud": -0.4972069060193737,
+    "longitud": -76.98171370316386,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias desde la madrugada hasta aproximadamente las 10:30 de la mañana y por la falta de canales de desfogue del agua lluvia, calles y viviendas se  inundaron en varios sectores de El Coca, siendo el barrio Flor de Oriente, el barrio más afectado.  GAD Municipal de Francisco de Orellana envió maquinaria para la apertura de canales con apoyo del Ministerio de Infraestructura y Transporte. Cuerpo de Bomberos de Francisco de Orellana acudió para evacuar el agua.  El 18/11/2025, el Ministerio de Desarrollo Humano, entregó kits de vestir a las familias afectadas, mientras que el Ministerio de Salud se desplazó a la zona para brindar atención médica en pediatría, medicina general, medicina integral, odontología, entre otros servicios.\r\nGAD Municipal de Francisco de Orellana coordinó con SNGR la intervención con asistencia humanitaria.",
+    "personas_afectadas": 17,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 4.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 24.0,
+      "max_5km_mm": 28.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [],
+    "disponible": false
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620929107,
+    "periodos_retorno_m3s": {
+      "2": 3396.7,
+      "5": 4322.6,
+      "10": 4935.5,
+      "25": 5710.0,
+      "50": 6284.6,
+      "100": 6854.9
+    },
+    "caudal_simulado_dia_m3s": 713.15,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:14:40.000Z",
+  "pendiente": []
+}

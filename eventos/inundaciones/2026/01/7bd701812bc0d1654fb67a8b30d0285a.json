@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "7bd701812bc0d1654fb67a8b30d0285a",
+    "tipo": "Inundación",
+    "fecha": "2026-01-29",
+    "hora": "06:30",
+    "provincia": "Napo",
+    "canton": "Tena",
+    "parroquia": "Chontapunta",
+    "sector": "Sector Agua Santa, UNIDAD EDUCATIVA NUMA POMPILLO LLONA",
+    "latitud": -0.858202530608805,
+    "longitud": -77.2556813900389,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Las intensas precipitaciones, sumadas al desbordamiento del estero colindante y a inconvenientes en el sistema de alcantarillado, provocaron acumulación de agua en varios espacios del plantel, afectando las condiciones normales de funcionamiento. Como consecuencia, se  registró una asistencia aproximada del 75 % de la población estudiantil, Una vez realizada la limpieza en la Unidad Educativa Numa Pompillo, al momento esta funcionando con normalidad. MINEDEC confirmó la situación. SNGR realizó monitoreo.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 53.0,
+        "max_5km_mm": 58.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 16.0,
+        "max_5km_mm": 18.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 91.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-01-29T07:00:00.000Z",
+        "punto_mm": 15.0,
+        "max_5km_mm": 38.7
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-01-28T07:00:00.000Z",
+        "punto_mm": 4.7,
+        "max_5km_mm": 10.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-01-27T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620963529,
+    "periodos_retorno_m3s": {
+      "2": 2468.0,
+      "5": 3151.3,
+      "10": 3603.7,
+      "25": 4175.3,
+      "50": 4599.4,
+      "100": 5020.3
+    },
+    "caudal_simulado_dia_m3s": 818.57,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:12:01.000Z",
+  "pendiente": []
+}

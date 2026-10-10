@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "a15b0e71d1008dd0f1c7f18f9fd74fe9",
+    "tipo": "Inundación",
+    "fecha": "2026-03-08",
+    "hora": "04:00",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "San Gregorio",
+    "sector": "Recintos: Las Delicias, Contrera, San Jacinto, Balsalito y Guadurnal",
+    "latitud": 0.574,
+    "longitud": -79.884,
+    "nivel": 3,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada y la mañana del 08/03/2026, se produjo el desbordamiento de los ríos Muisne, Canuto, Sucio y Repartidero, generando inundaciones en varios recintos de la parroquia. Asimismo, la vía de primer orden E15, en el tramo Y del Salto (Esmeraldas?Manabí), permaneció cerrada temporalmente debido al desbordamiento del río Sucio. La UGR del GAD Cantonal Muisne realizó recorridos de verificación en los sectores afectados. Por su parte, el GAD Cantonal de Muisne sesionó mediante la plataforma Zoom y coordinó la gestión de recursos para la atención de la emergencia, manteniéndose activo de forma permanente. UGR GAD Cantonal Muisne informa que los sectores ya no se encuentran anegados; los ríos ya no están desbordados. Las familias afectadas se mantienen pernoctando en sus viviendas. La vía de primer orden E[15] Y del Salto se encuentra habilitada.",
+    "personas_afectadas": 4467,
+    "viviendas_afectadas": 1216,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 37.0,
+        "max_5km_mm": 71.0
+      },
+      "dia_anterior": {
+        "punto_mm": 12.0,
+        "max_5km_mm": 13.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 12.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 58.0,
+      "max_5km_mm": 96.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 2.0,
+        "max_5km_mm": 19.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 1.4,
+        "max_5km_mm": 4.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670062788,
+    "periodos_retorno_m3s": {
+      "2": 29.9,
+      "5": 51.6,
+      "10": 66.0,
+      "25": 84.2,
+      "50": 97.7,
+      "100": 111.1
+    },
+    "caudal_simulado_dia_m3s": 4.94,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:46:23.000Z",
+  "pendiente": []
+}

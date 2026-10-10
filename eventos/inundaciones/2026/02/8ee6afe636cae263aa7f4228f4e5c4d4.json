@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "8ee6afe636cae263aa7f4228f4e5c4d4",
+    "tipo": "Inundación",
+    "fecha": "2026-02-23",
+    "hora": "06:33",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "Eloy Alfaro (duran)",
+    "sector": "Varios Sectores ( Cdla Panorama)",
+    "latitud": -2.1884652477262825,
+    "longitud": -79.81665484507123,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las fuertes lluvias registradas durante la madrugada del 23/02/2026, se produjo acumulación de agua en varios sectores  GAD Cantonal informa que el agua drenó y las calles quedaron expeditas al tránsito vehicular",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 87.0,
+        "max_5km_mm": 109.0
+      },
+      "dia_anterior": {
+        "punto_mm": 17.0,
+        "max_5km_mm": 23.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 43.0,
+        "max_5km_mm": 49.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 147.0,
+      "max_5km_mm": 181.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-23T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 5.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-22T07:00:00.000Z",
+        "punto_mm": 70.0,
+        "max_5km_mm": 71.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-21T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670070056,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:59:35.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

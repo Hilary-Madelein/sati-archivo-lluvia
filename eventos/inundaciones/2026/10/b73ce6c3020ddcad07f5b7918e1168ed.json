@@ -1,0 +1,73 @@
+{
+  "evento": {
+    "id": "b73ce6c3020ddcad07f5b7918e1168ed",
+    "tipo": "Inundación",
+    "fecha": "2026-10-05",
+    "hora": "19:40",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Abraham Calazacon",
+    "sector": "Sector Coop Plan de vivienda barrio 14 de junio",
+    "latitud": -0.26047180580232104,
+    "longitud": -79.20952886784,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias suscitadas el 5/10/2026, se produjo la anegación de agua en el sector, por el taponamiento del alcantarillado, provocando el ingreso de agua a viviendas del lugar. Al momento, se mantiene el monitoreo de la situación y se coordinan acciones para la atención y evaluación de la afectación.\r\nGAD Santo Domingo coordina con EMAPA SD para la limpieza de alcantarillas.\r\nSNGR coordinó con la UGR GAD Santo Domingo la evaluación de daños y necesidades. \r\nACM verificó el evento mediante material fotográfico.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 41.0,
+        "max_5km_mm": 44.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 40.0,
+        "max_5km_mm": 57.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 92.0,
+      "max_5km_mm": 114.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-05T07:00:00.000Z",
+        "punto_mm": 40.9,
+        "max_5km_mm": 66.4
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670063844,
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261005",
+        "max_promedio_ensamble_m3s": 2.7,
+        "max_ensamble_m3s": 20.3,
+        "max_alta_resolucion_m3s": 5.1
+      }
+    ],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:10:33.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

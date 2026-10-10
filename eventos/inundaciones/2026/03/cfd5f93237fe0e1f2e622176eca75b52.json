@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "cfd5f93237fe0e1f2e622176eca75b52",
+    "tipo": "Inundación",
+    "fecha": "2026-03-15",
+    "hora": "04:47",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "10 De Noviembre",
+    "sector": "EL MIRADOR, JEAN CARLOS CARRIEL, RÍO VENTANAS",
+    "latitud": -1.437789,
+    "longitud": -79.471011,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia del aumento del caudal en los cantones vecinos, en la mañana del 15/03/2026, se reporta desbordamiento del río Ventanas, reportando 94 viviendas con 94 familias de 166 personas afectadas. UGR Ventanas realizó verificación de novedades el 07/04/2026 y ratificó los datos del informe ejecutivo del EVIN digital. Actualmente, el caudal del río Ventanas se encuentra en su nivel normal; las familias se mantienen en sus viviendas sin presencia de agua.",
+    "personas_afectadas": 166,
+    "viviendas_afectadas": 94,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 13.0,
+      "max_5km_mm": 14.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-15T07:00:00.000Z",
+        "punto_mm": 135.6,
+        "max_5km_mm": 173.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-14T07:00:00.000Z",
+        "punto_mm": 93.6,
+        "max_5km_mm": 133.8
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-13T07:00:00.000Z",
+        "punto_mm": 30.8,
+        "max_5km_mm": 116.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060814,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:38:11.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

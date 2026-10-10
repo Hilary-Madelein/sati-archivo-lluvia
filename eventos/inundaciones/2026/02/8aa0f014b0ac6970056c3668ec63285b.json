@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "8aa0f014b0ac6970056c3668ec63285b",
+    "tipo": "Inundación",
+    "fecha": "2026-02-09",
+    "hora": "00:45",
+    "provincia": "Los Ríos",
+    "canton": "Montalvo",
+    "parroquia": "Montalvo",
+    "sector": "SAN ANTONIO DE LAS BASTIDAS",
+    "latitud": -1.786849,
+    "longitud": -79.285255,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 09/02/2026 se reportó acumulación de aguas lluvias con ingreso a 3 viviendas de 3 familias con 12 personas afectadas.  UGR Montalvo realizó verificación de novedades en la zona afectada el 10/02/2026, reportando que en el sitio no existe presencia de agua, las familias se mantienen en sus viviendas sin presencia de agua, por tal motivo se procede a dar por finalizado el evento.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      },
+      "dia_anterior": {
+        "punto_mm": 35.0,
+        "max_5km_mm": 37.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 44.0,
+        "max_5km_mm": 45.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 90.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-09T07:00:00.000Z",
+        "punto_mm": 70.1,
+        "max_5km_mm": 75.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-08T07:00:00.000Z",
+        "punto_mm": 4.0,
+        "max_5km_mm": 10.3
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 3.7,
+        "max_5km_mm": 6.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670057754,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:05:57.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

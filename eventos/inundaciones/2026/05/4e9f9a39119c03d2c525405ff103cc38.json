@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "4e9f9a39119c03d2c525405ff103cc38",
+    "tipo": "Inundación",
+    "fecha": "2026-05-21",
+    "hora": "19:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "La Belleza",
+    "sector": "Inga Urko",
+    "latitud": -0.75075,
+    "longitud": -77.140954,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias en la cuenca del río Napo, se produjo el incremento del río Napo, causando su desbordamiento en la comunidad.  Comité Comunitario de Gestión de Riesgos de Inga Urko confirmó el evento. GAD M Francisco de Orellana levantó ficha EVIN. Mediante oficio Nro. SNGR-CZ2GR-2026-0309-O del 16 de julio de 2026, la SNGR solicitó al MAGP un informe técnico sobre afectaciones en Orellana; no obstante, a la fecha no se ha recibido respuesta de dicha entidad.",
+    "personas_afectadas": 53,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 11.0
+      },
+      "dia_anterior": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 4.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 15.0,
+      "max_5km_mm": 15.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-05-21T07:00:00.000Z",
+        "punto_mm": 3.1,
+        "max_5km_mm": 31.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-05-20T07:00:00.000Z",
+        "punto_mm": 0.6,
+        "max_5km_mm": 6.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-05-19T07:00:00.000Z",
+        "punto_mm": 91.6,
+        "max_5km_mm": 97.1
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 620999299,
+    "periodos_retorno_m3s": {
+      "2": 2479.3,
+      "5": 3154.4,
+      "10": 3601.4,
+      "25": 4166.1,
+      "50": 4585.1,
+      "100": 5001.0
+    },
+    "caudal_simulado_dia_m3s": 975.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:26:22.000Z",
+  "pendiente": []
+}

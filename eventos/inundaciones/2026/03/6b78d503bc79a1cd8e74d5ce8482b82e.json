@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "6b78d503bc79a1cd8e74d5ce8482b82e",
+    "tipo": "Inundación",
+    "fecha": "2026-03-20",
+    "hora": "09:20",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Abraham Calazacon",
+    "sector": "UNIDAD EDUCATIVA ?MENTOR GAMBOA COLLANTES?",
+    "latitud": -0.26394083946079727,
+    "longitud": -79.19663746177739,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "La rectora de la Unidad Educativa \"Méntor Gamboa Collantes\" informa que, debido a las fuertes lluvias registradas durante la noche del 19 y la mañana del 20 de marzo de 2026, se produjo la acumulación y estancamiento de agua en el patio institucional, generando inundación en la parte baja del Bloque 1, posiblemente debido a la insuficiencia de capacidad o taponamiento de los sumideros, lo que impide la adecuada evacuación del agua. \r\n Esta problemática se ha presentado en temporadas invernales anteriores. Al momento, la unidad educativa no se encuentra inundada.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 13.0,
+        "max_5km_mm": 14.0
+      },
+      "dia_anterior": {
+        "punto_mm": 21.0,
+        "max_5km_mm": 29.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 46.0,
+        "max_5km_mm": 46.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 80.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-20T07:00:00.000Z",
+        "punto_mm": 33.6,
+        "max_5km_mm": 88.0
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-19T07:00:00.000Z",
+        "punto_mm": 59.1,
+        "max_5km_mm": 94.0
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-18T07:00:00.000Z",
+        "punto_mm": 64.2,
+        "max_5km_mm": 90.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670040292,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:35:55.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

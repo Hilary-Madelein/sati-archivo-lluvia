@@ -1,0 +1,74 @@
+{
+  "evento": {
+    "id": "2a5efa38e778bb2882645909ff7a2ab3",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "06:27",
+    "provincia": "El Oro",
+    "canton": "Machala",
+    "parroquia": "Jambelí",
+    "sector": "VARIOS SECTORES",
+    "latitud": -3.25805,
+    "longitud": -79.969216,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias suscitadas durante la madrugada del 07/02/2026, se registró inundación, a causa del evento varias viviendas fueron  afectadas por ingreso de agua.\r\n El agua lluvia de calles y viviendas ha evacuado luego de la limpieza de alcantarillas, realizada por parte de AGUAS Machala.\r\nUGR de GAD Cantonal, mediate inpección realizada constató que no se registraron daños materiales por lo cual no amerita entrega de asistencia humanitaria.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 34.0,
+        "max_5km_mm": 44.0
+      },
+      "dia_anterior": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 1.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 39.0,
+      "max_5km_mm": 52.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-07T07:00:00.000Z",
+        "punto_mm": 8.7,
+        "max_5km_mm": 20.8
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-06T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.1
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-05T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 1.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": null,
+    "disponible": false
+  },
+  "procesado": "2026-10-10T01:07:10.000Z",
+  "pendiente": []
+}

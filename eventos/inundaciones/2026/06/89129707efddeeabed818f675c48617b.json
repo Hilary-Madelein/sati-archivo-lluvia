@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "89129707efddeeabed818f675c48617b",
+    "tipo": "Inundación",
+    "fecha": "2026-06-08",
+    "hora": "21:50",
+    "provincia": "Guayas",
+    "canton": "Guayaquil",
+    "parroquia": "Pascuales",
+    "sector": "Varios sectores (Bastión Popular, Av. 38E NO Vía Perimetral y Honorato Vásquez, Limoncocha y 6to. Callejón, Mucho Lote, Av. Gómez Lince, Socio Vivienda 1, Las Orquídeas, Roberto Estrada Guzmán, Av. Manuel Gómez Lince)",
+    "latitud": -2.066029,
+    "longitud": -79.910641,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 08/06/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informó que el agua drenó y las calles quedaron expeditas al tránsito vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 65.0,
+        "max_5km_mm": 68.0
+      },
+      "dia_anterior": {
+        "punto_mm": 4.0,
+        "max_5km_mm": 7.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 5.0,
+        "max_5km_mm": 5.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 74.0,
+      "max_5km_mm": 80.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-06-08T07:00:00.000Z",
+        "punto_mm": 1.7,
+        "max_5km_mm": 5.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-06-07T07:00:00.000Z",
+        "punto_mm": 3.7,
+        "max_5km_mm": 12.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-06-06T07:00:00.000Z",
+        "punto_mm": 2.3,
+        "max_5km_mm": 7.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670060837,
+    "periodos_retorno_m3s": {
+      "2": 3348.2,
+      "5": 4478.7,
+      "10": 5227.3,
+      "25": 6173.0,
+      "50": 6874.7,
+      "100": 7571.1
+    },
+    "caudal_simulado_dia_m3s": 319.67,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:23:54.000Z",
+  "pendiente": []
+}

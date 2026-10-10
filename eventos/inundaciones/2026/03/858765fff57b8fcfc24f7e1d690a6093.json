@@ -1,0 +1,77 @@
+{
+  "evento": {
+    "id": "858765fff57b8fcfc24f7e1d690a6093",
+    "tipo": "Inundación",
+    "fecha": "2026-03-09",
+    "hora": "04:40",
+    "provincia": "Los Ríos",
+    "canton": "Quinsaloma",
+    "parroquia": "Quinsaloma",
+    "sector": "LORENA, GUABITO, CERRITO, MAMEY, SAN GABRIEL, SAN VICENTE, FRUTA DE PAN-CHIPE, RÍO CALOPE, RÍO CALABÍ, RÍO UMBE",
+    "latitud": -1.204732,
+    "longitud": -79.320113,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 09/03/2026, se reporta el desbordamiento de los caudales, afectando a varias viviendas de los recintos mencionados, en donde hasta el momento se reportan 270 viviendas de 270 familias afectadas, con 1080 personas afectadas y 2 unidades educativas afectadas funcionalmente (Escuela de Educación Básica 1 de Mayo, Escuela de Educación Básica Ayacucho), 51,5 ha afectadas (arroz, cacao, maíz, plátano) de 38 productores, por lo que se toman en cuenta los ya levantados en el EVIN digital. Actualmente, el caudal permanece en su cauce normal, mientras que las familias continúan en sus viviendas sin presencia de agua y se procedió con la actualización de afectaciones en base a matriz de técnico de UPREA; por tal motivo, damos por finalizado el evento.",
+    "personas_afectadas": 1080,
+    "viviendas_afectadas": 270,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 93.0,
+        "max_5km_mm": 161.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 3.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 20.0,
+        "max_5km_mm": 24.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 115.0,
+      "max_5km_mm": 188.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-09T07:00:00.000Z",
+        "punto_mm": 7.3,
+        "max_5km_mm": 38.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-08T07:00:00.000Z",
+        "punto_mm": 31.0,
+        "max_5km_mm": 58.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-03-07T07:00:00.000Z",
+        "punto_mm": 108.4,
+        "max_5km_mm": 174.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670050567,
+    "pronostico_para_ese_dia": [],
+    "disponible": false
+  },
+  "procesado": "2026-10-10T00:45:04.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

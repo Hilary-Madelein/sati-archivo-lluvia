@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "722ac993ce9e00504732bbb41dd05c03",
+    "tipo": "Inundación",
+    "fecha": "2026-02-18",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Puebloviejo",
+    "parroquia": "San Juan",
+    "sector": "BARRAGANETE, LA COOPERATIVA, LA MARIA 1, LA PITAYA, LAS CRUCES, LOS TRONCOS, NORCOROZAL, RCTO. FLORENCIA, RCTO, COROZAL, RCTO. PECHICHE, TIERRA COLORADA",
+    "latitud": -1.651838,
+    "longitud": -79.500356,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 18/02/2026, se reportó acumulación de aguas lluvias, en donde al momento no se tiene reporte de viviendas afectadas, 3 unidades educativas afectadas funcionalmente (Unidad Educativa San Juan, Escuela de Educación Básica Hilda Márquez Cerezo, Escuela de Educación Especial Carlos Ortega Gonzales), 81 ha de (arroz, cacao) con 35,2 ha de pérdida (arroz, cacao, maíz) con 60 productores (60 familias de 240 personas afectadas). UGR Puebloviejo culminó el barrido en la zona afectada, reportando que no se realizará levantamiento EVIN del evento y que actualmente en el sitio no se reportan afectaciones; el nivel de acumulación de aguas lluvias está descendiendo, las familias continúan con normalidad en sus viviendas y las clases continúan con normalidad sin presencia de agua; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 240,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 71.0,
+        "max_5km_mm": 94.0
+      },
+      "dia_anterior": {
+        "punto_mm": 9.0,
+        "max_5km_mm": 10.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 83.0,
+      "max_5km_mm": 112.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-02-18T07:00:00.000Z",
+        "punto_mm": 41.1,
+        "max_5km_mm": 77.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-02-17T07:00:00.000Z",
+        "punto_mm": 10.4,
+        "max_5km_mm": 25.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-16T07:00:00.000Z",
+        "punto_mm": 81.7,
+        "max_5km_mm": 88.2
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670041366,
+    "periodos_retorno_m3s": {
+      "2": 29.2,
+      "5": 38.7,
+      "10": 45.0,
+      "25": 53.0,
+      "50": 58.8,
+      "100": 64.7
+    },
+    "caudal_simulado_dia_m3s": 14.44,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T01:03:43.000Z",
+  "pendiente": []
+}

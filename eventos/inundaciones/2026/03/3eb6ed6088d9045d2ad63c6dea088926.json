@@ -1,0 +1,86 @@
+{
+  "evento": {
+    "id": "3eb6ed6088d9045d2ad63c6dea088926",
+    "tipo": "Inundación",
+    "fecha": "2026-03-02",
+    "hora": "14:24",
+    "provincia": "Esmeraldas",
+    "canton": "Atacames",
+    "parroquia": "La Union",
+    "sector": "Varios Sectores.",
+    "latitud": 0.730588,
+    "longitud": -79.847274,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada y mañana del 02/03/2026, se registró el desbordamiento del río Atacames, inundando varios sectores de la parroquia. UGR Atacames confirmó el evento; asimismo, realizó inspecciones para determinar afectaciones. El GAD Atacames informa que no realizará la atención al evento de inundación registrado con fecha 02/03/2026, debido a que el 04/03/2026 se presentó el mismo evento, registrándose la misma afectación. En tal sentido, se procederá a atender el evento correspondiente al 04/03/2026, el cual se encuentra registrado con los siguientes códigos: 59529 2026-01861 ISP-0096-INU-ESM-04032026.",
+    "personas_afectadas": 427,
+    "viviendas_afectadas": 100,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 83.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 4.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 6.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 66.0,
+      "max_5km_mm": 95.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-03-02T07:00:00.000Z",
+        "punto_mm": 19.8,
+        "max_5km_mm": 23.1
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-03-01T07:00:00.000Z",
+        "punto_mm": 26.4,
+        "max_5km_mm": 30.6
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-02-28T07:00:00.000Z",
+        "punto_mm": 10.5,
+        "max_5km_mm": 12.8
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670056639,
+    "periodos_retorno_m3s": {
+      "2": 32.8,
+      "5": 63.0,
+      "10": 83.0,
+      "25": 108.2,
+      "50": 127.0,
+      "100": 145.6
+    },
+    "caudal_simulado_dia_m3s": 7.1,
+    "simulacion_hasta": "2026-09-30",
+    "supera_periodo_anos": 0,
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-10T00:54:44.000Z",
+  "pendiente": []
+}
