@@ -1,0 +1,97 @@
+{
+  "evento": {
+    "id": "914a3821b4d2ef9bcf1b8b48efb05624",
+    "tipo": "Inundación",
+    "fecha": "2026-10-10",
+    "hora": "15:30",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "La Union",
+    "sector": "Recinto El 200, sector La Isla.",
+    "latitud": 0.103412,
+    "longitud": -79.346447,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas en la madrugada del 10/10/2026 en las zonas altas, se produjo el incremento del caudal y posterior desbordamiento del río Blanco, generando inundaciones en el sector. UGR Quinindé informa que el río Blanco continúa desbordado, registrándose calles anegadas en el sector; las personas afectadas se encuentran en casas de acogida. Al momento, no se registran precipitaciones en el sector.\r\nAFECTACIONES:\r\n* Familias afectadas (bajo evaluación).\r\n* Personas afectadas (bajo evaluación).\r\n* Viviendas afectadas (bajo evaluación).\r\n* Calles anegadas (bajo evaluación)",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": null,
+      "dia_anterior": null,
+      "dos_dias_antes": null
+    },
+    "disponible": false
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 28.3,
+        "max_5km_mm": 70.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 41.6,
+        "max_5km_mm": 63.2
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 47.9,
+        "max_5km_mm": 82.6
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670085334,
+    "periodos_retorno_m3s": {
+      "2": 1683.3,
+      "5": 2070.9,
+      "10": 2327.6,
+      "25": 2651.9,
+      "50": 2892.5,
+      "100": 3131.3
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261010",
+        "max_promedio_ensamble_m3s": 613.2,
+        "max_ensamble_m3s": 1331.0,
+        "max_alta_resolucion_m3s": 614.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 803.6,
+        "max_ensamble_m3s": 1983.7,
+        "max_alta_resolucion_m3s": 658.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 811.2,
+        "max_ensamble_m3s": 1945.1,
+        "max_alta_resolucion_m3s": 701.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-11T18:43:54.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)",
+    "lluvia observada (el satélite aún no publica algún día)"
+  ]
+}

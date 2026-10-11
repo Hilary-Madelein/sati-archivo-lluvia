@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "b06691cf633fad2d4d41426482d36c17",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "16:00",
+    "provincia": "Bolívar",
+    "canton": "Guaranda",
+    "parroquia": "Guanujo",
+    "sector": "Calle Dr Alfaro Augusto del Pozo",
+    "latitud": -1.5675381597814002,
+    "longitud": -79.00489312391733,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas la tarde del 09/10/2026 en el sector, se produjo el colapso de la alcantarilla provocando que las calles se inunden e ingrese agua a las viviendas. Las personas afectadas permanecieron en sus viviendas, al momento las calles se encuentran despejadas y en condiciones normales",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 3.0,
+        "max_5km_mm": 3.0
+      },
+      "dia_anterior": {
+        "punto_mm": 15.0,
+        "max_5km_mm": 15.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 11.0,
+        "max_5km_mm": 13.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 29.0,
+      "max_5km_mm": 31.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 14.5,
+        "max_5km_mm": 16.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-08T07:00:00.000Z",
+        "punto_mm": 8.9,
+        "max_5km_mm": 12.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-07T07:00:00.000Z",
+        "punto_mm": 7.3,
+        "max_5km_mm": 8.3
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670045458,
+    "periodos_retorno_m3s": {
+      "2": 10.9,
+      "5": 14.0,
+      "10": 16.0,
+      "25": 18.6,
+      "50": 20.6,
+      "100": 22.5
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 4.2,
+        "max_ensamble_m3s": 25.5,
+        "max_alta_resolucion_m3s": 4.2
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261008",
+        "max_promedio_ensamble_m3s": 4.7,
+        "max_ensamble_m3s": 22.3,
+        "max_alta_resolucion_m3s": 5.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261007",
+        "max_promedio_ensamble_m3s": 2.7,
+        "max_ensamble_m3s": 18.6,
+        "max_alta_resolucion_m3s": 3.3
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-11T18:44:26.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "2b1e8a2b12feec6691e45b8e99dbbeee",
+    "tipo": "Inundación",
+    "fecha": "2026-10-11",
+    "hora": "13:00",
+    "provincia": "Guayas",
+    "canton": "Gnral. Antonio Elizalde (bucay)",
+    "parroquia": "General Antonio Elizalde (bucay)",
+    "sector": "Recinto San Pedro",
+    "latitud": -2.240584,
+    "longitud": -80.1593956,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias registradas en la madrugada del 11/10/2026. Se produjo el desbordamiento del río Chimbo, ocasionando inundación en el recinto.  Las familias afectadas permanecen en sus respectivos inmuebles.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 1.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 1.0,
+      "max_5km_mm": 1.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-11T07:00:00.000Z",
+        "punto_mm": 0.1,
+        "max_5km_mm": 0.3
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 11.5,
+        "max_5km_mm": 11.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 7.9
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670054699,
+    "periodos_retorno_m3s": {
+      "2": 95.0,
+      "5": 178.5,
+      "10": 233.8,
+      "25": 303.7,
+      "50": 355.5,
+      "100": 407.0
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261011",
+        "max_promedio_ensamble_m3s": 4.6,
+        "max_ensamble_m3s": 60.0,
+        "max_alta_resolucion_m3s": 3.9
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261010",
+        "max_promedio_ensamble_m3s": 7.4,
+        "max_ensamble_m3s": 44.1,
+        "max_alta_resolucion_m3s": 12.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 13.3,
+        "max_ensamble_m3s": 79.7,
+        "max_alta_resolucion_m3s": 18.6
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-11T18:43:57.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}
