@@ -12,9 +12,9 @@
     "longitud": -80.35208723694186,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias ocasionadas el 07/10/2026, se produjo el desbordamiento del río Grande Portoviejo, causando inundación en varios sectores y afectación en varios debido al ingreso de agua. Al momento, el río se encuentra en su caudal normal; se actualiza información de afectaciones mediante informe emitido por UGR GAD Santa Ana y el registro en plataforma EVIN; las familias continúan en sus viviendas.*",
+    "descripcion": "Debido a las fuertes lluvias ocasionadas el 07/10/2026, se produjo el desbordamiento del río Grande Portoviejo, causando inundación en varios sectores y afectación en varios debido al ingreso de agua. Al momento, el río se encuentra en su caudal normal; se actualiza información de afectaciones mediante informe emitido por UGR GAD Santa Ana y el registro en plataforma EVIN; las familias continúan en sus viviendas.*\r\n12/10/2026: Mediante la plataforma EVIN se rectifica el número de viviendas afectadas.",
     "personas_afectadas": 96,
-    "viviendas_afectadas": 47,
+    "viviendas_afectadas": 20,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },

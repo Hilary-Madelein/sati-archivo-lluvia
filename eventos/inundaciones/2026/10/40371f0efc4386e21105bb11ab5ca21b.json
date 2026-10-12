@@ -1,0 +1,109 @@
+{
+  "evento": {
+    "id": "40371f0efc4386e21105bb11ab5ca21b",
+    "tipo": "Inundación",
+    "fecha": "2026-10-12",
+    "hora": "00:20",
+    "provincia": "Los Ríos",
+    "canton": "Quevedo",
+    "parroquia": "Venus Del Rio Quevedo",
+    "sector": "CIUDAD DEL NORTE",
+    "latitud": -0.982311,
+    "longitud": -79.469733,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 12/10/2026 se reportó acumulación de aguas lluvias con ingreso a varias viviendas. CB. Quevedo realizó verificación de novedades en el sitio. SNGR coordina la novedad con UGR Quevedo y consolida información, por lo que nos mantenemos a la espera del requerimiento de la creación de EVIN digital..actualmente existe presencia de agua y las familias se mantienen en las viviendas.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 96.0,
+        "max_5km_mm": 96.0
+      },
+      "dia_anterior": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 5.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 7.0,
+        "max_5km_mm": 15.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 105.0,
+      "max_5km_mm": 116.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-12T07:00:00.000Z",
+        "punto_mm": 0.7,
+        "max_5km_mm": 1.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-11T07:00:00.000Z",
+        "punto_mm": 2.6,
+        "max_5km_mm": 3.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 11.8,
+        "max_5km_mm": 12.0
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670094588,
+    "periodos_retorno_m3s": {
+      "2": 2234.3,
+      "5": 2645.3,
+      "10": 2917.5,
+      "25": 3261.3,
+      "50": 3516.4,
+      "100": 3769.6
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261012",
+        "max_promedio_ensamble_m3s": 1422.4,
+        "max_ensamble_m3s": 2503.9,
+        "max_alta_resolucion_m3s": 1751.5
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "20261011",
+        "max_promedio_ensamble_m3s": 1212.8,
+        "max_ensamble_m3s": 2356.9,
+        "max_alta_resolucion_m3s": 1124.7
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261010",
+        "max_promedio_ensamble_m3s": 831.2,
+        "max_ensamble_m3s": 1840.6,
+        "max_alta_resolucion_m3s": 880.8
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-12T22:01:45.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

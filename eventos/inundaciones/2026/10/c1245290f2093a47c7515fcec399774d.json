@@ -1,0 +1,87 @@
+{
+  "evento": {
+    "id": "c1245290f2093a47c7515fcec399774d",
+    "tipo": "Inundación",
+    "fecha": "2026-10-11",
+    "hora": "23:00",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Nuevo Santa Rosa",
+    "sector": "CALUGURO",
+    "latitud": -3.470022,
+    "longitud": -79.904587,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias suscitadas en la noche del 11/10/2026, se registró el aumento y desbordamiento del río Caluguro, ocasionando inundación en la parroquia y a varias viviendas. Mediante recorrido de técnico de la SNGR se verifica que el rio a disminuido su nivel y que se encuentra en su cauce normal, ademas se informa que ya no llueve en el sector y Minedec activo plan de contingencia de clases no presenciales en 10 unidades educativas del cantón",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.0
+      },
+      "dia_anterior": {
+        "punto_mm": 24.0,
+        "max_5km_mm": 24.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 1.0,
+        "max_5km_mm": 2.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 25.0,
+      "max_5km_mm": 26.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-11T07:00:00.000Z",
+        "punto_mm": 0.0,
+        "max_5km_mm": 0.4
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 4.9,
+        "max_5km_mm": 9.4
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 12.0,
+        "max_5km_mm": 18.5
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670043482,
+    "periodos_retorno_m3s": {
+      "2": 108.2,
+      "5": 176.5,
+      "10": 221.7,
+      "25": 278.9,
+      "50": 321.3,
+      "100": 363.4
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [],
+    "disponible": true
+  },
+  "procesado": "2026-10-12T22:02:39.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}

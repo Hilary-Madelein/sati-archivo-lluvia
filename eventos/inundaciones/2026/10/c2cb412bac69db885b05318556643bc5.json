@@ -1,0 +1,102 @@
+{
+  "evento": {
+    "id": "c2cb412bac69db885b05318556643bc5",
+    "tipo": "Inundación",
+    "fecha": "2026-10-11",
+    "hora": "16:45",
+    "provincia": "El Oro",
+    "canton": "El Guabo",
+    "parroquia": "El Guabo",
+    "sector": "CABECERA CANTONAL",
+    "latitud": -3.240346436731183,
+    "longitud": -79.82992402068506,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Mediante visualización por cámaras del ECU 911, se registran lluvias intensas, donde se observa la acumulación de agua y calles anegadas en distintos puntos del casco urbano ademas se registran unidades educativas afectadas por ingreso de agua. . Al momento las lluvias continúan de manera fuerte.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "lluvia_observada": {
+    "fuente": "PERSIANN (satélite), servidor del INAMHI",
+    "dias": {
+      "dia_evento": {
+        "punto_mm": 18.0,
+        "max_5km_mm": 18.0
+      },
+      "dia_anterior": {
+        "punto_mm": 58.0,
+        "max_5km_mm": 63.0
+      },
+      "dos_dias_antes": {
+        "punto_mm": 2.0,
+        "max_5km_mm": 8.0
+      }
+    },
+    "acumulado_72h": {
+      "punto_mm": 78.0,
+      "max_5km_mm": 89.0
+    },
+    "disponible": true
+  },
+  "lluvia_pronosticada": {
+    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
+    "por_corrida": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "2026-10-11T07:00:00.000Z",
+        "punto_mm": 2.7,
+        "max_5km_mm": 3.6
+      },
+      {
+        "anticipacion_dias": 1,
+        "corrida": "2026-10-10T07:00:00.000Z",
+        "punto_mm": 0.3,
+        "max_5km_mm": 0.5
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "2026-10-09T07:00:00.000Z",
+        "punto_mm": 0.4,
+        "max_5km_mm": 0.7
+      }
+    ],
+    "disponible": true
+  },
+  "rio": {
+    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
+    "river_id": 670017873,
+    "periodos_retorno_m3s": {
+      "2": 71.7,
+      "5": 119.0,
+      "10": 150.4,
+      "25": 190.0,
+      "50": 219.4,
+      "100": 248.6
+    },
+    "caudal_simulado_dia_m3s": null,
+    "simulacion_hasta": "2026-09-30",
+    "pronostico_para_ese_dia": [
+      {
+        "anticipacion_dias": 0,
+        "corrida": "20261011",
+        "max_promedio_ensamble_m3s": 15.8,
+        "max_ensamble_m3s": 33.9,
+        "max_alta_resolucion_m3s": 21.9
+      },
+      {
+        "anticipacion_dias": 2,
+        "corrida": "20261009",
+        "max_promedio_ensamble_m3s": 17.8,
+        "max_ensamble_m3s": 66.3,
+        "max_alta_resolucion_m3s": 53.1
+      }
+    ],
+    "disponible": true
+  },
+  "procesado": "2026-10-12T22:02:11.000Z",
+  "pendiente": [
+    "caudal simulado (la simulación de GEOGLOWS aún no llega a esa fecha)"
+  ]
+}
