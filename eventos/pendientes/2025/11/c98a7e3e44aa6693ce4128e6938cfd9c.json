@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "c98a7e3e44aa6693ce4128e6938cfd9c",
+    "tipo": "Inundación",
+    "fecha": "2025-11-28",
+    "hora": "18:45",
+    "provincia": "Chimborazo",
+    "canton": "Guamote",
+    "parroquia": "Guamote",
+    "sector": "Por la plaza de Rastro, sector San Juan de Samborondón.",
+    "latitud": -1.950461,
+    "longitud": -78.718221,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas la tarde y noche del 28/11/2025 se produjo una inundación que afectó a varias viviendas del sector con el ingreso de agua lluvia a las misma.\r\nAl momento ya no existe presencia de lluvias en el sector, las familias afectadas se encuentran pernoctando en sus mismas viviendas.\r\nCB Guamote se encuentra realizando las labores de evacuación del agua de las viviendas, además reportan daños a enseres de las viviendas.\r\nSNGR monitorea el evento.\t Se actualiza datos de las familias afectadas con información levantada en territorio, no se registran precipitaciones en el sector. Las familias afectadas se encuentran en sus propias viviendas.",
+    "personas_afectadas": 38,
+    "viviendas_afectadas": 8,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 9,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 9,0 mm en 3 días. Pronóstico WRF para ese día: 0,8 mm (2 días antes), 2,5 mm (1 día antes), 11,4 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2025-11-28",
+    "desde": "2025-11-28 07:00",
+    "hasta": "2025-11-29 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2025-11-28 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 9.0,
+      "maxima_a_menos_de_5km_mm": 12.0
+    },
+    "dia_anterior": {
+      "desde": "2025-11-27 07:00",
+      "hasta": "2025-11-28 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-27 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 9.0,
+      "maxima_a_menos_de_5km_mm": 12.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2025-11-28 02:00",
+      "hasta": "2025-11-29 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2025-11-28 02:00",
+      "en_el_lugar_mm": 11.4,
+      "maxima_a_menos_de_5km_mm": 28.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2025-11-27 02:00",
+      "en_el_lugar_mm": 2.5,
+      "maxima_a_menos_de_5km_mm": 11.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2025-11-26 02:00",
+      "en_el_lugar_mm": 0.8,
+      "maxima_a_menos_de_5km_mm": 4.9
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no respondió"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T15:10:30.000Z"
+  }
+}

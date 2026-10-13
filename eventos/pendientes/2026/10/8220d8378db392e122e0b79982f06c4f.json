@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "8220d8378db392e122e0b79982f06c4f",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "22:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Abraham Calazacon",
+    "sector": "Coop. El Proletariado, en la última parada de bus. Vía Quevedo km 5 1/2",
+    "latitud": -0.27137000719200344,
+    "longitud": -79.21547024130578,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó anegación de agua en las calles del sector. Al momento, no existe negación en las calles. \r\nGAD Santo Domingo realizó la inspección del lugar, indicando que no existieron afectaciones a viviendas.*",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 44,0 mm a menos de 5 km) y 142,0 mm en 3 días.",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-03",
+    "desde": "2026-10-03 07:00",
+    "hasta": "2026-10-04 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 44.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 40.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 61.0,
+      "maxima_a_menos_de_5km_mm": 76.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 142.0,
+      "maxima_a_menos_de_5km_mm": 164.0
+    }
+  },
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:48:14.000Z"
+  }
+}

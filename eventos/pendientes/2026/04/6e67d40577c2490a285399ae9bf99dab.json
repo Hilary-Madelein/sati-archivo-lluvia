@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "6e67d40577c2490a285399ae9bf99dab",
+    "tipo": "Inundación",
+    "fecha": "2026-04-20",
+    "hora": "18:04",
+    "provincia": "Orellana",
+    "canton": "La Joya De Los Sachas",
+    "parroquia": "San Sebastian Del Coca",
+    "sector": "San Sebastian de El Coca",
+    "latitud": -0.334959,
+    "longitud": -76.998051,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias desde la noche del 19/04/2026 a la madrugada de 20/2026, se produjo inundaciones en varios sectores debido al taponamiento de alcantarillas.\r\nSNGR coordinó con MDG la confirmación del evento. Se gestionó con GAD M la Joya de los Sachas, la evaluación de las viviendas. \r\nMinisterio de Infraestructura y Transporte (MIT) realizó un recorrido en el lugar del evento, ya que una de las alcantarillas taponadas se ubica en la Red Vial Estatal. \r\nEl 21/04/2026, se activó el COE Parroquial para coordinar acciones ante el evento suscitado.  El 23/04/2026, GAD Municipal de La Joya de los Sachas, en coordinación con el GAD Parroquial y la empresa privada, realizaron la limpieza de alcantarillas y la evacuación de agua acumulada en los sectores afectados, adicional realizaron un recorrido en la cual no encontraron afectaciones a viviendas y personas. Durante la ejecución de los trabajos se cerró por precaución la vía de primer orden.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 95,0 mm el día del evento en el lugar (hasta 97,0 mm a menos de 5 km) y 202,0 mm en 3 días. Pronóstico WRF para ese día: 16,6 mm (2 días antes), 2,5 mm (1 día antes), 4,5 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-04-20",
+    "desde": "2026-04-20 07:00",
+    "hasta": "2026-04-21 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-04-20 07:00",
+      "hasta": "2026-04-21 07:00",
+      "en_el_lugar_mm": 95.0,
+      "maxima_a_menos_de_5km_mm": 97.0
+    },
+    "dia_anterior": {
+      "desde": "2026-04-19 07:00",
+      "hasta": "2026-04-20 07:00",
+      "en_el_lugar_mm": 107.0,
+      "maxima_a_menos_de_5km_mm": 111.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-04-18 07:00",
+      "hasta": "2026-04-19 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-04-18 07:00",
+      "hasta": "2026-04-21 07:00",
+      "en_el_lugar_mm": 202.0,
+      "maxima_a_menos_de_5km_mm": 202.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-04-20 02:00",
+      "hasta": "2026-04-21 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-04-20 02:00",
+      "en_el_lugar_mm": 4.5,
+      "maxima_a_menos_de_5km_mm": 6.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-04-19 02:00",
+      "en_el_lugar_mm": 2.5,
+      "maxima_a_menos_de_5km_mm": 4.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-04-18 02:00",
+      "en_el_lugar_mm": 16.6,
+      "maxima_a_menos_de_5km_mm": 38.0
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no encontró el río más cercano"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T14:23:04.000Z"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "31303ac9a1291df7043038796cb24b4e",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "04:15",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "San Gregorio",
+    "sector": "Comunidades: Boca del Sucio y San Jacinto",
+    "latitud": 0.54965064,
+    "longitud": -79.93491294,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la tarde del 02/10/2026 y la madrugada del 03/10/2026, se registró el desbordamiento del río Sucio, inundando las comunidades del sector. 05/10/2026. UGR Muisne informa que el río se encuentra con tendencia a disminuir de nivel; al momento solo visualizan calles anegadas; las familias permanecen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 73,0 mm el día del evento en el lugar (hasta 73,0 mm a menos de 5 km) y 88,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-02",
+    "desde": "2026-10-02 07:00",
+    "hasta": "2026-10-03 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 73.0,
+      "maxima_a_menos_de_5km_mm": 73.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 15.0,
+      "maxima_a_menos_de_5km_mm": 20.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-01 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 88.0,
+      "maxima_a_menos_de_5km_mm": 91.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-02 02:00",
+      "hasta": "2026-10-03 02:00"
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-30 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 3.4
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:47:52.000Z"
+  }
+}

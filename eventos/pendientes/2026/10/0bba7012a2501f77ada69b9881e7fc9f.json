@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "0bba7012a2501f77ada69b9881e7fc9f",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "21:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Liberación popular",
+    "latitud": -0.260784,
+    "longitud": -79.174156,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó el taponamiento de una alcantarilla, lo que provocó la inundación de una vivienda del sector; cabe indicar que la vivienda no se encuentra habilitada. En la tarde y noche del 05/10/2026, provocó la inundación de dos viviendas aledañas, por lo que el agua acumulada superó el nivel de la calle. Al momento, las familias afectadas permanecen en sus viviendas. El nivel de agua bajó y no se encuentran inundadas. \r\nPatronato municipal realizó la evaluación de daños y necesidades y coordina la SNGR la entrega de asistencia humanitaria.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 164,0 mm en 3 días.",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-03",
+    "desde": "2026-10-03 07:00",
+    "hasta": "2026-10-04 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 47.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 76.0,
+      "maxima_a_menos_de_5km_mm": 77.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 164.0,
+      "maxima_a_menos_de_5km_mm": 164.0
+    }
+  },
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:48:12.000Z"
+  }
+}

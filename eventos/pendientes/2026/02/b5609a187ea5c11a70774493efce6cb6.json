@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "b5609a187ea5c11a70774493efce6cb6",
+    "tipo": "Inundación",
+    "fecha": "2026-02-07",
+    "hora": "07:00",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Jumón (satelite)",
+    "sector": "JUMON",
+    "latitud": -3.456272,
+    "longitud": -80.00448,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias en la madrugada del 07/02/2026, se registraron inundaciones en el cantón, a causa del evento se registró inundación en varios sectores. El agua acumulada en varias calles de la parroquia fue evacuada tras las acciones ejecutadas por personal de Obras Públicas del GAD, el Cuerpo de Bomberos de Santa Rosa y EMAPA-SR (Empresa Municipal de Agua Potable y Alcantarillado), quienes realizaron labores de evacuación de agua y limpieza de sumideros y alcantarillas.\r\nGAD Cantonal indica que la inundación no presentó daños a viviendas, solo  acumulación de agua en las calles, la cual las aguas lluvias fueron evacuadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 13,0 mm el día del evento en el lugar (hasta 18,0 mm a menos de 5 km) y 59,0 mm en 3 días. Pronóstico WRF para ese día: 0,5 mm (2 días antes), 0,0 mm (1 día antes), 3,1 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-02-07",
+    "desde": "2026-02-07 07:00",
+    "hasta": "2026-02-08 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-02-07 07:00",
+      "hasta": "2026-02-08 07:00",
+      "en_el_lugar_mm": 13.0,
+      "maxima_a_menos_de_5km_mm": 18.0
+    },
+    "dia_anterior": {
+      "desde": "2026-02-06 07:00",
+      "hasta": "2026-02-07 07:00",
+      "en_el_lugar_mm": 42.0,
+      "maxima_a_menos_de_5km_mm": 42.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-02-05 07:00",
+      "hasta": "2026-02-06 07:00",
+      "en_el_lugar_mm": 4.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "total_3_dias": {
+      "desde": "2026-02-05 07:00",
+      "hasta": "2026-02-08 07:00",
+      "en_el_lugar_mm": 59.0,
+      "maxima_a_menos_de_5km_mm": 63.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-02-07 02:00",
+      "hasta": "2026-02-08 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-02-07 02:00",
+      "en_el_lugar_mm": 3.1,
+      "maxima_a_menos_de_5km_mm": 4.6
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-02-06 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-02-05 02:00",
+      "en_el_lugar_mm": 0.5,
+      "maxima_a_menos_de_5km_mm": 0.7
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no respondió"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T15:01:00.000Z"
+  }
+}

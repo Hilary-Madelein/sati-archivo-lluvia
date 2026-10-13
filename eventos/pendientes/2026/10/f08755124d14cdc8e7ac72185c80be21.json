@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "f08755124d14cdc8e7ac72185c80be21",
+    "tipo": "Inundación",
+    "fecha": "2026-10-08",
+    "hora": "20:00",
+    "provincia": "Orellana",
+    "canton": "La Joya De Los Sachas",
+    "parroquia": "Lago San Pedro",
+    "sector": "Macareña",
+    "latitud": -0.294506,
+    "longitud": -76.947879,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las intensas precipitaciones registradas en la mañana del día 08/10/2026, por la noche se produjo el desbordamiento del río Negro, inundando calles y viviendas. Por la tarde del 09/10/2026, el río comenzó a descender. \r\nGAD Municipal de Joya de los sachas confirmó el evento y con el apoyo del Voluntariado de Protección Civil levantó información.  El río Negro se encuentra en un estado normal. Las familias afectadas ya se encuentran en sus viviendas. No hay lluvias. El GAD de Joya de los Sachas confirmó el evento y realizó el levantamiento de información respectivo. El SNGR realizó la entrega de asistencia humanitaria en acompañamiento de la Jefatura Política y el GAD de Joya de los Sachas.",
+    "personas_afectadas": 63,
+    "viviendas_afectadas": 25,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 98,0 mm el día del evento en el lugar (hasta 108,0 mm a menos de 5 km) y 176,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes), 0,6 mm (1 día antes), 0,7 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-08",
+    "desde": "2026-10-08 07:00",
+    "hasta": "2026-10-09 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 98.0,
+      "maxima_a_menos_de_5km_mm": 108.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 44.0,
+      "maxima_a_menos_de_5km_mm": 49.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-07 07:00",
+      "en_el_lugar_mm": 34.0,
+      "maxima_a_menos_de_5km_mm": 44.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 176.0,
+      "maxima_a_menos_de_5km_mm": 184.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-08 02:00",
+      "hasta": "2026-10-09 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 0.7,
+      "maxima_a_menos_de_5km_mm": 0.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 0.6,
+      "maxima_a_menos_de_5km_mm": 6.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-06 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 1.7
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:45:37.000Z"
+  }
+}

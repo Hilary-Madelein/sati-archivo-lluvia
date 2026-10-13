@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "470122de6be385ac3674b3435b7bf136",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "00:10",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Clemente Baquerizo",
+    "sector": "IESS BABAHOYO",
+    "latitud": -1.805421,
+    "longitud": -79.522976,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en horas de la madrugada, se visualiza acumulación de aguas lluvias por taponamiento de alcantarillado en las afueras del IESS Babahoyo, en donde se reportan 10 metros lineales afectados en la vía de primer orden. ATM realizó barrido en la zona afectada, reportando que ya no existe presencia de agua en el lugar, por lo que el tránsito se mantiene con normalidad, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 46,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 58,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-02",
+    "desde": "2026-10-02 07:00",
+    "hasta": "2026-10-03 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 46.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 11.0,
+      "maxima_a_menos_de_5km_mm": 13.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-01 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 58.0,
+      "maxima_a_menos_de_5km_mm": 58.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-02 02:00",
+      "hasta": "2026-10-03 02:00"
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-30 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.1
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:47:40.000Z"
+  }
+}

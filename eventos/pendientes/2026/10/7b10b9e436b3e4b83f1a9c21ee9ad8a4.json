@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "7b10b9e436b3e4b83f1a9c21ee9ad8a4",
+    "tipo": "Inundación",
+    "fecha": "2026-10-02",
+    "hora": "10:56",
+    "provincia": "Esmeraldas",
+    "canton": "Muisne",
+    "parroquia": "Salima",
+    "sector": "Recinto Salima",
+    "latitud": 0.338889,
+    "longitud": -79.971983,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada y mañana del 02/10/2026, se produjo el desbordamiento del río Salima, generando inundaciones en el recinto Salima, parroquia Salima.\r\n\r\n 05/10/2026 | La UGR Muisne informa que el río Salima ya no se encuentra desbordado y presenta tendencia a disminuir de nivel. El sector afectado presenta acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas, ni actualización de los valores previamente registrados. La UGR Muisne continúa con la atención y levantamiento de información. Al momento no se registran lluvias",
+    "personas_afectadas": 480,
+    "viviendas_afectadas": 120,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 107,0 mm el día del evento en el lugar (hasta 107,0 mm a menos de 5 km) y 117,0 mm en 3 días. Pronóstico WRF para ese día: 0,6 mm (2 días antes).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-02",
+    "desde": "2026-10-02 07:00",
+    "hasta": "2026-10-03 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 107.0,
+      "maxima_a_menos_de_5km_mm": 107.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 10.0,
+      "maxima_a_menos_de_5km_mm": 19.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-01 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-30 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 117.0,
+      "maxima_a_menos_de_5km_mm": 126.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-02 02:00",
+      "hasta": "2026-10-03 02:00"
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-30 02:00",
+      "en_el_lugar_mm": 0.6,
+      "maxima_a_menos_de_5km_mm": 5.8
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:48:47.000Z"
+  }
+}

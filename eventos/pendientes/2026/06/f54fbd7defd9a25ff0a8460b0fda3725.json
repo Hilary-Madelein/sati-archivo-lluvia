@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "f54fbd7defd9a25ff0a8460b0fda3725",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "08:49",
+    "provincia": "El Oro",
+    "canton": "El Guabo",
+    "parroquia": "El Guabo",
+    "sector": "VARIOS SECTORES: RUMIÑAHUI, BOLÍVAR RIZO",
+    "latitud": -3.212524,
+    "longitud": -79.811577,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias en la madrugada del 09/06/2026, se registró inundación en varias calles y viviendas del sector.  Las familias afectadas permanecen en sus viviendas, despues de que las aguas lluvias acumuladas en las calles, viviendas y unidades educativas fueron evacuadas en su totalidad, adicional las clases retornaron a modad presencial.\r\nMINEDEC activó su plan de contingencia debido al ingreso de agua en el interior de sus patios.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 2,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 16,0 mm el día del evento en el lugar (hasta 20,0 mm a menos de 5 km) y 51,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,6 mm (1 día antes), 4,4 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-06-09",
+    "desde": "2026-06-09 07:00",
+    "hasta": "2026-06-10 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-06-09 07:00",
+      "hasta": "2026-06-10 07:00",
+      "en_el_lugar_mm": 16.0,
+      "maxima_a_menos_de_5km_mm": 20.0
+    },
+    "dia_anterior": {
+      "desde": "2026-06-08 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 10.0,
+      "maxima_a_menos_de_5km_mm": 11.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-08 07:00",
+      "en_el_lugar_mm": 25.0,
+      "maxima_a_menos_de_5km_mm": 27.0
+    },
+    "total_3_dias": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-10 07:00",
+      "en_el_lugar_mm": 51.0,
+      "maxima_a_menos_de_5km_mm": 58.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-06-09 02:00",
+      "hasta": "2026-06-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-06-09 02:00",
+      "en_el_lugar_mm": 4.4,
+      "maxima_a_menos_de_5km_mm": 7.5
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-06-08 02:00",
+      "en_el_lugar_mm": 0.6,
+      "maxima_a_menos_de_5km_mm": 0.8
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-06-07 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.6
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no encontró el río más cercano"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T14:11:57.000Z"
+  }
+}

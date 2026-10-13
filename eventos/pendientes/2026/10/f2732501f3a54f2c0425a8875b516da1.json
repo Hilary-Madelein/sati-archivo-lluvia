@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "f2732501f3a54f2c0425a8875b516da1",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "03:00",
+    "provincia": "Los Ríos",
+    "canton": "Urdaneta",
+    "parroquia": "Ricaurte",
+    "sector": "RCTO. SALAMPE, SAN FRANCISCO, LA ASUNCIÓN, SANTA RITA, RCTO. ROBLECITO, RÍO PIJULLO, RÍO CATARAMA, RÍO SALAMPE",
+    "latitud": -1.53802,
+    "longitud": -79.36361,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias registradas durante la madrugada del 07/10/2026, se reportó el desbordamiento de los ríos Pijullo, Catarama con Salampe, en donde se reporta 1 vivienda de 1 familia con 4 personas afectadas, 50 metros lineales afectados en una vía de segundo orden con 2 bienes públicos afectados (muros de contención)  UGR Urdaneta realizó barrido en la zona afectada, con la respectiva entrega de saquillos control de inundación, jefe político en compañía de teniente político y Cuerpo de Bomberos de Urdaneta realizaron verificación de novedades, SNGR consolidó la información, coordinó con MDEP el levantamiento de MAAPEA y ratifica con personal del GAD Urdaneta que no se levantará EVIN digital. Actualmente La familia afectada no cuenta con presencia de agua dentro de la vivienda, mientras que en sus alrededores se visualiza agua estancada, la vía de segundo orden se mantiene con presencia leve de agua para el tránsito vehícular, misma que se mantiene habilitada, la familia afectada permanece en su vivienda.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 47,0 mm el día del evento en el lugar (hasta 47,0 mm a menos de 5 km) y 70,0 mm en 3 días. Pronóstico WRF para ese día: 110,2 mm (1 día antes), 122,9 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-06",
+    "desde": "2026-10-06 07:00",
+    "hasta": "2026-10-07 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-07 07:00",
+      "en_el_lugar_mm": 47.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-05 07:00",
+      "hasta": "2026-10-06 07:00",
+      "en_el_lugar_mm": 17.0,
+      "maxima_a_menos_de_5km_mm": 26.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-04 07:00",
+      "hasta": "2026-10-05 07:00",
+      "en_el_lugar_mm": 6.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-04 07:00",
+      "hasta": "2026-10-07 07:00",
+      "en_el_lugar_mm": 70.0,
+      "maxima_a_menos_de_5km_mm": 78.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-06 02:00",
+      "hasta": "2026-10-07 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-06 02:00",
+      "en_el_lugar_mm": 122.9,
+      "maxima_a_menos_de_5km_mm": 149.5
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-05 02:00",
+      "en_el_lugar_mm": 110.2,
+      "maxima_a_menos_de_5km_mm": 152.8
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:45:56.000Z"
+  }
+}

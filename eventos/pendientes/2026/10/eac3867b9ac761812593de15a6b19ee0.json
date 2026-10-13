@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "eac3867b9ac761812593de15a6b19ee0",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "08:27",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "5 De Agosto",
+    "sector": "Propicia 2",
+    "latitud": 0.9310206845566804,
+    "longitud": -79.66247286049342,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registra el desbordamiento del río Esmeraldas, inundando a varios sectores. 03/10/2026. La UGR Esmeraldas informa que el río continúa incrementando su caudal debido a las lluvias registradas durante la madrugada, provocando el desbordamiento y la inundación del sector. Al momento, se reportan calles anegadas y algunas viviendas afectadas, por lo que se mantiene el monitoreo y seguimiento de la situación.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 20,0 mm el día del evento en el lugar (hasta 25,0 mm a menos de 5 km) y 82,0 mm en 3 días.",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-03",
+    "desde": "2026-10-03 07:00",
+    "hasta": "2026-10-04 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 20.0,
+      "maxima_a_menos_de_5km_mm": 25.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 59.0,
+      "maxima_a_menos_de_5km_mm": 65.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 3.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 82.0,
+      "maxima_a_menos_de_5km_mm": 90.0
+    }
+  },
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:48:11.000Z"
+  }
+}

@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "evento": {
     "id": "392b28791c8a89663eb26895e3b1ed79",
     "tipo": "Inundación",
@@ -18,57 +19,83 @@
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
-  "lluvia_observada": {
-    "fuente": "PERSIANN (satélite), servidor del INAMHI",
-    "dias": {
-      "dia_evento": {
-        "punto_mm": 3.0,
-        "max_5km_mm": 5.0
-      },
-      "dia_anterior": {
-        "punto_mm": 63.0,
-        "max_5km_mm": 65.0
-      },
-      "dos_dias_antes": {
-        "punto_mm": 132.0,
-        "max_5km_mm": 162.0
-      }
+  "resumen": "Satélite: 1,0 mm el día del evento en el lugar (hasta 1,0 mm a menos de 5 km) y 67,0 mm en 3 días. Pronóstico WRF para ese día: 3,3 mm (2 días antes), 0,1 mm (1 día antes), 0,0 mm (el mismo día). Río: 2608,2 m³/s, 2,5 veces su caudal normal; superó la crecida de 2 años (2456,5 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-03-05",
+    "desde": "2026-03-05 07:00",
+    "hasta": "2026-03-06 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-03-05 07:00",
+      "hasta": "2026-03-06 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 1.0
     },
-    "acumulado_72h": {
-      "punto_mm": 198.0,
-      "max_5km_mm": 232.0
+    "dia_anterior": {
+      "desde": "2026-03-04 07:00",
+      "hasta": "2026-03-05 07:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 5.0
     },
-    "disponible": true
+    "dos_dias_antes": {
+      "desde": "2026-03-03 07:00",
+      "hasta": "2026-03-04 07:00",
+      "en_el_lugar_mm": 63.0,
+      "maxima_a_menos_de_5km_mm": 65.0
+    },
+    "total_3_dias": {
+      "desde": "2026-03-03 07:00",
+      "hasta": "2026-03-06 07:00",
+      "en_el_lugar_mm": 67.0,
+      "maxima_a_menos_de_5km_mm": 71.0
+    }
   },
   "lluvia_pronosticada": {
-    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
-    "por_corrida": [
-      {
-        "anticipacion_dias": 0,
-        "corrida": "2026-03-05T07:00:00.000Z",
-        "punto_mm": 0.0,
-        "max_5km_mm": 0.1
-      },
-      {
-        "anticipacion_dias": 1,
-        "corrida": "2026-03-04T07:00:00.000Z",
-        "punto_mm": 0.1,
-        "max_5km_mm": 0.3
-      },
-      {
-        "anticipacion_dias": 2,
-        "corrida": "2026-03-03T07:00:00.000Z",
-        "punto_mm": 3.3,
-        "max_5km_mm": 5.2
-      }
-    ],
-    "disponible": true
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-03-05 02:00",
+      "hasta": "2026-03-06 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-03-05 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.1
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-03-04 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 0.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-03-03 02:00",
+      "en_el_lugar_mm": 3.3,
+      "maxima_a_menos_de_5km_mm": 5.2
+    }
   },
-  "rio": {
-    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
-    "river_id": null,
-    "disponible": false
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670059804,
+    "caudal_dia_del_evento_m3s": 2296.6,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 2608.2,
+    "caudal_normal_del_mes_m3s": 1036.8,
+    "veces_el_caudal_normal": 2.5,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 2456.5,
+      "cada_5_años": 2936.6,
+      "cada_10_años": 3254.5,
+      "cada_25_años": 3656.2,
+      "cada_50_años": 3954.2,
+      "cada_100_años": 4250.0
+    },
+    "crecida_alcanzada_años": 2,
+    "crecida_alcanzada": "Superó la crecida de 2 años (2456,5 m³/s)"
   },
-  "procesado": "2026-10-10T00:48:54.000Z",
-  "pendiente": []
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-13T14:41:37.000Z"
+  }
 }

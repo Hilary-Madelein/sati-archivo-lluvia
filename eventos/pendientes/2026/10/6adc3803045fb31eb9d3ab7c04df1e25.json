@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "6adc3803045fb31eb9d3ab7c04df1e25",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "07:15",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "San Mateo",
+    "sector": "Recinto Timbre",
+    "latitud": 0.9859090168079263,
+    "longitud": -79.6539939390016,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada del 03/10/2026, se produjo el desbordamiento del río Esmeraldas, generando inundaciones en el recinto Timbre, parroquia San Mateo.\r\n\r\n 06/10/2026 | El río Esmeraldas ya no se encuentra desbordado y presenta tendencia a aumentar de nivel. El recinto Timbre presenta acumulación de lodo y las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas. La UGR Esmeraldas no ha informado nuevas acciones o actualizaciones del levantamiento de información. SNGR mantiene la planificación para la atención mediante asistencia humanitaria. Al momento se registran lluvias débiles.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 20,0 mm el día del evento en el lugar (hasta 20,0 mm a menos de 5 km) y 84,0 mm en 3 días.",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-03",
+    "desde": "2026-10-03 07:00",
+    "hasta": "2026-10-04 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 20.0,
+      "maxima_a_menos_de_5km_mm": 20.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 62.0,
+      "maxima_a_menos_de_5km_mm": 66.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 2.0,
+      "maxima_a_menos_de_5km_mm": 2.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 84.0,
+      "maxima_a_menos_de_5km_mm": 84.0
+    }
+  },
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:47:53.000Z"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "c68a74dfc42ffaac0a0b048bf8fc0d6f",
+    "tipo": "Inundación",
+    "fecha": "2026-10-03",
+    "hora": "22:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Santo Domingo De Los Colorados",
+    "sector": "Barrio niño Belén. Av. Esmeraldas, pasaje la paz.",
+    "latitud": -0.243045546669581,
+    "longitud": -79.1711617643942,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó anegación de agua en las calles del sector, provocando el ingreso de agua a viviendas del sector. En la tarde y noche del 05/10/2026, producto de las lluvias, nuevamente provocó la inundación en el sector. Al momento, existe presencia de lluvias moderadas; las familias se encuentran en sus viviendas. Continúan inundados\r\nEMAPA moviliza succionador para la limpieza de las alcantarillas.\r\nSNGR monitorea el evento.\r\nPatronato Municipal realizó la evaluación de daños y necesidades",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 43,0 mm a menos de 5 km) y 164,0 mm en 3 días.",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-03",
+    "desde": "2026-10-03 07:00",
+    "hasta": "2026-10-04 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 43.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-02 07:00",
+      "hasta": "2026-10-03 07:00",
+      "en_el_lugar_mm": 47.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 76.0,
+      "maxima_a_menos_de_5km_mm": 78.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 164.0,
+      "maxima_a_menos_de_5km_mm": 165.0
+    }
+  },
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:48:14.000Z"
+  }
+}

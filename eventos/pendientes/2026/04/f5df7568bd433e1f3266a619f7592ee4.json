@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "f5df7568bd433e1f3266a619f7592ee4",
+    "tipo": "Inundación",
+    "fecha": "2026-04-21",
+    "hora": "21:00",
+    "provincia": "Loja",
+    "canton": "Catamayo",
+    "parroquia": "Catamayo",
+    "sector": "Catamayo",
+    "latitud": -3.961222481532257,
+    "longitud": -79.39064882413949,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias presentadas en la noche del 21/04/2026, se produjo anegación en el sector.\r\n GAD Cantonal de Catamayo realizó los trabajos limpieza del Centro Recreacional y de la vía",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 2,0 mm a menos de 5 km) y 9,0 mm en 3 días. Pronóstico WRF para ese día: 15,0 mm (2 días antes), 12,6 mm (1 día antes), 31,8 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-04-21",
+    "desde": "2026-04-21 07:00",
+    "hasta": "2026-04-22 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-04-21 07:00",
+      "hasta": "2026-04-22 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 2.0
+    },
+    "dia_anterior": {
+      "desde": "2026-04-20 07:00",
+      "hasta": "2026-04-21 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-04-19 07:00",
+      "hasta": "2026-04-20 07:00",
+      "en_el_lugar_mm": 8.0,
+      "maxima_a_menos_de_5km_mm": 14.0
+    },
+    "total_3_dias": {
+      "desde": "2026-04-19 07:00",
+      "hasta": "2026-04-22 07:00",
+      "en_el_lugar_mm": 9.0,
+      "maxima_a_menos_de_5km_mm": 16.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-04-21 02:00",
+      "hasta": "2026-04-22 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-04-21 02:00",
+      "en_el_lugar_mm": 31.8,
+      "maxima_a_menos_de_5km_mm": 31.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-04-20 02:00",
+      "en_el_lugar_mm": 12.6,
+      "maxima_a_menos_de_5km_mm": 12.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-04-19 02:00",
+      "en_el_lugar_mm": 15.0,
+      "maxima_a_menos_de_5km_mm": 15.8
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no encontró el río más cercano"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T14:22:09.000Z"
+  }
+}

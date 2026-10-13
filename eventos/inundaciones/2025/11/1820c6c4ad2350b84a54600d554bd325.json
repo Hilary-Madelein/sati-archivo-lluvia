@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "evento": {
     "id": "1820c6c4ad2350b84a54600d554bd325",
     "tipo": "Inundación",
@@ -18,50 +19,62 @@
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
-  "lluvia_observada": {
-    "fuente": "PERSIANN (satélite), servidor del INAMHI",
-    "dias": {
-      "dia_evento": {
-        "punto_mm": 3.0,
-        "max_5km_mm": 4.0
-      },
-      "dia_anterior": {
-        "punto_mm": 21.0,
-        "max_5km_mm": 24.0
-      },
-      "dos_dias_antes": {
-        "punto_mm": 0.0,
-        "max_5km_mm": 0.0
-      }
-    },
-    "acumulado_72h": {
-      "punto_mm": 24.0,
-      "max_5km_mm": 28.0
-    },
-    "disponible": true
+  "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 13,0 mm a menos de 5 km) y 36,0 mm en 3 días. Río: 713,1 m³/s, 1,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (3396,7 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2025-11-15",
+    "desde": "2025-11-15 07:00",
+    "hasta": "2025-11-16 07:00"
   },
-  "lluvia_pronosticada": {
-    "fuente": "WRF del INAMHI (lluvia diaria del visor oficial)",
-    "por_corrida": [],
-    "disponible": false
-  },
-  "rio": {
-    "fuente": "GEOGLOWS (río más cercano al punto del evento)",
-    "river_id": 620929107,
-    "periodos_retorno_m3s": {
-      "2": 3396.7,
-      "5": 4322.6,
-      "10": 4935.5,
-      "25": 5710.0,
-      "50": 6284.6,
-      "100": 6854.9
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2025-11-15 07:00",
+      "hasta": "2025-11-16 07:00",
+      "en_el_lugar_mm": 12.0,
+      "maxima_a_menos_de_5km_mm": 13.0
     },
-    "caudal_simulado_dia_m3s": 713.15,
-    "simulacion_hasta": "2026-09-30",
-    "supera_periodo_anos": 0,
-    "pronostico_para_ese_dia": [],
-    "disponible": true
+    "dia_anterior": {
+      "desde": "2025-11-14 07:00",
+      "hasta": "2025-11-15 07:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 4.0
+    },
+    "dos_dias_antes": {
+      "desde": "2025-11-13 07:00",
+      "hasta": "2025-11-14 07:00",
+      "en_el_lugar_mm": 21.0,
+      "maxima_a_menos_de_5km_mm": 24.0
+    },
+    "total_3_dias": {
+      "desde": "2025-11-13 07:00",
+      "hasta": "2025-11-16 07:00",
+      "en_el_lugar_mm": 36.0,
+      "maxima_a_menos_de_5km_mm": 38.0
+    }
   },
-  "procesado": "2026-10-10T01:14:40.000Z",
-  "pendiente": []
+  "lluvia_pronosticada": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 620929107,
+    "caudal_dia_del_evento_m3s": 713.1,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 713.1,
+    "caudal_normal_del_mes_m3s": 722.7,
+    "veces_el_caudal_normal": 1.0,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 3396.7,
+      "cada_5_años": 4322.6,
+      "cada_10_años": 4935.5,
+      "cada_25_años": 5710.0,
+      "cada_50_años": 6284.6,
+      "cada_100_años": 6854.9
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (3396,7 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-13T15:11:26.000Z"
+  }
 }

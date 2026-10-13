@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "4795bff6f1109289bed3e5fd8a1cebdd",
+    "tipo": "Inundación",
+    "fecha": "2026-10-07",
+    "hora": "23:00",
+    "provincia": "Bolívar",
+    "canton": "Echeandía",
+    "parroquia": "Echeandia",
+    "sector": "Sector Puente Central, Malecón Alto.",
+    "latitud": -1.5919542063879288,
+    "longitud": -79.00192481189725,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por causa de las lluvias registradas en la noche del 07/10/2026, se produjo in incremento en el caudal del río, posterior el anegamiento de calles, con presencia de piedras y lodo. las calles dejándolas habilitadas al paso vehicular.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 15,0 mm el día del evento en el lugar (hasta 16,0 mm a menos de 5 km) y 33,0 mm en 3 días. Pronóstico WRF para ese día: 4,3 mm (2 días antes), 3,0 mm (1 día antes), 5,7 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-07",
+    "desde": "2026-10-07 07:00",
+    "hasta": "2026-10-08 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 15.0,
+      "maxima_a_menos_de_5km_mm": 16.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-07 07:00",
+      "en_el_lugar_mm": 11.0,
+      "maxima_a_menos_de_5km_mm": 11.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-05 07:00",
+      "hasta": "2026-10-06 07:00",
+      "en_el_lugar_mm": 7.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-05 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 33.0,
+      "maxima_a_menos_de_5km_mm": 33.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-07 02:00",
+      "hasta": "2026-10-08 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 5.7,
+      "maxima_a_menos_de_5km_mm": 6.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-06 02:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 4.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-05 02:00",
+      "en_el_lugar_mm": 4.3,
+      "maxima_a_menos_de_5km_mm": 6.2
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:47:02.000Z"
+  }
+}

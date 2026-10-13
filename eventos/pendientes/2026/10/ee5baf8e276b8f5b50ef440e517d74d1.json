@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "ee5baf8e276b8f5b50ef440e517d74d1",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "18:10",
+    "provincia": "El Oro",
+    "canton": "Atahualpa",
+    "parroquia": "San Juan De Cerro Azul",
+    "sector": "KM 18",
+    "latitud": -3.516,
+    "longitud": -79.7645,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Jefa Política de Atahualpa indica que en el sitio se registran lluvias intensas, donde los vehículos pesados están circulando con precaución en el sitio, ya que existe acumulación de agua en la vía. Adicional se reporta el incremento de la quebrada Chilola sin ocasionar afectaciones. Al momento las lluvias continúan de manera fuerte.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 24,0 mm el día del evento en el lugar (hasta 24,0 mm a menos de 5 km) y 26,0 mm en 3 días. Pronóstico WRF para ese día: 31,8 mm (2 días antes), 25,9 mm (1 día antes), 38,2 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-09",
+    "desde": "2026-10-09 07:00",
+    "hasta": "2026-10-10 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 24.0,
+      "maxima_a_menos_de_5km_mm": 24.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 2.0,
+      "maxima_a_menos_de_5km_mm": 3.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 26.0,
+      "maxima_a_menos_de_5km_mm": 26.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 38.2,
+      "maxima_a_menos_de_5km_mm": 73.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 25.9,
+      "maxima_a_menos_de_5km_mm": 40.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 31.8,
+      "maxima_a_menos_de_5km_mm": 51.7
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:44:44.000Z"
+  }
+}

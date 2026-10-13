@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "0147d7a9a19c5abec586a74b5d3018cd",
+    "tipo": "Inundación",
+    "fecha": "2025-11-28",
+    "hora": "21:15",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Bomboli",
+    "sector": "Sectores Coop. 2 pinos, Coop. Los Alpes.",
+    "latitud": -0.25810467258899095,
+    "longitud": -79.17695546309152,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas en la tarde y noche del 28/11/2025, se suscitó el Taponamiento de las alcantarillas de los sectores, provocando las calles anegadas de agua.  Al momento no existe presencia de lluvias y no hay calles anegadas de agua, adicional se indica que el ingreso del agua a la vivienda fue menos de 10 cm de altura lo que no afectó a enseres de hogar.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 1,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 1,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes), 1,1 mm (1 día antes), 17,6 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2025-11-28",
+    "desde": "2025-11-28 07:00",
+    "hasta": "2025-11-29 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2025-11-28 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "dia_anterior": {
+      "desde": "2025-11-27 07:00",
+      "hasta": "2025-11-28 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-27 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2025-11-28 02:00",
+      "hasta": "2025-11-29 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2025-11-28 02:00",
+      "en_el_lugar_mm": 17.6,
+      "maxima_a_menos_de_5km_mm": 51.2
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2025-11-27 02:00",
+      "en_el_lugar_mm": 1.1,
+      "maxima_a_menos_de_5km_mm": 11.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2025-11-26 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 0.2
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: GEOGLOWS no encontró el río más cercano"
+    ],
+    "fallos": 1,
+    "procesado": "2026-10-13T15:10:32.000Z"
+  }
+}

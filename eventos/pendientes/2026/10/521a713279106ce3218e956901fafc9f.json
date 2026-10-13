@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "521a713279106ce3218e956901fafc9f",
+    "tipo": "Inundación",
+    "fecha": "2026-10-08",
+    "hora": "07:44",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "La Concepcion",
+    "sector": "La Florida Unidad Educativa Inicial Un Mundo Feliz  Rafael Ciervo OE4 y Fernando Dávalos",
+    "latitud": -0.144488,
+    "longitud": -78.493116,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas ayer 07/10/2026 y al taponamiento del sistema de alcantarillado, se reporta una inundación en la Un Mundo Feliz. Cuerpo de Bomberos Quito realizó los trabajos de evacuación del agua de la Unidad Educativa. Se brindan recomendaciones y se deja el lugar en condiciones seguras a cargo de la directora.\r\n-\tSNGR coordinó inspección con MINEDEC, quien reporta que se trata de una Unidad Educativa Privada, la misma que realizará las respectivas reparaciones del lugar.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 38,0 mm en 3 días. Pronóstico WRF para ese día: 0,4 mm (2 días antes), 4,4 mm (1 día antes), 5,1 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-08",
+    "desde": "2026-10-08 07:00",
+    "hasta": "2026-10-09 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 7.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 23.0,
+      "maxima_a_menos_de_5km_mm": 30.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-07 07:00",
+      "en_el_lugar_mm": 8.0,
+      "maxima_a_menos_de_5km_mm": 11.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-06 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 38.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-08 02:00",
+      "hasta": "2026-10-09 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 5.1,
+      "maxima_a_menos_de_5km_mm": 16.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 4.4,
+      "maxima_a_menos_de_5km_mm": 9.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-06 02:00",
+      "en_el_lugar_mm": 0.4,
+      "maxima_a_menos_de_5km_mm": 5.7
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:45:02.000Z"
+  }
+}
