@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "4b8fefb5863d652ad436256ac7ffebd1",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "20:15",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "EL ZAPOTE",
+    "latitud": -3.36381,
+    "longitud": -79.881859,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en horas de la tarde y noche del 09/10/2026, se produjo el incremento del caudal y posterior desbordamiento del río Buenavista, provocando el anegamiento de la vía. UGR GAD Parroquial constató que el agua se ha evacuado en su totalidad y que el caudal del río Buenavista ha retornado a su normal sin ocasionar afectaciones.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 32,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 32,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 1,0 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-09",
+    "desde": "2026-10-09 07:00",
+    "hasta": "2026-10-10 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 32.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 32.0,
+      "maxima_a_menos_de_5km_mm": 47.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 1.5
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:43:19.000Z"
+  }
+}

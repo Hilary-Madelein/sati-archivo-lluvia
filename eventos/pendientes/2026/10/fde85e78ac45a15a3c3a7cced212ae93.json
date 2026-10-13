@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "fde85e78ac45a15a3c3a7cced212ae93",
+    "tipo": "Inundación",
+    "fecha": "2026-10-12",
+    "hora": "07:11",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Dr. Camilo Ponce",
+    "sector": "VIA BABAHOYO-JUJAN, PILADORA SAN EDUARDO , RÍO CHILINTOMO",
+    "latitud": -1.866555,
+    "longitud": -79.555824,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias registradas la madrugada del 12/10/2026, se reportó el desbordamiento del río Chilintomo, dejando consigo un tramo de la vía de primer orden afectada, misma que va en dirección de Babahoyo hacia Jujan. CTE realizo verificación de novedades en el sitio, SNGR consolido información. Actualmente el caudal continúa desbordado y la vía se mantiene habilitada al tránsito vehicular con precaución.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 1,0 mm a menos de 5 km) y 31,0 mm en 3 días. Pronóstico WRF para ese día: 4,5 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-12",
+    "desde": "2026-10-12 07:00",
+    "hasta": "2026-10-13 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-12 07:00",
+      "hasta": "2026-10-13 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-11 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 27.0,
+      "maxima_a_menos_de_5km_mm": 28.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-10 07:00",
+      "hasta": "2026-10-11 07:00",
+      "en_el_lugar_mm": 4.0,
+      "maxima_a_menos_de_5km_mm": 4.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-10 07:00",
+      "hasta": "2026-10-13 07:00",
+      "en_el_lugar_mm": 31.0,
+      "maxima_a_menos_de_5km_mm": 33.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-12 02:00",
+      "hasta": "2026-10-13 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-12 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.1
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-11 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 4.5,
+      "maxima_a_menos_de_5km_mm": 5.3
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:41:08.000Z"
+  }
+}

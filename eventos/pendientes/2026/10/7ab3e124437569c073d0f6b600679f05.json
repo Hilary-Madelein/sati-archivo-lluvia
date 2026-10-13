@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "7ab3e124437569c073d0f6b600679f05",
+    "tipo": "Inundación",
+    "fecha": "2026-10-10",
+    "hora": "10:00",
+    "provincia": "Esmeraldas",
+    "canton": "Quininde",
+    "parroquia": "Rosa Zarate (quininde)",
+    "sector": "Recinto El 200, sector La Isla.",
+    "latitud": 0.103412,
+    "longitud": -79.346447,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas en la madrugada del 10/10/2026 en las zonas altas, se produjo el incremento del caudal y posterior desbordamiento del río Blanco, generando inundaciones en el sector. UGR Quinindé informa que el río Blanco continúa desbordado, registrándose calles anegadas en el sector; las personas afectadas se encuentran en casas de acogida. Al momento, no se registran precipitaciones en el sector.\r\nAFECTACIONES:\r\n* Familias afectadas (bajo evaluación).\r\n* Personas afectadas (bajo evaluación).\r\n* Viviendas afectadas (bajo evaluación).\r\n* Calles anegadas (bajo evaluación)",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Pronóstico WRF para ese día: 47,9 mm (2 días antes), 41,6 mm (1 día antes), 28,3 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-10",
+    "desde": "2026-10-10 07:00",
+    "hasta": "2026-10-11 07:00"
+  },
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-10 02:00",
+      "hasta": "2026-10-11 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 28.3,
+      "maxima_a_menos_de_5km_mm": 70.5
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 41.6,
+      "maxima_a_menos_de_5km_mm": 63.2
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 47.9,
+      "maxima_a_menos_de_5km_mm": 82.6
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:42:43.000Z"
+  }
+}

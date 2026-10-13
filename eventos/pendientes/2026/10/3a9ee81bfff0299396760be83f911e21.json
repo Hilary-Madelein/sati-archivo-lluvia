@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "3a9ee81bfff0299396760be83f911e21",
+    "tipo": "Inundación",
+    "fecha": "2026-10-11",
+    "hora": "19:00",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Bellamaría",
+    "sector": "EL RECREO",
+    "latitud": -3.4793442149504488,
+    "longitud": -79.89245387247958,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias intensas suscitadas la tarde del 11/10/2026, se registró el aumento y desbordamiento del río Chico, ocasionando inundación en el sitio. Además, se reportó que un vehículo fue arrastrado por el río. El río Chico ha disminuido su caudal y se encuentra en su cauce normal, técnicos de SNGR realizan recorrido del río Chico de la parroquia Bellamaria.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 18,0 mm el día del evento en el lugar (hasta 19,0 mm a menos de 5 km) y 42,0 mm en 3 días. Pronóstico WRF para ese día: 12,0 mm (2 días antes), 4,9 mm (1 día antes), 0,0 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-11",
+    "desde": "2026-10-11 07:00",
+    "hasta": "2026-10-12 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-11 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 18.0,
+      "maxima_a_menos_de_5km_mm": 19.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-10 07:00",
+      "hasta": "2026-10-11 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 24.0,
+      "maxima_a_menos_de_5km_mm": 24.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 42.0,
+      "maxima_a_menos_de_5km_mm": 43.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-11 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 4.9,
+      "maxima_a_menos_de_5km_mm": 9.4
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 12.0,
+      "maxima_a_menos_de_5km_mm": 18.5
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T13:42:03.000Z"
+  }
+}
