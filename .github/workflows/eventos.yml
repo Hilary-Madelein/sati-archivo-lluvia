@@ -30,7 +30,8 @@ jobs:
   estaciones:
     if: github.event_name == 'workflow_dispatch' || github.event.schedule == '20 */3 * * *'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # La primera vez calcula el pronóstico por estación de todo 2026 (~15 min); después, 1 a 2 min.
+    timeout-minutes: 60
     # Una a la vez; no espera al cruce (que puede tardar horas): si no, se perderían horas de la API.
     concurrency:
       group: estaciones
@@ -78,6 +79,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # Para leer el archivo de pronósticos de caudal de GEOGLOWS en AWS (bloques comprimidos con blosc).
+      - name: Instalar numpy y numcodecs
+        run: pip install --quiet numpy numcodecs
 
       - name: Cruzar eventos con lluvia y caudal
         env:

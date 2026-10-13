@@ -25,8 +25,8 @@ que tienen los dos datos**:
 | Lluvia que cayó el día del evento y los 2 anteriores, y el total de los 3 días (en el lugar y la más alta a menos de 5 km) | Satélite PERSIANN (INAMHI) | ene 2025 | **Sí** |
 | Caudal del río más cercano ese día y el siguiente, cuántas veces su caudal normal del mes y qué crecida alcanzó (la de 2, 5, 10… años) | GEOGLOWS (simulación diaria) | 1980 (llega hasta ~1 mes atrás) | **Sí** |
 | Lluvia que pronosticaba el WRF para ese día (hecho ese día, 1 y 2 días antes) | WRF del INAMHI | nov 2025 | No: se agrega si existe |
-| Caudal que pronosticaba GEOGLOWS para ese día (hecho ese día, 1 y 2 días antes) | GEOGLOWS | últimos ~2 meses | No: se agrega si existe |
-| Lluvia que midió la estación del INAMHI más cercana (a menos de 25 km) ese día | Estaciones del INAMHI | 13 oct 2026 | No: se agrega si existe |
+| Caudal que pronosticaba GEOGLOWS para ese día (hecho ese día, 1 y 2 días antes) | GEOGLOWS: su API (~2 meses) o su archivo en AWS | ene 2026 | No: se agrega si existe |
+| Estación del INAMHI más cercana (a menos de 25 km): **pronóstico puntual** del WRF en la estación para ese día (hecho ese día, 1 y 2 días antes) y la lluvia que midió | Estaciones del INAMHI + WRF | pronóstico: ene 2026 · medición: 13 oct 2026 | No: se agrega si existe |
 
 **El día del evento** es el "día de lluvia" de **07:00 a 07:00** del día siguiente
 (hora de Ecuador), igual que el acumulado diario del satélite: un evento de las
@@ -69,12 +69,14 @@ SNGR") en `estaciones/`:
 | `estaciones.csv` | Las 186 estaciones del INAMHI: código, nombre, tipo, coordenadas, altitud, estado y si transmiten (hoy ~74, y ~48 con lluvia) |
 | `lluvia_horaria/AAAA-MM.csv` | La lluvia de cada hora en cada estación, en UTC y en hora de Ecuador |
 | `lluvia_diaria.csv` | La lluvia de cada día de lluvia (07:00 a 07:00), con cuántas de las 24 horas tienen dato |
-| `pronostico_vs_medido.csv` | Por estación y día del WRF (02:00 a 02:00): la lluvia medida y la que pronosticaba el WRF en ese punto el mismo día, 1 y 2 días antes |
+| `pronostico_por_estacion.csv` | **Pronóstico puntual de lluvia** en cada una de las 186 estaciones, **día por día desde el 1 de enero de 2026**: lo que pronosticaba el WRF en las coordenadas de la estación para cada día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes. Desde que se archiva cada estación, también la lluvia que midió en esas mismas 24 h, para comparar |
 
 El cruce de inundaciones agrega, si hay, la **estación más cercana a menos de
 25 km** con la lluvia que midió el día del evento (`lluvia_estacion_inamhi`).
-Solo hay datos desde que empezó este archivo (13 oct 2026): la API no da fechas
-anteriores.
+La lluvia medida solo existe desde que empezó este archivo (13 oct 2026): la API
+no da fechas anteriores. El pronóstico, en cambio, se saca del historial de
+corridas del WRF, por eso cubre todo 2026. La primera ejecución lo calcula
+completo (~15 min); después solo agrega el día nuevo.
 
 Avisos sobre la API: las horas vienen marcadas "-05:00" pero son UTC (a las 08:55
 de Ecuador ya trae el dato "13:00"); cada valor se toma como la lluvia de la hora

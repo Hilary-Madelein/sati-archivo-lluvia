@@ -10,9 +10,10 @@ Para cada inundación guarda:
 - Caudal del río más cercano (GEOGLOWS): el de ese día, cuántas veces su caudal
   normal y qué crecida alcanzó (la de 2, 5, 10… años).
 - Si existen: la lluvia que pronosticaba el WRF del INAMHI para ese día (desde
-  nov 2025), el caudal que pronosticaba GEOGLOWS (últimos ~2 meses) y la lluvia
-  que midió la estación del INAMHI más cercana (archivada por estaciones.py
-  desde oct 2026).
+  nov 2025); el caudal que pronosticaba GEOGLOWS (de su API, ~2 meses, o de su
+  archivo en AWS para los eventos de 2026; requiere numpy y numcodecs); y la
+  estación del INAMHI más cercana, con el pronóstico puntual del WRF en ella y
+  la lluvia que midió (archivadas por estaciones.py).
 
 El "día de lluvia" del evento va de las 07:00 a las 07:00 del día siguiente
 (hora de Ecuador), como el acumulado diario del satélite. Un evento de
@@ -52,7 +53,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
-from collections import Counter
+from collections import Counter, OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -65,12 +66,16 @@ TABLA = RAIZ / "eventos" / "inundaciones.csv"
 DESCARTADOS = RAIZ / "eventos" / "descartados.csv"
 RESUMEN = RAIZ / "eventos" / "RESUMEN.md"
 # Versión del formato de los JSON: los de una versión anterior se vuelven a cruzar.
-VERSION = 2
+VERSION = 3
 
 SNGR_LOGIN = os.environ.get("SNGR_LOGIN_URL", "https://monitoreocoe.gestionderiesgos.gob.ec/api/usuarios/login")
 SNGR_EVENTOS = os.environ.get("SNGR_EVENTS_URL", "https://monitoreocoe.gestionderiesgos.gob.ec/api/public/eventos_lluvias")
 GEOSERVER = "https://services.geoglows.org/geoserver"
 GEOGLOWS = "https://geoglows.ecmwf.int/api/v2"
+# Archivo público de GEOGLOWS en AWS: un Zarr por corrida desde julio de 2024.
+GEOGLOWS_ARCHIVO = "https://geoglows-v2-forecasts.s3.us-west-2.amazonaws.com"
+# El pronóstico de caudal que ya no está en la API se busca en el archivo AWS solo para eventos desde esta fecha.
+DESDE_ARCHIVO_CAUDAL = dt.date(2026, 1, 1)
 
 # Eventos de inundación del Catálogo Nacional de la SNGR (los mismos que SATI.EC).
 INUNDACIONES = {"inundacion", "inundacion costera", "inundacion fluvial", "inundacion lacustre", "inundacion pluvial"}
@@ -380,6 +385,127 @@ def dimension(espacio: str, capa: str, nombre: str) -> set[str]:
 # ── Caudal (GEOGLOWS) ───────────────────────────────────────────────────
 
 
+class ArchivoGeoglows:
+    """
+    Corridas pasadas de GEOGLOWS en AWS (un Zarr por corrida). `Qout` es [52
+    miembros × 280 pasos × 6,8 M ríos] en bloques de 686 ríos: leer un río baja
+    su bloque entero (~16 MB). Los bloques se guardan en memoria un rato porque
+    eventos del mismo día y zona comparten bloque. El miembro 52 es la alta resolución.
+    """
+
+    MIEMBROS_ENSAMBLE = 51
+    BLOQUES_EN_MEMORIA = 24
+
+    def __init__(self) -> None:
+        try:
+            import numcodecs
+            import numpy
+        except ImportError:
+            print("Aviso: sin numpy/numcodecs no se lee el archivo de pronósticos de GEOGLOWS (pip install numpy numcodecs).", flush=True)
+            self.disponible = False
+            return
+        self.np = numpy
+        self.blosc = numcodecs.Blosc()
+        self.disponible = True
+        self.cerrojo = threading.Lock()
+        self.metadatos: dict[str, dict | None] = {}
+        self.ids = None
+        self.bloques: OrderedDict = OrderedDict()
+        self.cerrojos: dict[tuple, threading.Lock] = {}
+
+    def _descargar(self, url: str, timeout: int = 180) -> bytes | None:
+        estado, cuerpo = http(url, intentos=3, timeout=timeout)
+        return cuerpo if estado == 200 else None
+
+    def _decodificar(self, datos: bytes, dtype: str):
+        return self.np.frombuffer(self.blosc.decode(datos), dtype=self.np.dtype(dtype))
+
+    def _meta(self, corrida: str) -> dict | None:
+        with self.cerrojo:
+            if corrida in self.metadatos:
+                return self.metadatos[corrida]
+        cuerpo = self._descargar(f"{GEOGLOWS_ARCHIVO}/{corrida}00.zarr/.zmetadata", timeout=60)
+        meta = json.loads(cuerpo)["metadata"] if cuerpo else None
+        with self.cerrojo:
+            self.metadatos[corrida] = meta
+        return meta
+
+    def _posicion(self, rio: int, corrida: str, meta: dict) -> int | None:
+        """Lugar del río en el archivo (el orden es el mismo en todas las corridas: se calcula una vez)."""
+        with self.cerrojo:
+            if self.ids is None:
+                rivid = meta["rivid/.zarray"]
+                total = rivid["shape"][0]
+                partes = []
+                for indice in range(math.ceil(total / rivid["chunks"][0])):
+                    datos = self._descargar(f"{GEOGLOWS_ARCHIVO}/{corrida}00.zarr/rivid/{indice}")
+                    if datos is None:
+                        return None
+                    partes.append(self._decodificar(datos, rivid["dtype"]))
+                self.ids = self.np.concatenate(partes)[:total]
+            encontrados = self.np.nonzero(self.ids == rio)[0]
+        return int(encontrados[0]) if len(encontrados) else None
+
+    def _bloque(self, corrida: str, indice: int) -> bytes | None:
+        clave = (corrida, indice)
+        with self.cerrojo:
+            cerrojo = self.cerrojos.setdefault(clave, threading.Lock())
+        with cerrojo:  # dos eventos del mismo bloque: una sola descarga
+            with self.cerrojo:
+                if clave in self.bloques:
+                    self.bloques.move_to_end(clave)
+                    return self.bloques[clave]
+            datos = self._descargar(f"{GEOGLOWS_ARCHIVO}/{corrida}00.zarr/Qout/0.0.{indice}")
+            if datos is not None:
+                with self.cerrojo:
+                    self.bloques[clave] = datos
+                    while len(self.bloques) > self.BLOQUES_EN_MEMORIA:
+                        self.bloques.popitem(last=False)
+            return datos
+
+    def maximos(self, rio: int, corrida: dt.date, inicio: dt.datetime, fin: dt.datetime) -> dict | None:
+        """Máximos entre `inicio` y `fin` de una corrida: promedio de los 51 ensambles, el más alto y la alta resolución."""
+        nombre = corrida.strftime("%Y%m%d")
+        meta = self._meta(nombre)
+        if not meta:
+            return None
+        qout = meta["Qout/.zarray"]
+        miembros, pasos, _ = qout["shape"]
+        _, _, por_bloque = qout["chunks"]
+        posicion = self._posicion(rio, nombre, meta)
+        if posicion is None:
+            return None
+        datos_tiempo = self._descargar(f"{GEOGLOWS_ARCHIVO}/{nombre}00.zarr/time/0", timeout=60)
+        bloque = self._bloque(nombre, posicion // por_bloque)
+        if datos_tiempo is None or bloque is None:
+            return None
+        unidades = re.match(r"seconds since (\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}:\d{2}))?", str(meta.get("time/.zattrs", {}).get("units", "")))
+        if not unidades:
+            return None
+        base = dt.datetime.fromisoformat(f"{unidades[1]}T{unidades[2] or '00:00:00'}").replace(tzinfo=UTC)
+        segundos = self._decodificar(datos_tiempo, meta["time/.zarray"]["dtype"])[:pasos]
+        horas = [base + dt.timedelta(seconds=float(x)) for x in segundos]
+        del_periodo = [i for i, t in enumerate(horas) if inicio <= t < fin]
+        if not del_periodo:
+            return None
+        serie = self._decodificar(bloque, qout["dtype"]).reshape(miembros, pasos, por_bloque)[:, del_periodo, posicion % por_bloque]
+        np = self.np
+        with np.errstate(all="ignore"):
+            import warnings
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", category=RuntimeWarning)
+                ensamble = serie[: self.MIEMBROS_ENSAMBLE]
+                promedio = np.nanmax(np.nanmean(ensamble, axis=0))
+                mas_alto = np.nanmax(ensamble)
+                alta = np.nanmax(serie[self.MIEMBROS_ENSAMBLE]) if miembros > self.MIEMBROS_ENSAMBLE else np.nan
+        valor = lambda x: round(float(x), 1) if np.isfinite(x) else None  # noqa: E731
+        return {
+            "maximo_promedio_de_ensambles_m3s": valor(promedio),
+            "maximo_del_ensamble_mas_alto_m3s": valor(mas_alto),
+            "maximo_alta_resolucion_m3s": valor(alta),
+        }
+
+
 class GeoglowsCaido(Exception):
     """GEOGLOWS dejó de responder: el evento se deja como estaba para la próxima ejecución."""
 
@@ -387,7 +513,8 @@ class GeoglowsCaido(Exception):
 class Rios:
     """Río más cercano, simulación histórica y periodos de retorno, con caché por río."""
 
-    def __init__(self) -> None:
+    def __init__(self, archivo: ArchivoGeoglows | None = None) -> None:
+        self.archivo = archivo
         self.simulaciones: dict[int, dict] = {}
         self.cerrojo = threading.Lock()
         self.fechas_api: set[str] = set()
@@ -456,13 +583,21 @@ class Rios:
         return resultado
 
     def pronostico(self, rio: int, dia: dt.date) -> dict:
-        """Lo que pronosticaban para el día de lluvia del evento y el siguiente las corridas de ese día y de 1 y 2 días antes (la API guarda ~2 meses)."""
+        """
+        Lo que pronosticaban para el día de lluvia del evento y el siguiente las
+        corridas de ese día y de 1 y 2 días antes: de la API (guarda ~2 meses) o,
+        para los eventos desde DESDE_ARCHIVO_CAUDAL, del archivo de AWS.
+        """
         salida = {}
         inicio = inicio_dia_lluvia(dia)
         fin = inicio + dt.timedelta(days=2)
         for anticipacion, nombre in ((0, "hecho_el_mismo_dia"), (1, "hecho_1_dia_antes"), (2, "hecho_2_dias_antes")):
             corrida = dia - dt.timedelta(days=anticipacion)
             if corrida.strftime("%Y%m%d") not in self.fechas_api:
+                if self.archivo and self.archivo.disponible and dia >= DESDE_ARCHIVO_CAUDAL:
+                    maximos = self.archivo.maximos(rio, corrida, inicio, fin)
+                    if maximos:
+                        salida[nombre] = {"corrida_del_modelo": corrida.isoformat(), "fuente": "archivo de GEOGLOWS en AWS", **maximos}
                 continue
             estado, cuerpo = self._consultar(f"{GEOGLOWS}/forecaststats/{rio}?format=json&date={corrida:%Y%m%d}")
             if estado != 200:
@@ -475,6 +610,7 @@ class Rios:
             maximo = lambda clave: max((v for i in del_periodo if (v := numero(datos.get(clave, [None] * (i + 1))[i])) is not None), default=None)  # noqa: E731
             salida[nombre] = {
                 "corrida_del_modelo": corrida.isoformat(),
+                "fuente": "API de GEOGLOWS",
                 "maximo_promedio_de_ensambles_m3s": maximo("flow_avg"),
                 "maximo_del_ensamble_mas_alto_m3s": maximo("flow_max"),
                 "maximo_alta_resolucion_m3s": maximo("high_res"),
@@ -485,6 +621,13 @@ class Rios:
 def numero_es(valor: float) -> str:
     """12.34 → '12,3'."""
     return f"{valor:.1f}".replace(".", ",")
+
+
+QUE_ES_CAUDAL_PRONOSTICADO = (
+    "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, "
+    "1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la "
+    "API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026)."
+)
 
 
 def caudal(lat: float, lng: float, dia: dt.date, rios: Rios) -> tuple[dict | None, str | None, str]:
@@ -526,9 +669,7 @@ def caudal(lat: float, lng: float, dia: dt.date, rios: Rios) -> tuple[dict | Non
     pronostico = rios.pronostico(rio, dia)
     if pronostico:
         datos["caudal_pronosticado"] = {
-            "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico "
-                      "hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida "
-                      "de alta resolución.",
+            "que_es": QUE_ES_CAUDAL_PRONOSTICADO,
             **pronostico,
         }
     return datos, None, ""
@@ -555,15 +696,50 @@ def resumen(registro: dict) -> str:
         ]
         partes.append("Pronóstico WRF para ese día: " + ", ".join(valores) + ".")
     if e := registro.get("lluvia_estacion_inamhi"):
-        partes.append(
-            f"Estación {e['estacion']['nombre']} (a {numero_es(e['estacion']['distancia_km'])} km): "
-            f"{numero_es(e['dia_del_evento']['lluvia_mm'])} mm medidos ese día."
-        )
+        detalle = []
+        if pp := e.get("pronostico_puntual"):
+            valores = [
+                f"{numero_es(pp[clave])} mm ({texto})"
+                for clave, texto in (("hecho_2_dias_antes_mm", "2 días antes"), ("hecho_1_dia_antes_mm", "1 día antes"), ("hecho_el_mismo_dia_mm", "el mismo día"))
+                if pp.get(clave) is not None
+            ]
+            detalle.append("el WRF pronosticaba ahí " + ", ".join(valores))
+        if medida := e.get("lluvia_medida_dia_del_evento"):
+            detalle.append(f"midió {numero_es(medida['lluvia_mm'])} mm ese día")
+        partes.append(f"Estación {e['estacion']['nombre']} (a {numero_es(e['estacion']['distancia_km'])} km): " + "; ".join(detalle) + ".")
     if c := registro.get("caudal_del_rio"):
         veces = f", {numero_es(c['veces_el_caudal_normal'])} veces su caudal normal" if c.get("veces_el_caudal_normal") is not None else ""
         crecida = c["crecida_alcanzada"]
         partes.append(f"Río: {numero_es(c['caudal_maximo_ese_dia_y_el_siguiente_m3s'])} m³/s{veces}; {crecida[0].lower()}{crecida[1:]}.")
     return " ".join(partes)
+
+
+ORDEN_REGISTRO = (
+    "version", "evento", "resumen", "dia_de_lluvia", "lluvia_satelite", "lluvia_pronosticada",
+    "lluvia_estacion_inamhi", "caudal_del_rio", "cruce",
+)
+
+
+def completar_v2(registro: dict, rios: Rios, estaciones: LluviaEstaciones) -> tuple[dict, str]:
+    """
+    Inundación completa guardada con la versión 2: ya tiene satélite, WRF y caudal
+    simulado; solo se le agrega la estación más cercana (pronóstico puntual y
+    medición) y el caudal pronosticado del archivo de AWS, sin volver a consultar lo demás.
+    """
+    if rios.caido:
+        raise GeoglowsCaido()
+    evento = registro["evento"]
+    dia = dia_de_lluvia(evento)
+    registro["lluvia_estacion_inamhi"] = estaciones.cercana(evento["latitud"], evento["longitud"], dia)
+    rio = registro["caudal_del_rio"]
+    if not rio.get("caudal_pronosticado") and dia >= DESDE_ARCHIVO_CAUDAL:
+        pronostico = rios.pronostico(rio["rio_geoglows"], dia)
+        if pronostico:
+            rio["caudal_pronosticado"] = {"que_es": QUE_ES_CAUDAL_PRONOSTICADO, **pronostico}
+    registro["version"] = VERSION
+    registro["resumen"] = resumen(registro)
+    registro["cruce"]["procesado"] = iso(dt.datetime.now(UTC))
+    return {clave: registro.get(clave) for clave in ORDEN_REGISTRO}, "completo"
 
 
 def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str], estaciones: LluviaEstaciones) -> tuple[dict, str]:
@@ -672,7 +848,10 @@ def fila(registro: dict) -> dict:
         "caudal_pronosticado_1_dia_antes_m3s": leer(q.get("hecho_1_dia_antes"), "maximo_promedio_de_ensambles_m3s"),
         "estacion_inamhi": leer(estacion.get("estacion"), "nombre"),
         "estacion_inamhi_distancia_km": leer(estacion.get("estacion"), "distancia_km"),
-        "lluvia_estacion_dia_evento_mm": leer(estacion.get("dia_del_evento"), "lluvia_mm"),
+        "estacion_pronostico_mismo_dia_mm": leer(estacion.get("pronostico_puntual"), "hecho_el_mismo_dia_mm"),
+        "estacion_pronostico_1_dia_antes_mm": leer(estacion.get("pronostico_puntual"), "hecho_1_dia_antes_mm"),
+        "estacion_pronostico_2_dias_antes_mm": leer(estacion.get("pronostico_puntual"), "hecho_2_dias_antes_mm"),
+        "estacion_lluvia_medida_dia_evento_mm": leer(estacion.get("lluvia_medida_dia_del_evento"), "lluvia_mm"),
         "resumen": registro["resumen"],
         "descripcion_sngr": e["descripcion"],
     }
@@ -695,7 +874,8 @@ def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados:
     )
     con_pron_lluvia = sum(1 for r in completos if r.get("lluvia_pronosticada"))
     con_pron_caudal = sum(1 for r in completos if r["caudal_del_rio"].get("caudal_pronosticado"))
-    con_estacion = sum(1 for r in completos if r.get("lluvia_estacion_inamhi"))
+    con_pronostico_estacion = sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("pronostico_puntual"))
+    con_medicion_estacion = sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("lluvia_medida_dia_del_evento"))
 
     lineas = [
         "# Inundaciones de la SNGR cruzadas con lluvia y caudal",
@@ -706,7 +886,8 @@ def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados:
             ("**Completas**: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`)", f"**{len(completos)}**"),
             ("…de ellas, con el pronóstico de lluvia del WRF para ese día", con_pron_lluvia),
             ("…de ellas, con el pronóstico de caudal de GEOGLOWS para ese día", con_pron_caudal),
-            ("…de ellas, con la lluvia medida en una estación del INAMHI a menos de 25 km", con_estacion),
+            ("…de ellas, con el pronóstico puntual del WRF en una estación del INAMHI a menos de 25 km", con_pronostico_estacion),
+            ("…de ellas, con la lluvia medida en esa estación (hay mediciones desde oct 2026)", con_medicion_estacion),
             ("Pendientes: esperan un dato que llegará (`pendientes/`)", len(pendientes)),
             *([("Por volver a cruzar con el formato nuevo (próximas ejecuciones)", por_cruzar)] if por_cruzar else []),
             ("Descartadas: nunca tendrán los dos datos (`descartados.csv`)", len(descartados)),
@@ -748,6 +929,7 @@ def main() -> int:
     parser.add_argument("--max-eventos", type=int, default=1500, help="tope de eventos a procesar en esta ejecución")
     parser.add_argument("--hilos", type=int, default=4)
     parser.add_argument("--registros", type=Path, help="prueba: lee registros crudos de la SNGR de un archivo JSON en vez de consultar la API")
+    parser.add_argument("--sin-archivo-caudal", action="store_true", help="no busca el pronóstico de caudal en el archivo de AWS (más rápido)")
     parser.add_argument("--solo-archivo", action="store_true", help="no consulta la SNGR: solo vuelve a cruzar los pendientes y los de formato antiguo")
     args = parser.parse_args()
 
@@ -779,7 +961,7 @@ def main() -> int:
         archivados.pop(evento["id"], None)
 
     # Nuevos, pendientes que toca reintentar y los de formato antiguo; los completos solo actualizan los datos de la SNGR.
-    por_procesar, actualizados = [], 0
+    por_procesar, a_completar, actualizados = [], [], 0
     ahora = dt.datetime.now(UTC)
     for evento in eventos.values():
         if evento["id"] in descartados:
@@ -788,6 +970,10 @@ def main() -> int:
             descartar(evento, "lluvia por satélite: no hay datos antes de 2025")
             continue
         registro = archivados.get(evento["id"])
+        if registro and registro.get("version") == 2 and registro["cruce"]["completo"]:
+            registro["evento"] = evento
+            a_completar.append(registro)
+            continue
         if registro and registro.get("version") == VERSION:
             ultimo = dt.datetime.fromisoformat(registro["cruce"]["procesado"].replace("Z", "+00:00"))
             # Los que fallaron por un error de las fuentes se reintentan en la próxima ejecución; los que esperan un dato, cada 3 días.
@@ -801,21 +987,25 @@ def main() -> int:
                 continue
         por_procesar.append(evento)
     por_procesar.sort(key=lambda e: e["fecha"], reverse=True)
-    tanda = por_procesar[: args.max_eventos]
-    print(f"{len(eventos)} inundaciones · {len(por_procesar)} por cruzar (esta vez {len(tanda)}) · {actualizados} actualizadas", flush=True)
+    a_completar.sort(key=lambda r: r["evento"]["fecha"], reverse=True)
+    # Primero las completas de la versión anterior (rápidas: solo se les agrega lo nuevo).
+    tanda = a_completar[: args.max_eventos]
+    tanda_nuevos = por_procesar[: max(0, args.max_eventos - len(tanda))]
+    print(f"{len(eventos)} inundaciones · {len(por_procesar)} por cruzar y {len(a_completar)} por completar con lo nuevo (esta vez {len(tanda) + len(tanda_nuevos)}) · {actualizados} actualizadas", flush=True)
 
     persiann = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("satellite_based_precipitation", "persiann_pdir_24h", "time")}
     corridas_wrf = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("wrf", "wrf_precipitation_daily", "INITD")}
-    rios = Rios()
+    rios = Rios(None if args.sin_archivo_caudal else ArchivoGeoglows())
     estaciones = LluviaEstaciones()
 
     if not rios.disponible:
         print("GEOGLOWS no responde: no se cruza ningún evento; se intentará en la próxima ejecución.", flush=True)
-        tanda = []
+        tanda, tanda_nuevos = [], []
 
     hechos = Counter()
     with ThreadPoolExecutor(max_workers=args.hilos) as grupo:
-        tareas = {grupo.submit(procesar, evento, rios, persiann, corridas_wrf, estaciones): evento for evento in tanda}
+        tareas = {grupo.submit(completar_v2, registro, rios, estaciones): registro["evento"] for registro in tanda}
+        tareas |= {grupo.submit(procesar, evento, rios, persiann, corridas_wrf, estaciones): evento for evento in tanda_nuevos}
         for tarea in as_completed(tareas):
             evento = tareas[tarea]
             try:
@@ -840,10 +1030,11 @@ def main() -> int:
                 archivados[evento["id"]] = registro
             hechos[estado] += 1
             if sum(hechos.values()) % 50 == 0:
-                print(f"  {sum(hechos.values())}/{len(tanda)} cruzados", flush=True)
+                print(f"  {sum(hechos.values())}/{len(tanda) + len(tanda_nuevos)} cruzados", flush=True)
 
-    completos = [r for r in leer_registros(CARPETA) if r.get("version") == VERSION]
-    pendientes = [r for r in leer_registros(PENDIENTES) if r.get("version") == VERSION]
+    # Completas de esta versión y de la anterior (que se van completando con lo nuevo por tandas).
+    completos = [r for r in leer_registros(CARPETA) if r.get("version", 1) >= 2 and r["cruce"]["completo"]]
+    pendientes = [r for r in leer_registros(PENDIENTES) if r.get("version", 1) >= 2]
     completos.sort(key=lambda r: (r["evento"]["fecha"], r["evento"]["hora"]), reverse=True)
     escribir_csv(TABLA, list(fila(completos[0]).keys()) if completos else ["id"], [fila(r) for r in completos])
     escribir_csv(DESCARTADOS, COLUMNAS_DESCARTE, sorted(descartados.values(), key=lambda f: f["fecha"] or "", reverse=True))

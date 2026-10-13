@@ -12,9 +12,11 @@ Resultado, en la carpeta `estaciones/`:
 - `lluvia_horaria/AAAA-MM.csv`: la lluvia de cada hora en cada estación.
 - `lluvia_diaria.csv`: la lluvia de cada día de lluvia (07:00 a 07:00, hora de
   Ecuador, el mismo día que el satélite y el cruce de inundaciones).
-- `pronostico_vs_medido.csv`: por estación y día del WRF (02:00 a 02:00), la
-  lluvia medida y la que pronosticaba el WRF en ese punto el mismo día, 1 y 2
-  días antes.
+- `pronostico_por_estacion.csv`: el pronóstico puntual de lluvia en cada una de
+  las 186 estaciones, día por día desde el 1 de enero de 2026: lo que
+  pronosticaba el WRF en las coordenadas de la estación para cada día del WRF
+  (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes; y, desde que se
+  archiva la estación, la lluvia que midió en esas mismas 24 h.
 
 Horas: la API marca sus horas con "-05:00", pero la hora que trae es UTC (a las
 08:55 de Ecuador ya entrega el dato de las "13:00"). Se guardan en UTC y en hora
@@ -45,7 +47,9 @@ CARPETA = RAIZ / "estaciones"
 ESTACIONES = CARPETA / "estaciones.csv"
 HORARIAS = CARPETA / "lluvia_horaria"
 DIARIA = CARPETA / "lluvia_diaria.csv"
-PRONOSTICO = CARPETA / "pronostico_vs_medido.csv"
+PRONOSTICO = CARPETA / "pronostico_por_estacion.csv"
+# Primer día del pronóstico puntual por estación (el WRF tiene corridas desde nov 2025).
+DESDE_PRONOSTICO = dt.date(2026, 1, 1)
 
 API = "https://apis.inamhi.gob.ec/api/v1"
 # Nemónico de la lluvia horaria (mm) en la API del INAMHI.
@@ -66,9 +70,12 @@ COLUMNAS_ESTACION = ["codigo", "id_estacion", "nombre", "categoria", "latitud", 
 COLUMNAS_HORARIA = ["codigo", "id_estacion", "hora_utc", "hora_ecuador", "lluvia_mm"]
 COLUMNAS_DIARIA = ["codigo", "nombre", "dia_de_lluvia", "desde", "hasta", "horas_con_dato", "lluvia_mm", "completo"]
 COLUMNAS_PRONOSTICO = [
-    "codigo", "nombre", "dia_wrf", "desde", "hasta", "horas_con_dato", "lluvia_medida_mm", "completo",
+    "codigo", "nombre", "latitud", "longitud", "dia_wrf", "desde", "hasta",
     "pronostico_mismo_dia_mm", "pronostico_1_dia_antes_mm", "pronostico_2_dias_antes_mm",
+    "lluvia_medida_mm", "horas_con_dato", "medicion_completa",
 ]
+# Anticipación de la corrida (días) → columna.
+ANTICIPACIONES = ((0, "pronostico_mismo_dia_mm"), (1, "pronostico_1_dia_antes_mm"), (2, "pronostico_2_dias_antes_mm"))
 
 
 # ── Utilidades ──────────────────────────────────────────────────────────
@@ -152,7 +159,10 @@ def descargar_estaciones() -> list[dict]:
         sys.exit(f"La API de estaciones del INAMHI respondió HTTP {estado}")
     filas = []
     for e in json.loads(cuerpo).get("datos", []):
-        if e.get("latitud") is None or e.get("longitud") is None:
+        # Sin coordenadas reales (vienen en 0, 0) o de prueba ("Pruebas 1"): no sirven para el pronóstico puntual.
+        if e.get("latitud") is None or e.get("longitud") is None or (e["latitud"] == 0 and e["longitud"] == 0):
+            continue
+        if "prueba" in str(e.get("punto_obs") or "").lower():
             continue
         filas.append({
             "codigo": str(e.get("codigo") or "").strip(),
@@ -309,39 +319,66 @@ def rehacer_tablas(estaciones: list[dict], ahora: dt.datetime) -> None:
                 }
     escribir_csv(DIARIA, COLUMNAS_DIARIA, sorted(diaria.values(), key=lambda f: (f["dia_de_lluvia"], f["codigo"]), reverse=True))
 
-    # Pronóstico vs. medido en el día del WRF (02:00 a 02:00): el pronóstico se lee una sola vez por día.
-    tabla = {(f["codigo"], f["dia_wrf"]): f for f in leer_csv(PRONOSTICO)}
-    corridas = corridas_wrf()
-    for dia in dias + [hoy]:
+    print(f"Tabla diaria: {len(diaria)} filas", flush=True)
+    rehacer_pronostico(estaciones, horas, ahora, dias)
+
+
+def rehacer_pronostico(estaciones: list[dict], horas: dict, ahora: dt.datetime, dias_recalculo: list[dt.date], max_dias: int = 400) -> None:
+    """
+    Pronóstico puntual por estación: para cada día del WRF desde DESDE_PRONOSTICO
+    que ya terminó, el valor del WRF en las coordenadas de cada estación (una
+    descarga de todo el Ecuador por corrida, no una por estación). Cada día se
+    calcula una sola vez; la lluvia medida de los últimos días se actualiza.
+    """
+    # Solo las estaciones vigentes de la lista (si el INAMHI quita una, sale de la tabla).
+    vigentes = {e["codigo"] for e in estaciones}
+    tabla = {(f["codigo"], f["dia_wrf"]): f for f in leer_csv(PRONOSTICO) if f["codigo"] in vigentes}
+    # Último día del WRF ya terminado: el día D va de D 07:00 UTC a D+1 07:00 UTC.
+    ultimo = (ahora - dt.timedelta(hours=INICIO_DIA_WRF.hour)).date() - dt.timedelta(days=1)
+    dias = [DESDE_PRONOSTICO + dt.timedelta(days=d) for d in range((ultimo - DESDE_PRONOSTICO).days + 1)]
+    # Los más recientes primero: si una ejecución no alcanza, lo nuevo nunca queda atrás.
+    faltan = [dia for dia in reversed(dias) if any((e["codigo"], dia.isoformat()) not in tabla for e in estaciones)]
+    corridas = corridas_wrf() if faltan else set()
+
+    calculados = 0
+    for dia in faltan[:max_dias]:
         inicio = dt.datetime.combine(dia, INICIO_DIA_WRF, UTC)
-        if inicio + 24 * HORA > ahora:
-            continue
-        faltan = [c for c in horas if not tabla.get((c, dia.isoformat()), {}).get("pronostico_mismo_dia_mm")]
         grillas = {}
-        if faltan:
-            for anticipacion in (0, 1, 2):
-                corrida = inicio - dt.timedelta(days=anticipacion)
-                if iso(corrida) in corridas:
-                    grillas[anticipacion] = grilla_wrf(corrida, inicio)
-        for codigo, serie in horas.items():
-            con_dato, total = lluvia_en(serie, inicio)
-            if total is None:
-                continue
-            anterior = tabla.get((codigo, dia.isoformat()), {})
-            estacion = nombres.get(codigo)
-            pronostico = {}
-            for anticipacion, columna in ((0, "pronostico_mismo_dia_mm"), (1, "pronostico_1_dia_antes_mm"), (2, "pronostico_2_dias_antes_mm")):
-                grilla = grillas.get(anticipacion)
-                calculado = valor_en(grilla, float(estacion["latitud"]), float(estacion["longitud"])) if grilla and estacion else None
-                pronostico[columna] = anterior.get(columna) or ("" if calculado is None else calculado)
-            tabla[(codigo, dia.isoformat())] = {
-                "codigo": codigo, "nombre": estacion["nombre"] if estacion else "", "dia_wrf": dia.isoformat(),
-                "desde": hora_ecuador(inicio), "hasta": hora_ecuador(inicio + 24 * HORA),
-                "horas_con_dato": con_dato, "lluvia_medida_mm": total, "completo": "sí" if con_dato == 24 else "no",
-                **pronostico,
+        for anticipacion, _ in ANTICIPACIONES:
+            corrida = inicio - dt.timedelta(days=anticipacion)
+            if iso(corrida) in corridas:
+                grillas[anticipacion] = grilla_wrf(corrida, inicio)
+        if any(grilla is None for grilla in grillas.values()):
+            print(f"  {dia}: el servidor del WRF no respondió; se reintenta en la próxima ejecución", flush=True)
+            continue
+        for e in estaciones:
+            lat, lng = float(e["latitud"]), float(e["longitud"])
+            fila = {
+                "codigo": e["codigo"], "nombre": e["nombre"], "latitud": lat, "longitud": lng,
+                "dia_wrf": dia.isoformat(), "desde": hora_ecuador(inicio), "hasta": hora_ecuador(inicio + 24 * HORA),
             }
+            for anticipacion, columna in ANTICIPACIONES:
+                valor = valor_en(grillas[anticipacion], lat, lng) if anticipacion in grillas else None
+                fila[columna] = "" if valor is None else valor
+            tabla[(e["codigo"], dia.isoformat())] = {**tabla.get((e["codigo"], dia.isoformat()), {}), **fila}
+        calculados += 1
+        if calculados % 30 == 0:
+            print(f"  pronóstico por estación: {calculados}/{min(len(faltan), max_dias)} días", flush=True)
+
+    # Lluvia medida en la misma ventana del WRF, para los días recientes (las horas se archivan desde oct 2026).
+    for dia in dias_recalculo + [ahora.date()]:
+        inicio = dt.datetime.combine(dia, INICIO_DIA_WRF, UTC)
+        for codigo, serie in horas.items():
+            fila = tabla.get((codigo, dia.isoformat()))
+            if not fila:
+                continue
+            con_dato, total = lluvia_en(serie, inicio)
+            if total is not None:
+                fila.update({"lluvia_medida_mm": total, "horas_con_dato": con_dato, "medicion_completa": "sí" if con_dato == 24 else "no"})
+
     escribir_csv(PRONOSTICO, COLUMNAS_PRONOSTICO, sorted(tabla.values(), key=lambda f: (f["dia_wrf"], f["codigo"]), reverse=True))
-    print(f"Tablas: {len(diaria)} filas diarias · {len(tabla)} filas de pronóstico vs. medido", flush=True)
+    print(f"Pronóstico por estación: {calculados} días nuevos · {len(tabla)} filas", flush=True)
+
 
 
 # ── Para el cruce de inundaciones ───────────────────────────────────────
@@ -353,7 +390,11 @@ def distancia_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
 
 
 class LluviaEstaciones:
-    """Estación del INAMHI más cercana a un punto con lluvia medida en un día de lluvia (para el cruce de inundaciones)."""
+    """
+    Para el cruce de inundaciones: la estación del INAMHI más cercana a un punto
+    (a menos de 25 km), con la lluvia que midió el día del evento y el pronóstico
+    puntual del WRF en la estación para ese día.
+    """
 
     RADIO_KM = 25
     MIN_HORAS = 18
@@ -364,29 +405,47 @@ class LluviaEstaciones:
         for ruta in sorted(HORARIAS.glob("*.csv")):
             for fila in leer_csv(ruta):
                 self.horas.setdefault(fila["codigo"], {})[leer_hora_utc(fila["hora_utc"])] = numero(fila["lluvia_mm"])
+        self.pronostico = {(f["codigo"], f["dia_wrf"]): f for f in leer_csv(PRONOSTICO)}
 
     def cercana(self, lat: float, lng: float, dia: dt.date) -> dict | None:
-        candidatas = []
-        for e in self.estaciones:
-            serie = self.horas.get(e["codigo"])
-            if not serie:
-                continue
-            distancia = distancia_km(lat, lng, float(e["latitud"]), float(e["longitud"]))
-            if distancia > self.RADIO_KM:
-                continue
-            lectura = lluvia_estacion_dia(serie, dia)
-            if lectura and lectura["horas_con_dato"] >= self.MIN_HORAS:
-                candidatas.append((distancia, e, lectura))
+        candidatas = sorted(
+            ((distancia_km(lat, lng, float(e["latitud"]), float(e["longitud"])), e) for e in self.estaciones),
+            key=lambda c: c[0],
+        )
+        candidatas = [(d, e) for d, e in candidatas if d <= self.RADIO_KM]
         if not candidatas:
             return None
-        distancia, e, lectura = min(candidatas, key=lambda c: c[0])
+        # La más cercana que midió ese día; si ninguna midió, la más cercana (para su pronóstico).
+        medidas = []
+        for distancia, e in candidatas:
+            lectura = lluvia_estacion_dia(self.horas.get(e["codigo"], {}), dia)
+            if lectura and lectura["horas_con_dato"] >= self.MIN_HORAS:
+                medidas.append((distancia, e, lectura))
+        distancia, e, medida = medidas[0] if medidas else (*candidatas[0], None)
+
+        fila = self.pronostico.get((e["codigo"], dia.isoformat()))
+        pronostico = None
+        if fila:
+            pronostico = {"desde": fila["desde"], "hasta": fila["hasta"]}
+            for columna, clave in (("pronostico_mismo_dia_mm", "hecho_el_mismo_dia_mm"),
+                                   ("pronostico_1_dia_antes_mm", "hecho_1_dia_antes_mm"),
+                                   ("pronostico_2_dias_antes_mm", "hecho_2_dias_antes_mm")):
+                pronostico[clave] = numero(fila.get(columna))
+            pronostico["lluvia_medida_mm"] = numero(fila.get("lluvia_medida_mm"))
+            if all(pronostico[k] is None for k in ("hecho_el_mismo_dia_mm", "hecho_1_dia_antes_mm", "hecho_2_dias_antes_mm")):
+                pronostico = None
+        if medida is None and pronostico is None:
+            return None
         return {
-            "que_es": "Lluvia que midió el pluviómetro de la estación del INAMHI más cercana (a menos de 25 km) en el día "
-                      "del evento, de 07:00 a 07:00 (hora de Ecuador). Es lluvia medida en tierra, más exacta que el "
-                      "satélite en ese punto, pero puede no representar el lugar del evento si la estación está lejos.",
+            "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo "
+                      "que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). "
+                      "'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día "
+                      "del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas "
+                      "mismas 24 h, si hay.",
             "estacion": {"codigo": e["codigo"], "nombre": e["nombre"], "distancia_km": round(distancia, 1),
                          "latitud": float(e["latitud"]), "longitud": float(e["longitud"])},
-            "dia_del_evento": lectura,
+            "lluvia_medida_dia_del_evento": medida,
+            "pronostico_puntual": pronostico,
         }
 
 
