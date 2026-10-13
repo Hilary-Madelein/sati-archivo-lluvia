@@ -273,7 +273,9 @@ def grilla_texto(espacio: str, capa: str, lat: float, lng: float, subconjuntos: 
     ] + [("subset", s) for s in subconjuntos]
     estado, cuerpo = http(f"{GEOSERVER}/{espacio}/wcs?" + urllib.parse.urlencode(parametros, safe="(),:"), intentos=3)
     texto = cuerpo.decode("utf-8", errors="replace")
-    limites = re.search(r"GeneralBounds\[\(([-\d.]+), ([-\d.]+)\), \(([-\d.]+), ([-\d.]+)\)\]", texto)
+    # Cerca de la línea ecuatorial los límites vienen en notación científica (2.86E-8).
+    n = r"(-?[\d.]+(?:E-?\d+)?)"
+    limites = re.search(rf"GeneralBounds\[\({n}, {n}\), \({n}, {n}\)\]", texto)
     if estado != 200 or not limites or "Band 0:" not in texto:
         return None
     oeste, sur, este, norte = map(float, limites.groups())
