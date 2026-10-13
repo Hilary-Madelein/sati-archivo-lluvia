@@ -8,12 +8,12 @@
     "provincia": "Imbabura",
     "canton": "Antonio Ante",
     "parroquia": "Andrade Marin  (lourdes)",
-    "sector": "Panamericana Norte [E35]",
+    "sector": "Panamericana Norte [E35], Barrio Centro Oriental, Barrio Central",
     "latitud": 0.327,
     "longitud": -78.214,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Producto de las lluvias suscitadas del 06/10/2026, se produjo la anegación de agua en el sector, por el taponamiento del alcantarillado, provocando el ingreso de agua a viviendas del lugar. GAD Antonio Ante coordina con EPAA -AA para la limpieza de alcantarillas.\r\nSNGR coordinó con la UGR GAD Antonio Ante la evaluación de daños y necesidades",
+    "descripcion": "Producto de las lluvias suscitadas del 06/10/2026, se produjo la abnegación de agua en el sector, por el taponamiento del alcantarillado, provocando el ingreso de agua a viviendas del lugar. Cuerpo de Bomberos evacuó el agua de las viviendas afectadas.\r\nGAD C Antonio Ante coordinó con EPAA -AA para la limpieza de alcantarillado y sumideros.\r\nGAD C Antonio Ante OOPP, ACM realizaron el apoyo en la limpieza de las vías y viviendas. \r\nACT brindaron seguridad vial.\r\nGAD Cantonal Antonio Ante UGR realizó la evaluación inicial de necesidades, determinando 2 familias damnificadas, solicitó mediante oficio de la Máxima Autoridad a la SNGR que atienda de acuerdo a sus competencias, por lo que la SNGR entregó asistencia humanitaria a las familias damnificadas en acompañamiento del personal de la UGR GAD C Antonio Ante y el Jefe Político. \r\nSNGR envió al MTDH la ficha Bono de Contingencia para su respectiva validación y calificación.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 2,
     "personas_evacuadas": 0,
@@ -69,6 +69,7 @@
       "maxima_a_menos_de_5km_mm": 1.9
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -76,6 +77,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:47:02.000Z"
+    "procesado": "2026-10-13T20:13:30.000Z",
+    "estado": "espera"
   }
 }

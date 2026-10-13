@@ -12,8 +12,8 @@
     "latitud": -0.392041,
     "longitud": -76.944201,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Por las lluvias registradas el 08/10/2026, se produjo el desbordamiento del río Negro, lo que ocasionó la inundación de varias viviendas. La cobertura telefónica en el lugar es limitada. Personal de la SNGR CZ2, con presencia del Coordinador, realizó un recorrido por el punto y pudo constatar que el río Negro descendió su nivel a la normalidad. Se verificó que no hubo mayores afectaciones una vez que el río descendió, confirmándose que no se registraron afectaciones.",
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias registradas, el 08/10/2026, se produjo el desbordamiento del río Negro, lo que ocasionó la inundación de varias viviendas. La cobertura telefónica en el lugar es limitada. Personal de la SNGR CZ2, con presencia del Coordinador, realizó un recorrido por el punto y pudo constatar que el río Negro descendió su nivel a la normalidad. Se verificó que no hubo mayores afectaciones una vez que el río descendió, confirmándose que no se registraron afectaciones.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 0.0
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:42:57.000Z"
+    "procesado": "2026-10-13T20:10:42.000Z",
+    "estado": "espera"
   }
 }

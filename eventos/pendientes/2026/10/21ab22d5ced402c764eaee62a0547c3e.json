@@ -13,7 +13,7 @@
     "longitud": -79.789028,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 11/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Gad Cantonal informó que actualmente calles y avenidas se encuentran libres de acumulación de agua.",
+    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 11/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informó que actualmente calles se encuentran libres de acumulación de agua.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 2.6
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:42:25.000Z"
+    "procesado": "2026-10-13T20:10:07.000Z",
+    "estado": "espera"
   }
 }

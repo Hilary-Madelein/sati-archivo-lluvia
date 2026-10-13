@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "fc3668cd8400940e970fa6ce4a867a4c",
+    "tipo": "Inundación",
+    "fecha": "2026-10-10",
+    "hora": "16:30",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Chinca",
+    "sector": "Recinto el 30",
+    "latitud": 0.766405892099634,
+    "longitud": -79.58275730091154,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias intensas registradas en la mañana del sábado 10/10/2026, se produjo el desbordamiento del río Esmeraldas, suscitándose una inundación que afectó varias viviendas. \r\n El río se encuentra desbordado. Las familias se mantienen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 15,0 mm el día del evento en el lugar (hasta 15,0 mm a menos de 5 km) y 68,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 25,5 mm (1 día antes), 39,5 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-10",
+    "desde": "2026-10-10 07:00",
+    "hasta": "2026-10-11 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-10 07:00",
+      "hasta": "2026-10-11 07:00",
+      "en_el_lugar_mm": 15.0,
+      "maxima_a_menos_de_5km_mm": 15.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 40.0,
+      "maxima_a_menos_de_5km_mm": 45.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 13.0,
+      "maxima_a_menos_de_5km_mm": 13.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-11 07:00",
+      "en_el_lugar_mm": 68.0,
+      "maxima_a_menos_de_5km_mm": 70.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-10 02:00",
+      "hasta": "2026-10-11 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 39.5,
+      "maxima_a_menos_de_5km_mm": 44.1
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 25.5,
+      "maxima_a_menos_de_5km_mm": 39.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 18.2
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-13T20:10:30.000Z",
+    "estado": "espera"
+  }
+}

@@ -12,8 +12,8 @@
     "latitud": 0.333858,
     "longitud": -78.164426,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a fuertes precipitaciones registradas durante la noche del 07/10/2026, se produjo anegamiento en diferentes vías de segundo orden del sector mencionado. GAD Cantonal Ibarra OOPP realizó los trabajos de limpieza y habilitación vial. \r\nEMAPA I realizó los trabajos de limpieza de alcantarillas y sumideros. \r\nGAD Cantonal Ibarra UGR realizó el levantamiento de información de las afectaciones. \r\nSNGR realizó seguimiento y monitoreo del evento.",
+    "estado": "Cierre",
+    "descripcion": "Debido a fuertes precipitaciones registradas durante la noche del 07/10/2026, se produjo anegamiento en diferentes vías de segundo orden del sector mencionado. GAD Cantonal Ibarra OOPP realizó los trabajos de limpieza y habilitación vial. \r\nEMAPA I realizó los trabajos de limpieza de alcantarillas y sumideros. \r\nGAD Cantonal Ibarra UGR realizó el levantamiento de información de las afectaciones. \r\nSNGR realizó seguimiento y monitoreo del evento.\r\nLa afectación de la vía fue de 100 metros lineales, al momento la vía se encuentra totalmente habilitada.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 0.5
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:46:49.000Z"
+    "procesado": "2026-10-13T20:13:21.000Z",
+    "estado": "espera"
   }
 }

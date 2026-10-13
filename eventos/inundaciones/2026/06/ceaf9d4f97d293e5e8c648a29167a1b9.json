@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "ceaf9d4f97d293e5e8c648a29167a1b9",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "19:10",
+    "provincia": "Tungurahua",
+    "canton": "Ambato",
+    "parroquia": "Santa Rosa",
+    "sector": "Calle García Moreno y Luis A. Martínez, ref. ingreso al estadio.",
+    "latitud": -1.279438515233384,
+    "longitud": -78.65923108742527,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas en la tarde del 09/06/2026 se produjo una inundación en una vivienda. -15/06/2026 Al momento la familia afectada pernocta en su misma vivienda.\r\n-10/06/2026 UGR GAD Ambato realizó el levantamiento del informe EVIN y la entrega de asistencia humanitaria a la familia afectada.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 5,0 mm el día del evento en el lugar (hasta 6,0 mm a menos de 5 km) y 52,0 mm en 3 días. Pronóstico WRF para ese día: 6,1 mm (2 días antes), 3,3 mm (1 día antes), 7,1 mm (el mismo día). Río: 15,4 m³/s, 14,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (28,1 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-06-09",
+    "desde": "2026-06-09 07:00",
+    "hasta": "2026-06-10 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-06-09 07:00",
+      "hasta": "2026-06-10 07:00",
+      "en_el_lugar_mm": 5.0,
+      "maxima_a_menos_de_5km_mm": 6.0
+    },
+    "dia_anterior": {
+      "desde": "2026-06-08 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 30.0,
+      "maxima_a_menos_de_5km_mm": 31.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-08 07:00",
+      "en_el_lugar_mm": 17.0,
+      "maxima_a_menos_de_5km_mm": 17.0
+    },
+    "total_3_dias": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-10 07:00",
+      "en_el_lugar_mm": 52.0,
+      "maxima_a_menos_de_5km_mm": 52.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-06-09 02:00",
+      "hasta": "2026-06-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-06-09 02:00",
+      "en_el_lugar_mm": 7.1,
+      "maxima_a_menos_de_5km_mm": 8.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-06-08 02:00",
+      "en_el_lugar_mm": 3.3,
+      "maxima_a_menos_de_5km_mm": 5.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-06-07 02:00",
+      "en_el_lugar_mm": 6.1,
+      "maxima_a_menos_de_5km_mm": 7.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 620710364,
+    "caudal_dia_del_evento_m3s": 15.4,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 15.4,
+    "caudal_normal_del_mes_m3s": 1.1,
+    "veces_el_caudal_normal": 14.0,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 28.1,
+      "cada_5_años": 41.1,
+      "cada_10_años": 49.7,
+      "cada_25_años": 60.7,
+      "cada_50_años": 68.8,
+      "cada_100_años": 76.8
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (28,1 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:17:13.000Z",
+    "estado": "completo"
+  }
+}

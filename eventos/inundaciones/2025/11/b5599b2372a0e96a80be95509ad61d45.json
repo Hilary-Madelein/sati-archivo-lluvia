@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "b5599b2372a0e96a80be95509ad61d45",
+    "tipo": "Inundación",
+    "fecha": "2025-11-28",
+    "hora": "18:23",
+    "provincia": "Pichincha",
+    "canton": "Quito",
+    "parroquia": "Chimbacalle",
+    "sector": "Av. Upano y Daule / Ciudadela México",
+    "latitud": -0.237712,
+    "longitud": -78.511692,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias registradas la tarde del 28/11/2025, se reportó la afectación de varias viviendas por acumulación de agua, producto del colapso de un colector y del mal drenaje en el parque del sector. Las familias afectadas recibieron atención en territorio. Cuerpo de Bomberos de Quito realizó los trabajos de succión y evacuación de agua en las viviendas.\r\nGAD Cantonal Operativo Zonal realizó la inspección y evaluación de afectaciones, EP-EMSEGURIDAD efectuó la entrega de la primera asistencia humanitaria.\r\nLas familias afectadas permanecerán en sus viviendas. GAD Cantonal EP Emseguridad una vez que cuente con disponibilidad y se cumplan los requisitos establecidos, entregará el fondo de reposición de enseres a 2 de las 10 familias.",
+    "personas_afectadas": 26,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 18,0 mm el día del evento en el lugar (hasta 18,0 mm a menos de 5 km) y 18,0 mm en 3 días. Pronóstico WRF para ese día: 21,1 mm (2 días antes), 19,7 mm (1 día antes), 31,9 mm (el mismo día). Río: 16,4 m³/s, 2,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (39,5 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2025-11-28",
+    "desde": "2025-11-28 07:00",
+    "hasta": "2025-11-29 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2025-11-28 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 18.0,
+      "maxima_a_menos_de_5km_mm": 18.0
+    },
+    "dia_anterior": {
+      "desde": "2025-11-27 07:00",
+      "hasta": "2025-11-28 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-27 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2025-11-26 07:00",
+      "hasta": "2025-11-29 07:00",
+      "en_el_lugar_mm": 18.0,
+      "maxima_a_menos_de_5km_mm": 18.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2025-11-28 02:00",
+      "hasta": "2025-11-29 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2025-11-28 02:00",
+      "en_el_lugar_mm": 31.9,
+      "maxima_a_menos_de_5km_mm": 44.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2025-11-27 02:00",
+      "en_el_lugar_mm": 19.7,
+      "maxima_a_menos_de_5km_mm": 39.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2025-11-26 02:00",
+      "en_el_lugar_mm": 21.1,
+      "maxima_a_menos_de_5km_mm": 36.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670093538,
+    "caudal_dia_del_evento_m3s": 16.4,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 16.4,
+    "caudal_normal_del_mes_m3s": 7.9,
+    "veces_el_caudal_normal": 2.1,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 39.5,
+      "cada_5_años": 48.3,
+      "cada_10_años": 54.1,
+      "cada_25_años": 61.5,
+      "cada_50_años": 66.9,
+      "cada_100_años": 72.4
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (39,5 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:19:34.000Z",
+    "estado": "completo"
+  }
+}

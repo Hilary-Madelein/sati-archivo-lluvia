@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "bcb570eb98a2efea632a5a37e52f91e2",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "03:30",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "SECTOR CERCANO A LA BIBLIA, CALICHANA, MACARIO VALAREZO",
+    "latitud": -3.366055219338435,
+    "longitud": -79.85289203754583,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias en la madrugada del 09/06/2026, se registró el desbordamiento del río Buenavista, generando inundación en varias calles, avenidas y viviendas del sector. Además se registró afectación al sector agrícola.<br>\r\nCOE Cantonal Pasaje se activó por la emergencia a fin de mantener seguimiento y articular acciones de respuesta. SNGR mantuvo monitoreo con GAD Pasaje, quien indica que las familias tanto afectadas como damnificadas fueron beneficiadas por la entrega de asistencia humanitaria en fechas pasadas y se mantienen en sus domicilios, luego que el agua evacuó en su totalidad. De igual manera, los productores afectados recibieron asistencia técnica por parte del MAG para sobrellevar la emergencia.",
+    "personas_afectadas": 927,
+    "viviendas_afectadas": 475,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 27,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,8 mm (1 día antes), 2,8 mm (el mismo día). Río: 7,6 m³/s, 2,2 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (56,1 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-06-08",
+    "desde": "2026-06-08 07:00",
+    "hasta": "2026-06-09 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-06-08 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 7.0,
+      "maxima_a_menos_de_5km_mm": 7.0
+    },
+    "dia_anterior": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-08 07:00",
+      "en_el_lugar_mm": 19.0,
+      "maxima_a_menos_de_5km_mm": 22.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-06-06 07:00",
+      "hasta": "2026-06-07 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 9.0
+    },
+    "total_3_dias": {
+      "desde": "2026-06-06 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 27.0,
+      "maxima_a_menos_de_5km_mm": 38.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-06-08 02:00",
+      "hasta": "2026-06-09 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-06-08 02:00",
+      "en_el_lugar_mm": 2.8,
+      "maxima_a_menos_de_5km_mm": 10.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-06-07 02:00",
+      "en_el_lugar_mm": 0.8,
+      "maxima_a_menos_de_5km_mm": 1.2
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-06-06 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670030164,
+    "caudal_dia_del_evento_m3s": 7.6,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 7.6,
+    "caudal_normal_del_mes_m3s": 3.5,
+    "veces_el_caudal_normal": 2.2,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 56.1,
+      "cada_5_años": 93.1,
+      "cada_10_años": 117.5,
+      "cada_25_años": 148.4,
+      "cada_50_años": 171.3,
+      "cada_100_años": 194.1
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (56,1 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:17:31.000Z",
+    "estado": "completo"
+  }
+}

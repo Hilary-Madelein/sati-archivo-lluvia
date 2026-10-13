@@ -13,7 +13,7 @@
     "longitud": -79.53315,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "Durante la mañana del 08/10/2026, el incremento en el nivel del río Amarillo provocó la ruptura de un muro de contención y su posterior desbordamiento, lo que causó la inundación en los  recintos. Prefectura del Guayas informó que realizó trabajos de reparación del muro de contención con la colocación de piedras escollera. Actualmente, el rio Amarillo se mantiene alto con tendencia a bajar..",
+    "descripcion": "Durante la mañana del 08/10/2026, el incremento en el nivel del río Amarillo provocó la ruptura de un muro de contención y su posterior desbordamiento, lo que causó la inundación en los  recintos. Prefectura del Guayas informó que realizó trabajos de reparación del muro de contención con la colocación de piedras escollera.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 11.3
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:45:36.000Z"
+    "procesado": "2026-10-13T20:12:05.000Z",
+    "estado": "espera"
   }
 }

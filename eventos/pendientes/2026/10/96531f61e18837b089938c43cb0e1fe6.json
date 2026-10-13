@@ -13,9 +13,9 @@
     "longitud": -80.58548251097972,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Por presencia de escorrentías la tarde del 07/10/2026 familias fueron afectadas porque la escorrentía inundó las viviendas, dejando 4 familias afectadas  UGR Jipijapa realiza el levantamiento de información.",
-    "personas_afectadas": 12,
-    "viviendas_afectadas": 3,
+    "descripcion": "Por presencia de escorrentías la tarde del 07/10/2026 familias fueron afectadas porque la escorrentía inundó las viviendas, dejando 4 familias afectadas  UGR Jipijapa realiza el levantamiento de información.\r\n13/10/2026 Al momento, no se registra presencia de lluvias en el sector. El agua ha sido evacuada; las familias afectadas permanecen en sus viviendas.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 5,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 14.2
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:45:19.000Z"
+    "procesado": "2026-10-13T20:11:48.000Z",
+    "estado": "espera"
   }
 }

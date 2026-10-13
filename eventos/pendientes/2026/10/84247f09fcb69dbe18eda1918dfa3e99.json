@@ -12,7 +12,7 @@
     "latitud": -0.4478981,
     "longitud": -76.9988556,
     "nivel": 1,
-    "estado": "Cierre",
+    "estado": "Seguimiento",
     "descripcion": "Fuertes lluvias registradas en la madrugada provocaron la saturación del alcantarillado y la acumulación de agua en varias calles principales de la ciudad, entre ellas: 9 de Octubre, Alma Lojana, Loja, Guayaquil, Ambato y Yasuní. Adicionalmente, se reportaron nuevos incidentes por inundación en el sector Pechiche-4 (Calle H y Calle A, junto al reciclador) y en el sector Limoncocha-Nicolás Torres, donde se reportó una vivienda inundada. El Cuerpo de Bomberos acudió al lugar de la afectación y procedió con la evacuación del agua, confirmando que no hubo mayor afectación.. SNGR realizó monitoreo.",
     "personas_afectadas": 4,
     "viviendas_afectadas": 1,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 0.0
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:45:09.000Z"
+    "procesado": "2026-10-13T20:11:46.000Z",
+    "estado": "espera"
   }
 }

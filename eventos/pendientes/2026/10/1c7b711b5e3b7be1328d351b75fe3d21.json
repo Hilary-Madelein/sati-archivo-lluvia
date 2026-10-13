@@ -12,8 +12,8 @@
     "latitud": -0.3407153761574283,
     "longitud": -77.00398239439829,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Se reporta una inundación en calles y viviendas producto de las fuertes lluvias que causaron el ingreso de agua algunas viviendas. Voluntariado de Protección Civil confirmó el evento y realizó el seguimiento.  Tras el cese de las lluvias, el agua evacuó de manera natural y las estructuras no presentaron daños, por lo que no fue necesaria la elaboración de fichas EVIN",
+    "estado": "Cierre",
+    "descripcion": "Se reporta una inundación en calles y viviendas producto de las fuertes lluvias que causaron el ingreso de agua algunas viviendas. Voluntariado de Protección Civil confirmó el evento. SNGR  realizó el seguimiento.   Tras el cese de las lluvias, el agua evacuó de manera natural y las estructuras no presentaron daños, por lo que no fue necesaria la elaboración de fichas EVIN",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 0.3
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:45:20.000Z"
+    "procesado": "2026-10-13T20:11:37.000Z",
+    "estado": "espera"
   }
 }

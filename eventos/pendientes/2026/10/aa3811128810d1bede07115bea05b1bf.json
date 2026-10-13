@@ -14,7 +14,7 @@
     "nivel": 1,
     "estado": "Seguimiento",
     "descripcion": "Debido a las lluvias suscitadas en horas de la tarde y noche del 07/10/2026, se produjo creciente de varias quebradas, provocando el incremento de caudal del río Grande-Portoviejo y desbordamiento en las zonas bajas, causando inundación en el sitio y afectación a una vivienda que fue afectada con ingreso de agua. Al momento, el río se encuentra en su caudal normal; se actualiza la información de afectaciones mediante el registro en plataforma EVIN; las familias continúan en sus viviendas.",
-    "personas_afectadas": 3,
+    "personas_afectadas": 0,
     "viviendas_afectadas": 2,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 37.4
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:45:01.000Z"
+    "procesado": "2026-10-13T20:11:30.000Z",
+    "estado": "espera"
   }
 }

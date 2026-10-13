@@ -53,6 +53,7 @@
     }
   },
   "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -60,6 +61,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:48:11.000Z"
+    "procesado": "2026-10-13T20:14:35.000Z",
+    "estado": "espera"
   }
 }

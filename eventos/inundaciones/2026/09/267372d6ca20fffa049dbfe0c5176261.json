@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "267372d6ca20fffa049dbfe0c5176261",
+    "tipo": "Inundación",
+    "fecha": "2026-09-15",
+    "hora": "04:30",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Zapotal",
+    "sector": "RCTO. SAN FRANCISCO, RÍO SUQUIBÍ",
+    "latitud": -1.294251,
+    "longitud": -79.451944,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 15/09/2026 en los límites del cantón Las Naves de la provincia de Bolívar, se reportó el desbordamiento del río Suquibí, en donde se reporta 5 metros lineales afectados en la vía de primer orden.  UGR Ventanas luego de realizar barrido de novedades en el sitio, reportó que el río se encuentra en su nivel normal y que no existe presencia de agua en las viviendas, por lo que no se realizará levantamiento EVIN, SNGR realizó consolidación de información, dando por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 127,0 mm el día del evento en el lugar (hasta 155,0 mm a menos de 5 km) y 127,0 mm en 3 días. Pronóstico WRF para ese día: 94,1 mm (2 días antes), 41,4 mm (el mismo día). Río: 76,6 m³/s, 10,7 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (142,2 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-09-14",
+    "desde": "2026-09-14 07:00",
+    "hasta": "2026-09-15 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-09-14 07:00",
+      "hasta": "2026-09-15 07:00",
+      "en_el_lugar_mm": 127.0,
+      "maxima_a_menos_de_5km_mm": 155.0
+    },
+    "dia_anterior": {
+      "desde": "2026-09-13 07:00",
+      "hasta": "2026-09-14 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-12 07:00",
+      "hasta": "2026-09-13 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-12 07:00",
+      "hasta": "2026-09-15 07:00",
+      "en_el_lugar_mm": 127.0,
+      "maxima_a_menos_de_5km_mm": 155.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-09-14 02:00",
+      "hasta": "2026-09-15 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-09-14 02:00",
+      "en_el_lugar_mm": 41.4,
+      "maxima_a_menos_de_5km_mm": 49.1
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-12 02:00",
+      "en_el_lugar_mm": 94.1,
+      "maxima_a_menos_de_5km_mm": 102.7
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670060807,
+    "caudal_dia_del_evento_m3s": 9.5,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 76.6,
+    "caudal_normal_del_mes_m3s": 7.2,
+    "veces_el_caudal_normal": 10.7,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 142.2,
+      "cada_5_años": 180.3,
+      "cada_10_años": 205.5,
+      "cada_25_años": 237.3,
+      "cada_50_años": 260.9,
+      "cada_100_años": 284.3
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (142,2 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución.",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-09-14",
+        "maximo_promedio_de_ensambles_m3s": 15.5,
+        "maximo_del_ensamble_mas_alto_m3s": 97.8,
+        "maximo_alta_resolucion_m3s": 12.2
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-09-13",
+        "maximo_promedio_de_ensambles_m3s": 16.1,
+        "maximo_del_ensamble_mas_alto_m3s": 129.1,
+        "maximo_alta_resolucion_m3s": 5.4
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-09-12",
+        "maximo_promedio_de_ensambles_m3s": 8.4,
+        "maximo_del_ensamble_mas_alto_m3s": 64.3,
+        "maximo_alta_resolucion_m3s": 6.7
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:16:26.000Z",
+    "estado": "completo"
+  }
+}

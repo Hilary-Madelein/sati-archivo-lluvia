@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "57c4e72a372541b8c537559d35f8bb8a",
+    "tipo": "Inundación",
+    "fecha": "2026-09-15",
+    "hora": "05:00",
+    "provincia": "Los Ríos",
+    "canton": "Valencia",
+    "parroquia": "Valencia",
+    "sector": "RCTO. FEDERICO INTRIAGO HACIA VÍA BUENA FE, RCTO. SAN PEDRO DE LA Y, RCTO. SAN SIMÓN, ESTERO GUANTUPÍ, RÍO SAN SIMÓN",
+    "latitud": -0.800946,
+    "longitud": -79.444911,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 15/09/2026 en los límites del cantón La Maná de la provincia de Cotopaxi, se reportó el desbordamiento del estero Guantupí, que deja consigo 5 metros lineales afectados y 5 vivi en la vía de segundo orden, así también como el desbordamiento del río San Simón, del cual se espera reporte de afectaciones. UGR Valencia luego de realizar barrido de novedades en el sitio, reportó que el río se encuentra en su nivel normal y que no existe presencia de agua en las viviendas, por lo que no se realizará levantamiento EVIN, SNGR realizó consolidación de información, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 142,0 mm el día del evento en el lugar (hasta 145,0 mm a menos de 5 km) y 142,0 mm en 3 días. Pronóstico WRF para ese día: 3,0 mm (2 días antes), 12,9 mm (el mismo día). Río: 191,1 m³/s, 2,6 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (940,4 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-09-14",
+    "desde": "2026-09-14 07:00",
+    "hasta": "2026-09-15 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-09-14 07:00",
+      "hasta": "2026-09-15 07:00",
+      "en_el_lugar_mm": 142.0,
+      "maxima_a_menos_de_5km_mm": 145.0
+    },
+    "dia_anterior": {
+      "desde": "2026-09-13 07:00",
+      "hasta": "2026-09-14 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-12 07:00",
+      "hasta": "2026-09-13 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-12 07:00",
+      "hasta": "2026-09-15 07:00",
+      "en_el_lugar_mm": 142.0,
+      "maxima_a_menos_de_5km_mm": 145.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-09-14 02:00",
+      "hasta": "2026-09-15 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-09-14 02:00",
+      "en_el_lugar_mm": 12.9,
+      "maxima_a_menos_de_5km_mm": 29.2
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-12 02:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 5.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670085364,
+    "caudal_dia_del_evento_m3s": 131.5,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 191.1,
+    "caudal_normal_del_mes_m3s": 74.7,
+    "veces_el_caudal_normal": 2.6,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 940.4,
+      "cada_5_años": 1143.1,
+      "cada_10_años": 1277.3,
+      "cada_25_años": 1446.9,
+      "cada_50_años": 1572.7,
+      "cada_100_años": 1697.6
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (940,4 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución.",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-09-14",
+        "maximo_promedio_de_ensambles_m3s": 147.1,
+        "maximo_del_ensamble_mas_alto_m3s": 465.3,
+        "maximo_alta_resolucion_m3s": 131.5
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-09-13",
+        "maximo_promedio_de_ensambles_m3s": 194.2,
+        "maximo_del_ensamble_mas_alto_m3s": 766.0,
+        "maximo_alta_resolucion_m3s": 146.2
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-09-12",
+        "maximo_promedio_de_ensambles_m3s": 181.4,
+        "maximo_del_ensamble_mas_alto_m3s": 553.0,
+        "maximo_alta_resolucion_m3s": 153.3
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:16:31.000Z",
+    "estado": "completo"
+  }
+}

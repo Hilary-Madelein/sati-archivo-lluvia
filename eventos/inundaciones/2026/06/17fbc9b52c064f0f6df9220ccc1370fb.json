@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "17fbc9b52c064f0f6df9220ccc1370fb",
+    "tipo": "Inundación",
+    "fecha": "2026-06-09",
+    "hora": "02:22",
+    "provincia": "Azuay",
+    "canton": "Camilo Ponce Enriquez",
+    "parroquia": "Camilo Ponce Enriquez",
+    "sector": "Centro Cantonal, Galo Alselmo, Nueva Ponce y Zhumiral",
+    "latitud": -3.055329,
+    "longitud": -79.74503,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por causa de las lluvias de la madrugada del 09/06/2026, se suscitó anegación de agua sobre las vías del centro cantonal e ingreso de agua a viviendas del sector. El 09/06/2026 se activó el COE Cantonal  El 10/06/2026, El caudal del río Guanache ha retornado a su cauce normal. SNGR realizó entrega de asistencia humanitaria y monitoreo del evento. UGR Camilo Ponce Enríquez realizó un nuevo levantamiento de información estableciendo familias afectadas y familias damnificadas (dentro del núcleo familiar hay personas menores de edad, con discapacidad y adultos mayores), todas las familias permanecen en sus viviendas. MINEDEC reportó que la Escuela de Educación Básica El Diamante  presentó daño por filtraciones en varias áreas de la institución; adicionalmente, en la Escuela de Educación Básica Miguel Heredia Crespo y Unidad Educativa Libertador Bolívar, afectados funcionalmente.",
+    "personas_afectadas": 9,
+    "viviendas_afectadas": 9,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 36,0 mm el día del evento en el lugar (hasta 37,0 mm a menos de 5 km) y 87,0 mm en 3 días. Pronóstico WRF para ese día: 1,3 mm (2 días antes), 2,0 mm (1 día antes), 11,4 mm (el mismo día). Río: 6,3 m³/s, 2,5 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (24,1 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-06-08",
+    "desde": "2026-06-08 07:00",
+    "hasta": "2026-06-09 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-06-08 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 36.0,
+      "maxima_a_menos_de_5km_mm": 37.0
+    },
+    "dia_anterior": {
+      "desde": "2026-06-07 07:00",
+      "hasta": "2026-06-08 07:00",
+      "en_el_lugar_mm": 34.0,
+      "maxima_a_menos_de_5km_mm": 39.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-06-06 07:00",
+      "hasta": "2026-06-07 07:00",
+      "en_el_lugar_mm": 17.0,
+      "maxima_a_menos_de_5km_mm": 17.0
+    },
+    "total_3_dias": {
+      "desde": "2026-06-06 07:00",
+      "hasta": "2026-06-09 07:00",
+      "en_el_lugar_mm": 87.0,
+      "maxima_a_menos_de_5km_mm": 87.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-06-08 02:00",
+      "hasta": "2026-06-09 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-06-08 02:00",
+      "en_el_lugar_mm": 11.4,
+      "maxima_a_menos_de_5km_mm": 12.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-06-07 02:00",
+      "en_el_lugar_mm": 2.0,
+      "maxima_a_menos_de_5km_mm": 6.8
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-06-06 02:00",
+      "en_el_lugar_mm": 1.3,
+      "maxima_a_menos_de_5km_mm": 4.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670012746,
+    "caudal_dia_del_evento_m3s": 6.3,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 6.3,
+    "caudal_normal_del_mes_m3s": 2.6,
+    "veces_el_caudal_normal": 2.5,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 24.1,
+      "cada_5_años": 38.7,
+      "cada_10_años": 48.3,
+      "cada_25_años": 60.5,
+      "cada_50_años": 69.5,
+      "cada_100_años": 78.5
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (24,1 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:17:48.000Z",
+    "estado": "completo"
+  }
+}

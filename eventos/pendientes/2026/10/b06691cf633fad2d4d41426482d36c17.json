@@ -14,8 +14,8 @@
     "nivel": 1,
     "estado": "Seguimiento",
     "descripcion": "A causa de las lluvias registradas la tarde del 09/10/2026 en el sector, se produjo el colapso de la alcantarilla provocando que las calles se inunden e ingrese agua a las viviendas. GAD Cantonal realizó labores de revisión del alcantarillado con un camión hidrosuccionador.\r\nUGR de GAD Guaranda realizó el levantamiento de información EVIN e informa que al momento no hay viviendas ni familias afectadas, solo ingresó agua sin generar daños mayores; adicionalmente, indica que a mediano plazo se ejecutarán obras en el sistema de alcantarillado como solución definitiva.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 3,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 8.3
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -81,6 +82,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T13:44:43.000Z"
+    "procesado": "2026-10-13T20:11:19.000Z",
+    "estado": "espera"
   }
 }

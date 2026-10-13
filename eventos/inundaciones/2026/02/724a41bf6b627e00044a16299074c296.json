@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "724a41bf6b627e00044a16299074c296",
+    "tipo": "Inundación",
+    "fecha": "2026-02-11",
+    "hora": "08:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "PUENTE EL PALMAR - RÍO SAN PABLO",
+    "latitud": -1.834983,
+    "longitud": -79.441996,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de lluvias suscitadas en la madrugada del 11/02/2026, se reportó el desbordamiento del río San Pablo, provocando afectación en 1 vivienda con 1 familia de dos personas DGR Babahoyo realizó entrega de asistencia humanitaria el 11/02/2026, reportando que actualmente ya no se visualiza presencia de agua en la vivienda, el caudal del río San Pablo está descendiendo de nivel y la familia se mantendrá permanentemente en el hogar, por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 9,0 mm el día del evento en el lugar (hasta 9,0 mm a menos de 5 km) y 40,0 mm en 3 días. Pronóstico WRF para ese día: 0,7 mm (2 días antes), 1,0 mm (1 día antes), 2,8 mm (el mismo día). Río: 24,7 m³/s, 1,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (118,8 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-02-11",
+    "desde": "2026-02-11 07:00",
+    "hasta": "2026-02-12 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-02-11 07:00",
+      "hasta": "2026-02-12 07:00",
+      "en_el_lugar_mm": 9.0,
+      "maxima_a_menos_de_5km_mm": 9.0
+    },
+    "dia_anterior": {
+      "desde": "2026-02-10 07:00",
+      "hasta": "2026-02-11 07:00",
+      "en_el_lugar_mm": 25.0,
+      "maxima_a_menos_de_5km_mm": 27.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-02-09 07:00",
+      "hasta": "2026-02-10 07:00",
+      "en_el_lugar_mm": 6.0,
+      "maxima_a_menos_de_5km_mm": 6.0
+    },
+    "total_3_dias": {
+      "desde": "2026-02-09 07:00",
+      "hasta": "2026-02-12 07:00",
+      "en_el_lugar_mm": 40.0,
+      "maxima_a_menos_de_5km_mm": 40.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-02-11 02:00",
+      "hasta": "2026-02-12 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-02-11 02:00",
+      "en_el_lugar_mm": 2.8,
+      "maxima_a_menos_de_5km_mm": 2.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-02-10 02:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 8.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-02-09 02:00",
+      "en_el_lugar_mm": 0.7,
+      "maxima_a_menos_de_5km_mm": 1.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670050587,
+    "caudal_dia_del_evento_m3s": 24.7,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 24.7,
+    "caudal_normal_del_mes_m3s": 23.3,
+    "veces_el_caudal_normal": 1.1,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 118.8,
+      "cada_5_años": 160.9,
+      "cada_10_años": 188.8,
+      "cada_25_años": 224.0,
+      "cada_50_años": 250.1,
+      "cada_100_años": 276.0
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (118,8 m³/s)"
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:19:18.000Z",
+    "estado": "completo"
+  }
+}

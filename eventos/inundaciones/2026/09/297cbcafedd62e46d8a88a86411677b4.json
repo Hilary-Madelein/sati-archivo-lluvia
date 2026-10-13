@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "evento": {
+    "id": "297cbcafedd62e46d8a88a86411677b4",
+    "tipo": "Inundación",
+    "fecha": "2026-09-15",
+    "hora": "20:40",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "La Concordia",
+    "parroquia": "La Concordia",
+    "sector": "Sector del mercado Municipal, barrio Bélgica sector 4, Lotización La florida, sector colegio Agropecuario, calle Pichincha, calle Crisanto Vera, barrio La Paz.",
+    "latitud": 0.004150069574287609,
+    "longitud": -79.39174234201798,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias suscitadas la noche del 15/09/2026, se produjo la inundación de las calles del sector, afectando a viviendas aledañas con el ingreso de agua.  Al momento, las familias permanecen en sus viviendas.\r\nSNGR realizó la entrega de asistencia humanitaria con el acompañamiento del jefe político y MDH del cantón La Concordia.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 16,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 200,0 mm el día del evento en el lugar (hasta 203,0 mm a menos de 5 km) y 354,0 mm en 3 días. Pronóstico WRF para ese día: 2,6 mm (1 día antes), 19,4 mm (el mismo día). Río: 1,4 m³/s, 2,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (42,5 m³/s).",
+  "dia_de_lluvia": {
+    "fecha": "2026-09-15",
+    "desde": "2026-09-15 07:00",
+    "hasta": "2026-09-16 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-09-15 07:00",
+      "hasta": "2026-09-16 07:00",
+      "en_el_lugar_mm": 200.0,
+      "maxima_a_menos_de_5km_mm": 203.0
+    },
+    "dia_anterior": {
+      "desde": "2026-09-14 07:00",
+      "hasta": "2026-09-15 07:00",
+      "en_el_lugar_mm": 153.0,
+      "maxima_a_menos_de_5km_mm": 174.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-09-13 07:00",
+      "hasta": "2026-09-14 07:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 4.0
+    },
+    "total_3_dias": {
+      "desde": "2026-09-13 07:00",
+      "hasta": "2026-09-16 07:00",
+      "en_el_lugar_mm": 354.0,
+      "maxima_a_menos_de_5km_mm": 376.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-09-15 02:00",
+      "hasta": "2026-09-16 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-09-15 02:00",
+      "en_el_lugar_mm": 19.4,
+      "maxima_a_menos_de_5km_mm": 42.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-09-14 02:00",
+      "en_el_lugar_mm": 2.6,
+      "maxima_a_menos_de_5km_mm": 4.7
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
+    "rio_geoglows": 670097625,
+    "caudal_dia_del_evento_m3s": 1.4,
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 1.4,
+    "caudal_normal_del_mes_m3s": 0.7,
+    "veces_el_caudal_normal": 2.0,
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 42.5,
+      "cada_5_años": 62.7,
+      "cada_10_años": 76.1,
+      "cada_25_años": 93.0,
+      "cada_50_años": 105.5,
+      "cada_100_años": 117.9
+    },
+    "crecida_alcanzada_años": 0,
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (42,5 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución.",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-09-15",
+        "maximo_promedio_de_ensambles_m3s": 26.6,
+        "maximo_del_ensamble_mas_alto_m3s": 99.4,
+        "maximo_alta_resolucion_m3s": 22.8
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-09-14",
+        "maximo_promedio_de_ensambles_m3s": 36.4,
+        "maximo_del_ensamble_mas_alto_m3s": 186.4,
+        "maximo_alta_resolucion_m3s": 30.9
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-09-13",
+        "maximo_promedio_de_ensambles_m3s": 44.2,
+        "maximo_del_ensamble_mas_alto_m3s": 285.2,
+        "maximo_alta_resolucion_m3s": 51.1
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 1,
+    "procesado": "2026-10-13T20:16:30.000Z",
+    "estado": "completo"
+  }
+}
