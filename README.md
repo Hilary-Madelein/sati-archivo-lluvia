@@ -16,31 +16,45 @@ Ecuador continental; se abre directo en QGIS, Python (rasterio) o R.
 ## Inundaciones de la SNGR cruzadas con lluvia y caudal
 
 Cada día, `cruzar_eventos.py` toma las **inundaciones** que registra la SNGR y, para
-el punto y el día de cada una, guarda:
+el lugar y el día de cada una, busca la lluvia y el caudal. **Solo se archivan las
+que tienen los dos datos**:
 
-| Dato | Fuente | Desde |
-|---|---|---|
-| El evento: fecha, hora, provincia, cantón, parroquia, sector, coordenadas, nivel, estado, descripción y afectaciones | SNGR (misma identificación que SATI.EC) | Lo que entregue la API (hay datos desde 2018) |
-| Lluvia observada el día del evento y los 2 anteriores, y el acumulado de 72 h (en el punto y la máxima en ~5 km) | Satélite PERSIANN (INAMHI) | ene 2025 |
-| Lluvia pronosticada para ese día por las corridas del mismo día, de 1 y de 2 días antes | WRF del INAMHI | nov 2025 |
-| Río más cercano: caudal simulado ese día, periodos de retorno de 2 a 100 años y cuál superó | GEOGLOWS (simulación histórica) | 1980 (llega hasta ~1 mes atrás) |
-| Lo que se pronosticaba para el caudal de ese día (corridas del mismo día, de 1 y 2 días antes) | GEOGLOWS | últimos ~2 meses |
+| Dato | Fuente | Desde | ¿Obligatorio? |
+|---|---|---|---|
+| El evento: fecha, hora, provincia, cantón, parroquia, sector, coordenadas, nivel, estado, descripción y afectaciones | SNGR (misma identificación que SATI.EC) | Lo que entregue la API | Sí |
+| Lluvia que cayó el día del evento y los 2 anteriores, y el total de los 3 días (en el lugar y la más alta a menos de 5 km) | Satélite PERSIANN (INAMHI) | ene 2025 | **Sí** |
+| Caudal del río más cercano ese día y el siguiente, cuántas veces su caudal normal del mes y qué crecida alcanzó (la de 2, 5, 10… años) | GEOGLOWS (simulación diaria) | 1980 (llega hasta ~1 mes atrás) | **Sí** |
+| Lluvia que pronosticaba el WRF para ese día (hecho ese día, 1 y 2 días antes) | WRF del INAMHI | nov 2025 | No: se agrega si existe |
+| Caudal que pronosticaba GEOGLOWS para ese día (hecho ese día, 1 y 2 días antes) | GEOGLOWS | últimos ~2 meses | No: se agrega si existe |
+
+**El día del evento** es el "día de lluvia" de **07:00 a 07:00** del día siguiente
+(hora de Ecuador), igual que el acumulado diario del satélite: un evento de las
+19:20 del 11 de octubre usa la lluvia del 11 a las 07:00 al 12 a las 07:00. Uno de
+madrugada (antes de las 07:00) cuenta en el día anterior. Cada dato del JSON
+indica su periodo con `desde` y `hasta`, y cada bloque trae un `que_es` que lo explica.
 
 Se guarda en `eventos/`:
 
-- **`eventos/inundaciones.csv`**: una fila por evento, para abrir en Excel.
-- **`eventos/inundaciones/AAAA/MM/<id>.json`**: el detalle completo de cada evento.
+- **`RESUMEN.md`**: cuántas inundaciones hay completas, pendientes y descartadas,
+  y las completas por mes, provincia, lluvia y crecida.
+- **`inundaciones.csv`**: una fila por inundación completa, para abrir en Excel.
+  La columna `resumen` lo dice en una frase.
+- **`inundaciones/AAAA/MM/<id>.json`**: el detalle de cada inundación completa.
+- **`pendientes/AAAA/MM/<id>.json`**: esperan un dato que va a llegar (sobre todo
+  el caudal: la simulación de GEOGLOWS va ~1 mes atrasada). Se reintentan cada 3
+  días y pasan solas a `inundaciones/` cuando se completan.
+- **`descartados.csv`**: las que nunca tendrán los dos datos (p. ej. anteriores a
+  2025, sin lluvia por satélite), con el motivo.
 
-Si una fuente aún no tiene datos para un evento reciente (la simulación del río va
-~1 mes atrasada), queda en la columna `pendiente` y se completa sola en un archivado
-posterior (se reintenta cada 3 días). Los datos de la SNGR de los últimos 30 días se
-actualizan en cada ejecución (estado, afectados…).
+Los datos de la SNGR de los últimos 30 días se actualizan en cada ejecución
+(estado, afectados…).
 
 **Puesta en marcha:** en *Settings → Secrets and variables → Actions → Secrets*, crea
 `SNGR_USUARIO` y `SNGR_CLAVE` con el usuario y la clave de la API de la SNGR. Luego
-*Actions → "Cruzar inundaciones de la SNGR" → Run workflow* con *desde* = `2018-01-01`
-para el histórico. Procesa hasta 1500 eventos por ejecución (unas 2 h); si quedan
-más, vuelve a ejecutarlo o deja que lo complete la ejecución diaria.
+*Actions → "Cruzar inundaciones de la SNGR" → Run workflow* con *desde* = `2025-01-01`
+(antes no hay lluvia por satélite, así que esas inundaciones se descartan). Procesa
+hasta 1500 eventos por ejecución (unas 2 h); si quedan más, vuelve a ejecutarlo o
+deja que lo complete la ejecución diaria.
 
 ## Dónde están los archivos
 
