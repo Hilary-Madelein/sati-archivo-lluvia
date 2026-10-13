@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "7572d92e341322ab2f3235f4bdd7a057",
     "tipo": "Inundación",
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 0.0
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": {
     "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 670066952,
@@ -90,12 +91,36 @@
       "cada_100_años": 225.4
     },
     "crecida_alcanzada_años": 0,
-    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (73,0 m³/s)"
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (73,0 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-05-12",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 5.4,
+        "maximo_del_ensamble_mas_alto_m3s": 42.2,
+        "maximo_alta_resolucion_m3s": 4.6
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-05-11",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 3.8,
+        "maximo_del_ensamble_mas_alto_m3s": 27.3,
+        "maximo_alta_resolucion_m3s": 13.3
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-05-10",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 3.6,
+        "maximo_del_ensamble_mas_alto_m3s": 44.9,
+        "maximo_alta_resolucion_m3s": 3.9
+      }
+    }
   },
   "cruce": {
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T14:18:21.000Z"
+    "procesado": "2026-10-13T20:55:17.000Z"
   }
 }

@@ -6,9 +6,11 @@ Actualizado el 2026-10-13. Se genera solo en cada cruce; ver el README para qué
 |---|---:|
 | **Completas**: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | **1429** |
 | …de ellas, con el pronóstico de lluvia del WRF para ese día | 1374 |
-| …de ellas, con el pronóstico de caudal de GEOGLOWS para ese día | 101 |
-| …de ellas, con la lluvia medida en una estación del INAMHI a menos de 25 km | 0 |
+| …de ellas, con el pronóstico de caudal de GEOGLOWS para ese día | 1362 |
+| …de ellas, con el pronóstico puntual del WRF en una estación del INAMHI a menos de 25 km | 1193 |
+| …de ellas, con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 0 |
 | Pendientes: esperan un dato que llegará (`pendientes/`) | 110 |
+| Por volver a cruzar con el formato nuevo (próximas ejecuciones) | 39 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |
 
 ## Completas, según la crecida que alcanzó el río

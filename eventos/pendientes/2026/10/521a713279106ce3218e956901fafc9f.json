@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "521a713279106ce3218e956901fafc9f",
     "tipo": "Inundación",
@@ -19,7 +19,7 @@
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
-  "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 38,0 mm en 3 días. Pronóstico WRF para ese día: 0,4 mm (2 días antes), 4,4 mm (1 día antes), 5,1 mm (el mismo día).",
+  "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 38,0 mm en 3 días. Pronóstico WRF para ese día: 0,4 mm (2 días antes), 4,4 mm (1 día antes), 5,1 mm (el mismo día). Estación Quito Aeropuerto - Parque Bicentenario (a 1,0 km): el WRF pronosticaba ahí 0,4 mm (2 días antes), 4,4 mm (1 día antes), 5,1 mm (el mismo día).",
   "dia_de_lluvia": {
     "fecha": "2026-10-08",
     "desde": "2026-10-08 07:00",
@@ -74,7 +74,25 @@
       "maxima_a_menos_de_5km_mm": 5.7
     }
   },
-  "lluvia_estacion_inamhi": null,
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M0055",
+      "nombre": "Quito Aeropuerto - Parque Bicentenario",
+      "distancia_km": 1.0,
+      "latitud": -0.14,
+      "longitud": -78.485
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-08 02:00",
+      "hasta": "2026-10-09 02:00",
+      "hecho_el_mismo_dia_mm": 5.1,
+      "hecho_1_dia_antes_mm": 4.4,
+      "hecho_2_dias_antes_mm": 0.4,
+      "lluvia_medida_mm": null
+    }
+  },
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
@@ -82,7 +100,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T20:11:35.000Z",
+    "procesado": "2026-10-13T21:18:13.000Z",
     "estado": "espera"
   }
 }

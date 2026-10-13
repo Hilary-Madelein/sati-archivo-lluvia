@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "9d4396d2401da7d0f984d6799a6e0277",
     "tipo": "Inundación",
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 18.9
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": {
     "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 620945586,
@@ -90,12 +91,36 @@
       "cada_100_años": 5398.3
     },
     "crecida_alcanzada_años": 2,
-    "crecida_alcanzada": "Superó la crecida de 2 años (2861,3 m³/s)"
+    "crecida_alcanzada": "Superó la crecida de 2 años (2861,3 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-05-24",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 3793.4,
+        "maximo_del_ensamble_mas_alto_m3s": 4255.0,
+        "maximo_alta_resolucion_m3s": 3834.6
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-05-23",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 3810.5,
+        "maximo_del_ensamble_mas_alto_m3s": 4124.4,
+        "maximo_alta_resolucion_m3s": 3683.6
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-05-22",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 3920.3,
+        "maximo_del_ensamble_mas_alto_m3s": 5211.2,
+        "maximo_alta_resolucion_m3s": 4153.0
+      }
+    }
   },
   "cruce": {
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T14:16:28.000Z"
+    "procesado": "2026-10-13T20:54:32.000Z"
   }
 }

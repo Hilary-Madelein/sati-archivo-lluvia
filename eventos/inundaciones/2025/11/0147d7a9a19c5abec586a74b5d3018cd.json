@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "0147d7a9a19c5abec586a74b5d3018cd",
     "tipo": "Inundación",
@@ -97,7 +97,7 @@
     "completo": true,
     "falta": [],
     "fallos": 1,
-    "procesado": "2026-10-13T20:19:22.000Z",
+    "procesado": "2026-10-13T21:15:23.000Z",
     "estado": "completo"
   }
 }

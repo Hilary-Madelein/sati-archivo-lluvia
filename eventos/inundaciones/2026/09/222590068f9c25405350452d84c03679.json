@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "222590068f9c25405350452d84c03679",
     "tipo": "Inundación",
@@ -74,6 +74,7 @@
       "maxima_a_menos_de_5km_mm": 30.3
     }
   },
+  "lluvia_estacion_inamhi": null,
   "caudal_del_rio": {
     "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 670064822,
@@ -117,6 +118,6 @@
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T14:00:59.000Z"
+    "procesado": "2026-10-13T20:52:03.000Z"
   }
 }

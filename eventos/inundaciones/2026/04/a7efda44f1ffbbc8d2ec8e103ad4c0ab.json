@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "a7efda44f1ffbbc8d2ec8e103ad4c0ab",
     "tipo": "Inundación",
@@ -91,13 +91,37 @@
       "cada_100_años": 110.0
     },
     "crecida_alcanzada_años": 0,
-    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (36,4 m³/s)"
+    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (36,4 m³/s)",
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-04-23",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 19.0,
+        "maximo_del_ensamble_mas_alto_m3s": 112.9,
+        "maximo_alta_resolucion_m3s": 16.9
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-04-22",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 13.8,
+        "maximo_del_ensamble_mas_alto_m3s": 87.1,
+        "maximo_alta_resolucion_m3s": 39.2
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-04-21",
+        "fuente": "archivo de GEOGLOWS en AWS",
+        "maximo_promedio_de_ensambles_m3s": 8.9,
+        "maximo_del_ensamble_mas_alto_m3s": 35.4,
+        "maximo_alta_resolucion_m3s": 11.5
+      }
+    }
   },
   "cruce": {
     "completo": true,
     "falta": [],
     "fallos": 1,
-    "procesado": "2026-10-13T20:17:49.000Z",
+    "procesado": "2026-10-13T20:56:13.000Z",
     "estado": "completo"
   }
 }
