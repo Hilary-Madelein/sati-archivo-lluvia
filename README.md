@@ -26,6 +26,7 @@ que tienen los dos datos**:
 | Caudal del río más cercano ese día y el siguiente, cuántas veces su caudal normal del mes y qué crecida alcanzó (la de 2, 5, 10… años) | GEOGLOWS (simulación diaria) | 1980 (llega hasta ~1 mes atrás) | **Sí** |
 | Lluvia que pronosticaba el WRF para ese día (hecho ese día, 1 y 2 días antes) | WRF del INAMHI | nov 2025 | No: se agrega si existe |
 | Caudal que pronosticaba GEOGLOWS para ese día (hecho ese día, 1 y 2 días antes) | GEOGLOWS | últimos ~2 meses | No: se agrega si existe |
+| Lluvia que midió la estación del INAMHI más cercana (a menos de 25 km) ese día | Estaciones del INAMHI | 13 oct 2026 | No: se agrega si existe |
 
 **El día del evento** es el "día de lluvia" de **07:00 a 07:00** del día siguiente
 (hora de Ecuador), igual que el acumulado diario del satélite: un evento de las
@@ -55,6 +56,29 @@ Los datos de la SNGR de los últimos 30 días se actualizan en cada ejecución
 (antes no hay lluvia por satélite, así que esas inundaciones se descartan). Procesa
 hasta 1500 eventos por ejecución (unas 2 h); si quedan más, vuelve a ejecutarlo o
 deja que lo complete la ejecución diaria.
+
+## Estaciones del INAMHI
+
+La API del INAMHI (`apis.inamhi.gob.ec`) da las estaciones con sus coordenadas y
+la lluvia de cada hora, pero **solo de las últimas 12 horas**. `estaciones.py` la
+guarda **cada 3 horas** (job "estaciones" del workflow "Cruzar inundaciones de la
+SNGR") en `estaciones/`:
+
+| Archivo | Qué tiene |
+|---|---|
+| `estaciones.csv` | Las 186 estaciones del INAMHI: código, nombre, tipo, coordenadas, altitud, estado y si transmiten (hoy ~74, y ~48 con lluvia) |
+| `lluvia_horaria/AAAA-MM.csv` | La lluvia de cada hora en cada estación, en UTC y en hora de Ecuador |
+| `lluvia_diaria.csv` | La lluvia de cada día de lluvia (07:00 a 07:00), con cuántas de las 24 horas tienen dato |
+| `pronostico_vs_medido.csv` | Por estación y día del WRF (02:00 a 02:00): la lluvia medida y la que pronosticaba el WRF en ese punto el mismo día, 1 y 2 días antes |
+
+El cruce de inundaciones agrega, si hay, la **estación más cercana a menos de
+25 km** con la lluvia que midió el día del evento (`lluvia_estacion_inamhi`).
+Solo hay datos desde que empezó este archivo (13 oct 2026): la API no da fechas
+anteriores.
+
+Avisos sobre la API: las horas vienen marcadas "-05:00" pero son UTC (a las 08:55
+de Ecuador ya trae el dato "13:00"); cada valor se toma como la lluvia de la hora
+que termina en esa hora.
 
 ## Dónde están los archivos
 

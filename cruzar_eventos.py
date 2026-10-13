@@ -10,7 +10,9 @@ Para cada inundación guarda:
 - Caudal del río más cercano (GEOGLOWS): el de ese día, cuántas veces su caudal
   normal y qué crecida alcanzó (la de 2, 5, 10… años).
 - Si existen: la lluvia que pronosticaba el WRF del INAMHI para ese día (desde
-  nov 2025) y el caudal que pronosticaba GEOGLOWS (últimos ~2 meses).
+  nov 2025), el caudal que pronosticaba GEOGLOWS (últimos ~2 meses) y la lluvia
+  que midió la estación del INAMHI más cercana (archivada por estaciones.py
+  desde oct 2026).
 
 El "día de lluvia" del evento va de las 07:00 a las 07:00 del día siguiente
 (hora de Ecuador), como el acumulado diario del satélite. Un evento de
@@ -54,6 +56,8 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+from estaciones import LluviaEstaciones
+
 RAIZ = Path(__file__).resolve().parent
 CARPETA = RAIZ / "eventos" / "inundaciones"
 PENDIENTES = RAIZ / "eventos" / "pendientes"
@@ -77,6 +81,8 @@ PERIODOS = (2, 5, 10, 25, 50, 100)
 REINTENTO_PENDIENTES = dt.timedelta(days=3)
 # Tras tantos intentos fallidos por errores de las fuentes, el evento se descarta.
 MAX_INTENTOS = 10
+# Tras tantas consultas seguidas sin respuesta, GEOGLOWS se da por caído y se deja el resto para la próxima ejecución.
+MAX_FALLOS_SEGUIDOS = 15
 # Primer día con lluvia por satélite (PERSIANN) en el servidor del INAMHI.
 INICIO_SATELITE = dt.date(2025, 1, 1)
 # El día de lluvia empieza a esta hora de Ecuador (12:00 UTC), como el PERSIANN de 24 h.
@@ -374,6 +380,10 @@ def dimension(espacio: str, capa: str, nombre: str) -> set[str]:
 # ── Caudal (GEOGLOWS) ───────────────────────────────────────────────────
 
 
+class GeoglowsCaido(Exception):
+    """GEOGLOWS dejó de responder: el evento se deja como estaba para la próxima ejecución."""
+
+
 class Rios:
     """Río más cercano, simulación histórica y periodos de retorno, con caché por río."""
 
@@ -381,12 +391,29 @@ class Rios:
         self.simulaciones: dict[int, dict] = {}
         self.cerrojo = threading.Lock()
         self.fechas_api: set[str] = set()
+        self.fallos_seguidos = 0
         estado, cuerpo = http(f"{GEOGLOWS}/dates?format=json")
-        if estado == 200:
+        self.disponible = estado == 200
+        if self.disponible:
             self.fechas_api = {d[:8] for d in json.loads(cuerpo).get("dates", [])}
 
+    @property
+    def caido(self) -> bool:
+        return not self.disponible or self.fallos_seguidos >= MAX_FALLOS_SEGUIDOS
+
+    def _consultar(self, url: str, timeout: int = 120) -> tuple[int, bytes]:
+        """Consulta a GEOGLOWS que cuenta las respuestas fallidas seguidas (5xx o sin conexión)."""
+        if self.caido:
+            raise GeoglowsCaido()
+        estado, cuerpo = http(url, intentos=4, timeout=timeout)
+        with self.cerrojo:
+            self.fallos_seguidos = self.fallos_seguidos + 1 if estado == 0 or estado >= 500 else 0
+        if self.caido:
+            raise GeoglowsCaido()
+        return estado, cuerpo
+
     def rio_cercano(self, lat: float, lng: float) -> int | None:
-        estado, cuerpo = http(f"{GEOGLOWS}/getriverid?lat={lat:.5f}&lon={lng:.5f}&format=json", intentos=4)
+        estado, cuerpo = self._consultar(f"{GEOGLOWS}/getriverid?lat={lat:.5f}&lon={lng:.5f}&format=json")
         try:
             return int(json.loads(cuerpo)["river_id"]) if estado == 200 else None
         except (ValueError, KeyError, TypeError):
@@ -397,7 +424,7 @@ class Rios:
         with self.cerrojo:
             if rio in self.simulaciones:
                 return self.simulaciones[rio]
-        estado, cuerpo = http(f"{GEOGLOWS}/retrospectivedaily/{rio}?format=json&start_date={DESDE_RETORNO}0101", intentos=4, timeout=180)
+        estado, cuerpo = self._consultar(f"{GEOGLOWS}/retrospectivedaily/{rio}?format=json&start_date={DESDE_RETORNO}0101", timeout=180)
         if estado != 200:
             return None  # sin caché: un error pasajero no afecta a los demás eventos del mismo río
         datos = json.loads(cuerpo)
@@ -437,7 +464,7 @@ class Rios:
             corrida = dia - dt.timedelta(days=anticipacion)
             if corrida.strftime("%Y%m%d") not in self.fechas_api:
                 continue
-            estado, cuerpo = http(f"{GEOGLOWS}/forecaststats/{rio}?format=json&date={corrida:%Y%m%d}", intentos=3)
+            estado, cuerpo = self._consultar(f"{GEOGLOWS}/forecaststats/{rio}?format=json&date={corrida:%Y%m%d}")
             if estado != 200:
                 continue
             datos = json.loads(cuerpo)
@@ -527,6 +554,11 @@ def resumen(registro: dict) -> str:
             if clave in p
         ]
         partes.append("Pronóstico WRF para ese día: " + ", ".join(valores) + ".")
+    if e := registro.get("lluvia_estacion_inamhi"):
+        partes.append(
+            f"Estación {e['estacion']['nombre']} (a {numero_es(e['estacion']['distancia_km'])} km): "
+            f"{numero_es(e['dia_del_evento']['lluvia_mm'])} mm medidos ese día."
+        )
     if c := registro.get("caudal_del_rio"):
         veces = f", {numero_es(c['veces_el_caudal_normal'])} veces su caudal normal" if c.get("veces_el_caudal_normal") is not None else ""
         crecida = c["crecida_alcanzada"]
@@ -534,8 +566,10 @@ def resumen(registro: dict) -> str:
     return " ".join(partes)
 
 
-def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str]) -> tuple[dict, str]:
+def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str], estaciones: LluviaEstaciones) -> tuple[dict, str]:
     """Cruza un evento. Devuelve el registro y su estado: 'completo' | 'espera' | 'fallo' | 'definitivo'."""
+    if rios.caido:
+        raise GeoglowsCaido()
     dia = dia_de_lluvia(evento)
     lat, lng = evento["latitud"], evento["longitud"]
     falta, motivos = [], set()
@@ -557,11 +591,13 @@ def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str
         "dia_de_lluvia": {"fecha": dia.isoformat(), **periodo(inicio_dia_lluvia(dia))},
         "lluvia_satelite": satelite,
         "lluvia_pronosticada": lluvia_pronosticada(dia, lat, lng, corridas_wrf),
+        "lluvia_estacion_inamhi": estaciones.cercana(lat, lng, dia),
         "caudal_del_rio": rio,
         "cruce": {"completo": not falta, "falta": falta, "fallos": 0, "procesado": iso(dt.datetime.now(UTC))},
     }
     registro["resumen"] = resumen(registro)
     estado = "completo" if not falta else next(m for m in ("definitivo", "fallo", "espera") if m in motivos)
+    registro["cruce"]["estado"] = estado
     return registro, estado
 
 
@@ -607,6 +643,7 @@ def fila(registro: dict) -> dict:
     """Una inundación completa como fila del CSV."""
     e, s, p, c = registro["evento"], registro["lluvia_satelite"], registro.get("lluvia_pronosticada") or {}, registro["caudal_del_rio"]
     q = c.get("caudal_pronosticado", {})
+    estacion = registro.get("lluvia_estacion_inamhi") or {}
     leer = lambda d, k: (d or {}).get(k)  # noqa: E731
     return {
         "id": e["id"], "fecha": e["fecha"], "hora": e["hora"], "provincia": e["provincia"], "canton": e["canton"],
@@ -633,6 +670,9 @@ def fila(registro: dict) -> dict:
         **{f"umbral_crecida_{t}_años_m3s": c["umbrales_de_crecida_m3s"][f"cada_{t}_años"] for t in PERIODOS},
         "caudal_pronosticado_mismo_dia_m3s": leer(q.get("hecho_el_mismo_dia"), "maximo_promedio_de_ensambles_m3s"),
         "caudal_pronosticado_1_dia_antes_m3s": leer(q.get("hecho_1_dia_antes"), "maximo_promedio_de_ensambles_m3s"),
+        "estacion_inamhi": leer(estacion.get("estacion"), "nombre"),
+        "estacion_inamhi_distancia_km": leer(estacion.get("estacion"), "distancia_km"),
+        "lluvia_estacion_dia_evento_mm": leer(estacion.get("dia_del_evento"), "lluvia_mm"),
         "resumen": registro["resumen"],
         "descripcion_sngr": e["descripcion"],
     }
@@ -655,6 +695,7 @@ def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados:
     )
     con_pron_lluvia = sum(1 for r in completos if r.get("lluvia_pronosticada"))
     con_pron_caudal = sum(1 for r in completos if r["caudal_del_rio"].get("caudal_pronosticado"))
+    con_estacion = sum(1 for r in completos if r.get("lluvia_estacion_inamhi"))
 
     lineas = [
         "# Inundaciones de la SNGR cruzadas con lluvia y caudal",
@@ -665,6 +706,7 @@ def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados:
             ("**Completas**: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`)", f"**{len(completos)}**"),
             ("…de ellas, con el pronóstico de lluvia del WRF para ese día", con_pron_lluvia),
             ("…de ellas, con el pronóstico de caudal de GEOGLOWS para ese día", con_pron_caudal),
+            ("…de ellas, con la lluvia medida en una estación del INAMHI a menos de 25 km", con_estacion),
             ("Pendientes: esperan un dato que llegará (`pendientes/`)", len(pendientes)),
             *([("Por volver a cruzar con el formato nuevo (próximas ejecuciones)", por_cruzar)] if por_cruzar else []),
             ("Descartadas: nunca tendrán los dos datos (`descartados.csv`)", len(descartados)),
@@ -748,7 +790,10 @@ def main() -> int:
         registro = archivados.get(evento["id"])
         if registro and registro.get("version") == VERSION:
             ultimo = dt.datetime.fromisoformat(registro["cruce"]["procesado"].replace("Z", "+00:00"))
-            if registro["cruce"]["completo"] or ahora - ultimo < REINTENTO_PENDIENTES:
+            # Los que fallaron por un error de las fuentes se reintentan en la próxima ejecución; los que esperan un dato, cada 3 días.
+            # (Sin "estado": guardado por una versión anterior del script; se reintenta.)
+            espera = registro["cruce"].get("estado", "fallo") != "fallo" and ahora - ultimo < REINTENTO_PENDIENTES
+            if registro["cruce"]["completo"] or espera:
                 if registro["evento"] != evento:
                     registro["evento"] = evento
                     guardar(CARPETA if registro["cruce"]["completo"] else PENDIENTES, registro)
@@ -762,14 +807,22 @@ def main() -> int:
     persiann = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("satellite_based_precipitation", "persiann_pdir_24h", "time")}
     corridas_wrf = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("wrf", "wrf_precipitation_daily", "INITD")}
     rios = Rios()
+    estaciones = LluviaEstaciones()
+
+    if not rios.disponible:
+        print("GEOGLOWS no responde: no se cruza ningún evento; se intentará en la próxima ejecución.", flush=True)
+        tanda = []
 
     hechos = Counter()
     with ThreadPoolExecutor(max_workers=args.hilos) as grupo:
-        tareas = {grupo.submit(procesar, evento, rios, persiann, corridas_wrf): evento for evento in tanda}
+        tareas = {grupo.submit(procesar, evento, rios, persiann, corridas_wrf, estaciones): evento for evento in tanda}
         for tarea in as_completed(tareas):
             evento = tareas[tarea]
             try:
                 registro, estado = tarea.result()
+            except GeoglowsCaido:
+                hechos["sin cruzar: GEOGLOWS dejó de responder"] += 1
+                continue
             except Exception as error:  # un evento con problemas no detiene el resto
                 print(f"  {evento['fecha']} {evento['id'][:8]}: error ({error})", flush=True)
                 continue
@@ -797,6 +850,8 @@ def main() -> int:
     por_cruzar = sum(1 for r in archivados.values() if r.get("version") != VERSION)
     escribir_resumen(completos, pendientes, descartados, por_cruzar)
     print(f"Esta vez: {dict(hechos)}")
+    if rios.caido:
+        print("Aviso: GEOGLOWS no respondió; los eventos que faltan se cruzarán en la próxima ejecución.")
     print(f"Listo: {len(completos)} inundaciones completas · {len(pendientes)} pendientes · {len(descartados)} descartadas"
           + (f" · {por_cruzar} por volver a cruzar (vuelve a ejecutar)" if por_cruzar else ""))
     return 0
