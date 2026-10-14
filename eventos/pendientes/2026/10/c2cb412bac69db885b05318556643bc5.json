@@ -12,9 +12,9 @@
     "latitud": -3.240346436731183,
     "longitud": -79.82992402068506,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Mediante visualización por cámaras del ECU 911, se registran lluvias intensas, donde se observa la acumulación de agua y calles anegadas en distintos puntos del casco urbano ademas se registran unidades educativas afectadas por ingreso de agua. . Al momento las lluvias continúan de manera fuerte.",
-    "personas_afectadas": 0,
+    "estado": "Cierre",
+    "descripcion": "Mediante visualización por cámaras del ECU 911, se visualizó lluvias intensas, y acumulación de agua y calles anegadas en distintos puntos del casco urbano.  Empresa Pública de Agua Potable y Alcantarillado del Cantón El Guabo (EPAAGUA EP), en coordinación con el GAD Municipal de El Guabo realizaron limpieza de alcantarillado y evacuación de aguas lluvias, SNGR; UGR del GAD Cantonal para realizó recorrido en los sectores afectados, SNGR realizó monitoreo a las acciones de respuesta.",
+    "personas_afectadas": 2,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "c68a74dfc42ffaac0a0b048bf8fc0d6f",
     "tipo": "Inundación",
@@ -13,9 +13,9 @@
     "longitud": -79.1711617643942,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó anegación de agua en las calles del sector, provocando el ingreso de agua a viviendas del sector. En la tarde y noche del 05/10/2026, producto de las lluvias, nuevamente provocó la inundación en el sector. Al momento, existe presencia de lluvias moderadas; las familias se encuentran en sus viviendas. Continúan inundados\r\nEMAPA moviliza succionador para la limpieza de las alcantarillas.\r\nSNGR monitorea el evento.\r\nPatronato Municipal realizó la evaluación de daños y necesidades",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 3,
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó anegación de agua en las calles del sector, provocando el ingreso de agua a viviendas del sector. En la tarde y noche del 05/10/2026, producto de las lluvias, nuevamente provocó la inundación en el sector. Al momento, no existe presencia de lluvias, las familias se encuentran en sus viviendas.\r\nPatronato Municipal, culmino la evolución de daños y necesidades. De igual manera coordina con la SNGR la entrega de asistencia humanitaria.",
+    "personas_afectadas": 46,
+    "viviendas_afectadas": 14,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
@@ -61,7 +61,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T20:14:37.000Z",
+    "procesado": "2026-10-14T18:26:54.000Z",
     "estado": "espera"
   }
 }

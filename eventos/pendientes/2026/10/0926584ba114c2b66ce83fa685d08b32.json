@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "evento": {
     "id": "0926584ba114c2b66ce83fa685d08b32",
     "tipo": "Inundación",
@@ -61,7 +61,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T20:14:19.000Z",
+    "procesado": "2026-10-14T18:26:23.000Z",
     "estado": "espera"
   }
 }
