@@ -49,8 +49,9 @@ Se guarda en `eventos/`. **Qué significa cada dato:** [`eventos/GUIA.md`](event
   2026; tipo **desborde de río** o **lluvia intensa (anegamiento)** (se quitan el
   colapso de drenaje y el oleaje o marea); afectación verificada; los tres
   pronósticos completos (WRF en el lugar, caudal y estación del INAMHI a 15 km o
-  menos); lluvia real según el satélite; si fue desborde, el río muy crecido y
-  que no sea un arroyo; afectación importante; y uno por cantón y día. El tipo sale de la misma clasificación
+  menos); un aguacero fuerte ese mismo día según el satélite; si fue desborde, el
+  río muy crecido y que no sea un arroyo; muchas personas afectadas; y uno por
+  cantón y temporal. Hoy quedan ~30. El tipo sale de la misma clasificación
   que usa SATI.EC (columna `tipo_inundacion` y bloque `clasificacion` de cada
   JSON), junto con `afectacion_verificada` (si la SNGR registró daño en personas,
   viviendas, cultivos o servicios). Los criterios están al inicio de

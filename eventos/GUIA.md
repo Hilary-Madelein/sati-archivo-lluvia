@@ -193,10 +193,10 @@ pronóstico frente a realidad. Cada paso exige una cosa más:
 3. **Afectación verificada** por la SNGR.
 4. **Pronósticos completos**: WRF en el lugar y caudal de GEOGLOWS de las tres corridas (mismo día, 1 y 2 días antes).
 5. **Estación del INAMHI cercana**, para tener el pronóstico puntual.
-6. **Lluvia real**: el satélite midió bastante lluvia ese día o en los 3 días.
+6. **Lluvia real el mismo día**: el satélite midió un aguacero fuerte ese día, que es el que se compara con el pronóstico. No basta con que se haya acumulado en 3 días.
 7. **Si fue desborde, el río crecido** y que no sea un arroyo.
-8. **Afectación importante**: personas, viviendas, evacuados/damnificados o Nivel SNGR.
-9. **Uno por cantón y día**: varios registros del mismo aguacero en el mismo cantón cuentan como uno, el de más afectados.
+8. **Afectación importante**: muchas personas afectadas según la SNGR.
+9. **Uno por cantón y temporal**: los registros del mismo cantón separados por pocos días son el mismo temporal y cuentan como uno, el de más personas afectadas. Así cada evento de la selección es independiente.
 
 No se exige que el pronóstico haya **acertado**. Si solo quedaran los eventos que
 el pronóstico vio venir, no se podría medir cuándo falla. Se exige que los

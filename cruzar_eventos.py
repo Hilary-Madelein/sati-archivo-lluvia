@@ -73,17 +73,18 @@ DEPURACION_DESDE = "2026-01-01"
 DEPURACION_TIPOS = ("river_flood", "rain_flood")
 # Estación del INAMHI cercana: su pronóstico puntual solo representa el lugar si está cerca.
 DEPURACION_MAX_KM_ESTACION = 15
-# Lluvia real (satélite, la más alta a menos de 5 km): la del día o la de los 3 días.
+# Lluvia real (satélite, la más alta a menos de 5 km) el mismo día del evento: así el
+# aguacero cae en el día que se compara con el pronóstico, no solo acumulado en 3 días.
 DEPURACION_LLUVIA_DIA_MM = 30
-DEPURACION_LLUVIA_3_DIAS_MM = 75
 # Si fue desborde: el río (GEOGLOWS) muy por encima de lo normal, y que no sea un
 # arroyo (a veces el tramo más cercano es un afluente pequeño y no el río que se desbordó).
 DEPURACION_VECES_CAUDAL_NORMAL = 3
 DEPURACION_MIN_CAUDAL_NORMAL_M3S = 1
-# Afectación importante: basta una de estas.
-DEPURACION_MIN_PERSONAS = 10
-DEPURACION_MIN_VIVIENDAS = 5
-DEPURACION_MIN_NIVEL_SNGR = 2
+# Afectación importante: personas afectadas según la SNGR.
+DEPURACION_MIN_PERSONAS = 50
+# Un mismo temporal: en un cantón, los eventos a esta distancia en días o menos cuentan
+# como uno (queda el de más personas afectadas). 3 = una ventana de 7 días.
+DEPURACION_DIAS_MISMO_TEMPORAL = 3
 
 # Versión del formato de los JSON: los de una versión anterior se vuelven a cruzar.
 VERSION = 3
@@ -985,8 +986,7 @@ def _pasos_depuracion() -> list[tuple[str, callable]]:
 
     def lluvia_real(r):
         satelite = r["lluvia_satelite"]
-        return (satelite["dia_del_evento"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_DIA_MM
-                or satelite["total_3_dias"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_3_DIAS_MM)
+        return satelite["dia_del_evento"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_DIA_MM
 
     def rio_crecido(r):
         if tipo_inundacion(r["evento"]) != "river_flood":
@@ -996,10 +996,7 @@ def _pasos_depuracion() -> list[tuple[str, callable]]:
                 and (rio.get("caudal_normal_del_mes_m3s") or 0) >= DEPURACION_MIN_CAUDAL_NORMAL_M3S)
 
     def afectacion_importante(r):
-        return (_cifra(r, "personas_afectadas") >= DEPURACION_MIN_PERSONAS
-                or _cifra(r, "viviendas_afectadas") >= DEPURACION_MIN_VIVIENDAS
-                or _cifra(r, "personas_evacuadas") + _cifra(r, "personas_damnificadas") > 0
-                or _cifra(r, "nivel") >= DEPURACION_MIN_NIVEL_SNGR)
+        return _cifra(r, "personas_afectadas") >= DEPURACION_MIN_PERSONAS
 
     nombres = " o ".join(TIPOS_INUNDACION[t].lower() for t in DEPURACION_TIPOS)
     return [
@@ -1011,12 +1008,10 @@ def _pasos_depuracion() -> list[tuple[str, callable]]:
          lambda r: tres_corridas(r.get("lluvia_pronosticada"))),
         ("…con el pronóstico de caudal de las 3 corridas", lambda r: tres_corridas(r["caudal_del_rio"].get("caudal_pronosticado"))),
         (f"…con pronóstico puntual en una estación del INAMHI a ≤ {DEPURACION_MAX_KM_ESTACION} km", estacion_cercana),
-        (f"…con lluvia real: el satélite midió ≥ {DEPURACION_LLUVIA_DIA_MM} mm ese día o ≥ {DEPURACION_LLUVIA_3_DIAS_MM} mm en 3 días",
-         lluvia_real),
+        (f"…con lluvia real el mismo día: el satélite midió ≥ {DEPURACION_LLUVIA_DIA_MM} mm", lluvia_real),
         (f"…si fue desborde: el río llevaba ≥ {DEPURACION_VECES_CAUDAL_NORMAL} veces su caudal normal y no es un arroyo "
          f"(caudal normal ≥ {DEPURACION_MIN_CAUDAL_NORMAL_M3S} m³/s)", rio_crecido),
-        (f"…con afectación importante: ≥ {DEPURACION_MIN_PERSONAS} personas, ≥ {DEPURACION_MIN_VIVIENDAS} viviendas, "
-         f"evacuados o damnificados, o Nivel {DEPURACION_MIN_NIVEL_SNGR}+", afectacion_importante),
+        (f"…con afectación importante: ≥ {DEPURACION_MIN_PERSONAS} personas afectadas", afectacion_importante),
     ]
 
 
@@ -1027,12 +1022,19 @@ def depurar(completos: list[dict]) -> tuple[list[dict], list[tuple[str, int]]]:
     for nombre, cumple in _pasos_depuracion():
         quedan = [r for r in quedan if cumple(r)]
         pasos.append((nombre, len(quedan)))
-    # Varios registros del mismo cantón y día suelen ser el mismo aguacero: se deja el de más personas afectadas.
-    por_lugar: dict[tuple, dict] = {}
+    # Varios registros del mismo cantón en pocos días suelen ser el mismo temporal: se deja el de más personas afectadas.
+    elegidos: list[dict] = []
     for r in sorted(quedan, key=lambda r: (_cifra(r, "personas_afectadas"), _cifra(r, "viviendas_afectadas")), reverse=True):
-        por_lugar.setdefault((r["evento"]["canton"], dia_de_lluvia(r["evento"])), r)
-    quedan = sorted(por_lugar.values(), key=lambda r: (r["evento"]["fecha"], r["evento"]["hora"]), reverse=True)
-    pasos.append(("…uno por cantón y día (el de más personas afectadas)", len(quedan)))
+        dia = dia_de_lluvia(r["evento"])
+        if not any(
+            otro["evento"]["canton"] == r["evento"]["canton"]
+            and abs((dia_de_lluvia(otro["evento"]) - dia).days) <= DEPURACION_DIAS_MISMO_TEMPORAL
+            for otro in elegidos
+        ):
+            elegidos.append(r)
+    quedan = sorted(elegidos, key=lambda r: (r["evento"]["fecha"], r["evento"]["hora"]), reverse=True)
+    pasos.append((f"…uno por cantón y temporal (eventos a ≤ {DEPURACION_DIAS_MISMO_TEMPORAL} días cuentan como uno; "
+                  "queda el de más personas afectadas)", len(quedan)))
     return quedan, pasos
 
 
