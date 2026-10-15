@@ -44,6 +44,7 @@ Se guarda en `eventos/`. **Qué significa cada dato:** [`eventos/GUIA.md`](event
 - **`pendientes/AAAA/MM/<id>.json`**: esperan un dato que va a llegar (sobre todo
   el caudal: la simulación de GEOGLOWS va ~1 mes atrasada). Se reintentan cada 3
   días y pasan solas a `inundaciones/` cuando se completan.
+- **`depurados/AAAA/MM/<id>.json`**: solo los JSON de la selección depurada (~30), aparte del archivo completo. Se rehace en cada cruce.
 - **`depurados.csv`**: las inundaciones completas que pasan la **depuración**, con
   las mismas columnas que `inundaciones.csv`. Hoy exige: desde el 1 de enero de
   2026; tipo **desborde de río** o **lluvia intensa (anegamiento)** (se quitan el

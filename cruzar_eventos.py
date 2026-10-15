@@ -66,6 +66,8 @@ TABLA = RAIZ / "eventos" / "inundaciones.csv"
 DESCARTADOS = RAIZ / "eventos" / "descartados.csv"
 RESUMEN = RAIZ / "eventos" / "RESUMEN.md"
 DEPURADOS = RAIZ / "eventos" / "depurados.csv"
+# Los JSON de la selección depurada, aparte del archivo completo (se rehace en cada cruce).
+CARPETA_DEPURADOS = RAIZ / "eventos" / "depurados"
 # Depuración: qué inundaciones completas pasan a `depurados.csv`. Se ajusta en cada
 # pasada (la idea es llegar a unas 30 bien escogidas); el RESUMEN muestra cuántas
 # quedan en cada paso. Tipos según la clasificación de SATI.EC (ver clasificar()).
@@ -87,7 +89,7 @@ DEPURACION_MIN_PERSONAS = 50
 DEPURACION_DIAS_MISMO_TEMPORAL = 3
 
 # Versión del formato de los JSON: los de una versión anterior se vuelven a cruzar.
-VERSION = 3
+VERSION = 4
 
 SNGR_LOGIN = os.environ.get("SNGR_LOGIN_URL", "https://monitoreocoe.gestionderiesgos.gob.ec/api/usuarios/login")
 SNGR_EVENTOS = os.environ.get("SNGR_EVENTS_URL", "https://monitoreocoe.gestionderiesgos.gob.ec/api/public/eventos_lluvias")
@@ -415,43 +417,69 @@ def leer_punto(celdas, lat: float, lng: float) -> dict | None:
     return {"en_el_lugar_mm": round(cercana[2], 1), "maxima_a_menos_de_5km_mm": round(max(zona), 1)}
 
 
+# Ventanas de lluvia antes del evento (h): las que usa la metodología SAW.
+VENTANAS_HORAS = (1, 3, 6, 24)
+
+
+def momento_evento(evento: dict) -> dt.datetime:
+    """Fecha y hora del evento (hora de Ecuador en la SNGR) en UTC."""
+    horas, minutos = (int(x) for x in evento["hora"].split(":"))
+    return dt.datetime.combine(dt.date.fromisoformat(evento["fecha"]), dt.time(horas, minutos), UTC) - ECUADOR_OFFSET
+
+
 def lluvia_satelite(dia: dt.date, lat: float, lng: float, disponibles: set[str]) -> dict | None:
     """
-    PERSIANN 24 h del día de lluvia del evento y de los dos anteriores (None si falta alguno).
-    La capa diaria fechada D 00:00 UTC acumula de las 12:00 UTC del día anterior a las 12:00 UTC
-    de D, es decir, de 07:00 a 07:00 de Ecuador (comprobado sumando la capa horaria).
+    PERSIANN 24 h del día de lluvia del evento (None si no hay dato). La capa diaria fechada
+    D 00:00 UTC acumula de las 12:00 UTC del día anterior a las 12:00 UTC de D, es decir,
+    de 07:00 a 07:00 de Ecuador (comprobado sumando la capa horaria).
     """
-    resultado: dict = {
-        "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va "
-                  "de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) "
-                  "donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite "
-                  "suele quedarse corto en aguaceros fuertes y cortos.",
+    inicio = inicio_dia_lluvia(dia)
+    etiqueta = iso(dt.datetime.combine(inicio.date() + dt.timedelta(days=1), dt.time(0), UTC))
+    if etiqueta not in disponibles:
+        return None
+    lectura = leer_punto(grilla_texto("satellite_based_precipitation", "persiann_pdir_24h", lat, lng, [f'time("{etiqueta}")']), lat, lng)
+    if lectura is None:
+        return None
+    return {
+        "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va "
+                  "de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la "
+                  "última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). "
+                  "'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más "
+                  "lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+        "dia_del_evento": {**periodo(inicio), **lectura},
     }
+
+
+def lluvia_antes_del_evento(evento: dict, lat: float, lng: float, horas_disponibles: set[str]) -> dict | None:
+    """
+    Lluvia del satélite (PERSIANN horario) en las 1, 3, 6 y 24 h hasta la hora del evento,
+    incluida la hora en que ocurrió. None si falta alguna de las 24 horas.
+    """
+    hora = momento_evento(evento).replace(minute=0)
+    # Cada capa horaria lleva la hora en que empieza: la k-ésima es la de k horas antes del evento.
+    etiquetas = [hora - dt.timedelta(hours=k) for k in range(max(VENTANAS_HORAS))]
+    if any(iso(t) not in horas_disponibles for t in etiquetas):
+        return None
     grillas = []
-    for atras, nombre in ((2, "dos_dias_antes"), (1, "dia_anterior"), (0, "dia_del_evento")):
-        inicio = inicio_dia_lluvia(dia - dt.timedelta(days=atras))
-        etiqueta = iso(dt.datetime.combine(inicio.date() + dt.timedelta(days=1), dt.time(0), UTC))
-        if etiqueta not in disponibles:
-            return None
-        celdas = grilla_texto("satellite_based_precipitation", "persiann_pdir_24h", lat, lng, [f'time("{etiqueta}")'])
-        lectura = leer_punto(celdas, lat, lng)
-        if lectura is None:
+    for t in etiquetas:
+        celdas = grilla_texto("satellite_based_precipitation", "persiann_pdir_hourly", lat, lng, [f'time("{iso(t)}")'])
+        if not celdas:
             return None
         grillas.append(celdas)
-        resultado[nombre] = {**periodo(inicio), **lectura}
-    # Total de los 3 días celda por celda: la más alta del total, no la suma de las más altas.
-    if len({len(g) for g in grillas}) == 1:
+    if len({len(g) for g in grillas}) != 1:
+        return None
+    fin = hora + dt.timedelta(hours=1)
+    salida = {}
+    for n in VENTANAS_HORAS:
         total = [
-            (la, lo, sum(g[i][2] for g in grillas) if all(g[i][2] >= 0 for g in grillas) else -1.0)
+            (la, lo, sum(g[i][2] for g in grillas[:n]) if all(g[i][2] >= 0 for g in grillas[:n]) else -1.0)
             for i, (la, lo, _) in enumerate(grillas[0])
         ]
         lectura = leer_punto(total, lat, lng)
-    else:
-        dias = [resultado[n] for n in ("dos_dias_antes", "dia_anterior", "dia_del_evento")]
-        lectura = {k: round(sum(d[k] for d in dias), 1) for k in ("en_el_lugar_mm", "maxima_a_menos_de_5km_mm")}
-    resultado["total_3_dias"] = {**periodo(inicio_dia_lluvia(dia - dt.timedelta(days=2)), 72), **lectura}
-    # El día del evento primero.
-    return {k: resultado[k] for k in ("que_es", "dia_del_evento", "dia_anterior", "dos_dias_antes", "total_3_dias")}
+        if lectura is None:
+            return None
+        salida[f"ultimas_{n}_h"] = {"desde": hora_ecuador(fin - dt.timedelta(hours=n)), "hasta": hora_ecuador(fin), **lectura}
+    return salida
 
 
 def lluvia_pronosticada(dia: dt.date, lat: float, lng: float, corridas: set[str]) -> dict | None:
@@ -674,8 +702,10 @@ class Rios:
             t: round(media - (math.sqrt(6) / math.pi) * (0.5772 + math.log(math.log(t / (t - 1)))) * desviacion, 1)
             for t in PERIODOS
         }
+        ordenados = sorted(validos.values())
         resultado = {
             "caudales": validos,
+            "percentil_75": ordenados[int(0.75 * (len(ordenados) - 1))],
             "retorno": retorno,
             "normal_por_mes": {mes: statistics.median(valores) for mes, valores in por_mes.items()},
             "hasta": max(validos),
@@ -747,27 +777,7 @@ def caudal(lat: float, lng: float, dia: dt.date, rios: Rios) -> tuple[dict | Non
     if None in caudales:
         return None, "caudal: la simulación no tiene dato para esos días", "definitivo"
 
-    pico = max(caudales)
-    normal = simulacion["normal_por_mes"].get(dias[0][5:7])
-    umbrales = simulacion["retorno"]
-    superados = [t for t in PERIODOS if pico >= umbrales[t]]
-    crecida = max(superados) if superados else 0
-    datos = {
-        "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. "
-                  "'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales "
-                  "que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
-        "rio_geoglows": rio,
-        "caudal_dia_del_evento_m3s": round(caudales[0], 1),
-        "caudal_maximo_ese_dia_y_el_siguiente_m3s": round(pico, 1),
-        "caudal_normal_del_mes_m3s": round(normal, 1) if normal else None,
-        "veces_el_caudal_normal": round(pico / normal, 1) if normal else None,
-        "umbrales_de_crecida_m3s": {f"cada_{t}_años": umbrales[t] for t in PERIODOS},
-        "crecida_alcanzada_años": crecida,
-        "crecida_alcanzada": (
-            f"Superó la crecida de {crecida} años ({numero_es(umbrales[crecida])} m³/s)"
-            if crecida else f"Ninguna: no llegó a la crecida de 2 años ({numero_es(umbrales[2])} m³/s)"
-        ),
-    }
+    datos = {"rio_geoglows": rio, **caudal_simulado(simulacion, dia)}
     pronostico = rios.pronostico(rio, dia)
     if pronostico:
         datos["caudal_pronosticado"] = {
@@ -777,6 +787,36 @@ def caudal(lat: float, lng: float, dia: dt.date, rios: Rios) -> tuple[dict | Non
     return datos, None, ""
 
 
+def caudal_simulado(simulacion: dict, dia: dt.date) -> dict:
+    """Lo que llevaba el río el día del evento y el siguiente, comparado con lo normal y con las crecidas."""
+    dias = (dia.isoformat(), (dia + dt.timedelta(days=1)).isoformat())
+    caudales = [simulacion["caudales"][d] for d in dias]
+    pico = max(caudales)
+    normal = simulacion["normal_por_mes"].get(dias[0][5:7])
+    umbrales = simulacion["retorno"]
+    superados = [t for t in PERIODOS if pico >= umbrales[t]]
+    anterior = simulacion["caudales"].get((dia - dt.timedelta(days=1)).isoformat())
+    cambio = round((caudales[0] - anterior) / anterior * 100) if anterior else None
+    return {
+        "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. "
+                  "'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el "
+                  "río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los "
+                  "caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una "
+                  "crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+        "caudal_maximo_ese_dia_y_el_siguiente_m3s": round(pico, 1),
+        "caudal_normal_del_mes_m3s": round(normal, 1) if normal else None,
+        "veces_el_caudal_normal": round(pico / normal, 1) if normal else None,
+        "caudal_percentil_75_m3s": round(simulacion["percentil_75"], 1),
+        "tendencia": {
+            "caudal_dia_anterior_m3s": round(anterior, 1) if anterior is not None else None,
+            "cambio_porcentual": cambio,
+            "sentido": None if cambio is None else "subiendo" if cambio > 5 else "bajando" if cambio < -5 else "estable",
+        },
+        "umbrales_de_crecida_m3s": {f"cada_{t}_años": umbrales[t] for t in PERIODOS},
+        "crecida_alcanzada_años": max(superados) if superados else 0,
+    }
+
+
 # ── Cruce ───────────────────────────────────────────────────────────────
 
 
@@ -784,11 +824,12 @@ def resumen(registro: dict) -> str:
     """Una o dos líneas para leer el cruce de un vistazo."""
     partes = []
     if s := registro.get("lluvia_satelite"):
-        dia, total = s["dia_del_evento"], s["total_3_dias"]
+        dia = s["dia_del_evento"]
+        antes = (s.get("antes_del_evento") or {}).get("ultimas_24_h")
         partes.append(
             f"Satélite: {numero_es(dia['en_el_lugar_mm'])} mm el día del evento en el lugar "
-            f"(hasta {numero_es(dia['maxima_a_menos_de_5km_mm'])} mm a menos de 5 km) y "
-            f"{numero_es(total['en_el_lugar_mm'])} mm en 3 días."
+            f"(hasta {numero_es(dia['maxima_a_menos_de_5km_mm'])} mm a menos de 5 km)"
+            + (f" y {numero_es(antes['en_el_lugar_mm'])} mm en las 24 h antes del evento." if antes else ".")
         )
     if p := registro.get("lluvia_pronosticada"):
         valores = [
@@ -811,40 +852,65 @@ def resumen(registro: dict) -> str:
         partes.append(f"Estación {e['estacion']['nombre']} (a {numero_es(e['estacion']['distancia_km'])} km): " + "; ".join(detalle) + ".")
     if c := registro.get("caudal_del_rio"):
         veces = f", {numero_es(c['veces_el_caudal_normal'])} veces su caudal normal" if c.get("veces_el_caudal_normal") is not None else ""
-        crecida = c["crecida_alcanzada"]
-        partes.append(f"Río: {numero_es(c['caudal_maximo_ese_dia_y_el_siguiente_m3s'])} m³/s{veces}; {crecida[0].lower()}{crecida[1:]}.")
+        sentido = (c.get("tendencia") or {}).get("sentido")
+        crecida = c["crecida_alcanzada_años"]
+        umbral = c["umbrales_de_crecida_m3s"][f"cada_{crecida or 2}_años"]
+        partes.append(
+            f"Río: {numero_es(c['caudal_maximo_ese_dia_y_el_siguiente_m3s'])} m³/s{veces}"
+            + (f", {sentido}" if sentido else "")
+            + (f"; superó la crecida de {crecida} años ({numero_es(umbral)} m³/s)." if crecida
+               else f"; no llegó a la crecida de 2 años ({numero_es(umbral)} m³/s).")
+        )
     return " ".join(partes)
 
 
 ORDEN_REGISTRO = (
-    "version", "evento", "clasificacion", "resumen", "dia_de_lluvia", "lluvia_satelite", "lluvia_pronosticada",
+    "version", "evento", "clasificacion", "resumen", "lluvia_satelite", "lluvia_pronosticada",
     "lluvia_estacion_inamhi", "caudal_del_rio", "cruce",
 )
 
 
-def completar_v2(registro: dict, rios: Rios, estaciones: LluviaEstaciones) -> tuple[dict, str]:
+def actualizar_formato(registro: dict, rios: Rios, estaciones: LluviaEstaciones, horas_satelite: set[str]) -> tuple[dict, str]:
     """
-    Inundación completa guardada con la versión 2: ya tiene satélite, WRF y caudal
-    simulado; solo se le agrega la estación más cercana (pronóstico puntual y
-    medición) y el caudal pronosticado del archivo de AWS, sin volver a consultar lo demás.
+    Inundación completa guardada con una versión anterior: ya tiene satélite del día, WRF y
+    caudal simulado. Solo se agrega lo nuevo (lluvia de las horas antes del evento,
+    estación cercana, percentil 75 y tendencia del río, caudal pronosticado del archivo
+    AWS) y se quitan los campos que ya no se usan, sin volver a consultar lo demás.
     """
     if rios.caido:
         raise GeoglowsCaido()
     evento = registro["evento"]
     dia = dia_de_lluvia(evento)
-    registro["lluvia_estacion_inamhi"] = estaciones.cercana(evento["latitud"], evento["longitud"], dia)
+    lat, lng = evento["latitud"], evento["longitud"]
+
+    satelite = registro["lluvia_satelite"]
+    satelite = {"que_es": satelite["que_es"], "dia_del_evento": satelite["dia_del_evento"]}
+    satelite["antes_del_evento"] = lluvia_antes_del_evento(evento, lat, lng, horas_satelite)
+    registro["lluvia_satelite"] = satelite
+
+    registro["lluvia_estacion_inamhi"] = estaciones.cercana(lat, lng, dia, momento_evento(evento))
+
     rio = registro["caudal_del_rio"]
-    if not rio.get("caudal_pronosticado") and dia >= DESDE_ARCHIVO_CAUDAL:
+    simulacion = rios.simulacion(rio["rio_geoglows"])
+    if simulacion is None:
+        raise GeoglowsCaido()  # se reintenta en la próxima ejecución
+    nuevo = {"rio_geoglows": rio["rio_geoglows"], **caudal_simulado(simulacion, dia)}
+    pronostico = rio.get("caudal_pronosticado")
+    if not pronostico and dia >= DESDE_ARCHIVO_CAUDAL:
         pronostico = rios.pronostico(rio["rio_geoglows"], dia)
-        if pronostico:
-            rio["caudal_pronosticado"] = {"que_es": QUE_ES_CAUDAL_PRONOSTICADO, **pronostico}
+        pronostico = {"que_es": QUE_ES_CAUDAL_PRONOSTICADO, **pronostico} if pronostico else None
+    if pronostico:
+        nuevo["caudal_pronosticado"] = {**pronostico, "que_es": QUE_ES_CAUDAL_PRONOSTICADO}
+    registro["caudal_del_rio"] = nuevo
+
     registro["version"] = VERSION
     registro["resumen"] = resumen(registro)
     registro["cruce"]["procesado"] = iso(dt.datetime.now(UTC))
-    return {clave: registro.get(clave) for clave in ORDEN_REGISTRO}, "completo"
+    return {clave: registro.get(clave) for clave in ORDEN_REGISTRO if clave in registro}, "completo"
 
 
-def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str], estaciones: LluviaEstaciones) -> tuple[dict, str]:
+def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str], estaciones: LluviaEstaciones,
+             horas_satelite: set[str]) -> tuple[dict, str]:
     """Cruza un evento. Devuelve el registro y su estado: 'completo' | 'espera' | 'fallo' | 'definitivo'."""
     if rios.caido:
         raise GeoglowsCaido()
@@ -853,6 +919,8 @@ def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str
     falta, motivos = [], set()
 
     satelite = lluvia_satelite(dia, lat, lng, persiann)
+    if satelite is not None:
+        satelite["antes_del_evento"] = lluvia_antes_del_evento(evento, lat, lng, horas_satelite)
     if satelite is None:
         reciente = (dt.date.today() - dia).days <= 10
         falta.append("lluvia por satélite: aún no publicada" if reciente else "lluvia por satélite: sin dato en ese lugar")
@@ -866,10 +934,9 @@ def procesar(evento: dict, rios: Rios, persiann: set[str], corridas_wrf: set[str
         "version": VERSION,
         "evento": evento,
         "resumen": "",
-        "dia_de_lluvia": {"fecha": dia.isoformat(), **periodo(inicio_dia_lluvia(dia))},
         "lluvia_satelite": satelite,
         "lluvia_pronosticada": lluvia_pronosticada(dia, lat, lng, corridas_wrf),
-        "lluvia_estacion_inamhi": estaciones.cercana(lat, lng, dia),
+        "lluvia_estacion_inamhi": estaciones.cercana(lat, lng, dia, momento_evento(evento)),
         "caudal_del_rio": rio,
         "cruce": {"completo": not falta, "falta": falta, "fallos": 0, "procesado": iso(dt.datetime.now(UTC))},
     }
@@ -921,11 +988,17 @@ def escribir_csv(destino: Path, columnas: list[str], filas: list[dict]) -> None:
 
 
 def fila(registro: dict) -> dict:
-    """Una inundación completa como fila del CSV."""
+    """
+    Una inundación completa como fila del CSV. Tolera registros de versiones anteriores
+    (mientras se actualizan por tandas): lo que no tienen queda vacío.
+    """
     e, s, p, c = registro["evento"], registro["lluvia_satelite"], registro.get("lluvia_pronosticada") or {}, registro["caudal_del_rio"]
-    q = c.get("caudal_pronosticado", {})
+    q = c.get("caudal_pronosticado") or {}
     tipo = clasificacion(e)
     estacion = registro.get("lluvia_estacion_inamhi") or {}
+    antes = s.get("antes_del_evento") or {}
+    medida_antes = estacion.get("lluvia_medida_antes_del_evento") or {}
+    tendencia = c.get("tendencia") or {}
     leer = lambda d, k: (d or {}).get(k)  # noqa: E731
     return {
         "id": e["id"], "fecha": e["fecha"], "hora": e["hora"], "provincia": e["provincia"], "canton": e["canton"],
@@ -934,34 +1007,56 @@ def fila(registro: dict) -> dict:
         "tipo_inundacion": tipo["tipo"], "afectacion_verificada": "sí" if tipo["afectacion_verificada"] else "no",
         "personas_afectadas": e["personas_afectadas"], "viviendas_afectadas": e["viviendas_afectadas"],
         "personas_evacuadas": e["personas_evacuadas"], "personas_fallecidas": e["personas_fallecidas"],
-        "dia_de_lluvia": registro["dia_de_lluvia"]["fecha"],
+        # Lluvia que cayó (satélite)
         "lluvia_satelite_dia_evento_mm": s["dia_del_evento"]["en_el_lugar_mm"],
         "lluvia_satelite_dia_evento_max_5km_mm": s["dia_del_evento"]["maxima_a_menos_de_5km_mm"],
-        "lluvia_satelite_dia_anterior_mm": s["dia_anterior"]["en_el_lugar_mm"],
-        "lluvia_satelite_dos_dias_antes_mm": s["dos_dias_antes"]["en_el_lugar_mm"],
-        "lluvia_satelite_3_dias_mm": s["total_3_dias"]["en_el_lugar_mm"],
-        "lluvia_satelite_3_dias_max_5km_mm": s["total_3_dias"]["maxima_a_menos_de_5km_mm"],
+        **{f"lluvia_satelite_{n}h_antes_mm": leer(antes.get(f"ultimas_{n}_h"), "en_el_lugar_mm") for n in VENTANAS_HORAS},
+        **{f"lluvia_satelite_{n}h_antes_max_5km_mm": leer(antes.get(f"ultimas_{n}_h"), "maxima_a_menos_de_5km_mm") for n in VENTANAS_HORAS},
+        # PR: pronóstico de lluvia en el lugar (WRF)
         "lluvia_pronosticada_mismo_dia_mm": leer(p.get("hecho_el_mismo_dia"), "en_el_lugar_mm"),
+        "lluvia_pronosticada_mismo_dia_max_5km_mm": leer(p.get("hecho_el_mismo_dia"), "maxima_a_menos_de_5km_mm"),
         "lluvia_pronosticada_1_dia_antes_mm": leer(p.get("hecho_1_dia_antes"), "en_el_lugar_mm"),
         "lluvia_pronosticada_2_dias_antes_mm": leer(p.get("hecho_2_dias_antes"), "en_el_lugar_mm"),
-        "rio_geoglows": c["rio_geoglows"],
-        "caudal_dia_evento_m3s": c["caudal_dia_del_evento_m3s"],
-        "caudal_max_dia_evento_y_siguiente_m3s": c["caudal_maximo_ese_dia_y_el_siguiente_m3s"],
-        "caudal_normal_del_mes_m3s": c["caudal_normal_del_mes_m3s"],
-        "veces_el_caudal_normal": c["veces_el_caudal_normal"],
-        "crecida_alcanzada_años": c["crecida_alcanzada_años"],
-        **{f"umbral_crecida_{t}_años_m3s": c["umbrales_de_crecida_m3s"][f"cada_{t}_años"] for t in PERIODOS},
-        "caudal_pronosticado_mismo_dia_m3s": leer(q.get("hecho_el_mismo_dia"), "maximo_promedio_de_ensambles_m3s"),
-        "caudal_pronosticado_1_dia_antes_m3s": leer(q.get("hecho_1_dia_antes"), "maximo_promedio_de_ensambles_m3s"),
+        # PP: pronóstico puntual en la estación, y lo que midió la estación
         "estacion_inamhi": leer(estacion.get("estacion"), "nombre"),
         "estacion_inamhi_distancia_km": leer(estacion.get("estacion"), "distancia_km"),
         "estacion_pronostico_mismo_dia_mm": leer(estacion.get("pronostico_puntual"), "hecho_el_mismo_dia_mm"),
         "estacion_pronostico_1_dia_antes_mm": leer(estacion.get("pronostico_puntual"), "hecho_1_dia_antes_mm"),
         "estacion_pronostico_2_dias_antes_mm": leer(estacion.get("pronostico_puntual"), "hecho_2_dias_antes_mm"),
         "estacion_lluvia_medida_dia_evento_mm": leer(estacion.get("lluvia_medida_dia_del_evento"), "lluvia_mm"),
+        **{f"estacion_lluvia_medida_{n}h_antes_mm": leer(medida_antes.get(f"ultimas_{n}_h"), "lluvia_mm") for n in VENTANAS_HORAS},
+        # Caudal del río (GEOGLOWS) y QG: su pronóstico
+        "rio_geoglows": c["rio_geoglows"],
+        "caudal_max_dia_evento_y_siguiente_m3s": c["caudal_maximo_ese_dia_y_el_siguiente_m3s"],
+        "caudal_normal_del_mes_m3s": c.get("caudal_normal_del_mes_m3s"),
+        "veces_el_caudal_normal": c.get("veces_el_caudal_normal"),
+        "caudal_percentil_75_m3s": c.get("caudal_percentil_75_m3s"),
+        "caudal_tendencia": tendencia.get("sentido"),
+        "caudal_cambio_porcentual": tendencia.get("cambio_porcentual"),
+        "crecida_alcanzada_años": c["crecida_alcanzada_años"],
+        **{f"umbral_crecida_{t}_años_m3s": c["umbrales_de_crecida_m3s"][f"cada_{t}_años"] for t in PERIODOS},
+        "caudal_pronosticado_mismo_dia_m3s": leer(q.get("hecho_el_mismo_dia"), "maximo_promedio_de_ensambles_m3s"),
+        "caudal_pronosticado_mismo_dia_mas_alto_m3s": leer(q.get("hecho_el_mismo_dia"), "maximo_del_ensamble_mas_alto_m3s"),
+        "caudal_pronosticado_1_dia_antes_m3s": leer(q.get("hecho_1_dia_antes"), "maximo_promedio_de_ensambles_m3s"),
+        "caudal_pronosticado_2_dias_antes_m3s": leer(q.get("hecho_2_dias_antes"), "maximo_promedio_de_ensambles_m3s"),
         "resumen": registro["resumen"],
         "descripcion_sngr": e["descripcion"],
     }
+
+
+def escribir_carpeta_depurados(depurados: list[dict]) -> None:
+    """eventos/depurados/: solo los JSON de la selección. Se rehace entera: si un evento deja de pasar, sale."""
+    if CARPETA_DEPURADOS.exists():
+        for archivo in CARPETA_DEPURADOS.rglob("*.json"):
+            archivo.unlink()
+    for registro in depurados:
+        archivo = ruta(CARPETA_DEPURADOS, registro["evento"])
+        archivo.parent.mkdir(parents=True, exist_ok=True)
+        archivo.write_text(json.dumps(registro, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Carpetas que quedaron vacías.
+    for carpeta in sorted(CARPETA_DEPURADOS.rglob("*"), reverse=True):
+        if carpeta.is_dir() and not any(carpeta.iterdir()):
+            carpeta.rmdir()
 
 
 def tabla_md(encabezado: tuple[str, str], filas) -> list[str]:
@@ -1160,7 +1255,7 @@ def main() -> int:
             descartar(evento, "lluvia por satélite: no hay datos antes de 2025")
             continue
         registro = archivados.get(evento["id"])
-        if registro and registro.get("version") == 2 and registro["cruce"]["completo"]:
+        if registro and registro.get("version") in (2, 3) and registro["cruce"]["completo"]:
             registro["evento"] = evento
             a_completar.append(registro)
             continue
@@ -1185,6 +1280,7 @@ def main() -> int:
 
     persiann = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("satellite_based_precipitation", "persiann_pdir_24h", "time")}
     corridas_wrf = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("wrf", "wrf_precipitation_daily", "INITD")}
+    horas_satelite = {re.sub(r"\.\d+Z$", ".000Z", v) for v in dimension("satellite_based_precipitation", "persiann_pdir_hourly", "time")}
     rios = Rios(None if args.sin_archivo_caudal else ArchivoGeoglows())
     estaciones = LluviaEstaciones()
 
@@ -1194,8 +1290,8 @@ def main() -> int:
 
     hechos = Counter()
     with ThreadPoolExecutor(max_workers=args.hilos) as grupo:
-        tareas = {grupo.submit(completar_v2, registro, rios, estaciones): registro["evento"] for registro in tanda}
-        tareas |= {grupo.submit(procesar, evento, rios, persiann, corridas_wrf, estaciones): evento for evento in tanda_nuevos}
+        tareas = {grupo.submit(actualizar_formato, registro, rios, estaciones, horas_satelite): registro["evento"] for registro in tanda}
+        tareas |= {grupo.submit(procesar, evento, rios, persiann, corridas_wrf, estaciones, horas_satelite): evento for evento in tanda_nuevos}
         for tarea in as_completed(tareas):
             evento = tareas[tarea]
             try:
@@ -1229,6 +1325,7 @@ def main() -> int:
     escribir_csv(TABLA, list(fila(completos[0]).keys()) if completos else ["id"], [fila(r) for r in completos])
     depurados, _ = depurar(completos)
     escribir_csv(DEPURADOS, list(fila(completos[0]).keys()) if completos else ["id"], [fila(r) for r in depurados])
+    escribir_carpeta_depurados(depurados)
     escribir_csv(DESCARTADOS, COLUMNAS_DESCARTE, sorted(descartados.values(), key=lambda f: f["fecha"] or "", reverse=True))
     por_cruzar = sum(1 for r in archivados.values() if r.get("version") != VERSION)
     escribir_resumen(completos, pendientes, descartados, por_cruzar)

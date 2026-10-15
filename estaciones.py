@@ -407,7 +407,7 @@ class LluviaEstaciones:
                 self.horas.setdefault(fila["codigo"], {})[leer_hora_utc(fila["hora_utc"])] = numero(fila["lluvia_mm"])
         self.pronostico = {(f["codigo"], f["dia_wrf"]): f for f in leer_csv(PRONOSTICO)}
 
-    def cercana(self, lat: float, lng: float, dia: dt.date) -> dict | None:
+    def cercana(self, lat: float, lng: float, dia: dt.date, momento: dt.datetime | None = None) -> dict | None:
         candidatas = sorted(
             ((distancia_km(lat, lng, float(e["latitud"]), float(e["longitud"])), e) for e in self.estaciones),
             key=lambda c: c[0],
@@ -434,17 +434,33 @@ class LluviaEstaciones:
             pronostico["lluvia_medida_mm"] = numero(fila.get("lluvia_medida_mm"))
             if all(pronostico[k] is None for k in ("hecho_el_mismo_dia_mm", "hecho_1_dia_antes_mm", "hecho_2_dias_antes_mm")):
                 pronostico = None
+        # Lo que midió en las 1, 3, 6 y 24 h hasta el evento (incluida la hora en que ocurrió).
+        antes = None
+        serie = self.horas.get(e["codigo"], {})
+        if momento is not None and serie:
+            fin = momento.astimezone(UTC).replace(minute=0, second=0, microsecond=0) + HORA
+            antes = {}
+            for n in (1, 3, 6, 24):
+                con_dato, total = lluvia_en(serie, fin - n * HORA, n)
+                antes[f"ultimas_{n}_h"] = (
+                    {"desde": hora_ecuador(fin - n * HORA), "hasta": hora_ecuador(fin), "horas_con_dato": con_dato, "lluvia_mm": total}
+                    if total is not None and con_dato >= math.ceil(0.8 * n) else None
+                )
+            if not any(antes.values()):
+                antes = None
         if medida is None and pronostico is None:
             return None
         return {
             "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo "
-                      "que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). "
+                      "que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y "
+                      "'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. "
                       "'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día "
                       "del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas "
                       "mismas 24 h, si hay.",
             "estacion": {"codigo": e["codigo"], "nombre": e["nombre"], "distancia_km": round(distancia, 1),
                          "latitud": float(e["latitud"]), "longitud": float(e["longitud"])},
             "lluvia_medida_dia_del_evento": medida,
+            "lluvia_medida_antes_del_evento": antes,
             "pronostico_puntual": pronostico,
         }
 

@@ -29,7 +29,7 @@ Hay dos niveles:
 - **Selección depurada** (`depurados.csv`), **con la que se trabaja**: solo las
   que tienen **todos los pronósticos** (lluvia del WRF y caudal de GEOGLOWS de
   las 3 corridas, y el pronóstico puntual en una estación cercana), además de
-  los demás criterios de la sección 6. Una inundación sin pronóstico nunca entra
+  los demás criterios de la sección 7. Una inundación sin pronóstico nunca entra
   a la selección.
 
 ## 2. Horarios: el "día de lluvia"
@@ -48,7 +48,8 @@ exacto con `desde` y `hasta`.
 | Archivo | Qué tiene |
 |---|---|
 | `RESUMEN.md` | Cuántas inundaciones hay y cuántas quedan en cada paso de la depuración. |
-| `depurados.csv` | **La selección con la que se trabaja**: las inundaciones que pasan la depuración (ver sección 6). Una fila por inundación, para Excel. |
+| `depurados.csv` | **La selección con la que se trabaja**: las inundaciones que pasan la depuración (ver sección 7). Una fila por inundación, para Excel. |
+| `depurados/AAAA/MM/<id>.json` | **Los JSON de la selección**, solo esos (~30). Se rehace en cada cruce: si un evento deja de pasar la depuración, sale de aquí. |
 | `inundaciones.csv` | Todas las inundaciones completas, sin depurar. Mismas columnas. |
 | `inundaciones/AAAA/MM/<id>.json` | El detalle de cada inundación completa (sección 4). El nombre del archivo es su `id`. |
 | `pendientes/AAAA/MM/<id>.json` | Las que esperan un dato que todavía no existe, casi siempre el caudal: la simulación de GEOGLOWS va ~1 mes atrasada. Se completan solas. |
@@ -94,11 +95,6 @@ en el lugar (hasta 105,0 mm a menos de 5 km)… Pronóstico WRF para ese día…
 Estación El Carmen (a 5,3 km): el WRF pronosticaba ahí… Río: 0,9 m³/s, 5,6 veces
 su caudal normal…"*
 
-### `dia_de_lluvia`
-
-La fecha y el periodo (07:00 a 07:00) que se tomó como "el día del evento" para
-la lluvia (sección 2).
-
 ### `lluvia_satelite`: la lluvia que cayó, según el satélite
 
 Fuente: satélite **PERSIANN**, servido por el INAMHI. Cubre todo el país, con
@@ -106,8 +102,8 @@ celdas de ~4 km.
 
 | Campo | Qué es |
 |---|---|
-| `dia_del_evento`, `dia_anterior`, `dos_dias_antes` | La lluvia de cada día de lluvia (07:00 a 07:00). |
-| `total_3_dias` | La suma de los tres días: el suelo saturado por lluvias anteriores también cuenta. |
+| `dia_del_evento` | La lluvia del día de lluvia del evento (07:00 a 07:00). |
+| `antes_del_evento` | La lluvia de la **última hora, 3, 6 y 24 horas** hasta la hora del evento (`ultimas_1_h`, `ultimas_3_h`, `ultimas_6_h`, `ultimas_24_h`), sumando el satélite hora por hora. Incluye la hora en que ocurrió el evento. Son las ventanas de "lluvia reciente" de la metodología SAW. |
 | `en_el_lugar_mm` | Lluvia en la celda del punto del evento (mm). |
 | `maxima_a_menos_de_5km_mm` | La celda más lluviosa a menos de 5 km (mm). Útil porque el aguacero puede caer cerca y no justo encima. |
 
@@ -133,6 +129,7 @@ La estación más cercana al evento, a menos de 25 km.
 |---|---|
 | `estacion` | Código, nombre, distancia al evento (km) y coordenadas. |
 | `lluvia_medida_dia_del_evento` | Lo que midió su pluviómetro el día de lluvia (07:00 a 07:00). **Solo existe desde el 13 de octubre de 2026**, porque la API del INAMHI no da fechas pasadas. Antes es `null`. |
+| `lluvia_medida_antes_del_evento` | Lo que midió en la última hora, 3, 6 y 24 h hasta el evento, con cuántas horas tenían dato. Es la "lluvia reciente en estaciones" de SAW. También solo desde el 13 de octubre de 2026. |
 | `pronostico_puntual` | **Pronóstico puntual**: lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF, hecho el mismo día (`hecho_el_mismo_dia_mm`), 1 y 2 días antes. `lluvia_medida_mm` es lo que midió la estación en esas mismas 24 h, cuando existe: así se compara pronóstico y medición en el mismo punto y periodo. |
 
 ### `caudal_del_rio`: el río más cercano, según GEOGLOWS
@@ -143,12 +140,13 @@ Fuente: modelo **GEOGLOWS**, el mismo del Hydroviewer del INAMHI. Es caudal
 | Campo | Qué es |
 |---|---|
 | `rio_geoglows` | Identificador del tramo de río más cercano al punto del evento. |
-| `caudal_dia_del_evento_m3s` | Caudal medio ese día (m³/s). |
 | `caudal_maximo_ese_dia_y_el_siguiente_m3s` | El más alto de los dos días, porque el río crece con retraso. |
 | `caudal_normal_del_mes_m3s` | El caudal típico de ese río en ese mes: la mediana desde 1980. |
 | `veces_el_caudal_normal` | Cuántas veces su caudal normal llevaba el río. Por ejemplo, 5,6 = casi seis veces lo habitual. |
+| `caudal_percentil_75_m3s` | El caudal que el río supera solo el 25 % de los días (desde 1980). Es la **base** con la que SAW normaliza el caudal. |
+| `tendencia` | Si el río venía **subiendo**, **estable** o **bajando**: el caudal del día anterior y el cambio en % hasta el día del evento (más de +5 % es subiendo). Es la "tendencia" de SAW. |
 | `umbrales_de_crecida_m3s` | Caudales que el río alcanza en promedio **una vez cada 2, 5, 10, 25, 50 y 100 años** (periodos de retorno, calculados como el Hydroviewer del INAMHI). |
-| `crecida_alcanzada_años`, `crecida_alcanzada` | La mayor crecida que superó (0 = ninguna; 2 = la de 2 años…). Superar la de 2 años ya es una crecida. |
+| `crecida_alcanzada_años` | La mayor crecida que superó (0 = ninguna; 2 = la de 2 años…). Superar la de 2 años ya es una crecida. La de 10 años es el valor **crítico** de SAW. |
 | `caudal_pronosticado` | Lo que GEOGLOWS pronosticaba para esos dos días, hecho el mismo día, 1 y 2 días antes: `maximo_promedio_de_ensambles_m3s` (el pronóstico central, promedio de 51 escenarios), `maximo_del_ensamble_mas_alto_m3s` (el escenario más alto) y `maximo_alta_resolucion_m3s` (la corrida más detallada). `fuente` dice si salió de la API de GEOGLOWS o de su archivo en AWS. |
 
 **Cuidado:** el "río más cercano" a veces es un **arroyo o afluente pequeño** y no
@@ -166,15 +164,33 @@ arroyo de 0,2 m³/s.
 | `estado` | `completo`, `espera` (falta un dato que llegará), `fallo` (una fuente no respondió; se reintenta) o `definitivo`. |
 | `procesado` | Cuándo se cruzó por última vez (UTC). |
 
-## 5. Columnas de los CSV
+## 5. Qué dato usa cada metodología de alerta
+
+| Factor de la metodología | Dónde está | Disponible |
+|---|---|---|
+| **PR** · pronóstico de lluvia 24 h, ráster (AHP, ELECTRE) | `lluvia_pronosticada` (en el lugar y lo más alto a menos de 5 km) | Sí |
+| **PP** · pronóstico de lluvia 24 h, puntual (AHP, ELECTRE) | `lluvia_estacion_inamhi.pronostico_puntual` | Sí |
+| **QG** · pronóstico de caudal GEOGLOWS (AHP, ELECTRE) | `caudal_del_rio.caudal_pronosticado`, con sus umbrales en `umbrales_de_crecida_m3s` | Sí |
+| **QFH** · pronóstico de caudal de Google Flood Hub (AHP, ELECTRE) | — | **No**: falta archivar Google Flood Hub |
+| **EI** · extensión de inundación de Google Flood Hub (AHP, ELECTRE) | — | **No**: falta archivar Google Flood Hub |
+| Lluvia reciente 1–24 h (SAW) | `lluvia_satelite.antes_del_evento`; en estaciones, `lluvia_medida_antes_del_evento` | Satélite sí; estaciones desde oct 2026 |
+| Caudal: base percentil 75 y crítico 10 años (SAW) | `caudal_percentil_75_m3s`, `umbrales_de_crecida_m3s.cada_10_años` | Sí (caudal simulado de GEOGLOWS; las estaciones del INAMHI no dan caudal ni nivel) |
+| Tendencia del caudal (SAW) | `caudal_del_rio.tendencia` | Sí |
+| Disparador y concordancia con Google (SAW) | — | **No**: falta archivar Google Flood Hub |
+| Validación con la SNGR | `evento`, `clasificacion` | Sí |
+
+## 6. Columnas de los CSV
 
 Son los mismos datos, aplanados en una fila por inundación. Los nombres siguen el
 JSON, por ejemplo:
 
 - `lluvia_satelite_dia_evento_mm` = `lluvia_satelite.dia_del_evento.en_el_lugar_mm`
+- `lluvia_satelite_24h_antes_mm`, `…_6h_…`, `…_3h_…`, `…_1h_…` = la lluvia antes del evento (y `_max_5km_mm` la más alta alrededor)
+- `estacion_lluvia_medida_24h_antes_mm`, …: lo mismo medido por la estación
 - `lluvia_pronosticada_1_dia_antes_mm` = el WRF en el lugar, hecho 1 día antes
 - `estacion_pronostico_1_dia_antes_mm` = el pronóstico puntual en la estación, hecho 1 día antes
 - `caudal_max_dia_evento_y_siguiente_m3s`, `veces_el_caudal_normal`, `crecida_alcanzada_años`
+- `caudal_percentil_75_m3s`, `caudal_tendencia`, `caudal_cambio_porcentual`
 - `umbral_crecida_2_años_m3s`, …: los umbrales de crecida
 - `caudal_pronosticado_mismo_dia_m3s`: el pronóstico central de caudal, hecho ese día
 - `tipo_inundacion`, `afectacion_verificada`: la clasificación
@@ -183,7 +199,7 @@ JSON, por ejemplo:
 Las unidades van al final del nombre: `_mm` es lluvia en milímetros, `_m3s` es
 caudal en metros cúbicos por segundo y `_km` es distancia.
 
-## 6. Depuración: cómo se llega a `depurados.csv`
+## 7. Depuración: cómo se llega a `depurados.csv`
 
 De todas las inundaciones completas se dejan solo las que sirven para analizar
 pronóstico frente a realidad. Cada paso exige una cosa más:
