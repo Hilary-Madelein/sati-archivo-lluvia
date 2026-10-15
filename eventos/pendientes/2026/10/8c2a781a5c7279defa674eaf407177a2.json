@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "8c2a781a5c7279defa674eaf407177a2",
     "tipo": "Inundación",
@@ -36,37 +36,40 @@
     "codigo": "rain_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 70,0 mm el día del evento en el lugar (hasta 70,0 mm a menos de 5 km) y 178,0 mm en 3 días. Pronóstico WRF para ese día: 32,5 mm (2 días antes), 27,0 mm (1 día antes), 21,3 mm (el mismo día). Estación La Concordia (a 14,8 km): el WRF pronosticaba ahí 37,2 mm (2 días antes), 15,4 mm (1 día antes), 14,4 mm (el mismo día).",
-  "dia_de_lluvia": {
-    "fecha": "2026-10-09",
-    "desde": "2026-10-09 07:00",
-    "hasta": "2026-10-10 07:00"
-  },
+  "resumen": "Satélite: 70,0 mm el día del evento en el lugar (hasta 70,0 mm a menos de 5 km) y 59,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 32,5 mm (2 días antes), 27,0 mm (1 día antes), 21,3 mm (el mismo día). Estación La Concordia (a 14,8 km): el WRF pronosticaba ahí 37,2 mm (2 días antes), 15,4 mm (1 día antes), 14,4 mm (el mismo día).",
   "lluvia_satelite": {
-    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
       "desde": "2026-10-09 07:00",
       "hasta": "2026-10-10 07:00",
       "en_el_lugar_mm": 70.0,
       "maxima_a_menos_de_5km_mm": 70.0
     },
-    "dia_anterior": {
-      "desde": "2026-10-08 07:00",
-      "hasta": "2026-10-09 07:00",
-      "en_el_lugar_mm": 21.0,
-      "maxima_a_menos_de_5km_mm": 21.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-10-07 07:00",
-      "hasta": "2026-10-08 07:00",
-      "en_el_lugar_mm": 87.0,
-      "maxima_a_menos_de_5km_mm": 95.0
-    },
-    "total_3_dias": {
-      "desde": "2026-10-07 07:00",
-      "hasta": "2026-10-10 07:00",
-      "en_el_lugar_mm": 178.0,
-      "maxima_a_menos_de_5km_mm": 178.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-10 02:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 6.0,
+        "maxima_a_menos_de_5km_mm": 8.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-10 00:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 20.0,
+        "maxima_a_menos_de_5km_mm": 23.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-09 21:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 48.0,
+        "maxima_a_menos_de_5km_mm": 49.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-09 03:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 59.0,
+        "maxima_a_menos_de_5km_mm": 59.0
+      }
     }
   },
   "lluvia_pronosticada": {
@@ -92,7 +95,7 @@
     }
   },
   "lluvia_estacion_inamhi": {
-    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
     "estacion": {
       "codigo": "M0025",
       "nombre": "La Concordia",
@@ -101,6 +104,7 @@
       "longitud": -79.380278
     },
     "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
     "pronostico_puntual": {
       "desde": "2026-10-09 02:00",
       "hasta": "2026-10-10 02:00",
@@ -117,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T21:17:08.000Z",
+    "procesado": "2026-10-15T22:43:10.000Z",
     "estado": "espera"
   }
 }

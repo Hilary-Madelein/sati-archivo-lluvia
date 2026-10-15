@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "e54e1320716dd12ee9adece8eb5adb46",
     "tipo": "Inundación",
@@ -36,12 +36,7 @@
     "codigo": "river_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 24,0 mm a menos de 5 km) y 34,0 mm en 3 días. Pronóstico WRF para ese día: 0,7 mm (2 días antes), 0,2 mm (1 día antes), 13,6 mm (el mismo día). Estación Santiago en Batallon Santiago (a 4,4 km): el WRF pronosticaba ahí 6,1 mm (2 días antes), 0,2 mm (1 día antes), 43,7 mm (el mismo día). Río: 3628,7 m³/s, 2,4 veces su caudal normal; superó la crecida de 2 años (3232,1 m³/s).",
-  "dia_de_lluvia": {
-    "fecha": "2026-04-24",
-    "desde": "2026-04-24 07:00",
-    "hasta": "2026-04-25 07:00"
-  },
+  "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 24,0 mm a menos de 5 km) y 22,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,7 mm (2 días antes), 0,2 mm (1 día antes), 13,6 mm (el mismo día). Estación Santiago en Batallon Santiago (a 4,4 km): el WRF pronosticaba ahí 6,1 mm (2 días antes), 0,2 mm (1 día antes), 43,7 mm (el mismo día). Río: 3628,7 m³/s, 2,4 veces su caudal normal, estable; superó la crecida de 2 años (3232,1 m³/s).",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
@@ -50,23 +45,31 @@
       "en_el_lugar_mm": 12.0,
       "maxima_a_menos_de_5km_mm": 24.0
     },
-    "dia_anterior": {
-      "desde": "2026-04-23 07:00",
-      "hasta": "2026-04-24 07:00",
-      "en_el_lugar_mm": 22.0,
-      "maxima_a_menos_de_5km_mm": 22.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-04-22 07:00",
-      "hasta": "2026-04-23 07:00",
-      "en_el_lugar_mm": 0.0,
-      "maxima_a_menos_de_5km_mm": 1.0
-    },
-    "total_3_dias": {
-      "desde": "2026-04-22 07:00",
-      "hasta": "2026-04-25 07:00",
-      "en_el_lugar_mm": 34.0,
-      "maxima_a_menos_de_5km_mm": 44.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-04-24 14:00",
+        "hasta": "2026-04-24 15:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-04-24 12:00",
+        "hasta": "2026-04-24 15:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-04-24 09:00",
+        "hasta": "2026-04-24 15:00",
+        "en_el_lugar_mm": 4.0,
+        "maxima_a_menos_de_5km_mm": 17.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-04-23 15:00",
+        "hasta": "2026-04-24 15:00",
+        "en_el_lugar_mm": 22.0,
+        "maxima_a_menos_de_5km_mm": 32.0
+      }
     }
   },
   "lluvia_pronosticada": {
@@ -92,7 +95,7 @@
     }
   },
   "lluvia_estacion_inamhi": {
-    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
     "estacion": {
       "codigo": "H1149",
       "nombre": "Santiago en Batallon Santiago",
@@ -101,6 +104,7 @@
       "longitud": -78.013056
     },
     "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
     "pronostico_puntual": {
       "desde": "2026-04-24 02:00",
       "hasta": "2026-04-25 02:00",
@@ -111,12 +115,17 @@
     }
   },
   "caudal_del_rio": {
-    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 621014556,
-    "caudal_dia_del_evento_m3s": 3628.7,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
     "caudal_maximo_ese_dia_y_el_siguiente_m3s": 3628.7,
     "caudal_normal_del_mes_m3s": 1498.2,
     "veces_el_caudal_normal": 2.4,
+    "caudal_percentil_75_m3s": 1406.1,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 3707.2,
+      "cambio_porcentual": -2,
+      "sentido": "estable"
+    },
     "umbrales_de_crecida_m3s": {
       "cada_2_años": 3232.1,
       "cada_5_años": 4058.3,
@@ -126,7 +135,6 @@
       "cada_100_años": 6318.2
     },
     "crecida_alcanzada_años": 2,
-    "crecida_alcanzada": "Superó la crecida de 2 años (3232,1 m³/s)",
     "caudal_pronosticado": {
       "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
       "hecho_el_mismo_dia": {
@@ -156,6 +164,6 @@
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T20:56:08.000Z"
+    "procesado": "2026-10-15T22:04:09.000Z"
   }
 }

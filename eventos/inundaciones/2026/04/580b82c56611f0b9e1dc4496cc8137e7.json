@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "580b82c56611f0b9e1dc4496cc8137e7",
     "tipo": "Inundación",
@@ -36,12 +36,7 @@
     "codigo": "coastal_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Satélite: 16,0 mm el día del evento en el lugar (hasta 16,0 mm a menos de 5 km) y 77,0 mm en 3 días. Río: 6,2 m³/s, 309,5 veces su caudal normal; superó la crecida de 2 años (3,5 m³/s).",
-  "dia_de_lluvia": {
-    "fecha": "2026-04-17",
-    "desde": "2026-04-17 07:00",
-    "hasta": "2026-04-18 07:00"
-  },
+  "resumen": "Satélite: 16,0 mm el día del evento en el lugar (hasta 16,0 mm a menos de 5 km) y 53,0 mm en las 24 h antes del evento. Río: 6,2 m³/s, 309,5 veces su caudal normal, bajando; superó la crecida de 2 años (3,5 m³/s).",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
@@ -50,34 +45,47 @@
       "en_el_lugar_mm": 16.0,
       "maxima_a_menos_de_5km_mm": 16.0
     },
-    "dia_anterior": {
-      "desde": "2026-04-16 07:00",
-      "hasta": "2026-04-17 07:00",
-      "en_el_lugar_mm": 43.0,
-      "maxima_a_menos_de_5km_mm": 43.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-04-15 07:00",
-      "hasta": "2026-04-16 07:00",
-      "en_el_lugar_mm": 18.0,
-      "maxima_a_menos_de_5km_mm": 18.0
-    },
-    "total_3_dias": {
-      "desde": "2026-04-15 07:00",
-      "hasta": "2026-04-18 07:00",
-      "en_el_lugar_mm": 77.0,
-      "maxima_a_menos_de_5km_mm": 77.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-04-17 10:00",
+        "hasta": "2026-04-17 11:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-04-17 08:00",
+        "hasta": "2026-04-17 11:00",
+        "en_el_lugar_mm": 7.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-04-17 05:00",
+        "hasta": "2026-04-17 11:00",
+        "en_el_lugar_mm": 48.0,
+        "maxima_a_menos_de_5km_mm": 71.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-04-16 11:00",
+        "hasta": "2026-04-17 11:00",
+        "en_el_lugar_mm": 53.0,
+        "maxima_a_menos_de_5km_mm": 80.0
+      }
     }
   },
   "lluvia_pronosticada": null,
   "lluvia_estacion_inamhi": null,
   "caudal_del_rio": {
-    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 670078195,
-    "caudal_dia_del_evento_m3s": 1.8,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
     "caudal_maximo_ese_dia_y_el_siguiente_m3s": 6.2,
     "caudal_normal_del_mes_m3s": 0.0,
     "veces_el_caudal_normal": 309.5,
+    "caudal_percentil_75_m3s": 0.0,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 3.1,
+      "cambio_porcentual": -43,
+      "sentido": "bajando"
+    },
     "umbrales_de_crecida_m3s": {
       "cada_2_años": 3.5,
       "cada_5_años": 10.4,
@@ -87,7 +95,6 @@
       "cada_100_años": 29.2
     },
     "crecida_alcanzada_años": 2,
-    "crecida_alcanzada": "Superó la crecida de 2 años (3,5 m³/s)",
     "caudal_pronosticado": {
       "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
       "hecho_el_mismo_dia": {
@@ -117,6 +124,6 @@
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T20:56:46.000Z"
+    "procesado": "2026-10-15T22:05:32.000Z"
   }
 }

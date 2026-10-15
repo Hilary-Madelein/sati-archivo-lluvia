@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "21ab22d5ced402c764eaee62a0547c3e",
     "tipo": "Inundación",
@@ -36,37 +36,40 @@
     "codigo": "rain_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Satélite: 21,0 mm el día del evento en el lugar (hasta 21,0 mm a menos de 5 km) y 97,0 mm en 3 días. Pronóstico WRF para ese día: 1,1 mm (2 días antes), 2,2 mm (1 día antes), 5,4 mm (el mismo día).",
-  "dia_de_lluvia": {
-    "fecha": "2026-10-11",
-    "desde": "2026-10-11 07:00",
-    "hasta": "2026-10-12 07:00"
-  },
+  "resumen": "Satélite: 21,0 mm el día del evento en el lugar (hasta 21,0 mm a menos de 5 km) y 46,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,1 mm (2 días antes), 2,2 mm (1 día antes), 5,4 mm (el mismo día).",
   "lluvia_satelite": {
-    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
       "desde": "2026-10-11 07:00",
       "hasta": "2026-10-12 07:00",
       "en_el_lugar_mm": 21.0,
       "maxima_a_menos_de_5km_mm": 21.0
     },
-    "dia_anterior": {
-      "desde": "2026-10-10 07:00",
-      "hasta": "2026-10-11 07:00",
-      "en_el_lugar_mm": 27.0,
-      "maxima_a_menos_de_5km_mm": 27.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-10-09 07:00",
-      "hasta": "2026-10-10 07:00",
-      "en_el_lugar_mm": 49.0,
-      "maxima_a_menos_de_5km_mm": 53.0
-    },
-    "total_3_dias": {
-      "desde": "2026-10-09 07:00",
-      "hasta": "2026-10-12 07:00",
-      "en_el_lugar_mm": 97.0,
-      "maxima_a_menos_de_5km_mm": 97.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-11 22:00",
+        "hasta": "2026-10-11 23:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-11 20:00",
+        "hasta": "2026-10-11 23:00",
+        "en_el_lugar_mm": 6.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-11 17:00",
+        "hasta": "2026-10-11 23:00",
+        "en_el_lugar_mm": 11.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-10 23:00",
+        "hasta": "2026-10-11 23:00",
+        "en_el_lugar_mm": 46.0,
+        "maxima_a_menos_de_5km_mm": 46.0
+      }
     }
   },
   "lluvia_pronosticada": {
@@ -99,7 +102,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-13T21:16:45.000Z",
+    "procesado": "2026-10-15T22:42:55.000Z",
     "estado": "espera"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "4021ea63e0734d80ca8eca9342b79356",
     "tipo": "Inundación",
@@ -36,12 +36,7 @@
     "codigo": "rain_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 109,0 mm el día del evento en el lugar (hasta 111,0 mm a menos de 5 km) y 120,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,2 mm (el mismo día). Estación La Concordia (a 5,0 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,6 mm (el mismo día). Río: 10,3 m³/s, 4,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (42,5 m³/s).",
-  "dia_de_lluvia": {
-    "fecha": "2026-06-05",
-    "desde": "2026-06-05 07:00",
-    "hasta": "2026-06-06 07:00"
-  },
+  "resumen": "Satélite: 109,0 mm el día del evento en el lugar (hasta 111,0 mm a menos de 5 km) y 9,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,2 mm (el mismo día). Estación La Concordia (a 5,0 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,6 mm (el mismo día). Río: 10,3 m³/s, 4,1 veces su caudal normal, estable; no llegó a la crecida de 2 años (42,5 m³/s).",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
@@ -50,23 +45,31 @@
       "en_el_lugar_mm": 109.0,
       "maxima_a_menos_de_5km_mm": 111.0
     },
-    "dia_anterior": {
-      "desde": "2026-06-04 07:00",
-      "hasta": "2026-06-05 07:00",
-      "en_el_lugar_mm": 9.0,
-      "maxima_a_menos_de_5km_mm": 9.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-06-03 07:00",
-      "hasta": "2026-06-04 07:00",
-      "en_el_lugar_mm": 2.0,
-      "maxima_a_menos_de_5km_mm": 9.0
-    },
-    "total_3_dias": {
-      "desde": "2026-06-03 07:00",
-      "hasta": "2026-06-06 07:00",
-      "en_el_lugar_mm": 120.0,
-      "maxima_a_menos_de_5km_mm": 129.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-06-05 07:00",
+        "hasta": "2026-06-05 08:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-06-05 05:00",
+        "hasta": "2026-06-05 08:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-06-05 02:00",
+        "hasta": "2026-06-05 08:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-06-04 08:00",
+        "hasta": "2026-06-05 08:00",
+        "en_el_lugar_mm": 9.0,
+        "maxima_a_menos_de_5km_mm": 9.0
+      }
     }
   },
   "lluvia_pronosticada": {
@@ -92,7 +95,7 @@
     }
   },
   "lluvia_estacion_inamhi": {
-    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
     "estacion": {
       "codigo": "M0025",
       "nombre": "La Concordia",
@@ -101,6 +104,7 @@
       "longitud": -79.380278
     },
     "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
     "pronostico_puntual": {
       "desde": "2026-06-05 02:00",
       "hasta": "2026-06-06 02:00",
@@ -111,12 +115,17 @@
     }
   },
   "caudal_del_rio": {
-    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980. Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida.",
     "rio_geoglows": 670097625,
-    "caudal_dia_del_evento_m3s": 2.1,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
     "caudal_maximo_ese_dia_y_el_siguiente_m3s": 10.3,
     "caudal_normal_del_mes_m3s": 2.5,
     "veces_el_caudal_normal": 4.1,
+    "caudal_percentil_75_m3s": 4.8,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 2.1,
+      "cambio_porcentual": -2,
+      "sentido": "estable"
+    },
     "umbrales_de_crecida_m3s": {
       "cada_2_años": 42.5,
       "cada_5_años": 62.7,
@@ -126,7 +135,6 @@
       "cada_100_años": 117.9
     },
     "crecida_alcanzada_años": 0,
-    "crecida_alcanzada": "Ninguna: no llegó a la crecida de 2 años (42,5 m³/s)",
     "caudal_pronosticado": {
       "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
       "hecho_el_mismo_dia": {
@@ -156,6 +164,6 @@
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-13T20:54:09.000Z"
+    "procesado": "2026-10-15T21:59:55.000Z"
   }
 }

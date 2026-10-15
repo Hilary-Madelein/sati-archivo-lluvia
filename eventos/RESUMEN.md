@@ -74,4 +74,5 @@ La más alta a menos de 5 km medida por el satélite.
 | …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1193 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 0 |
 | Pendientes: esperan un dato que llegará (`pendientes/`) | 118 |
+| Por volver a cruzar con el formato nuevo (próximas ejecuciones) | 47 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |

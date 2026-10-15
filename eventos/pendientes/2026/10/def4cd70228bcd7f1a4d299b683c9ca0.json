@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "def4cd70228bcd7f1a4d299b683c9ca0",
     "tipo": "Inundación",
@@ -19,12 +19,13 @@
     "personas_evacuadas": 0,
     "personas_fallecidas": 0
   },
-  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
-  "dia_de_lluvia": {
-    "fecha": "2026-10-15",
-    "desde": "2026-10-15 07:00",
-    "hasta": "2026-10-16 07:00"
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
   "lluvia_satelite": null,
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
@@ -57,7 +58,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T18:07:39.000Z",
+    "procesado": "2026-10-15T22:42:27.000Z",
     "estado": "espera"
   }
 }
