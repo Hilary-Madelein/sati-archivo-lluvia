@@ -20,8 +20,17 @@ Así, cada evento junta **lo que pasó** (inundación, lluvia medida, caudal) co
 **lo que se pronosticaba** (lluvia y caudal), para ver si el pronóstico lo
 anticipaba.
 
-Una inundación es **completa** cuando tiene, al menos, la lluvia del satélite y
-el caudal del río. Los pronósticos y la estación se agregan si existen.
+Hay dos niveles:
+
+- **Archivo completo** (`inundaciones/`, `inundaciones.csv`): todas las
+  inundaciones que tienen, al menos, la lluvia del satélite y el caudal del río.
+  Los pronósticos y la estación se guardan si existen; así no se pierde lo medido
+  y, si un pronóstico aparece después, se puede agregar.
+- **Selección depurada** (`depurados.csv`), **con la que se trabaja**: solo las
+  que tienen **todos los pronósticos** (lluvia del WRF y caudal de GEOGLOWS de
+  las 3 corridas, y el pronóstico puntual en una estación cercana), además de
+  los demás criterios de la sección 6. Una inundación sin pronóstico nunca entra
+  a la selección.
 
 ## 2. Horarios: el "día de lluvia"
 
