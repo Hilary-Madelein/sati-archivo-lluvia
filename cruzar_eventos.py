@@ -65,6 +65,22 @@ PENDIENTES = RAIZ / "eventos" / "pendientes"
 TABLA = RAIZ / "eventos" / "inundaciones.csv"
 DESCARTADOS = RAIZ / "eventos" / "descartados.csv"
 RESUMEN = RAIZ / "eventos" / "RESUMEN.md"
+DEPURADOS = RAIZ / "eventos" / "depurados.csv"
+# Depuración: qué inundaciones completas pasan a `depurados.csv`. Se ajusta en cada
+# pasada (la idea es llegar a unas 30 bien escogidas); el RESUMEN muestra cuántas
+# quedan en cada paso. Tipos según la clasificación de SATI.EC (ver clasificar()).
+DEPURACION_DESDE = "2026-01-01"
+DEPURACION_TIPOS = ("river_flood", "rain_flood")
+# Señal hidrometeorológica real (satélite, la más alta a menos de 5 km): lluvia del día
+# o de los 3 días; y, si fue desborde de río, el río por encima de su caudal normal.
+DEPURACION_LLUVIA_DIA_MM = 20
+DEPURACION_LLUVIA_3_DIAS_MM = 50
+DEPURACION_VECES_CAUDAL_NORMAL = 2
+# Afectación importante: basta una de estas.
+DEPURACION_MIN_PERSONAS = 10
+DEPURACION_MIN_VIVIENDAS = 5
+DEPURACION_MIN_NIVEL_SNGR = 2
+
 # Versión del formato de los JSON: los de una versión anterior se vuelven a cruzar.
 VERSION = 3
 
@@ -135,6 +151,11 @@ def numero(valor) -> float | None:
 def cantidad(valor) -> int:
     n = numero(valor)
     return round(n) if n and n > 0 else 0
+
+
+def hectareas(valor) -> float:
+    n = numero(valor)
+    return round(n, 2) if n and n > 0 else 0
 
 
 def fecha_iso(valor) -> str | None:
@@ -229,6 +250,7 @@ def a_evento(r: dict) -> dict | None:
     return {
         "id": identificador,
         "tipo": texto("Evento"),
+        "causa": texto("Causa"),
         "fecha": fecha,
         "hora": h,
         "provincia": texto("Provincia"),
@@ -244,8 +266,83 @@ def a_evento(r: dict) -> dict | None:
         "viviendas_afectadas": cantidad(r.get("ViviendasAfectadas")),
         "personas_evacuadas": cantidad(r.get("PersonasEvacuadas")),
         "personas_fallecidas": cantidad(r.get("PersonasFallecidas")),
+        "personas_damnificadas": cantidad(r.get("PersonasDamnificadas")),
+        "personas_extraviadas": cantidad(r.get("PersonasExtraviadas")),
+        "familias_afectadas": cantidad(r.get("FamiliasAfectadas")),
+        "viviendas_destruidas": cantidad(r.get("ViviendasDestruidas")),
+        "puentes_afectados": cantidad(r.get("PuentesAfectados")),
+        "puentes_destruidos": cantidad(r.get("PuentesDestruidos")),
+        "escuelas_afectadas": cantidad(r.get("EstablecimientosEducativosAfectados")),
+        "centros_de_salud_afectados": cantidad(r.get("CentrosDeSaludAfectados")),
+        "hectareas_cultivo_afectadas": hectareas(r.get("HaCultivoAfectados")),
+        "hectareas_cultivo_perdidas": hectareas(r.get("HaCultivoPerdidos")),
     }
 
+
+
+# ── Clasificación (la misma regla que SATI.EC) ──────────────────────────
+#
+# Copia de sngr-flood.classifier.ts del backend de SATI.EC: la SNGR registra casi
+# todo como "Inundación" a secas y el origen del agua solo aparece en el relato,
+# así que se lee de ahí. Si se cambia allá, hay que cambiarlo aquí.
+
+TIPOS_INUNDACION = {
+    "river_flood": "Desborde de río",
+    "rain_flood": "Lluvia intensa (anegamiento)",
+    "drainage_flood": "Colapso de drenaje",
+    "coastal_flood": "Oleaje o marea",
+    "flood": "Inundación",
+}
+_POR_SUBTIPO = {"inundacion fluvial": "river_flood", "inundacion pluvial": "rain_flood", "inundacion costera": "coastal_flood", "inundacion lacustre": "flood"}
+_RELACIONADOS_CON_AGUA = ("lluvias intensas", "aluvion", "erosion hidrica")
+_CUERPO_DE_AGUA = re.compile(r"\b(rio|rios|estero|esteros|quebrada|quebradas|riachuelo|afluente|cauce|cuerpo hidrico|cuerpos? de agua)\b")
+_DESBORDE = re.compile(r"desbord|salio de su cauce|rebos")
+_CRECIDA = re.compile(
+    r"crecid|caudal|(incremento|aumento|subida|crecimiento) (del|de su|de los?) (nivel|rio|estero|quebrada)"
+    r"|(aumentar|subir|incrementar|crecer) (de |su )?nivel"
+)
+_DRENAJE = re.compile(r"alcantarill|sumidero|taponamiento|colapso del sistema|drenaje|rejilla|aguas servidas|\bcanal(es)?\b")
+_TAPADO = re.compile(r"taponamiento|alcantarill|sumidero")
+_COSTERO = re.compile(r"oleaje|aguaje|marea alta|\bmar\b")
+_AGUA_ACUMULADA = re.compile(r"inunda|anega|acumulacion de aguas?|ingreso de agua|aguas? lluvias?|empoz|encharc|escorrent")
+# Cifras que muestran daño real (los metros de vía no cuentan: calles con agua que luego drenó).
+_CIFRAS_DE_DANO = (
+    "personas_fallecidas", "personas_extraviadas", "personas_damnificadas", "personas_evacuadas", "viviendas_destruidas",
+    "puentes_destruidos", "viviendas_afectadas", "familias_afectadas", "personas_afectadas", "hectareas_cultivo_afectadas",
+    "hectareas_cultivo_perdidas", "puentes_afectados", "escuelas_afectadas", "centros_de_salud_afectados",
+)
+
+
+def tipo_inundacion(evento: dict) -> str | None:
+    """Código del tipo de inundación (ver TIPOS_INUNDACION), o None si el registro no es una inundación."""
+    tipo = re.sub(r"\(.*?\)", "", normalizar(evento.get("tipo") or "")).strip()
+    es_inundacion = tipo.startswith("inundacion")
+    if not es_inundacion and tipo not in _RELACIONADOS_CON_AGUA:
+        return None
+    if tipo in _POR_SUBTIPO:
+        return _POR_SUBTIPO[tipo]
+    texto, causa = normalizar(evento.get("descripcion") or ""), normalizar(evento.get("causa") or "")
+    desborde = "desbordamiento" in causa or bool(_CUERPO_DE_AGUA.search(texto) and _DESBORDE.search(texto))
+    # En una "Inundación", que el río crezca basta (salvo que el agua suba por una alcantarilla tapada).
+    crecida = es_inundacion and bool(_CUERPO_DE_AGUA.search(texto) and _CRECIDA.search(texto)) and not _TAPADO.search(texto)
+    if desborde or crecida:
+        return "river_flood"
+    if _COSTERO.search(texto):
+        return "coastal_flood"
+    if not es_inundacion and not _AGUA_ACUMULADA.search(texto):
+        return None
+    return "drainage_flood" if _DRENAJE.search(texto) else "rain_flood"
+
+
+def clasificacion(evento: dict) -> dict:
+    codigo = tipo_inundacion(evento)
+    return {
+        "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño "
+                  "en personas, viviendas, cultivos o servicios.",
+        "tipo": TIPOS_INUNDACION.get(codigo, "No es inundación"),
+        "codigo": codigo,
+        "afectacion_verificada": any((evento.get(clave) or 0) > 0 for clave in _CIFRAS_DE_DANO),
+    }
 
 
 # ── Horarios ────────────────────────────────────────────────────────────
@@ -715,7 +812,7 @@ def resumen(registro: dict) -> str:
 
 
 ORDEN_REGISTRO = (
-    "version", "evento", "resumen", "dia_de_lluvia", "lluvia_satelite", "lluvia_pronosticada",
+    "version", "evento", "clasificacion", "resumen", "dia_de_lluvia", "lluvia_satelite", "lluvia_pronosticada",
     "lluvia_estacion_inamhi", "caudal_del_rio", "cruce",
 )
 
@@ -785,9 +882,12 @@ def ruta(carpeta: Path, evento: dict) -> Path:
 
 
 def guardar(carpeta: Path, registro: dict) -> None:
+    # La clasificación se recalcula siempre con los datos de la SNGR del momento.
+    registro["clasificacion"] = clasificacion(registro["evento"])
+    ordenado = {k: registro[k] for k in ORDEN_REGISTRO if k in registro} | {k: v for k, v in registro.items() if k not in ORDEN_REGISTRO}
     archivo = ruta(carpeta, registro["evento"])
     archivo.parent.mkdir(parents=True, exist_ok=True)
-    archivo.write_text(json.dumps(registro, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    archivo.write_text(json.dumps(ordenado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     otra = ruta(PENDIENTES if carpeta == CARPETA else CARPETA, registro["evento"])
     otra.unlink(missing_ok=True)
 
@@ -819,12 +919,14 @@ def fila(registro: dict) -> dict:
     """Una inundación completa como fila del CSV."""
     e, s, p, c = registro["evento"], registro["lluvia_satelite"], registro.get("lluvia_pronosticada") or {}, registro["caudal_del_rio"]
     q = c.get("caudal_pronosticado", {})
+    tipo = clasificacion(e)
     estacion = registro.get("lluvia_estacion_inamhi") or {}
     leer = lambda d, k: (d or {}).get(k)  # noqa: E731
     return {
         "id": e["id"], "fecha": e["fecha"], "hora": e["hora"], "provincia": e["provincia"], "canton": e["canton"],
         "parroquia": e["parroquia"], "sector": e["sector"], "latitud": e["latitud"], "longitud": e["longitud"],
-        "nivel_sngr": e["nivel"], "estado_sngr": e["estado"],
+        "nivel_sngr": e["nivel"], "estado_sngr": e["estado"], "causa_sngr": e.get("causa"),
+        "tipo_inundacion": tipo["tipo"], "afectacion_verificada": "sí" if tipo["afectacion_verificada"] else "no",
         "personas_afectadas": e["personas_afectadas"], "viviendas_afectadas": e["viviendas_afectadas"],
         "personas_evacuadas": e["personas_evacuadas"], "personas_fallecidas": e["personas_fallecidas"],
         "dia_de_lluvia": registro["dia_de_lluvia"]["fecha"],
@@ -861,6 +963,66 @@ def tabla_md(encabezado: tuple[str, str], filas) -> list[str]:
     return [f"| {encabezado[0]} | {encabezado[1]} |", "|---|---:|", *(f"| {a} | {b} |" for a, b in filas), ""]
 
 
+def _cifra(r: dict, clave: str) -> float:
+    return r["evento"].get(clave) or 0
+
+
+def _pasos_depuracion() -> list[tuple[str, callable]]:
+    """Cada paso de la depuración: (qué exige, función que lo comprueba). Se aplican en orden."""
+    def tipo(r):
+        return tipo_inundacion(r["evento"]) in DEPURACION_TIPOS
+
+    def tres_corridas(bloque: dict | None) -> bool:
+        return all(k in (bloque or {}) for k in ("hecho_el_mismo_dia", "hecho_1_dia_antes", "hecho_2_dias_antes"))
+
+    def senal(r):
+        satelite = r["lluvia_satelite"]
+        llovio = (satelite["dia_del_evento"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_DIA_MM
+                  or satelite["total_3_dias"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_3_DIAS_MM)
+        if tipo_inundacion(r["evento"]) != "river_flood":
+            return llovio
+        return llovio and (r["caudal_del_rio"].get("veces_el_caudal_normal") or 0) >= DEPURACION_VECES_CAUDAL_NORMAL
+
+    def afectacion_importante(r):
+        return (_cifra(r, "personas_afectadas") >= DEPURACION_MIN_PERSONAS
+                or _cifra(r, "viviendas_afectadas") >= DEPURACION_MIN_VIVIENDAS
+                or _cifra(r, "personas_evacuadas") + _cifra(r, "personas_damnificadas") > 0
+                or _cifra(r, "nivel") >= DEPURACION_MIN_NIVEL_SNGR)
+
+    nombres = " o ".join(TIPOS_INUNDACION[t].lower() for t in DEPURACION_TIPOS)
+    return [
+        (f"…desde el {DEPURACION_DESDE}", lambda r: r["evento"]["fecha"] >= DEPURACION_DESDE),
+        (f"…de tipo {nombres} (se quitan colapso de drenaje y oleaje o marea)", tipo),
+        ("…con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios)",
+         lambda r: clasificacion(r["evento"])["afectacion_verificada"]),
+        ("…con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes)",
+         lambda r: tres_corridas(r.get("lluvia_pronosticada"))),
+        ("…con el pronóstico de caudal de las 3 corridas", lambda r: tres_corridas(r["caudal_del_rio"].get("caudal_pronosticado"))),
+        ("…con pronóstico puntual en una estación del INAMHI a menos de 25 km",
+         lambda r: bool((r.get("lluvia_estacion_inamhi") or {}).get("pronostico_puntual"))),
+        (f"…con lluvia real: satélite ≥ {DEPURACION_LLUVIA_DIA_MM} mm ese día o ≥ {DEPURACION_LLUVIA_3_DIAS_MM} mm en 3 días; "
+         f"si fue desborde, el río ≥ {DEPURACION_VECES_CAUDAL_NORMAL} veces su caudal normal", senal),
+        (f"…con afectación importante: ≥ {DEPURACION_MIN_PERSONAS} personas, ≥ {DEPURACION_MIN_VIVIENDAS} viviendas, "
+         f"evacuados o damnificados, o Nivel {DEPURACION_MIN_NIVEL_SNGR}+", afectacion_importante),
+    ]
+
+
+def depurar(completos: list[dict]) -> tuple[list[dict], list[tuple[str, int]]]:
+    """Inundaciones que quedan tras la depuración y cuántas quedan en cada paso (para el RESUMEN)."""
+    pasos = [("Completas (lluvia por satélite y caudal del río)", len(completos))]
+    quedan = completos
+    for nombre, cumple in _pasos_depuracion():
+        quedan = [r for r in quedan if cumple(r)]
+        pasos.append((nombre, len(quedan)))
+    # Varios registros del mismo cantón y día suelen ser el mismo aguacero: se deja el de más personas afectadas.
+    por_lugar: dict[tuple, dict] = {}
+    for r in sorted(quedan, key=lambda r: (_cifra(r, "personas_afectadas"), _cifra(r, "viviendas_afectadas")), reverse=True):
+        por_lugar.setdefault((r["evento"]["canton"], dia_de_lluvia(r["evento"])), r)
+    quedan = sorted(por_lugar.values(), key=lambda r: (r["evento"]["fecha"], r["evento"]["hora"]), reverse=True)
+    pasos.append(("…uno por cantón y día (el de más personas afectadas)", len(quedan)))
+    return quedan, pasos
+
+
 def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados: dict[str, dict], por_cruzar: int) -> None:
     """eventos/RESUMEN.md: cuántas inundaciones hay de cada tipo."""
     motivos = Counter(f["motivo"] for f in descartados.values())
@@ -892,6 +1054,13 @@ def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados:
             *([("Por volver a cruzar con el formato nuevo (próximas ejecuciones)", por_cruzar)] if por_cruzar else []),
             ("Descartadas: nunca tendrán los dos datos (`descartados.csv`)", len(descartados)),
         ]),
+    ]
+    depurados, pasos = depurar(completos)
+    lineas += [
+        "## Depuración (`depurados.csv`)", "",
+        "Cada paso deja solo las inundaciones que cumplen el criterio (se ajusta en `cruzar_eventos.py`, DEPURACION_…).", "",
+        *tabla_md(("Paso", "Quedan"), [*pasos[:-1], (f"**{pasos[-1][0]}**", f"**{pasos[-1][1]}**")]),
+        *tabla_md(("Tipo de inundación (depuradas)", "Inundaciones"), Counter(TIPOS_INUNDACION[tipo_inundacion(r["evento"])] for r in depurados).most_common()),
     ]
     if motivos:
         lineas += ["## Descartadas, por motivo", "", *tabla_md(("Motivo", "Inundaciones"), motivos.most_common())]
@@ -1037,6 +1206,8 @@ def main() -> int:
     pendientes = [r for r in leer_registros(PENDIENTES) if r.get("version", 1) >= 2]
     completos.sort(key=lambda r: (r["evento"]["fecha"], r["evento"]["hora"]), reverse=True)
     escribir_csv(TABLA, list(fila(completos[0]).keys()) if completos else ["id"], [fila(r) for r in completos])
+    depurados, _ = depurar(completos)
+    escribir_csv(DEPURADOS, list(fila(completos[0]).keys()) if completos else ["id"], [fila(r) for r in depurados])
     escribir_csv(DESCARTADOS, COLUMNAS_DESCARTE, sorted(descartados.values(), key=lambda f: f["fecha"] or "", reverse=True))
     por_cruzar = sum(1 for r in archivados.values() if r.get("version") != VERSION)
     escribir_resumen(completos, pendientes, descartados, por_cruzar)

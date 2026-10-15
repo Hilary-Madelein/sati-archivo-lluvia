@@ -44,6 +44,17 @@ Se guarda en `eventos/`:
 - **`pendientes/AAAA/MM/<id>.json`**: esperan un dato que va a llegar (sobre todo
   el caudal: la simulación de GEOGLOWS va ~1 mes atrasada). Se reintentan cada 3
   días y pasan solas a `inundaciones/` cuando se completan.
+- **`depurados.csv`**: las inundaciones completas que pasan la **depuración**, con
+  las mismas columnas que `inundaciones.csv`. Hoy exige: desde el 1 de enero de
+  2026; tipo **desborde de río** o **lluvia intensa (anegamiento)** (se quitan el
+  colapso de drenaje y el oleaje o marea); afectación verificada; los tres
+  pronósticos completos (WRF en el lugar, caudal y estación del INAMHI cercana);
+  lluvia real según el satélite (y, si fue desborde, el río por encima de su
+  caudal normal); afectación importante; y uno por cantón y día. El tipo sale de la misma clasificación
+  que usa SATI.EC (columna `tipo_inundacion` y bloque `clasificacion` de cada
+  JSON), junto con `afectacion_verificada` (si la SNGR registró daño en personas,
+  viviendas, cultivos o servicios). Los criterios están al inicio de
+  `cruzar_eventos.py` (`DEPURACION_…`) y el RESUMEN muestra cuántas quedan en cada paso.
 - **`descartados.csv`**: las que nunca tendrán los dos datos (p. ej. anteriores a
   2025, sin lluvia por satélite), con el motivo.
 
