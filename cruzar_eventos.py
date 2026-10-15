@@ -71,11 +71,15 @@ DEPURADOS = RAIZ / "eventos" / "depurados.csv"
 # quedan en cada paso. Tipos según la clasificación de SATI.EC (ver clasificar()).
 DEPURACION_DESDE = "2026-01-01"
 DEPURACION_TIPOS = ("river_flood", "rain_flood")
-# Señal hidrometeorológica real (satélite, la más alta a menos de 5 km): lluvia del día
-# o de los 3 días; y, si fue desborde de río, el río por encima de su caudal normal.
-DEPURACION_LLUVIA_DIA_MM = 20
-DEPURACION_LLUVIA_3_DIAS_MM = 50
-DEPURACION_VECES_CAUDAL_NORMAL = 2
+# Estación del INAMHI cercana: su pronóstico puntual solo representa el lugar si está cerca.
+DEPURACION_MAX_KM_ESTACION = 15
+# Lluvia real (satélite, la más alta a menos de 5 km): la del día o la de los 3 días.
+DEPURACION_LLUVIA_DIA_MM = 30
+DEPURACION_LLUVIA_3_DIAS_MM = 75
+# Si fue desborde: el río (GEOGLOWS) muy por encima de lo normal, y que no sea un
+# arroyo (a veces el tramo más cercano es un afluente pequeño y no el río que se desbordó).
+DEPURACION_VECES_CAUDAL_NORMAL = 3
+DEPURACION_MIN_CAUDAL_NORMAL_M3S = 1
 # Afectación importante: basta una de estas.
 DEPURACION_MIN_PERSONAS = 10
 DEPURACION_MIN_VIVIENDAS = 5
@@ -975,13 +979,21 @@ def _pasos_depuracion() -> list[tuple[str, callable]]:
     def tres_corridas(bloque: dict | None) -> bool:
         return all(k in (bloque or {}) for k in ("hecho_el_mismo_dia", "hecho_1_dia_antes", "hecho_2_dias_antes"))
 
-    def senal(r):
+    def estacion_cercana(r):
+        estacion = r.get("lluvia_estacion_inamhi") or {}
+        return bool(estacion.get("pronostico_puntual")) and estacion["estacion"]["distancia_km"] <= DEPURACION_MAX_KM_ESTACION
+
+    def lluvia_real(r):
         satelite = r["lluvia_satelite"]
-        llovio = (satelite["dia_del_evento"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_DIA_MM
-                  or satelite["total_3_dias"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_3_DIAS_MM)
+        return (satelite["dia_del_evento"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_DIA_MM
+                or satelite["total_3_dias"]["maxima_a_menos_de_5km_mm"] >= DEPURACION_LLUVIA_3_DIAS_MM)
+
+    def rio_crecido(r):
         if tipo_inundacion(r["evento"]) != "river_flood":
-            return llovio
-        return llovio and (r["caudal_del_rio"].get("veces_el_caudal_normal") or 0) >= DEPURACION_VECES_CAUDAL_NORMAL
+            return True
+        rio = r["caudal_del_rio"]
+        return ((rio.get("veces_el_caudal_normal") or 0) >= DEPURACION_VECES_CAUDAL_NORMAL
+                and (rio.get("caudal_normal_del_mes_m3s") or 0) >= DEPURACION_MIN_CAUDAL_NORMAL_M3S)
 
     def afectacion_importante(r):
         return (_cifra(r, "personas_afectadas") >= DEPURACION_MIN_PERSONAS
@@ -998,10 +1010,11 @@ def _pasos_depuracion() -> list[tuple[str, callable]]:
         ("…con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes)",
          lambda r: tres_corridas(r.get("lluvia_pronosticada"))),
         ("…con el pronóstico de caudal de las 3 corridas", lambda r: tres_corridas(r["caudal_del_rio"].get("caudal_pronosticado"))),
-        ("…con pronóstico puntual en una estación del INAMHI a menos de 25 km",
-         lambda r: bool((r.get("lluvia_estacion_inamhi") or {}).get("pronostico_puntual"))),
-        (f"…con lluvia real: satélite ≥ {DEPURACION_LLUVIA_DIA_MM} mm ese día o ≥ {DEPURACION_LLUVIA_3_DIAS_MM} mm en 3 días; "
-         f"si fue desborde, el río ≥ {DEPURACION_VECES_CAUDAL_NORMAL} veces su caudal normal", senal),
+        (f"…con pronóstico puntual en una estación del INAMHI a ≤ {DEPURACION_MAX_KM_ESTACION} km", estacion_cercana),
+        (f"…con lluvia real: el satélite midió ≥ {DEPURACION_LLUVIA_DIA_MM} mm ese día o ≥ {DEPURACION_LLUVIA_3_DIAS_MM} mm en 3 días",
+         lluvia_real),
+        (f"…si fue desborde: el río llevaba ≥ {DEPURACION_VECES_CAUDAL_NORMAL} veces su caudal normal y no es un arroyo "
+         f"(caudal normal ≥ {DEPURACION_MIN_CAUDAL_NORMAL_M3S} m³/s)", rio_crecido),
         (f"…con afectación importante: ≥ {DEPURACION_MIN_PERSONAS} personas, ≥ {DEPURACION_MIN_VIVIENDAS} viviendas, "
          f"evacuados o damnificados, o Nivel {DEPURACION_MIN_NIVEL_SNGR}+", afectacion_importante),
     ]
@@ -1024,60 +1037,66 @@ def depurar(completos: list[dict]) -> tuple[list[dict], list[tuple[str, int]]]:
 
 
 def escribir_resumen(completos: list[dict], pendientes: list[dict], descartados: dict[str, dict], por_cruzar: int) -> None:
-    """eventos/RESUMEN.md: cuántas inundaciones hay de cada tipo."""
-    motivos = Counter(f["motivo"] for f in descartados.values())
-    por_mes = Counter(r["evento"]["fecha"][:7] for r in completos)
-    provincias = Counter(r["evento"]["provincia"] or "Sin provincia" for r in completos)
-    crecidas = Counter(r["caudal_del_rio"]["crecida_alcanzada_años"] for r in completos)
-    rangos = ((0, 5, "Menos de 5 mm"), (5, 20, "5 a 20 mm"), (20, 50, "20 a 50 mm"), (50, math.inf, "50 mm o más"))
+    """eventos/RESUMEN.md: primero la selección depurada (con la que se trabaja) y después el archivo completo."""
+    depurados, pasos = depurar(completos)
+    rangos = ((0, 30, "Menos de 30 mm"), (30, 50, "30 a 50 mm"), (50, 100, "50 a 100 mm"), (100, math.inf, "100 mm o más"))
     lluvia = Counter(
         next(texto for minimo, maximo, texto in rangos if minimo <= r["lluvia_satelite"]["dia_del_evento"]["maxima_a_menos_de_5km_mm"] < maximo)
-        for r in completos
+        for r in depurados
     )
-    con_pron_lluvia = sum(1 for r in completos if r.get("lluvia_pronosticada"))
-    con_pron_caudal = sum(1 for r in completos if r["caudal_del_rio"].get("caudal_pronosticado"))
-    con_pronostico_estacion = sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("pronostico_puntual"))
-    con_medicion_estacion = sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("lluvia_medida_dia_del_evento"))
+    crecidas = Counter(r["caudal_del_rio"]["crecida_alcanzada_años"] for r in depurados if tipo_inundacion(r["evento"]) == "river_flood")
+    motivos = Counter(f["motivo"] for f in descartados.values())
 
     lineas = [
         "# Inundaciones de la SNGR cruzadas con lluvia y caudal",
         "",
-        f"Actualizado el {dt.date.today():%Y-%m-%d}. Se genera solo en cada cruce; ver el README para qué tiene cada archivo.",
+        f"Actualizado el {dt.date.today():%Y-%m-%d}; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).",
         "",
+        f"## Selección depurada: **{len(depurados)} inundaciones** (`depurados.csv`)",
+        "",
+        "Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio de `cruzar_eventos.py` "
+        "(`DEPURACION_…`): para afinar la selección se cambia un número y el siguiente cruce rehace esta tabla.",
+        "",
+        *tabla_md(("Paso", "Quedan"), [*pasos[:-1], (f"**{pasos[-1][0]}**", f"**{pasos[-1][1]}**")]),
+    ]
+    if depurados:
+        lineas += [
+            "### Por tipo de inundación", "",
+            *tabla_md(("Tipo", "Inundaciones"), Counter(TIPOS_INUNDACION[tipo_inundacion(r["evento"])] for r in depurados).most_common()),
+            "### Por lluvia del día del evento", "",
+            "La más alta a menos de 5 km medida por el satélite.", "",
+            *tabla_md(("Lluvia", "Inundaciones"), [(texto, lluvia[texto]) for _, _, texto in rangos if lluvia[texto]]),
+        ]
+        if crecidas:
+            lineas += [
+                "### Desbordes, según la crecida que alcanzó el río (GEOGLOWS)", "",
+                *tabla_md(("Crecida", "Desbordes"), [
+                    ("Ninguna (no llegó a la de 2 años)" if t == 0 else f"Superó la de {t} años", crecidas[t]) for t in (0, *PERIODOS) if crecidas[t]
+                ]),
+            ]
+        lineas += [
+            "### Por mes", "",
+            *tabla_md(("Mes", "Inundaciones"), sorted(Counter(r["evento"]["fecha"][:7] for r in depurados).items(), reverse=True)),
+            "### Por provincia", "",
+            *tabla_md(("Provincia", "Inundaciones"), Counter(r["evento"]["provincia"] or "Sin provincia" for r in depurados).most_common()),
+        ]
+    lineas += [
+        "## Archivo completo (todas las inundaciones cruzadas)", "",
         *tabla_md(("Inundaciones", "Cantidad"), [
-            ("**Completas**: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`)", f"**{len(completos)}**"),
-            ("…de ellas, con el pronóstico de lluvia del WRF para ese día", con_pron_lluvia),
-            ("…de ellas, con el pronóstico de caudal de GEOGLOWS para ese día", con_pron_caudal),
-            ("…de ellas, con el pronóstico puntual del WRF en una estación del INAMHI a menos de 25 km", con_pronostico_estacion),
-            ("…de ellas, con la lluvia medida en esa estación (hay mediciones desde oct 2026)", con_medicion_estacion),
+            ("Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`)", len(completos)),
+            ("…con el pronóstico de lluvia del WRF para ese día", sum(1 for r in completos if r.get("lluvia_pronosticada"))),
+            ("…con el pronóstico de caudal de GEOGLOWS para ese día", sum(1 for r in completos if r["caudal_del_rio"].get("caudal_pronosticado"))),
+            ("…con pronóstico puntual en una estación del INAMHI a menos de 25 km",
+             sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("pronostico_puntual"))),
+            ("…con la lluvia medida en esa estación (hay mediciones desde oct 2026)",
+             sum(1 for r in completos if (r.get("lluvia_estacion_inamhi") or {}).get("lluvia_medida_dia_del_evento"))),
             ("Pendientes: esperan un dato que llegará (`pendientes/`)", len(pendientes)),
             *([("Por volver a cruzar con el formato nuevo (próximas ejecuciones)", por_cruzar)] if por_cruzar else []),
             ("Descartadas: nunca tendrán los dos datos (`descartados.csv`)", len(descartados)),
         ]),
     ]
-    depurados, pasos = depurar(completos)
-    lineas += [
-        "## Depuración (`depurados.csv`)", "",
-        "Cada paso deja solo las inundaciones que cumplen el criterio (se ajusta en `cruzar_eventos.py`, DEPURACION_…).", "",
-        *tabla_md(("Paso", "Quedan"), [*pasos[:-1], (f"**{pasos[-1][0]}**", f"**{pasos[-1][1]}**")]),
-        *tabla_md(("Tipo de inundación (depuradas)", "Inundaciones"), Counter(TIPOS_INUNDACION[tipo_inundacion(r["evento"])] for r in depurados).most_common()),
-    ]
     if motivos:
-        lineas += ["## Descartadas, por motivo", "", *tabla_md(("Motivo", "Inundaciones"), motivos.most_common())]
-    if completos:
-        lineas += [
-            "## Completas, según la crecida que alcanzó el río", "",
-            *tabla_md(("Crecida (caudal simulado)", "Inundaciones"), [
-                ("Ninguna (no llegó a la de 2 años)" if t == 0 else f"Superó la de {t} años", crecidas[t]) for t in (0, *PERIODOS) if crecidas[t]
-            ]),
-            "## Completas, según la lluvia del día del evento", "",
-            "La más alta a menos de 5 km medida por el satélite.", "",
-            *tabla_md(("Lluvia", "Inundaciones"), [(texto, lluvia[texto]) for _, _, texto in rangos]),
-            "## Completas, por mes", "",
-            *tabla_md(("Mes", "Inundaciones"), sorted(por_mes.items(), reverse=True)),
-            "## Completas, por provincia", "",
-            *tabla_md(("Provincia", "Inundaciones"), provincias.most_common()),
-        ]
+        lineas += ["### Descartadas, por motivo", "", *tabla_md(("Motivo", "Inundaciones"), motivos.most_common())]
     RESUMEN.write_text("\n".join(lineas), encoding="utf-8")
 
 

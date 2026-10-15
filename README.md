@@ -34,7 +34,7 @@ que tienen los dos datos**:
 madrugada (antes de las 07:00) cuenta en el día anterior. Cada dato del JSON
 indica su periodo con `desde` y `hasta`, y cada bloque trae un `que_es` que lo explica.
 
-Se guarda en `eventos/`:
+Se guarda en `eventos/`. **Qué significa cada dato:** [`eventos/GUIA.md`](eventos/GUIA.md).
 
 - **`RESUMEN.md`**: cuántas inundaciones hay completas, pendientes y descartadas,
   y las completas por mes, provincia, lluvia y crecida.
@@ -48,9 +48,9 @@ Se guarda en `eventos/`:
   las mismas columnas que `inundaciones.csv`. Hoy exige: desde el 1 de enero de
   2026; tipo **desborde de río** o **lluvia intensa (anegamiento)** (se quitan el
   colapso de drenaje y el oleaje o marea); afectación verificada; los tres
-  pronósticos completos (WRF en el lugar, caudal y estación del INAMHI cercana);
-  lluvia real según el satélite (y, si fue desborde, el río por encima de su
-  caudal normal); afectación importante; y uno por cantón y día. El tipo sale de la misma clasificación
+  pronósticos completos (WRF en el lugar, caudal y estación del INAMHI a 15 km o
+  menos); lluvia real según el satélite; si fue desborde, el río muy crecido y
+  que no sea un arroyo; afectación importante; y uno por cantón y día. El tipo sale de la misma clasificación
   que usa SATI.EC (columna `tipo_inundacion` y bloque `clasificacion` de cada
   JSON), junto con `afectacion_verificada` (si la SNGR registró daño en personas,
   viviendas, cultivos o servicios). Los criterios están al inicio de
