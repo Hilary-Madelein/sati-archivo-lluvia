@@ -1,6 +1,6 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-14. Se genera solo en cada cruce; ver el README para qué tiene cada archivo.
+Actualizado el 2026-10-15. Se genera solo en cada cruce; ver el README para qué tiene cada archivo.
 
 | Inundaciones | Cantidad |
 |---|---:|
@@ -9,7 +9,7 @@ Actualizado el 2026-10-14. Se genera solo en cada cruce; ver el README para qué
 | …de ellas, con el pronóstico de caudal de GEOGLOWS para ese día | 1362 |
 | …de ellas, con el pronóstico puntual del WRF en una estación del INAMHI a menos de 25 km | 1193 |
 | …de ellas, con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 0 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 112 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 115 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |
 
 ## Completas, según la crecida que alcanzó el río

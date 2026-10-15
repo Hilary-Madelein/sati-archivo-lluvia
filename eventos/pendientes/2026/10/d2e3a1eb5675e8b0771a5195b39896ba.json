@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "evento": {
+    "id": "d2e3a1eb5675e8b0771a5195b39896ba",
+    "tipo": "Inundación",
+    "fecha": "2026-10-09",
+    "hora": "08:00",
+    "provincia": "Orellana",
+    "canton": "La Joya De Los Sachas",
+    "parroquia": "San Sebastian Del Coca",
+    "sector": "San Pablo Sur",
+    "latitud": -0.384744,
+    "longitud": -76.95091,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por las lluvias ocurridas el 08/10/2026, se produce el desbordamiento del río Yanayacu, inundado el sector. GAD Parroquial de San Sebastián del Coca confirmó el evento. SNGR coordinó con el Municipio de La Joya de los Sachas el levantamiento de las fichas EVIN.  Cuerpo de Bomberos La Joya de los Sachas realizó una inspección, así como apoyó a una familia a evacuar hacia una familia de acogida y a otras familias a evacuar sus bienes a un lugar más alto en sus viviendas, las mismas que son elevadas. Una persona afectada por la inundación evacuó hacia una familia de acogida, mientras estaba desbordado el río. GAD M de La Joya de los Sachas entregó víveres a la persona afectada, posteriormente, el río comenzó a descender por lo cual no esta desbordado.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0
+  },
+  "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 0,0 mm a menos de 5 km) y 137,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día). Estación Coca en San Sebastian (a 7,8 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
+  "dia_de_lluvia": {
+    "fecha": "2026-10-09",
+    "desde": "2026-10-09 07:00",
+    "hasta": "2026-10-10 07:00"
+  },
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "dia_anterior": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 100.0,
+      "maxima_a_menos_de_5km_mm": 110.0
+    },
+    "dos_dias_antes": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-08 07:00",
+      "en_el_lugar_mm": 37.0,
+      "maxima_a_menos_de_5km_mm": 37.0
+    },
+    "total_3_dias": {
+      "desde": "2026-10-07 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 137.0,
+      "maxima_a_menos_de_5km_mm": 139.0
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 4.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026). 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H1134",
+      "nombre": "Coca en San Sebastian",
+      "distancia_km": 7.8,
+      "latitud": -0.342844,
+      "longitud": -77.007411
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00",
+      "hecho_el_mismo_dia_mm": 0.0,
+      "hecho_1_dia_antes_mm": 0.0,
+      "hecho_2_dias_antes_mm": 0.0,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-15T18:07:53.000Z",
+    "estado": "espera"
+  }
+}
