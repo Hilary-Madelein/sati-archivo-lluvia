@@ -3,6 +3,7 @@
   "evento": {
     "id": "05a8bf05017b9697dee45764e9d77ead",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-01-28",
     "hora": "05:52",
     "provincia": "Tungurahua",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 11,0 mm el día del evento en el lugar (hasta 11,0 mm a menos de 5 km) y 22,0 mm en 3 días. Pronóstico WRF para ese día: 12,0 mm (el mismo día). Estación Pillaro (a 7,1 km): el WRF pronosticaba ahí 12,6 mm (el mismo día). Río: 38,1 m³/s, 1,5 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (168,8 m³/s).",
   "dia_de_lluvia": {

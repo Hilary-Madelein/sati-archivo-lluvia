@@ -3,6 +3,7 @@
   "evento": {
     "id": "f767dfd88e7a1fba5b33c26fc28ad130",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-11",
     "hora": "22:00",
     "provincia": "Los Ríos",
@@ -17,7 +18,23 @@
     "personas_afectadas": 495,
     "viviendas_afectadas": 1234,
     "personas_evacuadas": 7,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 1129,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 495,
+    "viviendas_destruidas": 33,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 1,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 49,0 mm el día del evento en el lugar (hasta 51,0 mm a menos de 5 km) y 203,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 6,2 mm (el mismo día). Estación San Pablo en Palmar (a 11,9 km): el WRF pronosticaba ahí 0,3 mm (2 días antes), 1,4 mm (1 día antes), 16,1 mm (el mismo día). Río: 827,2 m³/s, 1,5 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (2441,3 m³/s).",
   "dia_de_lluvia": {

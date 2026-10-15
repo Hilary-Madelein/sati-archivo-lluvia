@@ -3,6 +3,7 @@
   "evento": {
     "id": "9aed7deda40696fa4407a272c8931468",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-01-30",
     "hora": "03:00",
     "provincia": "Orellana",
@@ -17,7 +18,23 @@
     "personas_afectadas": 54,
     "viviendas_afectadas": 35,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 70,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 14,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 6.25,
+    "hectareas_cultivo_perdidas": 2.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 30,0 mm el día del evento en el lugar (hasta 39,0 mm a menos de 5 km) y 78,0 mm en 3 días. Pronóstico WRF para ese día: 7,5 mm (2 días antes), 18,1 mm (1 día antes), 20,3 mm (el mismo día). Río: 50,0 m³/s, 3,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (221,3 m³/s).",
   "dia_de_lluvia": {

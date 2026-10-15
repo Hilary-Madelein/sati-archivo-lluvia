@@ -3,6 +3,7 @@
   "evento": {
     "id": "6b78d503bc79a1cd8e74d5ce8482b82e",
     "tipo": "Inundación",
+    "causa": "Inundación",
     "fecha": "2026-03-20",
     "hora": "09:20",
     "provincia": "Santo Domingo De Los Tsáchilas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 8,0 mm el día del evento en el lugar (hasta 16,0 mm a menos de 5 km) y 42,0 mm en 3 días. Pronóstico WRF para ese día: 64,2 mm (2 días antes), 59,1 mm (1 día antes), 33,6 mm (el mismo día). Estación Espe Sto. Domingo (a 21,2 km): el WRF pronosticaba ahí 7,3 mm (2 días antes), 20,9 mm (1 día antes), 57,2 mm (el mismo día). Río: 0,9 m³/s, 0,6 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (12,4 m³/s).",
   "dia_de_lluvia": {

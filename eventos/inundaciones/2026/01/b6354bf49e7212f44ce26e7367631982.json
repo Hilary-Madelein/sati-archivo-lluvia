@@ -3,6 +3,7 @@
   "evento": {
     "id": "b6354bf49e7212f44ce26e7367631982",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-01-24",
     "hora": "21:30",
     "provincia": "Santo Domingo De Los Tsáchilas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 43,0 mm el día del evento en el lugar (hasta 44,0 mm a menos de 5 km) y 73,0 mm en 3 días. Pronóstico WRF para ese día: 41,9 mm (2 días antes), 28,4 mm (1 día antes), 39,8 mm (el mismo día). Estación Blanco Dj Toachi(pte.unicoop) (a 22,1 km): el WRF pronosticaba ahí 17,6 mm (2 días antes), 13,5 mm (1 día antes), 9,5 mm (el mismo día). Río: 1,6 m³/s, 1,2 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (12,4 m³/s).",
   "dia_de_lluvia": {

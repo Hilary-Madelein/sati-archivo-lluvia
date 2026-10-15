@@ -3,6 +3,7 @@
   "evento": {
     "id": "de8650912b54f3ac7efeda0bab1ad605",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-10-11",
     "hora": "06:30",
     "provincia": "Pichincha",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 12,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 42,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 38,0 mm el día del evento en el lugar (hasta 43,0 mm a menos de 5 km) y 145,0 mm en 3 días. Pronóstico WRF para ese día: 98,0 mm (2 días antes), 56,8 mm (1 día antes), 47,2 mm (el mismo día). Estación San Marcos - La Celica (a 22,9 km): el WRF pronosticaba ahí 100,7 mm (2 días antes), 82,8 mm (1 día antes), 71,7 mm (el mismo día).",
   "dia_de_lluvia": {

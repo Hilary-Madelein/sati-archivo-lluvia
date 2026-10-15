@@ -3,6 +3,7 @@
   "evento": {
     "id": "f733dbc495564acf9d11eed9cc9f2515",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-17",
     "hora": "02:00",
     "provincia": "Loja",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 4,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 19,0 mm el día del evento en el lugar (hasta 19,0 mm a menos de 5 km) y 34,0 mm en 3 días. Pronóstico WRF para ese día: 23,1 mm (2 días antes), 24,7 mm (1 día antes), 40,6 mm (el mismo día). Estación Pindo Aj Amarillo (a 6,0 km): el WRF pronosticaba ahí 16,4 mm (2 días antes), 3,9 mm (1 día antes), 18,4 mm (el mismo día). Río: 32,2 m³/s, 0,7 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (232,7 m³/s).",
   "dia_de_lluvia": {

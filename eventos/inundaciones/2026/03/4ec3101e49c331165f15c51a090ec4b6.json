@@ -3,6 +3,7 @@
   "evento": {
     "id": "4ec3101e49c331165f15c51a090ec4b6",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-02",
     "hora": "14:05",
     "provincia": "Esmeraldas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 4,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 11,0 mm el día del evento en el lugar (hasta 11,0 mm a menos de 5 km) y 105,0 mm en 3 días. Pronóstico WRF para ese día: 2,9 mm (2 días antes), 3,6 mm (1 día antes), 6,5 mm (el mismo día). Estación Esmeraldas en San Mateo (a 9,5 km): el WRF pronosticaba ahí 13,0 mm (2 días antes), 12,5 mm (1 día antes), 6,2 mm (el mismo día). Río: 3,2 m³/s, 3,4 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (15,3 m³/s).",
   "dia_de_lluvia": {

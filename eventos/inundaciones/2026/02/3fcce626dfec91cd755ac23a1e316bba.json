@@ -3,6 +3,7 @@
   "evento": {
     "id": "3fcce626dfec91cd755ac23a1e316bba",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-02-21",
     "hora": "06:00",
     "provincia": "Santa Elena",
@@ -17,7 +18,23 @@
     "personas_afectadas": 50,
     "viviendas_afectadas": 11,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 15,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 6,0 mm el día del evento en el lugar (hasta 6,0 mm a menos de 5 km) y 32,0 mm en 3 días. Pronóstico WRF para ese día: 14,4 mm (2 días antes), 42,7 mm (1 día antes), 13,4 mm (el mismo día). Estación Santa Elena (a 6,7 km): el WRF pronosticaba ahí 13,3 mm (2 días antes), 24,2 mm (1 día antes), 5,4 mm (el mismo día). Río: 2,0 m³/s, 32,7 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (11,9 m³/s).",
   "dia_de_lluvia": {

@@ -3,6 +3,7 @@
   "evento": {
     "id": "46fe83dcf065fed510b34abef8c98428",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-07-03",
     "hora": "22:21",
     "provincia": "Zamora Chinchipe",
@@ -17,7 +18,23 @@
     "personas_afectadas": 49,
     "viviendas_afectadas": 26,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 13
+    "personas_fallecidas": 13,
+    "personas_damnificadas": 252,
+    "personas_extraviadas": 6,
+    "familias_afectadas": 18,
+    "viviendas_destruidas": 5,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 1,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 174.75,
+    "hectareas_cultivo_perdidas": 70.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 0,0 mm a menos de 5 km) y 0,0 mm en 3 días. Pronóstico WRF para ese día: 57,1 mm (2 días antes), 32,7 mm (1 día antes), 38,3 mm (el mismo día). Estación Zamora Dj Sabanilla(en Zamora) (a 23,7 km): el WRF pronosticaba ahí 25,9 mm (2 días antes), 13,4 mm (1 día antes), 46,1 mm (el mismo día). Río: 16,6 m³/s, 5,2 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (24,5 m³/s).",
   "dia_de_lluvia": {

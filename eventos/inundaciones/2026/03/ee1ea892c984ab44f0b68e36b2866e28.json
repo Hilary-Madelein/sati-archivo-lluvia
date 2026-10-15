@@ -3,6 +3,7 @@
   "evento": {
     "id": "ee1ea892c984ab44f0b68e36b2866e28",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-10",
     "hora": "01:00",
     "provincia": "Los Ríos",
@@ -17,7 +18,23 @@
     "personas_afectadas": 622,
     "viviendas_afectadas": 40,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 29,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 167,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 1228.5,
+    "hectareas_cultivo_perdidas": 5.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 101,0 mm el día del evento en el lugar (hasta 101,0 mm a menos de 5 km) y 138,0 mm en 3 días. Pronóstico WRF para ese día: 0,3 mm (2 días antes), 27,4 mm (1 día antes), 106,7 mm (el mismo día). Estación Caluma (a 15,5 km): el WRF pronosticaba ahí 24,0 mm (2 días antes), 87,3 mm (1 día antes), 84,3 mm (el mismo día). Río: 36,6 m³/s, 0,9 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (258,5 m³/s).",
   "dia_de_lluvia": {

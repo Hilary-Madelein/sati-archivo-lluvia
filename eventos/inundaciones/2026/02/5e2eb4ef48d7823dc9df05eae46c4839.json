@@ -3,6 +3,7 @@
   "evento": {
     "id": "5e2eb4ef48d7823dc9df05eae46c4839",
     "tipo": "Inundación",
+    "causa": "Acumulación de agua en el suelo",
     "fecha": "2026-02-24",
     "hora": "02:30",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 36,
     "viviendas_afectadas": 23,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 11,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 17,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 44,0 mm el día del evento en el lugar (hasta 49,0 mm a menos de 5 km) y 175,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 35,0 mm (1 día antes), 0,1 mm (el mismo día). Estación Camaronera - Songa (a 16,4 km): el WRF pronosticaba ahí 0,8 mm (2 días antes), 5,7 mm (1 día antes), 0,2 mm (el mismo día). Río: 45,0 m³/s, 9,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (45,7 m³/s).",
   "dia_de_lluvia": {

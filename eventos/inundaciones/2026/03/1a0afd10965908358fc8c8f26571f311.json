@@ -3,6 +3,7 @@
   "evento": {
     "id": "1a0afd10965908358fc8c8f26571f311",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-08",
     "hora": "21:14",
     "provincia": "Cotopaxi",
@@ -17,7 +18,23 @@
     "personas_afectadas": 32,
     "viviendas_afectadas": 7,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 7,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 176,0 mm el día del evento en el lugar (hasta 199,0 mm a menos de 5 km) y 227,0 mm en 3 días. Pronóstico WRF para ese día: 36,4 mm (2 días antes), 71,7 mm (1 día antes), 34,3 mm (el mismo día). Estación San Juan la Mana (a 3,1 km): el WRF pronosticaba ahí 23,8 mm (2 días antes), 29,6 mm (1 día antes), 48,3 mm (el mismo día). Río: 100,4 m³/s, 1,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (317,7 m³/s).",
   "dia_de_lluvia": {

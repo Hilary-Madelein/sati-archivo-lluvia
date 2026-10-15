@@ -3,6 +3,7 @@
   "evento": {
     "id": "e6e1fb3ad10cdc7f8917b68b92dd6ca3",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-10-02",
     "hora": "19:35",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 24,
     "viviendas_afectadas": 6,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 6,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 82,0 mm el día del evento en el lugar (hasta 82,0 mm a menos de 5 km) y 85,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes). Estación Coe - Monte Bello (a 0,8 km): el WRF pronosticaba ahí 0,0 mm (2 días antes).",
   "dia_de_lluvia": {

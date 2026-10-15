@@ -3,6 +3,7 @@
   "evento": {
     "id": "267372d6ca20fffa049dbfe0c5176261",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-09-15",
     "hora": "04:30",
     "provincia": "Los Ríos",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 5,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 5,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 127,0 mm el día del evento en el lugar (hasta 155,0 mm a menos de 5 km) y 127,0 mm en 3 días. Pronóstico WRF para ese día: 94,1 mm (2 días antes), 41,4 mm (el mismo día). Estación Zapotal en Lechugal (a 10,9 km): el WRF pronosticaba ahí 21,6 mm (2 días antes), 32,2 mm (el mismo día). Río: 76,6 m³/s, 10,7 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (142,2 m³/s).",
   "dia_de_lluvia": {

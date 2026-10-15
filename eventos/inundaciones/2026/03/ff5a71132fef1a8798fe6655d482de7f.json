@@ -3,6 +3,7 @@
   "evento": {
     "id": "ff5a71132fef1a8798fe6655d482de7f",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-09",
     "hora": "22:03",
     "provincia": "El Oro",
@@ -17,7 +18,23 @@
     "personas_afectadas": 382,
     "viviendas_afectadas": 153,
     "personas_evacuadas": 200,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 78,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 125,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 5,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 6,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 55,0 mm en 3 días. Pronóstico WRF para ese día: 0,8 mm (2 días antes), 3,2 mm (1 día antes), 6,5 mm (el mismo día). Estación Colegio 13 de Mayo - Portovelo (a 1,7 km): el WRF pronosticaba ahí 0,8 mm (2 días antes), 3,2 mm (1 día antes), 6,5 mm (el mismo día). Río: 81,4 m³/s, 2,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (186,9 m³/s).",
   "dia_de_lluvia": {

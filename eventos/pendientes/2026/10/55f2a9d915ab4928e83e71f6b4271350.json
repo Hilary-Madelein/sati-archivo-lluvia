@@ -3,6 +3,7 @@
   "evento": {
     "id": "55f2a9d915ab4928e83e71f6b4271350",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-10-06",
     "hora": "07:00",
     "provincia": "Esmeraldas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Oleaje o marea",
+    "codigo": "coastal_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 116,0 mm el día del evento en el lugar (hasta 116,0 mm a menos de 5 km) y 158,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (1 día antes), 0,0 mm (el mismo día). Estación Contreras en San Gregorio (a 17,1 km): el WRF pronosticaba ahí 25,3 mm (1 día antes), 1,7 mm (el mismo día).",
   "dia_de_lluvia": {

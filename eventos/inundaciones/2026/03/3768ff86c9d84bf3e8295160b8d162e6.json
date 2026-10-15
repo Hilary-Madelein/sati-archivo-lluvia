@@ -3,6 +3,7 @@
   "evento": {
     "id": "3768ff86c9d84bf3e8295160b8d162e6",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-06",
     "hora": "06:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 12,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 3,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 15.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 0,0 mm a menos de 5 km) y 26,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 9,3 mm (1 día antes), 0,6 mm (el mismo día). Estación San Pablo en Palmar (a 18,5 km): el WRF pronosticaba ahí 0,4 mm (2 días antes), 1,2 mm (1 día antes), 0,1 mm (el mismo día). Río: 25,3 m³/s, 4,4 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (61,8 m³/s).",
   "dia_de_lluvia": {

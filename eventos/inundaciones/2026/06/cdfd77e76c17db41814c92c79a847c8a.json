@@ -3,6 +3,7 @@
   "evento": {
     "id": "cdfd77e76c17db41814c92c79a847c8a",
     "tipo": "Inundación",
+    "causa": "Acumulación de agua en el suelo",
     "fecha": "2026-06-07",
     "hora": "17:25",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 2,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 8,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 54,0 mm el día del evento en el lugar (hasta 68,0 mm a menos de 5 km) y 58,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 1,6 mm (1 día antes), 17,2 mm (el mismo día). Estación Guayaquil (facultad Ccnn) (a 3,3 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 1,0 mm (1 día antes), 24,7 mm (el mismo día). Río: 319,7 m³/s, 1,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (3348,2 m³/s).",
   "dia_de_lluvia": {

@@ -3,6 +3,7 @@
   "evento": {
     "id": "3dc506b2bbeb633bb5b3bcc243dfa9e6",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-04-03",
     "hora": "00:30",
     "provincia": "Napo",
@@ -17,7 +18,23 @@
     "personas_afectadas": 4,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 42,0 mm el día del evento en el lugar (hasta 48,0 mm a menos de 5 km) y 181,0 mm en 3 días. Pronóstico WRF para ese día: 0,4 mm (2 días antes), 28,8 mm (1 día antes), 15,4 mm (el mismo día). Estación Reventador (a 11,3 km): el WRF pronosticaba ahí 0,7 mm (2 días antes), 43,4 mm (1 día antes), 15,7 mm (el mismo día). Río: 338,2 m³/s, 1,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (1260,3 m³/s).",
   "dia_de_lluvia": {

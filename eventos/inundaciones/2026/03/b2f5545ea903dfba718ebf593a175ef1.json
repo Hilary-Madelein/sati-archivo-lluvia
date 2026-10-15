@@ -3,6 +3,7 @@
   "evento": {
     "id": "b2f5545ea903dfba718ebf593a175ef1",
     "tipo": "Inundación",
+    "causa": "Inundación",
     "fecha": "2026-03-09",
     "hora": "03:30",
     "provincia": "Cotopaxi",
@@ -17,7 +18,23 @@
     "personas_afectadas": 33,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 1,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 8,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0.75
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 148,0 mm el día del evento en el lugar (hasta 154,0 mm a menos de 5 km) y 175,0 mm en 3 días. Pronóstico WRF para ese día: 98,6 mm (2 días antes), 91,2 mm (1 día antes), 24,4 mm (el mismo día). Río: 18,3 m³/s, 1,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (119,0 m³/s).",
   "dia_de_lluvia": {

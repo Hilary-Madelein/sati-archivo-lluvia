@@ -3,6 +3,7 @@
   "evento": {
     "id": "dfe6e2d3ecf23937971771ac53966fad",
     "tipo": "Inundación",
+    "causa": "Inundación",
     "fecha": "2026-03-12",
     "hora": "12:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 8,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 2,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 2.0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 11,0 mm el día del evento en el lugar (hasta 23,0 mm a menos de 5 km) y 103,0 mm en 3 días. Pronóstico WRF para ese día: 2,8 mm (2 días antes), 24,2 mm (1 día antes), 43,3 mm (el mismo día). Estación Payo Aj Bulubulu (a 8,0 km): el WRF pronosticaba ahí 37,9 mm (2 días antes), 4,3 mm (1 día antes), 21,6 mm (el mismo día). Río: 11,1 m³/s, 2,3 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (48,0 m³/s).",
   "dia_de_lluvia": {

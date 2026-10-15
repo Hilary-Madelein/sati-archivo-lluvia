@@ -9,8 +9,30 @@ Actualizado el 2026-10-15. Se genera solo en cada cruce; ver el README para qué
 | …de ellas, con el pronóstico de caudal de GEOGLOWS para ese día | 1362 |
 | …de ellas, con el pronóstico puntual del WRF en una estación del INAMHI a menos de 25 km | 1193 |
 | …de ellas, con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 0 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 115 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 118 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |
+
+## Depuración (`depurados.csv`)
+
+Cada paso deja solo las inundaciones que cumplen el criterio (se ajusta en `cruzar_eventos.py`, DEPURACION_…).
+
+| Paso | Quedan |
+|---|---:|
+| Completas (lluvia por satélite y caudal del río) | 1429 |
+| …desde el 2026-01-01 | 1362 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1194 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 751 |
+| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 716 |
+| …con el pronóstico de caudal de las 3 corridas | 712 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 598 |
+| …con lluvia real: satélite ≥ 20 mm ese día o ≥ 50 mm en 3 días; si fue desborde, el río ≥ 2 veces su caudal normal | 340 |
+| …con afectación importante: ≥ 10 personas, ≥ 5 viviendas, evacuados o damnificados, o Nivel 2+ | 224 |
+| **…uno por cantón y día (el de más personas afectadas)** | **183** |
+
+| Tipo de inundación (depuradas) | Inundaciones |
+|---|---:|
+| Lluvia intensa (anegamiento) | 109 |
+| Desborde de río | 74 |
 
 ## Completas, según la crecida que alcanzó el río
 

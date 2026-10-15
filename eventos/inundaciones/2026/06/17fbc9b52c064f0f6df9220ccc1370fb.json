@@ -3,6 +3,7 @@
   "evento": {
     "id": "17fbc9b52c064f0f6df9220ccc1370fb",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-06-09",
     "hora": "02:22",
     "provincia": "Azuay",
@@ -17,7 +18,23 @@
     "personas_afectadas": 9,
     "viviendas_afectadas": 9,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 21,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 2,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 1,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 36,0 mm el día del evento en el lugar (hasta 37,0 mm a menos de 5 km) y 87,0 mm en 3 días. Pronóstico WRF para ese día: 1,3 mm (2 días antes), 2,0 mm (1 día antes), 11,4 mm (el mismo día). Río: 6,3 m³/s, 2,5 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (24,1 m³/s).",
   "dia_de_lluvia": {

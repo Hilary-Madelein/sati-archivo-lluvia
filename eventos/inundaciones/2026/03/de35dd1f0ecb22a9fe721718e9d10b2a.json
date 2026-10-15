@@ -3,6 +3,7 @@
   "evento": {
     "id": "de35dd1f0ecb22a9fe721718e9d10b2a",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-23",
     "hora": "06:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 34,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 17,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 17.0,
+    "hectareas_cultivo_perdidas": 749.96
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 24,0 mm en 3 días. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 2,5 mm (1 día antes), 1,0 mm (el mismo día). Estación Daule en la Capilla (a 16,4 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 11,6 mm (1 día antes), 1,4 mm (el mismo día). Río: 2,6 m³/s, 0,8 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (35,1 m³/s).",
   "dia_de_lluvia": {

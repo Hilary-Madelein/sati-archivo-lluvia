@@ -3,6 +3,7 @@
   "evento": {
     "id": "c68a74dfc42ffaac0a0b048bf8fc0d6f",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-10-03",
     "hora": "22:30",
     "provincia": "Santo Domingo De Los Tsáchilas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 46,
     "viviendas_afectadas": 14,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 11,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 13,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 43,0 mm a menos de 5 km) y 164,0 mm en 3 días.",
   "dia_de_lluvia": {

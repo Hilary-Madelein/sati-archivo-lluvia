@@ -3,6 +3,7 @@
   "evento": {
     "id": "2f7073f8d87c7e9c586e61fa492e8d4e",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-02",
     "hora": "06:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 2,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 3.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 9,0 mm el día del evento en el lugar (hasta 10,0 mm a menos de 5 km) y 175,0 mm en 3 días. Pronóstico WRF para ese día: 2,1 mm (2 días antes), 58,8 mm (1 día antes), 48,4 mm (el mismo día). Estación Coe - Monte Bello (a 21,1 km): el WRF pronosticaba ahí 106,9 mm (2 días antes), 21,8 mm (1 día antes), 39,0 mm (el mismo día). Río: 5,3 m³/s, 2,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (25,6 m³/s).",
   "dia_de_lluvia": {

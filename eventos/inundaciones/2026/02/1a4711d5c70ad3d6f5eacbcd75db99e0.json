@@ -3,6 +3,7 @@
   "evento": {
     "id": "1a4711d5c70ad3d6f5eacbcd75db99e0",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-02-13",
     "hora": "00:30",
     "provincia": "Los Ríos",
@@ -17,7 +18,23 @@
     "personas_afectadas": 12,
     "viviendas_afectadas": 3,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 3,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 366,0 mm el día del evento en el lugar (hasta 380,0 mm a menos de 5 km) y 377,0 mm en 3 días. Pronóstico WRF para ese día: 1,2 mm (2 días antes), 12,9 mm (1 día antes), 47,1 mm (el mismo día). Estación Pichilingue (a 2,1 km): el WRF pronosticaba ahí 1,7 mm (2 días antes), 16,4 mm (1 día antes), 40,7 mm (el mismo día). Río: 33,6 m³/s, 2,7 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (58,7 m³/s).",
   "dia_de_lluvia": {

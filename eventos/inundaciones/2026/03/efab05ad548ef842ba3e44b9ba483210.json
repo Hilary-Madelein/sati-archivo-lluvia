@@ -3,6 +3,7 @@
   "evento": {
     "id": "efab05ad548ef842ba3e44b9ba483210",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-03",
     "hora": "01:30",
     "provincia": "Manabí",
@@ -17,7 +18,23 @@
     "personas_afectadas": 41,
     "viviendas_afectadas": 28,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 28,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 20,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 1.0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 27,0 mm el día del evento en el lugar (hasta 52,0 mm a menos de 5 km) y 33,0 mm en 3 días. Pronóstico WRF para ese día: 4,2 mm (2 días antes), 1,3 mm (1 día antes), 7,2 mm (el mismo día). Estación Portoviejo Utm (a 8,8 km): el WRF pronosticaba ahí 2,8 mm (2 días antes), 3,1 mm (1 día antes), 6,7 mm (el mismo día). Río: 0,4 m³/s, 1,3 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (7,9 m³/s).",
   "dia_de_lluvia": {

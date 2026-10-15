@@ -3,6 +3,7 @@
   "evento": {
     "id": "0811739d3efdde479e9c76d5f1ee4b90",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-01-29",
     "hora": "13:00",
     "provincia": "Pastaza",
@@ -17,7 +18,23 @@
     "personas_afectadas": 60,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 15,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 1.0,
+    "hectareas_cultivo_perdidas": 6.25
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 33,0 mm el día del evento en el lugar (hasta 51,0 mm a menos de 5 km) y 92,0 mm en 3 días. Pronóstico WRF para ese día: 19,4 mm (2 días antes), 5,7 mm (1 día antes), 77,8 mm (el mismo día). Río: 83,0 m³/s, 29,5 veces su caudal normal; superó la crecida de 5 años (80,0 m³/s).",
   "dia_de_lluvia": {

@@ -3,12 +3,13 @@
   "evento": {
     "id": "d340959e169490740b6a9aae32c889db",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-02",
     "hora": "06:52",
     "provincia": "Guayas",
     "canton": "Pedro Carbo",
     "parroquia": "Pedro Carbo",
-    "sector": "Unidad Educativa San Francisco De Asís",
+    "sector": "Unidad Educativa San Francisco de Asís",
     "latitud": -1.843477,
     "longitud": -80.3624082,
     "nivel": 1,
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 21,0 mm el día del evento en el lugar (hasta 25,0 mm a menos de 5 km) y 96,0 mm en 3 días. Pronóstico WRF para ese día: 3,4 mm (2 días antes), 0,9 mm (1 día antes), 10,5 mm (el mismo día). Río: 1,1 m³/s, 0,9 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (11,5 m³/s).",
   "dia_de_lluvia": {

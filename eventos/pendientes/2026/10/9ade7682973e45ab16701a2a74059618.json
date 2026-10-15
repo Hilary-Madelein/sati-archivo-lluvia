@@ -3,6 +3,7 @@
   "evento": {
     "id": "9ade7682973e45ab16701a2a74059618",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-10-11",
     "hora": "18:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 37,0 mm el día del evento en el lugar (hasta 56,0 mm a menos de 5 km) y 38,0 mm en 3 días. Pronóstico WRF para ese día: 60,3 mm (2 días antes), 23,0 mm (1 día antes), 7,3 mm (el mismo día). Estación Guayaquil U. Estatal (a 1,8 km): el WRF pronosticaba ahí 60,3 mm (2 días antes), 23,0 mm (1 día antes), 7,3 mm (el mismo día).",
   "dia_de_lluvia": {

@@ -3,6 +3,7 @@
   "evento": {
     "id": "93a1a3cb96c62c95d2a284c01e7e908b",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-09-29",
     "hora": "08:05",
     "provincia": "Esmeraldas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 4,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 53,0 mm el día del evento en el lugar (hasta 55,0 mm a menos de 5 km) y 83,0 mm en 3 días. Pronóstico WRF para ese día: 6,8 mm (2 días antes), 26,7 mm (1 día antes), 9,5 mm (el mismo día). Estación Esmeraldas Dj Sade (a 11,6 km): el WRF pronosticaba ahí 12,1 mm (2 días antes), 4,2 mm (1 día antes), 23,4 mm (el mismo día). Río: 1460,7 m³/s, 1,9 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (4772,8 m³/s).",
   "dia_de_lluvia": {

@@ -3,6 +3,7 @@
   "evento": {
     "id": "3eb6ed6088d9045d2ad63c6dea088926",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-02",
     "hora": "14:24",
     "provincia": "Esmeraldas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 427,
     "viviendas_afectadas": 100,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 116,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 11,0 mm a menos de 5 km) y 67,0 mm en 3 días. Pronóstico WRF para ese día: 10,5 mm (2 días antes), 26,4 mm (1 día antes), 19,8 mm (el mismo día). Estación Teaone - Tabiazo (a 18,9 km): el WRF pronosticaba ahí 4,5 mm (2 días antes), 3,4 mm (1 día antes), 7,8 mm (el mismo día). Río: 7,1 m³/s, 3,2 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (32,8 m³/s).",
   "dia_de_lluvia": {

@@ -3,12 +3,13 @@
   "evento": {
     "id": "48dd5c484c8c6f540cbe011d2e5797d5",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-02-09",
     "hora": "09:50",
     "provincia": "Guayas",
     "canton": "Salitre (urbina Jado)",
     "parroquia": "Bocana",
-    "sector": "Escuela De Educación Básica Río Daule",
+    "sector": "Escuela de Educación Básica Río Daule",
     "latitud": -1.8285,
     "longitud": -79.8089,
     "nivel": 1,
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 17,0 mm a menos de 5 km) y 150,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes), 1,6 mm (1 día antes), 33,2 mm (el mismo día). Río: 1230,5 m³/s, 1,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (2456,5 m³/s).",
   "dia_de_lluvia": {

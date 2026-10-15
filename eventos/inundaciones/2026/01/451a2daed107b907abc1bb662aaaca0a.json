@@ -3,6 +3,7 @@
   "evento": {
     "id": "451a2daed107b907abc1bb662aaaca0a",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-01-04",
     "hora": "16:30",
     "provincia": "Pichincha",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 13,0 mm a menos de 5 km) y 22,0 mm en 3 días. Pronóstico WRF para ese día: 14,2 mm (2 días antes), 13,4 mm (1 día antes), 20,2 mm (el mismo día). Estación Politecnica Salesiana - Campus Sur (a 4,3 km): el WRF pronosticaba ahí 14,9 mm (2 días antes), 14,0 mm (1 día antes), 16,6 mm (el mismo día). Río: 4,0 m³/s, 1,8 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (9,5 m³/s).",
   "dia_de_lluvia": {

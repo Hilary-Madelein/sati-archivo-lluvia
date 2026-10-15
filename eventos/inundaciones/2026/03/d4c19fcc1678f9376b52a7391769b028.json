@@ -3,6 +3,7 @@
   "evento": {
     "id": "d4c19fcc1678f9376b52a7391769b028",
     "tipo": "Inundación",
+    "causa": "Acumulación de agua en el suelo",
     "fecha": "2026-03-04",
     "hora": "07:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 26,
     "viviendas_afectadas": 60,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 34,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 26,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 4,0 mm el día del evento en el lugar (hasta 4,0 mm a menos de 5 km) y 75,0 mm en 3 días. Pronóstico WRF para ese día: 8,8 mm (2 días antes), 14,0 mm (1 día antes), 12,9 mm (el mismo día). Estación Cuerpo de Bomberos Divino Niño - Duran (a 3,1 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día). Río: 234,8 m³/s, 15,3 veces su caudal normal; superó la crecida de 5 años (228,0 m³/s).",
   "dia_de_lluvia": {

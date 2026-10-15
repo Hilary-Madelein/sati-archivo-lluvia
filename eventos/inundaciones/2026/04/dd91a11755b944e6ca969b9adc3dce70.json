@@ -3,6 +3,7 @@
   "evento": {
     "id": "dd91a11755b944e6ca969b9adc3dce70",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-04-14",
     "hora": "14:12",
     "provincia": "Pichincha",
@@ -17,7 +18,23 @@
     "personas_afectadas": 3,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 57,0 mm el día del evento en el lugar (hasta 60,0 mm a menos de 5 km) y 77,0 mm en 3 días. Pronóstico WRF para ese día: 28,0 mm (2 días antes), 32,6 mm (1 día antes). Estación Lloa (a 3,7 km): el WRF pronosticaba ahí 1,1 mm (2 días antes), 0,9 mm (1 día antes). Río: 25,5 m³/s, 2,6 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (34,9 m³/s).",
   "dia_de_lluvia": {

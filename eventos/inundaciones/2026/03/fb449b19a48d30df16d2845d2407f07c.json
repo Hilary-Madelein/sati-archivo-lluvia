@@ -3,6 +3,7 @@
   "evento": {
     "id": "fb449b19a48d30df16d2845d2407f07c",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-11",
     "hora": "14:09",
     "provincia": "Pichincha",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 14,0 mm el día del evento en el lugar (hasta 14,0 mm a menos de 5 km) y 43,0 mm en 3 días. Pronóstico WRF para ese día: 24,9 mm (2 días antes), 37,6 mm (1 día antes), 26,4 mm (el mismo día). Estación Iñaquito (a 5,3 km): el WRF pronosticaba ahí 13,2 mm (2 días antes), 38,6 mm (1 día antes), 22,6 mm (el mismo día). Río: 18,6 m³/s, 1,8 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (39,5 m³/s).",
   "dia_de_lluvia": {

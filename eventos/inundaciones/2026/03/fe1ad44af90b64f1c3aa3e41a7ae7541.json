@@ -3,6 +3,7 @@
   "evento": {
     "id": "fe1ad44af90b64f1c3aa3e41a7ae7541",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-07",
     "hora": "03:00",
     "provincia": "Los Ríos",
@@ -17,7 +18,23 @@
     "personas_afectadas": 1885,
     "viviendas_afectadas": 1452,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 4604,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 718,
+    "viviendas_destruidas": 4,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 1,
+    "hectareas_cultivo_afectadas": 888.5,
+    "hectareas_cultivo_perdidas": 79.5
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 3,0 mm el día del evento en el lugar (hasta 4,0 mm a menos de 5 km) y 14,0 mm en 3 días. Pronóstico WRF para ese día: 0,2 mm (2 días antes), 2,2 mm (1 día antes), 5,6 mm (el mismo día). Estación Vinces (a 14,5 km): el WRF pronosticaba ahí 13,9 mm (2 días antes), 8,8 mm (1 día antes), 9,9 mm (el mismo día). Río: 7,4 m³/s, 1,8 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (41,7 m³/s).",
   "dia_de_lluvia": {

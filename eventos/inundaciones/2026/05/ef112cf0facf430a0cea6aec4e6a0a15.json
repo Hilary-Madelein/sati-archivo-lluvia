@@ -3,6 +3,7 @@
   "evento": {
     "id": "ef112cf0facf430a0cea6aec4e6a0a15",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-05-21",
     "hora": "19:00",
     "provincia": "Orellana",
@@ -17,7 +18,23 @@
     "personas_afectadas": 16,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 2,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 9,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 10,0 mm el día del evento en el lugar (hasta 10,0 mm a menos de 5 km) y 12,0 mm en 3 días. Pronóstico WRF para ese día: 49,0 mm (2 días antes), 1,1 mm (1 día antes), 4,5 mm (el mismo día). Estación Napo Aj Payamino (a 5,0 km): el WRF pronosticaba ahí 50,4 mm (2 días antes), 1,1 mm (1 día antes), 3,6 mm (el mismo día). Río: 144,0 m³/s, 10,6 veces su caudal normal; superó la crecida de 2 años (138,1 m³/s).",
   "dia_de_lluvia": {

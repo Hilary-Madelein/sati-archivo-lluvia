@@ -3,6 +3,7 @@
   "evento": {
     "id": "67a6b6358661b8ef4812478872ad2a70",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-02",
     "hora": "04:30",
     "provincia": "Manabí",
@@ -17,7 +18,23 @@
     "personas_afectadas": 77,
     "viviendas_afectadas": 37,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 29,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 29,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 4.0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 71,0 mm el día del evento en el lugar (hasta 86,0 mm a menos de 5 km) y 96,0 mm en 3 días. Pronóstico WRF para ese día: 0,3 mm (2 días antes), 0,8 mm (1 día antes), 14,5 mm (el mismo día). Estación Pedernales (a 16,1 km): el WRF pronosticaba ahí 0,8 mm (2 días antes), 1,7 mm (1 día antes), 24,4 mm (el mismo día). Río: 10,6 m³/s, 14,8 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (13,5 m³/s).",
   "dia_de_lluvia": {

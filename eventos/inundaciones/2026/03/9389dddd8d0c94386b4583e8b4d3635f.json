@@ -3,6 +3,7 @@
   "evento": {
     "id": "9389dddd8d0c94386b4583e8b4d3635f",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-12",
     "hora": "10:48",
     "provincia": "Azuay",
@@ -17,7 +18,23 @@
     "personas_afectadas": 4,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 2,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 1,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 7,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 24,0 mm el día del evento en el lugar (hasta 29,0 mm a menos de 5 km) y 59,0 mm en 3 días. Pronóstico WRF para ese día: 12,6 mm (2 días antes), 11,5 mm (1 día antes), 10,5 mm (el mismo día). Estación Sayausi (matadero Dj) (a 4,7 km): el WRF pronosticaba ahí 6,5 mm (2 días antes), 10,3 mm (1 día antes), 11,8 mm (el mismo día). Río: 68,9 m³/s, 3,4 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (77,4 m³/s).",
   "dia_de_lluvia": {

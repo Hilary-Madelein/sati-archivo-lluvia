@@ -3,6 +3,7 @@
   "evento": {
     "id": "7944b7d6d1914f28140dfa91c168b27a",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-04-08",
     "hora": "20:23",
     "provincia": "Zamora Chinchipe",
@@ -17,7 +18,23 @@
     "personas_afectadas": 25,
     "viviendas_afectadas": 10,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 10,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 17,0 mm el día del evento en el lugar (hasta 18,0 mm a menos de 5 km) y 22,0 mm en 3 días. Pronóstico WRF para ese día: 26,5 mm (2 días antes), 4,3 mm (1 día antes). Río: 122,0 m³/s, 1,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (545,2 m³/s).",
   "dia_de_lluvia": {

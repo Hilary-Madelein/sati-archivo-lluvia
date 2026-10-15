@@ -3,6 +3,7 @@
   "evento": {
     "id": "7c18586bbeb430b8e17adaf3127ef426",
     "tipo": "Inundación",
+    "causa": "Acumulación de agua en el suelo",
     "fecha": "2026-02-02",
     "hora": "16:20",
     "provincia": "Azuay",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 24,0 mm el día del evento en el lugar (hasta 26,0 mm a menos de 5 km) y 68,0 mm en 3 días. Pronóstico WRF para ese día: 3,7 mm (2 días antes), 5,1 mm (1 día antes), 10,4 mm (el mismo día). Estación Emov - Ep Cuenca (a 3,0 km): el WRF pronosticaba ahí 4,0 mm (2 días antes), 3,9 mm (1 día antes), 7,5 mm (el mismo día). Río: 51,8 m³/s, 3,4 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (81,6 m³/s).",
   "dia_de_lluvia": {

@@ -3,6 +3,7 @@
   "evento": {
     "id": "adce3df1f3f27908d87ef4d28d93e91f",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-01-02",
     "hora": "05:00",
     "provincia": "Manabí",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 58,0 mm el día del evento en el lugar (hasta 68,0 mm a menos de 5 km) y 60,0 mm en 3 días. Pronóstico WRF para ese día: 2,6 mm (2 días antes), 0,5 mm (1 día antes), 14,2 mm (el mismo día). Estación Chone en Chone (a 0,6 km): el WRF pronosticaba ahí 2,6 mm (2 días antes), 0,5 mm (1 día antes), 14,2 mm (el mismo día). Río: 0,3 m³/s, 0,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (214,4 m³/s).",
   "dia_de_lluvia": {

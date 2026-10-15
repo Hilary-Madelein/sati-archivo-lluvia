@@ -3,6 +3,7 @@
   "evento": {
     "id": "82ac4327f3daa17f6cd57eb2666384c0",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-04-18",
     "hora": "20:45",
     "provincia": "Loja",
@@ -17,7 +18,23 @@
     "personas_afectadas": 69,
     "viviendas_afectadas": 20,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 25,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 59,0 mm el día del evento en el lugar (hasta 59,0 mm a menos de 5 km) y 131,0 mm en 3 días. Pronóstico WRF para ese día: 12,6 mm (2 días antes), 40,6 mm (1 día antes), 12,0 mm (el mismo día). Estación Puyango en Cpto.militar (pte.carretera) (a 18,8 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 2,7 mm (1 día antes), 2,5 mm (el mismo día). Río: 14,6 m³/s, 2,0 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (63,2 m³/s).",
   "dia_de_lluvia": {

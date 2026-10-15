@@ -3,6 +3,7 @@
   "evento": {
     "id": "61233a69d66a89d794fd25a346526426",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-11",
     "hora": "18:00",
     "provincia": "Azuay",
@@ -17,7 +18,23 @@
     "personas_afectadas": 263,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 1,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 87,
+    "viviendas_destruidas": 1,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 1,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 14,0 mm el día del evento en el lugar (hasta 17,0 mm a menos de 5 km) y 46,0 mm en 3 días. Pronóstico WRF para ese día: 8,0 mm (2 días antes), 24,1 mm (1 día antes), 7,2 mm (el mismo día). Estación El Tablon - Las Cuevas (a 18,4 km): el WRF pronosticaba ahí 8,1 mm (2 días antes), 31,7 mm (1 día antes), 31,3 mm (el mismo día). Río: 53,2 m³/s, 4,8 veces su caudal normal; superó la crecida de 2 años (51,2 m³/s).",
   "dia_de_lluvia": {

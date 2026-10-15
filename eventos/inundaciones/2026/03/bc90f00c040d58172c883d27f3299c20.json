@@ -3,6 +3,7 @@
   "evento": {
     "id": "bc90f00c040d58172c883d27f3299c20",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-03-11",
     "hora": "09:39",
     "provincia": "Chimborazo",
@@ -17,7 +18,23 @@
     "personas_afectadas": 7,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 10,0 mm el día del evento en el lugar (hasta 10,0 mm a menos de 5 km) y 38,0 mm en 3 días. Pronóstico WRF para ese día: 2,6 mm (2 días antes), 4,1 mm (1 día antes), 8,4 mm (el mismo día). Estación Chillanes (a 12,2 km): el WRF pronosticaba ahí 38,5 mm (2 días antes), 52,9 mm (1 día antes), 38,0 mm (el mismo día). Río: 13,3 m³/s, 1,3 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (47,3 m³/s).",
   "dia_de_lluvia": {

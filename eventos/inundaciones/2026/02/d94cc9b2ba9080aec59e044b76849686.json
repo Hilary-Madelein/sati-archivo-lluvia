@@ -3,6 +3,7 @@
   "evento": {
     "id": "d94cc9b2ba9080aec59e044b76849686",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-02-07",
     "hora": "06:25",
     "provincia": "El Oro",
@@ -17,7 +18,23 @@
     "personas_afectadas": 4,
     "viviendas_afectadas": 5,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 8,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 2,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 38,0 mm el día del evento en el lugar (hasta 40,0 mm a menos de 5 km) y 48,0 mm en 3 días. Pronóstico WRF para ese día: 9,9 mm (2 días antes), 4,5 mm (1 día antes), 11,3 mm (el mismo día). Estación Machala Granja Sta. Ines (a 13,8 km): el WRF pronosticaba ahí 2,1 mm (2 días antes), 0,6 mm (1 día antes), 1,8 mm (el mismo día). Río: 17,3 m³/s, 7,5 veces su caudal normal; superó la crecida de 2 años (15,0 m³/s).",
   "dia_de_lluvia": {

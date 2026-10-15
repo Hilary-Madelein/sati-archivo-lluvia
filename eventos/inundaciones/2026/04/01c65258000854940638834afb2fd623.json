@@ -3,6 +3,7 @@
   "evento": {
     "id": "01c65258000854940638834afb2fd623",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-04-05",
     "hora": "18:31",
     "provincia": "Pichincha",
@@ -17,7 +18,23 @@
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": false
   },
   "resumen": "Satélite: 19,0 mm el día del evento en el lugar (hasta 38,0 mm a menos de 5 km) y 21,0 mm en 3 días. Pronóstico WRF para ese día: 1,4 mm (2 días antes), 1,6 mm (1 día antes), 0,0 mm (el mismo día). Estación Guayllabamba Dj Pisque (a 5,9 km): el WRF pronosticaba ahí 0,6 mm (2 días antes), 0,2 mm (1 día antes), 0,3 mm (el mismo día). Río: 18,6 m³/s, 1,1 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (64,6 m³/s).",
   "dia_de_lluvia": {

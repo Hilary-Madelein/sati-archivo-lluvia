@@ -3,6 +3,7 @@
   "evento": {
     "id": "5b2f06496dc533d068c267ac5d8b1264",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-02-07",
     "hora": "10:00",
     "provincia": "El Oro",
@@ -17,7 +18,23 @@
     "personas_afectadas": 40,
     "viviendas_afectadas": 10,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 10,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 5.91
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 9,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 56,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes), 0,0 mm (1 día antes), 18,3 mm (el mismo día). Estación Ministerio de Salud Machala - Snem (a 10,5 km): el WRF pronosticaba ahí 0,1 mm (2 días antes), 0,0 mm (1 día antes), 18,7 mm (el mismo día). Río: 11,8 m³/s, 14,2 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (12,0 m³/s).",
   "dia_de_lluvia": {

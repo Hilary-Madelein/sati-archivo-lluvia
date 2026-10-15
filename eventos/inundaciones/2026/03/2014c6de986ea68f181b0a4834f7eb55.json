@@ -3,6 +3,7 @@
   "evento": {
     "id": "2014c6de986ea68f181b0a4834f7eb55",
     "tipo": "Inundación",
+    "causa": "Lluvias intensas",
     "fecha": "2026-03-13",
     "hora": "00:53",
     "provincia": "Azuay",
@@ -17,7 +18,23 @@
     "personas_afectadas": 10,
     "viviendas_afectadas": 3,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 4,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 3,
+    "viviendas_destruidas": 2,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 21,0 mm el día del evento en el lugar (hasta 21,0 mm a menos de 5 km) y 65,0 mm en 3 días. Pronóstico WRF para ese día: 9,3 mm (2 días antes), 3,3 mm (1 día antes), 3,7 mm (el mismo día). Estación Santa Isabel (a 4,2 km): el WRF pronosticaba ahí 28,3 mm (2 días antes), 16,2 mm (1 día antes), 31,2 mm (el mismo día). Río: 25,2 m³/s, 3,6 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (32,9 m³/s).",
   "dia_de_lluvia": {

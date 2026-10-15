@@ -3,6 +3,7 @@
   "evento": {
     "id": "193c9c56c6b5a55140a12e23686f0be2",
     "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-02-23",
     "hora": "20:00",
     "provincia": "Guayas",
@@ -17,7 +18,23 @@
     "personas_afectadas": 1080,
     "viviendas_afectadas": 265,
     "personas_evacuadas": 0,
-    "personas_fallecidas": 0
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 270,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 36,0 mm el día del evento en el lugar (hasta 40,0 mm a menos de 5 km) y 102,0 mm en 3 días. Pronóstico WRF para ese día: 0,2 mm (2 días antes), 31,5 mm (1 día antes), 0,9 mm (el mismo día). Estación Nobol (a 15,0 km): el WRF pronosticaba ahí 0,3 mm (2 días antes), 13,4 mm (1 día antes), 4,9 mm (el mismo día). Río: 91,2 m³/s, 9,5 veces su caudal normal; ninguna: no llegó a la crecida de 2 años (100,2 m³/s).",
   "dia_de_lluvia": {
