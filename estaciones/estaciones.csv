@@ -9,7 +9,7 @@ H0148,63962,Guayllabamba Dj Pisque,Hidrológica,0.008217,-78.405711,1742.0,Opera
 H0149,63963,Guayllabamba en Pte.chacapata,Hidrológica,0.177331,-78.640389,913.0,Operativa,Transmitiendo
 H0158,63799,Pita Aj Salto,Hidrológica,-0.574556,-78.424753,3649.0,Operativa,Transmitiendo
 H0168,61699,Esmeraldas Dj Sade,Hidrológica,0.534167,-79.419722,51.0,Operativa,No transmitiendo
-H0170,61701,Guayllabamba Aj Blanco,Hidrológica,0.442276,-79.400088,82.0,Operativa,Transmitiendo
+H0170,61701,Guayllabamba Aj Blanco,Hidrológica,0.442276,-79.400088,82.0,Operativa,No transmitiendo
 H0173,66173,Teaone Aj Esmeraldas,Hidrológica,0.85806,-79.705,38.0,Operativa,Transmitiendo
 H0177,61708,Quininde en Quininde,Hidrológica,0.329167,-79.477222,110.0,Operativa,No transmitiendo
 H0229,63831,Carrizal en Calceta,Hidrológica,-0.848444,-80.1625,47.0,Operativa,Transmitiendo
@@ -69,7 +69,7 @@ M0009,6,La Victoria Inerhi,Meteorológica,-0.06,-78.323056,2262.0,No operativa,N
 M0012,62420,La Cuca,Meteorológica,-3.496944,-80.081667,53.0,Operativa,Transmitiendo
 M0024,10,Iñaquito,Meteorológica,-0.1783,-78.48773,2789.0,No operativa,No transmitiendo
 M0024,63777,Iñaquito,Meteorológica,-0.1783,-78.48773,2789.0,Operativa,Transmitiendo
-M0025,62432,La Concordia,Meteorológica,-0.024778,-79.380278,243.0,Operativa,No transmitiendo
+M0025,62432,La Concordia,Meteorológica,-0.024778,-79.380278,243.0,Operativa,Transmitiendo
 M0026,57,Puerto Ila,Meteorológica,-0.4928,-79.3489,319.0,Operativa,Transmitiendo
 M0031,23,Cañar,Meteorológica,-2.5522,-78.9452,3083.0,Operativa,Transmitiendo
 M0032,24,Santa Isabel,Meteorológica,-3.2394,-79.27,1674.0,No operativa,No aplica
