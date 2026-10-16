@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "64d02a6c21609e2b02a247db0debda7a",
     "tipo": "Inundación",
@@ -14,7 +14,7 @@
     "longitud": -79.93489877528832,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias registradas durante la madrugada y mañana del 02/10/2026, se produjo el desbordamiento de un estero S/N, generando inundaciones en el sector La Florida, parroquia San José de Chamanga.\r\n\r\n 05/10/2026 | La UGR Muisne informa que el estero ya no se encuentra desbordado y presenta tendencia a disminuir de nivel. El sector La Florida se encuentra seco, con presencia de lodo. Las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas, ni actualización de los valores registrados. La UGR Muisne continúa con la atención y levantamiento de información. Al momento no se registran lluvias.",
+    "descripcion": "Debido a las lluvias registradas durante la madrugada y mañana del 02/10/2026, se produjo el desbordamiento de un estero S/N, generando inundaciones en el sector La Florida, parroquia San José de Chamanga.\r\n\r\n 16/10/2026 | La UGR Muisne informa que el estero ya no se encuentra desbordado y presenta tendencia a disminuir de nivel. El sector La Florida se encuentra seco, con presencia de lodo. Las familias continúan pernoctando en sus propias viviendas. No se reportan nuevas familias, personas ni viviendas afectadas, ni actualización de los valores registrados. La UGR Muisne continúa con la atención y levantamiento de información. Al momento no se registran lluvias.",
     "personas_afectadas": 400,
     "viviendas_afectadas": 100,
     "personas_evacuadas": 0,
@@ -36,37 +36,40 @@
     "codigo": "river_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 89,0 mm el día del evento en el lugar (hasta 99,0 mm a menos de 5 km) y 119,0 mm en 3 días. Pronóstico WRF para ese día: 0,1 mm (2 días antes).",
-  "dia_de_lluvia": {
-    "fecha": "2026-10-02",
-    "desde": "2026-10-02 07:00",
-    "hasta": "2026-10-03 07:00"
-  },
+  "resumen": "Satélite: 89,0 mm el día del evento en el lugar (hasta 99,0 mm a menos de 5 km) y 40,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,1 mm (2 días antes).",
   "lluvia_satelite": {
-    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
       "desde": "2026-10-02 07:00",
       "hasta": "2026-10-03 07:00",
       "en_el_lugar_mm": 89.0,
       "maxima_a_menos_de_5km_mm": 99.0
     },
-    "dia_anterior": {
-      "desde": "2026-10-01 07:00",
-      "hasta": "2026-10-02 07:00",
-      "en_el_lugar_mm": 30.0,
-      "maxima_a_menos_de_5km_mm": 30.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-09-30 07:00",
-      "hasta": "2026-10-01 07:00",
-      "en_el_lugar_mm": 0.0,
-      "maxima_a_menos_de_5km_mm": 0.0
-    },
-    "total_3_dias": {
-      "desde": "2026-09-30 07:00",
-      "hasta": "2026-10-03 07:00",
-      "en_el_lugar_mm": 119.0,
-      "maxima_a_menos_de_5km_mm": 121.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-02 09:00",
+        "hasta": "2026-10-02 10:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 2.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-02 07:00",
+        "hasta": "2026-10-02 10:00",
+        "en_el_lugar_mm": 10.0,
+        "maxima_a_menos_de_5km_mm": 19.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-02 04:00",
+        "hasta": "2026-10-02 10:00",
+        "en_el_lugar_mm": 39.0,
+        "maxima_a_menos_de_5km_mm": 39.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-01 10:00",
+        "hasta": "2026-10-02 10:00",
+        "en_el_lugar_mm": 40.0,
+        "maxima_a_menos_de_5km_mm": 40.0
+      }
     }
   },
   "lluvia_pronosticada": {
@@ -89,7 +92,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-14T18:27:27.000Z",
+    "procesado": "2026-10-16T17:58:13.000Z",
     "estado": "espera"
   }
 }

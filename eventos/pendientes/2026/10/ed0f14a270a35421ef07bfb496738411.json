@@ -14,14 +14,14 @@
     "longitud": -79.47102,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a la presencia de las fuertes lluvias en la madrugada del 15/10/2026, se reportó desbordamiento del río Catarama, afectando 15 metros lineales en la vía de tercer orden que une con San Vicente hacia Cañaveral de Afuera. Jefe Político de Babahoyo realizó verificación de novedades en la zona afectada, SNGR realizó consolidación de información e informó la novedad a DGR Babahoyo, se coordina con Prefectura Los Ríos y MIT. Actualmente el caudal del río Catarama se encuentra en tendencia de aumentar de nivel y la vía de tercer orden se mantiene con presencia de agua y se encuentra cerrada.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "Debido a la presencia de las fuertes lluvias en la madrugada del 15/10/2026, se reportó desbordamiento del río Catarama, ocasionando el ingreso de agua a varias viviendas del sector, mismo que deja consigo afectaciones a cultivos y una vía de tercer orden afectada que une con San Vicente hacia Cañaveral de Afuera. Jefe Político de Babahoyo realizó verificación de novedades en la zona afectada, SNGR realizó consolidación de información e informó la novedad a DGR Babahoyo, se coordina con Prefectura Los Ríos y MIT la rehabilitación de la vía, actualmente el nivel del río Catarama se encuentra desbordado, las familias se encuentran en sus viviendas con presencia leve de agua a sus alrededores y los cultivos bajo agua.",
+    "personas_afectadas": 12,
+    "viviendas_afectadas": 3,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 3,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 0,0 mm a menos de 5 km) y 0,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,5 mm (2 días antes), 1,6 mm (1 día antes), 2,8 mm (el mismo día). Estación San Pablo en Palmar (a 18,1 km): el WRF pronosticaba ahí 0,8 mm (2 días antes), 6,9 mm (1 día antes), 9,9 mm (el mismo día).",
   "lluvia_satelite": {

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "evento": {
     "id": "2713d060c6ba507157d7f149aa7734e4",
     "tipo": "Inundación",
@@ -14,7 +14,7 @@
     "longitud": -79.54121027798854,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registra el desbordamiento del río Esmeraldas, inundando a varios sectores. 06/10/2026 ,UGR Esmeraldas informa que el río ya no se encuentra desbordado; las calles ya no se encuentran anegadas, y las familias se mantienen pernoctando en sus propias viviendas.",
+    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registra el desbordamiento del río Esmeraldas, inundando a varios sectores. 16/10/2026 ,UGR Esmeraldas informa que el río ya no se encuentra desbordado; las calles ya no se encuentran anegadas, y las familias se mantienen pernoctando en sus propias viviendas.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -36,37 +36,40 @@
     "codigo": "river_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Satélite: 28,0 mm el día del evento en el lugar (hasta 32,0 mm a menos de 5 km) y 108,0 mm en 3 días.",
-  "dia_de_lluvia": {
-    "fecha": "2026-10-03",
-    "desde": "2026-10-03 07:00",
-    "hasta": "2026-10-04 07:00"
-  },
+  "resumen": "Satélite: 28,0 mm el día del evento en el lugar (hasta 32,0 mm a menos de 5 km) y 64,0 mm en las 24 h antes del evento.",
   "lluvia_satelite": {
-    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
       "desde": "2026-10-03 07:00",
       "hasta": "2026-10-04 07:00",
       "en_el_lugar_mm": 28.0,
       "maxima_a_menos_de_5km_mm": 32.0
     },
-    "dia_anterior": {
-      "desde": "2026-10-02 07:00",
-      "hasta": "2026-10-03 07:00",
-      "en_el_lugar_mm": 74.0,
-      "maxima_a_menos_de_5km_mm": 78.0
-    },
-    "dos_dias_antes": {
-      "desde": "2026-10-01 07:00",
-      "hasta": "2026-10-02 07:00",
-      "en_el_lugar_mm": 6.0,
-      "maxima_a_menos_de_5km_mm": 19.0
-    },
-    "total_3_dias": {
-      "desde": "2026-10-01 07:00",
-      "hasta": "2026-10-04 07:00",
-      "en_el_lugar_mm": 108.0,
-      "maxima_a_menos_de_5km_mm": 121.0
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-03 09:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-03 07:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-03 04:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 4.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-02 10:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 64.0,
+        "maxima_a_menos_de_5km_mm": 69.0
+      }
     }
   },
   "lluvia_pronosticada": null,
@@ -78,7 +81,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-14T18:26:47.000Z",
+    "procesado": "2026-10-16T17:57:36.000Z",
     "estado": "espera"
   }
 }
