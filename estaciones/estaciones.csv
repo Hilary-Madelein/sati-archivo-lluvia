@@ -120,7 +120,7 @@ M1069,66862,Calamaca Convenio 1 Hcpt,Meteorológica,-1.276036,-78.818847,3402.0,
 M1094,63485,Tomalon - Tabacundo,Meteorológica,0.01116,-78.25505,2760.0,Operativa,Transmitiendo
 M1095,63815,Ingenio Aztra (la Troncal),Meteorológica,-2.443267,-79.352553,50.0,No operativa,No aplica
 M1096,31,Guayaquil U. Estatal,Meteorológica,-2.180517,-79.899906,6.0,No operativa,No aplica
-M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,Transmitiendo
+M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,No transmitiendo
 M1124,63781,Sierrazul,Meteorológica,-0.674175,-77.919355,2240.0,Operativa,Transmitiendo
 M1128,63797,El Ingenio,Meteorológica,-4.4144,-79.4317,1209.0,No operativa,No aplica
 M1170,4,Santa Elena,Meteorológica,-2.23358,-80.87507,13.0,Operativa,Transmitiendo
@@ -151,7 +151,7 @@ M1274,63921,Politecnica Salesiana - Campus Sur,Meteorológica,-0.2819,-78.55,288
 M5001,14,Gualil,Meteorológica,-3.075139,-78.816222,0.0,No operativa,No aplica
 M5007,19,Espe Sto. Domingo,Meteorológica,-0.413611,-79.314167,294.0,No operativa,No aplica
 M5008,18,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Parcialmente operativa,Transmitiendo
-M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,Transmitiendo
+M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,No transmitiendo
 M5010,27,Narupa,Meteorológica,-0.731944,-77.783056,0.0,No operativa,No aplica
 M5011,20,Pacto Sumaco,Meteorológica,-0.668611,-77.595556,0.0,No operativa,No aplica
 M5089,63718,El Tablon - Las Cuevas,Meteorológica,-2.811589,-79.324639,3661.0,Cerrada,No aplica
