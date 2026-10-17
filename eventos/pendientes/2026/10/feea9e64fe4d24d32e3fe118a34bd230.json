@@ -15,13 +15,13 @@
     "nivel": 1,
     "estado": "Seguimiento",
     "descripcion": "A causa de las lluvias registradas durante la madrugada del 07/10/2026, se produjo la acumulación de aguas lluvias en los canales de riego. Las familias afectadas permanecen en sus respectivos inmuebles.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "personas_afectadas": 50,
+    "viviendas_afectadas": 17,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 17,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Colapso de drenaje",
     "codigo": "drainage_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 7,0 mm a menos de 5 km) y 7,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,7 mm (1 día antes), 3,8 mm (el mismo día). Estación Olmedo (a 11,2 km): el WRF pronosticaba ahí 7,9 mm (1 día antes), 0,5 mm (el mismo día).",
   "lluvia_satelite": {
