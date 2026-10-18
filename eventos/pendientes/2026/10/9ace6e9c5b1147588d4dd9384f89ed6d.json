@@ -14,14 +14,14 @@
     "longitud": -79.9667,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la madrugada del 06/10/2026, se produjo una inundación que afectó a áreas de cultivo en los sectores aledaños. Además, los ríos Pula y Macul incrementaron su nivel.  Río Pula y Macul se encuentran con tendencia a aumentar su caudal.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 06/10/2026, se produjo una inundación que afectó a áreas de cultivo en los sectores aledaños. Además, los ríos Pula y Macul incrementaron su nivel.   GAD Cantonal informó que se produjo afectación a las familias porque se inundaron sus viviendas; al momento, las familias afectadas se encuentran en su misma vivienda. Se está a la espera de la información de los cultivos; la Prefectura ya se está encargando de monitorear el tema de productividad. Adicionalmente, Río Pula y Macul se encuentran con tendencia a disminuir de caudal.",
+    "personas_afectadas": 91,
+    "viviendas_afectadas": 58,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 58,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 6,0 mm el día del evento en el lugar (hasta 9,0 mm a menos de 5 km) y 6,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 4,9 mm (el mismo día). Estación Coe - Monte Bello (a 12,1 km): el WRF pronosticaba ahí 0,0 mm (el mismo día).",
   "lluvia_satelite": {

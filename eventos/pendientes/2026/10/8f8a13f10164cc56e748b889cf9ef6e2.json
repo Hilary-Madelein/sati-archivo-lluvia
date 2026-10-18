@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "8f8a13f10164cc56e748b889cf9ef6e2",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-18",
+    "hora": "07:08",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Ochoa León (matriz)",
+    "sector": "Varios Sectores (Av. Galo Garcia, Av. Ochoa León, Independencia)",
+    "latitud": -3.3286216175071868,
+    "longitud": -79.80652086069321,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la madrugada del 18/10/2026, se reportan acumulación de agua y calles anegadas en distintos puntos del casco urbano.\r\n SNGR mantuvo monitoreo con UGR del GAD Pasaje, quien indica que personal de AGUAPAS realizó limpieza de la red de alcantarillado, logrando evacuar en su totalidad el agua en el sector sin causar afectaciones a viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 1,9 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-18 02:00",
+      "hasta": "2026-10-19 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-18 02:00",
+      "en_el_lugar_mm": 1.9,
+      "maxima_a_menos_de_5km_mm": 3.2
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-17 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.4
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-16 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.1
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-18T17:11:31.000Z",
+    "estado": "espera"
+  }
+}
