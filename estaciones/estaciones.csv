@@ -9,7 +9,7 @@ H0148,63962,Guayllabamba Dj Pisque,Hidrológica,0.008217,-78.405711,1742.0,Opera
 H0149,63963,Guayllabamba en Pte.chacapata,Hidrológica,0.177331,-78.640389,913.0,Operativa,Transmitiendo
 H0158,63799,Pita Aj Salto,Hidrológica,-0.574556,-78.424753,3649.0,Operativa,Transmitiendo
 H0168,61699,Esmeraldas Dj Sade,Hidrológica,0.534167,-79.419722,51.0,Operativa,No transmitiendo
-H0170,61701,Guayllabamba Aj Blanco,Hidrológica,0.442276,-79.400088,82.0,Operativa,No transmitiendo
+H0170,61701,Guayllabamba Aj Blanco,Hidrológica,0.442276,-79.400088,82.0,Operativa,Transmitiendo
 H0173,66173,Teaone Aj Esmeraldas,Hidrológica,0.85806,-79.705,38.0,Operativa,Transmitiendo
 H0177,61708,Quininde en Quininde,Hidrológica,0.329167,-79.477222,110.0,Operativa,No transmitiendo
 H0229,63831,Carrizal en Calceta,Hidrológica,-0.848444,-80.1625,47.0,Operativa,Transmitiendo
@@ -120,7 +120,7 @@ M1069,66862,Calamaca Convenio 1 Hcpt,Meteorológica,-1.276036,-78.818847,3402.0,
 M1094,63485,Tomalon - Tabacundo,Meteorológica,0.01116,-78.25505,2760.0,Operativa,Transmitiendo
 M1095,63815,Ingenio Aztra (la Troncal),Meteorológica,-2.443267,-79.352553,50.0,No operativa,No aplica
 M1096,31,Guayaquil U. Estatal,Meteorológica,-2.180517,-79.899906,6.0,No operativa,No aplica
-M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,Transmitiendo
+M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,No transmitiendo
 M1124,63781,Sierrazul,Meteorológica,-0.674175,-77.919355,2240.0,Operativa,Transmitiendo
 M1128,63797,El Ingenio,Meteorológica,-4.4144,-79.4317,1209.0,No operativa,No aplica
 M1170,4,Santa Elena,Meteorológica,-2.23358,-80.87507,13.0,Operativa,Transmitiendo
