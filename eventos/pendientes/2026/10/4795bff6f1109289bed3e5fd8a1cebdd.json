@@ -13,7 +13,7 @@
     "latitud": -1.5919542063879288,
     "longitud": -79.00192481189725,
     "nivel": 1,
-    "estado": "Seguimiento",
+    "estado": "Cierre",
     "descripcion": "Por causa de las lluvias registradas en la noche del 07/10/2026, se produjo in incremento en el caudal del río, posterior el anegamiento de calles, con presencia de piedras y lodo. las calles dejándolas habilitadas al paso vehicular.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-16T17:55:42.000Z",
+    "procesado": "2026-10-19T19:52:34.000Z",
     "estado": "espera"
   }
 }

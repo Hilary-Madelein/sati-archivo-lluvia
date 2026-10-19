@@ -13,8 +13,8 @@
     "latitud": 0.5741513415709287,
     "longitud": -79.6435881757415,
     "nivel": 2,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a las precipitaciones registradas durante la madrugada y la mañana del 29/09/2026, hubo el desbordamiento del río Cube, provocando una inundación en el recinto Pircuta.\r\nSe mantiene la activación de la MTT4 Provincial Esmeraldas.\r\nSe mantiene activo el COPAE Cube.  18/10/2026: SNGR realizó la entrega de asistencia humanitaria a las familias afectadas del recinto Pircuta. De acuerdo con la información proporcionada por la UGR Quinindé, el río ya no se encuentra desbordado y presenta una tendencia a disminuir su nivel; las calles de la comunidad ya no presentan anegaciones, aunque mantienen presencia de lodo. Las familias se encuentran pernoctando en sus propias viviendas.",
+    "estado": "Cierre",
+    "descripcion": "Debido a las precipitaciones registradas durante la madrugada y la mañana del 29/09/2026, se produjo el desbordamiento del río Cube, provocando una inundación en varios sectores.\r\nSe activó y mantendrá activa la MTT4 Provincial Esmeraldas.\r\nSe mantendrá activo el COPAE Cube.  19/10/2026 | SNGR realizó la entrega de asistencia humanitaria a las familias afectadas por el evento. El río se encuentra normal. Las familias permanecen en sus propias viviendas.",
     "personas_afectadas": 440,
     "viviendas_afectadas": 110,
     "personas_evacuadas": 0,
@@ -27,8 +27,8 @@
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
-    "hectareas_cultivo_afectadas": 0,
-    "hectareas_cultivo_perdidas": 0
+    "hectareas_cultivo_afectadas": 53.8,
+    "hectareas_cultivo_perdidas": 95.5
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",

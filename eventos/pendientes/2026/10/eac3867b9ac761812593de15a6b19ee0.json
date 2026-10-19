@@ -13,8 +13,8 @@
     "latitud": 0.9310206845566804,
     "longitud": -79.66247286049342,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registra el desbordamiento del río Esmeraldas, inundando a varios sectores. 16/10/2026. La UGR Esmeraldas informa que el río continúa incrementando su caudal debido a las lluvias registradas durante la madrugada, provocando el desbordamiento y la inundación del sector. Al momento, se reportan calles anegadas y algunas viviendas afectadas, por lo que se mantiene el monitoreo y seguimiento de la situación.",
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registró el desbordamiento del río Esmeraldas, inundando a varios sectores. 19/10/2026 | UGR no realizó EVIN por este evento, ya que la población afectada es la misma que del evento 2026-14530.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -81,7 +81,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-16T17:57:40.000Z",
+    "procesado": "2026-10-19T19:53:35.000Z",
     "estado": "espera"
   }
 }

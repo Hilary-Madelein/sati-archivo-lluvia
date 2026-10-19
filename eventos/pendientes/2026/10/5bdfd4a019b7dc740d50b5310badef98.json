@@ -13,8 +13,8 @@
     "latitud": -1.813664,
     "longitud": -79.472145,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a la presencia de fuertes lluvias registradas la madrugada del 12/10/2026, se reportó el desbordamiento del rio San Pablo,en donde se reportan 200 metros lineales afectados. CTE brindó seguridad al tránsito vehicular y SNGR realizó consolidación de Información, actualmente el caudal se encuentra con tendencia a aumentar de nivel y la vía se mantiene habilitada al tránsito vehicular con leve presencia de agua estancada.",
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias registradas la madrugada del 12/10/2026, se reportó el desbordamiento del rio San Pablo,en donde se reportan 200 metros lineales afectados. CTE brindó seguridad al tránsito vehicular, SNGR realizó consolidación de Información, actualmente el caudal del río San Pablo se encuentra en su nivel normal y la vía se mantiene habilitada al tránsito vehicular, por tal motivo damos por finalizado el evento.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T22:42:31.000Z",
+    "procesado": "2026-10-19T19:47:44.000Z",
     "estado": "espera"
   }
 }

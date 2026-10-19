@@ -14,14 +14,14 @@
     "longitud": -79.816659,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las fuertes lluvias registradas durante la noche del 11/10/2026, se produjo el incremento del caudal del río Balao, generando acumulación de agua en calles y avenidas. Durante la madrugada del 12/10/2026, mediante cámaras de monitoreo, se visualizó el desbordamiento del río Balao. Asimismo, se reportó el colapso del muro de contención en el sector Las Madres, en la cabecera cantonal, lo que permitió el ingreso de agua y ocasionó inundaciones en varias viviendas. Actualmente, el río Balao se encuentra en tendencia a disminuir.",
-    "personas_afectadas": 64,
-    "viviendas_afectadas": 107,
+    "descripcion": "A causa de las fuertes lluvias registradas durante la noche del 11/10/2026, se produjo el incremento del caudal del río Balao, generando acumulación de agua en calles y avenidas. Durante la madrugada del 12/10/2026, mediante cámaras de monitoreo, se visualizó el desbordamiento del río Balao. Asimismo, se reportó el colapso del muro de contención en el sector Las Madres, en la cabecera cantonal, lo que permitió el ingreso de agua y ocasionó inundaciones en varias viviendas.  SNGR entregó asistencias humanitarias a las familias que se encuentran en el alojamiento en la unidad educativa José de la Cuadra, en la cual hasta el momento se mantiene la misma cantidad de familias en el alojamiento. Adicionalmente, el río Balao mantiene tendencia a aumentar su caudal.",
+    "personas_afectadas": 38,
+    "viviendas_afectadas": 155,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
-    "personas_damnificadas": 208,
+    "personas_damnificadas": 373,
     "personas_extraviadas": 0,
-    "familias_afectadas": 31,
+    "familias_afectadas": 17,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -102,7 +102,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T22:42:54.000Z",
+    "procesado": "2026-10-19T19:48:57.000Z",
     "estado": "espera"
   }
 }

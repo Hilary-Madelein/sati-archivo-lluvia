@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "69cc263dd80edf010d6a3b0bdb00746d",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-10-19",
+    "hora": "08:55",
+    "provincia": "Guayas",
+    "canton": "Colimes",
+    "parroquia": "San Jacinto",
+    "sector": "Recinto El Guabito",
+    "latitud": -1.567028643983606,
+    "longitud": -80.08315918314808,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas desde la noche del 18/10/2026 y madrugada del 19/10/2026, se produjo el desbordamiento del río Colimes, ocasionando inundación en el sector. GAD Cantonal coordina la evaluación de la afectación. Actualmente, continúa desbordado el río Colimes.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 9,5 mm (2 días antes), 0,8 mm (1 día antes), 0,6 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-19 02:00",
+      "hasta": "2026-10-20 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-19 02:00",
+      "en_el_lugar_mm": 0.6,
+      "maxima_a_menos_de_5km_mm": 0.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-18 02:00",
+      "en_el_lugar_mm": 0.8,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-17 02:00",
+      "en_el_lugar_mm": 9.5,
+      "maxima_a_menos_de_5km_mm": 10.9
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-19T19:45:35.000Z",
+    "estado": "espera"
+  }
+}

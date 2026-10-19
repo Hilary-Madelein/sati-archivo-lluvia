@@ -13,8 +13,8 @@
     "latitud": -0.2119554467075638,
     "longitud": -76.97554325136849,
     "nivel": 1,
-    "estado": "Cierre",
-    "descripcion": "En la comunidad Fredy Silva, en la vía que conduce hacia el sector El Guadual, se informa que la población se encuentra incomunicada debido a la inundación generada por el colapso de las alcantarillas. Adicionalmente, se registra la presencia de ramas sobre la vía, lo que ha ocasionado la interrupción del acceso y dificulta la movilidad de los habitantes de la zona. Voluntariado de Protección Civil confirmó el evento. SNGR coordinó con GAD Municipal de La Joya de los Sachas y Prefectura, la atención del evento.  La vía se encuentra habilitada. GAD Parroquial de Lago San Pedro habilitó la vía.",
+    "estado": "Seguimiento",
+    "descripcion": "En la comunidad Fredy Silva, en la vía que conduce hacia el sector El Guadual, se informa que la población se encuentra incomunicada debido a la inundación generada por el colapso de las alcantarillas. Adicionalmente, se registra la presencia de ramas sobre la vía, lo que ha ocasionado la interrupción del acceso y dificulta la movilidad de los habitantes de la zona. Voluntariado de Protección Civil confirmó el evento. SNGR coordinó con GAD Municipal de La Joya de los Sachas y Prefectura, la atención del evento.  La vía se encuentra cerrada. GAD Municipal de la Joya de los Sachas con apoyo del GAD Parroquial de Lago San Pedro habilitó la vía.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T22:44:10.000Z",
+    "procesado": "2026-10-19T19:50:57.000Z",
     "estado": "espera"
   }
 }

@@ -3,7 +3,7 @@
   "evento": {
     "id": "2b1e8a2b12feec6691e45b8e99dbbeee",
     "tipo": "Inundación",
-    "causa": "Lluvias intensas",
+    "causa": "Desbordamiento de cuerpos de agua",
     "fecha": "2026-10-11",
     "hora": "13:00",
     "provincia": "Guayas",
@@ -12,16 +12,16 @@
     "sector": "Recinto San Pedro",
     "latitud": -2.240584,
     "longitud": -80.1593956,
-    "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias registradas en la madrugada del 11/10/2026. Se produjo el desbordamiento del río Chimbo, ocasionando inundación en el recinto.  Las familias afectadas permanecen en sus respectivos inmuebles.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "nivel": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias registradas en la madrugada del 11/10/2026. Se produjo el desbordamiento del río Chimbo, ocasionando inundación en el recinto. GAD Cantonal indicó que las familias afectadas permanecen en sus respectivos inmuebles. El río Chimbo se encuentra en su cauce normal. Prefectura de Guayas realizó la entrega de AH.",
+    "personas_afectadas": 164,
+    "viviendas_afectadas": 41,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 41,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 15,0 mm el día del evento en el lugar (hasta 17,0 mm a menos de 5 km) y 0,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 2,7 mm (2 días antes), 11,5 mm (1 día antes), 0,1 mm (el mismo día). Estación Puerto Hondo (a 15,9 km): el WRF pronosticaba ahí 7,9 mm (2 días antes), 20,6 mm (1 día antes), 0,8 mm (el mismo día).",
   "lluvia_satelite": {
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T22:42:50.000Z",
+    "procesado": "2026-10-19T19:48:17.000Z",
     "estado": "espera"
   }
 }

@@ -14,7 +14,7 @@
     "longitud": -79.465306,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a la presencia de las fuertes lluvias, se reportó desbordamiento del río Caracol, en donde se reporta 1 establecimiento educativo afectado funcionalmente  (Unidad Educativa Caracol). Técnico de MINEDEC ratifica las afectaciones suscitadas en el sitio y SNGR realizó consolidación de información.Actualmente el caudal del río Caracol se encuentra en tendencia de aumentar de nivel, asimismo se registra una leve acumulación de aguas lluvias en el patio de la unidad educativa, se recepta información por parte de personal técnico, en donde en las clases dentro de la unidad educativa continúan con normalidad",
+    "descripcion": "Debido a la presencia de las fuertes lluvias, se reportó desbordamiento del río Caracol, en donde se reporta 1 establecimiento educativo afectado funcionalmente  (Unidad Educativa Caracol). MINEDEC ratifica las afectaciones suscitadas en el sitio y SNGR realizó consolidación de información. Actualmente el caudal del río Caracol se encuentra en tendencia de aumentar de nivel, asimismo se registra una leve acumulación de aguas lluvias en el patio de la unidad educativa, se recepta información por parte de personal técnico, en donde en las clases dentro de la unidad educativa continúan con normalidad",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-15T22:42:33.000Z",
+    "procesado": "2026-10-19T19:47:41.000Z",
     "estado": "espera"
   }
 }
