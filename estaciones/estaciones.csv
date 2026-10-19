@@ -26,7 +26,7 @@ H0448,61897,Payo Aj Bulubulu,Hidrológica,-2.25621,-79.556835,21.0,Operativa,Tra
 H0471,61909,Caniar Dj Raura,Hidrológica,-2.481111,-79.155556,870.0,Operativa,No transmitiendo
 H0472,61910,Caniar en Pto.inca,Hidrológica,-2.547222,-79.556667,25.0,Cerrada,No aplica
 H0587,61970,Pindo Aj Amarillo,Hidrológica,-3.764475,-79.635919,520.0,Operativa,Transmitiendo
-H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,No transmitiendo
+H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,Transmitiendo
 H0620,63828,Catamayo en Pte.santa Rosa,Hidrológica,-4.160667,-79.862111,641.0,Operativa,Transmitiendo
 H0719,62023,Quijos Dj Oyacachi,Hidrológica,-0.31832,-77.7898,1490.0,Operativa,Transmitiendo
 H0721,62025,Jatunyacu Dj Iloculin,Hidrológica,-1.087222,-77.918889,570.0,Parcialmente operativa,No aplica
@@ -132,7 +132,7 @@ M1217,63603,Bahia de Caraquez - Puce,Meteorológica,-0.659378,-80.397467,12.0,Op
 M1219,11,Tena Hda. Chaupishungo,Meteorológica,-0.91685,-77.81907,665.0,Operativa,No transmitiendo
 M1221,63778,San Jose de Payamino,Meteorológica,-0.503889,-77.3175,345.0,No operativa,No aplica
 M1230,63790,Espam - Mfl - Calceta,Meteorológica,-0.822972,-80.183489,15.0,No operativa,No aplica
-M1233,63617,Cantagallo - Granja Unesum,Meteorológica,-1.28688,-80.729,64.0,Operativa,Transmitiendo
+M1233,63617,Cantagallo - Granja Unesum,Meteorológica,-1.28688,-80.729,64.0,Operativa,No transmitiendo
 M1240,63624,Ibarra - 1,Meteorológica,0.32978,-78.1322,2256.0,Operativa,Transmitiendo
 M1242,63796,El Almendral - Granja Almendral,Meteorológica,-4.044,-79.79508,1088.0,Operativa,Transmitiendo
 M1243,66860,Cunchibamba - Itlam (inst.luis A. Martinez),Meteorológica,-1.133611,-78.598056,2688.0,No operativa,No aplica
