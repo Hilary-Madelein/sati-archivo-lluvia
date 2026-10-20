@@ -9,12 +9,12 @@
     "provincia": "Guayas",
     "canton": "Guayaquil",
     "parroquia": "Tenguel",
-    "sector": "Varios sectores (Calle 9 de Octubre, 24 de Mayo, 12 de Julio, calle Comercial, Recinto San Rafael, Recinto Israel, 10 de Agosto)",
+    "sector": "Varios sectores (Calle 9 de Octubre, 24 de Mayo, 12 de Julio, calle Comercial, Recinto San Rafael, Recinto Israel, 10 de Agosto, Floresta, Nuevo Tenguel)",
     "latitud": -2.993966,
     "longitud": -79.792446,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la noche del 18/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal realiza el monitoreo del evento mediante cámaras,",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 18/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. MDG confirma el desbordamiento del río Tenguel",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -26,15 +26,15 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 1,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 46,0 mm el día del evento en el lugar (hasta 62,0 mm a menos de 5 km) y 89,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,2 mm (2 días antes), 14,9 mm (1 día antes), 6,7 mm (el mismo día).",
   "lluvia_satelite": {
