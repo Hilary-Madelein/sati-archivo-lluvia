@@ -1,5 +1,5 @@
 ﻿codigo,id_estacion,nombre,categoria,latitud,longitud,altitud_m,estado,transmision
-H0011,61589,Mira en Lita,Hidrológica,0.879061,-78.457789,483.0,Operativa,No transmitiendo
+H0011,61589,Mira en Lita,Hidrológica,0.879061,-78.457789,483.0,Operativa,Transmitiendo
 H0012,63827,Lita Aj Mira,Hidrológica,0.838883,-78.457767,505.0,No operativa,No aplica
 H0015,61593,Chota en Pte.carretera,Hidrológica,0.476067,-78.075933,1569.0,No operativa,No aplica
 H0017,61595,Apaqui D Gruta la Paz #3,Hidrológica,0.49705,-77.84847,2914.0,Operativa,Transmitiendo
@@ -26,7 +26,7 @@ H0448,61897,Payo Aj Bulubulu,Hidrológica,-2.25621,-79.556835,21.0,Operativa,Tra
 H0471,61909,Caniar Dj Raura,Hidrológica,-2.481111,-79.155556,870.0,Operativa,No transmitiendo
 H0472,61910,Caniar en Pto.inca,Hidrológica,-2.547222,-79.556667,25.0,Cerrada,No aplica
 H0587,61970,Pindo Aj Amarillo,Hidrológica,-3.764475,-79.635919,520.0,Operativa,Transmitiendo
-H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,Transmitiendo
+H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,No transmitiendo
 H0620,63828,Catamayo en Pte.santa Rosa,Hidrológica,-4.160667,-79.862111,641.0,Operativa,Transmitiendo
 H0719,62023,Quijos Dj Oyacachi,Hidrológica,-0.31832,-77.7898,1490.0,Operativa,Transmitiendo
 H0721,62025,Jatunyacu Dj Iloculin,Hidrológica,-1.087222,-77.918889,570.0,Parcialmente operativa,No aplica
@@ -63,7 +63,7 @@ M0003,66961,Izobamba,Meteorológica,-0.36592,-78.55512,3060.0,Operativa,No trans
 M0004,26,Rumipamba Salcedo,Meteorológica,-1.02,-78.5946,2685.0,Operativa,Transmitiendo
 M0005,16,Portoviejo Utm,Meteorológica,-1.0376,-80.4596,46.0,No operativa,No aplica
 M0006,1,Pichilingue,Meteorológica,-1.074343,-79.492908,120.0,Operativa,Transmitiendo
-M0007,62417,Nuevo Rocafuerte,Meteorológica,-0.920028,-75.403028,176.0,Operativa,No transmitiendo
+M0007,62417,Nuevo Rocafuerte,Meteorológica,-0.920028,-75.403028,176.0,Operativa,Transmitiendo
 M0008,2,Puyo,Meteorológica,-1.50567,-77.95828,949.0,Operativa,Transmitiendo
 M0009,6,La Victoria Inerhi,Meteorológica,-0.06,-78.323056,2262.0,No operativa,No aplica
 M0012,62420,La Cuca,Meteorológica,-3.496944,-80.081667,53.0,Operativa,Transmitiendo
@@ -120,7 +120,7 @@ M1069,66862,Calamaca Convenio 1 Hcpt,Meteorológica,-1.276036,-78.818847,3402.0,
 M1094,63485,Tomalon - Tabacundo,Meteorológica,0.01116,-78.25505,2760.0,Operativa,Transmitiendo
 M1095,63815,Ingenio Aztra (la Troncal),Meteorológica,-2.443267,-79.352553,50.0,No operativa,No aplica
 M1096,31,Guayaquil U. Estatal,Meteorológica,-2.180517,-79.899906,6.0,No operativa,No aplica
-M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,Transmitiendo
+M1107,63497,Laguacoto,Meteorológica,-1.614378,-78.998339,2608.0,Operativa,No transmitiendo
 M1124,63781,Sierrazul,Meteorológica,-0.674175,-77.919355,2240.0,Operativa,Transmitiendo
 M1128,63797,El Ingenio,Meteorológica,-4.4144,-79.4317,1209.0,No operativa,No aplica
 M1170,4,Santa Elena,Meteorológica,-2.23358,-80.87507,13.0,Operativa,Transmitiendo
@@ -132,7 +132,7 @@ M1217,63603,Bahia de Caraquez - Puce,Meteorológica,-0.659378,-80.397467,12.0,Op
 M1219,11,Tena Hda. Chaupishungo,Meteorológica,-0.91685,-77.81907,665.0,Operativa,No transmitiendo
 M1221,63778,San Jose de Payamino,Meteorológica,-0.503889,-77.3175,345.0,No operativa,No aplica
 M1230,63790,Espam - Mfl - Calceta,Meteorológica,-0.822972,-80.183489,15.0,No operativa,No aplica
-M1233,63617,Cantagallo - Granja Unesum,Meteorológica,-1.28688,-80.729,64.0,Operativa,Transmitiendo
+M1233,63617,Cantagallo - Granja Unesum,Meteorológica,-1.28688,-80.729,64.0,Operativa,No transmitiendo
 M1240,63624,Ibarra - 1,Meteorológica,0.32978,-78.1322,2256.0,Operativa,Transmitiendo
 M1242,63796,El Almendral - Granja Almendral,Meteorológica,-4.044,-79.79508,1088.0,Operativa,Transmitiendo
 M1243,66860,Cunchibamba - Itlam (inst.luis A. Martinez),Meteorológica,-1.133611,-78.598056,2688.0,No operativa,No aplica
@@ -151,7 +151,7 @@ M1274,63921,Politecnica Salesiana - Campus Sur,Meteorológica,-0.2819,-78.55,288
 M5001,14,Gualil,Meteorológica,-3.075139,-78.816222,0.0,No operativa,No aplica
 M5007,19,Espe Sto. Domingo,Meteorológica,-0.413611,-79.314167,294.0,No operativa,No aplica
 M5008,18,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Parcialmente operativa,Transmitiendo
-M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,No transmitiendo
+M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,Transmitiendo
 M5010,27,Narupa,Meteorológica,-0.731944,-77.783056,0.0,No operativa,No aplica
 M5011,20,Pacto Sumaco,Meteorológica,-0.668611,-77.595556,0.0,No operativa,No aplica
 M5089,63718,El Tablon - Las Cuevas,Meteorológica,-2.811589,-79.324639,3661.0,Cerrada,No aplica
