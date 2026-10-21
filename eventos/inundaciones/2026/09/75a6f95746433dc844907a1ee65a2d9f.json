@@ -13,8 +13,8 @@
     "latitud": 0.414387,
     "longitud": -79.428892,
     "nivel": 2,
-    "estado": "Seguimiento",
-    "descripcion": "Por lluvias registradas la madrugada y mañana del 29/09/2026, hubo una inundación que afectó varias comunidades de la parroquia. Al 18/10/2026, se mantiene la activación de la MTT4 Provincial Esmeraldas. De acuerdo con la información proporcionada por la UGR Muisne, el río presenta tendencia a aumentar de nivel y en el sector se registran lluvias moderadas. Las calles ya no se encuentran anegadas, pero con presencia de lodo, y las familias continúan pernoctando en sus propias viviendas. La SNGR realizó la entrega de asistencia humanitaria en los sectores Recreo y Puerto Bilbao.",
+    "estado": "Cierre",
+    "descripcion": "Por lluvias registradas la madrugada y mañana del 29/09/2026, hubo una inundación que afectó varias comunidades de la parroquia. Al 20/10/2026, UGR Quinindé informa que los sectores ya no se encuentran anegados, y las familias se mantienen en sus propias viviendas.",
     "personas_afectadas": 1432,
     "viviendas_afectadas": 358,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 27,0 mm el día del evento en el lugar (hasta 27,0 mm a menos de 5 km) y 60,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 7,6 mm (2 días antes), 10,4 mm (1 día antes), 1,4 mm (el mismo día). Estación Guayllabamba Aj Blanco (a 4,5 km): el WRF pronosticaba ahí 5,1 mm (2 días antes), 7,6 mm (1 día antes), 1,9 mm (el mismo día). Río: 19,2 m³/s, 13,9 veces su caudal normal, estable; no llegó a la crecida de 2 años (166,0 m³/s).",
