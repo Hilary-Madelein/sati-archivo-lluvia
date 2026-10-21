@@ -26,7 +26,7 @@ H0448,61897,Payo Aj Bulubulu,Hidrológica,-2.25621,-79.556835,21.0,Operativa,Tra
 H0471,61909,Caniar Dj Raura,Hidrológica,-2.481111,-79.155556,870.0,Operativa,No transmitiendo
 H0472,61910,Caniar en Pto.inca,Hidrológica,-2.547222,-79.556667,25.0,Cerrada,No aplica
 H0587,61970,Pindo Aj Amarillo,Hidrológica,-3.764475,-79.635919,520.0,Operativa,Transmitiendo
-H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,No transmitiendo
+H0591,61974,Puyango en Cpto.militar (pte.carretera),Hidrológica,-3.88293,-80.08196,300.0,Operativa,Transmitiendo
 H0620,63828,Catamayo en Pte.santa Rosa,Hidrológica,-4.160667,-79.862111,641.0,Operativa,Transmitiendo
 H0719,62023,Quijos Dj Oyacachi,Hidrológica,-0.31832,-77.7898,1490.0,Operativa,Transmitiendo
 H0721,62025,Jatunyacu Dj Iloculin,Hidrológica,-1.087222,-77.918889,570.0,Parcialmente operativa,No aplica
@@ -143,7 +143,7 @@ M1249,63631,Palesema,Meteorológica,1.305833,-78.731667,45.0,No operativa,No apl
 M1253,63802,Puerto Hondo,Meteorológica,-2.1925,-80.02417,4.0,Operativa,Transmitiendo
 M1256,63814,Rancheros del Norte - El Carmelo,Meteorológica,0.654722,-77.605278,2963.0,Operativa,Transmitiendo
 M1259,63829,Macara - 1,Meteorológica,-4.36968,-79.94498,544.0,Operativa,Transmitiendo
-M1262,65597,La Palma,Meteorológica,-0.31417,-78.93361,902.0,Operativa,No transmitiendo
+M1262,65597,La Palma,Meteorológica,-0.31417,-78.93361,902.0,Operativa,Transmitiendo
 M1266,64379,San Marcos - La Celica,Meteorológica,0.15602,-79.05845,536.0,Operativa,Transmitiendo
 M1271,63813,Guayaquil (facultad Ccnn),Meteorológica,-2.146463,-79.917338,21.0,Parcialmente operativa,Transmitiendo
 M1273,63920,Lloa,Meteorológica,-0.229912,-78.565717,3228.0,Operativa,No transmitiendo
