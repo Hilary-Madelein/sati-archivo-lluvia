@@ -1,5 +1,5 @@
 ﻿codigo,id_estacion,nombre,categoria,latitud,longitud,altitud_m,estado,transmision
-H0011,61589,Mira en Lita,Hidrológica,0.879061,-78.457789,483.0,Operativa,Transmitiendo
+H0011,61589,Mira en Lita,Hidrológica,0.879061,-78.457789,483.0,Operativa,No transmitiendo
 H0012,63827,Lita Aj Mira,Hidrológica,0.838883,-78.457767,505.0,No operativa,No aplica
 H0015,61593,Chota en Pte.carretera,Hidrológica,0.476067,-78.075933,1569.0,No operativa,No aplica
 H0017,61595,Apaqui D Gruta la Paz #3,Hidrológica,0.49705,-77.84847,2914.0,Operativa,Transmitiendo
