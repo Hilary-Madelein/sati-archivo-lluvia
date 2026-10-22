@@ -135,6 +135,14 @@
       "dias_24h": 3,
       "bytes": 2399037,
       "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/wrf-2026-10/wrf_20261021.zip"
+    },
+    "20261022": {
+      "release": "wrf-2026-10",
+      "archivo": "wrf_20261022.zip",
+      "pasos_3h": 25,
+      "dias_24h": 3,
+      "bytes": 2420588,
+      "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/wrf-2026-10/wrf_20261022.zip"
     }
   },
   "persiann_24h": {
@@ -251,7 +259,13 @@
       "archivo": "persiann_24h_20261021.tif",
       "bytes": 10435,
       "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/persiann-2026-10/persiann_24h_20261021.tif"
+    },
+    "20261022": {
+      "release": "persiann-2026-10",
+      "archivo": "persiann_24h_20261022.tif",
+      "bytes": 11530,
+      "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/persiann-2026-10/persiann_24h_20261022.tif"
     }
   },
-  "actualizado": "2026-10-22T01:28:25.000Z"
+  "actualizado": "2026-10-22T17:59:00.000Z"
 }
