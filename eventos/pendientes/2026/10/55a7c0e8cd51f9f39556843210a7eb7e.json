@@ -14,7 +14,7 @@
     "longitud": -79.95099306128395,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las condiciones atmosféricas, se registra tormenta eléctrica (relámpagos y truenos) acompañada de lluvias fuertes en el cantón en distintos sectores.\r\n\r\n Varias Unidades Educativas fueron afectadas con el ingreso de agua lluvia, la cual están recibiendo las clases no presencial. El canal el Macho se encuentra con tendencia a aumentar de nivel.",
+    "descripcion": "Debido a las condiciones atmosféricas, se registra tormenta eléctrica (relámpagos y truenos) acompañada de lluvias fuertes en el cantón en distintos sectores.\r\n\r\n Aguas Machala EP y Aseo Machala EP realizaron la limpieza de sumideros tapados y mediante cámaras del SIS ECU-911, se visualizó que el canal El Macho se encuentra en cauce normal. Adicional, la acumulación de agua lluvia en varias Unidades Educativas ya fueron evacuadas y las clases retomaron a su modalidad presencial.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -118,10 +118,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-19T19:44:56.000Z",
+    "procesado": "2026-10-23T18:12:21.000Z",
     "estado": "espera"
   }
 }

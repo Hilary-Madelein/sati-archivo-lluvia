@@ -14,7 +14,7 @@
     "longitud": -79.84022779661757,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las intensas lluvias registradas en la madrugada del 19/10/2026, se produjo el incremento de caudal y posterior desbordamiento del río Chaguana. El evento que ocasionó el anegamiento de viviendas y afectaciones funcionales en unidades educativas de diversos sectores de la parroquia. Asimismo, la crecida provocó el colapso de un muro de contención, generando el ingreso de agua a predios bananeros del sector.<br>\r\nComo plan de contingencia de las unidades educativas como: U.E Juan Montalvo Medina, U.E Milton Borja Ramírez, U.E Victoria Cañarte, U.E 14 de Julio, U.E Zoila Ugarte de Landívar y Colegio 6 de agosto, tuvieron clases no presenciales.<br>\r\nEl 19/10/2026, se reunió y se activó el COE Parroquial de Tendales para articular acciones emergentes por el evento.<br>\r\n Al momento no se registran lluvias, el Rio Chaguana continua desbordado. se activaron dos refugios temporales, donde 4 familias están en el refugio \"10 de agosto\" y 6 familias están en la casa comunal \"24 de Mayo\" y un albergue estan 5 familias \"Unidad Educativa Gral Eloy Alfaro Delegado\", las demás familias se encuentran en casas acogientes. Las actividades en atención a las familias continuarán en los próximos días y de igual manera a los sectores inundados para la evacuación de aguas lluvias.\r\nCNEL restableció la energía eléctrica en la parroquia.\r\nSNGR participó en la plenaria de COE Cantonal para coordinar acciones de respuesta en atención al evento. Adicional el COE Cantonal se encuentra activo y en sección permanente. Plenaria de COE Cantonal recomienda declarar  el estado de emergencia al alcalde de El Guabo.\r\nMinisterio de Trabajo y Desarrollo Humano (MTDH) realizó entrega de asistencia humanitaria (kit de vestir). \r\nGAD Provincial realizó contingente para los trabajos correspondientes y coordina la entrega de asistencia humanitaria",
+    "descripcion": "Debido a las intensas lluvias registradas en la madrugada del 19/10/2026, se produjo el incremento de caudal y posterior desbordamiento del río Chaguana. El evento que ocasionó el anegamiento de viviendas y afectaciones funcionales en unidades educativas de diversos sectores de la parroquia. Asimismo, la crecida provocó el colapso de un muro de contención, generando el ingreso de agua a predios bananeros del sector.<br>\r\nComo plan de contingencia de las unidades educativas como: U.E Juan Montalvo Medina, U.E Milton Borja Ramírez, U.E Victoria Cañarte, U.E 14 de Julio, U.E Zoila Ugarte de Landívar y Colegio 6 de agosto, tuvieron clases no presenciales.<br>\r\nEl 19/10/2026, se reunió y se activó el COE Parroquial de Tendales para articular acciones emergentes por el evento.<br>\r\n De acuerdo con el informe del Gestor de Alojamientos Temporales, varias de las familias se encuentran en refugios temporales y en albergue, mientras que otras familiares permanecen temporalmente en casas de familias acogientes hasta que finalice la limpieza de sus inmuebles.\r\nEl rio Chaguana continúa desbordado.\r\nEl barrio 10 de Octubre continua inundado, mientras que los demás sectores el agua estancada a evacuado en su totalidad.\r\nLa plenaria resuelve por unanimidad con la  máxima autoridad del cantón declarar en situación de emergencia al cantón El Guabo.\r\nGAD Cantonal realizara las gestiones correspondientes con el Cuerpo de Bomberos, para las labores de limpieza de las viviendas afectadas. Secretaría Nacional de Gestión de Riesgos verifica la instalación de 25 camas en cada habitación, por parte del GAD Cantonal con el propósito de garantizar condiciones adecuadas para el alojamiento de las familias damnificadas.\r\nCruz Roja Ecuatoriana realizó entrega de asistencia humanitaria a varias familias que se encuentran en los alojamientos temporales. \r\nGAD Cantonal realiza la limpieza de escombros el las calles de los sectores afectados y conjuntamente con la Prefectura trabajaran en la remediación del muro de contención del rio Chaguana.\r\nGAD Cantonal, SNGR, Cruz Roja, MTDH y GAD Parroquial continúan la evaluación de necesidades de las familias que fueron afectadas por el evento.",
     "personas_afectadas": 222,
     "viviendas_afectadas": 300,
     "personas_evacuadas": 0,
@@ -36,8 +36,42 @@
     "codigo": "river_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Pronóstico WRF para ese día: 13,0 mm (2 días antes), 2,3 mm (1 día antes), 6,7 mm (el mismo día).",
-  "lluvia_satelite": null,
+  "resumen": "Satélite: 27,0 mm el día del evento en el lugar (hasta 33,0 mm a menos de 5 km) y 47,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 13,0 mm (2 días antes), 2,3 mm (1 día antes), 6,7 mm (el mismo día). Estación Ministerio de Salud Machala - Snem (a 20,9 km): el WRF pronosticaba ahí 1,7 mm (2 días antes), 0,0 mm (1 día antes), 5,2 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-19 07:00",
+      "hasta": "2026-10-20 07:00",
+      "en_el_lugar_mm": 27.0,
+      "maxima_a_menos_de_5km_mm": 33.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-19 07:00",
+        "hasta": "2026-10-19 08:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-19 05:00",
+        "hasta": "2026-10-19 08:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 2.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-19 02:00",
+        "hasta": "2026-10-19 08:00",
+        "en_el_lugar_mm": 6.0,
+        "maxima_a_menos_de_5km_mm": 7.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-18 08:00",
+        "hasta": "2026-10-19 08:00",
+        "en_el_lugar_mm": 47.0,
+        "maxima_a_menos_de_5km_mm": 47.0
+      }
+    }
+  },
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
     "periodo": {
@@ -60,16 +94,34 @@
       "maxima_a_menos_de_5km_mm": 15.6
     }
   },
-  "lluvia_estacion_inamhi": null,
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M5134",
+      "nombre": "Ministerio de Salud Machala - Snem",
+      "distancia_km": 20.9,
+      "latitud": -3.259303,
+      "longitud": -79.954136
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-19 02:00",
+      "hasta": "2026-10-20 02:00",
+      "hecho_el_mismo_dia_mm": 5.2,
+      "hecho_1_dia_antes_mm": 0.0,
+      "hecho_2_dias_antes_mm": 1.7,
+      "lluvia_medida_mm": null
+    }
+  },
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
     "falta": [
-      "lluvia por satélite: aún no publicada",
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-19T19:45:14.000Z",
+    "procesado": "2026-10-23T18:12:40.000Z",
     "estado": "espera"
   }
 }

@@ -36,7 +36,7 @@
     "codigo": "rain_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Satélite: 29,0 mm el día del evento en el lugar (hasta 37,0 mm a menos de 5 km) y 5,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,6 mm (2 días antes), 1,5 mm (1 día antes), 35,7 mm (el mismo día). Estación Camaronera - Songa (a 6,1 km): el WRF pronosticaba ahí 0,6 mm (2 días antes), 0,0 mm (1 día antes), 36,9 mm (el mismo día); midió 128,1 mm ese día.",
+  "resumen": "Satélite: 29,0 mm el día del evento en el lugar (hasta 37,0 mm a menos de 5 km) y 5,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,6 mm (2 días antes), 1,5 mm (1 día antes), 35,7 mm (el mismo día). Estación Camaronera - Songa (a 6,1 km): el WRF pronosticaba ahí 0,6 mm (2 días antes), 0,0 mm (1 día antes), 36,9 mm (el mismo día); midió 128,3 mm ese día.",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
@@ -107,7 +107,7 @@
       "desde": "2026-10-18 07:00",
       "hasta": "2026-10-19 07:00",
       "horas_con_dato": 24,
-      "lluvia_mm": 128.1
+      "lluvia_mm": 128.3
     },
     "lluvia_medida_antes_del_evento": {
       "ultimas_1_h": {
@@ -148,10 +148,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-19T19:45:16.000Z",
+    "procesado": "2026-10-23T18:12:41.000Z",
     "estado": "espera"
   }
 }

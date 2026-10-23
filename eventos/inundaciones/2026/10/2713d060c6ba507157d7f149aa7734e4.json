@@ -1,0 +1,130 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "2713d060c6ba507157d7f149aa7734e4",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-03",
+    "hora": "09:00",
+    "provincia": "Esmeraldas",
+    "canton": "Esmeraldas",
+    "parroquia": "Majua",
+    "sector": "Sector Majua",
+    "latitud": 0.7032591769143016,
+    "longitud": -79.54121027798854,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada del 03/10/2026, se registra el desbordamiento del río Esmeraldas, inundando a varios sectores. 20/10/2026 ,UGR Esmeraldas informa que el río ya no se encuentra desbordado; las calles ya no se encuentran anegadas, y las familias se mantienen pernoctando en sus propias viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 28,0 mm el día del evento en el lugar (hasta 32,0 mm a menos de 5 km) y 64,0 mm en las 24 h antes del evento. Río: 9,3 m³/s, 32,2 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (38,9 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 28.0,
+      "maxima_a_menos_de_5km_mm": 32.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-03 09:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-03 07:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-03 04:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 4.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-02 10:00",
+        "hasta": "2026-10-03 10:00",
+        "en_el_lugar_mm": 64.0,
+        "maxima_a_menos_de_5km_mm": 69.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670066879,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 9.3,
+    "caudal_normal_del_mes_m3s": 0.3,
+    "veces_el_caudal_normal": 32.2,
+    "caudal_percentil_75_m3s": 3.6,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 7.5,
+      "cambio_porcentual": 24,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 38.9,
+      "cada_5_años": 57.8,
+      "cada_10_años": 70.4,
+      "cada_25_años": 86.2,
+      "cada_50_años": 97.9,
+      "cada_100_años": 109.6
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-03",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 19.2,
+        "maximo_del_ensamble_mas_alto_m3s": 70.6,
+        "maximo_alta_resolucion_m3s": 11.9
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 16.1,
+        "maximo_del_ensamble_mas_alto_m3s": 52.3,
+        "maximo_alta_resolucion_m3s": 9.5
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 13.3,
+        "maximo_del_ensamble_mas_alto_m3s": 53.2,
+        "maximo_alta_resolucion_m3s": 11.0
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:32:26.000Z",
+    "estado": "completo"
+  }
+}

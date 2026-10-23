@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "3c56c361ae721d696cde45e74fc778dc",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-10",
+    "hora": "02:30",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Febres Cordero (las Juntas) (cab. En Mata De Cacao)",
+    "sector": "RCTO. LA ROSITA,RCTO.COLOMBIA DEL ATIO, ESCUELA DE EDUCACIÓN BÁSICA LCDO. DAVID GUEVARA NARANJO, RÍO LA MARCELINA",
+    "latitud": -1.949978,
+    "longitud": -79.3102998,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias en la madrugada del 10/10/2026, se reportó el desbordamiento del río La Marcelina, en donde se reportan 5 viviendas con 5 familias de 20 personas en evaluación, 20 metros lineales afectados en una vía de tercer orden y 1 unidad educativa afectada funcionalmente (Escuela de Educación Básica Lcdo. David Guevara Naranjo).\r\n MINEDEC realizó barrido en la zona afectada, SNGR realizó consolidación de información y nos mantenemos atentos al reporte de afectaciones con la solicitud de creación de EVIN Digital. Actualmente, la vía de tercer orden se mantiene habilitada sin presencia de agua; el nivel del Río La Marcelina se encuentra con tendencia a aumentar de nivel; las familias permanecen en sus viviendas, mientras que en la Escuela de Educación Básica Lcdo. David Guevara Naranjo no cuenta con presencia de agua, por lo que las clases se mantienen presencialmente con normalidad.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 5,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 5,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 17,0 mm a menos de 5 km) y 15,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 3,1 mm (2 días antes), 4,4 mm (1 día antes), 11,0 mm (el mismo día). Estación San Pablo en Palmar (a 19,3 km): el WRF pronosticaba ahí 3,9 mm (2 días antes), 8,7 mm (1 día antes), 42,9 mm (el mismo día). Río: 77,8 m³/s, 2,5 veces su caudal normal, bajando; no llegó a la crecida de 2 años (313,1 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 12.0,
+      "maxima_a_menos_de_5km_mm": 17.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-10 02:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 4.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-10 00:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-09 21:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-09 03:00",
+        "hasta": "2026-10-10 03:00",
+        "en_el_lugar_mm": 15.0,
+        "maxima_a_menos_de_5km_mm": 30.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 11.0,
+      "maxima_a_menos_de_5km_mm": 21.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 4.4,
+      "maxima_a_menos_de_5km_mm": 7.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 3.1,
+      "maxima_a_menos_de_5km_mm": 12.0
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H0371",
+      "nombre": "San Pablo en Palmar",
+      "distancia_km": 19.3,
+      "latitud": -1.835361,
+      "longitud": -79.441111
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00",
+      "hecho_el_mismo_dia_mm": 42.9,
+      "hecho_1_dia_antes_mm": 8.7,
+      "hecho_2_dias_antes_mm": 3.9,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 670061858,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 77.8,
+    "caudal_normal_del_mes_m3s": 31.4,
+    "veces_el_caudal_normal": 2.5,
+    "caudal_percentil_75_m3s": 72.5,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 97.3,
+      "cambio_porcentual": -30,
+      "sentido": "bajando"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 313.1,
+      "cada_5_años": 399.7,
+      "cada_10_años": 457.0,
+      "cada_25_años": 529.5,
+      "cada_50_años": 583.2,
+      "cada_100_años": 636.5
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-09",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 104.6,
+        "maximo_del_ensamble_mas_alto_m3s": 377.9,
+        "maximo_alta_resolucion_m3s": 111.7
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-08",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 91.4,
+        "maximo_del_ensamble_mas_alto_m3s": 428.3,
+        "maximo_alta_resolucion_m3s": 149.4
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-07",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 74.9,
+        "maximo_del_ensamble_mas_alto_m3s": 294.2,
+        "maximo_alta_resolucion_m3s": 125.4
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:19:58.000Z",
+    "estado": "completo"
+  }
+}

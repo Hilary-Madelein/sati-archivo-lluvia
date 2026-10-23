@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "0ed6a39eddead01255dec1f83493272f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-11",
+    "hora": "19:20",
+    "provincia": "Guayas",
+    "canton": "Duran",
+    "parroquia": "El Recreo",
+    "sector": "Varios sectores (Cdla. El Recreo 2da Etapa)",
+    "latitud": -2.174945,
+    "longitud": -79.804763,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la tarde y noche del 11/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. GAD Cantonal informó que actualmente calles y avenidas se encuentran libres de acumulación de agua.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 37,0 mm el día del evento en el lugar (hasta 49,0 mm a menos de 5 km) y 27,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 27,7 mm (2 días antes), 11,7 mm (1 día antes), 1,2 mm (el mismo día). Estación Cuerpo de Bomberos Divino Niño - Duran (a 3,2 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día). Río: 203,8 m³/s, 99,2 veces su caudal normal, subiendo; superó la crecida de 2 años (146,1 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-11 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 37.0,
+      "maxima_a_menos_de_5km_mm": 49.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-11 19:00",
+        "hasta": "2026-10-11 20:00",
+        "en_el_lugar_mm": 6.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-11 17:00",
+        "hasta": "2026-10-11 20:00",
+        "en_el_lugar_mm": 27.0,
+        "maxima_a_menos_de_5km_mm": 36.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-11 14:00",
+        "hasta": "2026-10-11 20:00",
+        "en_el_lugar_mm": 27.0,
+        "maxima_a_menos_de_5km_mm": 36.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-10 20:00",
+        "hasta": "2026-10-11 20:00",
+        "en_el_lugar_mm": 27.0,
+        "maxima_a_menos_de_5km_mm": 39.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-11 02:00",
+      "en_el_lugar_mm": 1.2,
+      "maxima_a_menos_de_5km_mm": 2.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 11.7,
+      "maxima_a_menos_de_5km_mm": 21.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 27.7,
+      "maxima_a_menos_de_5km_mm": 46.3
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M5133",
+      "nombre": "Cuerpo de Bomberos Divino Niño - Duran",
+      "distancia_km": 3.2,
+      "latitud": -2.1695,
+      "longitud": -79.8334
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00",
+      "hecho_el_mismo_dia_mm": 0.0,
+      "hecho_1_dia_antes_mm": 0.0,
+      "hecho_2_dias_antes_mm": 0.0,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 670070056,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 203.8,
+    "caudal_normal_del_mes_m3s": 2.1,
+    "veces_el_caudal_normal": 99.2,
+    "caudal_percentil_75_m3s": 12.0,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 17.2,
+      "cambio_porcentual": 48,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 146.1,
+      "cada_5_años": 228.0,
+      "cada_10_años": 282.3,
+      "cada_25_años": 350.9,
+      "cada_50_años": 401.7,
+      "cada_100_años": 452.2
+    },
+    "crecida_alcanzada_años": 2,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-11",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 18.7,
+        "maximo_del_ensamble_mas_alto_m3s": 86.9,
+        "maximo_alta_resolucion_m3s": 15.8
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-10",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 34.0,
+        "maximo_del_ensamble_mas_alto_m3s": 208.4,
+        "maximo_alta_resolucion_m3s": 65.0
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-09",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 17.2,
+        "maximo_del_ensamble_mas_alto_m3s": 107.5,
+        "maximo_alta_resolucion_m3s": 32.8
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:18:35.000Z",
+    "estado": "completo"
+  }
+}

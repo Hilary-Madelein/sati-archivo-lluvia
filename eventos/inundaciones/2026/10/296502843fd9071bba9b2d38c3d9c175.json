@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "296502843fd9071bba9b2d38c3d9c175",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-08",
+    "hora": "09:00",
+    "provincia": "Orellana",
+    "canton": "Francisco De Orellana",
+    "parroquia": "El Coca",
+    "sector": "Cabecera El Coca",
+    "latitud": -0.4478981,
+    "longitud": -76.9988556,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Fuertes lluvias registradas en la madrugada (desde las 06:00)  hasta la mañana (aproximadamente las 10:30) provocaron la saturación del alcantarillado y la acumulación de agua en varias calles principales de la ciudad, entre ellas: 9 de Octubre, Alma Lojana, Loja, Guayaquil, Ambato y Yasuní. Adicionalmente, se reportaron nuevos incidentes por inundación en el sector Pechiche-4 (Calle H y Calle A, junto al reciclador) y en el sector Limoncocha-Nicolás Torres, donde se reportó una vivienda inundada. De acuerdo a Volunclima el 08/10/2026 - 09:21, se registró una precipitación acumulada de 113.8mm. El Cuerpo de Bomberos acudió al lugar de la afectación y procedió con la evacuación del agua, confirmando que no hubo mayor afectación. GAD Municipal de Francisco de Orellana realizó la limpieza de las alcantarillas. SNGR realizó monitoreo.",
+    "personas_afectadas": 4,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 98,0 mm el día del evento en el lugar (hasta 101,0 mm a menos de 5 km) y 86,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 3,6 mm (1 día antes), 1,3 mm (el mismo día). Estación Payamino Aj Napo (a 1,3 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,3 mm (1 día antes), 0,2 mm (el mismo día). Río: 1,1 m³/s, 0,9 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (19,7 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-08 07:00",
+      "hasta": "2026-10-09 07:00",
+      "en_el_lugar_mm": 98.0,
+      "maxima_a_menos_de_5km_mm": 101.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-08 09:00",
+        "hasta": "2026-10-08 10:00",
+        "en_el_lugar_mm": 10.0,
+        "maxima_a_menos_de_5km_mm": 12.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-08 07:00",
+        "hasta": "2026-10-08 10:00",
+        "en_el_lugar_mm": 67.0,
+        "maxima_a_menos_de_5km_mm": 67.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-08 04:00",
+        "hasta": "2026-10-08 10:00",
+        "en_el_lugar_mm": 71.0,
+        "maxima_a_menos_de_5km_mm": 71.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-07 10:00",
+        "hasta": "2026-10-08 10:00",
+        "en_el_lugar_mm": 86.0,
+        "maxima_a_menos_de_5km_mm": 91.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-08 02:00",
+      "hasta": "2026-10-09 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 1.3,
+      "maxima_a_menos_de_5km_mm": 2.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 3.6,
+      "maxima_a_menos_de_5km_mm": 3.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-06 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H5011",
+      "nombre": "Payamino Aj Napo",
+      "distancia_km": 1.3,
+      "latitud": -0.44,
+      "longitud": -77.008
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-08 02:00",
+      "hasta": "2026-10-09 02:00",
+      "hecho_el_mismo_dia_mm": 0.2,
+      "hecho_1_dia_antes_mm": 0.3,
+      "hecho_2_dias_antes_mm": 0.0,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 620666291,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 1.1,
+    "caudal_normal_del_mes_m3s": 1.2,
+    "veces_el_caudal_normal": 0.9,
+    "caudal_percentil_75_m3s": 2.1,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 0.9,
+      "cambio_porcentual": 15,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 19.7,
+      "cada_5_años": 26.3,
+      "cada_10_años": 30.8,
+      "cada_25_años": 36.3,
+      "cada_50_años": 40.5,
+      "cada_100_años": 44.6
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-08",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 3.7,
+        "maximo_del_ensamble_mas_alto_m3s": 52.3,
+        "maximo_alta_resolucion_m3s": 9.4
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-07",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1.2,
+        "maximo_del_ensamble_mas_alto_m3s": 11.5,
+        "maximo_alta_resolucion_m3s": 0.9
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-06",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1.5,
+        "maximo_del_ensamble_mas_alto_m3s": 8.0,
+        "maximo_alta_resolucion_m3s": 0.9
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:23:30.000Z",
+    "estado": "completo"
+  }
+}

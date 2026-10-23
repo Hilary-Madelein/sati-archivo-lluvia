@@ -1,0 +1,130 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "c68a74dfc42ffaac0a0b048bf8fc0d6f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-03",
+    "hora": "22:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Santo Domingo De Los Colorados",
+    "sector": "Barrio niño Belén. Av. Esmeraldas, pasaje la paz.",
+    "latitud": -0.243045546669581,
+    "longitud": -79.1711617643942,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó anegación de agua en las calles del sector, provocando el ingreso de agua a viviendas del sector. En la tarde y noche del 05/10/2026, producto de las lluvias, nuevamente provocó la inundación en el sector. Al momento, no existe presencia de lluvias, las familias se encuentran en sus viviendas.\r\nPatronato Municipal, culmino la evolución de daños y necesidades. De igual manera coordina con la SNGR la entrega de asistencia humanitaria.",
+    "personas_afectadas": 46,
+    "viviendas_afectadas": 14,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 11,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 13,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 43,0 mm a menos de 5 km) y 38,0 mm en las 24 h antes del evento. Río: 21,2 m³/s, 21,1 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (28,0 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 43.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-03 22:00",
+        "hasta": "2026-10-03 23:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 3.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-03 20:00",
+        "hasta": "2026-10-03 23:00",
+        "en_el_lugar_mm": 13.0,
+        "maxima_a_menos_de_5km_mm": 13.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-03 17:00",
+        "hasta": "2026-10-03 23:00",
+        "en_el_lugar_mm": 19.0,
+        "maxima_a_menos_de_5km_mm": 19.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-02 23:00",
+        "hasta": "2026-10-03 23:00",
+        "en_el_lugar_mm": 38.0,
+        "maxima_a_menos_de_5km_mm": 38.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670059745,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 21.2,
+    "caudal_normal_del_mes_m3s": 1.0,
+    "veces_el_caudal_normal": 21.1,
+    "caudal_percentil_75_m3s": 3.7,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 12.3,
+      "cambio_porcentual": 72,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 28.0,
+      "cada_5_años": 37.1,
+      "cada_10_años": 43.0,
+      "cada_25_años": 50.6,
+      "cada_50_años": 56.2,
+      "cada_100_años": 61.8
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-03",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 15.8,
+        "maximo_del_ensamble_mas_alto_m3s": 65.3,
+        "maximo_alta_resolucion_m3s": 19.2
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 16.0,
+        "maximo_del_ensamble_mas_alto_m3s": 149.8,
+        "maximo_alta_resolucion_m3s": 46.7
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 10.6,
+        "maximo_del_ensamble_mas_alto_m3s": 101.7,
+        "maximo_alta_resolucion_m3s": 11.6
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:32:40.000Z",
+    "estado": "completo"
+  }
+}

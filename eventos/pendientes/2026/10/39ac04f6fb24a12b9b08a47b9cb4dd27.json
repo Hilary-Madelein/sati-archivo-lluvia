@@ -14,7 +14,7 @@
     "longitud": -79.186091,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "Producto de las lluvias suscitadas en la noche del 18/10/2026, en el sitio se produjo el taponamiento de la alcantarilla y el incremento del nivel del agua en las calles del sector. De igual manera, ingreso agua a una vivienda. Al momento no existe presencia de lluvia el nivel del agua bajo",
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 18/10/2026, en el sitio se produjo el taponamiento de la alcantarilla y el incremento del nivel del agua en las calles del sector. De igual manera, ingreso agua a una vivienda. La familia permanece en la vivienda.\r\nPatronato indicó que no ameritó la entrega de asistencia humanitaria.",
     "personas_afectadas": 4,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
@@ -118,10 +118,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-19T19:46:41.000Z",
+    "procesado": "2026-10-23T18:14:32.000Z",
     "estado": "espera"
   }
 }

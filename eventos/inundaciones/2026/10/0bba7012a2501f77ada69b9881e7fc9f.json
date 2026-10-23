@@ -1,0 +1,130 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "0bba7012a2501f77ada69b9881e7fc9f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-03",
+    "hora": "21:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Liberación popular",
+    "latitud": -0.260784,
+    "longitud": -79.174156,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Producto de las lluvias en la tarde y noches de 3/10/2026, se suscitó el taponamiento de una alcantarilla, lo que provocó la inundación de una vivienda del sector; cabe indicar que la vivienda no se encuentra habilitada. En la tarde y noche del 05/10/2026, provocó la inundación de dos viviendas aledañas, por lo que el agua acumulada superó el nivel de la calle. Las familias afectadas permanece en sus viviendas\r\nSNGR realizo la entrega de asistencia humanitaria.\r\nPatronato Municipal realizó  la evaluación de daños y necesidades.",
+    "personas_afectadas": 5,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 2,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 41,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 36,0 mm en las 24 h antes del evento. Río: 5,2 m³/s, 14,8 veces su caudal normal, bajando; no llegó a la crecida de 2 años (12,4 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-03 07:00",
+      "hasta": "2026-10-04 07:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-03 21:00",
+        "hasta": "2026-10-03 22:00",
+        "en_el_lugar_mm": 5.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-03 19:00",
+        "hasta": "2026-10-03 22:00",
+        "en_el_lugar_mm": 11.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-03 16:00",
+        "hasta": "2026-10-03 22:00",
+        "en_el_lugar_mm": 28.0,
+        "maxima_a_menos_de_5km_mm": 29.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-02 22:00",
+        "hasta": "2026-10-03 22:00",
+        "en_el_lugar_mm": 36.0,
+        "maxima_a_menos_de_5km_mm": 40.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670040292,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 5.2,
+    "caudal_normal_del_mes_m3s": 0.3,
+    "veces_el_caudal_normal": 14.8,
+    "caudal_percentil_75_m3s": 1.5,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 8.7,
+      "cambio_porcentual": -40,
+      "sentido": "bajando"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 12.4,
+      "cada_5_años": 16.7,
+      "cada_10_años": 19.6,
+      "cada_25_años": 23.2,
+      "cada_50_años": 25.9,
+      "cada_100_años": 28.5
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-03",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 2.8,
+        "maximo_del_ensamble_mas_alto_m3s": 19.1,
+        "maximo_alta_resolucion_m3s": 1.8
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 4.8,
+        "maximo_del_ensamble_mas_alto_m3s": 66.0,
+        "maximo_alta_resolucion_m3s": 16.3
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 4.0,
+        "maximo_del_ensamble_mas_alto_m3s": 96.0,
+        "maximo_alta_resolucion_m3s": 18.1
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:32:09.000Z",
+    "estado": "completo"
+  }
+}

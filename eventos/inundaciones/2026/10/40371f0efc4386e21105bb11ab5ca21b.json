@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "40371f0efc4386e21105bb11ab5ca21b",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-12",
+    "hora": "00:20",
+    "provincia": "Los Ríos",
+    "canton": "Quevedo",
+    "parroquia": "Venus Del Rio Quevedo",
+    "sector": "CIUDAD DEL NORTE",
+    "latitud": -0.982311,
+    "longitud": -79.469733,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas la madrugada del 12/10/2026 se reportó acumulación de aguas lluvias, en donde se reportan 13 viviendas con 7 familias de 17 personas afectadas y  7 familias de 22 personas damnificadas. UGR Quevedo facilitó informe ejecutivo legalizado, realizó verificación de novedades en el sitio y SNGR realizó consolidación de información. Actualmente las viviendas no cuentan con presencia de agua, en donde las familias afectadas se mantienen en sus viviendas, en donde mediante informe ejecutivo legalizado, se reporta 1 vivienda sin afectación., por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 17,
+    "viviendas_afectadas": 13,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 22,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 7,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 96,0 mm el día del evento en el lugar (hasta 96,0 mm a menos de 5 km) y 60,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 27,7 mm (2 días antes), 38,9 mm (1 día antes), 60,8 mm (el mismo día). Estación Quevedo en Quevedo (a 3,3 km): el WRF pronosticaba ahí 37,6 mm (2 días antes), 23,9 mm (1 día antes), 71,1 mm (el mismo día). Río: 1135,1 m³/s, 4,1 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (2234,3 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-11 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 96.0,
+      "maxima_a_menos_de_5km_mm": 96.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-12 00:00",
+        "hasta": "2026-10-12 01:00",
+        "en_el_lugar_mm": 13.0,
+        "maxima_a_menos_de_5km_mm": 13.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-11 22:00",
+        "hasta": "2026-10-12 01:00",
+        "en_el_lugar_mm": 26.0,
+        "maxima_a_menos_de_5km_mm": 34.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-11 19:00",
+        "hasta": "2026-10-12 01:00",
+        "en_el_lugar_mm": 49.0,
+        "maxima_a_menos_de_5km_mm": 56.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-11 01:00",
+        "hasta": "2026-10-12 01:00",
+        "en_el_lugar_mm": 60.0,
+        "maxima_a_menos_de_5km_mm": 66.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-11 02:00",
+      "en_el_lugar_mm": 60.8,
+      "maxima_a_menos_de_5km_mm": 81.3
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 38.9,
+      "maxima_a_menos_de_5km_mm": 72.8
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 27.7,
+      "maxima_a_menos_de_5km_mm": 37.6
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H0347",
+      "nombre": "Quevedo en Quevedo",
+      "distancia_km": 3.3,
+      "latitud": -1.009444,
+      "longitud": -79.456944
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00",
+      "hecho_el_mismo_dia_mm": 71.1,
+      "hecho_1_dia_antes_mm": 23.9,
+      "hecho_2_dias_antes_mm": 37.6,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 670094588,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 1135.1,
+    "caudal_normal_del_mes_m3s": 274.3,
+    "veces_el_caudal_normal": 4.1,
+    "caudal_percentil_75_m3s": 739.5,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 943.1,
+      "cambio_porcentual": 20,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 2234.3,
+      "cada_5_años": 2645.3,
+      "cada_10_años": 2917.5,
+      "cada_25_años": 3261.3,
+      "cada_50_años": 3516.4,
+      "cada_100_años": 3769.6
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-11",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1242.3,
+        "maximo_del_ensamble_mas_alto_m3s": 2467.3,
+        "maximo_alta_resolucion_m3s": 1168.8
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-10",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 831.2,
+        "maximo_del_ensamble_mas_alto_m3s": 1859.6,
+        "maximo_alta_resolucion_m3s": 880.8
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-09",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 992.5,
+        "maximo_del_ensamble_mas_alto_m3s": 2505.3,
+        "maximo_alta_resolucion_m3s": 988.0
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:16:41.000Z",
+    "estado": "completo"
+  }
+}

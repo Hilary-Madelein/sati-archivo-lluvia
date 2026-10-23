@@ -14,7 +14,7 @@
     "longitud": -79.807,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Por lluvias fuertes suscitadas en la noche del 18/10/2026, se registró inundación y anegación de calles en distintos sitios del casco urbano. Adicional, se registró tormentas eléctricas acompañadas de (truenos y relámpagos).\r\n Al momento, las calles de algunos sectores continúan con acumulación de agua estancada la cual ha evacuado considerablemente.\r\nSe ha retomado la presencialidad en las unidades educativas que fueron afectadas. UGR del GAD Cantonal, continúa realizando evaluación de necesidades. SNGR Brinda asesoría técnica y realiza monitoreo a las acciones de respuesta.",
+    "descripcion": "Por lluvias fuertes suscitadas en la noche del 18/10/2026, se registró inundación y anegación de calles en distintos sitios del casco urbano. Adicional, se registró tormentas eléctricas acompañadas de (truenos y relámpagos).\r\n Al momento, las calles de algunos sectores continúan con acumulación de agua estancada la cual ha evacuado considerablemente.\r\nLas clases en las unidades educativas fueron retomadas a modalidad presencial. UGR del GAD Cantonal, continúa realizando evaluación de necesidades. SNGR Brinda asesoría técnica y realiza monitoreo a las acciones de respuesta.",
     "personas_afectadas": 92,
     "viviendas_afectadas": 74,
     "personas_evacuadas": 0,
@@ -26,7 +26,7 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 3,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },

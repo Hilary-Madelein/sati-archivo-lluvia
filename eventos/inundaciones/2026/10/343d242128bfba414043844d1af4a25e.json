@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "343d242128bfba414043844d1af4a25e",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-09",
+    "hora": "23:50",
+    "provincia": "El Oro",
+    "canton": "Santa Rosa",
+    "parroquia": "Victoria",
+    "sector": "LA VICTORIA",
+    "latitud": -3.36995,
+    "longitud": -79.85825,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la tarde y noche del 09/10/2026, se registró el aumento y desbordamiento del caudal del Rio Buenavista afectando parcialmente la vía de segundo orden debido a la acumulación de sedimentos y palizada UGR GAD Cantonal constató el caudal del río ha retornado a su normalidad.\r\nCB del cantón realizó limpieza de la vía la cual quedado habilitada en su totalidad.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 34,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 33,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 1,0 mm (el mismo día). Estación Machala Granja Sta. Ines (a 10,8 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,5 mm (el mismo día). Río: 18,5 m³/s, 6,7 veces su caudal normal, bajando; no llegó a la crecida de 2 años (51,2 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-09 07:00",
+      "hasta": "2026-10-10 07:00",
+      "en_el_lugar_mm": 34.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-09 23:00",
+        "hasta": "2026-10-10 00:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-09 21:00",
+        "hasta": "2026-10-10 00:00",
+        "en_el_lugar_mm": 15.0,
+        "maxima_a_menos_de_5km_mm": 23.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-09 18:00",
+        "hasta": "2026-10-10 00:00",
+        "en_el_lugar_mm": 32.0,
+        "maxima_a_menos_de_5km_mm": 43.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-09 00:00",
+        "hasta": "2026-10-10 00:00",
+        "en_el_lugar_mm": 33.0,
+        "maxima_a_menos_de_5km_mm": 44.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 1.0,
+      "maxima_a_menos_de_5km_mm": 1.5
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-08 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-07 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.2
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M0292",
+      "nombre": "Machala Granja Sta. Ines",
+      "distancia_km": 10.8,
+      "latitud": -3.2913,
+      "longitud": -79.9154
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-09 02:00",
+      "hasta": "2026-10-10 02:00",
+      "hecho_el_mismo_dia_mm": 0.5,
+      "hecho_1_dia_antes_mm": 0.0,
+      "hecho_2_dias_antes_mm": 0.0,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 670027095,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 18.5,
+    "caudal_normal_del_mes_m3s": 2.7,
+    "veces_el_caudal_normal": 6.7,
+    "caudal_percentil_75_m3s": 6.9,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 26.2,
+      "cambio_porcentual": -29,
+      "sentido": "bajando"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 51.2,
+      "cada_5_años": 81.7,
+      "cada_10_años": 101.9,
+      "cada_25_años": 127.5,
+      "cada_50_años": 146.4,
+      "cada_100_años": 165.2
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-09",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 12.9,
+        "maximo_del_ensamble_mas_alto_m3s": 104.1,
+        "maximo_alta_resolucion_m3s": 8.7
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-08",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 32.5,
+        "maximo_del_ensamble_mas_alto_m3s": 134.5,
+        "maximo_alta_resolucion_m3s": 25.4
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-07",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 13.0,
+        "maximo_del_ensamble_mas_alto_m3s": 84.8,
+        "maximo_alta_resolucion_m3s": 21.0
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:23:34.000Z",
+    "estado": "completo"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "cd5da9fa9bcebfd0974a37d5135e31d0",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-02",
+    "hora": "04:00",
+    "provincia": "Pastaza",
+    "canton": "Arajuno",
+    "parroquia": "Curaray",
+    "sector": "Varios sectores.",
+    "latitud": -1.165104,
+    "longitud": -76.529242,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias presentes en la madrugada del 02/10/2026, se suscitó el desbordamiento de los ríos Tiwino, Bataboro y Shiripuno-Cononaco; se registra una inundación en varios sectores de la parroquia Curaray. Al momento, se evidencia una disminución progresiva en los niveles de los ríos Tiwino, Bataboro y Shiripuno-Cononaco, manteniendo una tendencia descendente. Asimismo, no se registran lluvias en el sector. Las posibles afectaciones derivadas del evento permanecen en proceso de evaluación y levantamiento de información en territorio.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 24,0 mm el día del evento en el lugar (hasta 27,0 mm a menos de 5 km) y 24,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 4,0 mm (2 días antes), 5,3 mm (1 día antes). Río: 28,0 m³/s, 0,8 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (332,7 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-01 07:00",
+      "hasta": "2026-10-02 07:00",
+      "en_el_lugar_mm": 24.0,
+      "maxima_a_menos_de_5km_mm": 27.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-02 04:00",
+        "hasta": "2026-10-02 05:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-02 02:00",
+        "hasta": "2026-10-02 05:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 2.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-01 23:00",
+        "hasta": "2026-10-02 05:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 2.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-01 05:00",
+        "hasta": "2026-10-02 05:00",
+        "en_el_lugar_mm": 24.0,
+        "maxima_a_menos_de_5km_mm": 26.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-01 02:00",
+      "hasta": "2026-10-02 02:00"
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-09-30 02:00",
+      "en_el_lugar_mm": 5.3,
+      "maxima_a_menos_de_5km_mm": 9.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-09-29 02:00",
+      "en_el_lugar_mm": 4.0,
+      "maxima_a_menos_de_5km_mm": 4.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 620915383,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 28.0,
+    "caudal_normal_del_mes_m3s": 33.5,
+    "veces_el_caudal_normal": 0.8,
+    "caudal_percentil_75_m3s": 57.9,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 10.5,
+      "cambio_porcentual": 21,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 332.7,
+      "cada_5_años": 452.8,
+      "cada_10_años": 532.3,
+      "cada_25_años": 632.7,
+      "cada_50_años": 707.2,
+      "cada_100_años": 781.2
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 26.9,
+        "maximo_del_ensamble_mas_alto_m3s": 216.2,
+        "maximo_alta_resolucion_m3s": 13.5
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-09-30",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 22.1,
+        "maximo_del_ensamble_mas_alto_m3s": 130.3,
+        "maximo_alta_resolucion_m3s": 24.5
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-09-29",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 27.1,
+        "maximo_del_ensamble_mas_alto_m3s": 327.1,
+        "maximo_alta_resolucion_m3s": 17.9
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:33:16.000Z",
+    "estado": "completo"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "d6ef297ec61868f1c016a98ed6f2b6da",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-17",
+    "hora": "06:00",
+    "provincia": "Esmeraldas",
+    "canton": "Eloy Alfaro",
+    "parroquia": "Atahualpa (cab. En Camarones)",
+    "sector": "Sector Atahualpa",
+    "latitud": 0.850647284972228,
+    "longitud": -78.96841779211425,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias registradas durante la noche del 16/10/2026 y madrugada del 17/10/2026, se produjo el desbordamiento del río Cayapas, ocasionando inundaciones en los sectores de Atahualpa.\r\n UGR Eloy Alfaro indica que el Río Cayapas, ya que no se encuentra desbordado, está con tendencia a aumentar de nivel; las familias permanecen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 125,0 mm el día del evento en el lugar (hasta 142,0 mm a menos de 5 km) y 125,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 81,6 mm (2 días antes), 60,3 mm (1 día antes), 43,1 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-16 07:00",
+      "hasta": "2026-10-17 07:00",
+      "en_el_lugar_mm": 125.0,
+      "maxima_a_menos_de_5km_mm": 142.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-17 06:00",
+        "hasta": "2026-10-17 07:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-17 04:00",
+        "hasta": "2026-10-17 07:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-17 01:00",
+        "hasta": "2026-10-17 07:00",
+        "en_el_lugar_mm": 5.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-16 07:00",
+        "hasta": "2026-10-17 07:00",
+        "en_el_lugar_mm": 125.0,
+        "maxima_a_menos_de_5km_mm": 142.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-16 02:00",
+      "hasta": "2026-10-17 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-16 02:00",
+      "en_el_lugar_mm": 43.1,
+      "maxima_a_menos_de_5km_mm": 53.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-15 02:00",
+      "en_el_lugar_mm": 60.3,
+      "maxima_a_menos_de_5km_mm": 81.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-14 02:00",
+      "en_el_lugar_mm": 81.6,
+      "maxima_a_menos_de_5km_mm": 110.9
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-23T18:14:44.000Z",
+    "estado": "espera"
+  }
+}
