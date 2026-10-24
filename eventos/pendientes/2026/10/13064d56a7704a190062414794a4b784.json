@@ -99,10 +99,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-20T18:25:59.000Z",
+    "procesado": "2026-10-24T17:19:13.000Z",
     "estado": "espera"
   }
 }

@@ -1,6 +1,6 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-23; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-10-24; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
 ## Selección depurada: **31 inundaciones** (`depurados.csv`)
 
@@ -8,10 +8,10 @@ Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio d
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 1573 |
-| …desde el 2026-01-01 | 1506 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1311 |
-| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 816 |
+| Completas (lluvia por satélite y caudal del río) | 1578 |
+| …desde el 2026-01-01 | 1511 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1314 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 818 |
 | …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 761 |
 | …con el pronóstico de caudal de las 3 corridas | 756 |
 | …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 427 |
@@ -68,10 +68,10 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1573 |
-| …con el pronóstico de lluvia del WRF para ese día | 1507 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 1506 |
-| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1310 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1578 |
+| …con el pronóstico de lluvia del WRF para ese día | 1511 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 1511 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1313 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 82 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 87 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |

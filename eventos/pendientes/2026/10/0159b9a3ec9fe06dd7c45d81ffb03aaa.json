@@ -13,8 +13,8 @@
     "latitud": -3.2581,
     "longitud": -79.9554,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 20/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano, así como el desbordamiento del canal El Macho. Las precipitaciones estuvieron acompañadas de una fuerte actividad eléctrica (truenos y relámpagos).\" El canal El Macho ha retornado a su caudal mormal. La acumulación de agua lluvia en la escuela Héroes del Cenepa fue evacuada y las clases retomaron a su modalidad presencial.\r\nAl momento no se registran lluvias en el cantón.",
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 20/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano, así como el desbordamiento del canal El Macho. Las precipitaciones estuvieron acompañadas de una fuerte actividad eléctrica (truenos y relámpagos) ademas se registró inundación en la escuela Héroes del Cenepa \" UGR GAD realizó recorrido de inspección por los sectores afectados, constatando que las aguas acumuladas han evacuado en su totalidad.\r\nMINEDEC informa que las clases se desarrolla con normalidad en la Escuela escuela Héroes del Cenepa .\r\nAl momento no se registran lluvias en el cantón.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -118,10 +118,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-09-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-20T18:24:45.000Z",
+    "procesado": "2026-10-24T17:17:47.000Z",
     "estado": "espera"
   }
 }
