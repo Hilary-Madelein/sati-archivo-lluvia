@@ -14,14 +14,14 @@
     "longitud": -79.365654,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "Debido a las lluvias suscitadas la noche del 07/10/2026, se reportó el incremento del caudal de río Frío y río Blanco, y posibles inundaciones en el sector.\r\n El 08/10/2026, SNGR de forma conjunta con GAD Provincial, DGR y Bomberos Cuenca realizó levantamiento de información y evaluación en la zona afectada; adicionalmente, informa que las afectaciones que fueron reportadas en el seguimiento no. 1. Por temas limítrofes, pertenecen al cantón Camilo Ponce Enríquez, reportado en el evento ID 2026-15089. El caudal del río Frío y río Blanco ha retornado a su cauce normal. SNGR realizó monitoreo del evento.",
-    "personas_afectadas": 0,
+    "descripcion": "Debido a las lluvias suscitadas la noche del 07/10/2026, se reportó el incremento del caudal de río Frío y río Blanco, y posibles inundaciones en el sector.\r\n El 08/10/2026, SNGR, de forma conjunta con GAD Provincial, DGR y Bomberos Cuenca, realizó levantamiento de información y evaluación en la zona afectada; adicionalmente, informa que las afectaciones que fueron reportadas en el seguimiento no. 1. Por temas limítrofes, pertenecen al cantón Camilo Ponce Enríquez, reportado en el evento ID 2026-15089. El caudal del río Frío y el río Blanco ha retornado a su cauce normal. SNGR realizó monitoreo del evento. Adicional, MAAPEA informó de animales de granja muertos, resultado de este evento.",
+    "personas_afectadas": 3,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 1,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 0,0 mm el día del evento en el lugar (hasta 1,0 mm a menos de 5 km) y 2,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,4 mm (el mismo día). Estación El Tablon - Las Cuevas (a 4,7 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día). Río: 70,5 m³/s, 10,5 veces su caudal normal, bajando; superó la crecida de 5 años (66,9 m³/s).",
   "lluvia_satelite": {

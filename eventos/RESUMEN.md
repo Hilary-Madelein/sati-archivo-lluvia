@@ -1,30 +1,30 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-24; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-10-25; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
-## Selección depurada: **31 inundaciones** (`depurados.csv`)
+## Selección depurada: **32 inundaciones** (`depurados.csv`)
 
 Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio de `cruzar_eventos.py` (`DEPURACION_…`): para afinar la selección se cambia un número y el siguiente cruce rehace esta tabla.
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 1578 |
-| …desde el 2026-01-01 | 1511 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1314 |
-| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 818 |
-| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 761 |
-| …con el pronóstico de caudal de las 3 corridas | 756 |
-| …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 427 |
-| …con lluvia real el mismo día: el satélite midió ≥ 30 mm | 156 |
-| …si fue desborde: el río llevaba ≥ 3 veces su caudal normal y no es un arroyo (caudal normal ≥ 1 m³/s) | 113 |
-| …con afectación importante: ≥ 50 personas afectadas | 34 |
-| **…uno por cantón y temporal (eventos a ≤ 3 días cuentan como uno; queda el de más personas afectadas)** | **31** |
+| Completas (lluvia por satélite y caudal del río) | 1589 |
+| …desde el 2026-01-01 | 1522 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1325 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 830 |
+| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 769 |
+| …con el pronóstico de caudal de las 3 corridas | 764 |
+| …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 431 |
+| …con lluvia real el mismo día: el satélite midió ≥ 30 mm | 157 |
+| …si fue desborde: el río llevaba ≥ 3 veces su caudal normal y no es un arroyo (caudal normal ≥ 1 m³/s) | 114 |
+| …con afectación importante: ≥ 50 personas afectadas | 35 |
+| **…uno por cantón y temporal (eventos a ≤ 3 días cuentan como uno; queda el de más personas afectadas)** | **32** |
 
 ### Por tipo de inundación
 
 | Tipo | Inundaciones |
 |---|---:|
-| Lluvia intensa (anegamiento) | 19 |
+| Lluvia intensa (anegamiento) | 20 |
 | Desborde de río | 12 |
 
 ### Por lluvia del día del evento
@@ -33,7 +33,7 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Lluvia | Inundaciones |
 |---|---:|
-| 30 a 50 mm | 13 |
+| 30 a 50 mm | 14 |
 | 50 a 100 mm | 15 |
 | 100 mm o más | 3 |
 
@@ -48,6 +48,7 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Mes | Inundaciones |
 |---|---:|
+| 2026-10 | 1 |
 | 2026-09 | 1 |
 | 2026-07 | 2 |
 | 2026-03 | 13 |
@@ -57,7 +58,7 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Provincia | Inundaciones |
 |---|---:|
-| Guayas | 11 |
+| Guayas | 12 |
 | El Oro | 7 |
 | Los Ríos | 5 |
 | Esmeraldas | 4 |
@@ -68,10 +69,10 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1578 |
-| …con el pronóstico de lluvia del WRF para ese día | 1511 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 1511 |
-| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1313 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1589 |
+| …con el pronóstico de lluvia del WRF para ese día | 1521 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 1522 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1323 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 87 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 112 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 0 |

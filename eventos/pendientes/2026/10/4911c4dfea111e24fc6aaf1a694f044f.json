@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "4911c4dfea111e24fc6aaf1a694f044f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-25",
+    "hora": "11:00",
+    "provincia": "Guayas",
+    "canton": "Santa Lucia",
+    "parroquia": "Santa Lucia",
+    "sector": "Recinto Jagual.",
+    "latitud": -1.7139925,
+    "longitud": -79.985009,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la tarde y noche del 24/10/2026, se reportan recintos con acumulación de agua.  Sectores se mantienen con acumulación de aguas y calles abnegadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 12,7 mm (2 días antes), 4,2 mm (1 día antes), 31,8 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-25 02:00",
+      "hasta": "2026-10-26 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-25 02:00",
+      "en_el_lugar_mm": 31.8,
+      "maxima_a_menos_de_5km_mm": 41.3
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-24 02:00",
+      "en_el_lugar_mm": 4.2,
+      "maxima_a_menos_de_5km_mm": 10.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-23 02:00",
+      "en_el_lugar_mm": 12.7,
+      "maxima_a_menos_de_5km_mm": 17.7
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-25T17:32:01.000Z",
+    "estado": "espera"
+  }
+}

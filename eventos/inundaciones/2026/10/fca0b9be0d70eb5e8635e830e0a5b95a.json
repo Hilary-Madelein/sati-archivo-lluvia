@@ -14,7 +14,7 @@
     "longitud": -79.9428711,
     "nivel": 2,
     "estado": "Cierre",
-    "descripcion": "MAG reportó la afectación de 38 hectáreas de cultivos de arroz con un total de $18.900 dólares y la destrucción de 298 hectáreas de cultivos de arroz con un total de $147.400 dólares.  MAG realizó la inspección de la novedad.",
+    "descripcion": "MAG reportó la afectación de 38 hectáreas de cultivos de arroz con un total de $18.900 dólares y la destrucción de 304 hectáreas de cultivos de arroz con un total de $150.400 dólares.  MAG realizó la inspección de la novedad.",
     "personas_afectadas": 340,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -28,7 +28,7 @@
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 38.0,
-    "hectareas_cultivo_perdidas": 298.0
+    "hectareas_cultivo_perdidas": 304.0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",

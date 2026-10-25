@@ -14,7 +14,7 @@
     "longitud": -79.68827957063661,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las precipitaciones registradas en la tarde del 20/10/2026 y al taponamiento de alcantarillas en el sector de San Rafael, se suscita una inundación en un tramo de la vía de primer orden. \r\n\r\nAFECTACIONES:\r\n- 1 tramo de vía de primer orden anegado.\r\n\r\nACCIONES DE RESPUESTA:\r\n20/10/2026\r\n- SNGR coordina la atención del evento con el GAD Cantonal de Esmeraldas.\r\n- SNGR realiza seguimiento al evento.\r\n\r\n La vía de primer orden se mantiene anegada.",
+    "descripcion": "Debido a las precipitaciones registradas en la tarde del 20/10/2026 y al taponamiento de alcantarillas en el sector de San Rafael, se suscita una inundación en un tramo de la vía de primer orden. \r\n\r\nAFECTACIONES:\r\n- 1 tramo de vía de primer orden anegado.\r\n\r\nACCIONES DE RESPUESTA:\r\n20/10/2026\r\n- SNGR coordina la atención del evento con el GAD Cantonal de Esmeraldas.\r\n- SNGR realiza seguimiento al evento.\r\n\r\n 24/10/2026 MIT informa que la vía de primer orden ya no se encuentra anegada.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -148,10 +148,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-15 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-21T18:31:26.000Z",
+    "procesado": "2026-10-25T17:34:26.000Z",
     "estado": "espera"
   }
 }

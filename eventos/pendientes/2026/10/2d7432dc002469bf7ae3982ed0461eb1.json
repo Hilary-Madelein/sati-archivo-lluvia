@@ -14,7 +14,7 @@
     "longitud": -79.61956271595768,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las precipitaciones registradas en la tarde del 20/10/2026, se registra una inundación en el recinto.  Teniente Política de la parroquia informa que el sector se mantiene anegado.",
+    "descripcion": "Debido a las precipitaciones registradas en la tarde del 20/10/2026, se registra una inundación en el recinto.  24/10/2026 Teniente Política de la parroquia informa que ya no se encuentra anegada.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -148,10 +148,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-15 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-21T18:31:50.000Z",
+    "procesado": "2026-10-25T17:34:35.000Z",
     "estado": "espera"
   }
 }
