@@ -63,13 +63,13 @@ M0003,66961,Izobamba,Meteorológica,-0.36592,-78.55512,3060.0,Operativa,No trans
 M0004,26,Rumipamba Salcedo,Meteorológica,-1.02,-78.5946,2685.0,Operativa,Transmitiendo
 M0005,16,Portoviejo Utm,Meteorológica,-1.0376,-80.4596,46.0,No operativa,No aplica
 M0006,1,Pichilingue,Meteorológica,-1.074343,-79.492908,120.0,Operativa,Transmitiendo
-M0007,62417,Nuevo Rocafuerte,Meteorológica,-0.920028,-75.403028,176.0,Operativa,No transmitiendo
+M0007,62417,Nuevo Rocafuerte,Meteorológica,-0.920028,-75.403028,176.0,Operativa,Transmitiendo
 M0008,2,Puyo,Meteorológica,-1.50567,-77.95828,949.0,Operativa,Transmitiendo
 M0009,6,La Victoria Inerhi,Meteorológica,-0.06,-78.323056,2262.0,No operativa,No aplica
 M0012,62420,La Cuca,Meteorológica,-3.496944,-80.081667,53.0,Operativa,Transmitiendo
 M0024,10,Iñaquito,Meteorológica,-0.1783,-78.48773,2789.0,No operativa,No transmitiendo
 M0024,63777,Iñaquito,Meteorológica,-0.1783,-78.48773,2789.0,Operativa,Transmitiendo
-M0025,62432,La Concordia,Meteorológica,-0.024778,-79.380278,243.0,Operativa,Transmitiendo
+M0025,62432,La Concordia,Meteorológica,-0.024778,-79.380278,243.0,Operativa,No transmitiendo
 M0026,57,Puerto Ila,Meteorológica,-0.4928,-79.3489,319.0,Operativa,Transmitiendo
 M0031,23,Cañar,Meteorológica,-2.5522,-78.9452,3083.0,Operativa,Transmitiendo
 M0032,24,Santa Isabel,Meteorológica,-3.2394,-79.27,1674.0,No operativa,No aplica
@@ -91,7 +91,7 @@ M0147,63794,Yangana,Meteorológica,-4.367917,-79.175056,1835.0,No operativa,No a
 M0150,63830,Amaluza 1,Meteorológica,-4.584722,-79.430556,1672.0,Operativa,No transmitiendo
 M0156,62558,Quininde,Meteorológica,0.319444,-79.471083,115.0,Operativa,Transmitiendo
 M0160,64181,El Carmen,Meteorológica,-0.259722,-79.426944,260.0,Operativa,Transmitiendo
-M0162,62564,Chone - U.catolica,Meteorológica,-0.6308,-80.03651,36.0,Operativa,Transmitiendo
+M0162,62564,Chone - U.catolica,Meteorológica,-0.6308,-80.03651,36.0,Operativa,No transmitiendo
 M0166,32,Olmedo,Meteorológica,-1.394694,-80.206944,50.0,No operativa,No aplica
 M0168,25,Pedernales,Meteorológica,0.063806,-80.050222,22.0,No operativa,No aplica
 M0176,63792,Naranjal,Meteorológica,-2.659917,-79.618056,50.0,No operativa,No aplica
@@ -151,7 +151,7 @@ M1274,63921,Politecnica Salesiana - Campus Sur,Meteorológica,-0.2819,-78.55,288
 M5001,14,Gualil,Meteorológica,-3.075139,-78.816222,0.0,No operativa,No aplica
 M5007,19,Espe Sto. Domingo,Meteorológica,-0.413611,-79.314167,294.0,No operativa,No aplica
 M5008,18,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Parcialmente operativa,Transmitiendo
-M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,No transmitiendo
+M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,Transmitiendo
 M5010,27,Narupa,Meteorológica,-0.731944,-77.783056,0.0,No operativa,No aplica
 M5011,20,Pacto Sumaco,Meteorológica,-0.668611,-77.595556,0.0,No operativa,No aplica
 M5089,63718,El Tablon - Las Cuevas,Meteorológica,-2.811589,-79.324639,3661.0,Cerrada,No aplica
