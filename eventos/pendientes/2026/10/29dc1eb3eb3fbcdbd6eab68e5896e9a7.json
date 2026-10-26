@@ -14,14 +14,14 @@
     "longitud": -76.94045440870181,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Por lluvias se produjo una inundación que causó el ingreso de agua a varias viviendas. De forma referencial y de acuerdo a la Estación EC00120 de Volunclima en la ciudad de Coca desde las 08.00 del 21/10/2016 hasta las 09:27 del 22/10/2026, se registró una precipitación de 83.4 mm.  as familias permanecen en sus viviendas, aunque todavía se observa acumulación de agua. GAD M de Francisco de Orellana se encuentra levantando las fichas EVIN. \r\nSNGR realiza seguimiento del evento.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "Por lluvias se produjo una inundación que causó el ingreso de agua a varias viviendas. De forma referencial y de acuerdo a la Estación EC00120 de Volunclima en la ciudad de Coca desde las 08.00 del 21/10/2016 hasta las 09:27 del 22/10/2026, se registró una precipitación de 83.4 mm.  Durante el levantamiento de información, las familias permanecían  en sus viviendas, aunque todavía se observó acumulación de agua.  GAD M de Francisco de Orellana levantó  las fichas EVIN. \r\nSNGR realiza seguimiento del evento.",
+    "personas_afectadas": 6,
+    "viviendas_afectadas": 2,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 2,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 26,0 mm el día del evento en el lugar (hasta 28,0 mm a menos de 5 km) y 17,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 18,0 mm (2 días antes), 2,7 mm (1 día antes), 0,0 mm (el mismo día). Estación Napo en Francisco de Orellana (a 5,4 km): el WRF pronosticaba ahí 7,4 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día); midió 89,0 mm ese día.",
   "lluvia_satelite": {
@@ -151,7 +151,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-23T18:12:21.000Z",
+    "procesado": "2026-10-26T19:51:51.000Z",
     "estado": "espera"
   }
 }

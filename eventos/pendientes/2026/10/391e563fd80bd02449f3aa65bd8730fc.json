@@ -1,0 +1,108 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "391e563fd80bd02449f3aa65bd8730fc",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-25",
+    "hora": "22:52",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "Dos Mangas.",
+    "latitud": -1.8502243,
+    "longitud": -80.7447812,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 25/10/2026, se ocasionó el desbordamiento del río Dos Mangas, afectando el paso sobre el baden.   La Comuna se encuentra aislada debido al aumento del caudal que evita el paso por el baden de Dos Mangas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 124,0 mm el día del evento en el lugar (hasta 129,0 mm a menos de 5 km) y 50,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 24,8 mm (2 días antes), 2,3 mm (1 día antes), 11,7 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-25 07:00",
+      "hasta": "2026-10-26 07:00",
+      "en_el_lugar_mm": 124.0,
+      "maxima_a_menos_de_5km_mm": 129.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-25 22:00",
+        "hasta": "2026-10-25 23:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-25 20:00",
+        "hasta": "2026-10-25 23:00",
+        "en_el_lugar_mm": 16.0,
+        "maxima_a_menos_de_5km_mm": 16.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-25 17:00",
+        "hasta": "2026-10-25 23:00",
+        "en_el_lugar_mm": 42.0,
+        "maxima_a_menos_de_5km_mm": 42.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-24 23:00",
+        "hasta": "2026-10-25 23:00",
+        "en_el_lugar_mm": 50.0,
+        "maxima_a_menos_de_5km_mm": 50.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-25 02:00",
+      "hasta": "2026-10-26 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-25 02:00",
+      "en_el_lugar_mm": 11.7,
+      "maxima_a_menos_de_5km_mm": 11.9
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-24 02:00",
+      "en_el_lugar_mm": 2.3,
+      "maxima_a_menos_de_5km_mm": 3.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-23 02:00",
+      "en_el_lugar_mm": 24.8,
+      "maxima_a_menos_de_5km_mm": 29.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-26T19:50:28.000Z",
+    "estado": "espera"
+  }
+}

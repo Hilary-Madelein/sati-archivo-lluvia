@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "840e93b9350cb83cb5c609a446c279d3",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-26",
+    "hora": "09:18",
+    "provincia": "El Oro",
+    "canton": "Pasaje",
+    "parroquia": "Buenavista",
+    "sector": "EL ZAPOTE",
+    "latitud": -3.3643343729622814,
+    "longitud": -79.84080985149717,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "UGR GAD Cantonal informo que porUGR GAD Cantonal informo que por lluvias suscitadas la madrugada del 26/10/2026, se registra el desbordamiento del rio Buenavista.lluvias suscitadas la madrugada del 26/10/2026, se registra el desbordamiento del rio Buenavista. Al momento el rio se encuentra desbordado inundando a una vivienda donde UGR GAD Cantonal se traslada a evacuar a una persona.",
+    "personas_afectadas": 1,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 7,2 mm (2 días antes), 16,2 mm (1 día antes), 0,9 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-26 02:00",
+      "hasta": "2026-10-27 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-26 02:00",
+      "en_el_lugar_mm": 0.9,
+      "maxima_a_menos_de_5km_mm": 17.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-25 02:00",
+      "en_el_lugar_mm": 16.2,
+      "maxima_a_menos_de_5km_mm": 21.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-24 02:00",
+      "en_el_lugar_mm": 7.2,
+      "maxima_a_menos_de_5km_mm": 8.6
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-26T19:49:35.000Z",
+    "estado": "espera"
+  }
+}
