@@ -1,0 +1,127 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "a62035615eeb6cb9a0729a75f2861562",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-16",
+    "hora": "14:25",
+    "provincia": "Los Ríos",
+    "canton": "Valencia",
+    "parroquia": "Valencia",
+    "sector": "RCTO. SAN PEDRO DE LA Y, RCTO. SAN SIMÓN ,RÍO CHILA",
+    "latitud": -0.800946,
+    "longitud": -79.444911,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de las fuertes lluvias en la tarde del 16/10/2026, se reportó desbordamiento del Río Chila, en donde se reportan 112 viviendas de 112 familias con 351 personas, con 20 metros lineales afectados en la vía de primer orden y se visualizan afectaciones a cultivos en evaluación.\r\n SNGR realizó inspección técnica con barrido en la zona afectada en compañía de jefa política y Cuerpo de Bomberos de Valencia, en donde se visualiza que el Río Chila se encuentra en su caudal con tendencia a disminuir de nivel; las familias permanecen en sus viviendas sin novedad, al igual que la vía de primer orden que se mantiene habilitada para el transporte vehicular, en donde no se visualizan afectaciones a cultivos.",
+    "personas_afectadas": 351,
+    "viviendas_afectadas": 112,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 112,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 23,0 mm el día del evento en el lugar (hasta 26,0 mm a menos de 5 km) y 126,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 7,9 mm (2 días antes), 1,5 mm (1 día antes), 0,6 mm (el mismo día). Estación Quevedo en Quevedo (a 23,2 km): el WRF pronosticaba ahí 0,7 mm (2 días antes), 0,0 mm (1 día antes), 3,4 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-16 07:00",
+      "hasta": "2026-10-17 07:00",
+      "en_el_lugar_mm": 23.0,
+      "maxima_a_menos_de_5km_mm": 26.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-16 14:00",
+        "hasta": "2026-10-16 15:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 3.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-16 12:00",
+        "hasta": "2026-10-16 15:00",
+        "en_el_lugar_mm": 4.0,
+        "maxima_a_menos_de_5km_mm": 5.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-16 09:00",
+        "hasta": "2026-10-16 15:00",
+        "en_el_lugar_mm": 4.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-15 15:00",
+        "hasta": "2026-10-16 15:00",
+        "en_el_lugar_mm": 126.0,
+        "maxima_a_menos_de_5km_mm": 164.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-16 02:00",
+      "hasta": "2026-10-17 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-16 02:00",
+      "en_el_lugar_mm": 0.6,
+      "maxima_a_menos_de_5km_mm": 2.6
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-15 02:00",
+      "en_el_lugar_mm": 1.5,
+      "maxima_a_menos_de_5km_mm": 3.4
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-14 02:00",
+      "en_el_lugar_mm": 7.9,
+      "maxima_a_menos_de_5km_mm": 19.2
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H0347",
+      "nombre": "Quevedo en Quevedo",
+      "distancia_km": 23.2,
+      "latitud": -1.009444,
+      "longitud": -79.456944
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-16 02:00",
+      "hasta": "2026-10-17 02:00",
+      "hecho_el_mismo_dia_mm": 3.4,
+      "hecho_1_dia_antes_mm": 0.0,
+      "hecho_2_dias_antes_mm": 0.7,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-27T19:24:43.000Z",
+    "estado": "espera"
+  }
+}

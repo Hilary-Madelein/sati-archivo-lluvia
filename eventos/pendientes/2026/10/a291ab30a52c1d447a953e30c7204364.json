@@ -1,0 +1,127 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "a291ab30a52c1d447a953e30c7204364",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-27",
+    "hora": "00:30",
+    "provincia": "Santo Domingo De Los Tsáchilas",
+    "canton": "Santo Domingo",
+    "parroquia": "Rio Verde",
+    "sector": "Liberación popular, Calle la Niña",
+    "latitud": -0.260967,
+    "longitud": -79.173935,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias suscitadas en la madrugada del 27/10/2026, se produjo el taponamiento de la red de alcantarillado del sector, provocando el ingreso de agua a las viviendas del sector y el colapso de una pared colindante. Las familias afectadas permanecen en las viviendas; el nivel del agua está bajando lentamente. Continúan inundados.\r\nSNGR coordinó con UGR GAD Santo Domingo la evaluación de daños y necesidades.\r\nSNGR confirmó el evento mediante material fotográfico.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 4,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 33,0 mm el día del evento en el lugar (hasta 39,0 mm a menos de 5 km) y 41,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 75,4 mm (2 días antes), 106,4 mm (1 día antes), 69,1 mm (el mismo día). Estación Blanco Dj Toachi(pte.unicoop) (a 22,9 km): el WRF pronosticaba ahí 55,6 mm (2 días antes), 55,6 mm (1 día antes), 6,5 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-26 07:00",
+      "hasta": "2026-10-27 07:00",
+      "en_el_lugar_mm": 33.0,
+      "maxima_a_menos_de_5km_mm": 39.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-27 00:00",
+        "hasta": "2026-10-27 01:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-26 22:00",
+        "hasta": "2026-10-27 01:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 2.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-26 19:00",
+        "hasta": "2026-10-27 01:00",
+        "en_el_lugar_mm": 19.0,
+        "maxima_a_menos_de_5km_mm": 22.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-26 01:00",
+        "hasta": "2026-10-27 01:00",
+        "en_el_lugar_mm": 41.0,
+        "maxima_a_menos_de_5km_mm": 47.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-26 02:00",
+      "hasta": "2026-10-27 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-26 02:00",
+      "en_el_lugar_mm": 69.1,
+      "maxima_a_menos_de_5km_mm": 87.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-25 02:00",
+      "en_el_lugar_mm": 106.4,
+      "maxima_a_menos_de_5km_mm": 126.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-24 02:00",
+      "en_el_lugar_mm": 75.4,
+      "maxima_a_menos_de_5km_mm": 85.3
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H0138",
+      "nombre": "Blanco Dj Toachi(pte.unicoop)",
+      "distancia_km": 22.9,
+      "latitud": -0.083889,
+      "longitud": -79.279722
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-10-26 02:00",
+      "hasta": "2026-10-27 02:00",
+      "hecho_el_mismo_dia_mm": 6.5,
+      "hecho_1_dia_antes_mm": 55.6,
+      "hecho_2_dias_antes_mm": 55.6,
+      "lluvia_medida_mm": null
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-27T19:18:39.000Z",
+    "estado": "espera"
+  }
+}

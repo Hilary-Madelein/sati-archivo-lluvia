@@ -14,7 +14,7 @@
     "longitud": -76.918093,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "En la comunidad Fredy Silva, en la vía que conduce hacia el sector El Guadual, se informa que la población se encuentra incomunicada debido a la inundación generada por el colapso de las alcantarillas. Adicionalmente, se registra la presencia de ramas sobre la vía, lo que ha ocasionado la interrupción del acceso y dificulta la movilidad de los habitantes de la zona. Voluntariado de Protección Civil confirmó el evento. SNGR coordinó con GAD Municipal de La Joya de los Sachas y Prefectura, la atención del evento.  GAD Municipal de la Joya de los Sachas con apoyo del GAD Parroquial de Lago San Pedro realizó una intervención inicial en la vía.  La vía se encuentra cerrada. GAD M de La Joya de los Sachas apoyó con viajes de lastre para iniciar la habilitación de una vía alterna, quedando pendiente la continuidad de los trabajos. GAD Provincial realizó una inspección.",
+    "descripcion": "En la comunidad Fredy Silva, en la vía que conduce hacia el sector El Guadual, se informa que la población se encuentra incomunicada debido a la inundación generada por el colapso de las alcantarillas. Adicionalmente, cayeron ramas sobre la vía, lo ocasionó  la interrupción del acceso y dificulta la movilidad de los habitantes de la zona.  El Voluntariado de Protección Civil confirmó el evento. Asimismo, MINEDEC informó que la unidad educativa Lago San Pedro del sector fue parcialmente afectada por las fuertes lluvias; actualmente, las actividades se desarrollan con normalidad. La SNGR coordinó con el GAD Municipal de La Joya de los Sachas y la Prefectura la atención del evento. El GAD Municipal de La Joya de los Sachas, con apoyo del GAD Parroquial de Lago San Pedro, realizó una intervención inicial en la vía. La vía se encuentra cerrada. GAD M de La Joya de los Sachas apoyó con viajes de lastre para iniciar la habilitación de una vía alterna, quedando pendiente la continuidad de los trabajos. GAD Provincial realizó una inspección.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -25,7 +25,7 @@
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
-    "escuelas_afectadas": 0,
+    "escuelas_afectadas": 1,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Colapso de drenaje",
     "codigo": "drainage_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 78,0 mm el día del evento en el lugar (hasta 96,0 mm a menos de 5 km) y 125,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,1 mm (1 día antes), 0,0 mm (el mismo día). Estación Coca en San Sebastian (a 15,7 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 12,6 mm (1 día antes), 0,8 mm (el mismo día). Río: 5,0 m³/s, 0,7 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (93,7 m³/s).",
   "lluvia_satelite": {

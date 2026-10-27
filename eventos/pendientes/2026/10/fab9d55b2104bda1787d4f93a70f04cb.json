@@ -14,7 +14,7 @@
     "longitud": -79.96198697354738,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano. Adicional se reportan tormentas eléctricas acompañadas de (truenos y relámpagos) Se  registra cortes de energía eléctrica en varios sectores.  MINEDEC activa plan de contingencia, UTMACH y varias unidades educativas mediante plan de contingencia activaron clases virtuales hasta nuevo aviso.\r\nDebido a las persistentes precipitaciones y tormenta eléctrica que se repiten la madrugada del 26/10/2026 el canal El Macho continúa desbordado y varios sectores inundados.Varia familias fueron evacuadas al coliseo 3000. \r\nCuerpo de bomberos, Policía nacional, Participación ciudadana y riesgos de GAD Machala participaros en el traslado de las familias afectadas hacia el albergue\r\n Policía Nacional brindó seguridad en la evaluación y en albergues con Policía Municipal.",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano, como también el desbordamiento del canal El Macho. Adicional se reportaron tormentas eléctricas acompañadas de (truenos y relámpagos). Debido a las persistentes precipitaciones y tormenta eléctrica que se registraron en la madrugada del 26/10/2026 los sectores mencionados, continúan anegados. El alojamiento temporal Coliseo 300 se mantiene activo brindando atención a las familias albergadas. En cuanto al canal de El Macho y La Puentecita, continúa fuera de su cauce normal, provocando anegamientos en la zona. Ante esta situación, las autoridades educativas han dispuesto el cambio a la modalidad de clases virtuales hasta nuevo aviso. En cuanto al servicio básico de energía eléctrico se encuentra rehabilitado.\r\nAdicional se está implementando un alojamiento temporal en las instalaciones UTMACH (Universidad Técnica Machala) en caso de que las familias requieran alojamiento, cabe indicar que al momento no existe personas en dicho alojamiento.\r\nSNGR Coordinador Zonal 7 mantiene reunión con Gobernación de El Oro, GAD Cantonal, GAD Provincial, MIT, MSP y MAE para articular acciones de mitigación para la evacuación de aguas retenidas por lluvias",
     "personas_afectadas": 876,
     "viviendas_afectadas": 438,
     "personas_evacuadas": 0,
@@ -26,14 +26,14 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 2,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Colapso de drenaje",
-    "codigo": "drainage_flood",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 144,0 mm el día del evento en el lugar (hasta 155,0 mm a menos de 5 km) y 38,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,5 mm (2 días antes), 0,3 mm (1 día antes), 0,3 mm (el mismo día). Estación Ministerio de Salud Machala - Snem (a 1,1 km): el WRF pronosticaba ahí 0,5 mm (2 días antes), 0,3 mm (1 día antes), 0,3 mm (el mismo día).",

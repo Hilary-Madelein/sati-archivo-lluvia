@@ -14,14 +14,14 @@
     "longitud": -79.1594477376176,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Producto de las lluvias suscitadas en la noche del 25/10/2026, se suscitó el desbordamiento del estero S/N; se produjo el ingreso de agua a una vivienda del sector. Sigue desbordado el estero S/N, bajo su nivel, ya no se encuentra desbordado; la familia permanece en la vivienda. \r\nObras Públicas avanza al sitio a realizar trabajos de limpieza.\r\nSNGR coordinó con la UGR GAD Santo Domingo la evaluación de daños y necesidades.",
-    "personas_afectadas": 0,
+    "descripcion": "Producto de las lluvias suscitadas en la noche del 25/10/2026, se suscitó el desbordamiento del estero S/N; se produjo el ingreso de agua a una vivienda del sector. El estero S/N bajo su nivel ya no se encuentra desbordado, la familia permanece en la vivienda. 26/10/2026 Patronato Municipal de GAD Santo Domingo realizo evaluación de daños y necesidades de igual manera coordino con SNGR la entrega de asistencia humanitaria.",
+    "personas_afectadas": 4,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 1,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 36,0 mm el día del evento en el lugar (hasta 39,0 mm a menos de 5 km) y 13,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 15,2 mm (2 días antes), 43,6 mm (1 día antes), 75,1 mm (el mismo día). Estación Espe Sto. Domingo (a 19,9 km): el WRF pronosticaba ahí 46,2 mm (2 días antes), 24,9 mm (1 día antes), 56,2 mm (el mismo día).",
   "lluvia_satelite": {

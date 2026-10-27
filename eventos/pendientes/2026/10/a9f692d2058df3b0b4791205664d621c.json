@@ -14,7 +14,7 @@
     "longitud": -79.96604275681804,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias suscitadas en la noche del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano. Adicional se reportan tormentas eléctricas acompañadas de (truenos y relámpagos)\r\n\r\n Por lluvias continuas la noche del 25/10/2026 y madrugada del 26/10/2026, las calles mantienen acumulación de agua en varios sectores. MINEDEC informa la activación del plan de contingencia de varias unidades educativas que presenta acumulación de agua en sus patios, pasillos y aulas. Al momento se mantiene activo el alojamiento temporal Los Helechos",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la noche del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano. Adicional se reportan tormentas eléctricas acompañadas de (truenos y relámpagos). Debido a las lluvias registradas en la madrugada del 26/10/2026, se registró el aumento del caudal del río Carne Amarga a la altura del puente Pital.\r\n El río Carne Amarga se encuentra dentro de sus parámetros normales y los centros de salud afectados por ingreso de agua, se encuentran operativos. Por su parte, el sector educativo mantiene la modalidad de clases no presenciales. Finalmente, se registran dos alojamientos temporales activos: ?Los Helechos? y ?Casa Comunal Santa Rosa",
     "personas_afectadas": 58,
     "viviendas_afectadas": 29,
     "personas_evacuadas": 0,
@@ -26,14 +26,14 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 2,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 125,0 mm el día del evento en el lugar (hasta 148,0 mm a menos de 5 km) y 17,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,5 mm (2 días antes), 1,2 mm (1 día antes), 8,6 mm (el mismo día). Estación La Cuca (a 13,6 km): el WRF pronosticaba ahí 6,0 mm (2 días antes), 2,3 mm (1 día antes), 1,3 mm (el mismo día).",

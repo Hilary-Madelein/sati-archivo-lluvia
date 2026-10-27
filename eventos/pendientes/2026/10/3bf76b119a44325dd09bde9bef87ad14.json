@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "3bf76b119a44325dd09bde9bef87ad14",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-27",
+    "hora": "07:23",
+    "provincia": "Esmeraldas",
+    "canton": "San Lorenzo",
+    "parroquia": "Tululbi (cab. En Ricaurte)",
+    "sector": "Pambilar",
+    "latitud": 1.17861,
+    "longitud": -78.7653,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias registradas en la madrugada y mañana del 27/10/2026, se produjo el desbordamiento del río Palabí, suscitándose la inundación en la comunidad de Pambilar.  27/10/2026 | UGR San Lorenzo se moviliza a realizar el levantamiento de información y daños. \r\nSNGR, MDTH y MSP avanzan a realizar actividades de atención a la población impactada. El río se encuentra con tendencia a aumentar de nivel.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 11,5 mm (2 días antes), 6,5 mm (1 día antes), 0,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-27 02:00",
+      "hasta": "2026-10-28 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-27 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 10.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-26 02:00",
+      "en_el_lugar_mm": 6.5,
+      "maxima_a_menos_de_5km_mm": 10.2
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-25 02:00",
+      "en_el_lugar_mm": 11.5,
+      "maxima_a_menos_de_5km_mm": 32.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-27T19:18:22.000Z",
+    "estado": "espera"
+  }
+}

@@ -14,14 +14,14 @@
     "longitud": -79.618917,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la madrugada del 18/10/2026 y el 19/10/2026, se produjeron inundaciones que afectaron a viviendas y áreas de cultivo en los sectores aledaños. Además, el desbordamiento de un canal de drenaje de aguas lluvias, ubicado en las inmediaciones del sector ?Canal D?. GAD Cantonal informó canal de drenaje de aguas lluvias en su cauce normal",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 18/10/2026, se produjeron inundaciones que afectaron a viviendas y áreas de cultivos en los sectores aledaños. Además, el desbordamiento de un canal de drenaje de aguas lluvias, ubicado en las inmediaciones del sector ?Canal D?. GAD Cantonal informa que las familias afectadas y damnificadas realizaron las debidas limpiezas y se encuentran en sus respectivos inmuebles.",
+    "personas_afectadas": 35,
+    "viviendas_afectadas": 9,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
-    "personas_damnificadas": 0,
+    "personas_damnificadas": 6,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 9,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -32,9 +32,9 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
-    "afectacion_verificada": false
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 5,0 mm el día del evento en el lugar (hasta 8,0 mm a menos de 5 km) y 1,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,3 mm (el mismo día). Estación La Lampada (a 20,7 km): el WRF pronosticaba ahí 0,4 mm (2 días antes), 5,2 mm (1 día antes), 1,7 mm (el mismo día); midió 0,3 mm ese día.",
   "lluvia_satelite": {

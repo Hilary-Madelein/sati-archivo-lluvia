@@ -1,0 +1,151 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "9cf477a9e129ea1de4904a0bfa194633",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-11",
+    "hora": "18:00",
+    "provincia": "Azuay",
+    "canton": "Santa Isabel",
+    "parroquia": "El Carmen De Pujili",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA 22 DE NOVIEMBRE",
+    "latitud": -2.9539584,
+    "longitud": -79.640691,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias registradas la tarde del 11/10/2026, se produjo acumulación de agua en las vías, lo que dificultó el traslado de los estudiantes de la Escuela de Educación Básica 22 de Noviembre hacia sus clases. MINEDEC suspendió las clases presenciales para resguardar la seguridad de los estudiantes y del personal docente; una vez desfogado el agua de las vías, retomaron sus clases normales.\r\n Debido a las lluvias registradas la tarde del 11/10/2026, se produjo acumulación de agua en las vías, lo que dificultó el traslado de los estudiantes de la Escuela de Educación Básica 22 de Noviembre hacia sus clases. MINEDEC suspendió las clases presenciales para resguardar la seguridad de los estudiantes y del personal docente; una vez desfogado el agua de las vías, retomaron sus clases normales.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 5,0 mm el día del evento en el lugar (hasta 8,0 mm a menos de 5 km) y 43,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 4,8 mm (2 días antes), 19,4 mm (1 día antes), 25,2 mm (el mismo día). Río: 34,7 m³/s, 12,2 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (46,7 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-11 07:00",
+      "hasta": "2026-10-12 07:00",
+      "en_el_lugar_mm": 5.0,
+      "maxima_a_menos_de_5km_mm": 8.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-11 18:00",
+        "hasta": "2026-10-11 19:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-11 16:00",
+        "hasta": "2026-10-11 19:00",
+        "en_el_lugar_mm": 4.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-11 13:00",
+        "hasta": "2026-10-11 19:00",
+        "en_el_lugar_mm": 4.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-10 19:00",
+        "hasta": "2026-10-11 19:00",
+        "en_el_lugar_mm": 43.0,
+        "maxima_a_menos_de_5km_mm": 43.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-11 02:00",
+      "hasta": "2026-10-12 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-11 02:00",
+      "en_el_lugar_mm": 25.2,
+      "maxima_a_menos_de_5km_mm": 33.1
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-10 02:00",
+      "en_el_lugar_mm": 19.4,
+      "maxima_a_menos_de_5km_mm": 28.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-09 02:00",
+      "en_el_lugar_mm": 4.8,
+      "maxima_a_menos_de_5km_mm": 10.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670009669,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 34.7,
+    "caudal_normal_del_mes_m3s": 2.8,
+    "veces_el_caudal_normal": 12.2,
+    "caudal_percentil_75_m3s": 8.1,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 7.5,
+      "cambio_porcentual": 29,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 46.7,
+      "cada_5_años": 73.1,
+      "cada_10_años": 90.5,
+      "cada_25_años": 112.6,
+      "cada_50_años": 129.0,
+      "cada_100_años": 145.3
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-10-11",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 10.6,
+        "maximo_del_ensamble_mas_alto_m3s": 43.9,
+        "maximo_alta_resolucion_m3s": 22.7
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-10",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 13.2,
+        "maximo_del_ensamble_mas_alto_m3s": 48.3,
+        "maximo_alta_resolucion_m3s": 20.8
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-09",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 5.9,
+        "maximo_del_ensamble_mas_alto_m3s": 50.8,
+        "maximo_alta_resolucion_m3s": 15.4
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-10-27T19:25:30.000Z",
+    "estado": "completo"
+  }
+}

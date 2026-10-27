@@ -15,13 +15,13 @@
     "nivel": 1,
     "estado": "Cierre",
     "descripcion": "Debido a las lluvias registradas en la madrugada del 10/10/2026 en las zonas altas, se produjo el incremento del caudal y posterior desbordamiento del río Blanco, generando inundaciones en el sector. 20/10/2026 UGR Quinindé informa que el río Blanco ya no está desbordado,no hay calles anegadas en el sector; las personas afectadas se encuentran en casas de acogida. Al momento, no se registran precipitaciones en el sector.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "personas_afectadas": 34,
+    "viviendas_afectadas": 17,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 17,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 33,0 mm el día del evento en el lugar (hasta 34,0 mm a menos de 5 km) y 63,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 47,9 mm (2 días antes), 41,6 mm (1 día antes), 28,3 mm (el mismo día). Estación La Concordia (a 14,7 km): el WRF pronosticaba ahí 5,1 mm (2 días antes), 25,7 mm (1 día antes), 11,7 mm (el mismo día). Río: 808,1 m³/s, 2,6 veces su caudal normal, bajando; no llegó a la crecida de 2 años (1685,3 m³/s).",
   "lluvia_satelite": {

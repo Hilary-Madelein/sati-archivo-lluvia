@@ -14,7 +14,7 @@
     "longitud": -79.5130262,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de aguas en las calles, dejando calles anegadas. EMSABA EP se moviliza hacia varios sectores para realizar trabajos de destaponamiento del sistema de alcantarillado.\r\nSNGR consolidó información y realizó la verificación de novedades, manteniéndose en constante monitoreo del evento. Actualmente, las calles siguen con presencia de agua, ya que aún se presentan lluvias en el sector.",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de aguas en las calles, dejando 80 metros lineales afectados. ATM realizó verificación de novedades en la zona afectada, en donde actualmente no se visualiza acumulación de agua en las vías de primer orden, la misma que se mantiene habilitada para el paso vehicular y peatonal; por tal motivo, damos por finalizado el evento.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Colapso de drenaje",
-    "codigo": "drainage_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 110,0 mm el día del evento en el lugar (hasta 118,0 mm a menos de 5 km) y 33,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 28,4 mm (2 días antes), 50,9 mm (1 día antes), 24,5 mm (el mismo día). Estación San Pablo en Palmar (a 8,5 km): el WRF pronosticaba ahí 67,9 mm (2 días antes), 96,4 mm (1 día antes), 38,1 mm (el mismo día).",
