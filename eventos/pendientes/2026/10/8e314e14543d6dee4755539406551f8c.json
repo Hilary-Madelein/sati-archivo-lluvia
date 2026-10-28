@@ -36,8 +36,42 @@
     "codigo": "river_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Pronóstico WRF para ese día: 0,5 mm (2 días antes), 0,6 mm (1 día antes), 1,3 mm (el mismo día).",
-  "lluvia_satelite": null,
+  "resumen": "Satélite: 69,0 mm el día del evento en el lugar (hasta 84,0 mm a menos de 5 km) y 57,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,5 mm (2 días antes), 0,6 mm (1 día antes), 1,3 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-25 07:00",
+      "hasta": "2026-10-26 07:00",
+      "en_el_lugar_mm": 69.0,
+      "maxima_a_menos_de_5km_mm": 84.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-25 08:00",
+        "hasta": "2026-10-25 09:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-25 06:00",
+        "hasta": "2026-10-25 09:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-25 03:00",
+        "hasta": "2026-10-25 09:00",
+        "en_el_lugar_mm": 10.0,
+        "maxima_a_menos_de_5km_mm": 10.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-24 09:00",
+        "hasta": "2026-10-25 09:00",
+        "en_el_lugar_mm": 57.0,
+        "maxima_a_menos_de_5km_mm": 71.0
+      }
+    }
+  },
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
     "periodo": {
@@ -65,11 +99,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "lluvia por satélite: aún no publicada",
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-25T17:32:01.000Z",
+    "procesado": "2026-10-28T19:26:28.000Z",
     "estado": "espera"
   }
 }

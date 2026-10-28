@@ -1,20 +1,20 @@
 {
   "version": 4,
   "evento": {
-    "id": "621e1d1437e55058f9a4a14662516578",
+    "id": "da49dda53e28e9d16f2e2bb0070e70d6",
     "tipo": "Inundación",
     "causa": "Lluvias intensas",
     "fecha": "2026-03-07",
     "hora": "11:30",
     "provincia": "El Oro",
     "canton": "Las Lajas",
-    "parroquia": "San Isidro",
-    "sector": "SAN  ISIDRO",
-    "latitud": -3.740773,
-    "longitud": -79.997423,
+    "parroquia": "El Paraíso",
+    "sector": "EL PARAISO",
+    "latitud": -3.778024,
+    "longitud": -80.02712,
     "nivel": 2,
     "estado": "Cierre",
-    "descripcion": "SNGR mediante recorrido informa que debido a las lluvias suscitadas la tarde y noche del 06/03/2026, se registró el aumento del caudal del rio Las Lajas, provocando que varias viviendas resultaran afectadas por el ingreso de agua.\r\n\r\n Se informa que las familias se mantienen en sus viviendas y el agua evacuó en su totalidad.",
+    "descripcion": "SNGR mediante recorrido informa que debido a las lluvias suscitadas la tarde y noche del 06/03/2026, se registró el aumento del caudal del rio Las Lajas, provocando que varias viviendas resultaran afectadas por el ingreso de agua.\r\n El caudal del río se encuentra en sus parámetros normales y las familias se encuentran en sus domicilios,  luego que el agua lluvia evacuó en su totalidad. Además, fueron beneficiadas por la entrega de asistencia humanitaria.",
     "personas_afectadas": 200,
     "viviendas_afectadas": 50,
     "personas_evacuadas": 0,
@@ -36,14 +36,14 @@
     "codigo": "river_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 43,0 mm el día del evento en el lugar (hasta 60,0 mm a menos de 5 km) y 9,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 13,7 mm (2 días antes), 3,5 mm (1 día antes), 21,5 mm (el mismo día). Estación Las Lajas (a 9,1 km): el WRF pronosticaba ahí 18,1 mm (2 días antes), 9,1 mm (1 día antes), 21,5 mm (el mismo día). Río: 14,6 m³/s, 6,0 veces su caudal normal, bajando; no llegó a la crecida de 2 años (25,5 m³/s).",
+  "resumen": "Satélite: 66,0 mm el día del evento en el lugar (hasta 86,0 mm a menos de 5 km) y 12,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 17,1 mm (2 días antes), 3,6 mm (1 día antes), 23,4 mm (el mismo día). Estación Las Lajas (a 4,1 km): el WRF pronosticaba ahí 18,1 mm (2 días antes), 9,1 mm (1 día antes), 21,5 mm (el mismo día). Río: 14,6 m³/s, 6,0 veces su caudal normal, bajando; no llegó a la crecida de 2 años (25,5 m³/s).",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. Cada día va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
       "desde": "2026-03-07 07:00",
       "hasta": "2026-03-08 07:00",
-      "en_el_lugar_mm": 43.0,
-      "maxima_a_menos_de_5km_mm": 60.0
+      "en_el_lugar_mm": 66.0,
+      "maxima_a_menos_de_5km_mm": 86.0
     },
     "antes_del_evento": {
       "ultimas_1_h": {
@@ -67,8 +67,8 @@
       "ultimas_24_h": {
         "desde": "2026-03-06 12:00",
         "hasta": "2026-03-07 12:00",
-        "en_el_lugar_mm": 9.0,
-        "maxima_a_menos_de_5km_mm": 12.0
+        "en_el_lugar_mm": 12.0,
+        "maxima_a_menos_de_5km_mm": 20.0
       }
     }
   },
@@ -80,18 +80,18 @@
     },
     "hecho_el_mismo_dia": {
       "corrida_del_modelo": "2026-03-07 02:00",
-      "en_el_lugar_mm": 21.5,
-      "maxima_a_menos_de_5km_mm": 21.5
+      "en_el_lugar_mm": 23.4,
+      "maxima_a_menos_de_5km_mm": 23.4
     },
     "hecho_1_dia_antes": {
       "corrida_del_modelo": "2026-03-06 02:00",
-      "en_el_lugar_mm": 3.5,
-      "maxima_a_menos_de_5km_mm": 6.0
+      "en_el_lugar_mm": 3.6,
+      "maxima_a_menos_de_5km_mm": 9.1
     },
     "hecho_2_dias_antes": {
       "corrida_del_modelo": "2026-03-05 02:00",
-      "en_el_lugar_mm": 13.7,
-      "maxima_a_menos_de_5km_mm": 14.6
+      "en_el_lugar_mm": 17.1,
+      "maxima_a_menos_de_5km_mm": 18.1
     }
   },
   "lluvia_estacion_inamhi": {
@@ -99,7 +99,7 @@
     "estacion": {
       "codigo": "M1246",
       "nombre": "Las Lajas",
-      "distancia_km": 9.1,
+      "distancia_km": 4.1,
       "latitud": -3.79264,
       "longitud": -80.06093
     },
@@ -164,6 +164,6 @@
     "completo": true,
     "falta": [],
     "fallos": 0,
-    "procesado": "2026-10-15T22:18:56.000Z"
+    "procesado": "2026-10-15T22:18:52.000Z"
   }
 }

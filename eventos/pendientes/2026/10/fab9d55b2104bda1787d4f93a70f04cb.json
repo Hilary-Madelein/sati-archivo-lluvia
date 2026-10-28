@@ -14,7 +14,7 @@
     "longitud": -79.96198697354738,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano, como también el desbordamiento del canal El Macho. Adicional se reportaron tormentas eléctricas acompañadas de (truenos y relámpagos). Debido a las persistentes precipitaciones y tormenta eléctrica que se registraron en la madrugada del 26/10/2026 los sectores mencionados, continúan anegados. El alojamiento temporal Coliseo 300 se mantiene activo brindando atención a las familias albergadas. En cuanto al canal de El Macho y La Puentecita, continúa fuera de su cauce normal, provocando anegamientos en la zona. Ante esta situación, las autoridades educativas han dispuesto el cambio a la modalidad de clases virtuales hasta nuevo aviso. En cuanto al servicio básico de energía eléctrico se encuentra rehabilitado.\r\nAdicional se está implementando un alojamiento temporal en las instalaciones UTMACH (Universidad Técnica Machala) en caso de que las familias requieran alojamiento, cabe indicar que al momento no existe personas en dicho alojamiento.\r\nSNGR Coordinador Zonal 7 mantiene reunión con Gobernación de El Oro, GAD Cantonal, GAD Provincial, MIT, MSP y MAE para articular acciones de mitigación para la evacuación de aguas retenidas por lluvias",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la madrugada del 24/10/2026, generaron inundaciones y anegamiento de calles en distintos sectores del casco urbano, como también el desbordamiento del canal El Macho. Adicional se reportaron tormentas eléctricas acompañadas de (truenos y relámpagos). Debido a las persistentes precipitaciones y tormenta eléctrica que se registraron en la madrugada del 26/10/2026 los sectores mencionados, continúan anegados. El alojamiento Coliseo 3000 y Coliseo UTMACH se mantienen activos. El canal El Macho continúa desbordado y el de La Puentecita se encuentra con tendencia a aumentar de nivel. Cabe mencionar que algunos sectores siguen inundados en distintos puntos de la ciudad y los centros de salud afectados se encuentran operativos.",
     "personas_afectadas": 876,
     "viviendas_afectadas": 438,
     "personas_evacuadas": 0,
@@ -26,14 +26,14 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 2,
+    "centros_de_salud_afectados": 4,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 144,0 mm el día del evento en el lugar (hasta 155,0 mm a menos de 5 km) y 38,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,5 mm (2 días antes), 0,3 mm (1 día antes), 0,3 mm (el mismo día). Estación Ministerio de Salud Machala - Snem (a 1,1 km): el WRF pronosticaba ahí 0,5 mm (2 días antes), 0,3 mm (1 día antes), 0,3 mm (el mismo día).",
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-25T17:33:18.000Z",
+    "procesado": "2026-10-28T19:27:11.000Z",
     "estado": "espera"
   }
 }

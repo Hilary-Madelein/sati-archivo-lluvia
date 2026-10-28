@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "933343300a2bfd16515f02cebfa1737e",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-28",
+    "hora": "09:44",
+    "provincia": "Santa Elena",
+    "canton": "Salinas",
+    "parroquia": "Salinas",
+    "sector": "Varios sectores: Barrio Pedro José y Pueblo Nuevo.",
+    "latitud": -2.218986089111795,
+    "longitud": -80.95983944322018,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas durante la mañana 28/10/2026, se reportó la acumulación de agua en el sector. Gad Cantonal Salinas informa que mediante cámaras se observan las calles anegadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 7,3 mm (2 días antes), 0,3 mm (1 día antes), 0,1 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-28 02:00",
+      "hasta": "2026-10-29 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 0.6
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-27 02:00",
+      "en_el_lugar_mm": 0.3,
+      "maxima_a_menos_de_5km_mm": 0.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-26 02:00",
+      "en_el_lugar_mm": 7.3,
+      "maxima_a_menos_de_5km_mm": 18.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-28T19:24:59.000Z",
+    "estado": "espera"
+  }
+}

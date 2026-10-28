@@ -13,15 +13,15 @@
     "latitud": -3.242643289635095,
     "longitud": -79.83439741762635,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias con tormenta eléctrica (Rayos y Truenos) suscitadas en la noche del 24/10/2026, generaron inundaciones en varios sectores dejando varias viviendas afectadas con el ingreso de agua.\r\n  CB del canto procedio a evacuar a 1 familia afectada hacia casa de familia acogiente, al momento  varios sectores de la parroquia continuan inundados a causa de las fuertes precipitaciones y el desbordamiento del Rio Bonito, además se reporta sectores sin servicio de energía eléctrica. Cuerpo de Bomberos y UGR de El Guabo realizan recorrido en los sectores afectados.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 5,
+    "estado": "Cierre",
+    "descripcion": "Debido a las fuertes lluvias con tormenta eléctrica (Rayos y Truenos) suscitadas en la noche del 24/10/2026, generaron inundaciones en varios sectores dejando varias viviendas afectadas con el ingreso de agua como también a una unidad educativa. SNGR en monitoreo con GAD El Guabo y MINEDEC se indica que las familias afectadas permanecen en sus viviendas y las clases se mantendrán en modalidad no presencial. Y en cuanto al servicio de energía eléctrica se encuentra rehabilitado.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 10,
     "personas_evacuadas": 5,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 5,
+    "familias_afectadas": 10,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 149,0 mm el día del evento en el lugar (hasta 153,0 mm a menos de 5 km) y 50,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,9 mm (2 días antes), 3,6 mm (1 día antes), 0,1 mm (el mismo día). Estación Machala Granja Sta. Ines (a 10,5 km): el WRF pronosticaba ahí 0,5 mm (2 días antes), 1,1 mm (1 día antes), 0,1 mm (el mismo día).",
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-25T17:32:52.000Z",
+    "procesado": "2026-10-28T19:27:05.000Z",
     "estado": "espera"
   }
 }

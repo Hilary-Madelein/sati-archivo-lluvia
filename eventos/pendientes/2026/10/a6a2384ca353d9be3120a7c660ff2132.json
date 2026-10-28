@@ -13,15 +13,15 @@
     "latitud": -0.9925323745702748,
     "longitud": -80.41742228384047,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias presentadas durante el día 20/10/2026, se reporta inundación en el sector, en el cual se reportan 2 viviendas afectadas. Las familias afectadas se mantienen en sus viviendas.",
-    "personas_afectadas": 9,
-    "viviendas_afectadas": 2,
+    "estado": "Cierre",
+    "descripcion": "Debido a las lluvias presentadas durante el día 20/10/2026, se reporta inundación en el sector. Las familias afectadas se mantienen en sus viviendas. \r\n-28/10/2026 SNGR realizó la entrega de AH.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
-    "personas_damnificadas": 0,
+    "personas_damnificadas": 3,
     "personas_extraviadas": 0,
-    "familias_afectadas": 2,
+    "familias_afectadas": 0,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -151,7 +151,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-25T17:34:48.000Z",
+    "procesado": "2026-10-28T19:28:59.000Z",
     "estado": "espera"
   }
 }
