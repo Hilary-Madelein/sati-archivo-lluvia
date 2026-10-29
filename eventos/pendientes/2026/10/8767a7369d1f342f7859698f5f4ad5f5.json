@@ -13,8 +13,8 @@
     "latitud": -3.1042585951776838,
     "longitud": -79.7649422445007,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la madrugada del 19/10/2026, se reportó el desbordamiento del rio Pagua en el sector la esperanza, se ha ingresado agua a varias viviendas. UGR GAD Cantonal mediante evaluación informa que una familia resulto afectada por el evento misma que se mantiene en casa acogiente; se actualiza las cifras de afectación.\r\nEl rio Pagua continúa desbordado. \r\nSNGR mantiene seguimiento a las acciones de respuesta al evento.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada del 19/10/2026, se reportó el desbordamiento del rio Pagua en el sector la esperanza, ocasionando el ingreso de agua a una vivienda y al sector agrícola.  SNGR mantuvo el monitoreo en articulación con el GAD Municipal de El Guabo, el cual informó que la familia afectada permanece en su vivienda tras la evacuación del agua de lluvia. Asimismo, se reporta que el río Pagua se encuentra dentro de sus parámetros normales, mientras que MAG brindó asistencia técnica a los propietarios de fincas cacaoteras, luego de la ejecución de trabajos de drenaje para el desalojo del agua acumulada.",
     "personas_afectadas": 5,
     "viviendas_afectadas": 1,
     "personas_evacuadas": 0,
@@ -27,7 +27,7 @@
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
-    "hectareas_cultivo_afectadas": 7.0,
+    "hectareas_cultivo_afectadas": 12.0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {

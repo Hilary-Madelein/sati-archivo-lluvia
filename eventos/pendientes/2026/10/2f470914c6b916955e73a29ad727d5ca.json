@@ -26,7 +26,7 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 1,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 29,0 mm el día del evento en el lugar (hasta 37,0 mm a menos de 5 km) y 5,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,6 mm (2 días antes), 1,5 mm (1 día antes), 35,7 mm (el mismo día). Estación Camaronera - Songa (a 6,1 km): el WRF pronosticaba ahí 0,6 mm (2 días antes), 0,0 mm (1 día antes), 36,9 mm (el mismo día); midió 128,3 mm ese día.",
   "lluvia_satelite": {

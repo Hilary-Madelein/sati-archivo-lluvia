@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "78c737b9a464e8d26e2322b0583eabab",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-29",
+    "hora": "08:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "San Jose De Ancon",
+    "sector": "Varios sectores: Comuna El Tambo(Barrio Central, Santa Elena, Paraíso)",
+    "latitud": -2.284857,
+    "longitud": -80.858363,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias registradas durante la mañana del 29/10/2026, se reportó acumulación de aguas lluvias con ingreso a varias viviendas. Actualmente, las familias afectadas se mantienen en sus viviendas.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 3,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 5,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 2,0 mm (2 días antes), 0,2 mm (1 día antes), 0,2 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-29 02:00",
+      "hasta": "2026-10-30 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-29 02:00",
+      "en_el_lugar_mm": 0.2,
+      "maxima_a_menos_de_5km_mm": 1.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 0.2,
+      "maxima_a_menos_de_5km_mm": 1.2
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-27 02:00",
+      "en_el_lugar_mm": 2.0,
+      "maxima_a_menos_de_5km_mm": 7.5
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-29T19:29:00.000Z",
+    "estado": "espera"
+  }
+}

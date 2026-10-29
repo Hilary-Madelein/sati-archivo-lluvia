@@ -9,12 +9,12 @@
     "provincia": "Guayas",
     "canton": "Guayaquil",
     "parroquia": "Ximena",
-    "sector": "Santa Monica, Av 25 de Julio",
+    "sector": "Varios sectores (Santa Mónica, Av 25 de Julio, Centro de Salud Guangala, Guasmo Sur - Cooperativa Unión de Bananeros Bloque 1)",
     "latitud": -2.251273,
     "longitud": -79.894454,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas Mediante cámaras se observa el aumento de calles anegadas,",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas MSP reportó la afectación del Centro de Salud Guangala.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -26,7 +26,7 @@
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
-    "centros_de_salud_afectados": 0,
+    "centros_de_salud_afectados": 1,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
   },
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 67,0 mm el día del evento en el lugar (hasta 79,0 mm a menos de 5 km) y 67,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 30,8 mm (2 días antes), 7,2 mm (1 día antes), 13,9 mm (el mismo día). Estación La Chala Eb Aass - Emapag (a 5,6 km): el WRF pronosticaba ahí 21,9 mm (2 días antes), 4,8 mm (1 día antes), 14,9 mm (el mismo día).",
   "lluvia_satelite": {
