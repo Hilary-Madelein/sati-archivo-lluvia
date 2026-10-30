@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "55ced1f2c67c2e677a6d8304d19e71da",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-30",
+    "hora": "07:55",
+    "provincia": "Guayas",
+    "canton": "Playas",
+    "parroquia": "General Villamil (playas)",
+    "sector": "Varios sectores (calle Sixto Ochoa, calle La Merced, Barrio Ecuador, Barrio Central)",
+    "latitud": -2.626947,
+    "longitud": -80.396812,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la mañana del 30/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras se observan calles anegadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,7 mm (1 día antes), 1,1 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-30 02:00",
+      "hasta": "2026-10-31 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 1.1,
+      "maxima_a_menos_de_5km_mm": 17.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-29 02:00",
+      "en_el_lugar_mm": 0.7,
+      "maxima_a_menos_de_5km_mm": 5.9
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 8.7
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-30T19:04:55.000Z",
+    "estado": "espera"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "1ed59c9762c9ecee8d448b701e8d08cf",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-10-30",
+    "hora": "08:30",
+    "provincia": "Guayas",
+    "canton": "Santa Lucia",
+    "parroquia": "Santa Lucia",
+    "sector": "Recinto La Judith",
+    "latitud": -1.73876,
+    "longitud": -79.908894583333,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa  del incremento del río Pula, se suscitó el desbordamiento del río, donde se reportan viviendas afectadas. GAD Cantonal informa de manera preliminar que las familias afectadas continúan en sus mismas viviendas. El río continúa desbordado.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 6,7 mm (2 días antes), 8,1 mm (1 día antes), 13,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-30 02:00",
+      "hasta": "2026-10-31 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 13.0,
+      "maxima_a_menos_de_5km_mm": 68.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-29 02:00",
+      "en_el_lugar_mm": 8.1,
+      "maxima_a_menos_de_5km_mm": 17.4
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 6.7,
+      "maxima_a_menos_de_5km_mm": 14.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-30T19:05:10.000Z",
+    "estado": "espera"
+  }
+}

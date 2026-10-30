@@ -14,7 +14,7 @@
     "longitud": -80.71672439575195,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a fuertes lluvias registradas en la madrugada del  26/10/2026, se produjo la saturación del alcantarillado y la acumulación de agua lluvias en varias calles de los sectores mencionados. Al momento aún existe presencia de lluvias débiles. Varias calles permanecen inundadas, dificultan el tránsito vehicular y peatonal.",
+    "descripcion": "Debido a fuertes lluvias registradas el 26/10/2026, se produjo la saturación del alcantarillado y la acumulación de agua lluvias en varias calles de los sectores mencionados, además de afectaciones de unidades educativas por ingreso de agua.   Al momento no existe presencia de lluvias, ya no existe inundación. El 26/10/2026, EPAM realizó limpieza de alcantarillado y evacuación de agua. El 26/10/2026, UGR GAD Manta coordinó una cuadrilla municipal para limpieza de alcantarillas y evacuación de agua. MINEDEC realizó levantamiento de información y evaluación.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -102,7 +102,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-26T19:49:17.000Z",
+    "procesado": "2026-10-30T19:07:00.000Z",
     "estado": "espera"
   }
 }

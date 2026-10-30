@@ -1,6 +1,6 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-29; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-10-30; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
 ## Selección depurada: **32 inundaciones** (`depurados.csv`)
 
@@ -8,9 +8,9 @@ Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio d
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 1620 |
-| …desde el 2026-01-01 | 1553 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1354 |
+| Completas (lluvia por satélite y caudal del río) | 1628 |
+| …desde el 2026-01-01 | 1561 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1362 |
 | …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 853 |
 | …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 786 |
 | …con el pronóstico de caudal de las 3 corridas | 781 |
@@ -69,12 +69,12 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1620 |
-| …con el pronóstico de lluvia del WRF para ese día | 1551 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 1553 |
-| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1344 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1628 |
+| …con el pronóstico de lluvia del WRF para ese día | 1559 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 1561 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1352 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 222 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 259 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 1 |
 
 ### Descartadas, por motivo

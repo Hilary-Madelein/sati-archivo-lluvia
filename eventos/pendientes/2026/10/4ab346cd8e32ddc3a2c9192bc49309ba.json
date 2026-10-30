@@ -14,13 +14,13 @@
     "longitud": -79.90976,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026 y madrugada del 26/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. PPNN confirmó que la persona extraviada fue encontrada SSV a la altura de la Cooperativa Flor de Bastión.",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026 y madrugada del 26/10/2026, se reportaron varios sectores con acumulación de agua en las calles y avenidas. Policía Nacional confirmó que las personas reportadas como extraviadas fueron rescatadas por sus propios medios con ayuda de los moradores. GAD Cantonal informa de manera preliminar que la 30. Familias afectadas se encuentran en sus viviendas.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
     "personas_fallecidas": 1,
     "personas_damnificadas": 0,
-    "personas_extraviadas": 2,
+    "personas_extraviadas": 0,
     "familias_afectadas": 0,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-26T19:49:16.000Z",
+    "procesado": "2026-10-30T19:06:50.000Z",
     "estado": "espera"
   }
 }

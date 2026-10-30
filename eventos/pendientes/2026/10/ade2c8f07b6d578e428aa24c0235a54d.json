@@ -13,8 +13,8 @@
     "latitud": -2.18619,
     "longitud": -79.87671,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras se observan calles anegadas.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la noche del 25/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Actualmente, las calles están libres de agua; el agua que se acumuló durante la lluvia disminuyó con el pasar de las horas y la circulación volvió a la normalidad.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-26T19:49:44.000Z",
+    "procesado": "2026-10-30T19:07:13.000Z",
     "estado": "espera"
   }
 }

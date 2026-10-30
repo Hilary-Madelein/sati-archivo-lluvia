@@ -14,7 +14,7 @@
     "longitud": -80.7124346147891,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a fuertes lluvias registradas en la madrugada del 26/10/2026, se produjo la saturación del alcantarillado y la acumulación de agua lluvia en varias calles de los sectores mencionados. Varias calles permanecieron inundadas. Al momento no existen lluvias en el cantón; las aguas ya han bajado, se reportan afectaciones y daños de enseres en viviendas por ingreso de agua.\r\n26/10/2026 Se actualizan sectores y afectaciones; al momento existe presencia de lluvias moderadas en el cantón.",
+    "descripcion": "Debido a fuertes lluvias registradas en la madrugada del 26/10/2026, se produjo la saturación del alcantarillado y la acumulación de agua lluvia en varias calles de los sectores mencionados; así mismo, se reportan varias unidades educativas afectadas con ingreso de agua a sus predios. Al momento no existen lluvias en el cantón; las aguas ya han bajado, se reportan afectaciones y daños de enseres en viviendas por ingreso de agua.\r\n26/10/2026 Se actualizan sectores y afectaciones; al momento no existe presencia de lluvias moderadas en el cantón.",
     "personas_afectadas": 8,
     "viviendas_afectadas": 2,
     "personas_evacuadas": 0,
@@ -102,7 +102,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-26T19:49:17.000Z",
+    "procesado": "2026-10-30T19:07:06.000Z",
     "estado": "espera"
   }
 }

@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "c012a2c3140a9e831ad557bd101f5d80",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-30",
+    "hora": "09:10",
+    "provincia": "Los Ríos",
+    "canton": "Palenque",
+    "parroquia": "Palenque",
+    "sector": "ESCUELA DE EDUCACIÓN BÁSICA JOSE MARIA BAQUERIZO",
+    "latitud": -1.435917,
+    "longitud": -79.756277,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes lluvias en horas de la mañana del 19/10/2026, se reporta 1 establecimiento educativo afectado funcionalmente (Escuela de Educación Básica José María Baquerizo).\t\r\n. MINEDEC realizó verificación de novedades en la zona afectada, en donde las clases continúan con normalidad y ya no se visualiza presencia de agua; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 9,2 mm (2 días antes), 29,2 mm (1 día antes), 18,5 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-30 02:00",
+      "hasta": "2026-10-31 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 18.5,
+      "maxima_a_menos_de_5km_mm": 32.1
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-29 02:00",
+      "en_el_lugar_mm": 29.2,
+      "maxima_a_menos_de_5km_mm": 48.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 9.2,
+      "maxima_a_menos_de_5km_mm": 28.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-30T19:04:58.000Z",
+    "estado": "espera"
+  }
+}

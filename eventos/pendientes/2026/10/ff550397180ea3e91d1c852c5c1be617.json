@@ -13,7 +13,7 @@
     "latitud": -1.0375576854777968,
     "longitud": -80.66729710444939,
     "nivel": 1,
-    "estado": "Seguimiento",
+    "estado": "Cierre",
     "descripcion": "Debido a las lluvias suscitadas en horas de la mañana del 26/10/2026, se suscitó produjo la acumulación de aguas lluvias, que afectó la vía de primer orden, afectando el tránsito vehicular. Al momento, la vía se encuentra habilitada, sin novedades. El 26/10/2026, GAD Cantonal realizó trabajos de drenajes y evacuación de agua.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-26T19:50:02.000Z",
+    "procesado": "2026-10-30T19:07:37.000Z",
     "estado": "espera"
   }
 }

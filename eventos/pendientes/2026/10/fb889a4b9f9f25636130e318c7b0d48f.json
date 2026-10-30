@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "fb889a4b9f9f25636130e318c7b0d48f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-10-30",
+    "hora": "07:00",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "Comuna San José",
+    "latitud": -1.4738032376185641,
+    "longitud": -80.50006670432337,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas durante la mañana del 30/10/2026, se ocasionó el aislamiento de la comuna, debido al aumento del río San José.  Producto de las lluvias registradas la madrugada del 30/10/2026, se suscitó la rotura de una tubería Matriz; Tenencia Política informó que el servicio de Agua se encuentra suspendido.\r\nLa Comuna San José, se encuentra aislada debido al aumento del río del mismo nombre, que evita el paso por el puente; una vivienda fue arrastrada por la corriente.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 1,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 10,6 mm (2 días antes), 12,4 mm (1 día antes), 24,5 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-10-30 02:00",
+      "hasta": "2026-10-31 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 24.5,
+      "maxima_a_menos_de_5km_mm": 38.6
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-29 02:00",
+      "en_el_lugar_mm": 12.4,
+      "maxima_a_menos_de_5km_mm": 19.1
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-28 02:00",
+      "en_el_lugar_mm": 10.6,
+      "maxima_a_menos_de_5km_mm": 24.4
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-10-30T19:04:56.000Z",
+    "estado": "espera"
+  }
+}
