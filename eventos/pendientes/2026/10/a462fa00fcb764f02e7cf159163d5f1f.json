@@ -13,8 +13,8 @@
     "latitud": -2.134775,
     "longitud": -79.963575,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la tarde del 24/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Producto de las fuertes lluvias 24/10/2026, se registró la caída de un menor de edad en el sistema de alcantarillado, siendo arrastrado por la corriente de agua. Cuerpo de Bomberos de Guayaquil acudió al sitio y logró rescatar al menor con múltiples heridas y lo movilizaron hacia el Hospital Dr. Francisco Icaza Bustamante para su evaluación médica.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias con tormentas eléctricas registradas durante la tarde del 24/10/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Cuerpo de Bomberos Guayaquil confirmó la novedad y brindó ayuda al rescate del menor de edad que fue arrastrado por la corriente, se encuentra estable.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Colapso de drenaje",
-    "codigo": "drainage_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 73,0 mm el día del evento en el lugar (hasta 79,0 mm a menos de 5 km) y 26,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,8 mm (2 días antes), 1,1 mm (1 día antes), 64,2 mm (el mismo día). Estación Sergio Toral - Tanque Aapp - Emapag (a 3,3 km): el WRF pronosticaba ahí 8,2 mm (2 días antes), 1,5 mm (1 día antes), 20,5 mm (el mismo día).",

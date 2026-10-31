@@ -1,6 +1,6 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-30; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-10-31; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
 ## Selección depurada: **32 inundaciones** (`depurados.csv`)
 
@@ -8,10 +8,10 @@ Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio d
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 1628 |
-| …desde el 2026-01-01 | 1561 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1362 |
-| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 853 |
+| Completas (lluvia por satélite y caudal del río) | 1629 |
+| …desde el 2026-01-01 | 1562 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1363 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 854 |
 | …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 786 |
 | …con el pronóstico de caudal de las 3 corridas | 781 |
 | …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 439 |
@@ -69,16 +69,16 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1628 |
-| …con el pronóstico de lluvia del WRF para ese día | 1559 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 1561 |
-| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1352 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1629 |
+| …con el pronóstico de lluvia del WRF para ese día | 1560 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 1562 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1353 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 259 |
-| Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 1 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 274 |
+| Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 2 |
 
 ### Descartadas, por motivo
 
 | Motivo | Inundaciones |
 |---|---:|
-| lluvia por satélite: sin dato en ese lugar; caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes | 1 |
+| lluvia por satélite: sin dato en ese lugar; caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes | 2 |

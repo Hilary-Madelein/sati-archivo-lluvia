@@ -14,27 +14,27 @@
     "longitud": -79.29042069347172,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas el día de hoy 26/10/2026, se produjo el desbordamiento del estero Choropamba, afectando unos criaderos de cerdos. El caudal del estero Choropamba está con tendencia a disminuir.",
-    "personas_afectadas": 0,
+    "descripcion": "A causa de las lluvias registradas el día de hoy 26/10/2026, se produjo el desbordamiento del estero Choropamba, afectando unos criaderos de cerdos. UGR mediante informe EVIN indica que el estero Chorimpongo aumento su caudal destruyendo muros de protección a lo largo del Estero, causando afectación a cultivos y socavando más el talud de la zona, así como exponiendo la mesa asfáltica vía a Guamaspunto y el puente vehicular\r\nEl caudal del estero Choropamba está con tendencia a disminuir.",
+    "personas_afectadas": 3,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 1,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
-    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_afectadas": 40.0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 25,0 mm el día del evento en el lugar (hasta 31,0 mm a menos de 5 km) y 27,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 213,0 mm (2 días antes), 105,8 mm (1 día antes), 84,4 mm (el mismo día). Estación Caluma (a 3,9 km): el WRF pronosticaba ahí 78,0 mm (2 días antes), 97,7 mm (1 día antes), 45,4 mm (el mismo día).",
   "lluvia_satelite": {
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-27T19:21:16.000Z",
+    "procesado": "2026-10-31T18:26:44.000Z",
     "estado": "espera"
   }
 }

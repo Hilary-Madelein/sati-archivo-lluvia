@@ -14,7 +14,7 @@
     "longitud": -79.333355,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "Se registran lluvias moderadas la tarde del 26/10/2026. Se reportó tráfico lento en la zona.  El 27/10/2026 UGR La Troncal realizó recorrido por diferentes sectores; no presentan afectaciones.  \r\nSNGR realiza monitoreo del evento.",
+    "descripcion": "Se registraron lluvias moderadas la tarde del 26/10/2026. Se reportó tráfico lento en la zona.  El 27/10/2026 UGR La Troncal realizó recorrido por diferentes sectores; no presentan afectaciones.  \r\nSNGR realiza monitoreo del evento.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-27T19:19:37.000Z",
+    "procesado": "2026-10-31T18:25:38.000Z",
     "estado": "espera"
   }
 }
