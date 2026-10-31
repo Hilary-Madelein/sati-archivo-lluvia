@@ -128,7 +128,7 @@ M1171,28,Huaticocha,Meteorológica,-0.745278,-77.483611,632.0,No operativa,No ap
 M1203,63589,Lumbaqui,Meteorológica,0.040556,-77.333889,580.0,Operativa,No transmitiendo
 M1207,63593,Nobol,Meteorológica,-1.92154,-80.06279,7.0,Operativa,Transmitiendo
 M1208,63594,La Teodomira,Meteorológica,-1.17343,-80.38736,60.0,Operativa,Transmitiendo
-M1217,63603,Bahia de Caraquez - Puce,Meteorológica,-0.659378,-80.397467,12.0,Operativa,No transmitiendo
+M1217,63603,Bahia de Caraquez - Puce,Meteorológica,-0.659378,-80.397467,12.0,Operativa,Transmitiendo
 M1219,11,Tena Hda. Chaupishungo,Meteorológica,-0.91685,-77.81907,665.0,Operativa,No transmitiendo
 M1221,63778,San Jose de Payamino,Meteorológica,-0.503889,-77.3175,345.0,No operativa,No aplica
 M1230,63790,Espam - Mfl - Calceta,Meteorológica,-0.822972,-80.183489,15.0,No operativa,No aplica
@@ -151,7 +151,7 @@ M1274,63921,Politecnica Salesiana - Campus Sur,Meteorológica,-0.2819,-78.55,288
 M5001,14,Gualil,Meteorológica,-3.075139,-78.816222,0.0,No operativa,No aplica
 M5007,19,Espe Sto. Domingo,Meteorológica,-0.413611,-79.314167,294.0,No operativa,No aplica
 M5008,18,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Parcialmente operativa,Transmitiendo
-M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,No transmitiendo
+M5008,65006,Cosanga,Meteorológica,-0.578333,-77.868333,1933.0,Operativa,Transmitiendo
 M5010,27,Narupa,Meteorológica,-0.731944,-77.783056,0.0,No operativa,No aplica
 M5011,20,Pacto Sumaco,Meteorológica,-0.668611,-77.595556,0.0,No operativa,No aplica
 M5089,63718,El Tablon - Las Cuevas,Meteorológica,-2.811589,-79.324639,3661.0,Cerrada,No aplica
