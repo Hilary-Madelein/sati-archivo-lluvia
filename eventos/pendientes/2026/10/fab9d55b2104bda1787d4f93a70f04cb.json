@@ -14,7 +14,7 @@
     "longitud": -79.96198697354738,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Precipitaciones intensas y tormentas eléctricas registradas la madrugada del 24/10/2026, ocasionaron anegamientos en el casco urbano y el desbordamiento del canal El Macho. Posteriormente, la recurrencia de lluvias la madrugada del 26/10/2026, provocó el desbordamiento del canal La Puentecita.<br>\r\nEn el marco de este evento, la Sala Situacional El Oro reportó que una persona ingresó al canal El Macho el 26 de octubre, siendo hallada sin signos vitales el 28 de octubre a la altura del puente El Coco. Los canales El Macho y La Puentecita se encuentran dentro de su cauce normal. No obstante, persisten anegamientos en varios sectores, principalmente al norte de la ciudad. Para la atención de la población afectada, se mantiene activo el alojamientos temporales Coliseo 3000 mientras que las familias albergadas en el Coliseo UTMACH retornaron a sus viviendas. Respecto a los servicios esenciales, las infraestructuras de salud afectadas por el ingreso de agua se encuentran totalmente operativas, al igual que el servicio de energía eléctrica.\r\nEl 45% de las Unidades Educativas retomaron las clases presenciales.\r\nMinistra de SNGR en presencia de Cruz Roja Ecuatoriana, Policía Nacional, Fuerzas Armadas, Bomberos de Machala, MTDH se realizó la entrega de asistencia humanitaria. SNGR en atención a las familias impactadas por el evento, solicito 1159 bonos al MTDH. Cruz Roja brinda atención a las familias en el alojamiento. SNGR, GAD Cantonal acompañaron a las familias en retorno seguro desde el Coliseo UTMACH",
+    "descripcion": "Precipitaciones intensas y tormentas eléctricas registradas la madrugada del 24/10/2026, ocasionaron anegamientos en el casco urbano y el desbordamiento del canal El Macho. Posteriormente, la recurrencia de lluvias la madrugada del 26/10/2026, provocó el desbordamiento del canal La Puentecita.<br>\r\nEn el marco de este evento, la Sala Situacional El Oro reportó que una persona ingresó al canal El Macho el 26 de octubre, siendo hallada sin signos vitales el 28 de octubre a la altura del puente El Coco. Los canales El Macho y La Puentecita se encuentran dentro de su cauce normal. No obstante, persisten anegamientos en varios sectores, principalmente al norte de la ciudad. Se mantiene activo el alojamiento temporal Coliseo 3000, donde hay 133 familias de 300 personas, en cuanto al Coliseo UTMACH, se cerró el 30/10/2026. Respecto a los servicios esenciales, las infraestructuras de salud afectadas por el ingreso de agua se encuentran totalmente operativas, al igual que el servicio de energía eléctrica.\r\nEl 45% de las Unidades Educativas retomaron las clases presenciales.",
     "personas_afectadas": 876,
     "viviendas_afectadas": 438,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-28T19:27:11.000Z",
+    "procesado": "2026-11-01T18:52:09.000Z",
     "estado": "espera"
   }
 }

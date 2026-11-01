@@ -1,0 +1,87 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "6c92117d4b50f4c859af4fb3f704a49a",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-10-31",
+    "hora": "11:45",
+    "provincia": "Galápagos",
+    "canton": "San Cristobal",
+    "parroquia": "Puerto Baquerizo Moreno",
+    "sector": "VARIOS SECTORES RURAL Y URBANO,CAÑADA BARIO FINO, CAÑADA DIVINO NIÑO",
+    "latitud": -0.904096,
+    "longitud": -89.61302,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Debido a la presencia de fuertes precipitaciones registradas durante la mañana, se produjo el desbordamiento de la cañada Barrio Frio y Divino niño, en donde se reportan afectaciones que al momento se encuentran en evaluación por personal técnico.\r\nSNGR realiza verificación de novedades en la zona afectada en compañía de personal del GAD Municipal San Cristóbal, Policía Nacional, Cuerpo de Bomberos y Parque Nacional Galápagos, en donde actualmente las familias se mantienen en sus viviendas con presencia de agua, al igual que la vía de primer orden. Tras el cese de las precipitaciones, no se registran vías inundadas ni reportes de viviendas afectadas. Asimismo, se evidencia un descenso en los niveles de las cañadas, por lo que las condiciones han mejorado y la situación se encuentran normales.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 25,0 mm el día del evento en el lugar (hasta 25,0 mm a menos de 5 km) y 22,0 mm en las 24 h antes del evento.",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-10-31 07:00",
+      "hasta": "2026-11-01 07:00",
+      "en_el_lugar_mm": 25.0,
+      "maxima_a_menos_de_5km_mm": 25.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-10-31 11:00",
+        "hasta": "2026-10-31 12:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-10-31 09:00",
+        "hasta": "2026-10-31 12:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-10-31 06:00",
+        "hasta": "2026-10-31 12:00",
+        "en_el_lugar_mm": 2.0,
+        "maxima_a_menos_de_5km_mm": 6.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-30 12:00",
+        "hasta": "2026-10-31 12:00",
+        "en_el_lugar_mm": 22.0,
+        "maxima_a_menos_de_5km_mm": 27.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-01T18:48:33.000Z",
+    "estado": "espera"
+  }
+}

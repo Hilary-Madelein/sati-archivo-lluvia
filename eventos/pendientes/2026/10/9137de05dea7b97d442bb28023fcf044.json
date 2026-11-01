@@ -14,7 +14,7 @@
     "longitud": -79.83155986391813,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes lluvias suscitadas en la noche del 24/10/2026, se registró el aumento y desbordamiento del río Chaguana, ocasionando afectaciones a viviendas por el ingreso de agua y pérdida de enseres.\r\nEl 21/10/2026, el alcalde del cantón declaró en situación de emergencia cantonal en toda su jurisdicción, tanto en lo urbano como rural. El alojamiento temporal \"Eloy Alfaro\" permanece activo. En cuanto a los servicios básicos, el suministro de energía eléctrica ha sido restablecido en su totalidad; sin embargo, el río Chaguana se mantiene fuera de su cauce habitual.\r\nSala situacional se mantiene activa e informa actualización en cifras Mediante EVIN.",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en la noche del 24/10/2026, se registró el aumento y desbordamiento del río Chaguana, ocasionando afectaciones a viviendas por el ingreso de agua y pérdida de enseres.\r\nEl 21/10/2026, el alcalde del cantón declaró en situación de emergencia cantonal en toda su jurisdicción, tanto en lo urbano como rural. Gestor de alojamientos temporales reporta que una familia salió del alojamiento temporal ?Eloy Alfaro? el cual permanece activo.\r\nEl río Chaguana se encuentra con tendencia aumentar.\r\nEl alojamiento temporal \"Eloy Alfaro\" permanece activo. En cuanto a los servicios básicos, el suministro de energía eléctrica ha sido restablecido en su totalidad; sin embargo.\r\nSala situacional se mantiene activa e informa actualización en cifras Mediante EVIN.",
     "personas_afectadas": 500,
     "viviendas_afectadas": 400,
     "personas_evacuadas": 0,
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-10-28T19:27:32.000Z",
+    "procesado": "2026-11-01T18:52:45.000Z",
     "estado": "espera"
   }
 }

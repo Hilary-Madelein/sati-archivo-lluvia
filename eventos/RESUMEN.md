@@ -1,6 +1,6 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-10-31; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-11-01; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
 ## Selección depurada: **32 inundaciones** (`depurados.csv`)
 
@@ -74,7 +74,7 @@ La más alta a menos de 5 km medida por el satélite.
 | …con el pronóstico de caudal de GEOGLOWS para ese día | 1562 |
 | …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1353 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 274 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 294 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 2 |
 
 ### Descartadas, por motivo
