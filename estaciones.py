@@ -186,12 +186,19 @@ def descargar_horas(estacion: dict) -> list[dict]:
         return []
     filas = []
     for dato in json.loads(cuerpo).get("datos", []):
-        # La hora viene marcada "-05:00" pero es UTC: se lee la hora tal cual.
-        m = re.match(r"^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})", str(dato.get("fecha_toma_dato") or ""))
-        valor = numero(dato.get("1h"))
+        fecha = str(dato.get("fecha_toma_dato") or "")
+        m = re.match(r"^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})", fecha)
         if not m:
             continue
-        momento = dt.datetime.fromisoformat(m[1]).replace(tzinfo=UTC)
+        # La API cambió el 22 de octubre de 2026: la lluvia pasó de "1h" a "valor_1h" y la
+        # hora empezó a venir con su zona horaria correcta. Antes la marcaba "-05:00" pero
+        # era UTC, así que en el formato anterior se lee la hora tal cual, como UTC.
+        if "valor_1h" in dato:
+            valor = numero(dato.get("valor_1h"))
+            momento = dt.datetime.fromisoformat(fecha).astimezone(UTC)
+        else:
+            valor = numero(dato.get("1h"))
+            momento = dt.datetime.fromisoformat(m[1]).replace(tzinfo=UTC)
         filas.append({
             "codigo": estacion["codigo"],
             "id_estacion": estacion["id_estacion"],
@@ -203,7 +210,11 @@ def descargar_horas(estacion: dict) -> list[dict]:
 
 
 def archivar_horas(estaciones: list[dict]) -> int:
-    """Agrega las horas nuevas al archivo mensual. Un dato ya guardado solo se reemplaza por uno no vacío."""
+    """
+    Agrega las horas nuevas al archivo mensual. Solo se guardan horas con dato: una hora
+    vacía no aporta nada (y entre el 22 y el 24 de octubre de 2026, con el cambio de la
+    API, se guardaron vacías y con la hora corrida; al reescribir el mes se quitan).
+    """
     activas = [e for e in estaciones if e["transmision"] == "Transmitiendo"]
     with ThreadPoolExecutor(max_workers=6) as grupo:
         nuevas = [fila for filas in grupo.map(descargar_horas, activas) for fila in filas]
@@ -213,13 +224,14 @@ def archivar_horas(estaciones: list[dict]) -> int:
     agregadas = 0
     for mes, filas in por_mes.items():
         ruta = HORARIAS / f"{mes}.csv"
-        archivo = {(f["codigo"], f["hora_utc"]): f for f in leer_csv(ruta)}
+        archivo = {(f["codigo"], f["hora_utc"]): f for f in leer_csv(ruta) if f["lluvia_mm"] != ""}
         for fila in filas:
+            if fila["lluvia_mm"] == "":
+                continue
             clave = (fila["codigo"], fila["hora_utc"])
             if clave not in archivo:
                 agregadas += 1
-            if clave not in archivo or fila["lluvia_mm"] != "":
-                archivo[clave] = fila
+            archivo[clave] = fila
         escribir_csv(ruta, COLUMNAS_HORARIA, sorted(archivo.values(), key=lambda f: (f["codigo"], f["hora_utc"])))
     print(f"{len(activas)} estaciones que transmiten · {len(nuevas)} horas recibidas · {agregadas} nuevas", flush=True)
     return agregadas
