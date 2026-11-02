@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "aca8006e649b8af0ff29dd2123546f18",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-01",
+    "hora": "23:55",
+    "provincia": "Manabí",
+    "canton": "Jipijapa",
+    "parroquia": "Pedro Pablo Gomez",
+    "sector": "Casas Viejas ? Las Delicias.",
+    "latitud": -1.574623221137315,
+    "longitud": -80.5136489868164,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes precipitaciones registradas la noche del 01/11/2026, se produjo el desbordamiento del río Casas Viejas y río La Vaca, causando inundación en los sectores y afectando varias viviendas. Al momento existen presencias de lluvias leves en el sector; el río Casas Viejas y el río La Vaca permanecen desbordados; las familias continúan en sus viviendas.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 8,3 mm (2 días antes), 5,1 mm (1 día antes), 3,5 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-01 02:00",
+      "hasta": "2026-11-02 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 3.5,
+      "maxima_a_menos_de_5km_mm": 24.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-31 02:00",
+      "en_el_lugar_mm": 5.1,
+      "maxima_a_menos_de_5km_mm": 12.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 8.3,
+      "maxima_a_menos_de_5km_mm": 16.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-02T13:29:02.000Z",
+    "estado": "espera"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "4ce7c1aaf7105c338471966c72d10a6f",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-01",
+    "hora": "16:38",
+    "provincia": "Manabí",
+    "canton": "Pichincha",
+    "parroquia": "San Sebastian",
+    "sector": "Barrio Santa Rosa vía al Moral",
+    "latitud": -1.0594632551836871,
+    "longitud": -80.01608381820871,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a fuertes lluvias registradas en la tarde del 01/11/2026, se produjo el desbordamiento del estero Pata de Pájaro, el cual causó inundación afectando las calles.  Al momento, las lluvias han bajado la intensidad y el estero se encuentra en disminución de nivel; al momento no reportan afectaciones en viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 28,9 mm (2 días antes), 15,4 mm (1 día antes), 24,8 mm (el mismo día). Estación Portoviejo en H.vasquez (guarumo) (a 23,0 km): el WRF pronosticaba ahí 4,3 mm (2 días antes), 8,3 mm (1 día antes), 3,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-01 02:00",
+      "hasta": "2026-11-02 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 24.8,
+      "maxima_a_menos_de_5km_mm": 53.2
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-31 02:00",
+      "en_el_lugar_mm": 15.4,
+      "maxima_a_menos_de_5km_mm": 16.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 28.9,
+      "maxima_a_menos_de_5km_mm": 56.7
+    }
+  },
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "H0266",
+      "nombre": "Portoviejo en H.vasquez (guarumo)",
+      "distancia_km": 23.0,
+      "latitud": -1.108056,
+      "longitud": -80.2175
+    },
+    "lluvia_medida_dia_del_evento": null,
+    "lluvia_medida_antes_del_evento": null,
+    "pronostico_puntual": {
+      "desde": "2026-11-01 02:00",
+      "hasta": "2026-11-02 02:00",
+      "hecho_el_mismo_dia_mm": 3.0,
+      "hecho_1_dia_antes_mm": 8.3,
+      "hecho_2_dias_antes_mm": 4.3,
+      "lluvia_medida_mm": 0.0
+    }
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-02T13:27:52.000Z",
+    "estado": "espera"
+  }
+}

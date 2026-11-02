@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "c95b4f82f5c426fd36c82e5d4ddf373b",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-02",
+    "hora": "07:30",
+    "provincia": "El Oro",
+    "canton": "Arenillas",
+    "parroquia": "Carcabón",
+    "sector": "COMUNA GUABILLO",
+    "latitud": -3.595073,
+    "longitud": -80.191188,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Jefe Político de Arenillas indica que, debido a las lluvias suscitadas en la madrugada del 02/11/2026, se produjo el aumento y desbordamiento de la quebrada El Guabillo, ocasionando inundación en el sitio y afectando cultivos de limón. La quebrada se mantiene desbordada y no se reportan afectaciones a viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 4,2 mm (2 días antes), 1,5 mm (1 día antes), 4,2 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-02 02:00",
+      "hasta": "2026-11-03 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 4.2,
+      "maxima_a_menos_de_5km_mm": 5.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 1.5,
+      "maxima_a_menos_de_5km_mm": 5.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-31 02:00",
+      "en_el_lugar_mm": 4.2,
+      "maxima_a_menos_de_5km_mm": 6.1
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-02T13:27:35.000Z",
+    "estado": "espera"
+  }
+}

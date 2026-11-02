@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "043bb8cda53c99b3ab06f96bab29759d",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-01",
+    "hora": "18:00",
+    "provincia": "El Oro",
+    "canton": "Chilla",
+    "parroquia": "Chilla",
+    "sector": "PLAYAS DE DAUCAY, VIA PACHA - PLAYAS DE DAUCAY",
+    "latitud": -3.46276,
+    "longitud": -79.73745,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a intensas lluvias registradas la noche de hoy 01/11/2026, se registró el desbordamiento del río Chilola, afectando con acumulación de sedimentos la vía de tercer orden Pacha - Playas de Daucay, la cual se encuentra inhabilitada al tránsito vehicular \r\n La vía de tercer orden se encuentra cerrada; no existe vía alterna. Al momento ha bajado la intensidad de las lluvias a moderadas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 6,4 mm (2 días antes), 21,0 mm (1 día antes), 37,9 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-01 02:00",
+      "hasta": "2026-11-02 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 37.9,
+      "maxima_a_menos_de_5km_mm": 104.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-31 02:00",
+      "en_el_lugar_mm": 21.0,
+      "maxima_a_menos_de_5km_mm": 26.8
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 6.4,
+      "maxima_a_menos_de_5km_mm": 24.5
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-02T13:27:53.000Z",
+    "estado": "espera"
+  }
+}

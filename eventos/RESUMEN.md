@@ -1,31 +1,31 @@
 # Inundaciones de la SNGR cruzadas con lluvia y caudal
 
-Actualizado el 2026-11-01; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
+Actualizado el 2026-11-02; se rehace solo en cada cruce. Qué es cada dato: [`GUIA.md`](GUIA.md).
 
-## Selección depurada: **32 inundaciones** (`depurados.csv`)
+## Selección depurada: **33 inundaciones** (`depurados.csv`)
 
 Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio de `cruzar_eventos.py` (`DEPURACION_…`): para afinar la selección se cambia un número y el siguiente cruce rehace esta tabla.
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 1629 |
-| …desde el 2026-01-01 | 1562 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1363 |
-| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 854 |
-| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 786 |
-| …con el pronóstico de caudal de las 3 corridas | 781 |
-| …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 439 |
-| …con lluvia real el mismo día: el satélite midió ≥ 30 mm | 159 |
-| …si fue desborde: el río llevaba ≥ 3 veces su caudal normal y no es un arroyo (caudal normal ≥ 1 m³/s) | 115 |
-| …con afectación importante: ≥ 50 personas afectadas | 35 |
-| **…uno por cantón y temporal (eventos a ≤ 3 días cuentan como uno; queda el de más personas afectadas)** | **32** |
+| Completas (lluvia por satélite y caudal del río) | 1635 |
+| …desde el 2026-01-01 | 1568 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1369 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 861 |
+| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 793 |
+| …con el pronóstico de caudal de las 3 corridas | 788 |
+| …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 442 |
+| …con lluvia real el mismo día: el satélite midió ≥ 30 mm | 160 |
+| …si fue desborde: el río llevaba ≥ 3 veces su caudal normal y no es un arroyo (caudal normal ≥ 1 m³/s) | 116 |
+| …con afectación importante: ≥ 50 personas afectadas | 36 |
+| **…uno por cantón y temporal (eventos a ≤ 3 días cuentan como uno; queda el de más personas afectadas)** | **33** |
 
 ### Por tipo de inundación
 
 | Tipo | Inundaciones |
 |---|---:|
 | Lluvia intensa (anegamiento) | 20 |
-| Desborde de río | 12 |
+| Desborde de río | 13 |
 
 ### Por lluvia del día del evento
 
@@ -33,7 +33,7 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Lluvia | Inundaciones |
 |---|---:|
-| 30 a 50 mm | 14 |
+| 30 a 50 mm | 15 |
 | 50 a 100 mm | 15 |
 | 100 mm o más | 3 |
 
@@ -41,7 +41,7 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Crecida | Desbordes |
 |---|---:|
-| Ninguna (no llegó a la de 2 años) | 10 |
+| Ninguna (no llegó a la de 2 años) | 11 |
 | Superó la de 2 años | 2 |
 
 ### Por mes
@@ -49,7 +49,7 @@ La más alta a menos de 5 km medida por el satélite.
 | Mes | Inundaciones |
 |---|---:|
 | 2026-10 | 1 |
-| 2026-09 | 1 |
+| 2026-09 | 2 |
 | 2026-07 | 2 |
 | 2026-03 | 13 |
 | 2026-02 | 15 |
@@ -60,8 +60,8 @@ La más alta a menos de 5 km medida por el satélite.
 |---|---:|
 | Guayas | 12 |
 | El Oro | 7 |
+| Esmeraldas | 5 |
 | Los Ríos | 5 |
-| Esmeraldas | 4 |
 | Santa Elena | 2 |
 | Manabí | 2 |
 
@@ -69,12 +69,12 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1629 |
-| …con el pronóstico de lluvia del WRF para ese día | 1560 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 1562 |
-| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1353 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 1635 |
+| …con el pronóstico de lluvia del WRF para ese día | 1566 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 1568 |
+| …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1355 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 2 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 294 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 317 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 2 |
 
 ### Descartadas, por motivo
