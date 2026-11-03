@@ -13,8 +13,8 @@
     "latitud": -2.187278,
     "longitud": -79.884826,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la noche del 01/11/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras se observan calles anegadas; se reporta que el río Daule se encuentra desbordado; se mantienen las fuertes lluvias.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 01/11/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras ya no se observan calles anegadas.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Pronóstico WRF para ese día: 28,3 mm (2 días antes), 70,9 mm (1 día antes), 41,0 mm (el mismo día). Estación Guayaquil U. Estatal (a 1,8 km): el WRF pronosticaba ahí 28,3 mm (2 días antes), 70,9 mm (1 día antes), 41,0 mm (el mismo día).",

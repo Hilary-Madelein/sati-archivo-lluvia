@@ -13,8 +13,8 @@
     "latitud": -2.203832,
     "longitud": -79.908235,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas durante la noche del 01/11/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras se observan calles anegadas; adicionalmente, se reportó el río Daule desbordado; se mantienen las fuertes lluvias.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las lluvias registradas durante la noche del 01/11/2026, se reportan varios sectores con acumulación de agua en las calles y avenidas. Mediante cámaras ya no se observan calles anegadas; adicionalmente.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Pronóstico WRF para ese día: 26,3 mm (2 días antes), 68,2 mm (1 día antes), 27,8 mm (el mismo día). Estación La Chala Eb Aass - Emapag (a 1,1 km): el WRF pronosticaba ahí 25,3 mm (2 días antes), 59,4 mm (1 día antes), 22,1 mm (el mismo día).",
