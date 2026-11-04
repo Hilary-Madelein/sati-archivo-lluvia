@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "f8170b6c9a7e62b013f3631a6b040054",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-11-04",
+    "hora": "07:00",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Caracol",
+    "sector": "RCTO. PLAYAS DE HOJARASCA, RÍO CARACOL",
+    "latitud": -1.668728,
+    "longitud": -79.46254,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en horas de la tarde, se reportó una inundación por desbordamiento del Río Caracol que deja consigo afectaciones en viviendas, personas y cultivos.\r\n\r\n\r\n Presidente parroquial de Caracol realizó barrido en la zona afectada, reportando presencia de agua en las viviendas cercanas a los cultivos; SNGR procedió a coordinar la novedad del evento con UGR Ventanas y MDEP para levantamiento de MAAPEA. En donde actualmente las familias afectadas continúan en sus viviendas con presencia de agua, al igual que en los cultivos, y se mantiene desbordado el Río Caracol.",
+    "personas_afectadas": 16,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 4,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 68,0 mm (2 días antes), 117,0 mm (1 día antes), 142,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-04 02:00",
+      "hasta": "2026-11-05 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-04 02:00",
+      "en_el_lugar_mm": 142.0,
+      "maxima_a_menos_de_5km_mm": 173.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 117.0,
+      "maxima_a_menos_de_5km_mm": 145.7
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 68.0,
+      "maxima_a_menos_de_5km_mm": 99.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-04T20:43:58.000Z",
+    "estado": "espera"
+  }
+}

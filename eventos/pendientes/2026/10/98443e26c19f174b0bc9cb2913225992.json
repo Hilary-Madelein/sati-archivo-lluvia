@@ -13,8 +13,8 @@
     "latitud": -3.329606060949011,
     "longitud": -79.80425584025984,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "A causa de las intensas precipitaciones ocurridas en la madrugada del 24/10/2026, se registró acumulación de agua y calles anegadas en distintos puntos del casco urbano. Y producto del evento, un centro de salud Hospital Básico de Pasaje, resultó afectado por el ingreso de agua. SNGR mantuvo monitoreo con MINEDEC y MSP, donde se informa que las clases se mantendrán con clases no presenciales hasta nuevo aviso y el centro de salud se encuentra operativo, luego de que el agua bajó su nivel.",
+    "estado": "Cierre",
+    "descripcion": "A causa de las intensas precipitaciones ocurridas en la madrugada del 24/10/2026, se registró acumulación de agua y calles anegadas en distintos puntos del casco urbano.  AGUAPAS EP. realizó trabajos de limpieza de sumideros con lo que evacuó las aguas acumuladas en las calles de los diferentes sectores.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 127,0 mm el día del evento en el lugar (hasta 138,0 mm a menos de 5 km) y 16,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,3 mm (2 días antes), 10,6 mm (1 día antes), 0,5 mm (el mismo día). Estación Machala Granja Sta. Ines (a 13,1 km): el WRF pronosticaba ahí 0,5 mm (2 días antes), 1,1 mm (1 día antes), 0,1 mm (el mismo día).",

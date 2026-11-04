@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "25099feb0a03f2bf60aba92e3d556560",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-04",
+    "hora": "08:00",
+    "provincia": "El Oro",
+    "canton": "Portovelo",
+    "parroquia": "Salatí",
+    "sector": "Porotillo, vía Porotillo - Viñamao",
+    "latitud": -3.753818,
+    "longitud": -79.533122,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias en la cuenca alta de la quebrada S/N, se registra desbordamiento de la misma, causando inundación en el sector. La quebrada S/N continúa desbordada; cabe indicar que en el cantón no se presentan lluvias.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 35,4 mm (2 días antes), 35,9 mm (1 día antes), 31,2 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-04 02:00",
+      "hasta": "2026-11-05 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-04 02:00",
+      "en_el_lugar_mm": 31.2,
+      "maxima_a_menos_de_5km_mm": 68.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 35.9,
+      "maxima_a_menos_de_5km_mm": 55.5
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 35.4,
+      "maxima_a_menos_de_5km_mm": 50.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-04T20:43:38.000Z",
+    "estado": "espera"
+  }
+}

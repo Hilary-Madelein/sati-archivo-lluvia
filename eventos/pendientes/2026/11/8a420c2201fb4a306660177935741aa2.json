@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "8a420c2201fb4a306660177935741aa2",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-04",
+    "hora": "15:27",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Colonche",
+    "sector": "Varios Sectores: Ayangue, San Marcos, Bajada de Colonche, Palmar, Loma Alta, El Recinto el Salado, Las Balsas, Salanguillo.",
+    "latitud": -2.0215,
+    "longitud": -80.6691,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las lluvias suscitadas en la mañana del 04/11/2026, se reportó acumulación de aguas lluvias con ingreso a las viviendas de las comunas pertenecientes a la parroquia Colonche.  Las familias afectadas permanecen en sus viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 0,1 mm (2 días antes), 3,0 mm (1 día antes), 0,4 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-04 02:00",
+      "hasta": "2026-11-05 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-04 02:00",
+      "en_el_lugar_mm": 0.4,
+      "maxima_a_menos_de_5km_mm": 6.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 3.0,
+      "maxima_a_menos_de_5km_mm": 8.6
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 0.1,
+      "maxima_a_menos_de_5km_mm": 0.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-04T20:44:06.000Z",
+    "estado": "espera"
+  }
+}

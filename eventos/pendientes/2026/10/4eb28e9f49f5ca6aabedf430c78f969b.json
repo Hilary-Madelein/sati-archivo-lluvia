@@ -12,16 +12,16 @@
     "sector": "Varios sectores (Cooperativa 28 de Agosto y Cooperativa Una Sola Fuerza)",
     "latitud": -2.155618803033412,
     "longitud": -79.78423856395162,
-    "nivel": 1,
-    "estado": "Seguimiento",
+    "nivel": 2,
+    "estado": "Cierre",
     "descripcion": "Producto de las lluvias se vieron afectados los dos sectores mencionados. SNGR realizó el levantamiento de información y, posteriormente, la entrega de asistencia humanitaria.",
-    "personas_afectadas": 0,
+    "personas_afectadas": 1600,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 400,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 33,0 mm el día del evento en el lugar (hasta 33,0 mm a menos de 5 km) y 58,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 44,8 mm (2 días antes), 0,0 mm (1 día antes), 16,0 mm (el mismo día). Estación Cuerpo de Bomberos Divino Niño - Duran (a 5,7 km): el WRF pronosticaba ahí 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
   "lluvia_satelite": {
@@ -121,7 +121,7 @@
       "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-11-01T18:49:59.000Z",
+    "procesado": "2026-11-04T20:46:38.000Z",
     "estado": "espera"
   }
 }

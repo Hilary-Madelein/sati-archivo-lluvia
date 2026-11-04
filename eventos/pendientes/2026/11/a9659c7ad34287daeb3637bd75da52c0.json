@@ -14,7 +14,7 @@
     "longitud": -90.327927,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las fuertes precipitaciones registradas durante las horas de la mañana en el sector rural, parroquia Bellavista, se produjo el desbordamiento de tres cañadas. Entre ellas, se activó la cañada El Aguacatal, cuyo cauce desemboca en el sector La Cascada, ubicado en la zona rural. El desbordamiento de las cañadas impacta  nuevamente a los sectores afectados que ya registraron en el evento 16519 ocurrido el 31/10/2026. Por lo cual este nuevo informe hace referencia al evento anterior.",
+    "descripcion": "Por lluvias de la madrugada del 02/11/2026, se volvió a desbordar la Cañada La Cascada, afectando los sectores ya reportados el 30/10/2026, en donde se vieron afectaciones en viviendas, familias, vías, bienes públicos y privados. El desbordamiento de las cañadas impacta  nuevamente a los sectores afectados que ya registraron en el evento 16519 ocurrido el 31/10/2026. Por lo cual este nuevo informe hace referencia al evento anterior.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "",

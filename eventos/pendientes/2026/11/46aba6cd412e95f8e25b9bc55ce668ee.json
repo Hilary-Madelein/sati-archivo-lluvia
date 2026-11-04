@@ -1,0 +1,108 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "46aba6cd412e95f8e25b9bc55ce668ee",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-04",
+    "hora": "00:30",
+    "provincia": "Santa Elena",
+    "canton": "Santa Elena",
+    "parroquia": "Manglaralto",
+    "sector": "San Pedro.",
+    "latitud": -1.9501837,
+    "longitud": -80.7292567,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias registradas durante la madrugada del 04/11/2026, se reportó acumulación de aguas lluvias con ingreso a las viviendas de la comuna perteneciente a la parroquia Manglaralto. 04/11/2026, SNGR coordina atención con Tenencia Política en la comuna de la parroquia Manglaralto para inspección del sitio.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 14,0 mm a menos de 5 km) y 7,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-03 07:00",
+      "hasta": "2026-11-04 07:00",
+      "en_el_lugar_mm": 7.0,
+      "maxima_a_menos_de_5km_mm": 14.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-04 00:00",
+        "hasta": "2026-11-04 01:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-03 22:00",
+        "hasta": "2026-11-04 01:00",
+        "en_el_lugar_mm": 5.0,
+        "maxima_a_menos_de_5km_mm": 8.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-03 19:00",
+        "hasta": "2026-11-04 01:00",
+        "en_el_lugar_mm": 6.0,
+        "maxima_a_menos_de_5km_mm": 9.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-03 01:00",
+        "hasta": "2026-11-04 01:00",
+        "en_el_lugar_mm": 7.0,
+        "maxima_a_menos_de_5km_mm": 10.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-03 02:00",
+      "hasta": "2026-11-04 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 13.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 1.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.9
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-04T20:43:21.000Z",
+    "estado": "espera"
+  }
+}
