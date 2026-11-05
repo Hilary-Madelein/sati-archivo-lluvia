@@ -13,8 +13,8 @@
     "latitud": -3.783598149205275,
     "longitud": -79.912008166777,
     "nivel": 1,
-    "estado": "Seguimiento",
-    "descripcion": "Debido lluvias la tarde del 29/10/2026 acompañadas de tormenta eléctrica (relámpagos y truenos), se registra inundación en varias calles y avenidas. Al momento las lluvias, relámpagos y truenos continúan, generando la acumulación de agua.",
+    "estado": "Cierre",
+    "descripcion": "Debido a lluvias la tarde del 29/10/2026 acompañadas de tormenta eléctrica (relámpagos y truenos), se registró inundación en varias calles y avenidas. No se registran lluvias; las aguas acumuladas en las diferentes calles del casco urbano han evacuado en su totalidad. UGR realizó recorrido en los sectores afectados; el departamento de aseo realizó limpieza de sumideros.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 81,0 mm el día del evento en el lugar (hasta 81,0 mm a menos de 5 km) y 42,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 48,7 mm (2 días antes), 54,2 mm (1 día antes), 30,6 mm (el mismo día). Estación Las Lajas (a 16,6 km): el WRF pronosticaba ahí 26,9 mm (2 días antes), 21,8 mm (1 día antes), 32,1 mm (el mismo día).",

@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "3e140f7900eb5e2afe175759cf5b6b2d",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-05",
+    "hora": "15:00",
+    "provincia": "Esmeraldas",
+    "canton": "Rioverde",
+    "parroquia": "Rioverde",
+    "sector": "Rioverde",
+    "latitud": 1.0527012746899704,
+    "longitud": -79.38508597109674,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la mañana del 05/11/2026, se registró el desbordamiento del río Rioverde, inundando varios sectores de la parroquia. UGR Rioverde indica que el río Rioverde se mantiene desbordado, y las familias siguen pernoctando en sus propias viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 3,6 mm (2 días antes), 6,9 mm (1 día antes), 3,5 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-05 02:00",
+      "hasta": "2026-11-06 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-05 02:00",
+      "en_el_lugar_mm": 3.5,
+      "maxima_a_menos_de_5km_mm": 3.8
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-04 02:00",
+      "en_el_lugar_mm": 6.9,
+      "maxima_a_menos_de_5km_mm": 12.7
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 3.6,
+      "maxima_a_menos_de_5km_mm": 4.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-05T20:59:19.000Z",
+    "estado": "espera"
+  }
+}

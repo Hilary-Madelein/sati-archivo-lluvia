@@ -14,14 +14,14 @@
     "longitud": -80.1491087146021,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a fuertes lluvias presentadas en la noche del 03/11/2026, se produjo desbordamiento del río Canuto, ocasionando inundación en el sitio. Al momento, el nivel de río se mantiene con disminución de caudal; UGR Chone indica que hasta el momento habría pérdidas de medios de vida. UGR GAD Chone confirmó evento, informa que realizará recorridos por los sectores afectados para evaluar si existen afectaciones en viviendas. SNGR realiza monitoreo de evento y coordina atención del evento con MAGP, para la evaluación de afectaciones de medios de vida.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "Debido a fuertes lluvias presentadas en la noche del 03/11/2026, se produjo desbordamiento del río Canuto, ocasionando inundación en el sitio. Al momento, el nivel de río se mantiene con disminución de caudal; UGR Chone indica que hasta el momento habría pérdidas de medios de vida. UGR GAD Chone confirmó evento, informa que realizará recorridos por los sectores afectados para evaluar si existen afectaciones en viviendas. SNGR realiza monitoreo de evento y coordina atención del evento con MAGP, para la evaluación de afectaciones de medios de vida. \r\n-05/11/2026 Se actualizaron datos de afectaciones, UGR GAD cantonal indica que continuará en los próximos días con el levantamiento de EVIN y que hasta el momento habría pérdidas de medios de vida.",
+    "personas_afectadas": 84,
+    "viviendas_afectadas": 3,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
-    "personas_damnificadas": 0,
+    "personas_damnificadas": 34,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 33,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 66,0 mm el día del evento en el lugar (hasta 66,0 mm a menos de 5 km) y 86,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 6,0 mm (2 días antes), 31,4 mm (1 día antes), 6,9 mm (el mismo día). Estación Chone - U.catolica (a 21,8 km): el WRF pronosticaba ahí 0,9 mm (2 días antes), 21,0 mm (1 día antes), 1,8 mm (el mismo día); midió 8,9 mm ese día.",
   "lluvia_satelite": {

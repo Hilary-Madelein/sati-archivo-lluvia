@@ -1,0 +1,124 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "14f2c85606525d691fb83348e1f2aa12",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-11-03",
+    "hora": "01:30",
+    "provincia": "Galápagos",
+    "canton": "Santa Cruz",
+    "parroquia": "Puerto Ayora",
+    "sector": "Bellavista, Aguacatal, La Cascada, Cañada de La Cascada",
+    "latitud": -0.73858,
+    "longitud": -90.318443,
+    "nivel": 3,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la madrugada del 03/11/2026, se volvió a desbordar la Cañada La Cascada, afectando los sectores ya reportados el 30/10/2026, en donde se vieron afectaciones en viviendas, familias, vías, bienes públicos y privados. SNGR realizó verificación de novedades en la zona afectada; GAD Santa Cruz realizó la activación de 1 refugio temporal, Unidad Educativa Miguel Ángel Cazares, en donde se mantienen 10 familias con 26 personas. Actualmente, no existe presencia de agua en la zona afectada, por lo que el caudal está en su nivel normal; las familias permanecen en el sitio realizando limpieza en sus viviendas. Viceministro del MIT realizó inspección técnica con personal técnico en las zonas de alto impacto. MDEP realizó levantamiento de matriz MAAPEA, en donde mediante el Proyecto Agroprotege se realizó el respectivo acercamiento con los agricultores afectados. Adicional a ello, las familias afectadas proceden a recibir colaboración de 11 hoteles para poder tener servicios básicos y recibir apoyo alimentario (Hotel Galápagos, Hotel Flamingo, Hotel Brisas del Pacífico, Hotel Maytenus, Hotel Aire, Hotel Carlita, Hospedaje Bratle, Hotel Galápagos Dreams, Hotel León Marino, Hotel Blue Galápagos, Galápagos Sensations).",
+    "personas_afectadas": 5936,
+    "viviendas_afectadas": 1250,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1484,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 1,
+    "centros_de_salud_afectados": 1,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 36,0 mm el día del evento en el lugar (hasta 36,0 mm a menos de 5 km) y 34,0 mm en las 24 h antes del evento. Estación Charles Darwin 1 (a 1,8 km): midió 54,9 mm ese día.",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-02 07:00",
+      "hasta": "2026-11-03 07:00",
+      "en_el_lugar_mm": 36.0,
+      "maxima_a_menos_de_5km_mm": 36.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-03 01:00",
+        "hasta": "2026-11-03 02:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-02 23:00",
+        "hasta": "2026-11-03 02:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-02 20:00",
+        "hasta": "2026-11-03 02:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-02 02:00",
+        "hasta": "2026-11-03 02:00",
+        "en_el_lugar_mm": 34.0,
+        "maxima_a_menos_de_5km_mm": 34.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M0191",
+      "nombre": "Charles Darwin 1",
+      "distancia_km": 1.8,
+      "latitud": -0.743056,
+      "longitud": -90.3025
+    },
+    "lluvia_medida_dia_del_evento": {
+      "desde": "2026-11-02 07:00",
+      "hasta": "2026-11-03 07:00",
+      "horas_con_dato": 23,
+      "lluvia_mm": 54.9
+    },
+    "lluvia_medida_antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-03 01:00",
+        "hasta": "2026-11-03 02:00",
+        "horas_con_dato": 1,
+        "lluvia_mm": 0.0
+      },
+      "ultimas_3_h": null,
+      "ultimas_6_h": {
+        "desde": "2026-11-02 20:00",
+        "hasta": "2026-11-03 02:00",
+        "horas_con_dato": 5,
+        "lluvia_mm": 3.8
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-02 02:00",
+        "hasta": "2026-11-03 02:00",
+        "horas_con_dato": 23,
+        "lluvia_mm": 58.6
+      }
+    },
+    "pronostico_puntual": null
+  },
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-30 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-05T21:00:25.000Z",
+    "estado": "espera"
+  }
+}

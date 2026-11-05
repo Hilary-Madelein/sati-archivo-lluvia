@@ -15,13 +15,13 @@
     "nivel": 1,
     "estado": "Cierre",
     "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en horas de la tarde, se reportó una inundación por acumulación de aguas lluvias, la misma que deja consigo viviendas con personas afectadas. UPREA-SNGR, en conjunto con JP Quevedo, realizó la entrega de asistencia humanitaria y kits de limpieza acompañados del MTDH, en donde actualmente las familias se mantienen en sus hogares sin presencia de agua.",
-    "personas_afectadas": 20,
-    "viviendas_afectadas": 5,
+    "personas_afectadas": 60,
+    "viviendas_afectadas": 17,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 5,
+    "familias_afectadas": 17,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -36,8 +36,42 @@
     "codigo": "rain_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Pronóstico WRF para ese día: 43,4 mm (2 días antes), 44,9 mm (1 día antes), 33,9 mm (el mismo día). Estación Quevedo en Quevedo (a 5,0 km): el WRF pronosticaba ahí 52,2 mm (2 días antes), 97,8 mm (1 día antes), 61,3 mm (el mismo día).",
-  "lluvia_satelite": null,
+  "resumen": "Satélite: 77,0 mm el día del evento en el lugar (hasta 89,0 mm a menos de 5 km) y 42,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 43,4 mm (2 días antes), 44,9 mm (1 día antes), 33,9 mm (el mismo día). Estación Quevedo en Quevedo (a 5,0 km): el WRF pronosticaba ahí 52,2 mm (2 días antes), 97,8 mm (1 día antes), 61,3 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-01 07:00",
+      "hasta": "2026-11-02 07:00",
+      "en_el_lugar_mm": 77.0,
+      "maxima_a_menos_de_5km_mm": 89.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-01 17:00",
+        "hasta": "2026-11-01 18:00",
+        "en_el_lugar_mm": 19.0,
+        "maxima_a_menos_de_5km_mm": 25.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-01 15:00",
+        "hasta": "2026-11-01 18:00",
+        "en_el_lugar_mm": 35.0,
+        "maxima_a_menos_de_5km_mm": 45.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-01 12:00",
+        "hasta": "2026-11-01 18:00",
+        "en_el_lugar_mm": 35.0,
+        "maxima_a_menos_de_5km_mm": 45.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-10-31 18:00",
+        "hasta": "2026-11-01 18:00",
+        "en_el_lugar_mm": 42.0,
+        "maxima_a_menos_de_5km_mm": 59.0
+      }
+    }
+  },
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
     "periodo": {
@@ -84,11 +118,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "lluvia por satélite: aún no publicada",
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-16 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-30 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-11-02T13:27:53.000Z",
+    "procesado": "2026-11-05T21:01:15.000Z",
     "estado": "espera"
   }
 }
