@@ -461,7 +461,13 @@
       "archivo": "persiann_24h_20261105.tif",
       "bytes": 9757,
       "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/persiann-2026-11/persiann_24h_20261105.tif"
+    },
+    "20261106": {
+      "release": "persiann-2026-11",
+      "archivo": "persiann_24h_20261106.tif",
+      "bytes": 10674,
+      "url": "https://github.com/Hilary-Madelein/sati-archivo-lluvia/releases/download/persiann-2026-11/persiann_24h_20261106.tif"
     }
   },
-  "actualizado": "2026-11-06T03:24:08.000Z"
+  "actualizado": "2026-11-06T19:57:02.000Z"
 }
