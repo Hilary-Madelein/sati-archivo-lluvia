@@ -1,0 +1,87 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "bdc73238026bea4d9941748c8ccf4fc3",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-11-02",
+    "hora": "08:00",
+    "provincia": "Galápagos",
+    "canton": "San Cristobal",
+    "parroquia": "Isla Santa Maria (floreana) (cab. En  Pto. Velasco Ibarra)",
+    "sector": "Unidad Educativa Amazonas",
+    "latitud": -1.2747446194562315,
+    "longitud": -90.48744037719287,
+    "nivel": 1,
+    "estado": "Cierre",
+    "descripcion": "Por lluvias de la madrugada del 02/11/2026, se reporta el desbordamiento de la Cañada La Cascada, en donde se reporta 1 establecimiento educativo afectado funcionalmente (Unidad Educativa Amazonas). MINEDEC realizó verificación de novedades en la zona afectada, en donde actualmente las clases entran a modalidad virtual, mientras permanezca vigente la declaratoria de emergencia y la Alerta Roja Nacional; por tal motivo damos por finalizado el evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 18,0 mm el día del evento en el lugar (hasta 18,0 mm a menos de 5 km) y 7,0 mm en las 24 h antes del evento.",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-02 07:00",
+      "hasta": "2026-11-03 07:00",
+      "en_el_lugar_mm": 18.0,
+      "maxima_a_menos_de_5km_mm": 18.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-02 08:00",
+        "hasta": "2026-11-02 09:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-02 06:00",
+        "hasta": "2026-11-02 09:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-02 03:00",
+        "hasta": "2026-11-02 09:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-01 09:00",
+        "hasta": "2026-11-02 09:00",
+        "en_el_lugar_mm": 7.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-31 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-06T20:20:33.000Z",
+    "estado": "espera"
+  }
+}

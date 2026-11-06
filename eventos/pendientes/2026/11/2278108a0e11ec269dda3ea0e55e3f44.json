@@ -1,0 +1,108 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "2278108a0e11ec269dda3ea0e55e3f44",
+    "tipo": "Inundación",
+    "causa": "Inundación",
+    "fecha": "2026-11-04",
+    "hora": "21:00",
+    "provincia": "Manabí",
+    "canton": "Jipijapa",
+    "parroquia": "La Union",
+    "sector": "Las Maravillas, San Pablo.",
+    "latitud": -1.4022760192358488,
+    "longitud": -80.53546564644266,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes precipitaciones registradas la tarde y noche del 04/11/2026, se suscitó el desbordamiento del río Las Maravillas, el cual causó inundación, en los sitios, afectando varias viviendas y daños a enseres, además de las pérdidas y afectación de medios de vida (cultivos de ciclo corto, aves de corral, y ganado porcino), al momento no hay servicio eléctrico. El nivel de los ríos actualmente con incremento de caudal, Las familias se mantienen en sus viviendas, sin servicio de energía eléctrica.",
+    "personas_afectadas": 60,
+    "viviendas_afectadas": 20,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 22,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 22,0 mm el día del evento en el lugar (hasta 22,0 mm a menos de 5 km) y 28,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,3 mm (2 días antes), 4,5 mm (1 día antes), 23,4 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-04 07:00",
+      "hasta": "2026-11-05 07:00",
+      "en_el_lugar_mm": 22.0,
+      "maxima_a_menos_de_5km_mm": 22.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-04 21:00",
+        "hasta": "2026-11-04 22:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-04 19:00",
+        "hasta": "2026-11-04 22:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-04 16:00",
+        "hasta": "2026-11-04 22:00",
+        "en_el_lugar_mm": 19.0,
+        "maxima_a_menos_de_5km_mm": 20.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-03 22:00",
+        "hasta": "2026-11-04 22:00",
+        "en_el_lugar_mm": 28.0,
+        "maxima_a_menos_de_5km_mm": 32.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-04 02:00",
+      "hasta": "2026-11-05 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-04 02:00",
+      "en_el_lugar_mm": 23.4,
+      "maxima_a_menos_de_5km_mm": 23.4
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 4.5,
+      "maxima_a_menos_de_5km_mm": 14.8
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 1.3,
+      "maxima_a_menos_de_5km_mm": 5.4
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-31 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-06T20:19:45.000Z",
+    "estado": "espera"
+  }
+}

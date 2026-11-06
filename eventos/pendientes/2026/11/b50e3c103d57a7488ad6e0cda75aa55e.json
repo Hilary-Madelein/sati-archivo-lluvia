@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "b50e3c103d57a7488ad6e0cda75aa55e",
+    "tipo": "Inundación",
+    "causa": "Inundación",
+    "fecha": "2026-11-04",
+    "hora": "05:33",
+    "provincia": "Manabí",
+    "canton": "Jipijapa",
+    "parroquia": "El Anegado (cab. En Eloy Alfaro)",
+    "sector": "Varios sectores",
+    "latitud": 1.4651331074050438,
+    "longitud": -80.53584224391514,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las intensas lluvias registradas durante la madrugada del 4/11/2026, se produjeron inundaciones en varias viviendas, ocasionando afectaciones materiales y pérdida de enseres domésticos en las viviendas. Las familias siguen en sus viviendas; al momento no hay presencia de lluvia.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-03 02:00",
+      "hasta": "2026-11-04 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-03 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-02 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-31 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-06T20:19:59.000Z",
+    "estado": "espera"
+  }
+}
