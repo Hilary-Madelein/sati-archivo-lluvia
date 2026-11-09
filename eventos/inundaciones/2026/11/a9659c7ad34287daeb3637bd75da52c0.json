@@ -1,0 +1,167 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "a9659c7ad34287daeb3637bd75da52c0",
+    "tipo": "Inundación",
+    "causa": "Inundación",
+    "fecha": "2026-11-02",
+    "hora": "10:20",
+    "provincia": "Galápagos",
+    "canton": "Santa Cruz",
+    "parroquia": "Bellavista",
+    "sector": "El bosque",
+    "latitud": -0.694337,
+    "longitud": -90.327927,
+    "nivel": 2,
+    "estado": "Seguimiento",
+    "descripcion": "Por lluvias de la madrugada del 02/11/2026, se volvió a desbordar la Cañada La Cascada, afectando los sectores ya reportados el 30/10/2026, en donde se vieron afectaciones en viviendas, familias, vías, bienes públicos y privados. El desbordamiento de las cañadas impacta  nuevamente a los sectores afectados que ya registraron en el evento 16519 ocurrido el 31/10/2026. Por lo cual este nuevo informe hace referencia al evento anterior.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 25,0 mm el día del evento en el lugar (hasta 27,0 mm a menos de 5 km) y 12,0 mm en las 24 h antes del evento. Estación Charles Darwin 1 (a 6,1 km): midió 54,9 mm ese día. Río: 0,2 m³/s, subiendo; no llegó a la crecida de 2 años (1,6 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-02 07:00",
+      "hasta": "2026-11-03 07:00",
+      "en_el_lugar_mm": 25.0,
+      "maxima_a_menos_de_5km_mm": 27.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-02 10:00",
+        "hasta": "2026-11-02 11:00",
+        "en_el_lugar_mm": 1.0,
+        "maxima_a_menos_de_5km_mm": 1.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-02 08:00",
+        "hasta": "2026-11-02 11:00",
+        "en_el_lugar_mm": 8.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-02 05:00",
+        "hasta": "2026-11-02 11:00",
+        "en_el_lugar_mm": 8.0,
+        "maxima_a_menos_de_5km_mm": 11.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-01 11:00",
+        "hasta": "2026-11-02 11:00",
+        "en_el_lugar_mm": 12.0,
+        "maxima_a_menos_de_5km_mm": 16.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": {
+    "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
+    "estacion": {
+      "codigo": "M0191",
+      "nombre": "Charles Darwin 1",
+      "distancia_km": 6.1,
+      "latitud": -0.743056,
+      "longitud": -90.3025
+    },
+    "lluvia_medida_dia_del_evento": {
+      "desde": "2026-11-02 07:00",
+      "hasta": "2026-11-03 07:00",
+      "horas_con_dato": 23,
+      "lluvia_mm": 54.9
+    },
+    "lluvia_medida_antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-02 10:00",
+        "hasta": "2026-11-02 11:00",
+        "horas_con_dato": 1,
+        "lluvia_mm": 2.6
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-02 08:00",
+        "hasta": "2026-11-02 11:00",
+        "horas_con_dato": 3,
+        "lluvia_mm": 16.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-02 05:00",
+        "hasta": "2026-11-02 11:00",
+        "horas_con_dato": 6,
+        "lluvia_mm": 34.9
+      },
+      "ultimas_24_h": null
+    },
+    "pronostico_puntual": null
+  },
+  "caudal_del_rio": {
+    "rio_geoglows": 670068979,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 0.2,
+    "caudal_normal_del_mes_m3s": null,
+    "veces_el_caudal_normal": null,
+    "caudal_percentil_75_m3s": 0.0,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 0.1,
+      "cambio_porcentual": 175,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 1.6,
+      "cada_5_años": 5.2,
+      "cada_10_años": 7.6,
+      "cada_25_años": 10.6,
+      "cada_50_años": 12.8,
+      "cada_100_años": 15.0
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-11-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1.1,
+        "maximo_del_ensamble_mas_alto_m3s": 40.3,
+        "maximo_alta_resolucion_m3s": 0.5
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-11-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 4.5,
+        "maximo_del_ensamble_mas_alto_m3s": 49.7,
+        "maximo_alta_resolucion_m3s": 6.4
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-31",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 2.7,
+        "maximo_del_ensamble_mas_alto_m3s": 31.8,
+        "maximo_alta_resolucion_m3s": 4.3
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-11-09T23:25:37.000Z",
+    "estado": "completo"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "c895a858ebd1a668864520530dd5f7da",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-09",
+    "hora": "11:06",
+    "provincia": "Manabí",
+    "canton": "Manta",
+    "parroquia": "Los Esteros",
+    "sector": "Varios Sectores",
+    "latitud": -0.9537855336926827,
+    "longitud": -80.70537769076925,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Producto de las lluvias suscitadas en la mañana del 09/11/2026, se produjo la inundación en varios sectores. Las familias se encuentran en sus viviendas. la momento las viviendas ya no se encuentran inundadas.",
+    "personas_afectadas": 30,
+    "viviendas_afectadas": 19,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 19,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-09 02:00",
+      "hasta": "2026-11-10 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-09 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 33.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-03 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-09T23:20:30.000Z",
+    "estado": "espera"
+  }
+}

@@ -14,7 +14,7 @@
     "longitud": -79.64604093963085,
     "nivel": 2,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias registradas durante la noche del 04/11/2026 y madrugada del 05/11/2026, se produjo el desbordamiento del río Esmeraldas inundando varios sectores de la parroquia. 07/11/2026, GAD Cantonal Esmeraldas indica que el río Esmeraldas se encuentra con tendencia a aumentar de nivel; los sectores se encuentran con presencia de lodo y las familias siguen pernoctando en sus propias viviendas.",
+    "descripcion": "Debido a las lluvias registradas durante la noche del 04/11/2026 y madrugada del 05/11/2026, se produjo el desbordamiento del río Esmeraldas inundando varios sectores de la parroquia. 08/11/2026, GAD Cantonal Esmeraldas indica que el río Esmeraldas se encuentra con tendencia a aumentar de nivel; los sectores se encuentran con presencia de lodo y las familias siguen pernoctando en sus propias viviendas.",
     "personas_afectadas": 391,
     "viviendas_afectadas": 167,
     "personas_evacuadas": 0,
@@ -123,10 +123,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-10-30 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-03 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-11-05T20:58:44.000Z",
+    "procesado": "2026-11-09T23:21:53.000Z",
     "estado": "espera"
   }
 }

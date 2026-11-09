@@ -1,0 +1,151 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "aca8006e649b8af0ff29dd2123546f18",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-11-01",
+    "hora": "23:55",
+    "provincia": "Manabí",
+    "canton": "Jipijapa",
+    "parroquia": "Pedro Pablo Gomez",
+    "sector": "Casas Viejas,  Las Delicias.",
+    "latitud": -1.574623221137315,
+    "longitud": -80.5136489868164,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes precipitaciones registradas la noche del 01/11/2026, se produjo el desbordamiento del río Casas Viejas y río La Vaca, causando inundación en los sectores y afectando varias viviendas. Al momento existen presencias de lluvias leves en el sector; el río Casas Viejas y el río La Vaca permanecen desbordados; las familias continúan en sus viviendas.\r\n- 03/11/2026 UGR GAD Jipijapa informa que producto del desbordamiento y crecientes de los ríos, los caminos que conectan las comunidades, han sido afectadas por acumulación de agua, erosión del suelo y hundimientos, por lo que varias familias se encuentran incomunicadas. Los ríos Casas Viejas y La Vaca están desbordados.",
+    "personas_afectadas": 2,
+    "viviendas_afectadas": 1,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 1,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 74,0 mm el día del evento en el lugar (hasta 80,0 mm a menos de 5 km) y 52,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 8,3 mm (2 días antes), 5,1 mm (1 día antes), 3,5 mm (el mismo día). Río: 39,5 m³/s, 494,4 veces su caudal normal, subiendo; superó la crecida de 2 años (38,4 m³/s).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-01 07:00",
+      "hasta": "2026-11-02 07:00",
+      "en_el_lugar_mm": 74.0,
+      "maxima_a_menos_de_5km_mm": 80.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-01 23:00",
+        "hasta": "2026-11-02 00:00",
+        "en_el_lugar_mm": 13.0,
+        "maxima_a_menos_de_5km_mm": 13.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-01 21:00",
+        "hasta": "2026-11-02 00:00",
+        "en_el_lugar_mm": 36.0,
+        "maxima_a_menos_de_5km_mm": 36.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-01 18:00",
+        "hasta": "2026-11-02 00:00",
+        "en_el_lugar_mm": 47.0,
+        "maxima_a_menos_de_5km_mm": 47.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-01 00:00",
+        "hasta": "2026-11-02 00:00",
+        "en_el_lugar_mm": 52.0,
+        "maxima_a_menos_de_5km_mm": 52.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-01 02:00",
+      "hasta": "2026-11-02 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-01 02:00",
+      "en_el_lugar_mm": 3.5,
+      "maxima_a_menos_de_5km_mm": 24.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-10-31 02:00",
+      "en_el_lugar_mm": 5.1,
+      "maxima_a_menos_de_5km_mm": 12.3
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-10-30 02:00",
+      "en_el_lugar_mm": 8.3,
+      "maxima_a_menos_de_5km_mm": 16.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670060822,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 39.5,
+    "caudal_normal_del_mes_m3s": 0.1,
+    "veces_el_caudal_normal": 494.4,
+    "caudal_percentil_75_m3s": 1.3,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 2.0,
+      "cambio_porcentual": 184,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 38.4,
+      "cada_5_años": 70.6,
+      "cada_10_años": 92.0,
+      "cada_25_años": 118.9,
+      "cada_50_años": 138.9,
+      "cada_100_años": 158.8
+    },
+    "crecida_alcanzada_años": 2,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-11-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 29.8,
+        "maximo_del_ensamble_mas_alto_m3s": 352.7,
+        "maximo_alta_resolucion_m3s": 20.1
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-10-31",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 18.2,
+        "maximo_del_ensamble_mas_alto_m3s": 179.2,
+        "maximo_alta_resolucion_m3s": 19.2
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-10-30",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 14.2,
+        "maximo_del_ensamble_mas_alto_m3s": 182.1,
+        "maximo_alta_resolucion_m3s": 18.4
+      }
+    }
+  },
+  "cruce": {
+    "completo": true,
+    "falta": [],
+    "fallos": 0,
+    "procesado": "2026-11-09T23:29:08.000Z",
+    "estado": "completo"
+  }
+}

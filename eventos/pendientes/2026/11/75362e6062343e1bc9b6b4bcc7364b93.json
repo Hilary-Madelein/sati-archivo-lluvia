@@ -1,0 +1,87 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "75362e6062343e1bc9b6b4bcc7364b93",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-09",
+    "hora": "03:13",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Clemente Baquerizo",
+    "sector": "VARIOS SECTORES (CALLES 5TA PEATONAL, 4TA PEATONAL, E-491 3RA PEATONAL , 2DA PEATONAL, CUSTODIO SANCHEZ, 5 ESQUINAS, AV. 25 DE JULIO, JUAN AGNOLETTO, AV. CLEMENTE BAQUERIZO, 4 DE MAYO, AV. UNIVERSITARIA).",
+    "latitud": -1.806853,
+    "longitud": -79.532682,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "A causa de las lluvias registradas durante la madrugada, se reportan varios sectores con acumulación de aguas en las calles de primer orden. El agua acumulada que se encuentra afectando a los sectores se encuentra en descenso; las vías se mantienen al paso vehicular y peatonal con precaución en las calles anegadas.",
+    "personas_afectadas": 40,
+    "viviendas_afectadas": 10,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 10,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 45,0 mm el día del evento en el lugar (hasta 45,0 mm a menos de 5 km) y 18,0 mm en las 24 h antes del evento.",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-08 07:00",
+      "hasta": "2026-11-09 07:00",
+      "en_el_lugar_mm": 45.0,
+      "maxima_a_menos_de_5km_mm": 45.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-09 03:00",
+        "hasta": "2026-11-09 04:00",
+        "en_el_lugar_mm": 12.0,
+        "maxima_a_menos_de_5km_mm": 13.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-09 01:00",
+        "hasta": "2026-11-09 04:00",
+        "en_el_lugar_mm": 18.0,
+        "maxima_a_menos_de_5km_mm": 23.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-08 22:00",
+        "hasta": "2026-11-09 04:00",
+        "en_el_lugar_mm": 18.0,
+        "maxima_a_menos_de_5km_mm": 23.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-08 04:00",
+        "hasta": "2026-11-09 04:00",
+        "en_el_lugar_mm": 18.0,
+        "maxima_a_menos_de_5km_mm": 23.0
+      }
+    }
+  },
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-03 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-09T23:20:16.000Z",
+    "estado": "espera"
+  }
+}
