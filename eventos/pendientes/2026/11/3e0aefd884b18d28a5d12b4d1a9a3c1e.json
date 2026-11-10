@@ -14,7 +14,7 @@
     "longitud": -80.71458599048864,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Producto de las lluvias suscitadas en horas de la mañana del 09/11/2026, se produjo la inundación en varios sectores. UGR GAD Cantonal realiza levantamiento de la información.",
+    "descripcion": "Producto de las lluvias suscitadas en horas de la mañana del 09/11/2026, se produjo la inundación en varios sectores. Las familias se encuentran en sus viviendas. el agua ha descendido. Desabastecimiento de agua potable, colapso de alcantarillado. La familia damnificada se encuentra en casa de acogida",
     "personas_afectadas": 10,
     "viviendas_afectadas": 6,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
+    "tipo": "Colapso de drenaje",
+    "codigo": "drainage_flood",
     "afectacion_verificada": true
   },
   "resumen": "Pronóstico WRF para ese día: 33,8 mm (el mismo día).",

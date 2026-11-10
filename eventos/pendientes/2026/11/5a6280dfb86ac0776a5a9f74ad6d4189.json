@@ -101,7 +101,7 @@
     "lluvia_medida_dia_del_evento": {
       "desde": "2026-11-06 07:00",
       "hasta": "2026-11-07 07:00",
-      "horas_con_dato": 21,
+      "horas_con_dato": 22,
       "lluvia_mm": 5.8
     },
     "lluvia_medida_antes_del_evento": {
@@ -143,10 +143,10 @@
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-01 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-04 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-11-07T18:34:10.000Z",
+    "procesado": "2026-11-10T20:44:41.000Z",
     "estado": "espera"
   }
 }

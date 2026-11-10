@@ -14,7 +14,7 @@
     "longitud": -79.816659,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias registradas desde la tarde del 24/10/2026, se reportan sectores con acumulación de agua en las calles y avenidas. Debido al deterioro, un muro de contención ha colapsado, causando inundaciones en viviendas y avenidas de los recintos mencionados. El río Balao se encuentra desbordado.",
+    "descripcion": "Debido a las lluvias registradas desde la tarde del 24/10/2026, se reportan sectores con acumulación de agua en las calles y avenidas. Debido al deterioro, un muro de contención ha colapsado, causando inundaciones en viviendas y avenidas de los recintos mencionados. El río Balao se encuentra normal.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 108,0 mm el día del evento en el lugar (hasta 111,0 mm a menos de 5 km) y 67,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 9,3 mm (2 días antes), 4,5 mm (1 día antes), 7,1 mm (el mismo día). Río: 555,4 m³/s, 11,0 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (632,5 m³/s).",
