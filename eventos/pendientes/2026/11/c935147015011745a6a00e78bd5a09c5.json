@@ -1,20 +1,20 @@
 {
   "version": 4,
   "evento": {
-    "id": "4d204c01cf0f8b68a22248a835c9dbbc",
+    "id": "c935147015011745a6a00e78bd5a09c5",
     "tipo": "Inundación",
     "causa": "Desbordamiento de cuerpos de agua",
-    "fecha": "2026-11-04",
-    "hora": "08:40",
-    "provincia": "Guayas",
-    "canton": "Daule",
-    "parroquia": "Juan Bautista Aguirre (los Tintos)",
-    "sector": "Varios Sectores (La Clemencia de JBA, Comején de abajo, Bramadero, Beldaco, Bella esperanza)",
-    "latitud": -1.857345,
-    "longitud": -79.903635,
+    "fecha": "2026-11-10",
+    "hora": "20:20",
+    "provincia": "Manabí",
+    "canton": "Chone",
+    "parroquia": "San Antonio",
+    "sector": "Playita de San Antonió",
+    "latitud": -0.702005256337488,
+    "longitud": -80.15878243212843,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de la lluvias registradas durante la madrugada del 04/11/2026 se reportan viviendas inundadas y calles anegadas debido al desbordamiento del cuerpo hídrico. SNGR informó que las familias se mantienen en sus viviendas. El río Daule sigue desbordado.",
+    "descripcion": "Debido a las precipitaciones registradas en la noche del 10/11/202, se produjo el desbordamiento del río San Lorenzo, causando inundación y afectación de medios de vida (cultivos agrícolas y aves de corral). Las familias afectadas se encuentran en sus viviendas; el río se encuentra desbordado con disminución de caudal. UGR GAD Chone confirmó el evento y realizará levantamiento EVIN. SNGR monitorea evento y coordina con MAGP atención del evento debido a las afectaciones agrícolas suscitadas.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -36,122 +36,117 @@
     "codigo": "river_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Satélite: 8,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 28,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 4,2 mm (2 días antes), 11,4 mm (1 día antes), 26,5 mm (el mismo día). Estación Nobol (a 19,1 km): el WRF pronosticaba ahí 13,3 mm (2 días antes), 11,0 mm (1 día antes), 42,2 mm (el mismo día); midió 10,4 mm ese día.",
+  "resumen": "Satélite: 11,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 35,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (1 día antes), 5,5 mm (el mismo día). Estación Chone - U.catolica (a 15,7 km): el WRF pronosticaba ahí 1,1 mm (1 día antes), 8,7 mm (el mismo día); midió 1,7 mm ese día.",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
-      "desde": "2026-11-04 07:00",
-      "hasta": "2026-11-05 07:00",
-      "en_el_lugar_mm": 8.0,
+      "desde": "2026-11-10 07:00",
+      "hasta": "2026-11-11 07:00",
+      "en_el_lugar_mm": 11.0,
       "maxima_a_menos_de_5km_mm": 12.0
     },
     "antes_del_evento": {
       "ultimas_1_h": {
-        "desde": "2026-11-04 08:00",
-        "hasta": "2026-11-04 09:00",
+        "desde": "2026-11-10 20:00",
+        "hasta": "2026-11-10 21:00",
         "en_el_lugar_mm": 0.0,
         "maxima_a_menos_de_5km_mm": 0.0
       },
       "ultimas_3_h": {
-        "desde": "2026-11-04 06:00",
-        "hasta": "2026-11-04 09:00",
-        "en_el_lugar_mm": 1.0,
-        "maxima_a_menos_de_5km_mm": 2.0
+        "desde": "2026-11-10 18:00",
+        "hasta": "2026-11-10 21:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
       },
       "ultimas_6_h": {
-        "desde": "2026-11-04 03:00",
-        "hasta": "2026-11-04 09:00",
-        "en_el_lugar_mm": 4.0,
-        "maxima_a_menos_de_5km_mm": 5.0
+        "desde": "2026-11-10 15:00",
+        "hasta": "2026-11-10 21:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
       },
       "ultimas_24_h": {
-        "desde": "2026-11-03 09:00",
-        "hasta": "2026-11-04 09:00",
-        "en_el_lugar_mm": 28.0,
-        "maxima_a_menos_de_5km_mm": 32.0
+        "desde": "2026-11-09 21:00",
+        "hasta": "2026-11-10 21:00",
+        "en_el_lugar_mm": 35.0,
+        "maxima_a_menos_de_5km_mm": 38.0
       }
     }
   },
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
     "periodo": {
-      "desde": "2026-11-04 02:00",
-      "hasta": "2026-11-05 02:00"
+      "desde": "2026-11-10 02:00",
+      "hasta": "2026-11-11 02:00"
     },
     "hecho_el_mismo_dia": {
-      "corrida_del_modelo": "2026-11-04 02:00",
-      "en_el_lugar_mm": 26.5,
-      "maxima_a_menos_de_5km_mm": 42.1
+      "corrida_del_modelo": "2026-11-10 02:00",
+      "en_el_lugar_mm": 5.5,
+      "maxima_a_menos_de_5km_mm": 12.0
     },
     "hecho_1_dia_antes": {
-      "corrida_del_modelo": "2026-11-03 02:00",
-      "en_el_lugar_mm": 11.4,
-      "maxima_a_menos_de_5km_mm": 12.8
-    },
-    "hecho_2_dias_antes": {
-      "corrida_del_modelo": "2026-11-02 02:00",
-      "en_el_lugar_mm": 4.2,
-      "maxima_a_menos_de_5km_mm": 6.1
+      "corrida_del_modelo": "2026-11-09 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 3.2
     }
   },
   "lluvia_estacion_inamhi": {
     "que_es": "Estación del INAMHI más cercana al evento (a menos de 25 km). 'lluvia_medida_dia_del_evento' es lo que midió su pluviómetro de 07:00 a 07:00 (hora de Ecuador; hay mediciones desde oct 2026) y 'lluvia_medida_antes_del_evento', lo que midió en la última hora, 3, 6 y 24 h hasta el evento. 'pronostico_puntual' es lo que el WRF pronosticaba en las coordenadas de la estación para el día del WRF (02:00 a 02:00), hecho el mismo día, 1 y 2 días antes, y lo que midió la estación en esas mismas 24 h, si hay.",
     "estacion": {
-      "codigo": "M1207",
-      "nombre": "Nobol",
-      "distancia_km": 19.1,
-      "latitud": -1.92154,
-      "longitud": -80.06279
+      "codigo": "M0162",
+      "nombre": "Chone - U.catolica",
+      "distancia_km": 15.7,
+      "latitud": -0.6308,
+      "longitud": -80.03651
     },
     "lluvia_medida_dia_del_evento": {
-      "desde": "2026-11-04 07:00",
-      "hasta": "2026-11-05 07:00",
-      "horas_con_dato": 20,
-      "lluvia_mm": 10.4
+      "desde": "2026-11-10 07:00",
+      "hasta": "2026-11-11 07:00",
+      "horas_con_dato": 24,
+      "lluvia_mm": 1.7
     },
     "lluvia_medida_antes_del_evento": {
       "ultimas_1_h": {
-        "desde": "2026-11-04 08:00",
-        "hasta": "2026-11-04 09:00",
+        "desde": "2026-11-10 20:00",
+        "hasta": "2026-11-10 21:00",
         "horas_con_dato": 1,
         "lluvia_mm": 0.0
       },
       "ultimas_3_h": {
-        "desde": "2026-11-04 06:00",
-        "hasta": "2026-11-04 09:00",
+        "desde": "2026-11-10 18:00",
+        "hasta": "2026-11-10 21:00",
         "horas_con_dato": 3,
         "lluvia_mm": 0.0
       },
       "ultimas_6_h": {
-        "desde": "2026-11-04 03:00",
-        "hasta": "2026-11-04 09:00",
+        "desde": "2026-11-10 15:00",
+        "hasta": "2026-11-10 21:00",
         "horas_con_dato": 6,
         "lluvia_mm": 0.0
       },
       "ultimas_24_h": {
-        "desde": "2026-11-03 09:00",
-        "hasta": "2026-11-04 09:00",
-        "horas_con_dato": 22,
-        "lluvia_mm": 0.4
+        "desde": "2026-11-09 21:00",
+        "hasta": "2026-11-10 21:00",
+        "horas_con_dato": 24,
+        "lluvia_mm": 32.5
       }
     },
     "pronostico_puntual": {
-      "desde": "2026-11-04 02:00",
-      "hasta": "2026-11-05 02:00",
-      "hecho_el_mismo_dia_mm": 42.2,
-      "hecho_1_dia_antes_mm": 11.0,
-      "hecho_2_dias_antes_mm": 13.3,
-      "lluvia_medida_mm": 10.0
+      "desde": "2026-11-10 02:00",
+      "hasta": "2026-11-11 02:00",
+      "hecho_el_mismo_dia_mm": 8.7,
+      "hecho_1_dia_antes_mm": 1.1,
+      "hecho_2_dias_antes_mm": null,
+      "lluvia_medida_mm": 21.8
     }
   },
   "caudal_del_rio": null,
   "cruce": {
     "completo": false,
     "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-02 y se actualiza ~1 vez al mes"
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-05 y se actualiza ~1 vez al mes"
     ],
     "fallos": 0,
-    "procesado": "2026-11-08T18:44:48.000Z",
+    "procesado": "2026-11-11T21:10:38.000Z",
     "estado": "espera"
   }
 }

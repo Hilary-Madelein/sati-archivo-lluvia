@@ -36,7 +36,7 @@
     "codigo": "river_flood",
     "afectacion_verificada": true
   },
-  "resumen": "Satélite: 63,0 mm el día del evento en el lugar (hasta 70,0 mm a menos de 5 km) y 63,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 28,8 mm (2 días antes), 18,2 mm (1 día antes), 20,5 mm (el mismo día). Estación Zapotal en Lechugal (a 6,3 km): el WRF pronosticaba ahí 25,7 mm (2 días antes), 27,9 mm (1 día antes), 24,2 mm (el mismo día).",
+  "resumen": "Satélite: 63,0 mm el día del evento en el lugar (hasta 70,0 mm a menos de 5 km) y 63,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 28,8 mm (2 días antes), 18,2 mm (1 día antes), 20,5 mm (el mismo día). Estación Zapotal en Lechugal (a 6,3 km): el WRF pronosticaba ahí 25,7 mm (2 días antes), 27,9 mm (1 día antes), 24,2 mm (el mismo día). Río: 3726,3 m³/s, 10,5 veces su caudal normal, estable; superó la crecida de 2 años (3564,7 m³/s).",
   "lluvia_satelite": {
     "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
     "dia_del_evento": {
@@ -114,14 +114,57 @@
       "lluvia_medida_mm": null
     }
   },
-  "caudal_del_rio": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670060814,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 3726.3,
+    "caudal_normal_del_mes_m3s": 356.2,
+    "veces_el_caudal_normal": 10.5,
+    "caudal_percentil_75_m3s": 1249.0,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 3703.7,
+      "cambio_porcentual": 1,
+      "sentido": "estable"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 3564.7,
+      "cada_5_años": 4324.8,
+      "cada_10_años": 4828.0,
+      "cada_25_años": 5463.9,
+      "cada_50_años": 5935.6,
+      "cada_100_años": 6403.8
+    },
+    "crecida_alcanzada_años": 2,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-11-03",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1304.2,
+        "maximo_del_ensamble_mas_alto_m3s": 1998.8,
+        "maximo_alta_resolucion_m3s": 1211.1
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-11-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 1304.7,
+        "maximo_del_ensamble_mas_alto_m3s": 2879.3,
+        "maximo_alta_resolucion_m3s": 1194.4
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-11-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 2099.4,
+        "maximo_del_ensamble_mas_alto_m3s": 5510.8,
+        "maximo_alta_resolucion_m3s": 2391.0
+      }
+    }
+  },
   "cruce": {
-    "completo": false,
-    "falta": [
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-02 y se actualiza ~1 vez al mes"
-    ],
+    "completo": true,
+    "falta": [],
     "fallos": 0,
-    "procesado": "2026-11-08T18:44:50.000Z",
-    "estado": "espera"
+    "procesado": "2026-11-11T21:12:36.000Z",
+    "estado": "completo"
   }
 }

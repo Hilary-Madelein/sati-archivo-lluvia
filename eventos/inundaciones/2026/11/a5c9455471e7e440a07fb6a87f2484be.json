@@ -9,12 +9,12 @@
     "provincia": "El Oro",
     "canton": "Las Lajas",
     "parroquia": "La Victoria (cabecera Cantonal)",
-    "sector": "LA VICTORIA, VARIOS SECTORES",
+    "sector": "VARIOS SECTORES; LA VICTORIA CABECERA PARROQUIAL, VALLE HERMOSO, PLATANILLO, MORALES",
     "latitud": -3.784984,
     "longitud": -80.061971,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a fuertes precipitaciones registradas la noche del 01/11/2016, se registró el desbordamiento del río La Victoria, causando inundación en calles y viviendas de la parroquia. Bomberos del cantón llevaron a cabo la evacuación de una familia afectada, la cual fue movilizada a casa de familia acogiente.\r\nSe mantiene la Declaratoria de Emergencia en el cantón para la atención al evento. SNGR, mediante recorrido, informa afectaciones a varias familias a causa del desbordamiento del río La Victoria, asi también se registró la afectación en las bases de un puente que conduce a las parroquias El Paraíso y San Isidro; al momento, el caudal del río ya no está desbordado, pero mantiene su caudal alto. Las familias se mantienen en sus viviendas.",
+    "descripcion": "Debido a fuertes precipitaciones registradas la noche del 01/11/2016, se registró el desbordamiento del río La Victoria, causando inundación en calles y viviendas de la parroquia. Bomberos del cantón llevaron a cabo la evacuación de una familia afectada, la cual fue movilizada a casa de familia acogiente.\r\nSe mantiene la Declaratoria de Emergencia en el cantón para la atención al evento.\r\n.  Debido al evento, los servicios de agua potable, energía eléctrica, alcantarillado y gestión de residuos resultaron afectados, los cuales actualmente se encuentran restablecidos en su totalidad; adicionalmente, se registraron afectaciones en vías internas de tercer orden, las cuales se encuentran habilitadas. UGR GAD Cantonal informa que, con la finalidad de brindar atención a las familias damnificadas, el Alcalde del cantón realiza la solicitud de bonos.",
     "personas_afectadas": 54,
     "viviendas_afectadas": 85,
     "personas_evacuadas": 0,
@@ -27,7 +27,7 @@
     "puentes_destruidos": 0,
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
-    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_afectadas": 5.0,
     "hectareas_cultivo_perdidas": 0
   },
   "clasificacion": {
