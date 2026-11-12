@@ -14,7 +14,7 @@
     "longitud": -79.5634956,
     "nivel": 1,
     "estado": "Cierre",
-    "descripcion": "MINEDUC reportó la afectación de una unidad educativa. MINEDUC realizó inspección.",
+    "descripcion": "MINEDUC reportó la afectación de unidades educativas. MINEDUC realizó inspección.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -25,7 +25,7 @@
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
-    "escuelas_afectadas": 0,
+    "escuelas_afectadas": 2,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 78,0 mm el día del evento en el lugar (hasta 85,0 mm a menos de 5 km) y 99,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 67,0 mm (2 días antes), 32,2 mm (1 día antes), 58,9 mm (el mismo día). Estación San Pablo en Palmar (a 15,0 km): el WRF pronosticaba ahí 49,3 mm (2 días antes), 107,9 mm (1 día antes), 93,8 mm (el mismo día). Río: 7,2 m³/s, 2,9 veces su caudal normal, bajando; no llegó a la crecida de 2 años (45,5 m³/s).",
   "lluvia_satelite": {

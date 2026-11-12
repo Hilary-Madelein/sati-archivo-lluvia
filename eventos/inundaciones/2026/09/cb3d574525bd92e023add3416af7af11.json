@@ -25,7 +25,7 @@
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
-    "escuelas_afectadas": 0,
+    "escuelas_afectadas": 1,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 7,0 mm el día del evento en el lugar (hasta 12,0 mm a menos de 5 km) y 18,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,2 mm (2 días antes), 0,2 mm (1 día antes), 2,1 mm (el mismo día). Estación Coe - Monte Bello (a 2,9 km): el WRF pronosticaba ahí 2,4 mm (2 días antes), 0,0 mm (1 día antes), 1,3 mm (el mismo día). Río: 1277,2 m³/s, 11,6 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (3348,2 m³/s).",
   "lluvia_satelite": {

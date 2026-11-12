@@ -1,0 +1,54 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "77a7f4f016aacb060fd4e6e629fedb15",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-12",
+    "hora": "12:40",
+    "provincia": "Galápagos",
+    "canton": "San Cristobal",
+    "parroquia": "Puerto Baquerizo Moreno",
+    "sector": "PLAYA LA LOBERÍA",
+    "latitud": -0.918343,
+    "longitud": -89.620395,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de fuertes lluvias suscitadas en la tarde del 12/11/2026, se reportó una inundación provocada por acumulación de aguas lluvias, las mismas que afectan a la vía de segundo orden. SNGR realizó verificación de novedades en la zona afectada, en donde cuidadores del lugar colocaron barreras de seguridad en la vía de segundo orden por prevención, la misma que al momento se mantiene cerrada y el nivel de agua se mantiene en el sitio.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": null,
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-06 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-12T20:32:45.000Z",
+    "estado": "espera"
+  }
+}

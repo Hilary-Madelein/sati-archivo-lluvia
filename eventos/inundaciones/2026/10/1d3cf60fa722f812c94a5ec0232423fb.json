@@ -13,7 +13,7 @@
     "latitud": -0.699464050902653,
     "longitud": -80.09695049915211,
     "nivel": 1,
-    "estado": "Cierre",
+    "estado": "Seguimiento",
     "descripcion": "Debido a lluvias suscitadas el 19/10/2026, se produjo inundación en el sector, en el cual se vio afectada la Unidad Educativa Eloy Alfaro, con el ingreso de agua a predios y patio. La Unidad educativa Eloy Alfaro, se encuentra en las debidas condiciones para las actividades escolares; al momento, ya no está inundado.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
@@ -25,7 +25,7 @@
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
-    "escuelas_afectadas": 0,
+    "escuelas_afectadas": 1,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 0,
     "hectareas_cultivo_perdidas": 0
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Lluvia intensa (anegamiento)",
     "codigo": "rain_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 23,0 mm el día del evento en el lugar (hasta 36,0 mm a menos de 5 km) y 35,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,3 mm (2 días antes), 1,2 mm (1 día antes), 0,7 mm (el mismo día). Estación Chone - U.catolica (a 10,2 km): el WRF pronosticaba ahí 1,3 mm (2 días antes), 0,9 mm (1 día antes), 1,2 mm (el mismo día); midió 30,9 mm ese día. Río: 17,9 m³/s, 16,2 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (214,4 m³/s).",
   "lluvia_satelite": {

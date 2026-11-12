@@ -28,7 +28,7 @@
     "escuelas_afectadas": 0,
     "centros_de_salud_afectados": 0,
     "hectareas_cultivo_afectadas": 129.0,
-    "hectareas_cultivo_perdidas": 88.0
+    "hectareas_cultivo_perdidas": 136.0
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",

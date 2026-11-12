@@ -1,0 +1,103 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "41b6ccd4fa6a26b0b6e83fdd07daad36",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-11",
+    "hora": "10:46",
+    "provincia": "Los Ríos",
+    "canton": "Babahoyo",
+    "parroquia": "Caracol",
+    "sector": "RCTO. LAS GARZAS.",
+    "latitud": -1.8086994801183993,
+    "longitud": -79.51511947064733,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la presencia de las fuertes lluvias en horas de la noche y madrugada, provocaron la acumulación de aguas lluvias; se reportan viviendas con familias afectadas. Las familias afectadas se mantienen en sus viviendas con presencia de agua, la cual se mantiene; se está realizando reconocimiento de otros recintos, por lo que es una zona rural.",
+    "personas_afectadas": 20,
+    "viviendas_afectadas": 4,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 4,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": true
+  },
+  "resumen": "Satélite: 46,0 mm el día del evento en el lugar (hasta 46,0 mm a menos de 5 km) y 48,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 1,6 mm (2 días antes), 1,4 mm (1 día antes).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-11 07:00",
+      "hasta": "2026-11-12 07:00",
+      "en_el_lugar_mm": 46.0,
+      "maxima_a_menos_de_5km_mm": 46.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-11 10:00",
+        "hasta": "2026-11-11 11:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-11 08:00",
+        "hasta": "2026-11-11 11:00",
+        "en_el_lugar_mm": 0.0,
+        "maxima_a_menos_de_5km_mm": 0.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-11 05:00",
+        "hasta": "2026-11-11 11:00",
+        "en_el_lugar_mm": 3.0,
+        "maxima_a_menos_de_5km_mm": 3.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-10 11:00",
+        "hasta": "2026-11-11 11:00",
+        "en_el_lugar_mm": 48.0,
+        "maxima_a_menos_de_5km_mm": 72.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-11 02:00",
+      "hasta": "2026-11-12 02:00"
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-10 02:00",
+      "en_el_lugar_mm": 1.4,
+      "maxima_a_menos_de_5km_mm": 2.4
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-09 02:00",
+      "en_el_lugar_mm": 1.6,
+      "maxima_a_menos_de_5km_mm": 2.3
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-06 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-12T20:32:58.000Z",
+    "estado": "espera"
+  }
+}
