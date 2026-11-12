@@ -55,13 +55,11 @@ REGIONES = {
 
 COLUMNAS = [
     "id", "fecha", "hora", "region", "provincia", "canton", "parroquia", "sector",
-    "nivel_impacto_sngr", "categoria_evento", "personas_afectadas",
+    "nivel_impacto_sngr", "categoria_evento",
     "observado_satelite_mm", "observado_satelite_max_5km_mm",
     "pronostico_mismo_dia_mm", "pronostico_1_dia_antes_mm", "pronostico_2_dias_antes_mm",
     # pronóstico del mismo día − observado por el satélite (positivo: se pasó; negativo: se quedó corto)
     "diferencia_pronostico_menos_observado_mm",
-    # pronóstico del mismo día ÷ observado por el satélite (1 = exacto; 0,5 = la mitad; vacío si el satélite dio 0)
-    "pronostico_dividido_observado",
     "categoria_lluvia_observada", "categoria_lluvia_pronosticada", "acierta_categoria",
     "alerta_observada", "alerta_pronosticada", "alerta_pronosticada_moderada_o_mas",
 ]
@@ -119,14 +117,12 @@ def fila(r: dict) -> dict:
         "sector": r["sector"],
         "nivel_impacto_sngr": r["nivel_sngr"],
         "categoria_evento": r["tipo_inundacion"],
-        "personas_afectadas": r["personas_afectadas"],
         "observado_satelite_mm": r.get("lluvia_satelite_dia_evento_mm", ""),
         "observado_satelite_max_5km_mm": r.get("lluvia_satelite_dia_evento_max_5km_mm", ""),
         "pronostico_mismo_dia_mm": r.get("lluvia_pronosticada_mismo_dia_mm", ""),
         "pronostico_1_dia_antes_mm": r.get("lluvia_pronosticada_1_dia_antes_mm", ""),
         "pronostico_2_dias_antes_mm": r.get("lluvia_pronosticada_2_dias_antes_mm", ""),
         "diferencia_pronostico_menos_observado_mm": texto(pronostico - observado) if ambos else "",
-        "pronostico_dividido_observado": texto(pronostico / observado, 2) if ambos and observado and observado > 0 else "",
         "categoria_lluvia_observada": cat_obs or "",
         "categoria_lluvia_pronosticada": cat_pron or "",
         "acierta_categoria": ("sí" if cat_obs == cat_pron else "no") if ambos else "",
@@ -151,14 +147,12 @@ def metricas(filas: list[dict]) -> dict:
     errores = [p - o for p, o in pares]
     con_cat = [f for f in filas if f["acierta_categoria"]]
     con_alerta = [f for f in filas if f["alerta_pronosticada_moderada_o_mas"]]
-    suma_obs = sum(o for _, o in pares)
     return {
         "n": len(pares),
         "obs_media": statistics.mean(o for _, o in pares),
         "pron_media": statistics.mean(p for p, _ in pares),
         "sesgo": statistics.mean(errores),
         "error_absoluto": statistics.mean(abs(e) for e in errores),
-        "relacion": (sum(p for p, _ in pares) / suma_obs) if suma_obs else None,
         "acierta_categoria": sum(f["acierta_categoria"] == "sí" for f in con_cat) / len(con_cat) if con_cat else None,
         "detecta": sum(f["alerta_pronosticada_moderada_o_mas"] == "sí" for f in con_alerta) / len(con_alerta) if con_alerta else None,
     }
@@ -166,19 +160,18 @@ def metricas(filas: list[dict]) -> dict:
 
 def renglon(nombre: str, m: dict) -> str:
     if m["n"] == 0:
-        return f"| {nombre} | 0 | | | | | | | |"
+        return f"| {nombre} | 0 | | | | | | |"
     pct = lambda v: "" if v is None else f"{v * 100:.0f} %"
-    rel = "" if m["relacion"] is None else f"{m['relacion']:.2f}"
     return (
         f"| {nombre} | {m['n']} | {m['obs_media']:.1f} | {m['pron_media']:.1f} | {m['sesgo']:+.1f} | "
-        f"{m['error_absoluto']:.1f} | {rel} | {pct(m['acierta_categoria'])} | {pct(m['detecta'])} |"
+        f"{m['error_absoluto']:.1f} | {pct(m['acierta_categoria'])} | {pct(m['detecta'])} |"
     )
 
 
 def escribir_resumen(todas: list[dict], depuradas: list[dict]) -> None:
     encabezado = [
-        "| Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Pronosticado / observado | Acierta categoría | Pronóstico de alerta moderada o más |",
-        "|---|---|---|---|---|---|---|---|---|",
+        "| Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     lineas = [
         "# Precisión del pronóstico de lluvia (WRF) en las inundaciones de la SNGR",
@@ -191,8 +184,6 @@ def escribir_resumen(todas: list[dict], depuradas: list[dict]) -> None:
         "  de 02:00 a 02:00, 5 h antes que el del satélite.",
         "- **Diferencia** (`diferencia_pronostico_menos_observado_mm`): pronóstico del mismo día − observado. **Sesgo:** su promedio",
         "  (positivo = el pronóstico se pasa; negativo = se queda corto).",
-        "- **Pronosticado / observado** (`pronostico_dividido_observado`): pronóstico del mismo día ÷ observado. 1 = exacto;",
-        "  0,5 = pronosticó la mitad; 2 = el doble. En el resumen: total pronosticado ÷ total observado.",
         "- **Categoría:** la de lluvia en 24 h del documento de la SNGR (Mínima, Ligera, Moderada, Fuerte, Intensa,",
         "  Torrencial, Extrema). **Alerta moderada o más:** el pronóstico llegaba a 10 mm o más (lo que dispararía una alerta).",
         "",
