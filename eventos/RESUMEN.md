@@ -8,12 +8,12 @@ Cada paso deja solo las que cumplen el criterio. Los umbrales están al inicio d
 
 | Paso | Quedan |
 |---|---:|
-| Completas (lluvia por satélite y caudal del río) | 2095 |
-| …desde el 2026-01-01 | 2028 |
-| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1771 |
-| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 1035 |
-| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 960 |
-| …con el pronóstico de caudal de las 3 corridas | 955 |
+| Completas (lluvia por satélite y caudal del río) | 2096 |
+| …desde el 2026-01-01 | 2029 |
+| …de tipo desborde de río o lluvia intensa (anegamiento) (se quitan colapso de drenaje y oleaje o marea) | 1772 |
+| …con afectación verificada por la SNGR (daño en personas, viviendas, cultivos o servicios) | 1036 |
+| …con el pronóstico WRF en el lugar de las 3 corridas (mismo día, 1 y 2 días antes) | 961 |
+| …con el pronóstico de caudal de las 3 corridas | 956 |
 | …con pronóstico puntual en una estación del INAMHI a ≤ 15 km | 540 |
 | …con lluvia real el mismo día: el satélite midió ≥ 30 mm | 226 |
 | …si fue desborde: el río llevaba ≥ 3 veces su caudal normal y no es un arroyo (caudal normal ≥ 1 m³/s) | 174 |
@@ -72,12 +72,12 @@ La más alta a menos de 5 km medida por el satélite.
 
 | Inundaciones | Cantidad |
 |---|---:|
-| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 2095 |
-| …con el pronóstico de lluvia del WRF para ese día | 2014 |
-| …con el pronóstico de caudal de GEOGLOWS para ese día | 2028 |
+| Completas: con lluvia por satélite y caudal del río (`inundaciones/`, `inundaciones.csv`) | 2096 |
+| …con el pronóstico de lluvia del WRF para ese día | 2015 |
+| …con el pronóstico de caudal de GEOGLOWS para ese día | 2029 |
 | …con pronóstico puntual en una estación del INAMHI a menos de 25 km | 1741 |
 | …con la lluvia medida en esa estación (hay mediciones desde oct 2026) | 75 |
-| Pendientes: esperan un dato que llegará (`pendientes/`) | 100 |
+| Pendientes: esperan un dato que llegará (`pendientes/`) | 101 |
 | Descartadas: nunca tendrán los dos datos (`descartados.csv`) | 2 |
 
 ### Descartadas, por motivo

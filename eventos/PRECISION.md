@@ -15,14 +15,14 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Todas las inundaciones | 1962 | 33.9 | 19.6 | -14.3 | 29.2 | 27 % | 46 % |
+| Todas las inundaciones | 1963 | 33.9 | 19.6 | -14.3 | 29.2 | 27 % | 46 % |
 | Selección depurada | 42 | 61.0 | 23.8 | -37.2 | 48.3 | 5 % | 45 % |
 
 ## Por región
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Costa | 1486 | 36.3 | 19.0 | -17.3 | 30.6 | 26 % | 45 % |
+| Costa | 1487 | 36.3 | 19.0 | -17.3 | 30.6 | 26 % | 45 % |
 | Sierra | 350 | 25.7 | 25.3 | -0.3 | 24.2 | 30 % | 57 % |
 | Amazonía | 126 | 28.8 | 11.2 | -17.6 | 26.7 | 28 % | 33 % |
 | Insular | 0 | | | | | | |
@@ -32,7 +32,7 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
 | Nivel 1 | 1724 | 33.7 | 19.7 | -14.0 | 28.6 | 27 % | 47 % |
-| Nivel 2 | 214 | 35.0 | 18.5 | -16.5 | 33.0 | 25 % | 42 % |
+| Nivel 2 | 215 | 34.9 | 18.5 | -16.4 | 32.9 | 25 % | 42 % |
 | Nivel 3 | 23 | 39.5 | 18.9 | -20.6 | 34.3 | 35 % | 35 % |
 | Nivel 4 | 1 | 0.0 | 38.3 | +38.3 | 38.3 | 0 % | 100 % |
 
@@ -42,5 +42,5 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 |---|---|---|---|---|---|---|---|
 | Colapso de drenaje | 238 | 28.5 | 21.3 | -7.2 | 26.4 | 26 % | 49 % |
 | Desborde de río | 584 | 38.1 | 22.1 | -16.0 | 32.3 | 25 % | 49 % |
-| Lluvia intensa (anegamiento) | 1137 | 32.9 | 18.1 | -14.9 | 28.2 | 27 % | 45 % |
+| Lluvia intensa (anegamiento) | 1138 | 32.9 | 18.0 | -14.9 | 28.1 | 27 % | 45 % |
 | Oleaje o marea | 3 | 40.0 | 0.7 | -39.3 | 39.3 | 33 % | 0 % |
