@@ -54,12 +54,14 @@ REGIONES = {
 }
 
 COLUMNAS = [
-    "id", "fecha", "hora", "region", "provincia", "canton", "parroquia", "sector", "latitud", "longitud",
-    "nivel_impacto_sngr", "categoria_evento", "afectacion_verificada", "personas_afectadas", "viviendas_afectadas",
-    "depurado",
-    "observado_satelite_mm", "observado_satelite_max_5km_mm", "observado_estacion_mm", "estacion_inamhi", "estacion_distancia_km",
-    "pronostico_mismo_dia_mm", "pronostico_1_dia_antes_mm", "pronostico_2_dias_antes_mm", "pronostico_max_5km_mm",
-    "diferencia_mm", "relacion_pronostico_observado",
+    "id", "fecha", "hora", "region", "provincia", "canton", "parroquia", "sector",
+    "nivel_impacto_sngr", "categoria_evento", "personas_afectadas",
+    "observado_satelite_mm", "observado_satelite_max_5km_mm",
+    "pronostico_mismo_dia_mm", "pronostico_1_dia_antes_mm", "pronostico_2_dias_antes_mm",
+    # pronóstico del mismo día − observado por el satélite (positivo: se pasó; negativo: se quedó corto)
+    "diferencia_pronostico_menos_observado_mm",
+    # pronóstico del mismo día ÷ observado por el satélite (1 = exacto; 0,5 = la mitad; vacío si el satélite dio 0)
+    "pronostico_dividido_observado",
     "categoria_lluvia_observada", "categoria_lluvia_pronosticada", "acierta_categoria",
     "alerta_observada", "alerta_pronosticada", "alerta_pronosticada_moderada_o_mas",
 ]
@@ -99,7 +101,7 @@ def leer(ruta: Path) -> list[dict]:
         return list(csv.DictReader(archivo))
 
 
-def fila(r: dict, depurados: set[str]) -> dict:
+def fila(r: dict) -> dict:
     # Lo observado: la lluvia del satélite el día del evento (la hay en todas); la de la estación cuando existe.
     observado = numero(r.get("lluvia_satelite_dia_evento_mm"))
     pronostico = numero(r.get("lluvia_pronosticada_mismo_dia_mm"))
@@ -115,25 +117,16 @@ def fila(r: dict, depurados: set[str]) -> dict:
         "canton": r["canton"],
         "parroquia": r["parroquia"],
         "sector": r["sector"],
-        "latitud": r["latitud"],
-        "longitud": r["longitud"],
         "nivel_impacto_sngr": r["nivel_sngr"],
         "categoria_evento": r["tipo_inundacion"],
-        "afectacion_verificada": r["afectacion_verificada"],
         "personas_afectadas": r["personas_afectadas"],
-        "viviendas_afectadas": r["viviendas_afectadas"],
-        "depurado": "sí" if r["id"] in depurados else "no",
         "observado_satelite_mm": r.get("lluvia_satelite_dia_evento_mm", ""),
         "observado_satelite_max_5km_mm": r.get("lluvia_satelite_dia_evento_max_5km_mm", ""),
-        "observado_estacion_mm": r.get("estacion_lluvia_medida_dia_evento_mm", ""),
-        "estacion_inamhi": r.get("estacion_inamhi", ""),
-        "estacion_distancia_km": r.get("estacion_inamhi_distancia_km", ""),
         "pronostico_mismo_dia_mm": r.get("lluvia_pronosticada_mismo_dia_mm", ""),
         "pronostico_1_dia_antes_mm": r.get("lluvia_pronosticada_1_dia_antes_mm", ""),
         "pronostico_2_dias_antes_mm": r.get("lluvia_pronosticada_2_dias_antes_mm", ""),
-        "pronostico_max_5km_mm": r.get("lluvia_pronosticada_mismo_dia_max_5km_mm", ""),
-        "diferencia_mm": texto(pronostico - observado) if ambos else "",
-        "relacion_pronostico_observado": texto(pronostico / observado, 2) if ambos and observado and observado > 0 else "",
+        "diferencia_pronostico_menos_observado_mm": texto(pronostico - observado) if ambos else "",
+        "pronostico_dividido_observado": texto(pronostico / observado, 2) if ambos and observado and observado > 0 else "",
         "categoria_lluvia_observada": cat_obs or "",
         "categoria_lluvia_pronosticada": cat_pron or "",
         "acierta_categoria": ("sí" if cat_obs == cat_pron else "no") if ambos else "",
@@ -194,10 +187,12 @@ def escribir_resumen(todas: list[dict], depuradas: list[dict]) -> None:
         "`precision_pronostico.csv` (todas) y `precision_pronostico_depurados.csv` (selección depurada).",
         "",
         "- **Observado:** lluvia del satélite PERSIANN el día del evento (07:00 a 07:00, hora de Ecuador), en el lugar.",
-        "  Cuando hay una estación del INAMHI a menos de 25 km, la columna `observado_estacion_mm` trae lo que midió.",
         "- **Pronosticado:** lluvia diaria del WRF (visor oficial del INAMHI) hecha el mismo día, en el lugar. Su día va",
         "  de 02:00 a 02:00, 5 h antes que el del satélite.",
-        "- **Sesgo:** pronosticado − observado, en promedio (positivo = el pronóstico se pasa; negativo = se queda corto).",
+        "- **Diferencia** (`diferencia_pronostico_menos_observado_mm`): pronóstico del mismo día − observado. **Sesgo:** su promedio",
+        "  (positivo = el pronóstico se pasa; negativo = se queda corto).",
+        "- **Pronosticado / observado** (`pronostico_dividido_observado`): pronóstico del mismo día ÷ observado. 1 = exacto;",
+        "  0,5 = pronosticó la mitad; 2 = el doble. En el resumen: total pronosticado ÷ total observado.",
         "- **Categoría:** la de lluvia en 24 h del documento de la SNGR (Mínima, Ligera, Moderada, Fuerte, Intensa,",
         "  Torrencial, Extrema). **Alerta moderada o más:** el pronóstico llegaba a 10 mm o más (lo que dispararía una alerta).",
         "",
@@ -229,8 +224,8 @@ def escribir_resumen(todas: list[dict], depuradas: list[dict]) -> None:
 def main() -> None:
     inundaciones = leer(INUNDACIONES)
     depurados = {r["id"] for r in leer(DEPURADOS)}
-    filas = sorted((fila(r, depurados) for r in inundaciones), key=lambda f: (f["fecha"], f["hora"]), reverse=True)
-    depuradas = [f for f in filas if f["depurado"] == "sí"]
+    filas = sorted((fila(r) for r in inundaciones), key=lambda f: (f["fecha"], f["hora"]), reverse=True)
+    depuradas = [f for f in filas if f["id"] in depurados]
     escribir(TABLA, filas)
     escribir(TABLA_DEPURADOS, depuradas)
     escribir_resumen(filas, depuradas)

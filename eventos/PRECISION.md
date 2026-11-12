@@ -4,10 +4,12 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 `precision_pronostico.csv` (todas) y `precision_pronostico_depurados.csv` (selección depurada).
 
 - **Observado:** lluvia del satélite PERSIANN el día del evento (07:00 a 07:00, hora de Ecuador), en el lugar.
-  Cuando hay una estación del INAMHI a menos de 25 km, la columna `observado_estacion_mm` trae lo que midió.
 - **Pronosticado:** lluvia diaria del WRF (visor oficial del INAMHI) hecha el mismo día, en el lugar. Su día va
   de 02:00 a 02:00, 5 h antes que el del satélite.
-- **Sesgo:** pronosticado − observado, en promedio (positivo = el pronóstico se pasa; negativo = se queda corto).
+- **Diferencia** (`diferencia_pronostico_menos_observado_mm`): pronóstico del mismo día − observado. **Sesgo:** su promedio
+  (positivo = el pronóstico se pasa; negativo = se queda corto).
+- **Pronosticado / observado** (`pronostico_dividido_observado`): pronóstico del mismo día ÷ observado. 1 = exacto;
+  0,5 = pronosticó la mitad; 2 = el doble. En el resumen: total pronosticado ÷ total observado.
 - **Categoría:** la de lluvia en 24 h del documento de la SNGR (Mínima, Ligera, Moderada, Fuerte, Intensa,
   Torrencial, Extrema). **Alerta moderada o más:** el pronóstico llegaba a 10 mm o más (lo que dispararía una alerta).
 
