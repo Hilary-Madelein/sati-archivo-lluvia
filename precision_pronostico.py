@@ -56,7 +56,7 @@ REGIONES = {
 COLUMNAS = [
     "id", "fecha", "hora", "region", "provincia", "canton", "parroquia", "sector",
     "nivel_impacto_sngr", "categoria_evento",
-    "observado_satelite_mm", "observado_satelite_max_5km_mm",
+    "observado_satelite_mm",
     "pronostico_mismo_dia_mm", "pronostico_1_dia_antes_mm", "pronostico_2_dias_antes_mm",
     # pronóstico del mismo día − observado por el satélite (positivo: se pasó; negativo: se quedó corto)
     "diferencia_pronostico_menos_observado_mm",
@@ -118,7 +118,6 @@ def fila(r: dict) -> dict:
         "nivel_impacto_sngr": r["nivel_sngr"],
         "categoria_evento": r["tipo_inundacion"],
         "observado_satelite_mm": r.get("lluvia_satelite_dia_evento_mm", ""),
-        "observado_satelite_max_5km_mm": r.get("lluvia_satelite_dia_evento_max_5km_mm", ""),
         "pronostico_mismo_dia_mm": r.get("lluvia_pronosticada_mismo_dia_mm", ""),
         "pronostico_1_dia_antes_mm": r.get("lluvia_pronosticada_1_dia_antes_mm", ""),
         "pronostico_2_dias_antes_mm": r.get("lluvia_pronosticada_2_dias_antes_mm", ""),
