@@ -57,6 +57,12 @@ Se guarda en `eventos/`. **Qué significa cada dato:** [`eventos/GUIA.md`](event
   JSON), junto con `afectacion_verificada` (si la SNGR registró daño en personas,
   viviendas, cultivos o servicios). Los criterios están al inicio de
   `cruzar_eventos.py` (`DEPURACION_…`) y el RESUMEN muestra cuántas quedan en cada paso.
+- **`precision_pronostico.csv`** y **`precision_pronostico_depurados.csv`**: una fila por inundación (todas, o solo
+  las depuradas) para medir **la precisión del pronóstico**: lluvia observada (satélite y, si hay, estación), lluvia
+  pronosticada por el WRF (mismo día, 1 y 2 días antes), diferencia, categoría de lluvia observada y pronosticada,
+  nivel de impacto de la SNGR, región, provincia, cantón, parroquia y categoría del evento. **`PRECISION.md`**
+  resume cuánto acierta, en total y por región, nivel de impacto y categoría. Lo arma `precision_pronostico.py`
+  después de cada cruce, así que se actualiza solo.
 - **`descartados.csv`**: las que nunca tendrán los dos datos (p. ej. anteriores a
   2025, sin lluvia por satélite), con el motivo.
 

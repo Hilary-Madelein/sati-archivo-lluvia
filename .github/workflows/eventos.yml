@@ -97,6 +97,11 @@ jobs:
           [ -n "$HASTA" ] && args+=(--hasta "$HASTA")
           python cruzar_eventos.py "${args[@]}"
 
+      # Tabla de precisión del pronóstico (observado vs. pronosticado por evento): se rehace con lo cruzado.
+      - name: Precisión del pronóstico
+        if: always()
+        run: python precision_pronostico.py
+
       # Aunque se corte a medias, se guarda lo avanzado (la siguiente ejecución sigue).
       - name: Guardar los eventos
         if: always()
