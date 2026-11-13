@@ -1,0 +1,103 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "a18eb04a55e9da2c0f5aa5dd6d637395",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-12",
+    "hora": "21:50",
+    "provincia": "Los Ríos",
+    "canton": "Ventanas",
+    "parroquia": "Chacarita",
+    "sector": "RCTO LA INDUSTRIA, ESTERO LAS TRANCAS.",
+    "latitud": -1.8087028812274892,
+    "longitud": -79.51513382455462,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a la lluvia intensa que hubo en la noche, se reportó el desbordamiento del estero Las Trancas, ingresando a varias viviendas y afectando a las familias del recinto. Se evidencian viviendas con presencia de agua y lodo; las familias se mantienen en las viviendas.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Satélite: 121,0 mm el día del evento en el lugar (hasta 124,0 mm a menos de 5 km) y 83,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 0,0 mm (2 días antes), 85,8 mm (el mismo día).",
+  "lluvia_satelite": {
+    "que_es": "Lluvia que cayó según el satélite PERSIANN (servidor del INAMHI), en milímetros. 'dia_del_evento' va de las 07:00 a las 07:00 del día siguiente (hora de Ecuador). 'antes_del_evento' es la lluvia de la última hora, 3, 6 y 24 horas hasta la hora del evento (sumando el satélite hora por hora). 'en_el_lugar' es la celda (~4 km) donde ocurrió el evento; 'maxima_a_menos_de_5km', la celda más lluviosa alrededor. El satélite suele quedarse corto en aguaceros fuertes y cortos.",
+    "dia_del_evento": {
+      "desde": "2026-11-12 07:00",
+      "hasta": "2026-11-13 07:00",
+      "en_el_lugar_mm": 121.0,
+      "maxima_a_menos_de_5km_mm": 124.0
+    },
+    "antes_del_evento": {
+      "ultimas_1_h": {
+        "desde": "2026-11-12 21:00",
+        "hasta": "2026-11-12 22:00",
+        "en_el_lugar_mm": 9.0,
+        "maxima_a_menos_de_5km_mm": 9.0
+      },
+      "ultimas_3_h": {
+        "desde": "2026-11-12 19:00",
+        "hasta": "2026-11-12 22:00",
+        "en_el_lugar_mm": 30.0,
+        "maxima_a_menos_de_5km_mm": 33.0
+      },
+      "ultimas_6_h": {
+        "desde": "2026-11-12 16:00",
+        "hasta": "2026-11-12 22:00",
+        "en_el_lugar_mm": 32.0,
+        "maxima_a_menos_de_5km_mm": 34.0
+      },
+      "ultimas_24_h": {
+        "desde": "2026-11-11 22:00",
+        "hasta": "2026-11-12 22:00",
+        "en_el_lugar_mm": 83.0,
+        "maxima_a_menos_de_5km_mm": 83.0
+      }
+    }
+  },
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-12 02:00",
+      "hasta": "2026-11-13 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-12 02:00",
+      "en_el_lugar_mm": 85.8,
+      "maxima_a_menos_de_5km_mm": 93.0
+    },
+    "hecho_2_dias_antes": {
+      "corrida_del_modelo": "2026-11-10 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 0.0
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-07 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-13T20:50:31.000Z",
+    "estado": "espera"
+  }
+}

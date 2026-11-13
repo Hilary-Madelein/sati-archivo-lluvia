@@ -1,0 +1,70 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "0ba2c39abaafbf66eec7ca2bd200458b",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-13",
+    "hora": "08:52",
+    "provincia": "Los Ríos",
+    "canton": "Vinces",
+    "parroquia": "Vinces",
+    "sector": "VÍA JUNQUILLO , LA ROMERO",
+    "latitud": -1.565351,
+    "longitud": -79.731045,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en horas de la madrugada 13/11/2026, se reportó acumulación de aguas lluvias con ingreso a varias viviendas. UGR Vinces realizó verificación de novedades en el sitio; SNGR realizó consolidación de información, por lo que nos mantenemos a la espera del requerimiento de la creación de EVIN digital.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 5,5 mm (1 día antes), 4,3 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-13 02:00",
+      "hasta": "2026-11-14 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-13 02:00",
+      "en_el_lugar_mm": 4.3,
+      "maxima_a_menos_de_5km_mm": 18.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-12 02:00",
+      "en_el_lugar_mm": 5.5,
+      "maxima_a_menos_de_5km_mm": 18.1
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-07 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-13T20:49:49.000Z",
+    "estado": "espera"
+  }
+}

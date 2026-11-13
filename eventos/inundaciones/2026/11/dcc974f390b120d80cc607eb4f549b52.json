@@ -14,7 +14,7 @@
     "longitud": -79.548702,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "A causa de las lluvias registradas el 02/11/2026 se reportó inundaciones en varios recintos. GAD Cantonal en conjunto con Cuerpo de Bomberos Jujan informaron que actualmente el Río Amarillo se encuentra desbordado, ocasionando inundaciones en viviendas y avenidas.",
+    "descripcion": "A causa de las lluvias registradas el 02/11/2026 se reportó inundaciones en varios recintos. GAD Cantonal en conjunto con cuerpo de bomberos Jujan que el río Amarillo se encuentra en su estado normal.",
     "personas_afectadas": 0,
     "viviendas_afectadas": 0,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Desborde de río",
-    "codigo": "river_flood",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
     "afectacion_verificada": false
   },
   "resumen": "Satélite: 100,0 mm el día del evento en el lugar (hasta 112,0 mm a menos de 5 km) y 100,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 27,5 mm (2 días antes), 67,4 mm (1 día antes), 95,7 mm (el mismo día). Estación San Pablo en Palmar (a 14,2 km): el WRF pronosticaba ahí 101,5 mm (2 días antes), 158,3 mm (1 día antes), 50,8 mm (el mismo día). Río: 23,3 m³/s, 15,2 veces su caudal normal, bajando; no llegó a la crecida de 2 años (45,5 m³/s).",

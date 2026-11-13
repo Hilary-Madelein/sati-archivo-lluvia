@@ -14,14 +14,14 @@
     "longitud": -79.231709,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias registradas, se reportó el desbordamiento del río Sábalo, que provocó la anegación y el ingreso de agua a varias viviendas, generando afectaciones a los inmuebles. GAD Cantonal Puerto Quito realiza el levantamiento de información para la coordinación y entrega de asistencia humanitaria a las familias afectadas, en articulación con la SNGR.",
-    "personas_afectadas": 0,
-    "viviendas_afectadas": 0,
+    "descripcion": "Debido a las lluvias registradas, se reportó el desbordamiento del río Sábalo, que provocó la anegación y el ingreso de agua a varias viviendas, generando afectaciones a los inmuebles. GAD Cantonal de Puerto Quito: Realizó el levantamiento de información de las familias afectadas y coordinó con la SNGR la entrega de asistencia humanitaria correspondiente. El 20/10/2026 realizó la entrega de (7) bonos de contingencia.",
+    "personas_afectadas": 40,
+    "viviendas_afectadas": 10,
     "personas_evacuadas": 0,
     "personas_fallecidas": 0,
     "personas_damnificadas": 0,
     "personas_extraviadas": 0,
-    "familias_afectadas": 0,
+    "familias_afectadas": 10,
     "viviendas_destruidas": 0,
     "puentes_afectados": 0,
     "puentes_destruidos": 0,
@@ -34,7 +34,7 @@
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
     "tipo": "Desborde de río",
     "codigo": "river_flood",
-    "afectacion_verificada": false
+    "afectacion_verificada": true
   },
   "resumen": "Satélite: 107,0 mm el día del evento en el lugar (hasta 107,0 mm a menos de 5 km) y 120,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 4,3 mm (2 días antes), 18,2 mm (1 día antes), 28,6 mm (el mismo día). Estación San Marcos - La Celica (a 23,3 km): el WRF pronosticaba ahí 18,3 mm (2 días antes), 37,9 mm (1 día antes), 57,0 mm (el mismo día); midió 39,4 mm ese día. Río: 7,4 m³/s, 6,7 veces su caudal normal, bajando; no llegó a la crecida de 2 años (35,3 m³/s).",
   "lluvia_satelite": {

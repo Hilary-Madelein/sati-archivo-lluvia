@@ -14,7 +14,7 @@
     "longitud": -80.84124948574768,
     "nivel": 1,
     "estado": "Seguimiento",
-    "descripcion": "Debido a las lluvias registradas el 01/11/2026, se produjo el incremento de nivel del río Ayampe, el cual presenta crecimiento, el cual ha causado que varias comunidades estén incomunicadas. Al momento no hay presencia de lluvias en el sector. El nivel del río está normal. Se procede a actualizar las cifras mediante Evin Digital una vez validadas por UPREA SNGR y UGR GAD Cantonal. Las familias permanecen en sus viviendas.",
+    "descripcion": "Debido a las lluvias registradas el 01/11/2026, se produjo el incremento de nivel del río Ayampe, el cual presenta crecimiento, el cual ha causado que varias comunidades estén incomunicadas. No hay presencia de lluvias en el sector. El nivel del río Ayampe está en su caudal normal. Se procede a actualizar las cifras mediante Evin Digital una vez validadas por UPREA SNGR y UGR GAD Cantonal. Las familias permanecen en sus viviendas.",
     "personas_afectadas": 100,
     "viviendas_afectadas": 30,
     "personas_evacuadas": 0,
@@ -32,8 +32,8 @@
   },
   "clasificacion": {
     "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
-    "tipo": "Lluvia intensa (anegamiento)",
-    "codigo": "rain_flood",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
     "afectacion_verificada": true
   },
   "resumen": "Satélite: 12,0 mm el día del evento en el lugar (hasta 16,0 mm a menos de 5 km) y 11,0 mm en las 24 h antes del evento. Pronóstico WRF para ese día: 8,6 mm (2 días antes), 1,0 mm (1 día antes), 0,8 mm (el mismo día). Río: 7,7 m³/s, 85,6 veces su caudal normal, bajando; no llegó a la crecida de 2 años (43,1 m³/s).",

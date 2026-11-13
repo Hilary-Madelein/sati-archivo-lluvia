@@ -15,15 +15,15 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Todas las inundaciones | 1963 | 33.9 | 19.6 | -14.3 | 29.2 | 27 % | 46 % |
-| Selección depurada | 42 | 61.0 | 23.8 | -37.2 | 48.3 | 5 % | 45 % |
+| Todas las inundaciones | 2028 | 33.6 | 19.8 | -13.8 | 29.2 | 26 % | 47 % |
+| Selección depurada | 43 | 61.9 | 24.3 | -37.6 | 48.5 | 5 % | 49 % |
 
 ## Por región
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Costa | 1487 | 36.3 | 19.0 | -17.3 | 30.6 | 26 % | 45 % |
-| Sierra | 350 | 25.7 | 25.3 | -0.3 | 24.2 | 30 % | 57 % |
+| Costa | 1549 | 35.8 | 19.2 | -16.6 | 30.5 | 26 % | 45 % |
+| Sierra | 353 | 25.6 | 25.4 | -0.3 | 24.2 | 29 % | 57 % |
 | Amazonía | 126 | 28.8 | 11.2 | -17.6 | 26.7 | 28 % | 33 % |
 | Insular | 0 | | | | | | |
 
@@ -31,16 +31,16 @@ Se rehace en cada cruce de eventos (`precision_pronostico.py`). Tabla por evento
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Nivel 1 | 1724 | 33.7 | 19.7 | -14.0 | 28.6 | 27 % | 47 % |
-| Nivel 2 | 215 | 34.9 | 18.5 | -16.4 | 32.9 | 25 % | 42 % |
-| Nivel 3 | 23 | 39.5 | 18.9 | -20.6 | 34.3 | 35 % | 35 % |
+| Nivel 1 | 1787 | 33.3 | 19.9 | -13.4 | 28.6 | 27 % | 47 % |
+| Nivel 2 | 216 | 35.1 | 18.4 | -16.7 | 33.0 | 25 % | 42 % |
+| Nivel 3 | 24 | 43.8 | 19.5 | -24.2 | 37.4 | 33 % | 38 % |
 | Nivel 4 | 1 | 0.0 | 38.3 | +38.3 | 38.3 | 0 % | 100 % |
 
 ## Por categoría del evento
 
 | Grupo | Eventos | Observado prom. (mm) | Pronosticado prom. (mm) | Sesgo (mm) | Error absoluto prom. (mm) | Acierta categoría | Pronóstico de alerta moderada o más |
 |---|---|---|---|---|---|---|---|
-| Colapso de drenaje | 238 | 28.5 | 21.3 | -7.2 | 26.4 | 26 % | 49 % |
-| Desborde de río | 584 | 38.1 | 22.1 | -16.0 | 32.3 | 25 % | 49 % |
-| Lluvia intensa (anegamiento) | 1138 | 32.9 | 18.0 | -14.9 | 28.1 | 27 % | 45 % |
+| Colapso de drenaje | 241 | 28.5 | 21.4 | -7.1 | 26.5 | 26 % | 49 % |
+| Desborde de río | 603 | 37.4 | 21.8 | -15.6 | 32.1 | 25 % | 48 % |
+| Lluvia intensa (anegamiento) | 1181 | 32.7 | 18.5 | -14.2 | 28.2 | 27 % | 45 % |
 | Oleaje o marea | 3 | 40.0 | 0.7 | -39.3 | 39.3 | 33 % | 0 % |

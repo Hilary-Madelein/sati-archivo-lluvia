@@ -1,0 +1,70 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "f7b962be4d2a1b522e5200e6ebb8e5e8",
+    "tipo": "Inundación",
+    "causa": "Lluvias intensas",
+    "fecha": "2026-11-13",
+    "hora": "09:28",
+    "provincia": "Los Ríos",
+    "canton": "Puebloviejo",
+    "parroquia": "Puebloviejo",
+    "sector": "6 DE OCTUBRE Y 24 DE MAYO, SECTOR LA PLAYITA",
+    "latitud": -1.551534,
+    "longitud": -79.535973,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "Debido a las fuertes lluvias suscitadas en horas de la madrugada 13/11/2026, se reportó acumulación de aguas lluvias con ingreso a varias viviendas. Jefa política en compañía de UGR de Puebloviejo realizaron verificación de novedades en la zona; UGR Puebloviejo solicita la creación de código EVIN digital; SNGR facilita código EVIN al GAP para levantamiento de información y nos mantenemos a la espera de reporte de afectaciones.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Lluvia intensa (anegamiento)",
+    "codigo": "rain_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 41,0 mm (1 día antes), 3,2 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-13 02:00",
+      "hasta": "2026-11-14 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-13 02:00",
+      "en_el_lugar_mm": 3.2,
+      "maxima_a_menos_de_5km_mm": 24.7
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-12 02:00",
+      "en_el_lugar_mm": 41.0,
+      "maxima_a_menos_de_5km_mm": 72.5
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-07 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-13T20:49:57.000Z",
+    "estado": "espera"
+  }
+}

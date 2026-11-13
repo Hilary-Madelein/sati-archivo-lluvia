@@ -36,7 +36,7 @@
     "codigo": "rain_flood",
     "afectacion_verificada": false
   },
-  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día).",
+  "resumen": "Pronóstico WRF para ese día: 0,0 mm (2 días antes), 0,0 mm (1 día antes), 0,0 mm (el mismo día). Río: 20,4 m³/s, 84,8 veces su caudal normal, subiendo; no llegó a la crecida de 2 años (84,8 m³/s).",
   "lluvia_satelite": null,
   "lluvia_pronosticada": {
     "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
@@ -61,15 +61,59 @@
     }
   },
   "lluvia_estacion_inamhi": null,
-  "caudal_del_rio": null,
+  "caudal_del_rio": {
+    "rio_geoglows": 670070969,
+    "que_es": "Caudal del río más cercano al evento según el modelo GEOGLOWS (simulación diaria), en m³/s. 'caudal_normal_del_mes' es la mediana de ese mes desde 1980 y 'caudal_percentil_75' el valor que el río supera solo el 25 % de los días (base de la metodología SAW). Los umbrales de crecida son los caudales que el río alcanza en promedio una vez cada 2, 5, 10… años: superar el de 2 años ya es una crecida (el de 10 años es el 'crítico' de SAW). 'tendencia' compara el día del evento con el anterior.",
+    "caudal_maximo_ese_dia_y_el_siguiente_m3s": 20.4,
+    "caudal_normal_del_mes_m3s": 0.2,
+    "veces_el_caudal_normal": 84.8,
+    "caudal_percentil_75_m3s": 4.4,
+    "tendencia": {
+      "caudal_dia_anterior_m3s": 15.3,
+      "cambio_porcentual": 31,
+      "sentido": "subiendo"
+    },
+    "umbrales_de_crecida_m3s": {
+      "cada_2_años": 84.8,
+      "cada_5_años": 151.1,
+      "cada_10_años": 194.9,
+      "cada_25_años": 250.3,
+      "cada_50_años": 291.4,
+      "cada_100_años": 332.2
+    },
+    "crecida_alcanzada_años": 0,
+    "caudal_pronosticado": {
+      "que_es": "Caudal máximo que pronosticaba GEOGLOWS para el día del evento y el siguiente, según el pronóstico hecho ese día, 1 y 2 días antes: promedio de los 51 ensambles, el ensamble más alto y la corrida de alta resolución. Sale de la API de GEOGLOWS o, si ya no la tiene, de su archivo en AWS (eventos de 2026).",
+      "hecho_el_mismo_dia": {
+        "corrida_del_modelo": "2026-11-03",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 50.2,
+        "maximo_del_ensamble_mas_alto_m3s": 113.4,
+        "maximo_alta_resolucion_m3s": 39.8
+      },
+      "hecho_1_dia_antes": {
+        "corrida_del_modelo": "2026-11-02",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 49.7,
+        "maximo_del_ensamble_mas_alto_m3s": 421.7,
+        "maximo_alta_resolucion_m3s": 88.3
+      },
+      "hecho_2_dias_antes": {
+        "corrida_del_modelo": "2026-11-01",
+        "fuente": "API de GEOGLOWS",
+        "maximo_promedio_de_ensambles_m3s": 36.8,
+        "maximo_del_ensamble_mas_alto_m3s": 190.0,
+        "maximo_alta_resolucion_m3s": 52.1
+      }
+    }
+  },
   "cruce": {
     "completo": false,
     "falta": [
-      "lluvia por satélite: aún no publicada",
-      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-03 y se actualiza ~1 vez al mes"
+      "lluvia por satélite: aún no publicada"
     ],
     "fallos": 0,
-    "procesado": "2026-11-09T23:24:12.000Z",
+    "procesado": "2026-11-13T21:00:40.000Z",
     "estado": "espera"
   }
 }

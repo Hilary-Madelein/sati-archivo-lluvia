@@ -1,0 +1,70 @@
+{
+  "version": 4,
+  "evento": {
+    "id": "cd2a084b036cf162e34262b8d7328926",
+    "tipo": "Inundación",
+    "causa": "Desbordamiento de cuerpos de agua",
+    "fecha": "2026-11-13",
+    "hora": "09:00",
+    "provincia": "Guayas",
+    "canton": "Palestina",
+    "parroquia": "Palestina",
+    "sector": "Varios sectores( Corona de Adentro, Manuel, Macul)",
+    "latitud": -1.71546594929021,
+    "longitud": -79.8806430929105,
+    "nivel": 1,
+    "estado": "Seguimiento",
+    "descripcion": "MAG reportó la destrucción de 26 hectáreas de cultivos de arroz con un total de $19.850 dólares. MAG realizó la inspección del evento.",
+    "personas_afectadas": 0,
+    "viviendas_afectadas": 0,
+    "personas_evacuadas": 0,
+    "personas_fallecidas": 0,
+    "personas_damnificadas": 0,
+    "personas_extraviadas": 0,
+    "familias_afectadas": 0,
+    "viviendas_destruidas": 0,
+    "puentes_afectados": 0,
+    "puentes_destruidos": 0,
+    "escuelas_afectadas": 0,
+    "centros_de_salud_afectados": 0,
+    "hectareas_cultivo_afectadas": 0,
+    "hectareas_cultivo_perdidas": 0
+  },
+  "clasificacion": {
+    "que_es": "Tipo de inundación según el relato de la SNGR (la misma regla que SATI.EC) y si la SNGR registró daño en personas, viviendas, cultivos o servicios.",
+    "tipo": "Desborde de río",
+    "codigo": "river_flood",
+    "afectacion_verificada": false
+  },
+  "resumen": "Pronóstico WRF para ese día: 11,8 mm (1 día antes), 0,0 mm (el mismo día).",
+  "lluvia_satelite": null,
+  "lluvia_pronosticada": {
+    "que_es": "Lluvia que el modelo WRF del INAMHI pronosticaba para el día del evento (la del visor oficial), en milímetros, según el pronóstico hecho ese mismo día, 1 y 2 días antes. Su día va de 02:00 a 02:00 (hora de Ecuador), 5 h antes que el del satélite.",
+    "periodo": {
+      "desde": "2026-11-13 02:00",
+      "hasta": "2026-11-14 02:00"
+    },
+    "hecho_el_mismo_dia": {
+      "corrida_del_modelo": "2026-11-13 02:00",
+      "en_el_lugar_mm": 0.0,
+      "maxima_a_menos_de_5km_mm": 2.0
+    },
+    "hecho_1_dia_antes": {
+      "corrida_del_modelo": "2026-11-12 02:00",
+      "en_el_lugar_mm": 11.8,
+      "maxima_a_menos_de_5km_mm": 12.8
+    }
+  },
+  "lluvia_estacion_inamhi": null,
+  "caudal_del_rio": null,
+  "cruce": {
+    "completo": false,
+    "falta": [
+      "lluvia por satélite: aún no publicada",
+      "caudal: la simulación de GEOGLOWS llega hasta el 2026-11-07 y se actualiza ~1 vez al mes"
+    ],
+    "fallos": 0,
+    "procesado": "2026-11-13T20:49:26.000Z",
+    "estado": "espera"
+  }
+}
